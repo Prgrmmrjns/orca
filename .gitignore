@@ -1,0 +1,16 @@
+.env
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+data/*.csv
+data/*.parquet
+logs/*.log
+logs/*.json
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+config/config.yaml

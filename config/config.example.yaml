@@ -1,0 +1,36 @@
+# Orca paper-trading config (copy to config.yaml — never commit secrets)
+mode: paper  # paper only for now; live trading is hard-disabled
+
+exchange:
+  id: kraken
+  # Public market data needs no keys. Keys only for future Query/Trade.
+  enableRateLimit: true
+
+# Liquid beginner-friendly pairs (high volume / tight spreads on Kraken)
+# Prefer BTC/USD or BTC/EUR; also ETH/USD, SOL/USD, XRP/USD
+pair: BTC/USD
+timeframe: 1d  # Kraken public OHLC returns max ~720 candles; 1d ≈ 2 years
+
+strategy:
+  name: sma_crossover
+  fast_period: 10
+  slow_period: 30
+  # Alternative: rsi — set name to "rsi" and tune below
+  rsi_period: 14
+  rsi_oversold: 30
+  rsi_overbought: 70
+
+portfolio:
+  initial_cash: 10000.0  # quote currency (USD or EUR matching pair)
+  fee_rate: 0.0026  # mid of Tier-1 maker/taker as conservative avg (~0.26%); Tier 1 is 0.40%/0.80%
+  # For stricter realism use taker: 0.008 (0.80%)
+  position_size: 0.95  # fraction of cash to deploy on buy signals
+  allow_short: false   # spot long-only
+
+backtest:
+  limit: 720  # max candles Kraken public OHLC returns
+  # since: null  # optional ms timestamp; omit to fetch most recent
+
+logging:
+  level: INFO
+  dir: logs
