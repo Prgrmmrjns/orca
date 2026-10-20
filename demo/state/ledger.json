@@ -1,0 +1,93 @@
+{
+  "mode": "paper",
+  "strategy_version": "v2.0",
+  "base_currency": "EUR",
+  "quote_currency": "USD",
+  "note": "Equity reported in EUR; trades in USD pairs, converted at Kraken EUR/USD.",
+  "start_date": "2026-10-20",
+  "start_capital_eur": 1000.0,
+  "eur_usd_start": 1.12231,
+  "cash_usd": 183.2355,
+  "positions": {
+    "XRP": {
+      "units": 113.95020314,
+      "avg_cost_usd": 1.302319
+    },
+    "SOL": {
+      "units": 1.53355123,
+      "avg_cost_usd": 104.77744
+    },
+    "ETH": {
+      "units": 0.08758591,
+      "avg_cost_usd": 2401.90936
+    },
+    "BTC": {
+      "units": 0.00513553,
+      "avg_cost_usd": 81709.1344
+    }
+  },
+  "fills": [
+    {
+      "time": "2026-10-20T13:17:32Z",
+      "side": "buy",
+      "pair": "XRP/USD",
+      "price": 1.29713,
+      "units": 113.95020314,
+      "notional_usd": 147.81,
+      "fee_usd": 0.5912,
+      "notional_eur": 131.7,
+      "eur_usd": 1.12231,
+      "reason": "v2 weekly rebalance. BTC gate {50: True, 100: True, 200: True}; target BTC 37%, ETH 19%, SOL 14%, XRP 13%, cash 17%."
+    },
+    {
+      "time": "2026-10-20T13:17:32Z",
+      "side": "buy",
+      "pair": "SOL/USD",
+      "price": 104.36,
+      "units": 1.53355123,
+      "notional_usd": 160.04,
+      "fee_usd": 0.6402,
+      "notional_eur": 142.6,
+      "eur_usd": 1.12231,
+      "reason": "v2 weekly rebalance. BTC gate {50: True, 100: True, 200: True}; target BTC 37%, ETH 19%, SOL 14%, XRP 13%, cash 17%."
+    },
+    {
+      "time": "2026-10-20T13:17:32Z",
+      "side": "buy",
+      "pair": "ETH/USD",
+      "price": 2392.34,
+      "units": 0.08758591,
+      "notional_usd": 209.54,
+      "fee_usd": 0.8381,
+      "notional_eur": 186.7,
+      "eur_usd": 1.12231,
+      "reason": "v2 weekly rebalance. BTC gate {50: True, 100: True, 200: True}; target BTC 37%, ETH 19%, SOL 14%, XRP 13%, cash 17%."
+    },
+    {
+      "time": "2026-10-20T13:17:32Z",
+      "side": "buy",
+      "pair": "BTC/USD",
+      "price": 81383.6,
+      "units": 0.00513553,
+      "notional_usd": 417.95,
+      "fee_usd": 1.6718,
+      "notional_eur": 372.4,
+      "eur_usd": 1.12231,
+      "reason": "v2 weekly rebalance. BTC gate {50: True, 100: True, 200: True}; target BTC 37%, ETH 19%, SOL 14%, XRP 13%, cash 17%."
+    }
+  ],
+  "last_rebalance": "2026-10-20",
+  "last_reason": "v2 weekly rebalance. BTC gate {50: True, 100: True, 200: True}; target BTC 37%, ETH 19%, SOL 14%, XRP 13%, cash 17%.",
+  "equity_history": [
+    {
+      "day": "2026-10-20",
+      "equity_eur": 996.71
+    }
+  ],
+  "last_target": {
+    "BTC": 0.3724,
+    "ETH": 0.1867,
+    "SOL": 0.1426,
+    "XRP": 0.1317
+  }
+}

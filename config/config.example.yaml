@@ -9,27 +9,99 @@ exchange:
 # Liquid beginner-friendly pairs (high volume / tight spreads on Kraken)
 # Prefer BTC/USD or BTC/EUR; also ETH/USD, SOL/USD, XRP/USD
 pair: BTC/USD
-timeframe: 1d  # Kraken public OHLC returns max ~720 candles; 1d ≈ 2 years
+timeframe: 1h  # reward model trains on hourly candles
+
+# The 47 USD pairs with hourly history and a median hour of at least $20k.
+pairs:
+  - AAVE/USD
+  - ADA/USD
+  - AERO/USD
+  - ALGO/USD
+  - APT/USD
+  - ARB/USD
+  - ASTER/USD
+  - AVAX/USD
+  - BCH/USD
+  - BNB/USD
+  - BONK/USD
+  - BTC/USD
+  - CRV/USD
+  - DASH/USD
+  - DOGE/USD
+  - DOT/USD
+  - ENA/USD
+  - ETH/USD
+  - FET/USD
+  - FIL/USD
+  - HBAR/USD
+  - ICP/USD
+  - INJ/USD
+  - JUP/USD
+  - LINK/USD
+  - LTC/USD
+  - MINA/USD
+  - NEAR/USD
+  - ONDO/USD
+  - PAXG/USD
+  - PENGU/USD
+  - PEPE/USD
+  - POL/USD
+  - PUMP/USD
+  - RAY/USD
+  - RENDER/USD
+  - SOL/USD
+  - SUI/USD
+  - TAO/USD
+  - TRUMP/USD
+  - TRX/USD
+  - UNI/USD
+  - WLD/USD
+  - XLM/USD
+  - XPL/USD
+  - XRP/USD
+  - ZEC/USD
+
+action:
+  reward_days: 5  # score keep/buy/sell by the balance change this many days ahead
+  test_days: 30    # backtest window: last month
+  max_positions: 8
+  min_hourly_quote_volume: 20000  # skip books whose median hour trades under this many USD
 
 strategy:
+  # Names: sma_crossover | rsi | rsi_mean_reversion | bollinger_mean_reversion | macd | dual_ma_volume
   name: sma_crossover
   fast_period: 10
   slow_period: 30
-  # Alternative: rsi — set name to "rsi" and tune below
+  # RSI mean-reversion
   rsi_period: 14
   rsi_oversold: 30
   rsi_overbought: 70
+  # Bollinger mean-reversion
+  bb_period: 20
+  bb_std: 2.0
+  bb_exit: mid  # mid | upper
+  # MACD
+  macd_fast: 12
+  macd_slow: 26
+  macd_signal: 9
+  # Dual MA + volume filter
+  volume_period: 20
 
 portfolio:
-  initial_cash: 10000.0  # quote currency (USD or EUR matching pair)
-  fee_rate: 0.0026  # mid of Tier-1 maker/taker as conservative avg (~0.26%); Tier 1 is 0.40%/0.80%
-  # For stricter realism use taker: 0.008 (0.80%)
+  initial_cash_eur: 1000  # starting budget; USD pairs are funded at the EUR/USD rate
+  # Kraken+ waives the 1% Instant commission on the first €10k of monthly volume.
+  # The spread is not published; 0.5% per side is the low end of measured Instant markups.
+  fee_rate: 0.01
+  spread_rate: 0.005
+  fee_free_volume_eur: 10000
+  subscription_eur: 4.99
   position_size: 0.95  # fraction of cash to deploy on buy signals
   allow_short: false   # spot long-only
 
 backtest:
   limit: 720  # max candles Kraken public OHLC returns
   # since: null  # optional ms timestamp; omit to fetch most recent
+  # use_cache: false
 
 logging:
   level: INFO
