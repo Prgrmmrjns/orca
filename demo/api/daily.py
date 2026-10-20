@@ -20,9 +20,9 @@ class handler(BaseHTTPRequestHandler):
             ledger = load_ledger()
             data["ledger"] = {
                 "start_date": ledger.get("start_date"),
-                "last_check": ledger.get("last_check"),
+                "last_rebalance": ledger.get("last_rebalance"),
                 "n_fills": len(ledger.get("fills") or []),
-                "holding": (ledger.get("holding") or {}).get("pair"),
+                "positions": sorted((ledger.get("positions") or {}).keys()),
             }
         except Exception as exc:
             data["ledger_error"] = str(exc)

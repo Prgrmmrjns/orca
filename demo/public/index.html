@@ -31,18 +31,13 @@
       <table><thead><tr><th>Day</th><th>Trade</th><th>Price</th></tr></thead><tbody id="fills"></tbody></table>
     </section>
     <section class="panel">
-      <h2>September backtest</h2>
-      <p id="bt"></p>
-      <table><thead><tr><th>Time</th><th>Trade</th><th>Price</th></tr></thead><tbody id="btfills"></tbody></table>
+      <h2>Positions</h2>
+      <table><thead><tr><th>Coin</th><th>Weight</th><th>Last</th><th>P&amp;L</th></tr></thead><tbody id="pos"></tbody></table>
     </section>
     <section class="panel">
-      <h2>Strategy from that test</h2>
-      <p id="how" class="muted"></p>
+      <h2 id="sname">Strategy</h2>
+      <p id="oos" class="muted"></p>
       <ul id="rule"></ul>
-    </section>
-    <section class="panel">
-      <h2>14-day trend</h2>
-      <table><thead><tr><th>Coin</th><th>14d</th><th>7d</th></tr></thead><tbody id="ranks"></tbody></table>
     </section>
     <section class="panel">
       <h2>News</h2>
@@ -73,28 +68,22 @@
         tr.innerHTML = "<td colspan='3'>No fill yet.</td>";
         fills.appendChild(tr);
       }
-      const b = data.backtest || {};
-      document.getElementById("bt").innerHTML = "<b class='up'>+" + b.return_pct + "% · €" + b.final_eur + "</b><div class='muted'>" + b.window + " · " + b.hours + " hours · " + b.trades + " trades · drawdown " + b.max_drawdown_pct + "% · spread $" + b.fees_usd + "</div>";
-      const bt = document.getElementById("btfills");
-      bt.replaceChildren();
-      for (const fill of b.fills || []) {
-        const tr = document.createElement("tr");
-        tr.innerHTML = "<td>" + fill.time + "</td><td>" + fill.side + " " + fill.pair.replace("/USD", "") + "</td><td>$" + fill.price + "</td>";
-        bt.appendChild(tr);
-      }
-      document.getElementById("how").textContent = b.how || "";
+      const st = data.strategy || {};
+      document.getElementById("sname").textContent = st.name || "Strategy";
+      document.getElementById("oos").textContent = st.oos || "";
       const rule = document.getElementById("rule");
       rule.replaceChildren();
-      for (const line of b.rule || []) {
+      for (const line of st.rules || []) {
         const li = document.createElement("li");
         li.textContent = line;
         rule.appendChild(li);
       }
-      const body = document.getElementById("ranks");
+      const body = document.getElementById("pos");
       body.replaceChildren();
-      for (const row of data.ranks || []) {
+      for (const row of data.positions || []) {
         const tr = document.createElement("tr");
-        tr.innerHTML = "<td>" + row.pair.replace("/USD", "") + "</td><td class='" + (row.ret_14d >= 0 ? "up" : "down") + "'>" + pct(row.ret_14d) + "</td><td class='" + (row.ret_7d >= 0 ? "up" : "down") + "'>" + pct(row.ret_7d) + "</td>";
+        const pl = (row.pnl_pct || 0) / 100;
+        tr.innerHTML = "<td>" + row.pair.replace("/USD", "") + "</td><td>" + (row.weight * 100).toFixed(1) + "%</td><td>$" + row.last + "</td><td class='" + (pl >= 0 ? "up" : "down") + "'>" + pct(pl) + "</td>";
         body.appendChild(tr);
       }
       const news = document.getElementById("news");
