@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Orca</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #06111c;
+      --card: rgba(12, 32, 52, 0.9);
+      --line: #1d4e73;
+      --text: #e7f4ff;
+      --muted: #8eb4cc;
+      --ice: #7fd4ff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      color: var(--text);
+      font: 13px/1.35 ui-sans-serif, system-ui, sans-serif;
+      background:
+        radial-gradient(720px 280px at 8% -20%, rgba(58, 160, 255, 0.28), transparent 60%),
+        var(--bg);
+    }
+    main { max-width: 980px; margin: 0 auto; padding: 16px 14px 28px; }
+    header { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+    .mark { width: 28px; height: 28px; flex: none; }
+    h1 { font-family: Palatino, Georgia, serif; font-weight: 500; font-size: 22px; margin: 0; }
+    .sub { color: var(--muted); margin: 0; font-size: 12px; }
+    .live { margin-left: auto; display: flex; align-items: center; gap: 6px; color: var(--ice); font-size: 12px; }
+    .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--ice); box-shadow: 0 0 8px var(--ice); animation: pulse 1.6s ease-in-out infinite; }
+    .dot.off { background: var(--muted); box-shadow: none; animation: none; }
+    @keyframes pulse { 50% { opacity: 0.35; } }
+    .strip {
+      display: flex; gap: 16px; align-items: baseline; flex-wrap: wrap;
+      background: var(--card); border: 1px solid var(--line); border-radius: 12px;
+      padding: 8px 12px; margin-bottom: 10px;
+    }
+    .strip b { font-size: 20px; font-variant-numeric: tabular-nums; font-weight: 560; }
+    .up { color: var(--ice); }
+    .down { color: #ff8d86; }
+    .muted { color: var(--muted); }
+    .panel {
+      background: var(--card); border: 1px solid var(--line); border-radius: 12px;
+      padding: 10px 12px; margin-bottom: 10px;
+    }
+    h2 { font-size: 13px; font-weight: 600; margin: 0 0 8px; color: var(--ice); }
+    canvas { width: 100% !important; height: 240px !important; cursor: crosshair; }
+    table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+    th, td { text-align: left; padding: 4px 6px; border-bottom: 1px solid rgba(29, 78, 115, 0.65); vertical-align: top; }
+    th { color: var(--muted); font-weight: 500; font-size: 11px; }
+    tr.pick { cursor: pointer; }
+    tr.on { background: rgba(127, 212, 255, 0.08); }
+    .detail { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 12px; }
+    .reasoning { margin: 0 0 8px; }
+    .k { color: var(--muted); font-size: 11px; letter-spacing: 0.04em; text-transform: uppercase; margin: 8px 0 4px; }
+    .bars { display: grid; grid-template-columns: 1fr 1fr; gap: 4px 16px; }
+    .row { display: grid; grid-template-columns: 64px 1fr 48px; gap: 6px; align-items: center; font-size: 12px; }
+    .track { height: 6px; background: #071827; border-radius: 99px; overflow: hidden; }
+    .fill { height: 100%; background: var(--ice); border-radius: 99px; }
+    .scroll { max-height: 220px; overflow: auto; }
+    @media (max-width: 800px) {
+      .detail, .bars { grid-template-columns: 1fr; }
+      canvas { height: 200px !important; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <svg class="mark" viewBox="0 0 64 64" aria-hidden="true">
+        <ellipse cx="32" cy="34" rx="22" ry="12" fill="#12304a" stroke="#7fd4ff" stroke-width="2"/>
+        <circle cx="42" cy="32" r="1.6" fill="#e7f4ff"/>
+        <path d="M12 36c-6 2-8 8-4 10 4-2 8-4 10-8" fill="#7fd4ff"/>
+      </svg>
+      <div>
+        <h1>Orca</h1>
+        <p class="sub" id="sub"></p>
+      </div>
+      <div class="live"><span class="dot" id="dot"></span><span id="livelabel">Live</span></div>
+    </header>
+    <div class="strip" id="strip"></div>
+    <section class="panel">
+      <h2>Equity</h2>
+      <canvas id="chart"></canvas>
+    </section>
+    <section class="panel" id="detail">
+      <h2 id="dtitle">Decision</h2>
+      <div class="detail">
+        <div>
+          <p class="reasoning" id="reasoning"></p>
+          <div class="k">Book</div>
+          <div id="book"></div>
+          <div class="k" id="orderslabel">Resting orders</div>
+          <div id="orders"></div>
+        </div>
+        <div id="sidepanel">
+          <div class="k">ML</div>
+          <div class="scroll"><table><tbody id="ml"></tbody></table></div>
+          <div class="k">Headlines</div>
+          <div class="scroll" id="heads"></div>
+        </div>
+      </div>
+    </section>
+    <section class="panel">
+      <h2 id="rowtitle">Decisions</h2>
+      <div class="scroll">
+        <table>
+          <thead><tr><th>Time</th><th id="colbook">Book</th><th id="coltail">Equity</th></tr></thead>
+          <tbody id="rows"></tbody>
+        </table>
+      </div>
+    </section>
+    <section class="panel">
+      <h2>What the month did</h2>
+      <div class="bars" id="bars"></div>
+    </section>
+  </main>
+  <script>
+    let chart = null;
+    let stamp = "";
+    let pinned = null;
+    let last = null;
+
+    function money(n) { return "€" + Number(n).toLocaleString("en-IE", { maximumFractionDigits: 0 }); }
+    function pct(n) {
+      const sign = n >= 0 ? "+" : "−";
+      const body = Math.abs(n) >= 100 ? Math.abs(n).toFixed(0) : Math.abs(n).toFixed(1);
+      return sign + body + "%";
+    }
+    function coin(pair) { return String(pair || "").replace("/USD", ""); }
+    function bookText(weights) {
+      const parts = Object.entries(weights || {}).sort((a, b) => b[1] - a[1]).map(([k, v]) => coin(k) + " " + Math.round(v * 100) + "%");
+      return parts.length ? parts.join(" · ") : "cash";
+    }
+    function decisionAt(data, label) {
+      let chosen = null;
+      for (const row of data.decisions || []) {
+        if (row.timestamp <= label) chosen = row;
+        else break;
+      }
+      return chosen || (data.decisions || []).slice(-1)[0] || null;
+    }
+    function signature(data) {
+      const tail = (data.decisions || []).slice(-1)[0];
+      return [data.status, data.hours_done, data.final_eur, (data.decisions || []).length, data.n_trades, tail && tail.timestamp].join("|");
+    }
+
+    function show(data, row) {
+      const title = document.getElementById("dtitle");
+      const reasoning = document.getElementById("reasoning");
+      const book = document.getElementById("book");
+      const orders = document.getElementById("orders");
+      const ml = document.getElementById("ml");
+      const heads = document.getElementById("heads");
+      if (!row) {
+        title.textContent = "Decision";
+        reasoning.textContent = "Waiting for the first day.";
+        book.textContent = "";
+        orders.textContent = "";
+        ml.replaceChildren();
+        heads.textContent = "";
+        return;
+      }
+      title.textContent = row.timestamp;
+      if (row.side) {
+        reasoning.textContent = row.reason || data.rule || "";
+        book.textContent = row.side + " " + coin(row.pair) + " at $" + row.price;
+        orders.textContent = "";
+        document.getElementById("orderslabel").hidden = true;
+        document.getElementById("sidepanel").hidden = true;
+        ml.replaceChildren();
+        heads.textContent = "";
+        document.querySelectorAll("#rows tr").forEach((tr) => {
+          tr.classList.toggle("on", tr.dataset.ts === row.timestamp && tr.dataset.side === row.side);
+        });
+        return;
+      }
+      document.getElementById("sidepanel").hidden = false;
+      reasoning.textContent = row.reasoning || row.reason || "";
+      book.textContent = bookText(row.weights) + (row.equity_eur != null ? " · " + money(row.equity_eur) : "");
+      const orderBits = (row.orders || []).map((order) => {
+        const eur = data.eur_usd ? order.below / data.eur_usd : order.below;
+        const extra = order.side === "buy" && order.weight ? " " + Math.round(order.weight * 100) + "%" : "";
+        return order.side + " " + coin(order.pair) + extra + " ≤ $" + order.below + " (€" + eur.toFixed(2) + ")";
+      });
+      orders.textContent = orderBits.length ? orderBits.join(" · ") : "none";
+      ml.replaceChildren();
+      for (const item of row.ml || []) {
+        const tr = document.createElement("tr");
+        tr.innerHTML =
+          "<td>" + coin(item.pair) + (item.leader ? " ·" : "") + (item.held ? " held" : "") + "</td>" +
+          "<td>" + (item.ret_7d * 100).toFixed(1) + "% 7d</td>" +
+          "<td>rank " + Number(item.rank_7d).toFixed(2) + "</td>";
+        ml.appendChild(tr);
+      }
+      heads.replaceChildren();
+      const list = row.headlines || [];
+      if (!list.length) heads.textContent = "No coin headlines.";
+      for (const item of list) {
+        const p = document.createElement("div");
+        p.className = "muted";
+        p.textContent = item.published_at + " " + item.coins + " — " + (item.signal || item.title);
+        heads.appendChild(p);
+      }
+      document.querySelectorAll("#rows tr").forEach((tr) => {
+        tr.classList.toggle("on", tr.dataset.ts === row.timestamp);
+      });
+    }
+
+    function paint(data) {
+      last = data;
+      const running = data.status === "running";
+      document.getElementById("sub").textContent = data.test_start + " → " + data.test_end + " UTC";
+      document.getElementById("dot").classList.toggle("off", !running);
+      document.getElementById("livelabel").textContent = running ? "Live" : (data.status === "waiting" ? "Waiting" : "Settled");
+      document.getElementById("rowtitle").textContent = data.book === "trend" ? "Trades" : "Decisions";
+      document.getElementById("colbook").textContent = data.book === "trend" ? "Trade" : "Book";
+      document.getElementById("coltail").textContent = data.book === "trend" ? "Price" : "Equity";
+      document.getElementById("sidepanel").hidden = data.book === "trend";
+      document.getElementById("orderslabel").hidden = data.book === "trend";
+      const ret = data.return_pct;
+      const up = ret != null && ret >= 0;
+      const hours = data.hours_done != null ? data.hours_done + "/" + data.hours_total + "h" : "";
+      document.getElementById("strip").innerHTML =
+        '<span class="' + (ret == null ? "muted" : up ? "up" : "down") + '"><b>' + (ret == null ? "—" : pct(ret)) + "</b></span>" +
+        '<span class="muted">' + (data.final_eur == null ? "" : money(data.final_eur)) + "</span>" +
+        '<span class="muted">' + data.n_trades + " trades</span>" +
+        '<span class="muted">' + hours + "</span>";
+
+      if (!chart) {
+        chart = new Chart(document.getElementById("chart"), {
+          type: "line",
+          data: {
+            labels: data.timestamps,
+            datasets: [{
+              data: data.equity,
+              borderColor: "#7fd4ff",
+              borderWidth: 1.6,
+              pointRadius: (data.equity || []).length < 3 ? 3 : 0,
+              tension: 0.15,
+            }],
+          },
+          options: {
+            animation: false,
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: { legend: { display: false } },
+            onClick: (_evt, els) => {
+              if (!els.length || !last) return;
+              pinned = last.timestamps[els[0].index];
+              show(last, decisionAt(last, pinned));
+            },
+            scales: {
+              x: { ticks: { maxTicksLimit: 5, color: "#8eb4cc" }, grid: { color: "#1d4e73" } },
+              y: { ticks: { color: "#8eb4cc", callback: (v) => "€" + v }, grid: { color: "#1d4e73" } },
+            },
+          },
+        });
+      } else {
+        chart.data.labels = data.timestamps;
+        chart.data.datasets[0].data = data.equity;
+        chart.data.datasets[0].pointRadius = data.equity.length < 3 ? 3 : 0;
+        chart.update("none");
+      }
+
+      const body = document.getElementById("rows");
+      body.replaceChildren();
+      for (const row of (data.decisions || []).slice().reverse()) {
+        const tr = document.createElement("tr");
+        tr.className = "pick";
+        tr.dataset.ts = row.timestamp;
+        tr.dataset.side = row.side || "";
+        const what = row.side ? row.side + " " + coin(row.pair) : bookText(row.weights);
+        const tail = row.equity_eur != null ? money(row.equity_eur) : (row.price != null ? "$" + row.price : "");
+        tr.innerHTML = "<td>" + row.timestamp + "</td><td>" + what + "</td><td>" + tail + "</td>";
+        tr.onclick = () => {
+          pinned = row.timestamp;
+          show(data, row);
+        };
+        body.appendChild(tr);
+      }
+
+      const focus = pinned || (data.timestamps || []).slice(-1)[0];
+      show(data, focus ? decisionAt(data, focus) : null);
+
+      if (!document.getElementById("bars").childElementCount && (data.top10 || []).length) {
+        const maxAbs = Math.max(...data.top10.map((p) => Math.abs(p.return_pct)), 1);
+        const bars = document.getElementById("bars");
+        for (const pair of data.top10) {
+          const row = document.createElement("div");
+          row.className = "row";
+          const width = Math.max(2, Math.abs(pair.return_pct) / maxAbs * 100);
+          row.innerHTML =
+            "<div>" + coin(pair.pair) + "</div>" +
+            '<div class="track"><div class="fill" style="width:' + width + '%"></div></div>' +
+            "<div>" + (pair.return_pct >= 0 ? "+" : "") + pair.return_pct.toFixed(0) + "%</div>";
+          bars.appendChild(row);
+        }
+      }
+    }
+
+    async function tick() {
+      const data = await (await fetch("/api/backtest", { cache: "no-store" })).json();
+      const next = signature(data);
+      if (next !== stamp) {
+        stamp = next;
+        paint(data);
+      }
+    }
+    tick();
+    setInterval(tick, 4000);
+  </script>
+</body>
+</html>

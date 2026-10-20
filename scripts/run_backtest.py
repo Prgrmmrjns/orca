@@ -14,6 +14,7 @@ sys.path.insert(0, str(ROOT))
 from orca.backtest import run_backtest
 from orca.config import load_config
 from orca.logging_setup import setup_logging
+from orca.strategy import STRATEGY_NAMES
 
 
 def main() -> int:
@@ -24,7 +25,23 @@ def main() -> int:
         help="Path to config YAML (default: config/config.yaml or config.example.yaml)",
     )
     parser.add_argument("--pair", default=None, help="Override pair, e.g. BTC/USD or BTC/EUR")
-    parser.add_argument("--strategy", default=None, choices=["sma_crossover", "rsi"])
+    parser.add_argument(
+        "--strategy",
+        default=None,
+        choices=list(STRATEGY_NAMES),
+        help="Strategy name",
+    )
+    parser.add_argument(
+        "--fee",
+        type=float,
+        default=None,
+        help="Override fee_rate (e.g. 0.0026 or 0.008)",
+    )
+    parser.add_argument(
+        "--cache",
+        action="store_true",
+        help="Use cached CSV under data/ if present",
+    )
     args = parser.parse_args()
 
     cfg = load_config(args.config)
@@ -34,6 +51,10 @@ def main() -> int:
         cfg["pair"] = args.pair
     if args.strategy:
         cfg.setdefault("strategy", {})["name"] = args.strategy
+    if args.fee is not None:
+        cfg.setdefault("portfolio", {})["fee_rate"] = args.fee
+    if args.cache:
+        cfg.setdefault("backtest", {})["use_cache"] = True
 
     print(f"Mode: {cfg['mode']} | pair={cfg.get('pair')} | strategy={cfg.get('strategy', {}).get('name')}")
     print("Paper only — no live trades, no API keys required.\n")
@@ -47,7 +68,14 @@ def main() -> int:
     print(f"Initial cash: {summary['initial_cash']:.2f}")
     print(f"Final equity: {summary['final_equity']:.2f}")
     print(f"Return:       {summary['return_pct']:.2f}%")
+    print(f"Max drawdown: {summary['max_drawdown_pct']:.2f}%")
     print(f"Trades:       {summary['n_trades']}")
+    wr = summary.get("win_rate_pct")
+    print(f"Win rate:     {wr:.1f}%" if wr is not None else "Win rate:     n/a")
+    sh = summary.get("sharpe_like")
+    print(f"Sharpe~:      {sh:.3f}" if sh is not None else "Sharpe~:      n/a")
+    print(f"Buy & hold:   {summary['buy_hold_return_pct']:.2f}%")
+    print(f"Excess vs BH: {summary['excess_vs_buy_hold_pct']:.2f}%")
     print(f"Fees paid:    {summary['total_fees']:.2f}")
     print(f"OHLCV saved:  {result['ohlcv_path']}")
 

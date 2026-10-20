@@ -98,14 +98,35 @@ orca/
 ├── orca/
 │   ├── config.py         # load YAML + .env; reject non-paper mode
 │   ├── data.py           # ccxt Kraken OHLCV
-│   ├── strategy.py       # SMA crossover / RSI
+│   ├── strategy.py       # SMA, RSI, Bollinger, MACD, dual-MA+volume
+│   ├── news.py           # RSS news fetch/cache + daily features (no look-ahead)
+│   ├── news_strategy.py  # news-gated wrappers around rule strategies
+│   ├── metrics.py        # return, MDD, Sharpe~, win rate, vs B&H
 │   ├── portfolio.py      # paper fills + fees
 │   ├── backtest.py       # glue
+│   ├── multi_pair_trajectory.py  # joint BTC/SOL/XRP trajectory (sklearn)
 │   └── logging_setup.py
 ├── scripts/
-│   └── run_backtest.py
-├── data/                 # cached OHLCV CSVs (gitignored)
-└── logs/                 # orca.log, fills, equity (gitignored)
+│   ├── run_backtest.py
+│   ├── compare_strategies.py
+│   └── compare_news_strategies.py
+├── data/                 # cached OHLCV CSVs + data/news/ (gitignored)
+└── logs/                 # orca.log, fills, equity, compare reports (gitignored)
+```
+
+---
+
+## Multi-pair trajectory (paper)
+
+Joint short-horizon return trajectories for `BTC/USD`, `SOL/USD`, `XRP/USD`
+(shared lags + cross-asset features → `MultiOutputRegressor(Ridge)`), walk-forward,
+long/flat equal-split and relative allocation vs buy-and-hold. **No live trades;
+no TabPFN** in this path; fees ~0.26%.
+
+```bash
+cd /workspace/orca && source .venv/bin/activate
+python scripts/run_multi_pair_trajectory.py --cache   # or --refresh
+# writes logs/multi_pair_trajectory.md + .json
 ```
 
 ---
@@ -128,6 +149,27 @@ python scripts/run_backtest.py --pair BTC/EUR --strategy rsi
 Optional: `cp config/config.example.yaml config/config.yaml` and edit.
 
 Outputs: console summary, `data/BTC_USD_1d.csv`, `logs/last_fills.csv`, `logs/last_equity.csv`, `logs/last_backtest.json`.
+
+### Compare strategies
+
+```bash
+python scripts/compare_strategies.py
+# Stricter Tier-1 taker fee:
+python scripts/compare_strategies.py --fee 0.008
+```
+
+Writes `logs/strategy_compare.json` and `logs/strategy_compare.md` (ranking + caveats).
+
+### News-augmented compare (BTC/USD)
+
+```bash
+python scripts/compare_news_strategies.py
+python scripts/compare_news_strategies.py --refresh-news  # re-fetch RSS
+```
+
+Uses CoinDesk / CoinTelegraph / Decrypt / Google News RSS (monthly Google queries for history).
+Caches under `data/news/`. Writes `logs/news_augmented_compare.json` and `.md`.
+Paper only; no TabPFN; BTC/USD daily.
 
 ---
 

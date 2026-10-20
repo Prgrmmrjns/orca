@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Orca paper</title>
+  <style>
+    :root { color-scheme: dark; --bg: #06111c; --card: #0c2034; --line: #1d4e73; --text: #e7f4ff; --muted: #8eb4cc; --ice: #7fd4ff; }
+    * { box-sizing: border-box; }
+    body { margin: 0; color: var(--text); font: 14px/1.4 ui-sans-serif, system-ui, sans-serif; background: radial-gradient(700px 280px at 8% -20%, rgba(58,160,255,.28), transparent 60%), var(--bg); }
+    main { max-width: 880px; margin: 0 auto; padding: 20px 16px 40px; }
+    h1 { font-family: Palatino, Georgia, serif; font-weight: 500; font-size: 28px; margin: 0; }
+    .sub, .muted { color: var(--muted); }
+    .strip, .panel { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 12px 14px; margin-top: 12px; }
+    .strip b { font-size: 28px; color: var(--ice); }
+    h2 { font-size: 13px; color: var(--ice); margin: 0 0 8px; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { text-align: left; padding: 4px 6px; border-bottom: 1px solid rgba(29,78,115,.7); }
+    th { color: var(--muted); font-weight: 500; font-size: 12px; }
+    ul { margin: 8px 0 0; padding-left: 18px; }
+    .up { color: var(--ice); } .down { color: #ff8d86; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Orca</h1>
+    <p class="sub" id="sub">Kraken paper demo</p>
+    <section class="strip" id="strip">Loading the book…</section>
+    <section class="panel">
+      <h2>Paper trades</h2>
+      <table><thead><tr><th>Day</th><th>Trade</th><th>Price</th></tr></thead><tbody id="fills"></tbody></table>
+    </section>
+    <section class="panel">
+      <h2>September backtest</h2>
+      <p id="bt"></p>
+      <table><thead><tr><th>Time</th><th>Trade</th><th>Price</th></tr></thead><tbody id="btfills"></tbody></table>
+    </section>
+    <section class="panel">
+      <h2>Strategy from that test</h2>
+      <p id="how" class="muted"></p>
+      <ul id="rule"></ul>
+    </section>
+    <section class="panel">
+      <h2>14-day trend</h2>
+      <table><thead><tr><th>Coin</th><th>14d</th><th>7d</th></tr></thead><tbody id="ranks"></tbody></table>
+    </section>
+    <section class="panel">
+      <h2>News</h2>
+      <div id="news" class="muted"></div>
+    </section>
+  </main>
+  <script>
+    function pct(n) {
+      const v = n * 100;
+      return (v >= 0 ? "+" : "−") + Math.abs(v).toFixed(1) + "%";
+    }
+    async function load() {
+      const data = await (await fetch("/api/today", { cache: "no-store" })).json();
+      const d = data.decision || {};
+      const book = data.book || {};
+      const ret = book.return_pct || 0;
+      document.getElementById("sub").textContent = "Paper since " + data.since + " · " + data.as_of + " · no live orders";
+      document.getElementById("strip").innerHTML = "<b>" + (ret >= 0 ? "+" : "−") + Math.abs(ret).toFixed(1) + "% · €" + Math.round(book.equity_eur || 0).toLocaleString("en-IE") + "</b><div>" + (d.pair || "cash") + " · " + (d.reason || "") + "</div>";
+      const fills = document.getElementById("fills");
+      fills.replaceChildren();
+      for (const fill of data.fills || []) {
+        const tr = document.createElement("tr");
+        tr.innerHTML = "<td>" + fill.time + "</td><td>" + fill.side + " " + fill.pair.replace("/USD", "") + "</td><td>$" + fill.price + "</td>";
+        fills.appendChild(tr);
+      }
+      if (!(data.fills || []).length) {
+        const tr = document.createElement("tr");
+        tr.innerHTML = "<td colspan='3'>No fill yet.</td>";
+        fills.appendChild(tr);
+      }
+      const b = data.backtest || {};
+      document.getElementById("bt").innerHTML = "<b class='up'>+" + b.return_pct + "% · €" + b.final_eur + "</b><div class='muted'>" + b.window + " · " + b.hours + " hours · " + b.trades + " trades · drawdown " + b.max_drawdown_pct + "% · spread $" + b.fees_usd + "</div>";
+      const bt = document.getElementById("btfills");
+      bt.replaceChildren();
+      for (const fill of b.fills || []) {
+        const tr = document.createElement("tr");
+        tr.innerHTML = "<td>" + fill.time + "</td><td>" + fill.side + " " + fill.pair.replace("/USD", "") + "</td><td>$" + fill.price + "</td>";
+        bt.appendChild(tr);
+      }
+      document.getElementById("how").textContent = b.how || "";
+      const rule = document.getElementById("rule");
+      rule.replaceChildren();
+      for (const line of b.rule || []) {
+        const li = document.createElement("li");
+        li.textContent = line;
+        rule.appendChild(li);
+      }
+      const body = document.getElementById("ranks");
+      body.replaceChildren();
+      for (const row of data.ranks || []) {
+        const tr = document.createElement("tr");
+        tr.innerHTML = "<td>" + row.pair.replace("/USD", "") + "</td><td class='" + (row.ret_14d >= 0 ? "up" : "down") + "'>" + pct(row.ret_14d) + "</td><td class='" + (row.ret_7d >= 0 ? "up" : "down") + "'>" + pct(row.ret_7d) + "</td>";
+        body.appendChild(tr);
+      }
+      const news = document.getElementById("news");
+      news.replaceChildren();
+      for (const item of data.headlines || []) {
+        const p = document.createElement("div");
+        p.textContent = item.kind + " · " + item.coins.join(",") + " — " + item.title;
+        news.appendChild(p);
+      }
+      if (!(data.headlines || []).length) news.textContent = "No coin headlines in the latest feeds.";
+    }
+    load();
+  </script>
+</body>
+</html>
