@@ -5,7 +5,7 @@ from pathlib import Path
 from fastapi import FastAPI
 from fastapi.responses import FileResponse, JSONResponse
 
-from live import snapshot
+from live import load_ledger, require_paper, snapshot
 
 app = FastAPI()
 PAGE = Path(__file__).resolve().parent / "public" / "index.html"
@@ -18,11 +18,25 @@ def index():
 
 @app.get("/api/today")
 def today():
+    require_paper()
     return JSONResponse(snapshot(), headers={"Cache-Control": "no-store"})
 
 
 @app.get("/api/daily")
 def daily():
+    """Read-only status. Paper fills are applied by scripts/orca_daily.py, not this route."""
+    require_paper()
     data = snapshot()
-    data["cadence"] = "daily 14:00 UTC"
+    data["cadence"] = "read-only — Chewbacca runs scripts/orca_daily.py"
+    data["writable"] = False
+    try:
+        ledger = load_ledger()
+        data["ledger"] = {
+            "start_date": ledger.get("start_date"),
+            "last_check": ledger.get("last_check"),
+            "n_fills": len(ledger.get("fills") or []),
+            "holding": (ledger.get("holding") or {}).get("pair"),
+        }
+    except Exception as exc:
+        data["ledger_error"] = str(exc)
     return JSONResponse(data, headers={"Cache-Control": "no-store"})

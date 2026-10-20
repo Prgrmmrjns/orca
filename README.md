@@ -2,7 +2,16 @@
 
 Local Python bot for **paper** backtesting spot crypto strategies on **Kraken.com** public market data.
 
-> **Safety:** `mode: paper` only. No API keys are required or created. Live order placement is hard-disabled. Never enable Withdraw on any future API key.
+> **Safety:** `mode: paper` only. No API keys are required or created. Live order placement is hard-disabled. Never enable Withdraw on any future API key. `ORCA_MODE` must stay `paper`.
+
+## Live paper book (demo)
+
+The Vercel demo at `demo/` marks a **persisted paper ledger** (`state/ledger.json`) to market with public Kraken prices. It does **not** replay trades on each request and never calls Kraken private/order APIs.
+
+- **Start:** 2026-10-13, capital €1000 − €4.99 subscription.
+- **Daily job:** Chewbacca runs `python scripts/orca_daily.py` (signal only) or `python scripts/orca_daily.py --apply` (append paper fill + `logs/metrics.jsonl`), then commits the ledger.
+- **APIs:** `/api/today` reads the ledger + live marks. `/api/daily` is read-only (no Vercel cron).
+- **September figures** on the page are labelled **backtest**, separate from the live paper book.
 
 ---
 

@@ -1,0 +1,66 @@
+{
+  "mode": "paper",
+  "start_date": "2026-10-13",
+  "budget_eur": 1000.0,
+  "subscription_eur": 4.99,
+  "start_capital_eur": 995.01,
+  "seed_eur_usd": 1.1224,
+  "cash_usd": 49.18,
+  "holding": {
+    "base": "INJ",
+    "pair": "INJ/USD",
+    "units": 108.332433,
+    "entry_price": 8.583,
+    "reason": "INJ leads the 14-day trend. Weekly check, still the rule from September."
+  },
+  "last_check": "2026-10-20",
+  "last_reason": "No change.",
+  "fills": [
+    {
+      "time": "2026-10-13",
+      "side": "buy",
+      "pair": "RAY/USD",
+      "price": 2.134,
+      "amount": 494.692257,
+      "fee": 5.3,
+      "reason": "RAY leads the 14-day trend. Weekly check, still the rule from September."
+    },
+    {
+      "time": "2026-10-20",
+      "side": "sell",
+      "pair": "RAY/USD",
+      "price": 1.885,
+      "amount": 494.692257,
+      "fee": 4.66,
+      "reason": "INJ leads the 14-day trend. Weekly check, still the rule from September."
+    },
+    {
+      "time": "2026-10-20",
+      "side": "buy",
+      "pair": "INJ/USD",
+      "price": 8.583,
+      "amount": 108.332433,
+      "fee": 4.67,
+      "reason": "INJ leads the 14-day trend. Weekly check, still the rule from September."
+    }
+  ],
+  "equity_history": [
+    {
+      "date": "2026-10-13",
+      "equity_usd": 1111.51,
+      "equity_eur": 990.29,
+      "cash_usd": 55.84,
+      "holding": "RAY",
+      "units": 494.692257
+    },
+    {
+      "date": "2026-10-20",
+      "equity_usd": 979.01,
+      "equity_eur": 872.23,
+      "cash_usd": 49.19,
+      "holding": "INJ",
+      "units": 108.332433
+    }
+  ],
+  "updated_at": "2026-10-20T14:00:00+00:00"
+}

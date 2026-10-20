@@ -1,4 +1,4 @@
-"""Daily paper pass at 14:00 UTC. Same book as /api/today. No orders."""
+"""Read-only paper status. No cron, no fills, no private API."""
 
 from http.server import BaseHTTPRequestHandler
 import json
@@ -6,13 +6,26 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from live import snapshot
+from live import load_ledger, require_paper, snapshot
 
 
 class handler(BaseHTTPRequestHandler):
     def do_GET(self):
+        require_paper()
+        # Read-only: same mark-to-market view as /api/today. Mutations live in scripts/orca_daily.py.
         data = snapshot()
-        data["cadence"] = "daily 14:00 UTC"
+        data["cadence"] = "read-only — Chewbacca runs scripts/orca_daily.py"
+        data["writable"] = False
+        try:
+            ledger = load_ledger()
+            data["ledger"] = {
+                "start_date": ledger.get("start_date"),
+                "last_check": ledger.get("last_check"),
+                "n_fills": len(ledger.get("fills") or []),
+                "holding": (ledger.get("holding") or {}).get("pair"),
+            }
+        except Exception as exc:
+            data["ledger_error"] = str(exc)
         body = json.dumps(data).encode()
         self.send_response(200)
         self.send_header("Content-Type", "application/json")
