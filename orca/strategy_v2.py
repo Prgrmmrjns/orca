@@ -12,7 +12,7 @@ from datetime import date, datetime, timezone
 from pathlib import Path
 from urllib.request import Request, urlopen
 
-VERSION = "v2.0"
+VERSION = "v2.1"
 UNIVERSE = {"BTC": "XBTUSD", "ETH": "ETHUSD", "SOL": "SOLUSD", "XRP": "XRPUSD"}
 SMA_WINDOWS = (50, 100, 200)   # ensemble: weight = share of windows where close > SMA
 VOL_WINDOW = 30                # days, realised vol for inverse-vol sizing
@@ -21,7 +21,7 @@ CORR_HAIRCUT = 0.85            # crude correlation adjustment used in research
 MAX_WEIGHT = 0.50              # per asset cap
 REBALANCE_DAYS = 7             # weekly
 BAND = 0.05                    # skip trades smaller than 5% of equity
-TAKER_FEE = 0.004              # Kraken taker (paper)
+TAKER_FEE = 0.0               # Jonas has a 0%-fee Kraken plan; cost = bid/ask spread only (paper)
 ROOT = Path(__file__).resolve().parents[1]
 OVERRIDES = ROOT / "strategy" / "news_overrides.json"
 
