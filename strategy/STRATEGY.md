@@ -36,7 +36,7 @@ v2 by year: 2019 +28.5, 2020 +128.5, 2021 +142.5, **2022 −10.9** (BTC −64), 
    - Weights ∝ 1 / 30-day realised vol; scaled so estimated portfolio vol (Σ wᵢσᵢ × 0.85) ≤ **40%/yr**; each coin ≤ **50%**.
 3. **Target = average of the three sub-books.** Long only, no leverage, no shorting.
 4. **Rebalance weekly** (every 7 days from the last rebalance; first was Tue 2026-10-20). Skip a coin's trade if the change is < 5% of equity, except full exits.
-5. **Fills (paper):** buys at Kraken ask, sells at bid, plus 0.4% taker fee.
+5. **Fills (paper):** buys at Kraken ask, sells at bid, 0% fee (Jonas has a 0%-fee Kraken plan, so only spread applies; since v2.1, 2026-10-21).
 
 ## Risk limits
 - Max 50% in any coin; max gross 100%; cash floor implicitly from vol target.
