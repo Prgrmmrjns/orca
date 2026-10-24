@@ -10,3 +10,7 @@
 - Research: 2017–2026 daily data, walk-forward OOS 2019–2026 with 0.5%/side costs (see STRATEGY.md).
 - News: risk-reduction-only overrides file. 2026-10-20 review: BTC dominance 60.7% (14-mo high), alts weak, AI/equity selloff, Brent >$110, ETF inflows $527M on 10-19, Drift exploit (Solana DeFi app, not SOL itself) → **no override**.
 - New paper ledger: start 2026-10-20, €1,000 at EUR/USD 1.12231. First rebalance: BTC 37%, ETH 19%, SOL 14%, XRP 13%, cash 17%.
+
+## 2026-10-24 review (v2.1, no change)
+- Hold, mark to market. BTC ~$81.1K, still below SMA50 (above 100/200); ETH/SOL/XRP also below SMA50. Target cash 33%; trim happens at the scheduled 10-27 rebalance (no off-cycle trades).
+- News: BTC spot ETFs -$636M outflows (10-23), Brent at six-month high, AI-driven equity weakness, Ethereum delays Glamsterdam testnet fork over gas security flaws (schedule, not exploit), Franklin Templeton puts $150M fund shares on XRP Ledger, Initia chain exploit (~$2.6M, not in universe), Senate probe into Tether payments → **no override**.
