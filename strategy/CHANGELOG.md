@@ -14,3 +14,7 @@
 ## 2026-10-24 review (v2.1, no change)
 - Hold, mark to market. BTC ~$81.1K, still below SMA50 (above 100/200); ETH/SOL/XRP also below SMA50. Target cash 33%; trim happens at the scheduled 10-27 rebalance (no off-cycle trades).
 - News: BTC spot ETFs -$636M outflows (10-23), Brent at six-month high, AI-driven equity weakness, Ethereum delays Glamsterdam testnet fork over gas security flaws (schedule, not exploit), Franklin Templeton puts $150M fund shares on XRP Ledger, Initia chain exploit (~$2.6M, not in universe), Senate probe into Tether payments → **no override**.
+
+## 2026-10-25 review (v2.1, no change)
+- Hold, mark to market. BTC ~$80.8K after a weekend dip to ~$79.1K (U.S.–Iran tensions, ~$800M liquidations); still below SMA50, above 100/200. ETH/SOL/XRP also below SMA50. Target cash ~33%; trim happens at the scheduled 10-27 rebalance (no off-cycle trades).
+- News: further BTC ETF outflows (-$138M on 10-23), BTC dominance ~60%, Argentina drops LIBRA probe, firms object to OKX–ICE tokenized stocks, Franklin Templeton XRPL fund shares → macro/flow only, nothing hitting a held coin's chain, custodian or legal status → **no override**.
