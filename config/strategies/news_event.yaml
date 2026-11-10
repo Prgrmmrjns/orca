@@ -14,6 +14,8 @@ cost_per_fill_pct: 0.005       # 0.5% per fill
 allow_shorts: true
 # null = never re-enter a ticker once traded in this book (today's behaviour)
 cooldown_minutes: null
+# Keep legacy behaviour: require news_event_type, do not bridge earnings guidance=
+guidance_bridge: false
 
 rules:
   - name: bullish_news_long

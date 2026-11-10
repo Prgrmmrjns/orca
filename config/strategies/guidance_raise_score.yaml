@@ -1,0 +1,41 @@
+# Frozen box-backtest winner (test +4.5% vs SPY). Score-scaled size by |EPS| or |gap| vs 10%.
+book_id: guidance_raise_score
+title: Guidance raise score
+description: Guidance-raise 2-day long, no stop, size scaled by |EPS surprise| or |gap| vs 10% (0.25x–2x).
+started: "2026-11-10"
+
+max_positions: 8
+max_per_ticker: 1
+max_gross_exposure_pct: 0.40
+cost_per_fill_pct: 0.005
+allow_shorts: false
+cooldown_minutes: null
+sizing: score_scaled
+vol_lookback_days: 20
+vol_target_pct: 2.0
+score_ref: 10.0
+chart_filter: null
+guidance_bridge: true
+
+rules:
+  - name: guidance_raise
+    enabled: true
+    categories: [guidance_raise]
+    sources: [8-K, PRN, CNBC, MarketWatch]
+    side: long
+    exclude_tags: []
+    min_gap_pct: null
+    max_gap_pct: null
+    min_eps_surprise_pct: null
+    max_eps_surprise_pct: null
+    min_price: null
+    min_avg_dollar_volume: null
+    entry: next_open
+    size_pct: 0.05
+    hold:
+      days: 2
+    exits:
+      stop_pct: null
+      take_profit_pct: null
+      trailing_stop_pct: null
+      exit_at_close: false

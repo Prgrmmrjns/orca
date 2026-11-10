@@ -89,8 +89,12 @@ class ReplayTests(unittest.TestCase):
         for book in BOOKS:
             if book.kind != "rule":
                 continue
-            if book.id == "news_event":
-                continue  # sample set is earnings-only; see test_news.py
+            if book.id == "news_event" or book.id.endswith("_tuned") or book.id in {
+                "guidance_raise_score",
+                "gap_filtered_guidance",
+                "wide_capacity",
+            }:
+                continue  # news/config books — see test_strategy_config / test_tuned_books
             sim = simulate_book(book, SAMPLE_CANDIDATES)
             self.assertEqual(sim["n_opened"], sim["n_closed"])
             self.assertGreaterEqual(sim["n_opened"], 1, book.id)

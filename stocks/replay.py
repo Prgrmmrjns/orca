@@ -223,6 +223,9 @@ def assert_sample_rules() -> dict:
     exp = expected_tickers()
     errors = []
     for book in BOOKS:
+        if book.id not in exp:
+            # Tuned/config news books use live candidates — covered elsewhere.
+            continue
         sim = simulate_book(book, SAMPLE_CANDIDATES)
         results[book.id] = sim
         got = [o["ticker"] for o in sim.get("opened") or []]

@@ -30,8 +30,10 @@ def main() -> int:
     if cmd == "init":
         from stocks.engine import init_all_books
 
-        created = init_all_books(force=True)
-        print(f"initialized books: {created}")
+        force = "--force" in sys.argv
+        sys.argv = [a for a in sys.argv if a != "--force"]
+        created = init_all_books(force=force)
+        print(f"initialized books: {created or '(all present)'}" + (" [FORCE RESET]" if force else ""))
         return 0
     if cmd == "replay":
         from stocks.replay import main as m

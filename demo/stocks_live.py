@@ -14,6 +14,13 @@ BOOK_ORDER = [
     "beat5_raise",
     "miss_short",
     "news_event",
+    # Tuned news books (paper, from 2026-11-10 box winners)
+    "guidance_raise_tuned",
+    "dilution_shorts_tuned",
+    "quality_longs_tuned",
+    "guidance_raise_score",
+    "gap_filtered_guidance",
+    "wide_capacity",
 ]
 BOOK_TITLES = {
     "agent": "Agent (Chewbacca)",
@@ -22,6 +29,21 @@ BOOK_TITLES = {
     "beat5_raise": "Beat 5% + raise",
     "miss_short": "Miss short",
     "news_event": "News event",
+    "guidance_raise_tuned": "Guidance raise tuned",
+    "dilution_shorts_tuned": "Dilution shorts tuned",
+    "quality_longs_tuned": "Quality longs tuned",
+    "guidance_raise_score": "Guidance raise score",
+    "gap_filtered_guidance": "Gap-filtered guidance",
+    "wide_capacity": "Wide capacity",
+}
+CONFIG_BOOK_IDS = {
+    "news_event",
+    "guidance_raise_tuned",
+    "dilution_shorts_tuned",
+    "quality_longs_tuned",
+    "guidance_raise_score",
+    "gap_filtered_guidance",
+    "wide_capacity",
 }
 
 
@@ -68,17 +90,23 @@ def _spy_return(led: dict, start: float) -> float | None:
     return round((float(spy_now) / start - 1) * 100, 2)
 
 
-def _news_event_config() -> dict | None:
-    """Active news_event YAML (for /api/stocks/books). Soft-fail if loader unavailable."""
+def _strategy_configs() -> dict[str, dict]:
+    """Active YAML snapshots for config-driven books. Soft-fail per book."""
+    out: dict[str, dict] = {}
     try:
         repo = Path(__file__).resolve().parents[1]
         if str(repo) not in __import__("sys").path:
             __import__("sys").path.insert(0, str(repo))
-        from stocks.strategy_config import load_news_event_config
+        from stocks.strategy_config import TUNED_NEWS_BOOK_IDS, load_strategy_config
 
-        return load_news_event_config().to_public_dict()
+        for bid in ["news_event", *TUNED_NEWS_BOOK_IDS]:
+            try:
+                out[bid] = load_strategy_config(bid).to_public_dict()
+            except Exception:
+                continue
     except Exception:
-        return None
+        return out
+    return out
 
 
 def _book_summary(book_id: str, led: dict, decs: dict, strategy_config: dict | None = None) -> dict:
@@ -131,9 +159,9 @@ def _book_summary(book_id: str, led: dict, decs: dict, strategy_config: dict | N
         "last_run": led.get("last_run"),
         "last_reason": led.get("last_reason"),
     }
-    if book_id == "news_event" and strategy_config is not None:
+    if strategy_config is not None:
         out["strategy_config"] = strategy_config
-        out["config_path"] = strategy_config.get("path") or "config/strategies/news_event.yaml"
+        out["config_path"] = strategy_config.get("path") or f"config/strategies/{book_id}.yaml"
     return out
 
 
@@ -158,7 +186,8 @@ def snapshot() -> dict:
     cands = _load(state / "candidates.json", {})
     news = _load(state / "news.json", {})
     book_ids = _discover_books(state)
-    news_cfg = _news_event_config()
+    cfg_map = _strategy_configs()
+    news_cfg = cfg_map.get("news_event")
     books = []
     for bid in book_ids:
         led_path = state / "books" / bid / "ledger.json"
@@ -188,7 +217,7 @@ def snapshot() -> dict:
                 bid,
                 led,
                 decs,
-                strategy_config=news_cfg if bid == "news_event" else None,
+                strategy_config=cfg_map.get(bid) if bid in CONFIG_BOOK_IDS else None,
             )
         )
 
@@ -268,7 +297,10 @@ def snapshot() -> dict:
         "mode": "paper",
         "product": "stocks-earnings-multi-book",
         "orders": "paper",
-        "note": "paper only, multi-book forward test since 2026-11-10 (incl. news_event)",
+        "note": (
+            "paper only, multi-book forward test since 2026-11-10 "
+            "(legacy 6 + 6 tuned news books)"
+        ),
         "as_of": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
         "since": START,
         "scanned_at": cands.get("as_of"),
@@ -283,6 +315,7 @@ def snapshot() -> dict:
         },
         "books": books,
         "news_event_config": news_cfg,
+        "strategy_configs": cfg_map,
         "book": {  # backward-compat single-book shape = agent
             "equity_eur": agent.get("equity_eur"),
             "cash_eur": agent.get("cash_eur"),

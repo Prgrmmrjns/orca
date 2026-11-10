@@ -136,10 +136,10 @@
       <ul class="rules" id="rules"></ul>
     </section>
 
-    <p class="note">Paper only — independent €1,000 books since 2026-11-10 (incl. <code>news_event</code>). No broker API, no real orders. Cost 0.5%/fill. EUR via EURUSD=X. News from EDGAR 8-K + wire RSS (keyword tags). Paper shorts have no borrow model. Rule books auto-trade; only <code>agent</code> is discretionary.</p>
+    <p class="note">Paper only — independent €1,000 books since 2026-11-10 (legacy 6 + 6 tuned news strategies). No broker API, no real orders. Cost 0.5%/fill. EUR via EURUSD=X. News from EDGAR 8-K + wire RSS (keyword tags). Paper shorts have no borrow model. Rule books auto-trade; only <code>agent</code> is discretionary.</p>
   </main>
   <script>
-    const COLORS = ["#7fd4ff", "#9ae6b4", "#f6ad55", "#d6bcfa", "#fc8181", "#8eb4cc"];
+    const COLORS = ["#7fd4ff", "#9ae6b4", "#f6ad55", "#d6bcfa", "#fc8181", "#8eb4cc", "#fbd38d", "#90cdf4", "#c6f6d5", "#feb2b2", "#e9d8fd", "#b2f5ea"];
     function pct(n) {
       if (n == null || Number.isNaN(n)) return "—";
       const v = Number(n);
@@ -392,17 +392,22 @@
           rules.appendChild(li);
         }
       }
-      const nec = data.news_event_config
-        || (books.find(b => b.id === "news_event") || {}).strategy_config;
-      if (nec) {
+      const cfgs = data.strategy_configs || {};
+      const cfgIds = Object.keys(cfgs).length
+        ? Object.keys(cfgs)
+        : books.filter(b => b.strategy_config).map(b => b.id);
+      for (const id of cfgIds) {
+        const nec = cfgs[id] || (books.find(b => b.id === id) || {}).strategy_config;
+        if (!nec) continue;
         const li = document.createElement("li");
         const enabled = (nec.rules || []).filter(r => r.enabled).map(r =>
           r.name + " [" + r.side + ": " + (r.categories || []).join(", ") + "]"
         );
         li.innerHTML =
-          "<b>news_event config</b> — <code>" + (nec.path || "config/strategies/news_event.yaml") +
-          "</code> · max " + nec.max_positions + " · size from rules · cost " +
-          ((nec.cost_per_fill_pct || 0) * 100).toFixed(1) + "%/fill · " +
+          "<b>" + id + " config</b> — <code>" + (nec.path || ("config/strategies/" + id + ".yaml")) +
+          "</code> · max " + nec.max_positions +
+          (nec.sizing ? (" · sizing " + nec.sizing) : "") +
+          " · cost " + ((nec.cost_per_fill_pct || 0) * 100).toFixed(1) + "%/fill · " +
           enabled.join("; ");
         rules.appendChild(li);
       }

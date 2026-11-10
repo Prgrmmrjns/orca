@@ -4,7 +4,7 @@
 Forward test start: **2026-11-10**. Starting capital: **EUR 1,000 per book**.
 
 Orca runs **six parallel paper books**. You control **only the `agent` book**.
-The others (`bigbeat_gap`, `guidance_beat`, `beat5_raise`, `miss_short`, `news_event`) are fully rule-based and auto-traded by the Actions engine — do **not** write decisions for them.
+The others (`bigbeat_gap`, `guidance_beat`, `beat5_raise`, `miss_short`, `news_event`, and the six tuned news books) are fully rule-based and auto-traded by the Actions engine — do **not** write decisions for them.
 
 Orca is **stocks only**. Do not revive the crypto demo on the Vercel site.
 
@@ -46,6 +46,7 @@ git push origin main
 | `beat5_raise` | Engine | surprise >5% + raised outlook · 10% · max 8 · hold 5 · no regime filter |
 | `miss_short` | Engine | surprise <-10% AND gap <-5% · 5% · max 4 · hold 2 · 8% stop |
 | `news_event` | Engine | config-driven (`config/strategies/news_event.yaml`) · defaults: bullish→long / bearish→short · 5% · max 6 · hold 2 · 8% stop |
+| `guidance_raise_tuned` … `wide_capacity` | Engine | six tuned news books (`config/strategies/<id>.yaml`) · paper only · start 2026-11-10 |
 
 Tags and `news_event_type` / `news_side` on candidates are signals for you — they do **not** auto-fill the agent book.
 
