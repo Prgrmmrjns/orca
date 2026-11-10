@@ -91,9 +91,54 @@ def match_news_event(c: dict[str, Any], spy_above: bool | None = None) -> bool:
     short fraud/cut/short-report/dilution; exclude shareholder_alert).
     """
     del spy_above
-    from stocks.strategy_config import match_candidate_to_news_config
+    from stocks.strategy_config import load_news_event_config, match_candidate_to_news_config
 
-    return match_candidate_to_news_config(c) is not None
+    return match_candidate_to_news_config(c, load_news_event_config()) is not None
+
+
+def make_config_matcher(book_id: str) -> Callable[[dict[str, Any], bool | None], bool]:
+    """Matcher that reloads config/strategies/<book_id>.yaml every call."""
+
+    def _match(c: dict[str, Any], spy_above: bool | None = None) -> bool:
+        del spy_above
+        from stocks.strategy_config import load_strategy_config, match_candidate_to_news_config
+
+        try:
+            cfg = load_strategy_config(book_id)
+        except Exception:
+            return False
+        return match_candidate_to_news_config(c, cfg) is not None
+
+    _match.__name__ = f"match_{book_id}"
+    return _match
+
+
+def _tuned_book(
+    book_id: str,
+    title: str,
+    description: str,
+    *,
+    size: float = 0.05,
+    hold_days: int = 2,
+    max_open: int = 8,
+    side: str = "long",
+    prefer_open: bool = True,
+    stop_loss: float | None = None,
+) -> BookSpec:
+    return BookSpec(
+        id=book_id,
+        title=title,
+        kind="rule",
+        description=description,
+        size=size,
+        hold_days=hold_days,
+        max_open=max_open,
+        stop_loss=stop_loss,
+        side=side,
+        prefer_open=prefer_open,
+        matcher=make_config_matcher(book_id),
+        started="2026-11-10",
+    )
 
 
 BOOKS: list[BookSpec] = [
@@ -187,6 +232,57 @@ BOOKS: list[BookSpec] = [
         matcher=match_news_event,
         started="2026-11-10",
     ),
+    # --- Tuned news books (box backtest → live paper from 2026-11-10) ---
+    # Existing six books above stay unchanged through the Nov 17 review.
+    _tuned_book(
+        "guidance_raise_tuned",
+        "Guidance raise tuned",
+        "Config: long guidance_raise only · 5% · max 15 · hold 5d · no stop · next_open "
+        "(config/strategies/guidance_raise_tuned.yaml). Box test +11.2%.",
+        hold_days=5,
+        max_open=15,
+    ),
+    _tuned_book(
+        "dilution_shorts_tuned",
+        "Dilution shorts tuned",
+        "Config: short dilution · 5% · max 8 · hold 3d · no stop · next_open "
+        "(config/strategies/dilution_shorts_tuned.yaml). Paper shorts. Box test +10.0%.",
+        hold_days=3,
+        max_open=8,
+        side="short",
+    ),
+    _tuned_book(
+        "quality_longs_tuned",
+        "Quality longs tuned",
+        "Config: long guidance_raise / acquisition_target / big_contract · 5% · max 15 · "
+        "hold 5d · no stop · next_open (config/strategies/quality_longs_tuned.yaml). Box test +4.8%.",
+        hold_days=5,
+        max_open=15,
+    ),
+    _tuned_book(
+        "guidance_raise_score",
+        "Guidance raise score",
+        "Config: long guidance_raise · score-scaled size (|EPS| or |gap| vs 10%, 0.25x–2x) · "
+        "max 8 · hold 2d · no stop · next_open (config/strategies/guidance_raise_score.yaml). Box test +4.5%.",
+        hold_days=2,
+        max_open=8,
+    ),
+    _tuned_book(
+        "gap_filtered_guidance",
+        "Gap-filtered guidance",
+        "Config: long guidance_raise with gap ≥5% · 5% · max 8 · hold 5d · no stop · next_open "
+        "(config/strategies/gap_filtered_guidance.yaml). Box test +4.4%.",
+        hold_days=5,
+        max_open=8,
+    ),
+    _tuned_book(
+        "wide_capacity",
+        "Wide capacity",
+        "Config: quality longs · 5% · max 15 · hold 2d · no stop · next_open "
+        "(config/strategies/wide_capacity.yaml). Box test +2.1%.",
+        hold_days=2,
+        max_open=15,
+    ),
 ]
 
 BOOK_BY_ID: dict[str, BookSpec] = {b.id: b for b in BOOKS}
@@ -194,6 +290,14 @@ BOOK_IDS = [b.id for b in BOOKS]
 AGENT_BOOK_ID = "agent"
 FORWARD_TEST_START = "2026-11-10"
 START_CAPITAL_EUR = 1000.0
+LEGACY_FORWARD_BOOK_IDS = [
+    "agent",
+    "bigbeat_gap",
+    "guidance_beat",
+    "beat5_raise",
+    "miss_short",
+    "news_event",
+]
 
 
 def book_rules_public() -> dict[str, str]:

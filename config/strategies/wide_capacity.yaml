@@ -1,0 +1,41 @@
+# Frozen box-backtest winner (test +2.1% vs SPY). Same categories as quality_longs, 2d hold, max 15.
+book_id: wide_capacity
+title: Wide capacity
+description: Quality longs (guidance raise, target, contract), 2-day hold, no stop, max 15.
+started: "2026-11-10"
+
+max_positions: 15
+max_per_ticker: 1
+max_gross_exposure_pct: 0.75
+cost_per_fill_pct: 0.005
+allow_shorts: false
+cooldown_minutes: null
+sizing: fixed
+vol_lookback_days: 20
+vol_target_pct: 2.0
+score_ref: 10.0
+chart_filter: null
+guidance_bridge: true
+
+rules:
+  - name: quality_longs
+    enabled: true
+    categories: [guidance_raise, acquisition_target, big_contract]
+    sources: [8-K, PRN, CNBC, MarketWatch]
+    side: long
+    exclude_tags: []
+    min_gap_pct: null
+    max_gap_pct: null
+    min_eps_surprise_pct: null
+    max_eps_surprise_pct: null
+    min_price: null
+    min_avg_dollar_volume: null
+    entry: next_open
+    size_pct: 0.05
+    hold:
+      days: 2
+    exits:
+      stop_pct: null
+      take_profit_pct: null
+      trailing_stop_pct: null
+      exit_at_close: false

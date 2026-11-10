@@ -36,7 +36,11 @@ from stocks.paths import (
     read_json,
     write_json,
 )
-from stocks.strategy_config import load_news_event_config, match_candidate_to_news_config
+from stocks.strategy_config import (
+    is_config_driven_book,
+    load_strategy_config,
+    match_candidate_to_news_config,
+)
 
 
 def _cost_pct(led: dict | None = None) -> float:
@@ -48,28 +52,33 @@ def _cost_pct(led: dict | None = None) -> float:
     return COST_PCT
 
 
-def _sync_news_event_ledger(led: dict) -> dict:
+def _sync_config_ledger(book_id: str, led: dict) -> dict:
     """Apply live YAML book-level settings onto the ledger without touching positions."""
-    cfg = load_news_event_config()
+    cfg = load_strategy_config(book_id)
     led["max_open"] = int(cfg.max_positions)
     led["cost_pct"] = float(cfg.cost_per_fill_pct)
-    led["default_size"] = (
-        next((r.size_pct for r in cfg.rules if r.enabled), 0.05)
-    )
+    led["default_size"] = next((r.size_pct for r in cfg.rules if r.enabled), 0.05)
     led["max_per_ticker"] = int(cfg.max_per_ticker)
     led["max_gross_exposure_pct"] = float(cfg.max_gross_exposure_pct)
     led["allow_shorts"] = bool(cfg.allow_shorts)
     led["cooldown_minutes"] = cfg.cooldown_minutes
-    led["strategy_config_path"] = "config/strategies/news_event.yaml"
+    led["sizing"] = cfg.sizing
+    led["score_ref"] = cfg.score_ref
+    led["strategy_config_path"] = cfg.path or f"config/strategies/{book_id}.yaml"
     led["strategy_title"] = cfg.title
-    # Keep rules text in sync with enabled rule names (positions untouched).
     enabled = [r.name for r in cfg.rules if r.enabled]
     led["rules"] = (
-        f"Config-driven news_event ({led['strategy_config_path']}). "
+        f"Config-driven {book_id} ({led['strategy_config_path']}). "
         f"Enabled rules: {', '.join(enabled) or '(none)'}. "
-        f"max_positions={cfg.max_positions}, cost={cfg.cost_per_fill_pct}."
+        f"sizing={cfg.sizing}, max_positions={cfg.max_positions}, "
+        f"cost={cfg.cost_per_fill_pct}."
     )
     return led
+
+
+# Back-compat alias
+def _sync_news_event_ledger(led: dict) -> dict:
+    return _sync_config_ledger("news_event", led)
 
 
 def _ticker_on_cooldown(led: dict, book_id: str, ticker: str, cooldown_minutes: int | None) -> bool:
@@ -312,20 +321,19 @@ def auto_decide_rule_book(book: BookSpec) -> int:
     spy_above = cands.get("spy_above_ma50")
     led = load_ledger(book.id)
     news_cfg = None
-    if book.id == "news_event":
+    config_driven = is_config_driven_book(book.id)
+    if config_driven:
         # Reload YAML every tick — parameter edits apply with no code change.
-        news_cfg = load_news_event_config()
-        led = _sync_news_event_ledger(led)
+        news_cfg = load_strategy_config(book.id)
+        led = _sync_config_ledger(book.id, led)
         write_json(ledger_path(book.id), led)
 
     open_tickers = _open_tickers(led, book.id)
     max_open = int(led.get("max_open") or book.max_open)
     max_per = int(led.get("max_per_ticker") or 1)
     max_gross = float(led.get("max_gross_exposure_pct") or 1.0)
-    cooldown = led.get("cooldown_minutes") if book.id == "news_event" else None
-    if book.id != "news_event":
-        # Legacy rule books: one trade per ticker for this forward test (no re-entry).
-        cooldown = None
+    # Config-driven + legacy rule books: null cooldown = never re-enter a ticker.
+    cooldown = led.get("cooldown_minutes") if config_driven else None
 
     # Per-ticker open count (positions + pending + live decisions)
     ticker_open_n: dict[str, int] = {}
@@ -342,7 +350,7 @@ def auto_decide_rule_book(book: BookSpec) -> int:
         ticker = c.get("ticker")
         if not ticker:
             continue
-        if book.id == "news_event":
+        if config_driven:
             if _ticker_on_cooldown(led, book.id, ticker, cooldown):
                 continue
             if ticker_open_n.get(ticker, 0) >= max_per:
@@ -385,7 +393,7 @@ def auto_decide_rule_book(book: BookSpec) -> int:
 
         if len(open_tickers) >= max_open:
             break
-        if book.id == "news_event" and planned_gross + abs(size) > max_gross + 1e-9:
+        if config_driven and planned_gross + abs(size) > max_gross + 1e-9:
             continue
 
         reason = (
@@ -786,9 +794,9 @@ def run_book(book_id: str, apply: bool = True) -> dict:
     if book.kind == "rule" and apply:
         auto_n = auto_decide_rule_book(book)
     led = load_ledger(book_id)
-    if book_id == "news_event":
+    if is_config_driven_book(book_id):
         # Even if no new decisions, refresh book-level knobs from YAML.
-        led = _sync_news_event_ledger(led)
+        led = _sync_config_ledger(book_id, led)
     ingested = ingest_decisions(led, book_id) if apply else 0
     led, marks, fx = mark_book(led)
     fills = fill_pending(led, marks, fx, book_id) if apply else []

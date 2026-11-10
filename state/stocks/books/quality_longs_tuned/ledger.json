@@ -1,0 +1,53 @@
+{
+  "mode": "paper",
+  "book_id": "quality_longs_tuned",
+  "strategy": "quality_longs_tuned",
+  "strategy_title": "Quality longs tuned",
+  "kind": "rule",
+  "base_currency": "EUR",
+  "note": "Paper only. Forward test book `quality_longs_tuned` since 2026-11-10. No broker API. Config: long guidance_raise / acquisition_target / big_contract \u00b7 5% \u00b7 max 15 \u00b7 hold 5d \u00b7 no stop \u00b7 next_open (config/strategies/quality_longs_tuned.yaml). Box test +4.8%.",
+  "rules": "Config-driven quality_longs_tuned (config/strategies/quality_longs_tuned.yaml). Enabled rules: quality_longs. sizing=fixed, max_positions=15, cost=0.005.",
+  "start_date": "2026-11-10",
+  "start_capital_eur": 1000.0,
+  "eur_usd_start": 1.1168192625045776,
+  "cash_eur": 1000.0,
+  "equity_eur": 1000.0,
+  "positions": {},
+  "pending": [],
+  "closed_trades": [],
+  "equity_history": [
+    {
+      "day": "2026-11-10",
+      "equity_eur": 1000.0,
+      "spy_eur": 1000.0,
+      "cash_eur": 1000.0,
+      "n_open": 0
+    }
+  ],
+  "spy_history": [
+    {
+      "day": "2026-11-10",
+      "spy_eur": 1000.0,
+      "spy_usd": 749.92,
+      "eur_usd": 1.11682
+    }
+  ],
+  "cost_pct": 0.005,
+  "max_position_pct": 0.1,
+  "max_short_pct": 0.05,
+  "default_size": 0.05,
+  "default_hold_days": 5,
+  "stop_loss": null,
+  "prefer_open": true,
+  "max_open": 15,
+  "last_run": "2026-11-10T22:57:31Z",
+  "last_reason": "engine[quality_longs_tuned]: auto=0 ingested=0 fills=0 closed=0 open=0 session=after",
+  "max_per_ticker": 1,
+  "max_gross_exposure_pct": 0.75,
+  "allow_shorts": false,
+  "cooldown_minutes": null,
+  "sizing": "fixed",
+  "score_ref": 10.0,
+  "strategy_config_path": "config/strategies/quality_longs_tuned.yaml",
+  "eur_usd": 1.1168192625045776
+}

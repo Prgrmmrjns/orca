@@ -44,6 +44,7 @@ def stocks_books():
             "books": data.get("books") or [],
             "rules": data.get("rules") or {},
             "news_event_config": data.get("news_event_config"),
+            "strategy_configs": data.get("strategy_configs") or {},
         },
         headers={"Cache-Control": "no-store"},
     )

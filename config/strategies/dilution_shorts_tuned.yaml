@@ -1,0 +1,41 @@
+# Frozen box-backtest winner (test +10.0% vs SPY). Paper shorts — no borrow model.
+book_id: dilution_shorts_tuned
+title: Dilution shorts tuned
+description: Short dilutive offerings only; hold chosen on the first half.
+started: "2026-11-10"
+
+max_positions: 8
+max_per_ticker: 1
+max_gross_exposure_pct: 0.40
+cost_per_fill_pct: 0.005
+allow_shorts: true
+cooldown_minutes: null
+sizing: fixed
+vol_lookback_days: 20
+vol_target_pct: 2.0
+score_ref: 10.0
+chart_filter: null
+guidance_bridge: true
+
+rules:
+  - name: dilution
+    enabled: true
+    categories: [dilution]
+    sources: [8-K, PRN, CNBC, MarketWatch]
+    side: short
+    exclude_tags: []
+    min_gap_pct: null
+    max_gap_pct: null
+    min_eps_surprise_pct: null
+    max_eps_surprise_pct: null
+    min_price: null
+    min_avg_dollar_volume: null
+    entry: next_open
+    size_pct: 0.05
+    hold:
+      days: 3
+    exits:
+      stop_pct: null
+      take_profit_pct: null
+      trailing_stop_pct: null
+      exit_at_close: false

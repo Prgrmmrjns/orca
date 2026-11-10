@@ -1,11 +1,14 @@
-"""Load / validate strategy YAML configs (news_event book is config-driven).
+"""Load / validate strategy YAML configs for config-driven news books.
 
-The engine reloads `config/strategies/news_event.yaml` on every tick so parameter
+The engine reloads `config/strategies/<book_id>.yaml` on every tick so parameter
 edits apply without a code change.
+
+Supports:
+- Orca schema (fractional size/cost/exposure; flat rule fields)
+- Backtest box schema (`book:` / `thresholds:` / percent-point sizes) via normalize
 """
 from __future__ import annotations
 
-from copy import deepcopy
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
@@ -15,6 +18,16 @@ import yaml
 ROOT = Path(__file__).resolve().parents[1]
 STRATEGIES_DIR = ROOT / "config" / "strategies"
 NEWS_EVENT_PATH = STRATEGIES_DIR / "news_event.yaml"
+
+# Tuned paper books added 2026-11-10 (box backtest winners). Existing news_event kept.
+TUNED_NEWS_BOOK_IDS: list[str] = [
+    "guidance_raise_tuned",
+    "dilution_shorts_tuned",
+    "quality_longs_tuned",
+    "guidance_raise_score",
+    "gap_filtered_guidance",
+    "wide_capacity",
+]
 
 # Classifier source ids → config source labels
 SOURCE_ALIASES: dict[str, str] = {
@@ -29,6 +42,7 @@ SOURCE_ALIASES: dict[str, str] = {
     "cnbc": "CNBC",
     "marketwatch": "MarketWatch",
     "marketwatch_realtime": "MarketWatch",
+    "news": "PRN",  # generic news candidate source → allow all-source rules via skip
 }
 
 # Config category ↔ classifier event_type aliases
@@ -44,7 +58,12 @@ CATEGORY_ALIASES: dict[str, set[str]] = {
 ALL_SOURCES = ["8-K", "PRN", "CNBC", "MarketWatch"]
 
 VALID_SIDES = {"long", "short"}
-VALID_ENTRY = {"next_open", "next_bar"}  # delay_minutes N handled separately
+VALID_ENTRY = {"next_open", "next_bar"}
+VALID_SIZING = {"fixed", "score_scaled", "vol_scaled"}
+
+# Score / vol size multiplier clamp (matches box backtest)
+SIZE_MULT_MIN = 0.25
+SIZE_MULT_MAX = 2.0
 
 
 @dataclass
@@ -57,17 +76,15 @@ class HoldSpec:
         if self.days is not None:
             return max(1, int(self.days))
         if self.minutes is not None:
-            # US cash session ≈ 390 minutes; round up
             return max(1, (int(self.minutes) + 389) // 390)
         if self.bars is not None:
-            # treat bars as trading days for the daily paper engine
             return max(1, int(self.bars))
         return 2
 
 
 @dataclass
 class ExitSpec:
-    stop_pct: float | None = 0.08
+    stop_pct: float | None = None
     take_profit_pct: float | None = None
     trailing_stop_pct: float | None = None
     exit_at_close: bool = False
@@ -79,10 +96,11 @@ class NewsRule:
     categories: list[str]
     side: str
     sources: list[str] = field(default_factory=lambda: list(ALL_SOURCES))
-    exclude_tags: list[str] = field(default_factory=lambda: ["shareholder_alert"])
+    exclude_tags: list[str] = field(default_factory=list)
     min_gap_pct: float | None = None
     max_gap_pct: float | None = None
     min_eps_surprise_pct: float | None = None
+    max_eps_surprise_pct: float | None = None
     min_price: float | None = None
     min_avg_dollar_volume: float | None = None
     entry: str = "next_bar"  # next_open | next_bar | delay_minutes:<N>
@@ -104,6 +122,7 @@ class NewsRule:
 class NewsEventConfig:
     book_id: str = "news_event"
     title: str = "News event"
+    description: str = ""
     started: str = "2026-11-10"
     max_positions: int = 6
     max_per_ticker: int = 1
@@ -111,13 +130,23 @@ class NewsEventConfig:
     cost_per_fill_pct: float = 0.005
     allow_shorts: bool = True
     cooldown_minutes: int | None = None  # None = never re-enter
+    sizing: str = "fixed"  # fixed | score_scaled | vol_scaled
+    vol_lookback_days: int = 20
+    vol_target_pct: float = 2.0
+    score_ref: float = 10.0
+    chart_filter: str | None = None
+    # When true, guidance=raised/cut from the earnings classifier counts as
+    # guidance_raise / guidance_cut event types (tuned books). news_event keeps false.
+    guidance_bridge: bool = True
     rules: list[NewsRule] = field(default_factory=list)
+    path: str | None = None
 
     def to_public_dict(self) -> dict[str, Any]:
         """JSON-serializable snapshot for the API/dashboard."""
         return {
             "book_id": self.book_id,
             "title": self.title,
+            "description": self.description,
             "started": self.started,
             "max_positions": self.max_positions,
             "max_per_ticker": self.max_per_ticker,
@@ -125,6 +154,12 @@ class NewsEventConfig:
             "cost_per_fill_pct": self.cost_per_fill_pct,
             "allow_shorts": self.allow_shorts,
             "cooldown_minutes": self.cooldown_minutes,
+            "sizing": self.sizing,
+            "vol_lookback_days": self.vol_lookback_days,
+            "vol_target_pct": self.vol_target_pct,
+            "score_ref": self.score_ref,
+            "chart_filter": self.chart_filter,
+            "guidance_bridge": self.guidance_bridge,
             "rules": [
                 {
                     "name": r.name,
@@ -136,6 +171,7 @@ class NewsEventConfig:
                     "min_gap_pct": r.min_gap_pct,
                     "max_gap_pct": r.max_gap_pct,
                     "min_eps_surprise_pct": r.min_eps_surprise_pct,
+                    "max_eps_surprise_pct": r.max_eps_surprise_pct,
                     "min_price": r.min_price,
                     "min_avg_dollar_volume": r.min_avg_dollar_volume,
                     "entry": r.entry,
@@ -154,12 +190,25 @@ class NewsEventConfig:
                 }
                 for r in self.rules
             ],
-            "path": str(NEWS_EVENT_PATH.relative_to(ROOT)),
+            "path": self.path
+            or str((STRATEGIES_DIR / f"{self.book_id}.yaml").relative_to(ROOT)),
         }
 
 
+def strategy_path(book_id: str) -> Path:
+    return STRATEGIES_DIR / f"{book_id}.yaml"
+
+
+def is_config_driven_book(book_id: str) -> bool:
+    if book_id == "news_event":
+        return True
+    if book_id in TUNED_NEWS_BOOK_IDS:
+        return True
+    return strategy_path(book_id).exists()
+
+
 def default_news_event_config() -> NewsEventConfig:
-    """Hardcoded defaults equal to the 2026-11-10 live behaviour."""
+    """Hardcoded defaults equal to the 2026-11-10 live news_event behaviour."""
     long_rule = NewsRule(
         name="bullish_news_long",
         categories=["acquisition_target", "big_contract", "fda_approval", "guidance_raise"],
@@ -184,7 +233,11 @@ def default_news_event_config() -> NewsEventConfig:
         exits=ExitSpec(stop_pct=0.08),
         enabled=True,
     )
-    return NewsEventConfig(rules=[long_rule, short_rule])
+    return NewsEventConfig(
+        rules=[long_rule, short_rule],
+        guidance_bridge=False,
+        path="config/strategies/news_event.yaml",
+    )
 
 
 def _as_float(x, default=None):
@@ -199,6 +252,20 @@ def _as_int(x, default=None):
     return int(x)
 
 
+def _pct_to_frac(x: float | None, *, assume_percent_if_gt: float = 1.0) -> float | None:
+    """Backtest YAMLs use percent points (5.0 = 5%); Orca schema uses fractions."""
+    if x is None:
+        return None
+    v = float(x)
+    if v > assume_percent_if_gt:
+        return v / 100.0
+    return v
+
+
+def _clamp(x: float, lo: float, hi: float) -> float:
+    return max(lo, min(hi, x))
+
+
 def _parse_hold(raw: Any) -> HoldSpec:
     if raw is None:
         return HoldSpec(days=2)
@@ -206,6 +273,17 @@ def _parse_hold(raw: Any) -> HoldSpec:
         return HoldSpec(days=int(raw))
     if not isinstance(raw, dict):
         raise ValueError(f"hold must be a mapping or int, got {type(raw)}")
+    # Backtest: {unit: days|bars|minutes, value: N}
+    if "unit" in raw and "value" in raw:
+        unit = str(raw.get("unit") or "days").lower()
+        val = _as_int(raw.get("value"), 2)
+        if unit in ("day", "days"):
+            return HoldSpec(days=val)
+        if unit in ("bar", "bars"):
+            return HoldSpec(bars=val)
+        if unit in ("minute", "minutes"):
+            return HoldSpec(minutes=val)
+        raise ValueError(f"hold.unit must be days|bars|minutes, got {unit!r}")
     return HoldSpec(
         days=_as_int(raw.get("days")),
         bars=_as_int(raw.get("bars")),
@@ -218,12 +296,93 @@ def _parse_exits(raw: Any) -> ExitSpec:
         return ExitSpec()
     if not isinstance(raw, dict):
         raise ValueError(f"exits must be a mapping, got {type(raw)}")
+    stop = raw.get("stop_pct")
+    tp = raw.get("take_profit_pct")
+    trail = raw.get("trailing_stop_pct")
     return ExitSpec(
-        stop_pct=_as_float(raw.get("stop_pct")),
-        take_profit_pct=_as_float(raw.get("take_profit_pct")),
-        trailing_stop_pct=_as_float(raw.get("trailing_stop_pct")),
+        stop_pct=_pct_to_frac(_as_float(stop)) if stop is not None else None,
+        take_profit_pct=_pct_to_frac(_as_float(tp)) if tp is not None else None,
+        trailing_stop_pct=_pct_to_frac(_as_float(trail)) if trail is not None else None,
         exit_at_close=bool(raw.get("exit_at_close") or False),
     )
+
+
+def _parse_entry(raw: Any) -> str:
+    if raw is None:
+        return "next_bar"
+    if isinstance(raw, str):
+        return raw.strip()
+    if isinstance(raw, dict):
+        style = str(raw.get("style") or "next_bar").strip()
+        delay = raw.get("delay_minutes")
+        if delay is not None and delay != "" and float(delay) > 0:
+            return f"delay_minutes:{int(delay)}"
+        return style
+    raise ValueError(f"entry must be a string or mapping, got {type(raw)}")
+
+
+def normalize_strategy_raw(data: dict[str, Any], default_book_id: str = "news_event") -> dict[str, Any]:
+    """Flatten backtest-box YAML into the Orca strategy schema."""
+    if not isinstance(data, dict):
+        raise ValueError("strategy config must be a mapping")
+    out = dict(data)
+
+    # Top-level name/description from box format
+    if "book_id" not in out and out.get("name"):
+        out["book_id"] = out["name"]
+    if "title" not in out:
+        out["title"] = str(out.get("description") or out.get("book_id") or default_book_id)[:80]
+
+    book = out.pop("book", None)
+    if isinstance(book, dict):
+        for k, v in book.items():
+            out.setdefault(k, v)
+
+    # Percent-point → fraction for book-level knobs
+    if "cost_per_fill_pct" in out and out["cost_per_fill_pct"] is not None:
+        out["cost_per_fill_pct"] = _pct_to_frac(float(out["cost_per_fill_pct"]), assume_percent_if_gt=0.05)
+    if "max_gross_exposure_pct" in out and out["max_gross_exposure_pct"] is not None:
+        out["max_gross_exposure_pct"] = _pct_to_frac(
+            float(out["max_gross_exposure_pct"]), assume_percent_if_gt=1.5
+        )
+
+    rules_in = out.get("rules") or []
+    rules_out = []
+    for r in rules_in:
+        if not isinstance(r, dict):
+            raise ValueError("each rule must be a mapping")
+        rr = dict(r)
+        thr = rr.pop("thresholds", None) or {}
+        if isinstance(thr, dict):
+            # Map box threshold names → Orca names
+            if "min_surprise_pct" in thr and "min_eps_surprise_pct" not in rr:
+                rr["min_eps_surprise_pct"] = thr.get("min_surprise_pct")
+            if "max_surprise_pct" in thr and "max_eps_surprise_pct" not in rr:
+                rr["max_eps_surprise_pct"] = thr.get("max_surprise_pct")
+            if "min_adv" in thr and "min_avg_dollar_volume" not in rr:
+                rr["min_avg_dollar_volume"] = thr.get("min_adv")
+            for k in (
+                "min_gap_pct",
+                "max_gap_pct",
+                "min_price",
+                "exclude_tags",
+                "min_eps_surprise_pct",
+                "max_eps_surprise_pct",
+                "min_avg_dollar_volume",
+            ):
+                if k in thr and k not in rr:
+                    rr[k] = thr[k]
+        if "entry" in rr:
+            rr["entry"] = _parse_entry(rr["entry"])
+        if "size_pct" in rr and rr["size_pct"] is not None:
+            rr["size_pct"] = _pct_to_frac(float(rr["size_pct"]), assume_percent_if_gt=1.0)
+        # Explicit empty exclude_tags stays empty (do not inject shareholder_alert)
+        if "exclude_tags" not in rr:
+            rr["exclude_tags"] = thr.get("exclude_tags") if isinstance(thr, dict) else None
+        rules_out.append(rr)
+    out["rules"] = rules_out
+    out.setdefault("book_id", default_book_id)
+    return out
 
 
 def _parse_rule(raw: dict[str, Any]) -> NewsRule:
@@ -244,16 +403,19 @@ def _parse_rule(raw: dict[str, Any]) -> NewsRule:
     if not isinstance(sources, list) or not sources:
         raise ValueError(f"rule {name}: sources must be a non-empty list")
     sources = [str(s) for s in sources]
-    entry = str(raw.get("entry") or "next_bar").strip()
+    entry = _parse_entry(raw.get("entry") or "next_bar")
     if entry not in VALID_ENTRY and not entry.startswith("delay_minutes"):
         raise ValueError(
             f"rule {name}: entry must be next_open|next_bar|delay_minutes:<N>, got {entry!r}"
         )
     size = _as_float(raw.get("size_pct"), 0.05)
+    if size is not None and size > 1:
+        size = size / 100.0
     if size is None or size <= 0 or size > 1:
         raise ValueError(f"rule {name}: size_pct must be in (0, 1], got {size}")
     exclude = raw.get("exclude_tags")
     if exclude is None:
+        # Legacy news_event default; tuned books set [] explicitly
         exclude = ["shareholder_alert"]
     if not isinstance(exclude, list):
         raise ValueError(f"rule {name}: exclude_tags must be a list")
@@ -266,6 +428,7 @@ def _parse_rule(raw: dict[str, Any]) -> NewsRule:
         min_gap_pct=_as_float(raw.get("min_gap_pct")),
         max_gap_pct=_as_float(raw.get("max_gap_pct")),
         min_eps_surprise_pct=_as_float(raw.get("min_eps_surprise_pct")),
+        max_eps_surprise_pct=_as_float(raw.get("max_eps_surprise_pct")),
         min_price=_as_float(raw.get("min_price")),
         min_avg_dollar_volume=_as_float(raw.get("min_avg_dollar_volume")),
         entry=entry,
@@ -276,9 +439,8 @@ def _parse_rule(raw: dict[str, Any]) -> NewsRule:
     )
 
 
-def parse_news_event_dict(data: dict[str, Any]) -> NewsEventConfig:
-    if not isinstance(data, dict):
-        raise ValueError("news_event config must be a mapping")
+def parse_news_event_dict(data: dict[str, Any], default_book_id: str = "news_event") -> NewsEventConfig:
+    data = normalize_strategy_raw(data, default_book_id=default_book_id)
     rules_raw = data.get("rules")
     if not isinstance(rules_raw, list) or not rules_raw:
         raise ValueError("rules must be a non-empty list")
@@ -290,9 +452,13 @@ def parse_news_event_dict(data: dict[str, Any]) -> NewsEventConfig:
     if max_per is None or max_per < 1:
         raise ValueError("max_per_ticker must be >= 1")
     gross = _as_float(data.get("max_gross_exposure_pct"), 0.30)
+    if gross is not None and gross > 1.5:
+        gross = gross / 100.0
     if gross is None or gross <= 0:
         raise ValueError("max_gross_exposure_pct must be > 0")
     cost = _as_float(data.get("cost_per_fill_pct"), 0.005)
+    if cost is not None and cost > 0.05:
+        cost = cost / 100.0
     if cost is None or cost < 0:
         raise ValueError("cost_per_fill_pct must be >= 0")
     cool = data.get("cooldown_minutes", None)
@@ -302,9 +468,14 @@ def parse_news_event_dict(data: dict[str, Any]) -> NewsEventConfig:
         cool = int(cool)
         if cool < 0:
             raise ValueError("cooldown_minutes must be >= 0 or null")
+    sizing = str(data.get("sizing") or "fixed").lower().strip()
+    if sizing not in VALID_SIZING:
+        raise ValueError(f"sizing must be one of {sorted(VALID_SIZING)}, got {sizing!r}")
+    book_id = str(data.get("book_id") or default_book_id)
     return NewsEventConfig(
-        book_id=str(data.get("book_id") or "news_event"),
-        title=str(data.get("title") or "News event"),
+        book_id=book_id,
+        title=str(data.get("title") or book_id),
+        description=str(data.get("description") or ""),
         started=str(data.get("started") or "2026-11-10"),
         max_positions=int(max_pos),
         max_per_ticker=int(max_per),
@@ -312,20 +483,50 @@ def parse_news_event_dict(data: dict[str, Any]) -> NewsEventConfig:
         cost_per_fill_pct=float(cost),
         allow_shorts=bool(data.get("allow_shorts", True)),
         cooldown_minutes=cool,
+        sizing=sizing,
+        vol_lookback_days=int(_as_int(data.get("vol_lookback_days"), 20) or 20),
+        vol_target_pct=float(_as_float(data.get("vol_target_pct"), 2.0) or 2.0),
+        score_ref=float(_as_float(data.get("score_ref"), 10.0) or 10.0),
+        chart_filter=data.get("chart_filter"),
+        guidance_bridge=bool(
+            data["guidance_bridge"]
+            if "guidance_bridge" in data
+            else (book_id != "news_event")
+        ),
         rules=rules,
+        path=data.get("path"),
     )
 
 
-def load_news_event_config(path: Path | None = None) -> NewsEventConfig:
-    """Load YAML (or fall back to baked defaults if missing/invalid)."""
-    path = path or NEWS_EVENT_PATH
+def load_strategy_config(book_id: str = "news_event", path: Path | None = None) -> NewsEventConfig:
+    """Load YAML for a book (falls back to news_event defaults only for that book)."""
+    path = path or strategy_path(book_id)
     if not path.exists():
-        return default_news_event_config()
+        if book_id == "news_event":
+            return default_news_event_config()
+        raise FileNotFoundError(f"strategy config missing: {path}")
     try:
         raw = yaml.safe_load(path.read_text()) or {}
-        return parse_news_event_dict(raw)
+        cfg = parse_news_event_dict(raw, default_book_id=book_id)
+        try:
+            cfg.path = str(Path(path).resolve().relative_to(ROOT))
+        except Exception:
+            cfg.path = str(path)
+        if not cfg.book_id:
+            cfg.book_id = book_id
+        return cfg
     except Exception as e:
-        # Never break the engine on a bad edit — keep last-known-good defaults.
+        if book_id == "news_event":
+            print(f"news_event config load failed ({path}): {e}; using defaults", flush=True)
+            return default_news_event_config()
+        raise
+
+
+def load_news_event_config(path: Path | None = None) -> NewsEventConfig:
+    """Back-compat loader for the original news_event book."""
+    try:
+        return load_strategy_config("news_event", path=path)
+    except Exception as e:
         print(f"news_event config load failed ({path}): {e}; using defaults", flush=True)
         return default_news_event_config()
 
@@ -334,6 +535,8 @@ def normalize_source(src: str | None) -> str | None:
     if not src:
         return None
     key = str(src).strip().lower()
+    if key == "news":
+        return None  # unknown wire — do not filter out
     return SOURCE_ALIASES.get(key, src)
 
 
@@ -344,6 +547,84 @@ def _f(x) -> float | None:
         return float(x)
     except (TypeError, ValueError):
         return None
+
+
+def candidate_event_types(
+    candidate: dict[str, Any],
+    *,
+    guidance_bridge: bool = True,
+) -> set[str]:
+    """Event types implied by news tags (+ optional guidance classifier bridge)."""
+    types: set[str] = set()
+    et = (candidate.get("news_event_type") or "").lower().strip()
+    if et:
+        types.add(et)
+        types |= CATEGORY_ALIASES.get(et, set())
+    for t in candidate.get("rule_tags") or []:
+        key = (t or "").lower().strip()
+        if key and key not in {"news_event", "news_long", "news_short"}:
+            types.add(key)
+            types |= CATEGORY_ALIASES.get(key, set())
+    if guidance_bridge:
+        g = (candidate.get("guidance") or "").lower().strip()
+        if g == "raised":
+            types.add("guidance_raise")
+        elif g == "cut":
+            types.add("guidance_cut")
+    return types
+
+
+def _enrich_market_fields(candidate: dict[str, Any]) -> tuple[float | None, float | None, float | None]:
+    """Return (gap_pct, surprise_pct, price), fetching gap/price when missing."""
+    gap = _f(candidate.get("gap_pct"))
+    surprise = _f(candidate.get("surprise_pct"))
+    px = _f(candidate.get("last") or candidate.get("price") or candidate.get("entry_usd"))
+    ticker = candidate.get("ticker")
+    if ticker and (gap is None or px is None):
+        try:
+            from stocks.market import price_snapshot
+
+            snap = price_snapshot(str(ticker)) or {}
+            if gap is None:
+                gap = _f(snap.get("gap_pct"))
+            if px is None:
+                px = _f(snap.get("last") or snap.get("open"))
+        except Exception:
+            pass
+    return gap, surprise, px
+
+
+def realized_vol_pct(ticker: str, lookback_days: int = 20) -> float | None:
+    """Daily return stdev in percent over lookback (approx realized vol)."""
+    try:
+        import yfinance as yf
+
+        h = yf.Ticker(ticker).history(period=f"{max(lookback_days + 10, 30)}d", interval="1d", auto_adjust=True)
+        if h is None or h.empty or "Close" not in h:
+            return None
+        rets = h["Close"].pct_change().dropna().tail(int(lookback_days))
+        if len(rets) < max(5, lookback_days // 2):
+            return None
+        return float(rets.std() * 100.0)
+    except Exception:
+        return None
+
+
+def score_size_multiplier(gap: float | None, surprise: float | None, score_ref: float) -> float:
+    """|EPS surprise| or |gap| vs score_ref (percent points), clamped 0.25x–2x."""
+    ref = float(score_ref) if score_ref else 10.0
+    parts = [abs(x) for x in (gap, surprise) if x is not None]
+    if not parts or ref <= 0:
+        return 1.0
+    score = max(parts)
+    return _clamp(score / ref, SIZE_MULT_MIN, SIZE_MULT_MAX)
+
+
+def vol_size_multiplier(ticker: str, vol_target_pct: float, lookback_days: int) -> float:
+    realized = realized_vol_pct(ticker, lookback_days)
+    if realized is None or realized <= 0 or vol_target_pct <= 0:
+        return 1.0
+    return _clamp(float(vol_target_pct) / realized, SIZE_MULT_MIN, SIZE_MULT_MAX)
 
 
 @dataclass
@@ -366,20 +647,20 @@ def match_candidate_to_news_config(
 ) -> NewsMatch | None:
     """Return the first enabled matching rule for a candidate, or None."""
     cfg = cfg or load_news_event_config()
-    et = (candidate.get("news_event_type") or "").lower().strip()
-    if not et or not candidate.get("ticker"):
+    ticker = candidate.get("ticker")
+    if not ticker:
+        return None
+    events = candidate_event_types(candidate, guidance_bridge=bool(cfg.guidance_bridge))
+    if not events:
         return None
 
-    # Tags that can exclude (event type itself, rule_tags, explicit news tags)
     tags = {(t or "").lower() for t in (candidate.get("rule_tags") or [])}
-    tags.add(et)
+    tags |= events
     if candidate.get("news_direction"):
         tags.add(str(candidate["news_direction"]).lower())
 
     src = normalize_source(candidate.get("news_source") or candidate.get("source"))
-    gap = _f(candidate.get("gap_pct"))
-    surprise = _f(candidate.get("surprise_pct"))
-    px = _f(candidate.get("last") or candidate.get("price") or candidate.get("entry_usd"))
+    gap, surprise, px = _enrich_market_fields(candidate)
     dvol = _f(candidate.get("avg_dollar_volume") or candidate.get("dollar_volume"))
 
     for rule in cfg.rules:
@@ -387,21 +668,28 @@ def match_candidate_to_news_config(
             continue
         if rule.side == "short" and not cfg.allow_shorts:
             continue
-        if et not in rule.category_set():
+        if not (events & rule.category_set()):
             continue
         if any(t in rule.exclude_tags for t in tags):
             continue
-        # Source filter (if candidate has a known source)
         if src and rule.sources:
             allowed = {str(s) for s in rule.sources}
             if src not in allowed:
                 continue
+        # Enrich gap if this rule needs it
+        needs_gap = rule.min_gap_pct is not None or rule.max_gap_pct is not None
+        if needs_gap and gap is None:
+            gap, surprise, px = _enrich_market_fields(candidate)
         if rule.min_gap_pct is not None and (gap is None or gap < rule.min_gap_pct):
             continue
         if rule.max_gap_pct is not None and (gap is None or gap > rule.max_gap_pct):
             continue
         if rule.min_eps_surprise_pct is not None and (
             surprise is None or surprise < rule.min_eps_surprise_pct
+        ):
+            continue
+        if rule.max_eps_surprise_pct is not None and (
+            surprise is None or surprise > rule.max_eps_surprise_pct
         ):
             continue
         if rule.min_price is not None and (px is None or px < rule.min_price):
@@ -421,10 +709,17 @@ def match_candidate_to_news_config(
             except Exception:
                 delay = 0
 
+        size = float(rule.size_pct)
+        if cfg.sizing == "score_scaled":
+            size *= score_size_multiplier(gap, surprise, cfg.score_ref)
+        elif cfg.sizing == "vol_scaled":
+            size *= vol_size_multiplier(str(ticker), cfg.vol_target_pct, cfg.vol_lookback_days)
+        size = _clamp(size, 0.001, 1.0)
+
         return NewsMatch(
             rule=rule,
             side=rule.side,
-            size_pct=rule.size_pct,
+            size_pct=size,
             hold_days=rule.hold.trading_days(),
             stop_loss=rule.exits.stop_pct,
             take_profit=rule.exits.take_profit_pct,
@@ -437,5 +732,8 @@ def match_candidate_to_news_config(
 
 
 def configs_equal_for_defaults(a: NewsEventConfig, b: NewsEventConfig) -> bool:
-    """Structural equality used by tests (ignore object identity)."""
-    return a.to_public_dict() == b.to_public_dict()
+    """Structural equality used by tests (ignore object identity / path)."""
+    da, db = a.to_public_dict(), b.to_public_dict()
+    da.pop("path", None)
+    db.pop("path", None)
+    return da == db
