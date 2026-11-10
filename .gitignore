@@ -21,3 +21,7 @@ config/config.yaml
 data/news/*.json
 data/news/*.csv
 research/closes.csv
+# stocks forward-test caches (do not commit large raw parquet)
+stocks/data/cache/
+stocks/data/raw/
+*.parquet

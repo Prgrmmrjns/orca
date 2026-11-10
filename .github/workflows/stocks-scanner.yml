@@ -1,0 +1,59 @@
+name: stocks-scanner
+
+on:
+  schedule:
+    # Every 15 minutes on weekdays (UTC)
+    - cron: "*/15 * * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stocks-scanner
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install "yfinance>=0.2.40" pandas requests lxml beautifulsoup4 html5lib pyarrow
+
+      - name: Run scanner
+        env:
+          ORCA_MODE: paper
+        run: |
+          set +e
+          for i in 1 2 3; do
+            python -m stocks scan --days-back 1 --days-forward 1 && exit 0
+            echo "scanner attempt $i failed; retrying..."
+            sleep $((i * 20))
+          done
+          echo "scanner failed after retries (non-fatal for schedule)"
+          exit 0
+
+      - name: Commit candidates if changed
+        run: |
+          git config user.name "orca-stocks-bot"
+          git config user.email "orca-bot@users.noreply.github.com"
+          git add state/stocks/candidates.json demo/state/stocks/candidates.json || true
+          if git diff --cached --quiet; then
+            echo "no candidate changes"
+          else
+            git commit -m "stocks: scanner update $(date -u +%Y-%m-%dT%H:%MZ)"
+            git pull --rebase --autostash origin main || true
+            git push origin HEAD:main
+          fi

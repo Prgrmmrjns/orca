@@ -1,17 +1,26 @@
-# Orca — Kraken paper-trading bot
+# Orca — paper earnings agent (US stocks)
 
-Local Python bot for **paper** backtesting spot crypto strategies on **Kraken.com** public market data.
+**Active product:** paper forward test of an agentic US stock **earnings** strategy since **2026-11-10** (EUR 1,000). Live at [orca-paper.vercel.app](https://orca-paper.vercel.app).
 
-> **Safety:** `mode: paper` only. No API keys are required or created. Live order placement is hard-disabled. Never enable Withdraw on any future API key. `ORCA_MODE` must stay `paper`.
+> **Safety:** `mode: paper` only. No broker API, no real orders, no keys with trade/withdraw rights. `ORCA_MODE` must stay `paper`.
 
-## Live paper book (demo)
+Crypto Kraken paper code remains in the repo (`orca/`, `scripts/orca_daily.py`, `state/ledger.json`) but the daily crypto strategy is **paused** and no longer the homepage ([/crypto.html](https://orca-paper.vercel.app/crypto.html)).
 
-The Vercel demo at `demo/` marks a **persisted paper ledger** (`state/ledger.json`) to market with public Kraken prices. It does **not** replay trades on each request and never calls Kraken private/order APIs.
+## Stocks paper book (demo)
 
-- **Start:** 2026-10-13, capital €1000 − €4.99 subscription.
-- **Daily job:** Chewbacca runs `python scripts/orca_daily.py` (signal only) or `python scripts/orca_daily.py --apply` (append paper fill + `logs/metrics.jsonl`), then commits the ledger.
-- **APIs:** `/api/today` reads the ledger + live marks. `/api/daily` is read-only (no Vercel cron).
-- **September figures** on the page are labelled **backtest**, separate from the live paper book.
+- **Package:** `stocks/` — scanner (Nasdaq calendar + yfinance EPS + EDGAR 8-K Item 2.02), engine (fills/exits/marks), `python -m stocks.decide` CLI
+- **State:** `state/stocks/{candidates,decisions,ledger}.json` (mirrored to `demo/state/stocks/` for Vercel)
+- **Costs:** 0.5% of notional on every fill; max 10% equity / long, 5% / short, max 8 open
+- **Listeners:** GitHub Actions `stocks-scanner` (every 15m weekdays), `stocks-engine` (US open / midday / after close), `stocks-decide` (workflow_dispatch)
+- **Agent:** see `AGENT.md` and `stocks/DECISION_PROMPT.md` (Chewbacca)
+
+## Crypto paper book (paused)
+
+The Vercel `/crypto.html` page still marks the crypto ledger with public Kraken prices. No private/order APIs.
+
+- **Start:** 2026-10-13, capital €1000.
+- **Daily job (paused):** `python scripts/orca_daily.py --apply`
+- **APIs:** `/api/today` (crypto), `/api/stocks` (earnings homepage)
 
 ---
 
