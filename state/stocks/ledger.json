@@ -1,12 +1,17 @@
 {
   "mode": "paper",
-  "strategy": "earnings-agent-v1",
+  "book_id": "agent",
+  "strategy": "agent",
+  "strategy_title": "Agent (Chewbacca)",
+  "kind": "agent",
   "base_currency": "EUR",
-  "note": "Paper only. Forward test of agentic US earnings strategy. No broker API.",
+  "note": "DEPRECATED mirror of books/agent/ledger.json \u2014 use books/agent/",
+  "rules": "Discretionary agentic book. Cursor agent decides via stocks.decide from shared candidates. Baseline \u2014 not auto-traded by the engine.",
   "start_date": "2026-11-10",
   "start_capital_eur": 1000.0,
-  "eur_usd_start": 1.12271249294281,
+  "eur_usd_start": 1.1,
   "cash_eur": 1000.0,
+  "equity_eur": 1000.0,
   "positions": {},
   "pending": [],
   "closed_trades": [],
@@ -14,18 +19,17 @@
     {
       "day": "2026-11-10",
       "equity_eur": 1000.0,
-      "spy_eur": 1000.0,
-      "cash_eur": 1000.0,
-      "n_open": 0
+      "spy_eur": 1000.0
     }
   ],
+  "spy_history": [],
   "cost_pct": 0.005,
   "max_position_pct": 0.1,
   "max_short_pct": 0.05,
+  "default_size": 0.08,
+  "default_hold_days": 5,
+  "stop_loss": null,
   "max_open": 8,
-  "last_run": "2026-11-10T10:55:48Z",
-  "last_reason": "Fresh paper book reset 2026-11-10 \u2014 stocks only.",
-  "equity_eur": 1000.0,
-  "eur_usd": 1.12271249294281,
-  "spy_history": []
+  "last_run": null,
+  "last_reason": "Initialized paper book `agent`."
 }

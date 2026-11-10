@@ -24,7 +24,7 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Show pending candidates
+      - name: Show pending candidates for agent book
         env:
           ORCA_MODE: paper
         run: |
@@ -32,13 +32,18 @@ jobs:
           import json
           from pathlib import Path
           c = json.loads(Path("state/stocks/candidates.json").read_text()) if Path("state/stocks/candidates.json").exists() else {}
-          d = json.loads(Path("state/stocks/decisions.json").read_text()) if Path("state/stocks/decisions.json").exists() else {}
+          agent = Path("state/stocks/books/agent/decisions.json")
+          legacy = Path("state/stocks/decisions.json")
+          dpath = agent if agent.exists() else legacy
+          d = json.loads(dpath.read_text()) if dpath.exists() else {}
           decided = {x.get("ticker") for x in d.get("decisions", []) if x.get("status") in ("new","pending","filled","accepted")}
           tagged = [x for x in c.get("candidates", []) if x.get("rule_tags") and x.get("ticker") not in decided]
           print("as_of", c.get("as_of"))
-          print("tagged_undecided", len(tagged))
+          print("agent_decisions_path", dpath)
+          print("tagged_undecided_for_agent", len(tagged))
           for x in tagged[:30]:
               print(f"{x['ticker']:8} surprise={x.get('surprise_pct')} gap={x.get('gap_pct')} guidance={x.get('guidance')} tags={x.get('rule_tags')}")
           print("NOTE:", """${{ github.event.inputs.note }}""")
+          print("Agent controls ONLY the agent book. Rule books auto-trade in the engine.")
           print("Run deciding agent per AGENT.md / stocks/DECISION_PROMPT.md")
           PY

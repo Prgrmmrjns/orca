@@ -1,6 +1,9 @@
-"""Orca stocks earnings paper forward-test (US equities). PAPER ONLY."""
+"""Orca stocks earnings paper forward-test (US equities). PAPER ONLY.
 
-__version__ = "0.1.0"
+Five parallel €1,000 books since 2026-11-10: agent + four rule books.
+"""
+
+__version__ = "0.2.0"
 MODE = "paper"
 START_DATE = "2026-11-10"
 START_CAPITAL_EUR = 1000.0

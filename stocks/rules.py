@@ -1,51 +1,46 @@
-"""Default rule tags from the earnings backtest findings."""
+"""Candidate rule tags aligned with the parallel paper books."""
 from __future__ import annotations
 
 from typing import Any
 
+from stocks.books import (
+    match_beat5_raise,
+    match_bigbeat_gap,
+    match_guidance_beat,
+    match_miss_short,
+)
+
 
 def tag_candidate(c: dict[str, Any], spy_above: bool | None) -> list[str]:
-    """Attach rule tags used by the deciding agent.
+    """Attach rule tags used by the deciding agent and the dashboard.
 
-    Best: long when EPS beat >5% AND 8-K raises outlook, hold 5.
-    Safer: SPY above 50-day, EPS beat >15%, gap up >5%, hold 3.
-    Gap-and-go (active alternative): beat >5%, gap >5%, hold 5.
-    Short (weak / small size only): strong miss + cut guidance.
+    Tags mirror the automated books (except `agent`, which is discretionary).
     """
     tags: list[str] = []
-    surprise = c.get("surprise_pct")
-    gap = c.get("gap_pct")
-    guidance = (c.get("guidance") or "").lower()
-
-    if surprise is None:
-        return tags
-
-    # longs
-    if surprise > 5 and guidance == "raised":
-        tags.append("best_long_guidance")  # hold 5
-    if spy_above and surprise > 15 and gap is not None and gap > 5:
-        tags.append("safer_long")  # hold 3
-    if surprise > 5 and gap is not None and gap > 5:
-        tags.append("gap_and_go_long")  # hold 5, active alternative
-
-    # shorts — only strong miss + cut
-    if surprise < -10 and guidance == "cut":
-        tags.append("short_cut_guidance")  # small size only
-
+    if match_bigbeat_gap(c, spy_above):
+        tags.append("bigbeat_gap")
+    if match_guidance_beat(c, spy_above):
+        tags.append("guidance_beat")
+    if match_beat5_raise(c, spy_above):
+        tags.append("beat5_raise")
+    if match_miss_short(c, spy_above):
+        tags.append("miss_short")
     return tags
 
 
 def suggested_hold(tags: list[str]) -> int:
-    if "safer_long" in tags and "best_long_guidance" not in tags and "gap_and_go_long" not in tags:
+    if "bigbeat_gap" in tags and "guidance_beat" not in tags and "beat5_raise" not in tags:
         return 3
+    if "miss_short" in tags and not any(t != "miss_short" for t in tags):
+        return 2
     if tags:
         return 5
     return 5
 
 
 def suggested_side(tags: list[str]) -> str | None:
-    if "short_cut_guidance" in tags and not any(t.endswith("long") or "long" in t for t in tags):
+    if "miss_short" in tags and not any(t in tags for t in ("bigbeat_gap", "guidance_beat", "beat5_raise")):
         return "short"
-    if any(t in tags for t in ("best_long_guidance", "safer_long", "gap_and_go_long")):
+    if any(t in tags for t in ("bigbeat_gap", "guidance_beat", "beat5_raise")):
         return "long"
     return None

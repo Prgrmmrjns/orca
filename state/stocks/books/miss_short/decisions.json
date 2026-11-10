@@ -1,0 +1,98 @@
+{
+  "mode": "paper",
+  "decisions": [
+    {
+      "id": "miss_short-BKKT-2026-11-10T11:44:58Z-c56deb",
+      "book_id": "miss_short",
+      "ticker": "BKKT",
+      "side": "short",
+      "size": 0.05,
+      "hold": 2,
+      "reason": "[miss_short] surprise=-153.24 gap=-6.3596 guidance=unknown spy_above=False \u2192 short 2d",
+      "confidence": 1.0,
+      "stop_loss": 0.08,
+      "take_profit": null,
+      "rule_tags": [
+        "miss_short",
+        "miss_short"
+      ],
+      "surprise_pct": -153.24,
+      "gap_pct": -6.3596,
+      "guidance": "unknown",
+      "agent": "rule:miss_short",
+      "prefer_open": true,
+      "decided_at": "2026-11-10T11:44:58Z",
+      "status": "pending"
+    },
+    {
+      "id": "miss_short-MPAA-2026-11-10T11:44:58Z-7f35ed",
+      "book_id": "miss_short",
+      "ticker": "MPAA",
+      "side": "short",
+      "size": 0.05,
+      "hold": 2,
+      "reason": "[miss_short] surprise=-80.2 gap=-19.2966 guidance=unknown spy_above=False \u2192 short 2d",
+      "confidence": 1.0,
+      "stop_loss": 0.08,
+      "take_profit": null,
+      "rule_tags": [
+        "miss_short",
+        "miss_short"
+      ],
+      "surprise_pct": -80.2,
+      "gap_pct": -19.2966,
+      "guidance": "unknown",
+      "agent": "rule:miss_short",
+      "prefer_open": true,
+      "decided_at": "2026-11-10T11:44:58Z",
+      "status": "pending"
+    },
+    {
+      "id": "miss_short-UNIT-2026-11-10T11:44:58Z-549ac5",
+      "book_id": "miss_short",
+      "ticker": "UNIT",
+      "side": "short",
+      "size": 0.05,
+      "hold": 2,
+      "reason": "[miss_short] surprise=-78.66 gap=-8.2721 guidance=unknown spy_above=False \u2192 short 2d",
+      "confidence": 1.0,
+      "stop_loss": 0.08,
+      "take_profit": null,
+      "rule_tags": [
+        "miss_short",
+        "miss_short"
+      ],
+      "surprise_pct": -78.66,
+      "gap_pct": -8.2721,
+      "guidance": "unknown",
+      "agent": "rule:miss_short",
+      "prefer_open": true,
+      "decided_at": "2026-11-10T11:44:58Z",
+      "status": "pending"
+    },
+    {
+      "id": "miss_short-HROW-2026-11-10T11:44:58Z-9b9f01",
+      "book_id": "miss_short",
+      "ticker": "HROW",
+      "side": "short",
+      "size": 0.05,
+      "hold": 2,
+      "reason": "[miss_short] surprise=-56.91 gap=-15.3121 guidance=unknown spy_above=False \u2192 short 2d",
+      "confidence": 1.0,
+      "stop_loss": 0.08,
+      "take_profit": null,
+      "rule_tags": [
+        "miss_short",
+        "miss_short"
+      ],
+      "surprise_pct": -56.91,
+      "gap_pct": -15.3121,
+      "guidance": "unknown",
+      "agent": "rule:miss_short",
+      "prefer_open": true,
+      "decided_at": "2026-11-10T11:44:58Z",
+      "status": "pending"
+    }
+  ],
+  "updated_at": "2026-11-10T11:44:58Z"
+}

@@ -52,7 +52,7 @@ jobs:
           echo "engine failed after retries (non-fatal)"
           exit 0
 
-      - name: Commit ledger if changed
+      - name: Commit multi-book ledgers if changed
         run: |
           git config user.name "orca-stocks-bot"
           git config user.email "orca-bot@users.noreply.github.com"
@@ -60,7 +60,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "no ledger changes"
           else
-            git commit -m "stocks: engine mark/fill $(date -u +%Y-%m-%dT%H:%MZ)"
+            git commit -m "stocks: multi-book engine mark/fill $(date -u +%Y-%m-%dT%H:%MZ)"
             git pull --rebase --autostash origin main || true
             git push origin HEAD:main
           fi

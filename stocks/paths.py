@@ -9,16 +9,44 @@ ROOT = Path(__file__).resolve().parents[1]
 STATE = ROOT / "state" / "stocks"
 DEMO_STATE = ROOT / "demo" / "state" / "stocks"
 CACHE = ROOT / "stocks" / "data" / "cache"
+BOOKS_DIR = STATE / "books"
+DEMO_BOOKS_DIR = DEMO_STATE / "books"
 
+# Shared across all books
 CANDIDATES = STATE / "candidates.json"
-DECISIONS = STATE / "decisions.json"
-LEDGER = STATE / "ledger.json"
+
+# Legacy single-book paths (migrated into books/agent/)
+LEGACY_DECISIONS = STATE / "decisions.json"
+LEGACY_LEDGER = STATE / "ledger.json"
 
 
 def ensure_dirs() -> None:
     STATE.mkdir(parents=True, exist_ok=True)
     DEMO_STATE.mkdir(parents=True, exist_ok=True)
+    BOOKS_DIR.mkdir(parents=True, exist_ok=True)
+    DEMO_BOOKS_DIR.mkdir(parents=True, exist_ok=True)
     CACHE.mkdir(parents=True, exist_ok=True)
+
+
+def book_dir(book_id: str) -> Path:
+    return BOOKS_DIR / book_id
+
+
+def demo_book_dir(book_id: str) -> Path:
+    return DEMO_BOOKS_DIR / book_id
+
+
+def ledger_path(book_id: str) -> Path:
+    return book_dir(book_id) / "ledger.json"
+
+
+def decisions_path(book_id: str) -> Path:
+    return book_dir(book_id) / "decisions.json"
+
+
+# Backward-compat aliases for the agent book (decide CLI / old imports)
+DECISIONS = decisions_path("agent")
+LEDGER = ledger_path("agent")
 
 
 def read_json(path: Path, default=None):

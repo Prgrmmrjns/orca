@@ -29,3 +29,20 @@ def crypto_gone():
 def stocks():
     require_paper()
     return JSONResponse(stocks_snapshot(), headers={"Cache-Control": "no-store"})
+
+
+@app.get("/api/stocks/books")
+def stocks_books():
+    require_paper()
+    data = stocks_snapshot()
+    return JSONResponse(
+        {
+            "mode": data["mode"],
+            "as_of": data["as_of"],
+            "since": data["since"],
+            "spy_above_ma50": data.get("spy_above_ma50"),
+            "books": data.get("books") or [],
+            "rules": data.get("rules") or {},
+        },
+        headers={"Cache-Control": "no-store"},
+    )

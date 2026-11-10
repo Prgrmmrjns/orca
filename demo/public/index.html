@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Orca — US earnings paper agent</title>
+  <title>Orca — multi-book earnings paper</title>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
   <style>
     :root {
@@ -26,20 +26,18 @@
         radial-gradient(500px 240px at 100% 0%, rgba(20, 90, 120, 0.22), transparent 55%),
         var(--bg);
     }
-    main { max-width: 980px; margin: 0 auto; padding: 18px 14px 40px; }
+    main { max-width: 1100px; margin: 0 auto; padding: 18px 14px 40px; }
     header { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
     h1 {
       font-family: Palatino, "Palatino Linotype", Georgia, serif;
       font-weight: 500; font-size: 30px; margin: 0; letter-spacing: 0.02em;
     }
     .sub { color: var(--muted); margin: 4px 0 0; }
-    .nav { margin-left: auto; font-size: 12px; }
-    .nav a { color: var(--ice); text-decoration: none; border-bottom: 1px solid rgba(127,212,255,.35); }
     .strip, .panel {
       background: var(--card); border: 1px solid var(--line); border-radius: 12px;
       padding: 12px 14px; margin-top: 12px;
     }
-    .strip b { font-size: 28px; color: var(--ice); font-family: Palatino, Georgia, serif; font-weight: 500; }
+    .strip b { font-size: 22px; color: var(--ice); font-family: Palatino, Georgia, serif; font-weight: 500; }
     .strip .meta { color: var(--muted); margin-top: 4px; }
     h2 { font-size: 12px; color: var(--ice); margin: 0 0 8px; letter-spacing: 0.04em; text-transform: uppercase; }
     table { width: 100%; border-collapse: collapse; }
@@ -52,11 +50,20 @@
       border: 1px solid rgba(127,212,255,.35); padding: 1px 5px; margin: 1px 2px 1px 0;
       border-radius: 3px;
     }
-    canvas { max-height: 220px; }
+    canvas { max-height: 260px; }
     ul.rules { margin: 6px 0 0; padding-left: 18px; color: var(--muted); }
     .note {
       margin-top: 14px; font-size: 12px; color: var(--muted);
       border-top: 1px solid rgba(29,78,115,.55); padding-top: 10px;
+    }
+    .book-tabs { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; }
+    .book-tabs button {
+      background: transparent; color: var(--muted); border: 1px solid var(--line);
+      border-radius: 6px; padding: 4px 10px; cursor: pointer; font: inherit;
+    }
+    .book-tabs button.active { color: var(--ice); border-color: var(--ice); }
+    .legend-swatch {
+      display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 4px;
     }
   </style>
 </head>
@@ -65,49 +72,61 @@
     <header>
       <div>
         <h1>Orca</h1>
-        <p class="sub" id="sub">US stock earnings paper agent</p>
+        <p class="sub" id="sub">Five-book US earnings paper forward test</p>
       </div>
     </header>
 
-    <section class="strip" id="strip">Loading paper book…</section>
+    <section class="strip" id="strip">Loading paper books…</section>
 
     <section class="panel">
-      <h2>Equity vs SPY (EUR)</h2>
-      <canvas id="curve" height="120"></canvas>
-    </section>
-
-    <section class="panel">
-      <h2>Open positions</h2>
+      <h2>Book comparison (since 2026-11-10)</h2>
       <table>
-        <thead><tr><th>Ticker</th><th>Side</th><th>Size</th><th>Entry</th><th>Mark</th><th>P&amp;L</th><th>Exit</th><th>Reason</th></tr></thead>
-        <tbody id="pos"></tbody>
+        <thead>
+          <tr>
+            <th>Book</th><th>Equity</th><th>Return</th><th>Open</th><th>Closed</th>
+            <th>Win rate</th><th>vs SPY</th>
+          </tr>
+        </thead>
+        <tbody id="cmp"></tbody>
       </table>
     </section>
 
     <section class="panel">
-      <h2>Today's candidates &amp; decisions</h2>
+      <h2>Equity curves (€) vs SPY</h2>
+      <canvas id="curve" height="140"></canvas>
+    </section>
+
+    <section class="panel">
+      <h2>Trades by book</h2>
+      <div class="book-tabs" id="tabs"></div>
       <table>
-        <thead><tr><th>Ticker</th><th>Surp%</th><th>Gap%</th><th>Guidance</th><th>Tags</th><th>Decision</th><th>Reason</th></tr></thead>
+        <thead>
+          <tr>
+            <th>Status</th><th>Ticker</th><th>Side</th><th>Size</th>
+            <th>Entry</th><th>Exit / mark</th><th>P&amp;L</th><th>Why</th>
+          </tr>
+        </thead>
+        <tbody id="trades"></tbody>
+      </table>
+    </section>
+
+    <section class="panel">
+      <h2>Today's candidates (shared) &amp; agent decisions</h2>
+      <table>
+        <thead><tr><th>Ticker</th><th>Surp%</th><th>Gap%</th><th>Guidance</th><th>Tags</th><th>Agent</th><th>Reason</th></tr></thead>
         <tbody id="cands"></tbody>
       </table>
     </section>
 
     <section class="panel">
-      <h2>Closed trades (after 0.5% costs)</h2>
-      <table>
-        <thead><tr><th>Ticker</th><th>Side</th><th>Entry</th><th>Exit</th><th>Net P&amp;L</th><th>Why</th></tr></thead>
-        <tbody id="closed"></tbody>
-      </table>
-    </section>
-
-    <section class="panel">
-      <h2>Default rules</h2>
+      <h2>Book rules</h2>
       <ul class="rules" id="rules"></ul>
     </section>
 
-    <p class="note">Paper only — forward test since 2026-11-10. No broker API, no real orders. Cost model: 0.5% of notional on every fill (entry and exit). Account EUR 1,000; max 10% equity per long, 5% per short, max 8 open.</p>
+    <p class="note">Paper only — five independent €1,000 books since 2026-11-10. No broker API, no real orders. Cost model: 0.5% of notional on every fill. EUR sizing via EURUSD=X. Rule books auto-trade in the Actions engine; only the <code>agent</code> book is discretionary.</p>
   </main>
   <script>
+    const COLORS = ["#7fd4ff", "#9ae6b4", "#f6ad55", "#d6bcfa", "#fc8181", "#8eb4cc"];
     function pct(n) {
       if (n == null || Number.isNaN(n)) return "—";
       const v = Number(n);
@@ -117,79 +136,190 @@
       if (n == null || Number.isNaN(n)) return "—";
       return Number(n).toFixed(d);
     }
+    function cls(n) {
+      if (n == null || Number.isNaN(n)) return "muted";
+      return Number(n) >= 0 ? "up" : "down";
+    }
     let chart;
-    function drawCurve(eqHist, spyHist) {
-      const byDay = {};
-      for (const h of spyHist || []) byDay[h.day] = h.spy_eur;
-      const labels = (eqHist || []).map(h => h.day);
-      const eq = (eqHist || []).map(h => h.equity_eur);
-      const spy = (eqHist || []).map(h => h.spy_eur != null ? h.spy_eur : byDay[h.day]);
+    let selectedBook = "agent";
+    let lastData = null;
+
+    function drawCurves(books) {
+      const daySet = new Set();
+      for (const b of books) {
+        for (const h of b.equity_history || []) daySet.add(h.day);
+      }
+      const labels = Array.from(daySet).sort();
+      const datasets = books.map((b, i) => {
+        const byDay = {};
+        for (const h of b.equity_history || []) byDay[h.day] = h.equity_eur;
+        return {
+          label: b.id,
+          data: labels.map(d => byDay[d] ?? null),
+          borderColor: COLORS[i % COLORS.length],
+          tension: 0.2,
+          pointRadius: 0,
+          borderWidth: 2,
+          spanGaps: true,
+        };
+      });
+      // SPY from first book that has it
+      let spyBy = {};
+      for (const b of books) {
+        for (const h of b.equity_history || []) {
+          if (h.spy_eur != null) spyBy[h.day] = h.spy_eur;
+        }
+        for (const h of b.spy_history || []) {
+          if (h.spy_eur != null) spyBy[h.day] = h.spy_eur;
+        }
+      }
+      if (Object.keys(spyBy).length) {
+        datasets.push({
+          label: "SPY €",
+          data: labels.map(d => spyBy[d] ?? null),
+          borderColor: "#8eb4cc",
+          tension: 0.2,
+          pointRadius: 0,
+          borderWidth: 1.5,
+          borderDash: [4, 3],
+          spanGaps: true,
+        });
+      }
       const ctx = document.getElementById("curve");
       if (chart) chart.destroy();
       chart = new Chart(ctx, {
         type: "line",
-        data: {
-          labels,
-          datasets: [
-            { label: "Orca €", data: eq, borderColor: "#7fd4ff", tension: 0.2, pointRadius: 0, borderWidth: 2 },
-            { label: "SPY €", data: spy, borderColor: "#8eb4cc", tension: 0.2, pointRadius: 0, borderWidth: 1.5, borderDash: [4,3] },
-          ],
-        },
+        data: { labels, datasets },
         options: {
           responsive: true,
           plugins: { legend: { labels: { color: "#8eb4cc", boxWidth: 12 } } },
           scales: {
-            x: { ticks: { color: "#8eb4cc", maxTicksLimit: 6 }, grid: { color: "rgba(29,78,115,.35)" } },
+            x: { ticks: { color: "#8eb4cc", maxTicksLimit: 8 }, grid: { color: "rgba(29,78,115,.35)" } },
             y: { ticks: { color: "#8eb4cc" }, grid: { color: "rgba(29,78,115,.35)" } },
           },
         },
       });
     }
+
+    function renderTrades(book) {
+      const tbody = document.getElementById("trades");
+      tbody.replaceChildren();
+      const rows = [];
+      for (const p of book.positions || []) {
+        rows.push({
+          status: "open",
+          ticker: p.ticker,
+          side: p.side,
+          size: p.size,
+          entry: p.entry_usd,
+          exit: p.mark_usd,
+          pl: p.unrealized_pnl_pct,
+          why: (p.reason || "") + (p.exit_day ? " · exit " + p.exit_day : ""),
+        });
+      }
+      for (const t of book.closed_trades || []) {
+        rows.push({
+          status: "closed",
+          ticker: t.ticker,
+          side: t.side,
+          size: null,
+          entry: t.entry_usd,
+          exit: t.exit_usd,
+          pl: t.pnl_pct_net,
+          why: (t.exit_reason || "") + (t.reason ? " — " + t.reason : ""),
+          pnl_eur: t.pnl_eur,
+        });
+      }
+      if (!rows.length) {
+        tbody.innerHTML = "<tr><td colspan='8' class='muted'>No trades yet on this book.</td></tr>";
+        return;
+      }
+      for (const r of rows) {
+        const tr = document.createElement("tr");
+        tr.innerHTML =
+          "<td>" + r.status + "</td>" +
+          "<td><b>" + r.ticker + "</b></td>" +
+          "<td>" + (r.side || "") + "</td>" +
+          "<td>" + (r.size != null ? Math.round(r.size * 100) + "%" : "—") + "</td>" +
+          "<td>$" + num(r.entry, 2) + "</td>" +
+          "<td>$" + num(r.exit, 2) + "</td>" +
+          "<td class='" + cls(r.pl) + "'>" + pct(r.pl) +
+          (r.pnl_eur != null ? " · €" + num(r.pnl_eur, 2) : "") + "</td>" +
+          "<td class='muted'>" + (r.why || "").slice(0, 140) + "</td>";
+        tbody.appendChild(tr);
+      }
+    }
+
+    function selectBook(id) {
+      selectedBook = id;
+      if (!lastData) return;
+      const books = lastData.books || [];
+      document.querySelectorAll(".book-tabs button").forEach(btn => {
+        btn.classList.toggle("active", btn.dataset.id === id);
+      });
+      const book = books.find(b => b.id === id) || books[0];
+      if (book) renderTrades(book);
+    }
+
     async function load() {
       const data = await (await fetch("/api/stocks", { cache: "no-store" })).json();
-      const book = data.book || {};
-      const ret = book.return_pct || 0;
+      lastData = data;
+      const books = data.books || [];
       document.getElementById("sub").textContent =
-        "Paper only, forward test since " + (data.since || "2026-11-10") +
+        "Paper only · 5× €1,000 since " + (data.since || "2026-11-10") +
         " · " + (data.as_of || "") +
         (data.spy_above_ma50 == null ? "" : (data.spy_above_ma50 ? " · SPY above MA50" : " · SPY below MA50"));
+
+      const best = books.slice().sort((a, b) => (b.return_pct || 0) - (a.return_pct || 0))[0];
       document.getElementById("strip").innerHTML =
-        "<b>" + (ret >= 0 ? "+" : "−") + Math.abs(ret).toFixed(1) + "% · €" +
-        Math.round(book.equity_eur || 0).toLocaleString("en-IE") + "</b>" +
-        "<div class='meta'>cash €" + num(book.cash_eur, 0) +
-        " · open " + (book.n_open || 0) +
-        " · closed " + (book.n_closed || 0) +
-        " · EURUSD " + num(book.eur_usd, 4) +
-        " · cost " + ((book.cost_pct || 0.005) * 100).toFixed(1) + "%/fill</div>";
+        "<b>" + books.length + " books · leader " +
+        (best ? best.id + " " + pct(best.return_pct) : "—") + "</b>" +
+        "<div class='meta'>shared candidates · 0.5%/fill · EURUSD sizing · rule books auto · agent discretionary</div>";
 
-      drawCurve(data.equity_history || [], data.spy_history || []);
-
-      const pos = document.getElementById("pos");
-      pos.replaceChildren();
-      for (const r of data.positions || []) {
+      const cmp = document.getElementById("cmp");
+      cmp.replaceChildren();
+      books.forEach((b, i) => {
         const tr = document.createElement("tr");
-        const pl = r.unrealized_pnl_pct;
         tr.innerHTML =
-          "<td>" + r.ticker + "</td><td>" + r.side + "</td><td>" + ((r.size || 0) * 100).toFixed(0) +
-          "%</td><td>$" + num(r.entry_usd, 2) + "</td><td>$" + num(r.mark_usd, 2) +
-          "</td><td class='" + (pl >= 0 ? "up" : "down") + "'>" + pct(pl) +
-          "</td><td>" + (r.exit_day || "") + "</td><td class='muted'>" + (r.reason || "") + "</td>";
-        pos.appendChild(tr);
+          "<td><span class='legend-swatch' style='background:" + COLORS[i % COLORS.length] +
+          "'></span><b>" + b.id + "</b><div class='muted'>" + (b.title || "") + "</div></td>" +
+          "<td>€" + num(b.equity_eur, 0) + "</td>" +
+          "<td class='" + cls(b.return_pct) + "'>" + pct(b.return_pct) + "</td>" +
+          "<td>" + (b.n_open || 0) + "</td>" +
+          "<td>" + (b.n_closed || 0) + "</td>" +
+          "<td>" + (b.win_rate_pct != null ? b.win_rate_pct.toFixed(0) + "%" : "—") + "</td>" +
+          "<td class='" + cls(b.vs_spy_pct) + "'>" + pct(b.vs_spy_pct) + "</td>";
+        cmp.appendChild(tr);
+      });
+      if (!books.length) {
+        cmp.innerHTML = "<tr><td colspan='7' class='muted'>No books initialized yet.</td></tr>";
       }
-      if (!(data.positions || []).length) {
-        pos.innerHTML = "<tr><td colspan='8' class='muted'>No open positions.</td></tr>";
+
+      drawCurves(books);
+
+      const tabs = document.getElementById("tabs");
+      tabs.replaceChildren();
+      for (const b of books) {
+        const btn = document.createElement("button");
+        btn.textContent = b.id;
+        btn.dataset.id = b.id;
+        btn.onclick = () => selectBook(b.id);
+        tabs.appendChild(btn);
       }
+      if (!books.find(b => b.id === selectedBook) && books[0]) selectedBook = books[0].id;
+      selectBook(selectedBook);
 
       const cands = document.getElementById("cands");
       cands.replaceChildren();
-      const rows = (data.candidates || []).slice(0, 40);
-      for (const c of rows) {
+      const rows = (data.candidates || []).filter(c => (c.rule_tags || []).length).slice(0, 40);
+      const fallback = rows.length ? rows : (data.candidates || []).slice(0, 20);
+      for (const c of fallback) {
         const tr = document.createElement("tr");
         const tags = (c.rule_tags || []).map(t => "<span class='tag'>" + t + "</span>").join("") || "—";
         const d = c.decision;
         const dec = d
           ? (d.side + (d.size ? " " + Math.round(d.size * 100) + "%" : "") + " · " + (d.status || ""))
-          : "<span class='muted'>undecided</span>";
+          : "<span class='muted'>—</span>";
         tr.innerHTML =
           "<td><b>" + c.ticker + "</b></td>" +
           "<td>" + num(c.surprise_pct, 1) + "</td>" +
@@ -200,25 +330,8 @@
           "<td class='muted'>" + ((d && d.reason) || c.headline || "").slice(0, 120) + "</td>";
         cands.appendChild(tr);
       }
-      if (!rows.length) {
+      if (!fallback.length) {
         cands.innerHTML = "<tr><td colspan='7' class='muted'>No candidates yet — scanner will populate on weekdays.</td></tr>";
-      }
-
-      const closed = document.getElementById("closed");
-      closed.replaceChildren();
-      for (const t of data.closed_trades || []) {
-        const tr = document.createElement("tr");
-        const pl = t.pnl_pct_net;
-        tr.innerHTML =
-          "<td>" + t.ticker + "</td><td>" + t.side + "</td><td>$" + num(t.entry_usd, 2) +
-          "</td><td>$" + num(t.exit_usd, 2) +
-          "</td><td class='" + (pl >= 0 ? "up" : "down") + "'>" + pct(pl) +
-          " · €" + num(t.pnl_eur, 2) +
-          "</td><td class='muted'>" + (t.exit_reason || "") + (t.reason ? " — " + t.reason : "") + "</td>";
-        closed.appendChild(tr);
-      }
-      if (!(data.closed_trades || []).length) {
-        closed.innerHTML = "<tr><td colspan='6' class='muted'>No closed trades yet.</td></tr>";
       }
 
       const rules = document.getElementById("rules");
@@ -228,6 +341,13 @@
         const li = document.createElement("li");
         li.innerHTML = "<b>" + k + "</b> — " + v;
         rules.appendChild(li);
+      }
+      if (!Object.keys(rmap).length) {
+        for (const b of books) {
+          const li = document.createElement("li");
+          li.innerHTML = "<b>" + b.id + "</b> — " + (b.rules || "");
+          rules.appendChild(li);
+        }
       }
     }
     load().catch(e => {

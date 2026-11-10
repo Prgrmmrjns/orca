@@ -1,43 +1,32 @@
-# Orca — US stock earnings paper agent
+# Orca — multi-book US earnings paper forward test
 
-**Paper-only** forward test of an agentic US stock **earnings** strategy since **2026-11-10** (EUR 1,000). Live: [orca-paper.vercel.app](https://orca-paper.vercel.app).
+**Paper-only** side-by-side forward test of **five** earnings strategies since **2026-11-10** (EUR **1,000 each**). Live: [orca-paper.vercel.app](https://orca-paper.vercel.app).
 
 > **Safety:** `mode: paper` only. No broker API, no real orders, no keys with trade/withdraw rights. `ORCA_MODE` must stay `paper`.
 
-## What it does
+## Books
 
-- **Scanner** (`stocks/`): Nasdaq earnings calendar + yfinance EPS/gap + SEC EDGAR 8-K Item 2.02 guidance keywords → `state/stocks/candidates.json`
-- **Decider** (Chewbacca / Cursor agent): reads candidates + press releases, writes decisions via `python -m stocks.decide` (risk caps enforced)
-- **Engine**: fills at next regular open (or session price if open), time exits, optional stop/target, marks to market; **0.5%** cost on every fill
-- **Dashboard** (`demo/`): equity vs SPY (EUR), open positions, today's candidates/decisions, closed trades
+| Book | Trader | Rule |
+| --- | --- | --- |
+| `agent` | Cursor agent (`stocks.decide`) | Discretionary baseline |
+| `bigbeat_gap` | Engine | surprise >15%, gap >5%, SPY>MA50 · 10% · max 8 · hold 3 · no stop |
+| `guidance_beat` | Engine | raised guidance + surprise >8%, release out · 10% · max 8 · hold 5 |
+| `beat5_raise` | Engine | surprise >5% + raised outlook · 10% · max 8 · hold 5 |
+| `miss_short` | Engine | surprise <-10% AND gap <-5% · 5% · max 4 · hold 2 · 8% stop |
+
+Shared candidates; independent ledgers. Cost **0.5%**/fill; EUR sizing via **EURUSD=X**.
 
 ## Commands
 
 ```bash
-python -m stocks scan                  # refresh candidates
-python -m stocks.decide --ticker TICK --side long --size 0.08 --hold 5 --reason "..."
-python -m stocks engine --apply        # fills / exits / marks
-python -m stocks init                  # reset paper ledger (careful)
+python -m stocks scan                  # refresh shared candidates
+python -m stocks.decide --ticker TICK --side long --size 0.08 --hold 5 --reason "..."  # agent book only
+python -m stocks engine --apply        # all books: auto-decide rules + fill/exit/mark
+python -m stocks init                  # reset all five books to €1,000
+python -m stocks replay --live         # rule dry-run over sample + live candidates
 ```
 
-See `AGENT.md` and `stocks/DECISION_PROMPT.md` for the deciding-agent loop.
-
-## Risk caps
-
-| Cap | Value |
-| --- | --- |
-| Start | EUR 1,000 on 2026-11-10 |
-| Long size | ≤ 10% of equity |
-| Short size | ≤ 5% of equity |
-| Max open | 8 |
-| Cost | 0.5% of notional per fill (entry and exit) |
-
-## Default rules (from backtest)
-
-- **Best:** EPS beat >5% AND 8-K raises outlook → long, hold 5
-- **Safer:** SPY above 50-day, beat >15%, gap >5% → long, hold 3
-- **Gap-and-go (active alternative):** beat >5%, gap >5% → long, hold 5
-- **Shorts (weak):** strong miss + cut guidance only, small size
+See `AGENT.md` and `stocks/DECISION_PROMPT.md` for the deciding-agent loop (**agent book only**).
 
 ## Listeners (GitHub Actions)
 
@@ -50,11 +39,10 @@ See `AGENT.md` and `stocks/DECISION_PROMPT.md` for the deciding-agent loop.
 ## Layout
 
 ```
-demo/                 # Vercel root — stocks dashboard only
-stocks/               # scanner, engine, decide CLI
-state/stocks/         # candidates, decisions, ledger (mirrored to demo/state/stocks/)
-archive/crypto-demo/  # old Kraken demo pages (not served)
-orca/, scripts/       # legacy crypto research code (not the live product)
+demo/                      # Vercel root — multi-book comparison dashboard
+stocks/                    # scanner, engine, decide CLI, rule books
+state/stocks/candidates.json
+state/stocks/books/<id>/   # ledger.json + decisions.json per book
 ```
 
 ## Disclaimer

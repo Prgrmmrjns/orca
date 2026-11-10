@@ -1,0 +1,45 @@
+{
+  "mode": "paper",
+  "book_id": "bigbeat_gap",
+  "strategy": "bigbeat_gap",
+  "strategy_title": "Big beat + gap",
+  "kind": "rule",
+  "base_currency": "EUR",
+  "note": "Paper only. Forward test book `bigbeat_gap` since 2026-11-10. No broker API. Long when EPS surprise >15%, first open gaps up >5% vs prior close, and SPY is above its 50-day SMA. 10% equity, max 8, hold 3 days, no stop.",
+  "rules": "Long when EPS surprise >15%, first open gaps up >5% vs prior close, and SPY is above its 50-day SMA. 10% equity, max 8, hold 3 days, no stop.",
+  "start_date": "2026-11-10",
+  "start_capital_eur": 1000.0,
+  "eur_usd_start": 1.1222084760665894,
+  "cash_eur": 1000.0,
+  "equity_eur": 1000.0,
+  "positions": {},
+  "pending": [],
+  "closed_trades": [],
+  "equity_history": [
+    {
+      "day": "2026-11-10",
+      "equity_eur": 1000.0,
+      "spy_eur": 1000.0,
+      "cash_eur": 1000.0,
+      "n_open": 0
+    }
+  ],
+  "spy_history": [
+    {
+      "day": "2026-11-09",
+      "spy_eur": 1000.0,
+      "spy_usd": 752.69,
+      "eur_usd": 1.12196
+    }
+  ],
+  "cost_pct": 0.005,
+  "max_position_pct": 0.1,
+  "max_short_pct": 0.05,
+  "default_size": 0.1,
+  "default_hold_days": 3,
+  "stop_loss": null,
+  "max_open": 8,
+  "last_run": "2026-11-10T11:44:58Z",
+  "last_reason": "engine[bigbeat_gap]: auto=0 ingested=0 fills=0 closed=0 open=0 session=pre",
+  "eur_usd": 1.121956706047058
+}

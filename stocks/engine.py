@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
-"""Paper engine: fill pending decisions, time/stop exits, mark to market."""
+"""Paper engine: multi-book fills, exits, marks. Rule books auto-decide; agent uses CLI."""
 from __future__ import annotations
 
 import argparse
+import json
 import sys
+import uuid
 from datetime import date, datetime
 from pathlib import Path
 from typing import Any
@@ -12,14 +14,8 @@ ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from stocks import (
-    COST_PCT,
-    MAX_OPEN,
-    MAX_POSITION_PCT,
-    MAX_SHORT_PCT,
-    START_CAPITAL_EUR,
-    START_DATE,
-)
+from stocks import COST_PCT, MAX_POSITION_PCT, MAX_SHORT_PCT, START_CAPITAL_EUR, START_DATE
+from stocks.books import AGENT_BOOK_ID, BOOK_BY_ID, BOOKS, BookSpec, matches
 from stocks.market import (
     add_trading_days,
     daily_bar,
@@ -30,73 +26,150 @@ from stocks.market import (
     spy_history_eur,
     utc_now_iso,
 )
-from stocks.paths import DECISIONS, LEDGER, ensure_dirs, read_json, write_json
+from stocks.paths import (
+    CANDIDATES,
+    LEGACY_DECISIONS,
+    LEGACY_LEDGER,
+    decisions_path,
+    ensure_dirs,
+    ledger_path,
+    read_json,
+    write_json,
+)
 
 
-def empty_ledger() -> dict:
+def empty_ledger(book: BookSpec | None = None) -> dict:
+    book = book or BOOK_BY_ID[AGENT_BOOK_ID]
     fx = eurusd()
     return {
         "mode": "paper",
-        "strategy": "earnings-agent-v1",
+        "book_id": book.id,
+        "strategy": book.id,
+        "strategy_title": book.title,
+        "kind": book.kind,
         "base_currency": "EUR",
-        "note": "Paper only. Forward test of agentic US earnings strategy. No broker API.",
+        "note": (
+            f"Paper only. Forward test book `{book.id}` since {START_DATE}. "
+            "No broker API. " + book.description
+        ),
+        "rules": book.description,
         "start_date": START_DATE,
         "start_capital_eur": START_CAPITAL_EUR,
         "eur_usd_start": fx,
         "cash_eur": START_CAPITAL_EUR,
+        "equity_eur": START_CAPITAL_EUR,
         "positions": {},
         "pending": [],
         "closed_trades": [],
         "equity_history": [
             {"day": START_DATE, "equity_eur": START_CAPITAL_EUR, "spy_eur": START_CAPITAL_EUR}
         ],
+        "spy_history": [],
         "cost_pct": COST_PCT,
-        "max_position_pct": MAX_POSITION_PCT,
+        "max_position_pct": MAX_POSITION_PCT if book.side == "long" or book.kind == "agent" else book.size,
         "max_short_pct": MAX_SHORT_PCT,
-        "max_open": MAX_OPEN,
+        "default_size": book.size,
+        "default_hold_days": book.hold_days,
+        "stop_loss": book.stop_loss,
+        "max_open": book.max_open,
         "last_run": None,
-        "last_reason": "Initialized paper book.",
+        "last_reason": f"Initialized paper book `{book.id}`.",
     }
 
 
-def load_ledger() -> dict:
+def empty_decisions() -> dict:
+    return {"mode": "paper", "decisions": [], "updated_at": None}
+
+
+def migrate_legacy_agent_state() -> None:
+    """Move top-level ledger/decisions into books/agent/ if agent book is missing."""
     ensure_dirs()
-    led = read_json(LEDGER, default=None)
+    agent_led = ledger_path(AGENT_BOOK_ID)
+    agent_dec = decisions_path(AGENT_BOOK_ID)
+    if not agent_led.exists() and LEGACY_LEDGER.exists():
+        write_json(agent_led, read_json(LEGACY_LEDGER, default=empty_ledger()))
+    if not agent_dec.exists() and LEGACY_DECISIONS.exists():
+        write_json(agent_dec, read_json(LEGACY_DECISIONS, default=empty_decisions()))
+
+
+def init_all_books(force: bool = False) -> list[str]:
+    """Ensure every book has a €1,000 ledger. With force=True, reset all books."""
+    migrate_legacy_agent_state()
+    created = []
+    for book in BOOKS:
+        lp = ledger_path(book.id)
+        dp = decisions_path(book.id)
+        if force or not lp.exists():
+            # If agent book already exists with meaningful history and not forcing, skip.
+            # (force path always resets; !exists always creates.)
+            if (
+                not force
+                and book.id == AGENT_BOOK_ID
+                and lp.exists()
+            ):
+                pass
+            else:
+                # Reset agent only if empty/tiny when force requested via stocks init;
+                # force=True always resets every book.
+                if force and book.id == AGENT_BOOK_ID and lp.exists():
+                    led = read_json(lp, default={})
+                    n_closed = len(led.get("closed_trades") or [])
+                    n_open = len(led.get("positions") or {}) + len(led.get("pending") or [])
+                    eq = float(led.get("equity_eur") or START_CAPITAL_EUR)
+                    tiny = n_closed == 0 and n_open == 0 and abs(eq - START_CAPITAL_EUR) < 1.0
+                    if not tiny:
+                        # Still reset: user asked for aligned forward test start.
+                        pass
+                write_json(lp, empty_ledger(book))
+                created.append(book.id)
+        else:
+            led = read_json(lp, default={})
+            dirty = False
+            if led.get("book_id") != book.id:
+                led["book_id"] = book.id
+                dirty = True
+            if not led.get("strategy_title"):
+                led["strategy_title"] = book.title
+                dirty = True
+            if not led.get("kind"):
+                led["kind"] = book.kind
+                dirty = True
+            if dirty:
+                write_json(lp, led)
+        if force or not dp.exists():
+            write_json(dp, empty_decisions())
+    agent_led = read_json(ledger_path(AGENT_BOOK_ID), default=empty_ledger())
+    agent_dec = read_json(decisions_path(AGENT_BOOK_ID), default=empty_decisions())
+    write_json(
+        LEGACY_LEDGER,
+        {**agent_led, "note": "DEPRECATED mirror of books/agent/ledger.json — use books/agent/"},
+    )
+    write_json(LEGACY_DECISIONS, agent_dec)
+    return created
+
+
+def load_ledger(book_id: str) -> dict:
+    ensure_dirs()
+    book = BOOK_BY_ID[book_id]
+    path = ledger_path(book_id)
+    led = read_json(path, default=None)
     if not led or led.get("mode") != "paper":
-        led = empty_ledger()
-        write_json(LEDGER, led)
+        led = empty_ledger(book)
+        write_json(path, led)
+    led.setdefault("book_id", book_id)
+    led.setdefault("max_open", book.max_open)
     return led
 
 
-def equity_eur(led: dict, marks: dict[str, float], fx: float) -> float:
-    eq = float(led.get("cash_eur") or 0)
-    for t, p in (led.get("positions") or {}).items():
-        px = marks.get(t) or p.get("mark_usd") or p.get("entry_usd")
-        shares = float(p["shares"])
-        side = p.get("side", "long")
-        # value in EUR
-        notional_usd = abs(shares) * float(px)
-        notional_eur = notional_usd / fx
-        if side == "long":
-            eq += notional_eur
-        else:
-            # short: cash already includes short proceeds; P&L = entry - current
-            entry = float(p["entry_usd"])
-            pnl_usd = (entry - float(px)) * abs(shares)
-            # accounting: cash_eur held short collateral notionally as cash + unrealized
-            # We store shorts with cash credited at entry (net of cost). Mark = cash + unrealized.
-            eq += pnl_usd / fx
-            # Also the reserved/credited proceeds are already in cash; don't double-count shares.
-    return eq
-
-
-def _position_equity_contrib(p: dict, px: float, fx: float) -> float:
-    shares = abs(float(p["shares"]))
-    side = p.get("side", "long")
-    if side == "long":
-        return (shares * px) / fx
-    entry = float(p["entry_usd"])
-    return ((entry - px) * shares) / fx
+def load_decisions(book_id: str) -> dict:
+    ensure_dirs()
+    path = decisions_path(book_id)
+    d = read_json(path, default=None)
+    if not d:
+        d = empty_decisions()
+        write_json(path, d)
+    d.setdefault("decisions", [])
+    return d
 
 
 def mark_book(led: dict) -> tuple[dict, dict[str, float], float]:
@@ -113,22 +186,11 @@ def mark_book(led: dict) -> tuple[dict, dict[str, float], float]:
             p["unrealized_pnl_pct"] = round((entry / marks[t] - 1) * 100, 4) if marks[t] else None
         else:
             p["unrealized_pnl_pct"] = round((marks[t] / entry - 1) * 100, 4) if entry else None
-    # Recompute equity carefully for shorts:
-    # cash_eur includes proceeds from short sales (and deducts long buys).
-    # For longs: equity = cash + market value.
-    # For shorts: at entry we added proceeds to cash and did NOT subtract a liability separately;
-    # so mark = cash + sum(long MV) + sum(short unrealized P&L) - wait.
-    # Simpler invariant:
-    #   long buy: cash -= notional*(1+cost); position holds shares
-    #   short sell: cash += notional*(1-cost); position holds negative exposure shares
-    #   equity = cash + sum(side_sign * shares * px)/fx
-    #   where side_sign = +1 long, -1 short... but short shares stored positive with side=short.
     eq = float(led.get("cash_eur") or 0)
     for t, p in (led.get("positions") or {}).items():
         px = marks[t]
         shares = abs(float(p["shares"]))
         if p.get("side") == "short":
-            # liability to buy back
             eq -= (shares * px) / fx
         else:
             eq += (shares * px) / fx
@@ -141,9 +203,83 @@ def _open_count(led: dict) -> int:
     return len(led.get("positions") or {}) + len(led.get("pending") or [])
 
 
-def ingest_decisions(led: dict) -> int:
-    """Move undecided→pending orders from decisions.json into ledger.pending."""
-    dec = read_json(DECISIONS, default={"decisions": []})
+def _open_tickers(led: dict, book_id: str) -> set[str]:
+    tickers = set((led.get("positions") or {}).keys()) | {
+        p.get("ticker") for p in (led.get("pending") or []) if p.get("ticker")
+    }
+    for d in load_decisions(book_id).get("decisions") or []:
+        if d.get("status") in ("new", "accepted", "pending") and d.get("side") in ("long", "short"):
+            tickers.add(d["ticker"])
+    return tickers
+
+
+def auto_decide_rule_book(book: BookSpec) -> int:
+    """Create decisions for candidates matching a rule book. Returns # new decisions."""
+    if book.kind != "rule" or book.matcher is None:
+        return 0
+    cands = read_json(CANDIDATES, default={})
+    spy_above = cands.get("spy_above_ma50")
+    led = load_ledger(book.id)
+    open_tickers = _open_tickers(led, book.id)
+    # One trade per ticker per book for this forward test (no re-entry after close).
+    seen = set(open_tickers)
+    for t in (led.get("closed_trades") or []):
+        if t.get("ticker"):
+            seen.add(t["ticker"])
+    for d in load_decisions(book.id).get("decisions") or []:
+        if d.get("ticker") and d.get("side") in ("long", "short"):
+            seen.add(d["ticker"])
+    max_open = int(led.get("max_open") or book.max_open)
+    dec = load_decisions(book.id)
+    n = 0
+    for c in cands.get("candidates") or []:
+        ticker = c.get("ticker")
+        if not ticker or ticker in seen:
+            continue
+        if not matches(book, c, spy_above):
+            continue
+        if len(open_tickers) >= max_open:
+            break
+        reason = (
+            f"[{book.id}] surprise={c.get('surprise_pct')} gap={c.get('gap_pct')} "
+            f"guidance={c.get('guidance')} spy_above={c.get('spy_above_ma50')} "
+            f"→ {book.side} {book.hold_days}d"
+        )
+        rec = {
+            "id": f"{book.id}-{ticker}-{utc_now_iso()}-{uuid.uuid4().hex[:6]}",
+            "book_id": book.id,
+            "ticker": ticker,
+            "side": book.side,
+            "size": book.size,
+            "hold": book.hold_days,
+            "reason": reason,
+            "confidence": 1.0,
+            "stop_loss": book.stop_loss,
+            "take_profit": book.take_profit,
+            "rule_tags": [book.id] + list(c.get("rule_tags") or []),
+            "surprise_pct": c.get("surprise_pct"),
+            "gap_pct": c.get("gap_pct"),
+            "guidance": c.get("guidance"),
+            "agent": f"rule:{book.id}",
+            "prefer_open": True,
+            "decided_at": utc_now_iso(),
+            "status": "new",
+        }
+        dec["decisions"].append(rec)
+        open_tickers.add(ticker)
+        seen.add(ticker)
+        n += 1
+    if n:
+        dec["updated_at"] = utc_now_iso()
+        write_json(decisions_path(book.id), dec)
+    return n
+
+
+def ingest_decisions(led: dict, book_id: str) -> int:
+    """Move new decisions into ledger.pending for one book."""
+    book = BOOK_BY_ID[book_id]
+    max_open = int(led.get("max_open") or book.max_open)
+    dec = load_decisions(book_id)
     decisions = dec.get("decisions") or []
     pending = led.setdefault("pending", [])
     pending_ids = {p.get("id") for p in pending}
@@ -158,7 +294,7 @@ def ingest_decisions(led: dict) -> int:
         tid = d.get("id") or f"{d.get('ticker')}-{d.get('decided_at')}"
         d["id"] = tid
         if tid in pending_ids or d.get("ticker") in open_tickers:
-            d["status"] = d.get("status") or "duplicate"
+            d["status"] = d.get("status") if d.get("status") not in (None, "new", "accepted") else "duplicate"
             continue
         if d.get("side") not in ("long", "short"):
             d["status"] = "invalid"
@@ -173,7 +309,7 @@ def ingest_decisions(led: dict) -> int:
             size = MAX_SHORT_PCT
             d["size"] = size
             d["size_capped"] = True
-        if _open_count(led) >= MAX_OPEN:
+        if _open_count(led) >= max_open:
             d["status"] = "rejected_max_open"
             continue
         order = {
@@ -181,24 +317,26 @@ def ingest_decisions(led: dict) -> int:
             "ticker": d["ticker"],
             "side": side,
             "size": size,
-            "hold_days": int(d.get("hold") or d.get("hold_days") or 5),
-            "stop_loss": d.get("stop_loss"),
-            "take_profit": d.get("take_profit"),
+            "hold_days": int(d.get("hold") or d.get("hold_days") or book.hold_days),
+            "stop_loss": d.get("stop_loss", book.stop_loss),
+            "take_profit": d.get("take_profit", book.take_profit),
             "reason": d.get("reason") or "",
             "confidence": d.get("confidence"),
             "rule_tags": d.get("rule_tags") or [],
+            "prefer_open": bool(d.get("prefer_open") or book.kind == "rule"),
             "decided_at": d.get("decided_at"),
             "status": "pending",
+            "book_id": book_id,
         }
         pending.append(order)
         open_tickers.add(d["ticker"])
         d["status"] = "pending"
         n += 1
-    write_json(DECISIONS, dec)
+    write_json(decisions_path(book_id), dec)
     return n
 
 
-def fill_pending(led: dict, marks: dict[str, float], fx: float) -> list[dict]:
+def fill_pending(led: dict, marks: dict[str, float], fx: float, book_id: str) -> list[dict]:
     """Fill pending at next regular open, or current price if market is open at decision time."""
     session = market_session()
     today = now_et().date()
@@ -206,29 +344,32 @@ def fill_pending(led: dict, marks: dict[str, float], fx: float) -> list[dict]:
     still = []
     for order in led.get("pending") or []:
         ticker = order["ticker"]
-        # determine fill price
         bar = daily_bar(ticker, today)
         px = None
         fill_note = ""
+        prefer_open = bool(order.get("prefer_open"))
         if session == "open":
-            # fill at current/last (or today's open if available)
-            snap = price_snapshot(ticker)
-            px = snap.get("last") or (bar.get("open") if bar else None) or marks.get(ticker)
-            fill_note = "filled at session price (market open)"
+            if prefer_open and bar.get("open"):
+                px = bar["open"]
+                fill_note = "filled at regular-session open (rule book)"
+            else:
+                snap = price_snapshot(ticker)
+                px = snap.get("last") or (bar.get("open") if bar else None) or marks.get(ticker)
+                fill_note = "filled at session price (market open)"
         else:
-            # wait for next regular-session open
             decided = order.get("decided_at")
             decided_day = None
             if decided:
                 try:
-                    decided_day = datetime.fromisoformat(decided.replace("Z", "+00:00")).astimezone(now_et().tzinfo).date()
+                    decided_day = datetime.fromisoformat(decided.replace("Z", "+00:00")).astimezone(
+                        now_et().tzinfo
+                    ).date()
                 except Exception:
                     decided_day = None
             if decided_day and decided_day < today and bar.get("open"):
                 px = bar["open"]
                 fill_note = "filled at regular-session open"
             elif session == "pre" and bar.get("open"):
-                # pre-market: don't fill yet unless we have a real open print after 9:30
                 still.append(order)
                 continue
             else:
@@ -239,7 +380,6 @@ def fill_pending(led: dict, marks: dict[str, float], fx: float) -> list[dict]:
             continue
 
         size = float(order["size"])
-        # mark book first for sizing equity
         led, marks2, fx = mark_book(led)
         eq = float(led["equity_eur"])
         notional_eur = eq * size
@@ -256,7 +396,6 @@ def fill_pending(led: dict, marks: dict[str, float], fx: float) -> list[dict]:
         if side == "long":
             led["cash_eur"] = float(led["cash_eur"]) - notional_eur - cost_eur
         else:
-            # short: receive proceeds, pay cost
             led["cash_eur"] = float(led["cash_eur"]) + notional_eur - cost_eur
 
         exit_day = add_trading_days(today, int(order["hold_days"]))
@@ -279,6 +418,7 @@ def fill_pending(led: dict, marks: dict[str, float], fx: float) -> list[dict]:
             "confidence": order.get("confidence"),
             "rule_tags": order.get("rule_tags") or [],
             "decision_id": order.get("id"),
+            "book_id": book_id,
             "mark_usd": round(px, 6),
         }
         led.setdefault("positions", {})[ticker] = pos
@@ -293,27 +433,28 @@ def fill_pending(led: dict, marks: dict[str, float], fx: float) -> list[dict]:
             "reason": order.get("reason"),
             "note": fill_note,
             "decision_id": order.get("id"),
+            "book_id": book_id,
         }
         fills.append(fill)
-        # mark decision filled
-        _update_decision_status(order.get("id"), "filled", fill)
+        _update_decision_status(book_id, order.get("id"), "filled", fill)
     led["pending"] = still
     return fills
 
 
-def _update_decision_status(did: str | None, status: str, fill: dict | None = None) -> None:
+def _update_decision_status(book_id: str, did: str | None, status: str, fill: dict | None = None) -> None:
     if not did:
         return
-    dec = read_json(DECISIONS, default={"decisions": []})
+    path = decisions_path(book_id)
+    dec = read_json(path, default={"decisions": []})
     for d in dec.get("decisions") or []:
         if d.get("id") == did:
             d["status"] = status
             if fill:
                 d["fill"] = fill
-    write_json(DECISIONS, dec)
+    write_json(path, dec)
 
 
-def check_exits(led: dict, fx: float) -> list[dict]:
+def check_exits(led: dict, fx: float, book_id: str) -> list[dict]:
     """Time exits at close after hold days; optional stop/target on daily high/low."""
     today = now_et().date()
     session = market_session()
@@ -332,7 +473,6 @@ def check_exits(led: dict, fx: float) -> list[dict]:
 
         sl = p.get("stop_loss")
         tp = p.get("take_profit")
-        # stop/target checked on daily high/low
         if side == "long":
             if sl is not None and px_low is not None and px_low <= entry * (1 - float(sl)):
                 exit_px = entry * (1 - float(sl))
@@ -349,7 +489,6 @@ def check_exits(led: dict, fx: float) -> list[dict]:
                 exit_why = "take_profit"
 
         exit_day = date.fromisoformat(p["exit_day"])
-        # time exit at close on/after exit_day
         if exit_px is None and today >= exit_day:
             if session in ("after", "closed") or (session == "open" and now_et().hour >= 15):
                 exit_px = px_close or last
@@ -368,12 +507,10 @@ def check_exits(led: dict, fx: float) -> list[dict]:
         notional_eur = notional_usd / fx
 
         if side == "long":
-            # sell: receive proceeds - cost
             led["cash_eur"] = float(led["cash_eur"]) + notional_eur - cost_eur
             pnl_eur = (float(exit_px) - entry) / fx * shares - float(p.get("entry_cost_eur") or 0) - cost_eur
             pnl_pct = (float(exit_px) / entry - 1) - 2 * COST_PCT
         else:
-            # cover short: pay to buy back + cost
             led["cash_eur"] = float(led["cash_eur"]) - notional_eur - cost_eur
             pnl_eur = (entry - float(exit_px)) / fx * shares - float(p.get("entry_cost_eur") or 0) - cost_eur
             pnl_pct = (entry / float(exit_px) - 1) - 2 * COST_PCT
@@ -395,12 +532,13 @@ def check_exits(led: dict, fx: float) -> list[dict]:
             "reason": p.get("reason"),
             "rule_tags": p.get("rule_tags") or [],
             "decision_id": p.get("decision_id"),
+            "book_id": book_id,
             "closed_at": utc_now_iso(),
         }
         led.setdefault("closed_trades", []).append(trade)
         del led["positions"][ticker]
         closed.append(trade)
-        _update_decision_status(p.get("decision_id"), "closed", trade)
+        _update_decision_status(book_id, p.get("decision_id"), "closed", trade)
     return closed
 
 
@@ -411,7 +549,6 @@ def append_equity(led: dict) -> None:
     spy_today = None
     if spy_rows:
         spy_today = spy_rows[-1].get("spy_eur")
-        # align by day if possible
         for r in spy_rows:
             if r["day"] == today:
                 spy_today = r["spy_eur"]
@@ -427,52 +564,80 @@ def append_equity(led: dict) -> None:
         }
     )
     led["equity_history"] = hist
-    # also store spy series snapshot for dashboard (compact)
     led["spy_history"] = spy_rows[-120:] if spy_rows else led.get("spy_history") or []
 
 
-def run(apply: bool = True) -> dict:
+def run_book(book_id: str, apply: bool = True) -> dict:
+    book = BOOK_BY_ID[book_id]
     ensure_dirs()
-    led = load_ledger()
-    ingested = ingest_decisions(led)
+    auto_n = 0
+    if book.kind == "rule" and apply:
+        auto_n = auto_decide_rule_book(book)
+    led = load_ledger(book_id)
+    ingested = ingest_decisions(led, book_id) if apply else 0
     led, marks, fx = mark_book(led)
-    fills = fill_pending(led, marks, fx) if apply else []
+    fills = fill_pending(led, marks, fx, book_id) if apply else []
     led, marks, fx = mark_book(led)
-    closed = check_exits(led, fx) if apply else []
-    append_equity(led)
-    led["last_run"] = utc_now_iso()
-    led["last_reason"] = (
-        f"engine: ingested={ingested} fills={len(fills)} closed={len(closed)} "
-        f"open={len(led.get('positions') or {})} session={market_session()}"
-    )
+    closed = check_exits(led, fx, book_id) if apply else []
     if apply:
-        write_json(LEDGER, led)
-    out = {
+        append_equity(led)
+        led["last_run"] = utc_now_iso()
+        led["last_reason"] = (
+            f"engine[{book_id}]: auto={auto_n} ingested={ingested} fills={len(fills)} "
+            f"closed={len(closed)} open={len(led.get('positions') or {})} session={market_session()}"
+        )
+        write_json(ledger_path(book_id), led)
+        if book_id == AGENT_BOOK_ID:
+            write_json(LEGACY_LEDGER, led)
+            write_json(LEGACY_DECISIONS, load_decisions(book_id))
+    else:
+        led["last_run"] = utc_now_iso()
+        led["last_reason"] = f"engine[{book_id}] dry-run (no writes)"
+    return {
+        "book_id": book_id,
         "as_of": led["last_run"],
         "equity_eur": led.get("equity_eur"),
         "cash_eur": led.get("cash_eur"),
+        "auto_decisions": auto_n,
         "ingested": ingested,
         "fills": fills,
         "closed": closed,
         "n_open": len(led.get("positions") or {}),
-        "n_pending": len(led.get("pending") or {}),
+        "n_pending": len(led.get("pending") or []),
         "session": market_session(),
     }
-    print(__import__("json").dumps(out, indent=2, default=str))
+
+
+def run(apply: bool = True, book_id: str | None = None) -> dict:
+    init_all_books(force=False)
+    ids = [book_id] if book_id else [b.id for b in BOOKS]
+    results = []
+    for bid in ids:
+        results.append(run_book(bid, apply=apply))
+    out = {
+        "as_of": utc_now_iso(),
+        "session": market_session(),
+        "books": results,
+    }
+    print(json.dumps(out, indent=2, default=str))
     return out
 
 
 def main() -> int:
-    ap = argparse.ArgumentParser(description="Stocks paper engine")
+    ap = argparse.ArgumentParser(description="Stocks paper engine (multi-book)")
     ap.add_argument("--apply", action="store_true", default=True)
     ap.add_argument("--dry-run", action="store_true")
-    ap.add_argument("--init", action="store_true", help="reset ledger to starting capital")
+    ap.add_argument("--init", action="store_true", help="reset all books to €1,000")
+    ap.add_argument("--book", default=None, help="run a single book id")
     a = ap.parse_args()
     if a.init:
-        write_json(LEDGER, empty_ledger())
-        print(f"initialized {LEDGER}")
+        created = init_all_books(force=True)
+        print(f"initialized books: {created or [b.id for b in BOOKS]}")
         return 0
-    run(apply=not a.dry_run)
+    if a.book and a.book not in BOOK_BY_ID:
+        print(f"unknown book: {a.book}", file=sys.stderr)
+        return 2
+    run(apply=not a.dry_run, book_id=a.book)
     return 0
 
 

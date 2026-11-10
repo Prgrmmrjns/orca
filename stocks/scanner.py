@@ -13,6 +13,7 @@ if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 from stocks import START_DATE
+from stocks.books import book_rules_public
 from stocks.market import (
     fetch_guidance,
     load_cik_map,
@@ -238,12 +239,7 @@ def scan(days_back: int = 1, days_forward: int = 1, max_tickers: int | None = No
         "n_candidates": len(candidates),
         "n_tagged": sum(1 for c in candidates if c.get("rule_tags")),
         "errors": errors[:50],
-        "rules": {
-            "best_long_guidance": "EPS beat >5% AND 8-K raises outlook → long, hold 5",
-            "safer_long": "SPY>MA50 AND beat >15% AND gap >5% → long, hold 3",
-            "gap_and_go_long": "beat >5% AND gap >5% → long, hold 5 (active alternative)",
-            "short_cut_guidance": "strong miss (<-10%) AND cut guidance → short, small size only",
-        },
+        "rules": book_rules_public(),
         "candidates": candidates,
     }
     write_json(CANDIDATES, out)
