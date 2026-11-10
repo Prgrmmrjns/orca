@@ -161,8 +161,371 @@
         "decision_id": "LINC-2026-11-10T13:53:37Z-740f17",
         "book_id": "agent"
       }
+    },
+    {
+      "id": "DSP-2026-11-10T21:50:12Z-bfeb3e",
+      "book_id": "agent",
+      "ticker": "DSP",
+      "side": "skip",
+      "size": 0.0,
+      "hold": 5,
+      "reason": "Scanner -1067% miss artifact; actual non-GAAP beat $0.13 vs $0.05, soft Q4 rev vs street = mixed \u2192 skip",
+      "confidence": 0.85,
+      "stop_loss": null,
+      "take_profit": null,
+      "rule_tags": [
+        "miss_short"
+      ],
+      "surprise_pct": -1066.67,
+      "gap_pct": -7.9755,
+      "guidance": "none",
+      "agent": "chewbacca",
+      "decided_at": "2026-11-10T21:50:12Z",
+      "status": "new"
+    },
+    {
+      "id": "EXOD-2026-11-10T21:50:13Z-be94f5",
+      "book_id": "agent",
+      "ticker": "EXOD",
+      "side": "skip",
+      "size": 0.0,
+      "hold": 5,
+      "reason": "Scanner -800% miss artifact; adj EPS beat -$0.27 vs -$0.32, no guidance cut \u2192 skip",
+      "confidence": 0.8,
+      "stop_loss": null,
+      "take_profit": null,
+      "rule_tags": [
+        "miss_short"
+      ],
+      "surprise_pct": -800.0,
+      "gap_pct": -6.1702,
+      "guidance": "none",
+      "agent": "chewbacca",
+      "decided_at": "2026-11-10T21:50:13Z",
+      "status": "new"
+    },
+    {
+      "id": "BTGO-2026-11-10T21:50:13Z-62b235",
+      "book_id": "agent",
+      "ticker": "BTGO",
+      "side": "skip",
+      "size": 0.0,
+      "hold": 5,
+      "reason": "Scanner -275% miss unclear; diluted EPS +$0.36 on treasury MTM, soft ops, no guidance cut \u2192 skip",
+      "confidence": 0.75,
+      "stop_loss": null,
+      "take_profit": null,
+      "rule_tags": [
+        "miss_short"
+      ],
+      "surprise_pct": -275.0,
+      "gap_pct": -7.3559,
+      "guidance": "none",
+      "agent": "chewbacca",
+      "decided_at": "2026-11-10T21:50:13Z",
+      "status": "new"
+    },
+    {
+      "id": "GRPN-2026-11-10T21:50:14Z-a15dcf",
+      "book_id": "agent",
+      "ticker": "GRPN",
+      "side": "skip",
+      "size": 0.0,
+      "hold": 5,
+      "reason": "Real EPS/rev miss + soft Q4/FY rev vs street, but gap/premarket ~-20% already priced \u2192 skip stale",
+      "confidence": 0.7,
+      "stop_loss": null,
+      "take_profit": null,
+      "rule_tags": [
+        "miss_short"
+      ],
+      "surprise_pct": -200.0,
+      "gap_pct": -7.7025,
+      "guidance": "none",
+      "agent": "chewbacca",
+      "decided_at": "2026-11-10T21:50:14Z",
+      "status": "new"
+    },
+    {
+      "id": "LTRX-2026-11-10T21:50:14Z-57ffbe",
+      "book_id": "agent",
+      "ticker": "LTRX",
+      "side": "skip",
+      "size": 0.0,
+      "hold": 5,
+      "reason": "Scanner -200% miss artifact; non-GAAP beat $0.05 vs $0.04, reaffirmed double-digit FY growth \u2192 skip",
+      "confidence": 0.85,
+      "stop_loss": null,
+      "take_profit": null,
+      "rule_tags": [
+        "miss_short"
+      ],
+      "surprise_pct": -200.0,
+      "gap_pct": -6.8027,
+      "guidance": "none",
+      "agent": "chewbacca",
+      "decided_at": "2026-11-10T21:50:14Z",
+      "status": "new"
+    },
+    {
+      "id": "BW-2026-11-10T21:50:15Z-134ff1",
+      "book_id": "agent",
+      "ticker": "BW",
+      "side": "skip",
+      "size": 0.0,
+      "hold": 5,
+      "reason": "Mis-dated report_date 2027-03-03; actual Q3 beat/rev surge + FY27 EBITDA target raised, shares up \u2192 skip",
+      "confidence": 0.9,
+      "stop_loss": null,
+      "take_profit": null,
+      "rule_tags": [
+        "miss_short"
+      ],
+      "surprise_pct": -100.0,
+      "gap_pct": -13.1579,
+      "guidance": "unknown",
+      "agent": "chewbacca",
+      "decided_at": "2026-11-10T21:50:15Z",
+      "status": "new"
+    },
+    {
+      "id": "RNGR-2026-11-10T21:50:15Z-d4db9c",
+      "book_id": "agent",
+      "ticker": "RNGR",
+      "side": "skip",
+      "size": 0.0,
+      "hold": 5,
+      "reason": "Real ~-73% EPS miss + gap, but no guidance cut (too early for 2027) \u2192 fail strict miss+cut rule",
+      "confidence": 0.75,
+      "stop_loss": null,
+      "take_profit": null,
+      "rule_tags": [
+        "miss_short"
+      ],
+      "surprise_pct": -72.97,
+      "gap_pct": -7.81,
+      "guidance": "unknown",
+      "agent": "chewbacca",
+      "decided_at": "2026-11-10T21:50:15Z",
+      "status": "new"
+    },
+    {
+      "id": "ETD-2026-11-10T21:50:16Z-0cad8e",
+      "book_id": "agent",
+      "ticker": "ETD",
+      "side": "skip",
+      "size": 0.0,
+      "hold": 5,
+      "reason": "Adj EPS $0.10 vs ~$0.25 miss real, but no outlook issued/cut \u2192 skip without guidance cut",
+      "confidence": 0.8,
+      "stop_loss": null,
+      "take_profit": null,
+      "rule_tags": [
+        "miss_short"
+      ],
+      "surprise_pct": -60.0,
+      "gap_pct": -7.052,
+      "guidance": "none",
+      "agent": "chewbacca",
+      "decided_at": "2026-11-10T21:50:16Z",
+      "status": "new"
+    },
+    {
+      "id": "MNTK-2026-11-10T21:50:16Z-1d39fb",
+      "book_id": "agent",
+      "ticker": "MNTK",
+      "side": "skip",
+      "size": 0.0,
+      "hold": 5,
+      "reason": "Mis-dated report_date 2026-11-16; delayed 10-Q/going-concern news already cratered stock \u2192 skip",
+      "confidence": 0.85,
+      "stop_loss": null,
+      "take_profit": null,
+      "rule_tags": [
+        "miss_short"
+      ],
+      "surprise_pct": -20.0,
+      "gap_pct": -19.0298,
+      "guidance": "none",
+      "agent": "chewbacca",
+      "decided_at": "2026-11-10T21:50:16Z",
+      "status": "new"
+    },
+    {
+      "id": "RPAY-2026-11-10T21:50:17Z-e7529f",
+      "book_id": "agent",
+      "ticker": "RPAY",
+      "side": "skip",
+      "size": 0.0,
+      "hold": 5,
+      "reason": "Adj EPS beat $0.25; GAAP miss is artifact; FY rev/EBITDA reiterated (normalized growth trimmed) \u2192 skip",
+      "confidence": 0.8,
+      "stop_loss": null,
+      "take_profit": null,
+      "rule_tags": [
+        "miss_short"
+      ],
+      "surprise_pct": -16.0,
+      "gap_pct": -8.5011,
+      "guidance": "none",
+      "agent": "chewbacca",
+      "decided_at": "2026-11-10T21:50:17Z",
+      "status": "new"
+    },
+    {
+      "id": "SOC-2026-11-10T21:50:17Z-c53a83",
+      "book_id": "agent",
+      "ticker": "SOC",
+      "side": "skip",
+      "size": 0.0,
+      "hold": 5,
+      "reason": "Real big miss + H2 sales cut 40-45\u219220-30 kbpd, but ~-50% reaction already happened \u2192 skip stale",
+      "confidence": 0.75,
+      "stop_loss": null,
+      "take_profit": null,
+      "rule_tags": [
+        "miss_short"
+      ],
+      "surprise_pct": -13.89,
+      "gap_pct": -9.6064,
+      "guidance": "none",
+      "agent": "chewbacca",
+      "decided_at": "2026-11-10T21:50:17Z",
+      "status": "new"
+    },
+    {
+      "id": "CHRS-2026-11-10T21:50:18Z-419f58",
+      "book_id": "agent",
+      "ticker": "CHRS",
+      "side": "skip",
+      "size": 0.0,
+      "hold": 5,
+      "reason": "Small ~-14% miss + slight LOQTORZI guide trim; restructuring/shares up = mixed \u2192 skip",
+      "confidence": 0.7,
+      "stop_loss": null,
+      "take_profit": null,
+      "rule_tags": [
+        "miss_short"
+      ],
+      "surprise_pct": -13.64,
+      "gap_pct": -5.9412,
+      "guidance": "none",
+      "agent": "chewbacca",
+      "decided_at": "2026-11-10T21:50:18Z",
+      "status": "new"
+    },
+    {
+      "id": "IMNM-2026-11-10T21:50:18Z-368944",
+      "book_id": "agent",
+      "ticker": "IMNM",
+      "side": "skip",
+      "size": 0.0,
+      "hold": 5,
+      "reason": "Clinical-stage EPS miss ~-13%, no guidance cut, pipeline PDUFA/updates intact \u2192 skip",
+      "confidence": 0.75,
+      "stop_loss": null,
+      "take_profit": null,
+      "rule_tags": [
+        "miss_short"
+      ],
+      "surprise_pct": -13.43,
+      "gap_pct": -6.4566,
+      "guidance": "none",
+      "agent": "chewbacca",
+      "decided_at": "2026-11-10T21:50:18Z",
+      "status": "new"
+    },
+    {
+      "id": "US-2026-11-10T21:50:19Z-f0aa79",
+      "book_id": "agent",
+      "ticker": "US",
+      "side": "skip",
+      "size": 0.0,
+      "hold": 5,
+      "reason": "Jerash Holdings (US) 8-K mistagged as ticker US (actual JRSH); not actionable agent name \u2192 skip",
+      "confidence": 0.9,
+      "stop_loss": null,
+      "take_profit": null,
+      "rule_tags": [
+        "news_event",
+        "earnings"
+      ],
+      "surprise_pct": null,
+      "gap_pct": null,
+      "guidance": "none",
+      "agent": "chewbacca",
+      "decided_at": "2026-11-10T21:50:19Z",
+      "status": "new"
+    },
+    {
+      "id": "NVDA-2026-11-10T21:50:19Z-48f0e9",
+      "book_id": "agent",
+      "ticker": "NVDA",
+      "side": "skip",
+      "size": 0.0,
+      "hold": 5,
+      "reason": "Law-firm INVESTOR ALERT/class-action solicitation spam (Hagens Berman); known false-positive \u2192 skip",
+      "confidence": 0.95,
+      "stop_loss": null,
+      "take_profit": null,
+      "rule_tags": [
+        "news_event",
+        "fraud_probe",
+        "news_short"
+      ],
+      "surprise_pct": null,
+      "gap_pct": null,
+      "guidance": "none",
+      "agent": "chewbacca",
+      "decided_at": "2026-11-10T21:50:19Z",
+      "status": "new"
+    },
+    {
+      "id": "CVRX-2026-11-10T21:50:20Z-b65c83",
+      "book_id": "agent",
+      "ticker": "CVRX",
+      "side": "skip",
+      "size": 0.0,
+      "hold": 5,
+      "reason": "Same Hagens Berman shareholder-alert spam as NVDA; not real SEC/DOJ action \u2192 skip",
+      "confidence": 0.95,
+      "stop_loss": null,
+      "take_profit": null,
+      "rule_tags": [
+        "news_event",
+        "fraud_probe",
+        "news_short"
+      ],
+      "surprise_pct": null,
+      "gap_pct": null,
+      "guidance": "none",
+      "agent": "chewbacca",
+      "decided_at": "2026-11-10T21:50:20Z",
+      "status": "new"
+    },
+    {
+      "id": "WTA-2026-11-10T21:50:20Z-a43327",
+      "book_id": "agent",
+      "ticker": "WTA",
+      "side": "skip",
+      "size": 0.0,
+      "hold": 5,
+      "reason": "Scanner mna_deal artifact: Washington Trails Association charity partnership, not equity M&A \u2192 skip",
+      "confidence": 0.9,
+      "stop_loss": null,
+      "take_profit": null,
+      "rule_tags": [
+        "news_event",
+        "mna_deal"
+      ],
+      "surprise_pct": null,
+      "gap_pct": null,
+      "guidance": "none",
+      "agent": "chewbacca",
+      "decided_at": "2026-11-10T21:50:20Z",
+      "status": "new"
     }
   ],
-  "updated_at": "2026-11-10T13:53:37Z",
+  "updated_at": "2026-11-10T21:50:20Z",
   "book_id": "agent"
 }

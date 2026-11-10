@@ -1,12 +1,12 @@
 {
   "mode": "paper",
-  "as_of": "2026-11-10T16:50:40Z",
-  "as_of_et": "2026-11-10 11:50 ET",
+  "as_of": "2026-11-10T21:49:29Z",
+  "as_of_et": "2026-11-10 16:49 ET",
   "forward_test_start": "2026-11-10",
   "spy_above_ma50": false,
   "n_calendar": 646,
-  "n_candidates": 647,
-  "n_tagged": 16,
+  "n_candidates": 648,
+  "n_tagged": 17,
   "errors": [],
   "rules": {
     "agent": "Discretionary agentic book. Cursor agent decides via stocks.decide from shared candidates. Baseline \u2014 not auto-traded by the engine.",
@@ -484,6 +484,36 @@
       "suggested_hold": 2,
       "spy_above_ma50": null,
       "scanned_at": "2026-11-10T16:56:00Z"
+    },
+    {
+      "ticker": "WTA",
+      "name": "WTA",
+      "source": "news",
+      "cal_date": "2026-11-10",
+      "report_date": "2026-11-10",
+      "timing": "news",
+      "surprise_pct": null,
+      "gap_pct": null,
+      "guidance": "none",
+      "headline": "Sound Credit Union and Washington Trails Association Announce Partnership to Support Washington Trails",
+      "excerpt": "Co-branded banking program will connect everyday purchases with support for trails across Washington WASHINGTON, Nov. 10, 2026 /PRNewswire/ -- Sound Credit Union (Sound) and Washington Trails Association (WTA) today announced a three-year strategic partnership that brings together...",
+      "filing_url": "",
+      "exhibit_url": "https://www.prnewswire.com/news-releases/sound-credit-union-and-washington-trails-association-announce-partnership-to-support-washington-trails-302935554.html",
+      "news_id": "cd8c48ee6154db32",
+      "news_source": "prnewswire_financial",
+      "news_event_type": "mna_deal",
+      "news_direction": "bullish",
+      "news_side": null,
+      "news_actionable": false,
+      "news_published_at": "2026-11-10T20:51:00Z",
+      "rule_tags": [
+        "news_event",
+        "mna_deal"
+      ],
+      "suggested_side": null,
+      "suggested_hold": null,
+      "spy_above_ma50": null,
+      "scanned_at": "2026-11-10T21:46:04Z"
     },
     {
       "ticker": "ALTI",
@@ -17523,5 +17553,6 @@
       "suggested_hold": null
     }
   ],
-  "news_merged_at": "2026-11-10T16:57:51Z"
+  "news_merged_at": "2026-11-10T21:46:04Z",
+  "scan_note": "calendar fetch failed; retained prior candidates. errors=2026-11-09: nasdaq calendar failed for 2026-11-09; 2026-11-10: nasdaq calendar failed for 2026-11-10; 2026-11-11: nasdaq calendar failed for 2026-11-11"
 }

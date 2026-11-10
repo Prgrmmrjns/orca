@@ -1,11 +1,11 @@
 {
   "mode": "paper",
-  "as_of": "2026-11-10T16:57:51Z",
-  "as_of_et": "2026-11-10 11:57 ET",
+  "as_of": "2026-11-10T21:46:04Z",
+  "as_of_et": "2026-11-10 16:46 ET",
   "rolling_hours": 72,
-  "n_items": 116,
-  "n_actionable": 12,
-  "n_with_ticker": 10,
+  "n_items": 206,
+  "n_actionable": 19,
+  "n_with_ticker": 32,
   "sources": [
     "prnewswire",
     "prnewswire_financial",
@@ -18,6 +18,1355 @@
   "errors": [],
   "note": "Paper news feed. Keyword tagging is heuristic. Shorts have no borrow model. RSS/EDGAR can lag minutes\u2013hours.",
   "items": [
+    {
+      "id": "a93cacc0ba7f2b66",
+      "source": "edgar_8k",
+      "title": "8-K - InMed Pharmaceuticals Inc. (0001728328) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001193125-26-455640 Size: 2 MB Item 1.01: Entry into a Material Definitive Agreement Item 2.01: Completion of Acquisition or Disposition of Assets Item 2.02: Results of Operations and Financial Condition Item 3.02: Unregistered Sales of Equity Securities Item 3.03: Material Modifications to Rights of Security Holders Item 5.01: Changes in Control of Registrant Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: ",
+      "url": "https://www.sec.gov/Archives/edgar/data/1728328/000119312526455640/0001193125-26-455640-index.htm",
+      "published_at": "2026-11-10T21:45:24Z",
+      "tickers": [],
+      "company": "InMed Pharmaceuticals Inc.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "0ad2c5d4ebc6a8d4",
+      "source": "edgar_8k",
+      "title": "8-K - CHESAPEAKE UTILITIES CORP (0000019745) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001193125-26-455639 Size: 661 KB Item 1.01: Entry into a Material Definitive Agreement Item 2.03: Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/19745/000119312526455639/0001193125-26-455639-index.htm",
+      "published_at": "2026-11-10T21:45:13Z",
+      "tickers": [],
+      "company": "CHESAPEAKE UTILITIES CORP",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "5c649cedcafc0eca",
+      "source": "edgar_8k",
+      "title": "8-K - Crypto Co (0001688126) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001493152-26-051001 Size: 389 KB Item 1.01: Entry into a Material Definitive Agreement Item 3.02: Unregistered Sales of Equity Securities Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1688126/000149315226051001/0001493152-26-051001-index.htm",
+      "published_at": "2026-11-10T21:44:30Z",
+      "tickers": [],
+      "company": "Crypto Co",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "343445698293392d",
+      "source": "edgar_8k",
+      "title": "8-K - TANDY LEATHER FACTORY INC (0000909724) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001140361-26-043052 Size: 374 KB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/909724/000114036126043052/0001140361-26-043052-index.htm",
+      "published_at": "2026-11-10T21:44:20Z",
+      "tickers": [],
+      "company": "TANDY LEATHER FACTORY INC",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "d5bab9c1e589c84e",
+      "source": "edgar_8k",
+      "title": "8-K - KORU Medical Systems, Inc. (0000704440) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001161697-26-000243 Size: 345 KB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/704440/000116169726000243/0001161697-26-000243-index.htm",
+      "published_at": "2026-11-10T21:43:30Z",
+      "tickers": [],
+      "company": "KORU Medical Systems, Inc.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "e2e8c99c66107b5a",
+      "source": "edgar_8k",
+      "title": "8-K - Knowles Corp (0001587523) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001587523-26-000037 Size: 2 MB Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1587523/000158752326000037/0001587523-26-000037-index.htm",
+      "published_at": "2026-11-10T21:42:17Z",
+      "tickers": [],
+      "company": "Knowles Corp",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "999a8e6bf910a165",
+      "source": "marketwatch",
+      "title": "Stocks fall as the 10-year Treasury yield nears 5% mark",
+      "summary": "\u201cI don\u2019t think they should be raising another 25 basis points,\u201d one portfolio manager said about the Federal Reserve\u2019s benchmark interest rate.",
+      "url": "https://www.marketwatch.com/story/why-stocks-are-falling-and-10-year-yields-are-climbing-back-near-5-after-tuesdays-inflation-report-389b8392?mod=mw_rss_topstories",
+      "published_at": "2026-11-10T21:42:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:03Z"
+    },
+    {
+      "id": "613e99e28fd0302c",
+      "source": "edgar_8k",
+      "title": "8-K - BGSF, INC. (0001474903) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001474903-26-000102 Size: 304 KB Item 5.07: Submission of Matters to a Vote of Security Holders Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1474903/000147490326000102/0001474903-26-000102-index.htm",
+      "published_at": "2026-11-10T21:40:19Z",
+      "tickers": [],
+      "company": "BGSF, INC.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "9a34de224ef923c1",
+      "source": "edgar_8k",
+      "title": "8-K - AVAX ONE TECHNOLOGY LTD. (0001826397) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001493152-26-050999 Size: 225 KB Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1826397/000149315226050999/0001493152-26-050999-index.htm",
+      "published_at": "2026-11-10T21:40:12Z",
+      "tickers": [],
+      "company": "AVAX ONE TECHNOLOGY LTD.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "7f7aeaf319f6194c",
+      "source": "prnewswire",
+      "title": "PMET Announces Executive and Board Succession",
+      "summary": "Structured transition will ensure leadership continuity as PMET advances the world-class Shaakichiuwaanaan Project towards financing and development MONTREAL, Nov. 10, 2026 /PRNewswire/ -- November 11, 2026 \u2013 Sydney, Australia Highlights President and CEO Ken Brinsden to transition to...",
+      "url": "https://www.prnewswire.com/news-releases/pmet-announces-executive-and-board-succession-302935608.html",
+      "published_at": "2026-11-10T21:40:00Z",
+      "tickers": [
+        "PMET"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "df98ab709bba7894",
+      "source": "edgar_8k",
+      "title": "8-K - BROADRIDGE FINANCIAL SOLUTIONS, INC. (0001383312) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001383312-26-000039 Size: 169 KB Item 5.07: Submission of Matters to a Vote of Security Holders Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1383312/000138331226000039/0001383312-26-000039-index.htm",
+      "published_at": "2026-11-10T21:37:58Z",
+      "tickers": [],
+      "company": "BROADRIDGE FINANCIAL SOLUTIONS, INC.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "6c76062a383c024d",
+      "source": "prnewswire",
+      "title": "Endava plc Deadline: DAVA Investors Have Opportunity to Lead Endava plc Securities Fraud Lawsuit",
+      "summary": "NEW YORK, Nov. 10, 2026 /PRNewswire/ -- Why: Rosen Law Firm, a global investor rights law firm, reminds purchasers of securities of Endava plc (NYSE: DAVA) between September 4, 2025 and September 21, 2026, both dates inclusive (the \"Class Period\"), of the important November 30, 2026 lead...",
+      "url": "https://www.prnewswire.com/news-releases/endava-plc-deadline-dava-investors-have-opportunity-to-lead-endava-plc-securities-fraud-lawsuit-302935375.html",
+      "published_at": "2026-11-10T21:37:00Z",
+      "tickers": [
+        "DAVA"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "146ec21690f39843",
+      "source": "edgar_8k",
+      "title": "8-K - EVOLUTION PETROLEUM CORP (0001006655) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001104659-26-125263 Size: 1 MB Item 2.02: Results of Operations and Financial Condition Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1006655/000110465926125263/0001104659-26-125263-index.htm",
+      "published_at": "2026-11-10T21:36:47Z",
+      "tickers": [],
+      "company": "EVOLUTION PETROLEUM CORP",
+      "event_type": "fraud_probe",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "ae1cf3944d61a4d0",
+      "source": "edgar_8k",
+      "title": "8-K - Senti Biosciences Holdings, Inc. (0001854270) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001628280-26-072793 Size: 197 KB Item 1.01: Entry into a Material Definitive Agreement Item 3.02: Unregistered Sales of Equity Securities Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1854270/000162828026072793/0001628280-26-072793-index.htm",
+      "published_at": "2026-11-10T21:36:37Z",
+      "tickers": [],
+      "company": "Senti Biosciences Holdings, Inc.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "52a1a186fc93ecc3",
+      "source": "edgar_8k",
+      "title": "8-K - iBio, Inc. (0001420720) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001420720-26-000035 Size: 344 KB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1420720/000142072026000035/0001420720-26-000035-index.htm",
+      "published_at": "2026-11-10T21:36:23Z",
+      "tickers": [],
+      "company": "iBio, Inc.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "30b18833ee020411",
+      "source": "edgar_8k",
+      "title": "8-K - World Omni Auto Receivables Trust 2026-D (0002159090) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001104659-26-125258 Size: 3 MB Item 1.01: Entry into a Material Definitive Agreement Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/2159090/000110465926125258/0001104659-26-125258-index.htm",
+      "published_at": "2026-11-10T21:35:56Z",
+      "tickers": [],
+      "company": "World Omni Auto Receivables Trust 2026-D",
+      "event_type": "fraud_probe",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "a1637feb631b82c8",
+      "source": "edgar_8k",
+      "title": "8-K - WORLD OMNI AUTO RECEIVABLES LLC (0001083199) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001104659-26-125258 Size: 3 MB Item 1.01: Entry into a Material Definitive Agreement Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1083199/000110465926125258/0001104659-26-125258-index.htm",
+      "published_at": "2026-11-10T21:35:56Z",
+      "tickers": [],
+      "company": "WORLD OMNI AUTO RECEIVABLES LLC",
+      "event_type": "fraud_probe",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "be1f967e11c7faff",
+      "source": "edgar_8k",
+      "title": "8-K - ManpowerGroup Inc. (0000871763) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0000871763-26-000002 Size: 158 KB Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/871763/000087176326000002/0000871763-26-000002-index.htm",
+      "published_at": "2026-11-10T21:35:49Z",
+      "tickers": [],
+      "company": "ManpowerGroup Inc.",
+      "event_type": "fraud_probe",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "e15bd7d32a174d04",
+      "source": "edgar_8k",
+      "title": "8-K - NEXTNRG, INC. (0001817004) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001493152-26-050998 Size: 205 KB Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1817004/000149315226050998/0001493152-26-050998-index.htm",
+      "published_at": "2026-11-10T21:35:44Z",
+      "tickers": [],
+      "company": "NEXTNRG, INC.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "afc40f90a4e7fdb4",
+      "source": "edgar_8k",
+      "title": "8-K - Datacentrex, Inc. (0001853825) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001493152-26-050997 Size: 337 KB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1853825/000149315226050997/0001493152-26-050997-index.htm",
+      "published_at": "2026-11-10T21:35:35Z",
+      "tickers": [],
+      "company": "Datacentrex, Inc.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "6dc18788cf16ecfc",
+      "source": "edgar_8k",
+      "title": "8-K - Angel Studios, Inc. (0001865200) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001865200-26-000098 Size: 350 KB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1865200/000186520026000098/0001865200-26-000098-index.htm",
+      "published_at": "2026-11-10T21:35:33Z",
+      "tickers": [],
+      "company": "Angel Studios, Inc.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "230a9e66a8f0a330",
+      "source": "edgar_8k",
+      "title": "8-K - Golden Minerals Co (0001011509) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001104659-26-125255 Size: 909 KB Item 1.01: Entry into a Material Definitive Agreement Item 3.02: Unregistered Sales of Equity Securities Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1011509/000110465926125255/0001104659-26-125255-index.htm",
+      "published_at": "2026-11-10T21:35:28Z",
+      "tickers": [],
+      "company": "Golden Minerals Co",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "4a08e04832357469",
+      "source": "edgar_8k",
+      "title": "8-K - Stran & Company, Inc. (0001872525) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001213900-26-118067 Size: 359 KB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1872525/000121390026118067/0001213900-26-118067-index.htm",
+      "published_at": "2026-11-10T21:35:13Z",
+      "tickers": [],
+      "company": "Stran & Company, Inc.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "d7587f6c0a2edb13",
+      "source": "edgar_8k",
+      "title": "8-K - Fortitude Gold Corp (0001828377) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001104659-26-125253 Size: 848 KB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1828377/000110465926125253/0001104659-26-125253-index.htm",
+      "published_at": "2026-11-10T21:34:07Z",
+      "tickers": [],
+      "company": "Fortitude Gold Corp",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "81f11f37e2148340",
+      "source": "edgar_8k",
+      "title": "8-K - CENTRAL PACIFIC FINANCIAL CORP (0000701347) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0000701347-26-000081 Size: 514 KB Item 5.04: Temporary Suspension of Trading Under Registrant's Employee Benefit Plans Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/701347/000070134726000081/0000701347-26-000081-index.htm",
+      "published_at": "2026-11-10T21:34:05Z",
+      "tickers": [],
+      "company": "CENTRAL PACIFIC FINANCIAL CORP",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "8cd2c7cecda45356",
+      "source": "prnewswire",
+      "title": "International Tower Hill Files 2026 Third Quarter Financial Results, Provides Corporate Update",
+      "summary": "CEO David Wiens and President and COO Shane Parrow to Host Live Investor Webinar on Thursday, November 12th at 2:00PM Eastern Time. Investors are invited to register at the following link: https://6ix.com/event/international-tower-hill-mines-corporate-update VANCOUVER, BC, Nov. 10, 2026...",
+      "url": "https://www.prnewswire.com/news-releases/international-tower-hill-files-2026-third-quarter-financial-results-provides-corporate-update-302935603.html",
+      "published_at": "2026-11-10T21:34:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "28dd4abab8e9ae1a",
+      "source": "edgar_8k",
+      "title": "8-K - AUBURN NATIONAL BANCORPORATION, INC (0000750574) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001437749-26-036206 Size: 183 KB Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/750574/000143774926036206/0001437749-26-036206-index.htm",
+      "published_at": "2026-11-10T21:33:49Z",
+      "tickers": [],
+      "company": "AUBURN NATIONAL BANCORPORATION, INC",
+      "event_type": "fraud_probe",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "4e0c8dfc5d8f1fc6",
+      "source": "edgar_8k",
+      "title": "8-K - BEYOND MEAT, INC. (0001655210) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001655210-26-000080 Size: 136 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
+      "url": "https://www.sec.gov/Archives/edgar/data/1655210/000165521026000080/0001655210-26-000080-index.htm",
+      "published_at": "2026-11-10T21:33:27Z",
+      "tickers": [],
+      "company": "BEYOND MEAT, INC.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "e83b690a3ffd4b4f",
+      "source": "prnewswire",
+      "title": "MoreBetter Launches Co-Investment Program for Longevity, Peptide and Psychedelic Therapies",
+      "summary": "The Real World Evidence Co-Investment Program places MoreBetter's research platform, study design and analysis behind longitudinal, patient-reported outcomes studies; applications are open now PHILADELPHIA, Nov. 10, 2026 /PRNewswire/ -- MoreBetter, Ltd. today launched the MoreBetter Real...",
+      "url": "https://www.prnewswire.com/news-releases/morebetter-launches-co-investment-program-for-longevity-peptide-and-psychedelic-therapies-302935599.html",
+      "published_at": "2026-11-10T21:32:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "9ea4455f85e2f555",
+      "source": "edgar_8k",
+      "title": "8-K - CLARIVATE PLC (0001764046) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0000950103-26-017266 Size: 211 KB Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1764046/000095010326017266/0000950103-26-017266-index.htm",
+      "published_at": "2026-11-10T21:31:32Z",
+      "tickers": [],
+      "company": "CLARIVATE PLC",
+      "event_type": "fraud_probe",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "cb22d91401edd537",
+      "source": "edgar_8k",
+      "title": "8-K - CNL Strategic Capital, LLC (0001684682) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001999371-26-025086 Size: 638 KB Item 1.01: Entry into a Material Definitive Agreement Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1684682/000199937126025086/0001999371-26-025086-index.htm",
+      "published_at": "2026-11-10T21:31:24Z",
+      "tickers": [],
+      "company": "CNL Strategic Capital, LLC",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "e01e3b84c55f4544",
+      "source": "edgar_8k",
+      "title": "8-K - URBAN ONE, INC. (0001041657) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001628280-26-072780 Size: 778 KB Item 2.02: Results of Operations and Financial Condition Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1041657/000162828026072780/0001628280-26-072780-index.htm",
+      "published_at": "2026-11-10T21:31:13Z",
+      "tickers": [],
+      "company": "URBAN ONE, INC.",
+      "event_type": "fraud_probe",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "d3232a6bdd9acd44",
+      "source": "edgar_8k",
+      "title": "8-K - ASHFORD HOSPITALITY TRUST INC (0001232582) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001104659-26-125247 Size: 282 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
+      "url": "https://www.sec.gov/Archives/edgar/data/1232582/000110465926125247/0001104659-26-125247-index.htm",
+      "published_at": "2026-11-10T21:31:11Z",
+      "tickers": [],
+      "company": "ASHFORD HOSPITALITY TRUST INC",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "a78c02ec6842b46a",
+      "source": "edgar_8k",
+      "title": "8-K - Meridian Holdings Inc./NV (0001437925) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001477932-26-006816 Size: 5 MB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1437925/000147793226006816/0001477932-26-006816-index.htm",
+      "published_at": "2026-11-10T21:30:51Z",
+      "tickers": [],
+      "company": "Meridian Holdings Inc./NV",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "ac64ae7ebd52218a",
+      "source": "edgar_8k",
+      "title": "8-K - Nordicus Partners Corp (0001011060) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001493152-26-050992 Size: 14 MB Item 1.01: Entry into a Material Definitive Agreement Item 2.03: Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant Item 3.02: Unregistered Sales of Equity Securities Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1011060/000149315226050992/0001493152-26-050992-index.htm",
+      "published_at": "2026-11-10T21:30:51Z",
+      "tickers": [],
+      "company": "Nordicus Partners Corp",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "4a0179a06f76c19d",
+      "source": "edgar_8k",
+      "title": "8-K - NORTH EUROPEAN OIL ROYALTY TRUST (0000072633) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001140361-26-043042 Size: 162 KB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/72633/000114036126043042/0001140361-26-043042-index.htm",
+      "published_at": "2026-11-10T21:30:50Z",
+      "tickers": [],
+      "company": "NORTH EUROPEAN OIL ROYALTY TRUST",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "72dd53c7cacec7ff",
+      "source": "edgar_8k",
+      "title": "8-K - Tron Inc. (0001956744) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001493152-26-050984 Size: 234 KB Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1956744/000149315226050984/0001493152-26-050984-index.htm",
+      "published_at": "2026-11-10T21:30:41Z",
+      "tickers": [],
+      "company": "Tron Inc.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "c371896ebc9bb77e",
+      "source": "edgar_8k",
+      "title": "8-K/A - Sino Green Land Corp. (0001433551) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001493152-26-050983 Size: 1 MB Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1433551/000149315226050983/0001493152-26-050983-index.htm",
+      "published_at": "2026-11-10T21:30:41Z",
+      "tickers": [],
+      "company": "",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "1d7c4366b32892f2",
+      "source": "edgar_8k",
+      "title": "8-K - INTELLIGENT BIO SOLUTIONS INC. (0001725430) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001493152-26-050982 Size: 334 KB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1725430/000149315226050982/0001493152-26-050982-index.htm",
+      "published_at": "2026-11-10T21:30:35Z",
+      "tickers": [],
+      "company": "INTELLIGENT BIO SOLUTIONS INC.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "b4bcaa80fcde098e",
+      "source": "edgar_8k",
+      "title": "8-K - CHEESECAKE FACTORY INC (0000887596) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001104659-26-125244 Size: 187 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
+      "url": "https://www.sec.gov/Archives/edgar/data/887596/000110465926125244/0001104659-26-125244-index.htm",
+      "published_at": "2026-11-10T21:30:29Z",
+      "tickers": [],
+      "company": "CHEESECAKE FACTORY INC",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "6cc9154460c82922",
+      "source": "edgar_8k",
+      "title": "8-K - Elevance Health, Inc. (0001156039) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001156039-26-000074 Size: 175 KB Item 7.01: Regulation FD Disclosure",
+      "url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000074/0001156039-26-000074-index.htm",
+      "published_at": "2026-11-10T21:30:20Z",
+      "tickers": [],
+      "company": "Elevance Health, Inc.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "88267acdc48bff89",
+      "source": "edgar_8k",
+      "title": "8-K/A - Alzamend Neuro, Inc. (0001677077) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001214659-26-013930 Size: 921 KB Item 1.01: Entry into a Material Definitive Agreement Item 3.02: Unregistered Sales of Equity Securities Item 5.03: Amendments to Articles of Incorporation or Bylaws; Change in Fiscal Year Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1677077/000121465926013930/0001214659-26-013930-index.htm",
+      "published_at": "2026-11-10T21:30:18Z",
+      "tickers": [],
+      "company": "",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "ae8f7d9ae4cf87a3",
+      "source": "edgar_8k",
+      "title": "8-K - Energy Vault Holdings, Inc. (0001828536) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001828536-26-000116 Size: 605 KB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1828536/000182853626000116/0001828536-26-000116-index.htm",
+      "published_at": "2026-11-10T21:30:15Z",
+      "tickers": [],
+      "company": "Energy Vault Holdings, Inc.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "acd057cfc7ed5075",
+      "source": "edgar_8k",
+      "title": "8-K - Elmet Group Co. (0002101698) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001213900-26-118059 Size: 198 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/2101698/000121390026118059/0001213900-26-118059-index.htm",
+      "published_at": "2026-11-10T21:30:13Z",
+      "tickers": [],
+      "company": "Elmet Group Co.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "a48187a0d83619b3",
+      "source": "edgar_8k",
+      "title": "8-K - RLI CORP (0000084246) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001104659-26-125237 Size: 181 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
+      "url": "https://www.sec.gov/Archives/edgar/data/84246/000110465926125237/0001104659-26-125237-index.htm",
+      "published_at": "2026-11-10T21:30:09Z",
+      "tickers": [],
+      "company": "RLI CORP",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "2f5eaf98679fae63",
+      "source": "prnewswire",
+      "title": "BRAEMAR HOTELS & RESORTS ANNOUNCES $358 MILLION REFINANCING OF FOUR HOTELS",
+      "summary": "DALLAS, Nov. 10, 2026 /PRNewswire/ -- Braemar Hotels & Resorts Inc. (NYSE: BHR) (\"Braemar\" or the \"Company\") announced today that it has successfully closed a new $358.0 million CMBS loan secured by The Ritz-Carlton St. Thomas, The Ritz-Carlton Reserve Dorado Beach, The Notary Hotel and...",
+      "url": "https://www.prnewswire.com/news-releases/braemar-hotels--resorts-announces-358-million-refinancing-of-four-hotels-302935596.html",
+      "published_at": "2026-11-10T21:30:00Z",
+      "tickers": [
+        "BHR"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "a17a7a89ccdbf19e",
+      "source": "prnewswire",
+      "title": "Azenta Reports Fourth Quarter and Full Year Results for Fiscal 2026, Ended September 30, 2026.",
+      "summary": "Q4'26 reported revenue growth of 5% year over year and 2% on an organic basis FY'26 reported revenue growth of 5% year over year and 2% on an organic basis FY'27 reported revenue expected to range from $648 to $660 million FY'27 organic revenue growth expected to range between 3% to 5%...",
+      "url": "https://www.prnewswire.com/news-releases/azenta-reports-fourth-quarter-and-full-year-results-for-fiscal-2026-ended-september-30-2026-302935511.html",
+      "published_at": "2026-11-10T21:30:00Z",
+      "tickers": [],
+      "event_type": "earnings",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "a8803d6ac52f4515",
+      "source": "prnewswire",
+      "title": "Rachana Shukla, MD, and Vaishalee Shukla, MD Introduce Hybrid Choice\u2122 Concierge Program Through Concierge Choice Physicians",
+      "summary": "Helping patients enjoy a more personalized, connected healthcare experience with enhanced physician connectivity and availability ROCKVILLE CENTRE, N.Y., Nov. 10, 2026 /PRNewswire/ -- Rachana Shukla, MD and Vaishalee Shukla, MD, experienced internal medicine physicians serving the...",
+      "url": "https://www.prnewswire.com/news-releases/rachana-shukla-md-and-vaishalee-shukla-md-introduce-hybrid-choice-concierge-program-through-concierge-choice-physicians-302935476.html",
+      "published_at": "2026-11-10T21:30:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "44f89f0b12cf07b1",
+      "source": "prnewswire",
+      "title": "Ares Management Corporation to Present at the TD Cowen 2026 Financials & Fintech Conference",
+      "summary": "NEW YORK, Nov. 10, 2026 /PRNewswire/ -- Ares Management Corporation announced today that its Chief Financial Officer, Jarrod Phillips, is scheduled to present at the TD Cowen 2026 Financials & Fintech Conference on Wednesday, November 18, 2026, at 3:10pm ET. A live audio webcast of the...",
+      "url": "https://www.prnewswire.com/news-releases/ares-management-corporation-to-present-at-the-td-cowen-2026-financials--fintech-conference-302935548.html",
+      "published_at": "2026-11-10T21:30:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "01a136f513b53353",
+      "source": "prnewswire_financial",
+      "title": "BRAEMAR HOTELS & RESORTS ANNOUNCES $358 MILLION REFINANCING OF FOUR HOTELS",
+      "summary": "DALLAS, Nov. 10, 2026 /PRNewswire/ -- Braemar Hotels & Resorts Inc. (NYSE: BHR) (\"Braemar\" or the \"Company\") announced today that it has successfully closed a new $358.0 million CMBS loan secured by The Ritz-Carlton St. Thomas, The Ritz-Carlton Reserve Dorado Beach, The Notary Hotel and...",
+      "url": "https://www.prnewswire.com/news-releases/braemar-hotels--resorts-announces-358-million-refinancing-of-four-hotels-302935596.html",
+      "published_at": "2026-11-10T21:30:00Z",
+      "tickers": [
+        "BHR"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:02Z"
+    },
+    {
+      "id": "dedbd293571d97cf",
+      "source": "prnewswire_financial",
+      "title": "Rachana Shukla, MD, and Vaishalee Shukla, MD Introduce Hybrid Choice\u2122 Concierge Program Through Concierge Choice Physicians",
+      "summary": "Helping patients enjoy a more personalized, connected healthcare experience with enhanced physician connectivity and availability ROCKVILLE CENTRE, N.Y., Nov. 10, 2026 /PRNewswire/ -- Rachana Shukla, MD and Vaishalee Shukla, MD, experienced internal medicine physicians serving the...",
+      "url": "https://www.prnewswire.com/news-releases/rachana-shukla-md-and-vaishalee-shukla-md-introduce-hybrid-choice-concierge-program-through-concierge-choice-physicians-302935476.html",
+      "published_at": "2026-11-10T21:30:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:02Z"
+    },
+    {
+      "id": "88239a4eaf812fea",
+      "source": "prnewswire_financial",
+      "title": "Ares Management Corporation to Present at the TD Cowen 2026 Financials & Fintech Conference",
+      "summary": "NEW YORK, Nov. 10, 2026 /PRNewswire/ -- Ares Management Corporation announced today that its Chief Financial Officer, Jarrod Phillips, is scheduled to present at the TD Cowen 2026 Financials & Fintech Conference on Wednesday, November 18, 2026, at 3:10pm ET. A live audio webcast of the...",
+      "url": "https://www.prnewswire.com/news-releases/ares-management-corporation-to-present-at-the-td-cowen-2026-financials--fintech-conference-302935548.html",
+      "published_at": "2026-11-10T21:30:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:02Z"
+    },
+    {
+      "id": "a9105d4a7c68f0df",
+      "source": "marketwatch",
+      "title": "How the stock market has performed after Veterans Day over the past decade",
+      "summary": "The stock market is open Wednesday on Veterans Day, but not the bond market",
+      "url": "https://www.marketwatch.com/story/how-the-stock-market-has-performed-after-veterans-day-over-the-past-decade-7b47233e?mod=mw_rss_topstories",
+      "published_at": "2026-11-10T21:29:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:03Z"
+    },
+    {
+      "id": "eae85715ba0dd1aa",
+      "source": "prnewswire",
+      "title": "DNB Final: DNB Investors Have Opportunity to Lead Dun & Bradstreet Holdings, Inc. Securities Fraud Lawsuit Filed",
+      "summary": "NEW YORK, Nov. 10, 2026 /PRNewswire/ -- Why: Rosen Law Firm, a global investor rights law firm, reminds persons or entities that: (a) sold shares of Dun & Bradstreet Holdings, Inc. (NYSE: DNB) (\"D&amp;B\") common stock in the open market from May 13, 2025 through August 26, 2025; (b) exchanged...",
+      "url": "https://www.prnewswire.com/news-releases/dnb-final-dnb-investors-have-opportunity-to-lead-dun--bradstreet-holdings-inc-securities-fraud-lawsuit-filed-302935354.html",
+      "published_at": "2026-11-10T21:26:00Z",
+      "tickers": [
+        "DNB"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "6a82e717d7ab2e65",
+      "source": "prnewswire",
+      "title": "Making Spirits Bright: Airblown\u00ae Inflatables Deliver Holiday Humor and Heart at Lowe's",
+      "summary": "Suit Every Decorating Style with Laugh-Out-Loud and Timeless Christmas Decorations DALLAS, Nov. 10, 2026 /PRNewswire/ -- Whether your holiday taste leans whimsical, traditional or somewhere in between, this year's Christmas Airblown\u00ae collection from Gemmy offers something for everyone....",
+      "url": "https://www.prnewswire.com/news-releases/making-spirits-bright-airblown-inflatables-deliver-holiday-humor-and-heart-at-lowes-302935585.html",
+      "published_at": "2026-11-10T21:25:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "1a1e710369f0685c",
+      "source": "cnbc_business",
+      "title": "Fossil CEO says turnaround is ahead of plan as sales return to growth",
+      "summary": "Watchmaker Fossil said Tuesday that the company is returning to profit and sales growth in the first signs of its turnaround strategy.",
+      "url": "https://www.cnbc.com/2026/11/10/fossil-fosl-q3-2026-earnings.html",
+      "published_at": "2026-11-10T21:22:44Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:02Z"
+    },
+    {
+      "id": "5c3ca06ece4b3587",
+      "source": "marketwatch",
+      "title": "My friend feels trapped at her job but won\u2019t do anything about it. Am I supposed to step in?",
+      "summary": "\u201cShe\u2019s handed over the fate of her happiness to this job.\u201d",
+      "url": "https://www.marketwatch.com/story/my-friend-feels-trapped-at-her-job-but-wont-do-anything-about-it-am-i-supposed-to-step-in-7e55604e?mod=mw_rss_topstories",
+      "published_at": "2026-11-10T21:22:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:03Z"
+    },
+    {
+      "id": "fc8adf3db07593d0",
+      "source": "marketwatch",
+      "title": "Retirees should be big beneficiaries of the midterms: \u2018Democrats will hold every gavel that matters for aging and public policy\u2019",
+      "summary": "Here\u2019s what might be coming for Social Security, Medicare and long-term care.",
+      "url": "https://www.marketwatch.com/story/retirees-should-be-big-beneficiaries-of-the-midterms-democrats-will-hold-every-gavel-that-matters-for-aging-and-public-policy-71e966f0?mod=mw_rss_topstories",
+      "published_at": "2026-11-10T21:20:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:03Z"
+    },
+    {
+      "id": "bc77880bdd61c561",
+      "source": "prnewswire",
+      "title": "HelloNation Article Examines Home Improvements Before Selling, Featuring Real Estate Expert Rosa Stong",
+      "summary": "The article explains how practical updates and local market conditions can help homeowners prepare for a successful sale. FAYETTEVILLE, N.C., Nov. 10, 2026 /PRNewswire/ -- What should you fix before listing your house? HelloNation answers that question in an article featuring insights...",
+      "url": "https://www.prnewswire.com/news-releases/hellonation-article-examines-home-improvements-before-selling-featuring-real-estate-expert-rosa-stong-302911487.html",
+      "published_at": "2026-11-10T21:18:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "1c8913e9b9da2870",
+      "source": "prnewswire_financial",
+      "title": "HelloNation Article Examines Home Improvements Before Selling, Featuring Real Estate Expert Rosa Stong",
+      "summary": "The article explains how practical updates and local market conditions can help homeowners prepare for a successful sale. FAYETTEVILLE, N.C., Nov. 10, 2026 /PRNewswire/ -- What should you fix before listing your house? HelloNation answers that question in an article featuring insights...",
+      "url": "https://www.prnewswire.com/news-releases/hellonation-article-examines-home-improvements-before-selling-featuring-real-estate-expert-rosa-stong-302911487.html",
+      "published_at": "2026-11-10T21:18:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:02Z"
+    },
+    {
+      "id": "52de3357932f0b98",
+      "source": "prnewswire",
+      "title": "Certain Aberdeen Investments U.S. Closed-End Funds Declare Distribution Dates and Amounts",
+      "summary": "PHILADELPHIA, Nov. 10, 2026 /PRNewswire/ -- The following Aberdeen U.S. Closed-End Funds (NYSE: ACP, AGD, AOD, ASGI, AWP, HQH, HQL, IFN, MFM, MGF, MIN, MMT, THQ, THW and NYSE American: FAX, IAF) announced today that the closed-end funds in the chart directly below will pay the...",
+      "url": "https://www.prnewswire.com/news-releases/certain-aberdeen-investments-us-closed-end-funds-declare-distribution-dates-and-amounts-302935591.html",
+      "published_at": "2026-11-10T21:17:00Z",
+      "tickers": [
+        "ACP"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "d5a589c08120e11e",
+      "source": "prnewswire_financial",
+      "title": "Certain Aberdeen Investments U.S. Closed-End Funds Declare Distribution Dates and Amounts",
+      "summary": "PHILADELPHIA, Nov. 10, 2026 /PRNewswire/ -- The following Aberdeen U.S. Closed-End Funds (NYSE: ACP, AGD, AOD, ASGI, AWP, HQH, HQL, IFN, MFM, MGF, MIN, MMT, THQ, THW and NYSE American: FAX, IAF) announced today that the closed-end funds in the chart directly below will pay the...",
+      "url": "https://www.prnewswire.com/news-releases/certain-aberdeen-investments-us-closed-end-funds-declare-distribution-dates-and-amounts-302935591.html",
+      "published_at": "2026-11-10T21:17:00Z",
+      "tickers": [
+        "ACP"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:02Z"
+    },
+    {
+      "id": "87b09d1edcb1744e",
+      "source": "prnewswire",
+      "title": "An Eagle Institution, Reimagined: Eagle Bank Club to Revive Historic Downtown Gathering Place",
+      "summary": "Opening spring 2027, the modern American tavern from a local restaurateur duo will honor the Bank Building's history while carrying on a tradition of bringing the neighborhood together. EAGLE, Idaho, Nov. 10, 2026 /PRNewswire/ -- A downtown address that has brought Eagle together for...",
+      "url": "https://www.prnewswire.com/news-releases/an-eagle-institution-reimagined-eagle-bank-club-to-revive-historic-downtown-gathering-place-302935593.html",
+      "published_at": "2026-11-10T21:16:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "c54a3208d352bc97",
+      "source": "prnewswire",
+      "title": "Clarivate Announces Pricing Terms of Offers to Purchase for Cash Certain of its Outstanding Debt Securities",
+      "summary": "LONDON, Nov. 10, 2026 /PRNewswire/ -- Clarivate Plc (NYSE: CLVT) (\"Clarivate\"), a leading global provider of transformative intelligence, today announced the Reference Yield with respect to the 2028 Notes and the 2028 Notes Total Consideration (as set forth in the table below) to be paid...",
+      "url": "https://www.prnewswire.com/news-releases/clarivate-announces-pricing-terms-of-offers-to-purchase-for-cash-certain-of-its-outstanding-debt-securities-302935558.html",
+      "published_at": "2026-11-10T21:15:00Z",
+      "tickers": [
+        "CLVT"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "7086f2984dc901f1",
+      "source": "prnewswire",
+      "title": "BD to Host Investor Day on December 10, 2026",
+      "summary": "FRANKLIN LAKES, N.J., Nov. 10, 2026 /PRNewswire/ -- BD (Becton, Dickinson and Company) (NYSE: BDX), a leading global medical technology company, today announced that it will host an Investor Day for institutional investors and financial analysts on Thursday, December 10, 2026, in New...",
+      "url": "https://www.prnewswire.com/news-releases/bd-to-host-investor-day-on-december-10-2026-302935368.html",
+      "published_at": "2026-11-10T21:15:00Z",
+      "tickers": [
+        "BDX",
+        "BD"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "55b0a02912dad708",
+      "source": "prnewswire",
+      "title": "Invesco Ltd. Announces October 31, 2026 Assets Under Management",
+      "summary": "ATLANTA, Nov. 10, 2026 /PRNewswire/ -- Invesco Ltd. (NYSE: IVZ)1, a leading global asset management firm, announced today preliminary month-end assets under management (AUM) of $2,453.5 billion, a decrease of 3.3% versus previous month-end. The firm experienced net long-term outflows of...",
+      "url": "https://www.prnewswire.com/news-releases/invesco-ltd-announces-october-31-2026-assets-under-management-302935462.html",
+      "published_at": "2026-11-10T21:15:00Z",
+      "tickers": [
+        "IVZ",
+        "AUM"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "386b61396076f05a",
+      "source": "prnewswire",
+      "title": "Fidelity National Financial CEO Mike Nolan and CFO Tony Park to Speak at the Stephens Annual Investment Conference",
+      "summary": "JACKSONVILLE, Fla., Nov. 10, 2026 /PRNewswire/ -- Fidelity National Financial, Inc. (NYSE: FNF) today announced that Mike Nolan, Chief Executive Officer, and Tony Park, Chief Financial Officer, will participate in a fireside chat at the Stephens Annual Investment Conference on Tuesday,...",
+      "url": "https://www.prnewswire.com/news-releases/fidelity-national-financial-ceo-mike-nolan-and-cfo-tony-park-to-speak-at-the-stephens-annual-investment-conference-302935542.html",
+      "published_at": "2026-11-10T21:15:00Z",
+      "tickers": [
+        "FNF"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "4fd64d670eea8295",
+      "source": "prnewswire",
+      "title": "ARES DYNAMIC CREDIT ALLOCATION FUND DECLARES A MONTHLY DISTRIBUTION OF $0.1125 PER SHARE",
+      "summary": "NEW YORK, Nov. 10, 2026 /PRNewswire/ -- Ares Dynamic Credit Allocation Fund, Inc. (\"ARDC\" or the \"Fund\") (NYSE: ARDC) announced today the declaration of its distribution for the month of November 2026 of $0.1125 per common share, payable as noted below. The following dates apply to the...",
+      "url": "https://www.prnewswire.com/news-releases/ares-dynamic-credit-allocation-fund-declares-a-monthly-distribution-of-0-1125-per-share-302934776.html",
+      "published_at": "2026-11-10T21:15:00Z",
+      "tickers": [
+        "ARDC",
+        "ARES"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "6245464cfedff2d0",
+      "source": "prnewswire",
+      "title": "Netlist Reports Third Quarter 2026 Results",
+      "summary": "Net sales rose 149% year over year to $105.1 million and included initial license fees from Samsung Strengthened balance sheet with cash, cash equivalents and restricted cash rising to $327.7 million at quarter-end IRVINE, Calif., Nov. 10, 2026 /PRNewswire/ -- Netlist, Inc. (OTCQB: NLST),...",
+      "url": "https://www.prnewswire.com/news-releases/netlist-reports-third-quarter-2026-results-302935534.html",
+      "published_at": "2026-11-10T21:15:00Z",
+      "tickers": [],
+      "event_type": "earnings",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "32ed0150297796ef",
+      "source": "prnewswire",
+      "title": "Clarivate Announces Pricing Terms of Offers to Purchase for Cash Certain of its Outstanding Debt Securities",
+      "summary": "LONDON, Nov. 10, 2026 /PRNewswire/ -- Clarivate Plc (NYSE: CLVT) (\"Clarivate\"), a leading global provider of transformative intelligence, today announced the Reference Yield with respect to the 2028 Notes and the 2028 Notes Total Consideration (as set forth in the table below) to be paid...",
+      "url": "https://www.prnewswire.com/news-releases/clarivate-announces-pricing-terms-of-offers-to-purchase-for-cash-certain-of-its-outstanding-debt-securities-302935578.html",
+      "published_at": "2026-11-10T21:15:00Z",
+      "tickers": [
+        "CLVT"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:01Z"
+    },
+    {
+      "id": "0e517a18e79a313c",
+      "source": "prnewswire_financial",
+      "title": "Invesco Ltd. Announces October 31, 2026 Assets Under Management",
+      "summary": "ATLANTA, Nov. 10, 2026 /PRNewswire/ -- Invesco Ltd. (NYSE: IVZ)1, a leading global asset management firm, announced today preliminary month-end assets under management (AUM) of $2,453.5 billion, a decrease of 3.3% versus previous month-end. The firm experienced net long-term outflows of...",
+      "url": "https://www.prnewswire.com/news-releases/invesco-ltd-announces-october-31-2026-assets-under-management-302935462.html",
+      "published_at": "2026-11-10T21:15:00Z",
+      "tickers": [
+        "IVZ",
+        "AUM"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:02Z"
+    },
+    {
+      "id": "450f9dc9316ab2cc",
+      "source": "prnewswire_financial",
+      "title": "Fidelity National Financial CEO Mike Nolan and CFO Tony Park to Speak at the Stephens Annual Investment Conference",
+      "summary": "JACKSONVILLE, Fla., Nov. 10, 2026 /PRNewswire/ -- Fidelity National Financial, Inc. (NYSE: FNF) today announced that Mike Nolan, Chief Executive Officer, and Tony Park, Chief Financial Officer, will participate in a fireside chat at the Stephens Annual Investment Conference on Tuesday,...",
+      "url": "https://www.prnewswire.com/news-releases/fidelity-national-financial-ceo-mike-nolan-and-cfo-tony-park-to-speak-at-the-stephens-annual-investment-conference-302935542.html",
+      "published_at": "2026-11-10T21:15:00Z",
+      "tickers": [
+        "FNF"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:02Z"
+    },
+    {
+      "id": "6082baf64bed99c2",
+      "source": "prnewswire_financial",
+      "title": "ARES DYNAMIC CREDIT ALLOCATION FUND DECLARES A MONTHLY DISTRIBUTION OF $0.1125 PER SHARE",
+      "summary": "NEW YORK, Nov. 10, 2026 /PRNewswire/ -- Ares Dynamic Credit Allocation Fund, Inc. (\"ARDC\" or the \"Fund\") (NYSE: ARDC) announced today the declaration of its distribution for the month of November 2026 of $0.1125 per common share, payable as noted below. The following dates apply to the...",
+      "url": "https://www.prnewswire.com/news-releases/ares-dynamic-credit-allocation-fund-declares-a-monthly-distribution-of-0-1125-per-share-302934776.html",
+      "published_at": "2026-11-10T21:15:00Z",
+      "tickers": [
+        "ARDC",
+        "ARES"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:02Z"
+    },
+    {
+      "id": "d3ff8522cf08aca6",
+      "source": "prnewswire_financial",
+      "title": "DRW Energy Trading Closes Upsized $1 Billion Revolving Credit Facility",
+      "summary": "HOUSTON, Nov. 10, 2026 /PRNewswire/ -- DRW Energy Trading LLC (\"DRW Energy Trading\"), the energy marketing and trading subsidiary of DRW, today announced the closing of its upsized $1 billion revolving credit facility. The facility comprises a two-year, $600 million committed tranche and...",
+      "url": "https://www.prnewswire.com/news-releases/drw-energy-trading-closes-upsized-1-billion-revolving-credit-facility-302935576.html",
+      "published_at": "2026-11-10T21:15:00Z",
+      "tickers": [
+        "DRW"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:02Z"
+    },
+    {
+      "id": "1185174fc4a99aba",
+      "source": "prnewswire_financial",
+      "title": "CC Capital and Motive Partners Reach Agreement to Sell Wilshire to Marsh",
+      "summary": "Transaction reflects realization of CC Capital's vision to accelerate growth and position the business for its next phase NEW YORK, Nov. 10, 2026 /PRNewswire/ -- CC Capital, a private investment firm focused on investing in and operating high-quality businesses for the long term, and...",
+      "url": "https://www.prnewswire.com/news-releases/cc-capital-and-motive-partners-reach-agreement-to-sell-wilshire-to-marsh-302935572.html",
+      "published_at": "2026-11-10T21:10:00Z",
+      "tickers": [
+        "CC"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:02Z"
+    },
+    {
+      "id": "57a0813c6b0d81eb",
+      "source": "prnewswire_financial",
+      "title": "FMI Releases Final Installment of 2026 Project Management Study",
+      "summary": "New research examines the project manager role, capacity and development practices that shape project delivery RALEIGH, N.C., Nov. 10, 2026 /PRNewswire/ -- FMI Corporation, a leading provider of consulting and investment banking services to the built environment, today released Part 3 of...",
+      "url": "https://www.prnewswire.com/news-releases/fmi-releases-final-installment-of-2026-project-management-study-302935568.html",
+      "published_at": "2026-11-10T21:05:00Z",
+      "tickers": [
+        "FMI"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:02Z"
+    },
+    {
+      "id": "ffb2c502ea72a746",
+      "source": "prnewswire_financial",
+      "title": "137th Common Stock Monthly Dividend Increase Declared by Realty Income",
+      "summary": "SAN DIEGO, Nov. 10, 2026 /PRNewswire/ -- Realty Income Corporation (Realty Income, NYSE: O), The Monthly Dividend Company\u00ae, today declared an increase in its common stock monthly cash dividend to $0.2740 per share from $0.2715 per share. The dividend is payable on December 15, 2026, to...",
+      "url": "https://www.prnewswire.com/news-releases/137th-common-stock-monthly-dividend-increase-declared-by-realty-income-302935556.html",
+      "published_at": "2026-11-10T21:05:00Z",
+      "tickers": [
+        "O"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:02Z"
+    },
+    {
+      "id": "04f76684d4d3daad",
+      "source": "marketwatch",
+      "title": "Ignore the wild swings in chip stocks until they reach these \u2018lines in the sand\u2019",
+      "summary": "Investors shouldn\u2019t pay much attention to how the SOX chip-sector index trades until it reaches key technical battleground areas above and below current levels.",
+      "url": "https://www.marketwatch.com/story/ignore-the-wild-swings-in-chip-stocks-until-they-reach-these-lines-in-the-sand-feb6e00f?mod=mw_rss_topstories",
+      "published_at": "2026-11-10T20:53:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:03Z"
+    },
+    {
+      "id": "cd8c48ee6154db32",
+      "source": "prnewswire_financial",
+      "title": "Sound Credit Union and Washington Trails Association Announce Partnership to Support Washington Trails",
+      "summary": "Co-branded banking program will connect everyday purchases with support for trails across Washington WASHINGTON, Nov. 10, 2026 /PRNewswire/ -- Sound Credit Union (Sound) and Washington Trails Association (WTA) today announced a three-year strategic partnership that brings together...",
+      "url": "https://www.prnewswire.com/news-releases/sound-credit-union-and-washington-trails-association-announce-partnership-to-support-washington-trails-302935554.html",
+      "published_at": "2026-11-10T20:51:00Z",
+      "tickers": [
+        "WTA"
+      ],
+      "event_type": "mna_deal",
+      "direction": "bullish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:02Z"
+    },
+    {
+      "id": "c6ee395918bcc176",
+      "source": "marketwatch",
+      "title": "Nvidia could soon face tougher export rules, making it harder to sell chips to China after scandal",
+      "summary": "\u201cThere is growing momentum for these bills in light of the Jensen Huang spy scandal,\u201d one analyst says.",
+      "url": "https://www.marketwatch.com/story/nvidia-could-soon-face-tougher-export-rules-making-it-harder-to-sell-chips-to-china-69c88cc8?mod=mw_rss_topstories",
+      "published_at": "2026-11-10T20:37:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:03Z"
+    },
+    {
+      "id": "6a6286aaa530b754",
+      "source": "prnewswire_financial",
+      "title": "KPS will MM Packaging von MM Group \u00fcbernehmen",
+      "summary": "MM Packaging wird ein eigenst\u00e4ndiges Unternehmen MM Group beh\u00e4lt eine Beteiligung von 30 % NEW YORK, 10. November 2026 /PRNewswire/ -- KPS Capital Partners, LP (\u201eKPS\") hat eine verbindliche Vereinbarung zur \u00dcbernahme von MM Packaging (das \u201eUnternehmen\") von der Mayr-Melnhof Karton AG (\u201eMM...",
+      "url": "https://www.prnewswire.com/news-releases/kps-will-mm-packaging-von-mm-group-ubernehmen-302935528.html",
+      "published_at": "2026-11-10T20:34:00Z",
+      "tickers": [
+        "KPS"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:02Z"
+    },
+    {
+      "id": "44a3d7b43245dda4",
+      "source": "prnewswire_financial",
+      "title": "1-800Accountant Named a Fall 2026 Clutch Global Winner in Accounting and Tax Consulting",
+      "summary": "Recognition is based on verified client feedback from the small business owners who rely on 1-800Accountant for year-round tax, bookkeeping, and advisory support NEW YORK, Nov. 10, 2026 /PRNewswire/ -- 1-800Accountant, America's leading virtual accounting firm for small businesses, has...",
+      "url": "https://www.prnewswire.com/news-releases/1-800accountant-named-a-fall-2026-clutch-global-winner-in-accounting-and-tax-consulting-302935526.html",
+      "published_at": "2026-11-10T20:33:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:02Z"
+    },
+    {
+      "id": "ebee0c6d28bc3b39",
+      "source": "prnewswire_financial",
+      "title": "Wir stellen ATMA vor: EINE REVOLUTION F\u00dcR DAS WOHLBEFINDEN VON DER AMAN GROUP",
+      "summary": "LONDON, 10. November 2026 /PRNewswire/ -- Die Aman Group, ein Unternehmen f\u00fcr Gastgewerbe und Lifestyle hinter Aman und Janu, k\u00fcndigt die Einf\u00fchrung von ATMA an, einer neuen Ultra-Luxusmarke, die Pionierarbeit im Bereich Performance Living leistet. Die Marke wird sich auf fortschrittliche...",
+      "url": "https://www.prnewswire.com/news-releases/wir-stellen-atma-vor-eine-revolution-fur-das-wohlbefinden-von-der-aman-group-302935518.html",
+      "published_at": "2026-11-10T20:28:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:02Z"
+    },
+    {
+      "id": "d7559bdae5102ad8",
+      "source": "marketwatch",
+      "title": "Aggressive Fed rate hikes are quickly becoming the biggest risk to stocks in 2027, says economist",
+      "summary": "The Fed remains too optimistic on its ability to tame inflation, and markets may be too complacent, economist Neil Dutta warns.",
+      "url": "https://www.marketwatch.com/story/an-overzealous-fed-is-quickly-becoming-the-biggest-risk-to-stocks-in-2027-ba28e51d?mod=mw_rss_topstories",
+      "published_at": "2026-11-10T20:27:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:03Z"
+    },
+    {
+      "id": "ef5b0a2d56154612",
+      "source": "prnewswire_financial",
+      "title": "PR\u00c9SENTATION D'ATMA : UNE R\u00c9VOLUTION DANS LE BIEN-\u00caTRE PAR LE GROUPE AMAN",
+      "summary": "LONDRES, 10 novembre 2026 /PRNewswire/ -- Aman Group, soci\u00e9t\u00e9 h\u00f4teli\u00e8re et de style de vie \u00e0 l'origine des marques Aman et Janu, annonce le lancement d'ATMA, une nouvelle marque ultra-luxueuse pionni\u00e8re en mati\u00e8re de vie performante. La marque se concentrera sur des programmes de...",
+      "url": "https://www.prnewswire.com/news-releases/presentation-datma--une-revolution-dans-le-bien-etre-par-le-groupe-aman-302935510.html",
+      "published_at": "2026-11-10T20:22:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:02Z"
+    },
+    {
+      "id": "b1dce1f5dd58f602",
+      "source": "prnewswire_financial",
+      "title": "HelloNation Explains When To Review an Insurance Policy With Insights From Insurance Agent Tony Lopez",
+      "summary": "The article outlines how regular reviews help Orlando residents keep coverage aligned with life changes and local risks. ORLANDO, Fla., Nov. 10, 2026 /PRNewswire/ -- How often should you review your insurance policies in a fast-growing area like Orlando, Florida? HelloNation published an...",
+      "url": "https://www.prnewswire.com/news-releases/hellonation-explains-when-to-review-an-insurance-policy-with-insights-from-insurance-agent-tony-lopez-302911442.html",
+      "published_at": "2026-11-10T20:19:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:02Z"
+    },
+    {
+      "id": "04fc97f5958c3cd3",
+      "source": "prnewswire_financial",
+      "title": "Presentaci\u00f3n de ATMA: una revoluci\u00f3n en el bienestar de la mano de Aman Group",
+      "summary": "LONDRES, 10 de noviembre de 2026 /PRNewswire/ -- Aman Group, compa\u00f1\u00eda de hospitalidad y estilo de vida responsable de las marcas Aman y Janu, anuncia el lanzamiento de ATMA, una nueva marca de ultralujo pionera en la vida de alto rendimiento. La marca se centrar\u00e1 en programas de bienestar...",
+      "url": "https://www.prnewswire.com/news-releases/presentacion-de-atma-una-revolucion-en-el-bienestar-de-la-mano-de-aman-group-302935507.html",
+      "published_at": "2026-11-10T20:17:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:02Z"
+    },
+    {
+      "id": "a76c50f95f34d140",
+      "source": "prnewswire_financial",
+      "title": "Ascot Group Appoints Neil Mayer as Chief Executive Officer, High Net Worth Personal Lines",
+      "summary": "Veteran insurance executive to lead Ascot's high net worth business within its new Consumer Solutions division NEW YORK, Nov. 10, 2026 /PRNewswire/ -- Ascot Group Limited (\"Ascot\"), a global specialty (re)insurance company, today announced that Neil Mayer has been appointed Chief...",
+      "url": "https://www.prnewswire.com/news-releases/ascot-group-appoints-neil-mayer-as-chief-executive-officer-high-net-worth-personal-lines-302935455.html",
+      "published_at": "2026-11-10T20:15:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:02Z"
+    },
+    {
+      "id": "c4913a535e3a733a",
+      "source": "marketwatch",
+      "title": "Anthropic officially sets the stage for an IPO valuing the company north of $1 trillion",
+      "summary": "Anthropic could raise up to $63 billion in an IPO expected to take place next week.",
+      "url": "https://www.marketwatch.com/story/anthropic-reportedly-retracts-ipo-terms-sent-to-banks-by-mistake-exposing-jitters-over-ai-investments-6116578d?mod=mw_rss_topstories",
+      "published_at": "2026-11-10T19:47:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:03Z"
+    },
+    {
+      "id": "9ebd161e4e65b187",
+      "source": "marketwatch",
+      "title": "Corporate America is making a trillion-dollar mistake about retirement",
+      "summary": "The market is dramatically underpricing the economic impact of Americans age 50 and older.",
+      "url": "https://www.marketwatch.com/story/corporate-america-is-making-a-trillion-dollar-mistake-about-retirement-234c8996?mod=mw_rss_topstories",
+      "published_at": "2026-11-10T19:29:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T21:46:03Z"
+    },
     {
       "id": "0d79689917fefc15",
       "source": "edgar_8k",
@@ -526,7 +1875,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:57:50Z"
+      "scanned_at": "2026-11-10T21:46:03Z"
     },
     {
       "id": "5ef8490b9d03387c",
@@ -656,7 +2005,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:57:50Z"
+      "scanned_at": "2026-11-10T21:46:03Z"
     },
     {
       "id": "19c280e5d59ce747",
@@ -931,7 +2280,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:57:49Z"
+      "scanned_at": "2026-11-10T21:46:02Z"
     },
     {
       "id": "6f10cf2937fd0e20",
@@ -1467,7 +2816,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:57:49Z"
+      "scanned_at": "2026-11-10T21:46:02Z"
     },
     {
       "id": "e276f27854b7c41d",
@@ -1481,7 +2830,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:57:50Z"
+      "scanned_at": "2026-11-10T21:46:03Z"
     },
     {
       "id": "3884afb0150970f9",
@@ -1495,7 +2844,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:57:50Z"
+      "scanned_at": "2026-11-10T21:46:03Z"
     },
     {
       "id": "9235195334146eb0",
@@ -1509,7 +2858,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:57:49Z"
+      "scanned_at": "2026-11-10T21:46:02Z"
     },
     {
       "id": "c7429c96bd7d3ecb",
@@ -1523,7 +2872,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:57:49Z"
+      "scanned_at": "2026-11-10T21:46:02Z"
     },
     {
       "id": "fdbc8563b36f8cf5",
@@ -1537,7 +2886,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:57:49Z"
+      "scanned_at": "2026-11-10T21:46:02Z"
     },
     {
       "id": "67f7c52faf091e43",
@@ -1551,7 +2900,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:57:49Z"
+      "scanned_at": "2026-11-10T21:46:02Z"
     },
     {
       "id": "4285567555b6675f",
@@ -1565,7 +2914,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:57:49Z"
+      "scanned_at": "2026-11-10T21:46:02Z"
     },
     {
       "id": "c3c4280bc6e5d8ff",
@@ -1579,7 +2928,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:57:49Z"
+      "scanned_at": "2026-11-10T21:46:02Z"
     },
     {
       "id": "8dc785c9c3a42a50",
@@ -1593,7 +2942,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:57:49Z"
+      "scanned_at": "2026-11-10T21:46:02Z"
     },
     {
       "id": "56eac0855ed7c5e7",
@@ -1607,7 +2956,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:57:50Z"
+      "scanned_at": "2026-11-10T21:46:03Z"
     },
     {
       "id": "7144237b9a02d7db",
@@ -1621,7 +2970,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:57:49Z"
+      "scanned_at": "2026-11-10T21:46:02Z"
     },
     {
       "id": "65aa2ae6973f5971",
@@ -1635,7 +2984,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:57:50Z"
+      "scanned_at": "2026-11-10T21:46:03Z"
     },
     {
       "id": "cb3e48820a212891",
@@ -1649,7 +2998,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:57:49Z"
+      "scanned_at": "2026-11-10T21:46:02Z"
     },
     {
       "id": "acad5801b91c1d7a",
@@ -1663,7 +3012,7 @@
       "direction": "bearish",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:57:49Z"
+      "scanned_at": "2026-11-10T21:46:02Z"
     },
     {
       "id": "08b3efda9e3fa115",
@@ -1677,7 +3026,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:57:49Z"
+      "scanned_at": "2026-11-10T21:46:02Z"
     },
     {
       "id": "41383c5c59816f29",
@@ -1691,7 +3040,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:57:49Z"
+      "scanned_at": "2026-11-10T21:46:02Z"
     },
     {
       "id": "2352affc375bddb8",
@@ -1705,7 +3054,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:57:49Z"
+      "scanned_at": "2026-11-10T21:46:02Z"
     }
   ]
 }
