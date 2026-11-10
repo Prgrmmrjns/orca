@@ -1,1 +1,8 @@
-{}
+{
+  "redirects": [
+    { "source": "/crypto.html", "destination": "/", "permanent": false },
+    { "source": "/crypto", "destination": "/", "permanent": false },
+    { "source": "/api/daily", "destination": "/api/stocks", "permanent": false },
+    { "source": "/api/today", "destination": "/api/stocks", "permanent": false }
+  ]
+}

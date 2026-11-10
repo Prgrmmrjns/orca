@@ -108,5 +108,4 @@ def snapshot() -> dict:
             "gap_and_go_long": "beat >5% AND gap >5% → long, hold 5",
             "short_cut_guidance": "strong miss + cut guidance → short, small size",
         },
-        "crypto_href": "/crypto.html",
     }

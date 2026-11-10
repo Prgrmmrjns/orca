@@ -1,17 +1,15 @@
-"""Orca paper demo. Stocks earnings homepage; crypto under /crypto.html. No orders."""
+"""Orca paper demo — US stock earnings forward test only. No broker orders."""
 
 from pathlib import Path
 
 from fastapi import FastAPI
-from fastapi.responses import FileResponse, JSONResponse
+from fastapi.responses import FileResponse, JSONResponse, RedirectResponse
 
-from live import load_ledger, require_paper, snapshot as crypto_snapshot
-from stocks_live import snapshot as stocks_snapshot
+from stocks_live import require_paper, snapshot as stocks_snapshot
 
-app = FastAPI()
+app = FastAPI(title="Orca — earnings paper")
 PUBLIC = Path(__file__).resolve().parent / "public"
 PAGE = PUBLIC / "index.html"
-CRYPTO_PAGE = PUBLIC / "crypto.html"
 
 
 @app.get("/")
@@ -20,37 +18,14 @@ def index():
 
 
 @app.get("/crypto.html")
-def crypto_page():
-    return FileResponse(CRYPTO_PAGE, headers={"Cache-Control": "no-store"})
+@app.get("/crypto")
+def crypto_gone():
+    """Crypto page removed — redirect to stocks homepage."""
+    return RedirectResponse(url="/", status_code=302)
 
 
 @app.get("/api/stocks")
+@app.get("/api/today")
 def stocks():
     require_paper()
     return JSONResponse(stocks_snapshot(), headers={"Cache-Control": "no-store"})
-
-
-@app.get("/api/today")
-def today():
-    require_paper()
-    return JSONResponse(crypto_snapshot(), headers={"Cache-Control": "no-store"})
-
-
-@app.get("/api/daily")
-def daily():
-    """Read-only crypto status. Crypto daily paper is paused."""
-    require_paper()
-    data = crypto_snapshot()
-    data["cadence"] = "paused — stocks earnings forward test is the active product"
-    data["writable"] = False
-    try:
-        ledger = load_ledger()
-        data["ledger"] = {
-            "start_date": ledger.get("start_date"),
-            "last_rebalance": ledger.get("last_rebalance"),
-            "n_fills": len(ledger.get("fills") or []),
-            "positions": sorted((ledger.get("positions") or {}).keys()),
-        }
-    except Exception as exc:
-        data["ledger_error"] = str(exc)
-    return JSONResponse(data, headers={"Cache-Control": "no-store"})
