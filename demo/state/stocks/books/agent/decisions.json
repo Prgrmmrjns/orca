@@ -1,5 +1,129 @@
 {
   "mode": "paper",
-  "decisions": [],
-  "updated_at": null
+  "decisions": [
+    {
+      "id": "BKKT-2026-11-10T13:53:35Z-8df00f",
+      "book_id": "agent",
+      "ticker": "BKKT",
+      "side": "skip",
+      "size": 0.0,
+      "hold": 0,
+      "reason": "Scanner -153% miss is artifact (GAAP EPS +$0.31 vs ~$0.50); TTV guidance reiterated/$6B H1'27 set, no cut \u2192 skip",
+      "confidence": 0.85,
+      "stop_loss": null,
+      "take_profit": null,
+      "rule_tags": [
+        "miss_short"
+      ],
+      "surprise_pct": -153.24,
+      "gap_pct": -6.3596,
+      "guidance": "unknown",
+      "agent": "chewbacca",
+      "decided_at": "2026-11-10T13:53:35Z",
+      "status": "new"
+    },
+    {
+      "id": "MPAA-2026-11-10T13:53:35Z-72c0fa",
+      "book_id": "agent",
+      "ticker": "MPAA",
+      "side": "short",
+      "size": 0.05,
+      "hold": 2,
+      "reason": "EPS/sales miss real; FY27 sales cut $780-800M\u2192$715-740M, gap -19% \u2192 short 2d @5%",
+      "confidence": 0.78,
+      "stop_loss": null,
+      "take_profit": null,
+      "rule_tags": [
+        "miss_short"
+      ],
+      "surprise_pct": -80.2,
+      "gap_pct": -19.2966,
+      "guidance": "unknown",
+      "agent": "chewbacca",
+      "decided_at": "2026-11-10T13:53:35Z",
+      "status": "new"
+    },
+    {
+      "id": "UNIT-2026-11-10T13:53:36Z-1178d6",
+      "book_id": "agent",
+      "ticker": "UNIT",
+      "side": "skip",
+      "size": 0.0,
+      "hold": 0,
+      "reason": "GAAP EPS miss -$1.03 real but FY26 revenue guidance raised, no cut \u2192 skip short",
+      "confidence": 0.8,
+      "stop_loss": null,
+      "take_profit": null,
+      "rule_tags": [
+        "miss_short"
+      ],
+      "surprise_pct": -78.66,
+      "gap_pct": -8.2721,
+      "guidance": "unknown",
+      "agent": "chewbacca",
+      "decided_at": "2026-11-10T13:53:36Z",
+      "status": "new"
+    },
+    {
+      "id": "HROW-2026-11-10T13:53:36Z-89b13a",
+      "book_id": "agent",
+      "ticker": "HROW",
+      "side": "skip",
+      "size": 0.0,
+      "hold": 0,
+      "reason": "Scanner -57% miss artifact (EPS beat ~$0.25 vs ~$0.20); rev reaffirmed, EBITDA cut = mixed \u2192 skip",
+      "confidence": 0.82,
+      "stop_loss": null,
+      "take_profit": null,
+      "rule_tags": [
+        "miss_short"
+      ],
+      "surprise_pct": -56.91,
+      "gap_pct": -15.3121,
+      "guidance": "unknown",
+      "agent": "chewbacca",
+      "decided_at": "2026-11-10T13:53:36Z",
+      "status": "new"
+    },
+    {
+      "id": "DCTH-2026-11-10T13:53:37Z-3a6d90",
+      "book_id": "agent",
+      "ticker": "DCTH",
+      "side": "long",
+      "size": 0.08,
+      "hold": 5,
+      "reason": "EPS beat to +$0.17 vs -$0.08 est, raised FY26 rev $104-108M\u2192$115-117M, gap +24% \u2192 long 5d",
+      "confidence": 0.85,
+      "stop_loss": null,
+      "take_profit": null,
+      "rule_tags": [],
+      "surprise_pct": 319.35,
+      "gap_pct": 24.3307,
+      "guidance": "unknown",
+      "agent": "chewbacca",
+      "decided_at": "2026-11-10T13:53:37Z",
+      "status": "new"
+    },
+    {
+      "id": "LINC-2026-11-10T13:53:37Z-740f17",
+      "book_id": "agent",
+      "ticker": "LINC",
+      "side": "long",
+      "size": 0.08,
+      "hold": 5,
+      "reason": "EPS +23% beat ($0.15 vs $0.12), raised FY26 rev $590-600M\u2192$600-605M, gap +14% \u2192 long 5d",
+      "confidence": 0.75,
+      "stop_loss": null,
+      "take_profit": null,
+      "rule_tags": [],
+      "surprise_pct": 22.95,
+      "gap_pct": 13.5334,
+      "guidance": "none",
+      "agent": "chewbacca",
+      "decided_at": "2026-11-10T13:53:37Z",
+      "status": "new"
+    }
+  ],
+  "updated_at": "2026-11-10T13:53:37Z",
+  "book_id": "agent"
 }
