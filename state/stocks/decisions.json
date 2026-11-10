@@ -181,7 +181,7 @@
       "guidance": "none",
       "agent": "chewbacca",
       "decided_at": "2026-11-10T21:50:12Z",
-      "status": "new"
+      "status": "skipped"
     },
     {
       "id": "EXOD-2026-11-10T21:50:13Z-be94f5",
@@ -202,7 +202,7 @@
       "guidance": "none",
       "agent": "chewbacca",
       "decided_at": "2026-11-10T21:50:13Z",
-      "status": "new"
+      "status": "skipped"
     },
     {
       "id": "BTGO-2026-11-10T21:50:13Z-62b235",
@@ -223,7 +223,7 @@
       "guidance": "none",
       "agent": "chewbacca",
       "decided_at": "2026-11-10T21:50:13Z",
-      "status": "new"
+      "status": "skipped"
     },
     {
       "id": "GRPN-2026-11-10T21:50:14Z-a15dcf",
@@ -244,7 +244,7 @@
       "guidance": "none",
       "agent": "chewbacca",
       "decided_at": "2026-11-10T21:50:14Z",
-      "status": "new"
+      "status": "skipped"
     },
     {
       "id": "LTRX-2026-11-10T21:50:14Z-57ffbe",
@@ -265,7 +265,7 @@
       "guidance": "none",
       "agent": "chewbacca",
       "decided_at": "2026-11-10T21:50:14Z",
-      "status": "new"
+      "status": "skipped"
     },
     {
       "id": "BW-2026-11-10T21:50:15Z-134ff1",
@@ -286,7 +286,7 @@
       "guidance": "unknown",
       "agent": "chewbacca",
       "decided_at": "2026-11-10T21:50:15Z",
-      "status": "new"
+      "status": "skipped"
     },
     {
       "id": "RNGR-2026-11-10T21:50:15Z-d4db9c",
@@ -307,7 +307,7 @@
       "guidance": "unknown",
       "agent": "chewbacca",
       "decided_at": "2026-11-10T21:50:15Z",
-      "status": "new"
+      "status": "skipped"
     },
     {
       "id": "ETD-2026-11-10T21:50:16Z-0cad8e",
@@ -328,7 +328,7 @@
       "guidance": "none",
       "agent": "chewbacca",
       "decided_at": "2026-11-10T21:50:16Z",
-      "status": "new"
+      "status": "skipped"
     },
     {
       "id": "MNTK-2026-11-10T21:50:16Z-1d39fb",
@@ -349,7 +349,7 @@
       "guidance": "none",
       "agent": "chewbacca",
       "decided_at": "2026-11-10T21:50:16Z",
-      "status": "new"
+      "status": "skipped"
     },
     {
       "id": "RPAY-2026-11-10T21:50:17Z-e7529f",
@@ -370,7 +370,7 @@
       "guidance": "none",
       "agent": "chewbacca",
       "decided_at": "2026-11-10T21:50:17Z",
-      "status": "new"
+      "status": "skipped"
     },
     {
       "id": "SOC-2026-11-10T21:50:17Z-c53a83",
@@ -391,7 +391,7 @@
       "guidance": "none",
       "agent": "chewbacca",
       "decided_at": "2026-11-10T21:50:17Z",
-      "status": "new"
+      "status": "skipped"
     },
     {
       "id": "CHRS-2026-11-10T21:50:18Z-419f58",
@@ -412,7 +412,7 @@
       "guidance": "none",
       "agent": "chewbacca",
       "decided_at": "2026-11-10T21:50:18Z",
-      "status": "new"
+      "status": "skipped"
     },
     {
       "id": "IMNM-2026-11-10T21:50:18Z-368944",
@@ -433,7 +433,7 @@
       "guidance": "none",
       "agent": "chewbacca",
       "decided_at": "2026-11-10T21:50:18Z",
-      "status": "new"
+      "status": "skipped"
     },
     {
       "id": "US-2026-11-10T21:50:19Z-f0aa79",
@@ -455,7 +455,7 @@
       "guidance": "none",
       "agent": "chewbacca",
       "decided_at": "2026-11-10T21:50:19Z",
-      "status": "new"
+      "status": "skipped"
     },
     {
       "id": "NVDA-2026-11-10T21:50:19Z-48f0e9",
@@ -478,7 +478,7 @@
       "guidance": "none",
       "agent": "chewbacca",
       "decided_at": "2026-11-10T21:50:19Z",
-      "status": "new"
+      "status": "skipped"
     },
     {
       "id": "CVRX-2026-11-10T21:50:20Z-b65c83",
@@ -501,7 +501,7 @@
       "guidance": "none",
       "agent": "chewbacca",
       "decided_at": "2026-11-10T21:50:20Z",
-      "status": "new"
+      "status": "skipped"
     },
     {
       "id": "WTA-2026-11-10T21:50:20Z-a43327",
@@ -523,7 +523,7 @@
       "guidance": "none",
       "agent": "chewbacca",
       "decided_at": "2026-11-10T21:50:20Z",
-      "status": "new"
+      "status": "skipped"
     }
   ],
   "updated_at": "2026-11-10T21:50:20Z",
