@@ -45,7 +45,7 @@ git push origin main
 | `guidance_beat` | Engine | raised guidance + surprise >8%, release out · 10% · max 8 · hold 5 · no stop |
 | `beat5_raise` | Engine | surprise >5% + raised outlook · 10% · max 8 · hold 5 · no regime filter |
 | `miss_short` | Engine | surprise <-10% AND gap <-5% · 5% · max 4 · hold 2 · 8% stop |
-| `news_event` | Engine | bullish news → long / bearish news → short · 5% · max 6 · hold 2 · 8% stop |
+| `news_event` | Engine | config-driven (`config/strategies/news_event.yaml`) · defaults: bullish→long / bearish→short · 5% · max 6 · hold 2 · 8% stop |
 
 Tags and `news_event_type` / `news_side` on candidates are signals for you — they do **not** auto-fill the agent book.
 

@@ -22,6 +22,7 @@ class handler(BaseHTTPRequestHandler):
                 "spy_above_ma50": data.get("spy_above_ma50"),
                 "books": data.get("books") or [],
                 "rules": data.get("rules") or {},
+                "news_event_config": data.get("news_event_config"),
             }
         ).encode()
         self.send_response(200)

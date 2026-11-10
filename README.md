@@ -13,7 +13,7 @@
 | `guidance_beat` | Engine | raised guidance + surprise >8%, release out · 10% · max 8 · hold 5 |
 | `beat5_raise` | Engine | surprise >5% + raised outlook · 10% · max 8 · hold 5 |
 | `miss_short` | Engine | surprise <-10% AND gap <-5% · 5% · max 4 · hold 2 · 8% stop |
-| `news_event` | Engine | bullish/bearish news keywords · 5% · max 6 · hold 2 · 8% stop both sides |
+| `news_event` | Engine | config-driven (`config/strategies/news_event.yaml`) · defaults: bullish/bearish · 5% · max 6 · hold 2 · 8% stop |
 
 Shared candidates + `state/stocks/news.json`; independent ledgers. Cost **0.5%**/fill; EUR sizing via **EURUSD=X**. Paper shorts have **no borrow model**.
 
