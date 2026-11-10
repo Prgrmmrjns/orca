@@ -1,10 +1,10 @@
 {
   "mode": "paper",
-  "as_of": "2026-11-10T16:56:00Z",
-  "as_of_et": "2026-11-10 11:56 ET",
+  "as_of": "2026-11-10T16:57:51Z",
+  "as_of_et": "2026-11-10 11:57 ET",
   "rolling_hours": 72,
-  "n_items": 112,
-  "n_actionable": 3,
+  "n_items": 116,
+  "n_actionable": 12,
   "n_with_ticker": 10,
   "sources": [
     "prnewswire",
@@ -19,6 +19,66 @@
   "note": "Paper news feed. Keyword tagging is heuristic. Shorts have no borrow model. RSS/EDGAR can lag minutes\u2013hours.",
   "items": [
     {
+      "id": "0d79689917fefc15",
+      "source": "edgar_8k",
+      "title": "8-K - Chase Card Funding LLC (0001658982) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001193125-26-454911 Size: 185 KB Item 8.01: Other Events",
+      "url": "https://www.sec.gov/Archives/edgar/data/1658982/000119312526454911/0001193125-26-454911-index.htm",
+      "published_at": "2026-11-10T16:57:04Z",
+      "tickers": [],
+      "company": "Chase Card Funding LLC",
+      "event_type": "fraud_probe",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "scanned_at": "2026-11-10T16:57:46Z"
+    },
+    {
+      "id": "6cee6a0f5dd9ae93",
+      "source": "edgar_8k",
+      "title": "8-K - CHASE ISSUANCE TRUST (0001174821) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001193125-26-454911 Size: 185 KB Item 8.01: Other Events",
+      "url": "https://www.sec.gov/Archives/edgar/data/1174821/000119312526454911/0001193125-26-454911-index.htm",
+      "published_at": "2026-11-10T16:57:04Z",
+      "tickers": [],
+      "company": "CHASE ISSUANCE TRUST",
+      "event_type": "fraud_probe",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "scanned_at": "2026-11-10T16:57:46Z"
+    },
+    {
+      "id": "e8fe123e9daa07aa",
+      "source": "edgar_8k",
+      "title": "8-K - JPMORGAN CHASE BANK, NATIONAL ASSOCIATION (0000869090) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001193125-26-454911 Size: 185 KB Item 8.01: Other Events",
+      "url": "https://www.sec.gov/Archives/edgar/data/869090/000119312526454911/0001193125-26-454911-index.htm",
+      "published_at": "2026-11-10T16:57:04Z",
+      "tickers": [],
+      "company": "JPMORGAN CHASE BANK, NATIONAL ASSOCIATION",
+      "event_type": "fraud_probe",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "scanned_at": "2026-11-10T16:57:46Z"
+    },
+    {
+      "id": "20ebd51578b7ae6b",
+      "source": "edgar_8k",
+      "title": "8-K - FS Bancorp, Inc. (0001530249) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0000939057-26-000299 Size: 139 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
+      "url": "https://www.sec.gov/Archives/edgar/data/1530249/000093905726000299/0000939057-26-000299-index.htm",
+      "published_at": "2026-11-10T16:56:37Z",
+      "tickers": [],
+      "company": "FS Bancorp, Inc.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T16:57:46Z"
+    },
+    {
       "id": "0893c927b61dab1f",
       "source": "prnewswire",
       "title": "Wood Partners to Break Ground on 301-Unit Alta Meadowlands in Hillsborough, North Carolina",
@@ -30,7 +90,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:56Z"
+      "scanned_at": "2026-11-10T16:57:47Z"
     },
     {
       "id": "dfcd8e9efec63e6d",
@@ -44,7 +104,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:57Z"
+      "scanned_at": "2026-11-10T16:57:48Z"
     },
     {
       "id": "49e6174132e0ffca",
@@ -59,7 +119,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:56Z"
+      "scanned_at": "2026-11-10T16:57:46Z"
     },
     {
       "id": "75654a7fe9b90e85",
@@ -74,7 +134,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:56Z"
+      "scanned_at": "2026-11-10T16:57:46Z"
     },
     {
       "id": "4be6d1d8d38240f8",
@@ -86,11 +146,11 @@
       "tickers": [
         "CVRX"
       ],
-      "event_type": "fraud_probe",
+      "event_type": "shareholder_alert",
       "direction": "bearish",
-      "news_side": "short",
-      "actionable": true,
-      "scanned_at": "2026-11-10T16:55:56Z"
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T16:57:47Z"
     },
     {
       "id": "fb1066ecba2884c6",
@@ -104,7 +164,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:56Z"
+      "scanned_at": "2026-11-10T16:57:47Z"
     },
     {
       "id": "34158b131fe79d51",
@@ -118,7 +178,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:56Z"
+      "scanned_at": "2026-11-10T16:57:47Z"
     },
     {
       "id": "9c58c4c43f1f238e",
@@ -130,11 +190,11 @@
       "tickers": [
         "NVDA"
       ],
-      "event_type": "fraud_probe",
+      "event_type": "shareholder_alert",
       "direction": "bearish",
-      "news_side": "short",
-      "actionable": true,
-      "scanned_at": "2026-11-10T16:55:56Z"
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T16:57:47Z"
     },
     {
       "id": "25a5182cf569893c",
@@ -148,7 +208,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:56Z"
+      "scanned_at": "2026-11-10T16:57:47Z"
     },
     {
       "id": "bc66ae06817c30e8",
@@ -162,7 +222,7 @@
       "direction": "bearish",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:56Z"
+      "scanned_at": "2026-11-10T16:57:47Z"
     },
     {
       "id": "c27cf0d144dd28dd",
@@ -173,11 +233,11 @@
       "published_at": "2026-11-10T16:43:58Z",
       "tickers": [],
       "company": "AMERICAN REBEL HOLDINGS INC",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-10T16:55:56Z"
+      "event_type": "fraud_probe",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "scanned_at": "2026-11-10T16:57:46Z"
     },
     {
       "id": "a8fb2375f8961e83",
@@ -191,7 +251,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:56Z"
+      "scanned_at": "2026-11-10T16:57:47Z"
     },
     {
       "id": "8ad97ea80f9ecad6",
@@ -205,7 +265,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:56Z"
+      "scanned_at": "2026-11-10T16:57:47Z"
     },
     {
       "id": "c397e24b5a1edd18",
@@ -219,7 +279,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:56Z"
+      "scanned_at": "2026-11-10T16:57:47Z"
     },
     {
       "id": "787bd96914a883de",
@@ -233,7 +293,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:56Z"
+      "scanned_at": "2026-11-10T16:57:47Z"
     },
     {
       "id": "f64eeced532bf452",
@@ -247,7 +307,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:57Z"
+      "scanned_at": "2026-11-10T16:57:48Z"
     },
     {
       "id": "aa5c52ab5de71d7b",
@@ -261,7 +321,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:56Z"
+      "scanned_at": "2026-11-10T16:57:47Z"
     },
     {
       "id": "09206fc3e80369ce",
@@ -277,7 +337,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:56Z"
+      "scanned_at": "2026-11-10T16:57:47Z"
     },
     {
       "id": "7e11e4f5e8c4957d",
@@ -291,7 +351,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:56Z"
+      "scanned_at": "2026-11-10T16:57:47Z"
     },
     {
       "id": "bfe83013587493e9",
@@ -306,7 +366,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:56Z"
+      "scanned_at": "2026-11-10T16:57:46Z"
     },
     {
       "id": "4283f0d640e07d65",
@@ -320,7 +380,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:56Z"
+      "scanned_at": "2026-11-10T16:57:47Z"
     },
     {
       "id": "7780da74229737bc",
@@ -332,11 +392,11 @@
       "tickers": [
         "ATR"
       ],
-      "event_type": "other",
-      "direction": "neutral",
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:56Z"
+      "scanned_at": "2026-11-10T16:57:47Z"
     },
     {
       "id": "d9344cef01f62076",
@@ -350,7 +410,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:56Z"
+      "scanned_at": "2026-11-10T16:57:47Z"
     },
     {
       "id": "6b161db3db398c3f",
@@ -362,11 +422,11 @@
       "tickers": [
         "ATR"
       ],
-      "event_type": "other",
-      "direction": "neutral",
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:57Z"
+      "scanned_at": "2026-11-10T16:57:48Z"
     },
     {
       "id": "4fe6e8d874c4c4bf",
@@ -380,7 +440,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:56Z"
+      "scanned_at": "2026-11-10T16:57:47Z"
     },
     {
       "id": "7b5662fcc032ad85",
@@ -394,7 +454,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:56Z"
+      "scanned_at": "2026-11-10T16:57:47Z"
     },
     {
       "id": "1c80941c0c9d73e1",
@@ -408,7 +468,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:56Z"
+      "scanned_at": "2026-11-10T16:57:47Z"
     },
     {
       "id": "fe3e58aadec018b3",
@@ -436,7 +496,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:57Z"
+      "scanned_at": "2026-11-10T16:57:48Z"
     },
     {
       "id": "cba86f1611110347",
@@ -450,7 +510,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:57Z"
+      "scanned_at": "2026-11-10T16:57:48Z"
     },
     {
       "id": "f1baa7685da1fb58",
@@ -466,7 +526,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:58Z"
+      "scanned_at": "2026-11-10T16:57:50Z"
     },
     {
       "id": "5ef8490b9d03387c",
@@ -480,7 +540,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:57Z"
+      "scanned_at": "2026-11-10T16:57:48Z"
     },
     {
       "id": "ef63f672d24b7640",
@@ -494,7 +554,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:59Z"
+      "scanned_at": "2026-11-10T16:57:50Z"
     },
     {
       "id": "04d519c3848a0988",
@@ -509,7 +569,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:56Z"
+      "scanned_at": "2026-11-10T16:57:46Z"
     },
     {
       "id": "8fe0c622a55c7c4a",
@@ -523,7 +583,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:59Z"
+      "scanned_at": "2026-11-10T16:57:50Z"
     },
     {
       "id": "285d63549735e824",
@@ -540,7 +600,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:57Z"
+      "scanned_at": "2026-11-10T16:57:48Z"
     },
     {
       "id": "ba58fbb808042fa8",
@@ -554,7 +614,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:57Z"
+      "scanned_at": "2026-11-10T16:57:48Z"
     },
     {
       "id": "52009dc8d9f31207",
@@ -568,7 +628,7 @@
       "direction": "bullish",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:57Z"
+      "scanned_at": "2026-11-10T16:57:48Z"
     },
     {
       "id": "a3bcf37940980f47",
@@ -582,7 +642,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:59Z"
+      "scanned_at": "2026-11-10T16:57:50Z"
     },
     {
       "id": "72c9d347396b19ac",
@@ -596,7 +656,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:59Z"
+      "scanned_at": "2026-11-10T16:57:50Z"
     },
     {
       "id": "19c280e5d59ce747",
@@ -610,7 +670,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:57Z"
+      "scanned_at": "2026-11-10T16:57:48Z"
     },
     {
       "id": "26a5d7b18ea2045a",
@@ -624,7 +684,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:57Z"
+      "scanned_at": "2026-11-10T16:57:48Z"
     },
     {
       "id": "1f7ef01152d30c32",
@@ -640,7 +700,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:57Z"
+      "scanned_at": "2026-11-10T16:57:48Z"
     },
     {
       "id": "964699e790747c6e",
@@ -654,7 +714,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:57Z"
+      "scanned_at": "2026-11-10T16:57:48Z"
     },
     {
       "id": "c496c3c7c6f00f62",
@@ -668,7 +728,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:57Z"
+      "scanned_at": "2026-11-10T16:57:48Z"
     },
     {
       "id": "9231267f77ed6266",
@@ -682,7 +742,7 @@
       "direction": "bullish",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:57Z"
+      "scanned_at": "2026-11-10T16:57:48Z"
     },
     {
       "id": "a3ab0ee15f4fd8ba",
@@ -696,7 +756,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:57Z"
+      "scanned_at": "2026-11-10T16:57:48Z"
     },
     {
       "id": "1922e37f4f9b1404",
@@ -711,7 +771,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:56Z"
+      "scanned_at": "2026-11-10T16:57:46Z"
     },
     {
       "id": "704da22954455999",
@@ -722,11 +782,11 @@
       "published_at": "2026-11-10T15:56:46Z",
       "tickers": [],
       "company": "GREENE BANCORP, INC.",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-10T16:55:56Z"
+      "event_type": "fraud_probe",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "scanned_at": "2026-11-10T16:57:46Z"
     },
     {
       "id": "a6f84ddbe847d5d6",
@@ -742,7 +802,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:57Z"
+      "scanned_at": "2026-11-10T16:57:48Z"
     },
     {
       "id": "0ec67582f751f147",
@@ -756,7 +816,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:57Z"
+      "scanned_at": "2026-11-10T16:57:48Z"
     },
     {
       "id": "4cb8b62b34b4f132",
@@ -772,7 +832,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:57Z"
+      "scanned_at": "2026-11-10T16:57:48Z"
     },
     {
       "id": "8f4dccfa7251e4f7",
@@ -786,7 +846,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:59Z"
+      "scanned_at": "2026-11-10T16:57:50Z"
     },
     {
       "id": "01ca38b7712e8317",
@@ -800,7 +860,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:57Z"
+      "scanned_at": "2026-11-10T16:57:48Z"
     },
     {
       "id": "930a19929db18ff3",
@@ -828,7 +888,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:59Z"
+      "scanned_at": "2026-11-10T16:57:50Z"
     },
     {
       "id": "9cde0c69d324c8ca",
@@ -842,7 +902,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:59Z"
+      "scanned_at": "2026-11-10T16:57:50Z"
     },
     {
       "id": "88413ac5a22718bd",
@@ -857,7 +917,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:56Z"
+      "scanned_at": "2026-11-10T16:57:46Z"
     },
     {
       "id": "b8472bbf43205d17",
@@ -871,7 +931,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:57Z"
+      "scanned_at": "2026-11-10T16:57:49Z"
     },
     {
       "id": "6f10cf2937fd0e20",
@@ -885,7 +945,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:59Z"
+      "scanned_at": "2026-11-10T16:57:50Z"
     },
     {
       "id": "516febb91cb88283",
@@ -900,7 +960,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:56Z"
+      "scanned_at": "2026-11-10T16:57:46Z"
     },
     {
       "id": "4675f9a47b54ad06",
@@ -911,11 +971,11 @@
       "published_at": "2026-11-10T14:12:58Z",
       "tickers": [],
       "company": "Guerrilla RF, Inc.",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-10T16:55:56Z"
+      "event_type": "fraud_probe",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "scanned_at": "2026-11-10T16:57:46Z"
     },
     {
       "id": "d75bec2b43fecb96",
@@ -929,7 +989,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:59Z"
+      "scanned_at": "2026-11-10T16:57:50Z"
     },
     {
       "id": "e8854c31659a80c7",
@@ -944,7 +1004,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:56Z"
+      "scanned_at": "2026-11-10T16:57:46Z"
     },
     {
       "id": "416e7ae3a9c35760",
@@ -959,7 +1019,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:56Z"
+      "scanned_at": "2026-11-10T16:57:46Z"
     },
     {
       "id": "3c13f911c1b086a5",
@@ -974,7 +1034,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:56Z"
+      "scanned_at": "2026-11-10T16:57:46Z"
     },
     {
       "id": "85e31e6c46a3c2b2",
@@ -989,7 +1049,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:56Z"
+      "scanned_at": "2026-11-10T16:57:46Z"
     },
     {
       "id": "f130ed7a954e6efe",
@@ -1004,7 +1064,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:56Z"
+      "scanned_at": "2026-11-10T16:57:46Z"
     },
     {
       "id": "0f04f69bc8eae421",
@@ -1019,7 +1079,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:56Z"
+      "scanned_at": "2026-11-10T16:57:46Z"
     },
     {
       "id": "a56b564b0364189f",
@@ -1030,11 +1090,11 @@
       "published_at": "2026-11-10T13:45:13Z",
       "tickers": [],
       "company": "Virginia National Bankshares Corp",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-10T16:55:56Z"
+      "event_type": "fraud_probe",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "scanned_at": "2026-11-10T16:57:46Z"
     },
     {
       "id": "d2dfc82cd83c8b33",
@@ -1049,7 +1109,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:56Z"
+      "scanned_at": "2026-11-10T16:57:46Z"
     },
     {
       "id": "826f6087296d81d1",
@@ -1063,7 +1123,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:59Z"
+      "scanned_at": "2026-11-10T16:57:50Z"
     },
     {
       "id": "173fd8513fd15e3a",
@@ -1074,11 +1134,11 @@
       "published_at": "2026-11-10T13:40:22Z",
       "tickers": [],
       "company": "Azitra, Inc.",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-10T16:55:56Z"
+      "event_type": "fraud_probe",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "scanned_at": "2026-11-10T16:57:46Z"
     },
     {
       "id": "d0683e9087b90cfc",
@@ -1093,7 +1153,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:56Z"
+      "scanned_at": "2026-11-10T16:57:46Z"
     },
     {
       "id": "ded2ca891a04016e",
@@ -1108,7 +1168,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:56Z"
+      "scanned_at": "2026-11-10T16:57:46Z"
     },
     {
       "id": "6777206234b24b80",
@@ -1123,7 +1183,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:56Z"
+      "scanned_at": "2026-11-10T16:57:46Z"
     },
     {
       "id": "695206954b712081",
@@ -1138,7 +1198,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:56Z"
+      "scanned_at": "2026-11-10T16:57:46Z"
     },
     {
       "id": "f04079da7bb36034",
@@ -1153,7 +1213,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:56Z"
+      "scanned_at": "2026-11-10T16:57:46Z"
     },
     {
       "id": "4693701784d08c39",
@@ -1168,7 +1228,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:56Z"
+      "scanned_at": "2026-11-10T16:57:46Z"
     },
     {
       "id": "ac83fb5404ae91f1",
@@ -1183,7 +1243,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:56Z"
+      "scanned_at": "2026-11-10T16:57:46Z"
     },
     {
       "id": "7745b4117b9be34b",
@@ -1198,7 +1258,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:56Z"
+      "scanned_at": "2026-11-10T16:57:46Z"
     },
     {
       "id": "11cab0a88fb7e576",
@@ -1213,7 +1273,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:56Z"
+      "scanned_at": "2026-11-10T16:57:46Z"
     },
     {
       "id": "bbdf1f1fb04456d0",
@@ -1224,11 +1284,11 @@
       "published_at": "2026-11-10T13:11:57Z",
       "tickers": [],
       "company": "Artificial Intelligence Technology Solutions Inc.",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-10T16:55:56Z"
+      "event_type": "fraud_probe",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "scanned_at": "2026-11-10T16:57:46Z"
     },
     {
       "id": "422d628c874803eb",
@@ -1239,11 +1299,11 @@
       "published_at": "2026-11-10T13:10:20Z",
       "tickers": [],
       "company": "Cingulate Inc.",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-10T16:55:56Z"
+      "event_type": "fraud_probe",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "scanned_at": "2026-11-10T16:57:46Z"
     },
     {
       "id": "3a729943e81be797",
@@ -1258,7 +1318,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:56Z"
+      "scanned_at": "2026-11-10T16:57:46Z"
     },
     {
       "id": "cf161ad6d8a0c4b0",
@@ -1273,7 +1333,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:56Z"
+      "scanned_at": "2026-11-10T16:57:46Z"
     },
     {
       "id": "46c37108dd85972a",
@@ -1288,7 +1348,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:56Z"
+      "scanned_at": "2026-11-10T16:57:46Z"
     },
     {
       "id": "e494f3b7c96d38c2",
@@ -1299,11 +1359,11 @@
       "published_at": "2026-11-10T13:05:36Z",
       "tickers": [],
       "company": "PDS Biotechnology Corp",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-10T16:55:56Z"
+      "event_type": "fraud_probe",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "scanned_at": "2026-11-10T16:57:46Z"
     },
     {
       "id": "9cb760f7e40bcc79",
@@ -1318,7 +1378,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:56Z"
+      "scanned_at": "2026-11-10T16:57:46Z"
     },
     {
       "id": "e63ab1a1cb179901",
@@ -1333,7 +1393,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:56Z"
+      "scanned_at": "2026-11-10T16:57:46Z"
     },
     {
       "id": "57820580dee70f31",
@@ -1407,7 +1467,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:57Z"
+      "scanned_at": "2026-11-10T16:57:49Z"
     },
     {
       "id": "e276f27854b7c41d",
@@ -1421,7 +1481,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:58Z"
+      "scanned_at": "2026-11-10T16:57:50Z"
     },
     {
       "id": "3884afb0150970f9",
@@ -1435,7 +1495,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:58Z"
+      "scanned_at": "2026-11-10T16:57:50Z"
     },
     {
       "id": "9235195334146eb0",
@@ -1449,7 +1509,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:57Z"
+      "scanned_at": "2026-11-10T16:57:49Z"
     },
     {
       "id": "c7429c96bd7d3ecb",
@@ -1463,7 +1523,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:57Z"
+      "scanned_at": "2026-11-10T16:57:49Z"
     },
     {
       "id": "fdbc8563b36f8cf5",
@@ -1477,7 +1537,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:57Z"
+      "scanned_at": "2026-11-10T16:57:49Z"
     },
     {
       "id": "67f7c52faf091e43",
@@ -1491,7 +1551,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:57Z"
+      "scanned_at": "2026-11-10T16:57:49Z"
     },
     {
       "id": "4285567555b6675f",
@@ -1505,7 +1565,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:57Z"
+      "scanned_at": "2026-11-10T16:57:49Z"
     },
     {
       "id": "c3c4280bc6e5d8ff",
@@ -1519,7 +1579,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:57Z"
+      "scanned_at": "2026-11-10T16:57:49Z"
     },
     {
       "id": "8dc785c9c3a42a50",
@@ -1533,7 +1593,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:57Z"
+      "scanned_at": "2026-11-10T16:57:49Z"
     },
     {
       "id": "56eac0855ed7c5e7",
@@ -1547,7 +1607,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:58Z"
+      "scanned_at": "2026-11-10T16:57:50Z"
     },
     {
       "id": "7144237b9a02d7db",
@@ -1561,7 +1621,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:57Z"
+      "scanned_at": "2026-11-10T16:57:49Z"
     },
     {
       "id": "65aa2ae6973f5971",
@@ -1575,7 +1635,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:58Z"
+      "scanned_at": "2026-11-10T16:57:50Z"
     },
     {
       "id": "cb3e48820a212891",
@@ -1589,7 +1649,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:57Z"
+      "scanned_at": "2026-11-10T16:57:49Z"
     },
     {
       "id": "acad5801b91c1d7a",
@@ -1603,7 +1663,7 @@
       "direction": "bearish",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:57Z"
+      "scanned_at": "2026-11-10T16:57:49Z"
     },
     {
       "id": "08b3efda9e3fa115",
@@ -1617,7 +1677,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:57Z"
+      "scanned_at": "2026-11-10T16:57:49Z"
     },
     {
       "id": "41383c5c59816f29",
@@ -1631,7 +1691,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:57Z"
+      "scanned_at": "2026-11-10T16:57:49Z"
     },
     {
       "id": "2352affc375bddb8",
@@ -1645,7 +1705,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:55:57Z"
+      "scanned_at": "2026-11-10T16:57:49Z"
     }
   ]
 }
