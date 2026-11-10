@@ -5,8 +5,8 @@
   "forward_test_start": "2026-11-10",
   "spy_above_ma50": false,
   "n_calendar": 646,
-  "n_candidates": 648,
-  "n_tagged": 17,
+  "n_candidates": 650,
+  "n_tagged": 19,
   "errors": [],
   "rules": {
     "agent": "Discretionary agentic book. Cursor agent decides via stocks.decide from shared candidates. Baseline \u2014 not auto-traded by the engine.",
@@ -513,7 +513,67 @@
       "suggested_side": null,
       "suggested_hold": null,
       "spy_above_ma50": null,
-      "scanned_at": "2026-11-10T21:46:04Z"
+      "scanned_at": "2026-11-10T22:20:40Z"
+    },
+    {
+      "ticker": "PDCC",
+      "name": "PDCC",
+      "source": "news",
+      "cal_date": "2026-11-10",
+      "report_date": "2026-11-10",
+      "timing": "news",
+      "surprise_pct": null,
+      "gap_pct": null,
+      "guidance": "none",
+      "headline": "Pearl Diver Credit Company Inc. Schedules Third Quarter 2026 Earnings Release and Conference Call",
+      "excerpt": "- Conference Call Scheduled for Monday, November 16 at 10:00 am Eastern Time / 3:00 pm UK Time - NEW YORK and LONDON, Nov. 10, 2026 /PRNewswire/ -- Pearl Diver Credit Company Inc. (NYSE: PDCC, PDPA) (the \"Company\") today announced that its third quarter 2026 financial results will be...",
+      "filing_url": "",
+      "exhibit_url": "https://www.prnewswire.com/news-releases/pearl-diver-credit-company-inc-schedules-third-quarter-2026-earnings-release-and-conference-call-302935452.html",
+      "news_id": "1e5162f285e8a91d",
+      "news_source": "prnewswire",
+      "news_event_type": "earnings",
+      "news_direction": "neutral",
+      "news_side": null,
+      "news_actionable": false,
+      "news_published_at": "2026-11-10T22:02:00Z",
+      "rule_tags": [
+        "news_event",
+        "earnings"
+      ],
+      "suggested_side": null,
+      "suggested_hold": null,
+      "spy_above_ma50": null,
+      "scanned_at": "2026-11-10T22:20:40Z"
+    },
+    {
+      "ticker": "PDCC",
+      "name": "PDCC",
+      "source": "news",
+      "cal_date": "2026-11-10",
+      "report_date": "2026-11-10",
+      "timing": "news",
+      "surprise_pct": null,
+      "gap_pct": null,
+      "guidance": "none",
+      "headline": "Pearl Diver Credit Company Inc. Schedules Third Quarter 2026 Earnings Release and Conference Call",
+      "excerpt": "- Conference Call Scheduled for Monday, November 16 at 10:00 am Eastern Time / 3:00 pm UK Time - NEW YORK and LONDON, Nov. 10, 2026 /PRNewswire/ -- Pearl Diver Credit Company Inc. (NYSE: PDCC, PDPA) (the \"Company\") today announced that its third quarter 2026 financial results will be...",
+      "filing_url": "",
+      "exhibit_url": "https://www.prnewswire.com/news-releases/pearl-diver-credit-company-inc-schedules-third-quarter-2026-earnings-release-and-conference-call-302935452.html",
+      "news_id": "36a0fffee192defe",
+      "news_source": "prnewswire_financial",
+      "news_event_type": "earnings",
+      "news_direction": "neutral",
+      "news_side": null,
+      "news_actionable": false,
+      "news_published_at": "2026-11-10T22:02:00Z",
+      "rule_tags": [
+        "news_event",
+        "earnings"
+      ],
+      "suggested_side": null,
+      "suggested_hold": null,
+      "spy_above_ma50": null,
+      "scanned_at": "2026-11-10T22:20:40Z"
     },
     {
       "ticker": "ALTI",
@@ -17553,6 +17613,6 @@
       "suggested_hold": null
     }
   ],
-  "news_merged_at": "2026-11-10T21:46:04Z",
+  "news_merged_at": "2026-11-10T22:20:40Z",
   "scan_note": "calendar fetch failed; retained prior candidates. errors=2026-11-09: nasdaq calendar failed for 2026-11-09; 2026-11-10: nasdaq calendar failed for 2026-11-10; 2026-11-11: nasdaq calendar failed for 2026-11-11"
 }

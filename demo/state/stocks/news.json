@@ -1,11 +1,11 @@
 {
   "mode": "paper",
-  "as_of": "2026-11-10T21:46:04Z",
-  "as_of_et": "2026-11-10 16:46 ET",
+  "as_of": "2026-11-10T22:20:40Z",
+  "as_of_et": "2026-11-10 17:20 ET",
   "rolling_hours": 72,
-  "n_items": 206,
-  "n_actionable": 19,
-  "n_with_ticker": 32,
+  "n_items": 267,
+  "n_actionable": 27,
+  "n_with_ticker": 46,
   "sources": [
     "prnewswire",
     "prnewswire_financial",
@@ -19,6 +19,923 @@
   "note": "Paper news feed. Keyword tagging is heuristic. Shorts have no borrow model. RSS/EDGAR can lag minutes\u2013hours.",
   "items": [
     {
+      "id": "bc7420975203e452",
+      "source": "edgar_8k",
+      "title": "8-K - COTY INC. (0001024305) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001024305-26-000076 Size: 436 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 5.07: Submission of Matters to a Vote of Security Holders Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1024305/000102430526000076/0001024305-26-000076-index.htm",
+      "published_at": "2026-11-10T22:19:38Z",
+      "tickers": [],
+      "company": "COTY INC.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "c347820afe2886a5",
+      "source": "edgar_8k",
+      "title": "8-K - ACTELIS NETWORKS INC (0001141284) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001213900-26-118118 Size: 395 KB Item 2.02: Results of Operations and Financial Condition Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141284/000121390026118118/0001213900-26-118118-index.htm",
+      "published_at": "2026-11-10T22:17:54Z",
+      "tickers": [],
+      "company": "ACTELIS NETWORKS INC",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "88da00cac2c407ae",
+      "source": "prnewswire",
+      "title": "Bramshill Multi-Strategy Income Fund (BRLMX) Wins 2026 Hedge Fund Performance Awards | US for 40 Act Fund of the Year",
+      "summary": "NEW YORK, Nov. 10, 2026 /PRNewswire/ -- Bramshill Investments is pleased to announce that the Bramshill Multi Strategy Income Fund has been named winner of the 40 Act Fund of the Year at the 2026 Hedge Fund Performance Awards US, presented by With Intelligence (formerly the HFM US...",
+      "url": "https://www.prnewswire.com/news-releases/bramshill-multi-strategy-income-fund-brlmx-wins-2026-hedge-fund-performance-awards--us-for-40-act-fund-of-the-year-302935641.html",
+      "published_at": "2026-11-10T22:17:00Z",
+      "tickers": [
+        "BRLMX"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "959ff7357c2829db",
+      "source": "prnewswire_financial",
+      "title": "Bramshill Multi-Strategy Income Fund (BRLMX) Wins 2026 Hedge Fund Performance Awards | US for 40 Act Fund of the Year",
+      "summary": "NEW YORK, Nov. 10, 2026 /PRNewswire/ -- Bramshill Investments is pleased to announce that the Bramshill Multi Strategy Income Fund has been named winner of the 40 Act Fund of the Year at the 2026 Hedge Fund Performance Awards US, presented by With Intelligence (formerly the HFM US...",
+      "url": "https://www.prnewswire.com/news-releases/bramshill-multi-strategy-income-fund-brlmx-wins-2026-hedge-fund-performance-awards--us-for-40-act-fund-of-the-year-302935641.html",
+      "published_at": "2026-11-10T22:17:00Z",
+      "tickers": [
+        "BRLMX"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "ab2121fe8dcd4ac8",
+      "source": "prnewswire",
+      "title": "GIL Investors Have Opportunity to Lead Gildan Activewear Inc. Securities Fraud Lawsuit Filed by The Rosen Law Firm",
+      "summary": "NEW YORK, Nov. 10, 2026 /PRNewswire/ -- Why: Rosen Law Firm, a global investor rights law firm, reminds purchasers of securities of Gildan Activewear Inc. (NYSE: GIL) between February 19, 2025 and June 15, 2026, both dates inclusive (the \"Class Period\"), of the important December 14, 2026...",
+      "url": "https://www.prnewswire.com/news-releases/gil-investors-have-opportunity-to-lead-gildan-activewear-inc-securities-fraud-lawsuit-filed-by-the-rosen-law-firm-302935533.html",
+      "published_at": "2026-11-10T22:16:00Z",
+      "tickers": [
+        "GIL"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "f6299d00d7bca1ae",
+      "source": "prnewswire",
+      "title": "State Senator Danny Burgess Joins Tampa General in Celebration of Veterans' Service and Contributions to Community",
+      "summary": "More than 200 team members at Tampa General serve or have served in the U.S. military; Tampa General honors their service and sacrifice this Veterans Day. TAMPA, Fla., Nov. 10, 2026 /PRNewswire/ -- Tampa General Hospital (TGH) welcomed U.S. Army Reserve Major and Florida State Senator...",
+      "url": "https://www.prnewswire.com/news-releases/state-senator-danny-burgess-joins-tampa-general-in-celebration-of-veterans-service-and-contributions-to-community-302935640.html",
+      "published_at": "2026-11-10T22:16:00Z",
+      "tickers": [
+        "TGH"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "d5d3ac430b84bb8f",
+      "source": "edgar_8k",
+      "title": "8-K - CorMedix Inc. (0001410098) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001213900-26-118109 Size: 11 MB Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1410098/000121390026118109/0001213900-26-118109-index.htm",
+      "published_at": "2026-11-10T22:15:38Z",
+      "tickers": [],
+      "company": "CorMedix Inc.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "96fa3fb8f0204ebc",
+      "source": "edgar_8k",
+      "title": "8-K - Our Bond, Inc. (0001756064) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001493152-26-051026 Size: 269 KB Item 1.01: Entry into a Material Definitive Agreement Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1756064/000149315226051026/0001493152-26-051026-index.htm",
+      "published_at": "2026-11-10T22:14:19Z",
+      "tickers": [],
+      "company": "Our Bond, Inc.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "9112b712924a27ad",
+      "source": "prnewswire",
+      "title": "Shanghai Electric int\u00e8gre l'IA industrielle \u00e0 la fabrication et aux services de cycle de vie de ses turbines \u00e0 gaz industrielles",
+      "summary": "L'IA soutient les processus cl\u00e9s de la fabrication, de l'exploitation et de la maintenance des \u00e9quipements \u00e9lectriques haut de gamme. SHANGHAI, 10 novembre 2026 /PRNewswire/ -- Alors que l'intelligence artificielle (IA) industrielle passe des projets pilotes aux op\u00e9rations de base, les...",
+      "url": "https://www.prnewswire.com/news-releases/shanghai-electric-integre-lia-industrielle-a-la-fabrication-et-aux-services-de-cycle-de-vie-de-ses-turbines-a-gaz-industrielles-302935639.html",
+      "published_at": "2026-11-10T22:14:00Z",
+      "tickers": [
+        "IA"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "993f1377f8ac5bb4",
+      "source": "edgar_8k",
+      "title": "8-K - GRACO INC (0000042888) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001193125-26-455736 Size: 157 KB Item 7.01: Regulation FD Disclosure Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/42888/000119312526455736/0001193125-26-455736-index.htm",
+      "published_at": "2026-11-10T22:13:39Z",
+      "tickers": [],
+      "company": "GRACO INC",
+      "event_type": "fraud_probe",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "2e307d3e2bd9bd5f",
+      "source": "edgar_8k",
+      "title": "8-K - Perma-Pipe International Holdings, Inc. (0000914122) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001437749-26-036229 Size: 290 KB Item 1.01: Entry into a Material Definitive Agreement Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/914122/000143774926036229/0001437749-26-036229-index.htm",
+      "published_at": "2026-11-10T22:12:53Z",
+      "tickers": [],
+      "company": "Perma-Pipe International Holdings, Inc.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "add336b611f84453",
+      "source": "prnewswire",
+      "title": "Full Sail University Named to TheWrap Magazine's Top 50 Film Schools of 2026",
+      "summary": "WINTER PARK, Fla., Nov. 10, 2026 /PRNewswire/ -- Full Sail University has been named one of the Top 50 Film Schools of 2026 by TheWrap magazine, the publication's annual ranking of leading film education institutions. Full Sail University Named to TheWrap Magazine's Top 50 Film Schools of...",
+      "url": "https://www.prnewswire.com/news-releases/full-sail-university-named-to-thewrap-magazines-top-50-film-schools-of-2026-302935638.html",
+      "published_at": "2026-11-10T22:12:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "873c4c4af86942de",
+      "source": "edgar_8k",
+      "title": "8-K - Forward Industries, Inc. (0000038264) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001683168-26-008510 Size: 690 KB Item 1.01: Entry into a Material Definitive Agreement Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/38264/000168316826008510/0001683168-26-008510-index.htm",
+      "published_at": "2026-11-10T22:10:32Z",
+      "tickers": [],
+      "company": "Forward Industries, Inc.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "2be78c32b9a555e3",
+      "source": "edgar_8k",
+      "title": "8-K - NOMAD POWER SOLUTIONS, INC. (0001335105) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001493152-26-051024 Size: 369 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1335105/000149315226051024/0001493152-26-051024-index.htm",
+      "published_at": "2026-11-10T22:10:12Z",
+      "tickers": [],
+      "company": "NOMAD POWER SOLUTIONS, INC.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "b434f791a99da5e3",
+      "source": "edgar_8k",
+      "title": "8-K - SANUWAVE Health, Inc. (0001417663) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001628280-26-072832 Size: 535 KB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1417663/000162828026072832/0001628280-26-072832-index.htm",
+      "published_at": "2026-11-10T22:09:29Z",
+      "tickers": [],
+      "company": "SANUWAVE Health, Inc.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "0cf745a72f09d86a",
+      "source": "edgar_8k",
+      "title": "8-K - NOVAGOLD RESOURCES INC (0001173420) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001104659-26-125328 Size: 246 KB Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1173420/000110465926125328/0001104659-26-125328-index.htm",
+      "published_at": "2026-11-10T22:08:34Z",
+      "tickers": [],
+      "company": "NOVAGOLD RESOURCES INC",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "41feee626a3b38c9",
+      "source": "prnewswire",
+      "title": "GSMA MWC26 Doha welcomed over 10,000 attendees, as world-first ITU co-location puts MENA at the centre of global connectivity policy and innovation",
+      "summary": "MWC26 Doha brought together senior industry leaders, policymakers and regulators for three days of exhibition, discussion, networking and dealmaking in Doha DOHA, Qatar, Nov. 10, 2026 /PRNewswire/ -- MWC26 Doha closed today as over 10,000 attendees from 100 countries and territories...",
+      "url": "https://www.prnewswire.com/news-releases/gsma-mwc26-doha-welcomed-over-10-000-attendees-as-world-first-itu-co-location-puts-mena-at-the-centre-of-global-connectivity-policy-and-innovation-302935636.html",
+      "published_at": "2026-11-10T22:08:00Z",
+      "tickers": [
+        "GSMA"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "f4cc399d6f2e540b",
+      "source": "prnewswire",
+      "title": "Group 1 Automotive Board Declares Quarterly Dividend",
+      "summary": "HOUSTON, Nov. 10, 2026 /PRNewswire/ -- Group 1 Automotive, Inc. (NYSE: GPI) (\"Group 1\" or the \"Company\"), a Fortune 250 automotive retailer with 255 dealerships located in the U.S. and U.K., today announced its board of directors declared a quarterly dividend of $0.55 per share. The...",
+      "url": "https://www.prnewswire.com/news-releases/group-1-automotive-board-declares-quarterly-dividend-302935634.html",
+      "published_at": "2026-11-10T22:07:00Z",
+      "tickers": [
+        "GPI"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "2db1e98ca6f27715",
+      "source": "prnewswire",
+      "title": "Capital Properties, Inc. Discloses Health Condition of Chairman, Robert H. Eder",
+      "summary": "PROVIDENCE, R.I., Nov. 10, 2026 /PRNewswire/ -- Capital Properties, Inc. (OTCQX: CPTP) announced today that its Chairman, CEO and President, Robert H. Eder, has been diagnosed with cancer. He is currently undergoing treatment. His treatment is not expected to interfere with the...",
+      "url": "https://www.prnewswire.com/news-releases/capital-properties-inc-discloses-health-condition-of-chairman-robert-h-eder-302935635.html",
+      "published_at": "2026-11-10T22:07:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "5a91ec5d9deaf05d",
+      "source": "prnewswire_financial",
+      "title": "Group 1 Automotive Board Declares Quarterly Dividend",
+      "summary": "HOUSTON, Nov. 10, 2026 /PRNewswire/ -- Group 1 Automotive, Inc. (NYSE: GPI) (\"Group 1\" or the \"Company\"), a Fortune 250 automotive retailer with 255 dealerships located in the U.S. and U.K., today announced its board of directors declared a quarterly dividend of $0.55 per share. The...",
+      "url": "https://www.prnewswire.com/news-releases/group-1-automotive-board-declares-quarterly-dividend-302935634.html",
+      "published_at": "2026-11-10T22:07:00Z",
+      "tickers": [
+        "GPI"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "a6100332ff1280de",
+      "source": "edgar_8k",
+      "title": "8-K - CUMBERLAND PHARMACEUTICALS INC (0001087294) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001087294-26-000076 Size: 374 KB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1087294/000108729426000076/0001087294-26-000076-index.htm",
+      "published_at": "2026-11-10T22:06:04Z",
+      "tickers": [],
+      "company": "CUMBERLAND PHARMACEUTICALS INC",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "d68d0d52a2a4cd5b",
+      "source": "prnewswire",
+      "title": "TERRA-GEN CELEBRATES COMMERCIAL OPERATION OF $950 MILLION LOCKHART SOLAR AND STORAGE PROJECT",
+      "summary": "With 538.7 MW of capacity, the facility can meet the annual energy needs of approximately 350,000 homes and businesses. SAN DIEGO, Nov. 10, 2026 /PRNewswire/ -- Terra-Gen, one of the largest independent, integrated renewable energy producers in the United States, jointly owned by Masdar...",
+      "url": "https://www.prnewswire.com/news-releases/terra-gen-celebrates-commercial-operation-of-950-million-lockhart-solar-and-storage-project-302935633.html",
+      "published_at": "2026-11-10T22:06:00Z",
+      "tickers": [
+        "TERRA"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "68592fc855a75e74",
+      "source": "edgar_8k",
+      "title": "8-K - Globa Terra Acquisition Corp (0002043766) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001140361-26-043065 Size: 290 KB Item 5.03: Amendments to Articles of Incorporation or Bylaws; Change in Fiscal Year Item 5.07: Submission of Matters to a Vote of Security Holders Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/2043766/000114036126043065/0001140361-26-043065-index.htm",
+      "published_at": "2026-11-10T22:05:53Z",
+      "tickers": [],
+      "company": "Globa Terra Acquisition Corp",
+      "event_type": "fraud_probe",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "53827de3294f16fa",
+      "source": "prnewswire",
+      "title": "Western Sydney International Airport Opens After Bechtel-Led Delivery Program Completes Major Construction Works Seven Months Early",
+      "summary": "Australia's first major greenfield international airport in more than 50 years delivered ahead of schedule: a role model for future infrastructure delivery in Australia SYDNEY, Nov. 10, 2026 /PRNewswire/ -- Western Sydney International (Nancy-Bird Walton) Airport (WSI) opened to...",
+      "url": "https://www.prnewswire.com/news-releases/western-sydney-international-airport-opens-after-bechtel-led-delivery-program-completes-major-construction-works-seven-months-early-302935630.html",
+      "published_at": "2026-11-10T22:05:00Z",
+      "tickers": [
+        "WSI"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "0e2097d2abed6fdd",
+      "source": "prnewswire",
+      "title": "Geely Farizon bringt das Modelljahr 2027 des SV in Deutschland auf den Markt und bietet lokalen Kunden integrierte Dienstleistungen f\u00fcr Pkw und Nutzfahrzeuge",
+      "summary": "K\u00d6NIGSWINTER, Deutschland, 10. November 2026 /PRNewswire/ -- Geely Farizon hat das Modelljahr 2027 des Farizon SV in Deutschland auf den Markt gebracht und gleichzeitig einen neuen M\u00fcller-H\u00e4ndlerbetrieb in K\u00f6nigswinter er\u00f6ffnet. Die Markteinf\u00fchrung markiert einen weiteren Schritt in der...",
+      "url": "https://www.prnewswire.com/news-releases/geely-farizon-bringt-das-modelljahr-2027-des-sv-in-deutschland-auf-den-markt-und-bietet-lokalen-kunden-integrierte-dienstleistungen-fur-pkw-und-nutzfahrzeuge-302935631.html",
+      "published_at": "2026-11-10T22:05:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "7a0acec4c2401e36",
+      "source": "marketwatch",
+      "title": "Meet the former prosecutor Nvidia hired to investigate the Jensen Huang spy scandal",
+      "summary": "Joon Kim just joined the Wachtell Lipton law firm last month and now will lead an independent investigation into whether Nvidia\u2019s CEO was the target of a China spy operation",
+      "url": "https://www.marketwatch.com/story/meet-the-former-prosecutor-nvidia-hired-to-investigate-the-jensen-huang-spy-scandal-e8078f67?mod=mw_rss_topstories",
+      "published_at": "2026-11-10T22:05:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:20:39Z"
+    },
+    {
+      "id": "9a6709fbaca98653",
+      "source": "edgar_8k",
+      "title": "8-K - CENTRUS ENERGY CORP (0001065059) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001628280-26-072824 Size: 849 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1065059/000162828026072824/0001628280-26-072824-index.htm",
+      "published_at": "2026-11-10T22:04:20Z",
+      "tickers": [],
+      "company": "CENTRUS ENERGY CORP",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "2522bcfc3f4632f3",
+      "source": "edgar_8k",
+      "title": "8-K - BIOVIE INC. (0001580149) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001520138-26-000471 Size: 248 KB Item 5.07: Submission of Matters to a Vote of Security Holders",
+      "url": "https://www.sec.gov/Archives/edgar/data/1580149/000152013826000471/0001520138-26-000471-index.htm",
+      "published_at": "2026-11-10T22:03:14Z",
+      "tickers": [],
+      "company": "BIOVIE INC.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "0b8e22f2e01127a1",
+      "source": "edgar_8k",
+      "title": "8-K - ORIGIN TEA INC. (0001681769) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001520138-26-000470 Size: 304 KB Item 1.01: Entry into a Material Definitive Agreement Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1681769/000152013826000470/0001520138-26-000470-index.htm",
+      "published_at": "2026-11-10T22:02:53Z",
+      "tickers": [],
+      "company": "ORIGIN TEA INC.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "79546af3bb36a110",
+      "source": "prnewswire",
+      "title": "GSMA MWC26 Doha welcomed over 10,000 attendees, as world-first ITU co-location puts MENA at the centre of global connectivity policy and innovation",
+      "summary": "MWC26 Doha brought together senior industry leaders, policymakers and regulators for three days of exhibition, discussion, networking and dealmaking in Doha DOHA, Qatar, Nov. 10, 2026 /PRNewswire/ -- MWC26 Doha closed today as over 10,000 attendees from 100 countries and territories...",
+      "url": "https://www.prnewswire.com/news-releases/gsma-mwc26-doha-welcomed-over-10-000-attendees-as-world-first-itu-co-location-puts-mena-at-the-centre-of-global-connectivity-policy-and-innovation-302935629.html",
+      "published_at": "2026-11-10T22:02:00Z",
+      "tickers": [
+        "GSMA"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "1e5162f285e8a91d",
+      "source": "prnewswire",
+      "title": "Pearl Diver Credit Company Inc. Schedules Third Quarter 2026 Earnings Release and Conference Call",
+      "summary": "- Conference Call Scheduled for Monday, November 16 at 10:00 am Eastern Time / 3:00 pm UK Time - NEW YORK and LONDON, Nov. 10, 2026 /PRNewswire/ -- Pearl Diver Credit Company Inc. (NYSE: PDCC, PDPA) (the \"Company\") today announced that its third quarter 2026 financial results will be...",
+      "url": "https://www.prnewswire.com/news-releases/pearl-diver-credit-company-inc-schedules-third-quarter-2026-earnings-release-and-conference-call-302935452.html",
+      "published_at": "2026-11-10T22:02:00Z",
+      "tickers": [
+        "PDCC"
+      ],
+      "event_type": "earnings",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "36a0fffee192defe",
+      "source": "prnewswire_financial",
+      "title": "Pearl Diver Credit Company Inc. Schedules Third Quarter 2026 Earnings Release and Conference Call",
+      "summary": "- Conference Call Scheduled for Monday, November 16 at 10:00 am Eastern Time / 3:00 pm UK Time - NEW YORK and LONDON, Nov. 10, 2026 /PRNewswire/ -- Pearl Diver Credit Company Inc. (NYSE: PDCC, PDPA) (the \"Company\") today announced that its third quarter 2026 financial results will be...",
+      "url": "https://www.prnewswire.com/news-releases/pearl-diver-credit-company-inc-schedules-third-quarter-2026-earnings-release-and-conference-call-302935452.html",
+      "published_at": "2026-11-10T22:02:00Z",
+      "tickers": [
+        "PDCC"
+      ],
+      "event_type": "earnings",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "79dfae2d57050a0a",
+      "source": "edgar_8k",
+      "title": "8-K - Concentra Group Holdings Parent, Inc. (0002014596) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0002014596-26-000085 Size: 3 MB Item 1.01: Entry into a Material Definitive Agreement Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/2014596/000201459626000085/0002014596-26-000085-index.htm",
+      "published_at": "2026-11-10T22:01:25Z",
+      "tickers": [],
+      "company": "Concentra Group Holdings Parent, Inc.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "b69db5895e01905d",
+      "source": "prnewswire",
+      "title": "Triumph for Kia at the Golden Steering Wheel 2026 Awards",
+      "summary": "The EV2 B-segment SUV, K4 Sportswagon compact station wagon, and EV5 compact SUV all received Germany's most prestigious automotive award Kia is the first non-European brand to win three awards in a single year at this long-standing competition, now in its 50th edition Wins across both EV...",
+      "url": "https://www.prnewswire.com/news-releases/triumph-for-kia-at-the-golden-steering-wheel-2026-awards-302935627.html",
+      "published_at": "2026-11-10T22:01:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "131b4bb000c2048c",
+      "source": "edgar_8k",
+      "title": "8-K - BREAD FINANCIAL HOLDINGS, INC. (0001101215) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001101215-26-000102 Size: 304 KB Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121526000102/0001101215-26-000102-index.htm",
+      "published_at": "2026-11-10T22:00:58Z",
+      "tickers": [],
+      "company": "BREAD FINANCIAL HOLDINGS, INC.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "b5eddfa69bbee693",
+      "source": "edgar_8k",
+      "title": "8-K - Zoned Properties, Inc. (0001279620) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001213900-26-118089 Size: 196 KB Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1279620/000121390026118089/0001213900-26-118089-index.htm",
+      "published_at": "2026-11-10T22:00:56Z",
+      "tickers": [],
+      "company": "Zoned Properties, Inc.",
+      "event_type": "fraud_probe",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "3402606520451cc0",
+      "source": "edgar_8k",
+      "title": "8-K - KULR Technology Group, Inc. (0001662684) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001104659-26-125320 Size: 264 KB Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1662684/000110465926125320/0001104659-26-125320-index.htm",
+      "published_at": "2026-11-10T22:00:51Z",
+      "tickers": [],
+      "company": "KULR Technology Group, Inc.",
+      "event_type": "fraud_probe",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "e8cffc6198721748",
+      "source": "edgar_8k",
+      "title": "8-K - LiveOne, Inc. (0001491419) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001213900-26-118088 Size: 225 KB Item 2.02: Results of Operations and Financial Condition Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1491419/000121390026118088/0001213900-26-118088-index.htm",
+      "published_at": "2026-11-10T22:00:41Z",
+      "tickers": [],
+      "company": "LiveOne, Inc.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "3c2bbde0fb890237",
+      "source": "edgar_8k",
+      "title": "8-K - WAFD INC (0000936528) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0000936528-26-000072 Size: 186 KB Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/936528/000093652826000072/0000936528-26-000072-index.htm",
+      "published_at": "2026-11-10T22:00:35Z",
+      "tickers": [],
+      "company": "WAFD INC",
+      "event_type": "fraud_probe",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "b2308b3972dc0f7f",
+      "source": "edgar_8k",
+      "title": "8-K - RADIAN GROUP INC (0000890926) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001193125-26-455690 Size: 137 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
+      "url": "https://www.sec.gov/Archives/edgar/data/890926/000119312526455690/0001193125-26-455690-index.htm",
+      "published_at": "2026-11-10T22:00:34Z",
+      "tickers": [],
+      "company": "RADIAN GROUP INC",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "e699db629c559b95",
+      "source": "edgar_8k",
+      "title": "8-K - EASTERN CO (0000031107) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001654954-26-009663 Size: 602 KB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/31107/000165495426009663/0001654954-26-009663-index.htm",
+      "published_at": "2026-11-10T22:00:24Z",
+      "tickers": [],
+      "company": "EASTERN CO",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "650cc07504717928",
+      "source": "prnewswire",
+      "title": "Mobile Laboratory Brings Healthcare Careers to Life for More Than 1,000 Northern Virginia High Schoolers",
+      "summary": "New pilot program brings hands-on healthcare activities and industry volunteers directly to Northern Virginia high schools aboard the country's largest mobile STEM lab FALLS CHURCH, Va., Nov. 10, 2026 /PRNewswire/ -- A new partnership designed to introduce more than 1,000 Virginia high...",
+      "url": "https://www.prnewswire.com/news-releases/mobile-laboratory-brings-healthcare-careers-to-life-for-more-than-1-000-northern-virginia-high-schoolers-302935619.html",
+      "published_at": "2026-11-10T22:00:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "e18062083a29c0b3",
+      "source": "prnewswire",
+      "title": "Garage Raises $41M Series B to Scale AI-Powered Marketplace for America's Essential Equipment, Surpassing $100M in Annual Platform Sales",
+      "summary": "The platform is already saving communities tens of millions of dollars by reducing the cost of more than 90% for essential equipment including fire engines, garbage trucks, and other heavy-duty vehicles. NEW YORK, Nov. 10, 2026 /PRNewswire/ -- Garage, the leading AI-powered marketplace...",
+      "url": "https://www.prnewswire.com/news-releases/garage-raises-41m-series-b-to-scale-ai-powered-marketplace-for-americas-essential-equipment-surpassing-100m-in-annual-platform-sales-302935598.html",
+      "published_at": "2026-11-10T22:00:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "180f201891fb28d7",
+      "source": "prnewswire",
+      "title": "Webster First Federal Credit Union earns two nominations for 2026 CU Times Luminary Awards",
+      "summary": "WORCESTER, Mass., Nov. 10, 2026 /PRNewswire/ -- Webster First Federal Credit Union announced that it has been nominated for two 2026 Luminary Awards, presented by CU Times. President and CEO John Thomasian was a finalist in the Executive Leadership \u2013 President/CEO category ($1 billion to...",
+      "url": "https://www.prnewswire.com/news-releases/webster-first-federal-credit-union-earns-two-nominations-for-2026-cu-times-luminary-awards-302935604.html",
+      "published_at": "2026-11-10T22:00:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "1433b32829ab8649",
+      "source": "prnewswire",
+      "title": "Geely Farizon \u0437\u0430\u043f\u0443\u0441\u043a\u0430\u0435\u0442 SV 2027 \u043c\u043e\u0434\u0435\u043b\u044c\u043d\u043e\u0433\u043e \u0433\u043e\u0434\u0430 \u0432 \u0413\u0435\u0440\u043c\u0430\u043d\u0438\u0438, \u043f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u044f \u0438\u043d\u0442\u0435\u0433\u0440\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0435 \u0443\u0441\u043b\u0443\u0433\u0438 \u043f\u0430\u0441\u0441\u0430\u0436\u0438\u0440\u0441\u043a\u043e\u0433\u043e \u0438 \u043a\u043e\u043c\u043c\u0435\u0440\u0447\u0435\u0441\u043a\u043e\u0433\u043e \u0442\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442\u0430 \u043c\u0435\u0441\u0442\u043d\u044b\u043c \u043a\u043b\u0438\u0435\u043d\u0442\u0430\u043c",
+      "summary": "\u041a\u0415\u041d\u0418\u0413\u0421\u0412\u0418\u041d\u0422\u0415\u0420, \u0413\u0435\u0440\u043c\u0430\u043d\u0438\u044f, 11 \u043d\u043e\u044f\u0431\u0440\u044f 2026 \u0433. /PRNewswire/ -- \u041a\u043e\u043c\u043f\u0430\u043d\u0438\u044f Geely Farizon \u0437\u0430\u043f\u0443\u0441\u0442\u0438\u043b\u0430 Farizon SV 2027 \u043c\u043e\u0434\u0435\u043b\u044c\u043d\u043e\u0433\u043e \u0433\u043e\u0434\u0430 \u0432 \u0413\u0435\u0440\u043c\u0430\u043d\u0438\u0438 \u043d\u0430\u0440\u044f\u0434\u0443 \u0441 \u043e\u0442\u043a\u0440\u044b\u0442\u0438\u0435\u043c \u043d\u043e\u0432\u043e\u0433\u043e \u0434\u0438\u043b\u0435\u0440\u0441\u043a\u043e\u0433\u043e \u0446\u0435\u043d\u0442\u0440\u0430 M\u00fcller \u0432 \u041a\u0435\u043d\u0438\u0433\u0441\u0432\u0438\u043d\u0442\u0435\u0440\u0435. \u0417\u0430\u043f\u0443\u0441\u043a \u0437\u043d\u0430\u043c\u0435\u043d\u0443\u0435\u0442 \u0441\u043e\u0431\u043e\u0439 \u0435\u0449\u0435 \u043e\u0434\u0438\u043d \u0448\u0430\u0433 \u0432 \u0440\u0430\u0437\u0432\u0438\u0442\u0438\u0438 \u043d\u0435\u043c\u0435\u0446\u043a\u043e\u0433\u043e \u0440\u044b\u043d\u043a\u0430 Farizon, \u0441\u043e\u0447\u0435\u0442\u0430\u044f \u0432 \u0441\u0435\u0431\u0435...",
+      "url": "https://www.prnewswire.com/news-releases/geely-farizon--sv-2027--------------302935626.html",
+      "published_at": "2026-11-10T22:00:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "7fe86f62ff1be9c8",
+      "source": "prnewswire_financial",
+      "title": "Webster First Federal Credit Union earns two nominations for 2026 CU Times Luminary Awards",
+      "summary": "WORCESTER, Mass., Nov. 10, 2026 /PRNewswire/ -- Webster First Federal Credit Union announced that it has been nominated for two 2026 Luminary Awards, presented by CU Times. President and CEO John Thomasian was a finalist in the Executive Leadership \u2013 President/CEO category ($1 billion to...",
+      "url": "https://www.prnewswire.com/news-releases/webster-first-federal-credit-union-earns-two-nominations-for-2026-cu-times-luminary-awards-302935604.html",
+      "published_at": "2026-11-10T22:00:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "cadb0b6cbcbd19e0",
+      "source": "prnewswire_financial",
+      "title": "Garage Raises $41M Series B to Scale AI-Powered Marketplace for America's Essential Equipment, Surpassing $100M in Annual Platform Sales",
+      "summary": "The platform is already saving communities tens of millions of dollars by reducing the cost of more than 90% for essential equipment including fire engines, garbage trucks, and other heavy-duty vehicles. NEW YORK, Nov. 10, 2026 /PRNewswire/ -- Garage, the leading AI-powered marketplace...",
+      "url": "https://www.prnewswire.com/news-releases/garage-raises-41m-series-b-to-scale-ai-powered-marketplace-for-americas-essential-equipment-surpassing-100m-in-annual-platform-sales-302935598.html",
+      "published_at": "2026-11-10T22:00:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "1597bd4708e04cb2",
+      "source": "edgar_8k",
+      "title": "8-K - Dolphin Entertainment, Inc. (0001282224) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001079973-26-001451 Size: 381 KB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1282224/000107997326001451/0001079973-26-001451-index.htm",
+      "published_at": "2026-11-10T21:59:39Z",
+      "tickers": [],
+      "company": "Dolphin Entertainment, Inc.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "2eef8650b06ff833",
+      "source": "edgar_8k",
+      "title": "8-K - AB Private Lending Fund (0001982701) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001193125-26-455677 Size: 1 MB Item 1.01: Entry into a Material Definitive Agreement Item 2.03: Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1982701/000119312526455677/0001193125-26-455677-index.htm",
+      "published_at": "2026-11-10T21:58:46Z",
+      "tickers": [],
+      "company": "AB Private Lending Fund",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "7866f87821b81fe3",
+      "source": "edgar_8k",
+      "title": "8-K - AB Private Credit Investors Corp (0001634452) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001193125-26-455671 Size: 1 MB Item 1.01: Entry into a Material Definitive Agreement Item 2.03: Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1634452/000119312526455671/0001193125-26-455671-index.htm",
+      "published_at": "2026-11-10T21:56:09Z",
+      "tickers": [],
+      "company": "AB Private Credit Investors Corp",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "889d81dc564e4f33",
+      "source": "edgar_8k",
+      "title": "8-K - Acrivon Therapeutics, Inc. (0001781174) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001193125-26-455669 Size: 13 MB Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1781174/000119312526455669/0001193125-26-455669-index.htm",
+      "published_at": "2026-11-10T21:55:25Z",
+      "tickers": [],
+      "company": "Acrivon Therapeutics, Inc.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "65d327682759eb4a",
+      "source": "edgar_8k",
+      "title": "8-K - HECLA MINING CO/DE/ (0000719413) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001193125-26-455667 Size: 522 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/719413/000119312526455667/0001193125-26-455667-index.htm",
+      "published_at": "2026-11-10T21:54:52Z",
+      "tickers": [],
+      "company": "HECLA MINING CO/DE/",
+      "event_type": "fraud_probe",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "6929eab4df69960b",
+      "source": "edgar_8k",
+      "title": "8-K - Bunker Hill Silver Corp. (0001407583) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001493152-26-051009 Size: 5 MB Item 2.01: Completion of Acquisition or Disposition of Assets Item 3.02: Unregistered Sales of Equity Securities Item 3.03: Material Modifications to Rights of Security Holders Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 5.03: Amendments to Articles of Incorporation or Bylaws; Change in Fiscal Year Item 7.01: Regulation FD ",
+      "url": "https://www.sec.gov/Archives/edgar/data/1407583/000149315226051009/0001493152-26-051009-index.htm",
+      "published_at": "2026-11-10T21:54:18Z",
+      "tickers": [],
+      "company": "Bunker Hill Silver Corp.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "da9d4f5d9e408734",
+      "source": "edgar_8k",
+      "title": "8-K - Orchid Island Capital, Inc. (0001518621) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001437749-26-036216 Size: 505 KB Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1518621/000143774926036216/0001437749-26-036216-index.htm",
+      "published_at": "2026-11-10T21:54:12Z",
+      "tickers": [],
+      "company": "Orchid Island Capital, Inc.",
+      "event_type": "fraud_probe",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "7aabe5636b1fd261",
+      "source": "prnewswire",
+      "title": "Investor Conference Call and Webcast Shaakichiuwaanaan Project - Updated Feasibility Study",
+      "summary": "PMET Resources President and CEO Ken Brinsden to host an investor call MONTREAL, Nov. 10, 2026 /PRNewswire/ -- November 11, 2026 \u2013 Sydney, Australia PMET Resources Inc. (the \"Company\" or \"PMET\") (TSX: PMET) (ASX: PMT) (OTCQX: PMETF) (FSE: R9GA) is pleased to advise that it will host a...",
+      "url": "https://www.prnewswire.com/news-releases/investor-conference-call-and-webcast-shaakichiuwaanaan-project--updated-feasibility-study-302935617.html",
+      "published_at": "2026-11-10T21:51:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "5fad909b72f60dbe",
+      "source": "edgar_8k",
+      "title": "8-K - Gossamer Bio, Inc. (0001728117) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001728117-26-000116 Size: 249 KB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1728117/000172811726000116/0001728117-26-000116-index.htm",
+      "published_at": "2026-11-10T21:50:52Z",
+      "tickers": [],
+      "company": "Gossamer Bio, Inc.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "501b9927029954c9",
+      "source": "edgar_8k",
+      "title": "8-K - Rent the Runway, Inc. (0001468327) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0000950103-26-017271 Size: 189 KB Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing",
+      "url": "https://www.sec.gov/Archives/edgar/data/1468327/000095010326017271/0000950103-26-017271-index.htm",
+      "published_at": "2026-11-10T21:50:38Z",
+      "tickers": [],
+      "company": "Rent the Runway, Inc.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "0b3393ca11018d38",
+      "source": "prnewswire",
+      "title": "Envista Announces Pricing of $430 Million of Senior Notes",
+      "summary": "BREA, Calif., Nov. 10, 2026 /PRNewswire/ -- Envista Holdings Corporation (NYSE: NVST) (\"Envista\") today announced that it has priced an offering (the \"Offering\") of $430 million in aggregate principal amount of its 6.250% Senior Notes due 2033 (the \"Notes\") at the issue price of 99.482%...",
+      "url": "https://www.prnewswire.com/news-releases/envista-announces-pricing-of-430-million-of-senior-notes-302935616.html",
+      "published_at": "2026-11-10T21:50:00Z",
+      "tickers": [
+        "NVST"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "0d06ce9b63c191ed",
+      "source": "edgar_8k",
+      "title": "8-K - Azenta, Inc. (0000933974) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001628280-26-072809 Size: 923 KB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/933974/000162828026072809/0001628280-26-072809-index.htm",
+      "published_at": "2026-11-10T21:46:21Z",
+      "tickers": [],
+      "company": "Azenta, Inc.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "ffcfd97b6330c000",
+      "source": "edgar_8k",
+      "title": "8-K - Hyliion Holdings Corp. (0001759631) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001628280-26-072808 Size: 340 KB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1759631/000162828026072808/0001628280-26-072808-index.htm",
+      "published_at": "2026-11-10T21:46:18Z",
+      "tickers": [],
+      "company": "Hyliion Holdings Corp.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
+      "id": "fcef5784e76230c8",
+      "source": "edgar_8k",
+      "title": "8-K - Eagle Point Income Co (0001754836) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001104659-26-125283 Size: 1 MB Item 8.01: Other Events",
+      "url": "https://www.sec.gov/Archives/edgar/data/1754836/000110465926125283/0001104659-26-125283-index.htm",
+      "published_at": "2026-11-10T21:46:09Z",
+      "tickers": [],
+      "company": "Eagle Point Income Co",
+      "event_type": "fraud_probe",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "scanned_at": "2026-11-10T22:20:37Z"
+    },
+    {
       "id": "a93cacc0ba7f2b66",
       "source": "edgar_8k",
       "title": "8-K - InMed Pharmaceuticals Inc. (0001728328) (Filer)",
@@ -31,7 +948,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T21:46:01Z"
+      "scanned_at": "2026-11-10T22:20:37Z"
     },
     {
       "id": "0ad2c5d4ebc6a8d4",
@@ -46,7 +963,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T21:46:01Z"
+      "scanned_at": "2026-11-10T22:20:37Z"
     },
     {
       "id": "5c649cedcafc0eca",
@@ -61,7 +978,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T21:46:01Z"
+      "scanned_at": "2026-11-10T22:20:37Z"
     },
     {
       "id": "343445698293392d",
@@ -76,7 +993,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T21:46:01Z"
+      "scanned_at": "2026-11-10T22:20:37Z"
     },
     {
       "id": "d5bab9c1e589c84e",
@@ -91,7 +1008,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T21:46:01Z"
+      "scanned_at": "2026-11-10T22:20:37Z"
     },
     {
       "id": "e2e8c99c66107b5a",
@@ -120,7 +1037,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T21:46:03Z"
+      "scanned_at": "2026-11-10T22:20:39Z"
     },
     {
       "id": "613e99e28fd0302c",
@@ -764,7 +1681,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T21:46:02Z"
+      "scanned_at": "2026-11-10T22:20:37Z"
     },
     {
       "id": "dedbd293571d97cf",
@@ -778,7 +1695,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T21:46:02Z"
+      "scanned_at": "2026-11-10T22:20:37Z"
     },
     {
       "id": "88239a4eaf812fea",
@@ -792,7 +1709,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T21:46:02Z"
+      "scanned_at": "2026-11-10T22:20:37Z"
     },
     {
       "id": "a9105d4a7c68f0df",
@@ -806,7 +1723,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T21:46:03Z"
+      "scanned_at": "2026-11-10T22:20:39Z"
     },
     {
       "id": "eae85715ba0dd1aa",
@@ -850,7 +1767,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T21:46:02Z"
+      "scanned_at": "2026-11-10T22:20:38Z"
     },
     {
       "id": "5c3ca06ece4b3587",
@@ -864,7 +1781,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T21:46:03Z"
+      "scanned_at": "2026-11-10T22:20:39Z"
     },
     {
       "id": "fc8adf3db07593d0",
@@ -878,7 +1795,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T21:46:03Z"
+      "scanned_at": "2026-11-10T22:20:39Z"
     },
     {
       "id": "bc77880bdd61c561",
@@ -906,7 +1823,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T21:46:02Z"
+      "scanned_at": "2026-11-10T22:20:37Z"
     },
     {
       "id": "52de3357932f0b98",
@@ -938,7 +1855,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T21:46:02Z"
+      "scanned_at": "2026-11-10T22:20:37Z"
     },
     {
       "id": "87b09d1edcb1744e",
@@ -1082,7 +1999,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T21:46:02Z"
+      "scanned_at": "2026-11-10T22:20:37Z"
     },
     {
       "id": "450f9dc9316ab2cc",
@@ -1098,7 +2015,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T21:46:02Z"
+      "scanned_at": "2026-11-10T22:20:37Z"
     },
     {
       "id": "6082baf64bed99c2",
@@ -1115,7 +2032,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T21:46:02Z"
+      "scanned_at": "2026-11-10T22:20:37Z"
     },
     {
       "id": "d3ff8522cf08aca6",
@@ -1131,7 +2048,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T21:46:02Z"
+      "scanned_at": "2026-11-10T22:20:37Z"
     },
     {
       "id": "1185174fc4a99aba",
@@ -1147,7 +2064,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T21:46:02Z"
+      "scanned_at": "2026-11-10T22:20:37Z"
     },
     {
       "id": "57a0813c6b0d81eb",
@@ -1163,7 +2080,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T21:46:02Z"
+      "scanned_at": "2026-11-10T22:20:37Z"
     },
     {
       "id": "ffb2c502ea72a746",
@@ -1179,7 +2096,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T21:46:02Z"
+      "scanned_at": "2026-11-10T22:20:37Z"
     },
     {
       "id": "04f76684d4d3daad",
@@ -1193,7 +2110,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T21:46:03Z"
+      "scanned_at": "2026-11-10T22:20:39Z"
     },
     {
       "id": "cd8c48ee6154db32",
@@ -1209,7 +2126,7 @@
       "direction": "bullish",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T21:46:02Z"
+      "scanned_at": "2026-11-10T22:20:37Z"
     },
     {
       "id": "c6ee395918bcc176",
@@ -1223,7 +2140,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T21:46:03Z"
+      "scanned_at": "2026-11-10T22:20:39Z"
     },
     {
       "id": "6a6286aaa530b754",
@@ -1239,7 +2156,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T21:46:02Z"
+      "scanned_at": "2026-11-10T22:20:37Z"
     },
     {
       "id": "44a3d7b43245dda4",
@@ -1253,7 +2170,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T21:46:02Z"
+      "scanned_at": "2026-11-10T22:20:37Z"
     },
     {
       "id": "ebee0c6d28bc3b39",
@@ -1281,7 +2198,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T21:46:03Z"
+      "scanned_at": "2026-11-10T22:20:39Z"
     },
     {
       "id": "ef5b0a2d56154612",
@@ -1351,7 +2268,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T21:46:03Z"
+      "scanned_at": "2026-11-10T22:20:39Z"
     },
     {
       "id": "9ebd161e4e65b187",
@@ -1875,7 +2792,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T21:46:03Z"
+      "scanned_at": "2026-11-10T22:20:39Z"
     },
     {
       "id": "5ef8490b9d03387c",
@@ -2005,7 +2922,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T21:46:03Z"
+      "scanned_at": "2026-11-10T22:20:39Z"
     },
     {
       "id": "19c280e5d59ce747",
@@ -2280,7 +3197,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T21:46:02Z"
+      "scanned_at": "2026-11-10T22:20:38Z"
     },
     {
       "id": "6f10cf2937fd0e20",
@@ -2816,7 +3733,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T21:46:02Z"
+      "scanned_at": "2026-11-10T22:20:38Z"
     },
     {
       "id": "e276f27854b7c41d",
@@ -2830,7 +3747,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T21:46:03Z"
+      "scanned_at": "2026-11-10T22:20:39Z"
     },
     {
       "id": "3884afb0150970f9",
@@ -2844,7 +3761,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T21:46:03Z"
+      "scanned_at": "2026-11-10T22:20:39Z"
     },
     {
       "id": "9235195334146eb0",
@@ -2858,7 +3775,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T21:46:02Z"
+      "scanned_at": "2026-11-10T22:20:38Z"
     },
     {
       "id": "c7429c96bd7d3ecb",
@@ -2872,7 +3789,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T21:46:02Z"
+      "scanned_at": "2026-11-10T22:20:38Z"
     },
     {
       "id": "fdbc8563b36f8cf5",
@@ -2886,7 +3803,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T21:46:02Z"
+      "scanned_at": "2026-11-10T22:20:38Z"
     },
     {
       "id": "67f7c52faf091e43",
@@ -2900,7 +3817,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T21:46:02Z"
+      "scanned_at": "2026-11-10T22:20:38Z"
     },
     {
       "id": "4285567555b6675f",
@@ -2914,7 +3831,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T21:46:02Z"
+      "scanned_at": "2026-11-10T22:20:38Z"
     },
     {
       "id": "c3c4280bc6e5d8ff",
@@ -2928,7 +3845,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T21:46:02Z"
+      "scanned_at": "2026-11-10T22:20:38Z"
     },
     {
       "id": "8dc785c9c3a42a50",
@@ -2942,7 +3859,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T21:46:02Z"
+      "scanned_at": "2026-11-10T22:20:38Z"
     },
     {
       "id": "56eac0855ed7c5e7",
@@ -2956,7 +3873,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T21:46:03Z"
+      "scanned_at": "2026-11-10T22:20:39Z"
     },
     {
       "id": "7144237b9a02d7db",
@@ -2970,7 +3887,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T21:46:02Z"
+      "scanned_at": "2026-11-10T22:20:38Z"
     },
     {
       "id": "65aa2ae6973f5971",
@@ -2984,7 +3901,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T21:46:03Z"
+      "scanned_at": "2026-11-10T22:20:39Z"
     },
     {
       "id": "cb3e48820a212891",
@@ -2998,7 +3915,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T21:46:02Z"
+      "scanned_at": "2026-11-10T22:20:38Z"
     },
     {
       "id": "acad5801b91c1d7a",
@@ -3012,7 +3929,7 @@
       "direction": "bearish",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T21:46:02Z"
+      "scanned_at": "2026-11-10T22:20:38Z"
     },
     {
       "id": "08b3efda9e3fa115",
@@ -3026,7 +3943,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T21:46:02Z"
+      "scanned_at": "2026-11-10T22:20:38Z"
     },
     {
       "id": "41383c5c59816f29",
@@ -3040,7 +3957,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T21:46:02Z"
+      "scanned_at": "2026-11-10T22:20:38Z"
     },
     {
       "id": "2352affc375bddb8",
@@ -3054,7 +3971,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T21:46:02Z"
+      "scanned_at": "2026-11-10T22:20:38Z"
     }
   ]
 }
