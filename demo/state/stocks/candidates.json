@@ -5,8 +5,8 @@
   "forward_test_start": "2026-11-10",
   "spy_above_ma50": false,
   "n_calendar": 646,
-  "n_candidates": 650,
-  "n_tagged": 19,
+  "n_candidates": 652,
+  "n_tagged": 21,
   "errors": [],
   "rules": {
     "agent": "Discretionary agentic book. Cursor agent decides via stocks.decide from shared candidates. Baseline \u2014 not auto-traded by the engine.",
@@ -513,7 +513,7 @@
       "suggested_side": null,
       "suggested_hold": null,
       "spy_above_ma50": null,
-      "scanned_at": "2026-11-10T22:20:40Z"
+      "scanned_at": "2026-11-10T22:58:44Z"
     },
     {
       "ticker": "PDCC",
@@ -543,7 +543,7 @@
       "suggested_side": null,
       "suggested_hold": null,
       "spy_above_ma50": null,
-      "scanned_at": "2026-11-10T22:20:40Z"
+      "scanned_at": "2026-11-10T22:58:44Z"
     },
     {
       "ticker": "PDCC",
@@ -573,7 +573,69 @@
       "suggested_side": null,
       "suggested_hold": null,
       "spy_above_ma50": null,
-      "scanned_at": "2026-11-10T22:20:40Z"
+      "scanned_at": "2026-11-10T22:58:44Z"
+    },
+    {
+      "ticker": "BRRKU",
+      "name": "BRRKU",
+      "source": "news",
+      "cal_date": "2026-11-10",
+      "report_date": "2026-11-10",
+      "timing": "news",
+      "surprise_pct": null,
+      "gap_pct": null,
+      "guidance": "none",
+      "headline": "Bluerock Acquisition Corp. II Announces the Separate Trading of its Class A Ordinary Shares and Warrants, Commencing on or about November 16, 2026",
+      "excerpt": "NEW YORK, Nov. 10, 2026 /PRNewswire/ -- Bluerock Acquisition Corp. II (Nasdaq: BRRKU) (the \"Company\") announced that holders of the units sold in the Company's initial public offering of 17,250,000 units, which includes 2,250,000 units issued pursuant to the exercise by the underwriters...",
+      "filing_url": "",
+      "exhibit_url": "https://www.prnewswire.com/news-releases/bluerock-acquisition-corp-ii-announces-the-separate-trading-of-its-class-a-ordinary-shares-and-warrants-commencing-on-or-about-november-16-2026-302935648.html",
+      "news_id": "d8376c3078bb15a8",
+      "news_source": "prnewswire",
+      "news_event_type": "dilution",
+      "news_direction": "bearish",
+      "news_side": "short",
+      "news_actionable": true,
+      "news_published_at": "2026-11-10T22:35:00Z",
+      "rule_tags": [
+        "news_event",
+        "dilution",
+        "news_short"
+      ],
+      "suggested_side": "short",
+      "suggested_hold": 2,
+      "spy_above_ma50": null,
+      "scanned_at": "2026-11-10T22:58:44Z"
+    },
+    {
+      "ticker": "BRRKU",
+      "name": "BRRKU",
+      "source": "news",
+      "cal_date": "2026-11-10",
+      "report_date": "2026-11-10",
+      "timing": "news",
+      "surprise_pct": null,
+      "gap_pct": null,
+      "guidance": "none",
+      "headline": "Bluerock Acquisition Corp. II Announces the Separate Trading of its Class A Ordinary Shares and Warrants, Commencing on or about November 16, 2026",
+      "excerpt": "NEW YORK, Nov. 10, 2026 /PRNewswire/ -- Bluerock Acquisition Corp. II (Nasdaq: BRRKU) (the \"Company\") announced that holders of the units sold in the Company's initial public offering of 17,250,000 units, which includes 2,250,000 units issued pursuant to the exercise by the underwriters...",
+      "filing_url": "",
+      "exhibit_url": "https://www.prnewswire.com/news-releases/bluerock-acquisition-corp-ii-announces-the-separate-trading-of-its-class-a-ordinary-shares-and-warrants-commencing-on-or-about-november-16-2026-302935648.html",
+      "news_id": "fa9ca3d0262d9174",
+      "news_source": "prnewswire_financial",
+      "news_event_type": "dilution",
+      "news_direction": "bearish",
+      "news_side": "short",
+      "news_actionable": true,
+      "news_published_at": "2026-11-10T22:35:00Z",
+      "rule_tags": [
+        "news_event",
+        "dilution",
+        "news_short"
+      ],
+      "suggested_side": "short",
+      "suggested_hold": 2,
+      "spy_above_ma50": null,
+      "scanned_at": "2026-11-10T22:58:44Z"
     },
     {
       "ticker": "ALTI",
@@ -17613,6 +17675,6 @@
       "suggested_hold": null
     }
   ],
-  "news_merged_at": "2026-11-10T22:20:40Z",
+  "news_merged_at": "2026-11-10T22:58:44Z",
   "scan_note": "calendar fetch failed; retained prior candidates. errors=2026-11-09: nasdaq calendar failed for 2026-11-09; 2026-11-10: nasdaq calendar failed for 2026-11-10; 2026-11-11: nasdaq calendar failed for 2026-11-11"
 }

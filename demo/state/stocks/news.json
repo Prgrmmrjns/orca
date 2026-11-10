@@ -1,11 +1,11 @@
 {
   "mode": "paper",
-  "as_of": "2026-11-10T22:20:40Z",
-  "as_of_et": "2026-11-10 17:20 ET",
+  "as_of": "2026-11-10T22:58:44Z",
+  "as_of_et": "2026-11-10 17:58 ET",
   "rolling_hours": 72,
-  "n_items": 267,
-  "n_actionable": 27,
-  "n_with_ticker": 46,
+  "n_items": 302,
+  "n_actionable": 34,
+  "n_with_ticker": 52,
   "sources": [
     "prnewswire",
     "prnewswire_financial",
@@ -19,6 +19,531 @@
   "note": "Paper news feed. Keyword tagging is heuristic. Shorts have no borrow model. RSS/EDGAR can lag minutes\u2013hours.",
   "items": [
     {
+      "id": "2020cc4f72e56ac3",
+      "source": "marketwatch",
+      "title": "One reason the Children\u2019s Place is going bankrupt? Not enough children.",
+      "summary": "People might be having fewer children, but that isn\u2019t the only thing to blame for Children\u2019s Place filing for bankruptcy.",
+      "url": "https://www.marketwatch.com/story/one-reason-the-childrens-place-is-going-bankrupt-not-enough-children-b275eab0?mod=mw_rss_topstories",
+      "published_at": "2026-11-10T22:56:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:58:43Z"
+    },
+    {
+      "id": "4ea8d7ab18783ba9",
+      "source": "prnewswire",
+      "title": "QBTS Investors Have Opportunity to Lead D-Wave Quantum Inc. Securities Fraud Lawsuit",
+      "summary": "NEW YORK, Nov. 10, 2026 /PRNewswire/ -- Why: Rosen Law Firm, a global investor rights law firm, reminds purchasers of securities of D-Wave Quantum Inc. (NASDAQ: QBTS) between February 26, 2026 and August 25, 2026, both dates inclusive (the \"Class Period\"), of the important December 15,...",
+      "url": "https://www.prnewswire.com/news-releases/qbts-investors-have-opportunity-to-lead-d-wave-quantum-inc-securities-fraud-lawsuit-302935371.html",
+      "published_at": "2026-11-10T22:47:00Z",
+      "tickers": [
+        "QBTS"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:58:40Z"
+    },
+    {
+      "id": "408268ebdef09331",
+      "source": "prnewswire",
+      "title": "In HelloNation, Insurance Expert Oscar Salas Explains the Differences Between Renters and Homeowners Insurance",
+      "summary": "Renters and homeowners insurance serve different purposes, and knowing which policy fits a living situation is essential to protecting personal finances. COACHELLA, Calif., Nov. 10, 2026 /PRNewswire/ -- How do renters insurance and homeowners insurance differ, and which type does a person...",
+      "url": "https://www.prnewswire.com/news-releases/in-hellonation-insurance-expert-oscar-salas-explains-the-differences-between-renters-and-homeowners-insurance-302935652.html",
+      "published_at": "2026-11-10T22:46:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:58:40Z"
+    },
+    {
+      "id": "c928294b50c2fc61",
+      "source": "prnewswire_financial",
+      "title": "In HelloNation, Insurance Expert Oscar Salas Explains the Differences Between Renters and Homeowners Insurance",
+      "summary": "Renters and homeowners insurance serve different purposes, and knowing which policy fits a living situation is essential to protecting personal finances. COACHELLA, Calif., Nov. 10, 2026 /PRNewswire/ -- How do renters insurance and homeowners insurance differ, and which type does a person...",
+      "url": "https://www.prnewswire.com/news-releases/in-hellonation-insurance-expert-oscar-salas-explains-the-differences-between-renters-and-homeowners-insurance-302935652.html",
+      "published_at": "2026-11-10T22:46:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:58:41Z"
+    },
+    {
+      "id": "be7626fab85fd637",
+      "source": "prnewswire",
+      "title": "HOW TO CHOOSE PORTABLE TRADE SHOW DISPLAYS: POP-UP DISPLAYS, RETRACTABLE BANNER STANDS, TABLETOP DISPLAYS AND EXHIBIT KIOSKS COMPARED",
+      "summary": "FASTSIGNS answers the most common exhibitor questions on display types, event signage kits and trade show graphics as holiday and early-year event season approaches CARROLLTON, Texas, Nov. 10, 2026 /PRNewswire/ -- \"Which trade show display is right for my booth?\" is often the first...",
+      "url": "https://www.prnewswire.com/news-releases/how-to-choose-portable-trade-show-displays-pop-up-displays-retractable-banner-stands-tabletop-displays-and-exhibit-kiosks-compared-302935624.html",
+      "published_at": "2026-11-10T22:43:00Z",
+      "tickers": [
+        "HOW"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:58:40Z"
+    },
+    {
+      "id": "c8492ffc60e5ceb3",
+      "source": "marketwatch",
+      "title": "AMD\u2019s stock fades as investors weigh whether Nvidia\u2019s turmoil will mean lasting wins",
+      "summary": "It\u2019s one thing for money to shift between stocks, but it\u2019s another thing for customers to shift their supplier relationships.",
+      "url": "https://www.marketwatch.com/story/amds-stock-fades-as-investors-weigh-whether-nvidias-turmoil-will-mean-lasting-wins-1ecfbc5e?mod=mw_rss_topstories",
+      "published_at": "2026-11-10T22:37:00Z",
+      "tickers": [
+        "AMD"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:58:43Z"
+    },
+    {
+      "id": "d8376c3078bb15a8",
+      "source": "prnewswire",
+      "title": "Bluerock Acquisition Corp. II Announces the Separate Trading of its Class A Ordinary Shares and Warrants, Commencing on or about November 16, 2026",
+      "summary": "NEW YORK, Nov. 10, 2026 /PRNewswire/ -- Bluerock Acquisition Corp. II (Nasdaq: BRRKU) (the \"Company\") announced that holders of the units sold in the Company's initial public offering of 17,250,000 units, which includes 2,250,000 units issued pursuant to the exercise by the underwriters...",
+      "url": "https://www.prnewswire.com/news-releases/bluerock-acquisition-corp-ii-announces-the-separate-trading-of-its-class-a-ordinary-shares-and-warrants-commencing-on-or-about-november-16-2026-302935648.html",
+      "published_at": "2026-11-10T22:35:00Z",
+      "tickers": [
+        "BRRKU"
+      ],
+      "event_type": "dilution",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "scanned_at": "2026-11-10T22:58:40Z"
+    },
+    {
+      "id": "fa9ca3d0262d9174",
+      "source": "prnewswire_financial",
+      "title": "Bluerock Acquisition Corp. II Announces the Separate Trading of its Class A Ordinary Shares and Warrants, Commencing on or about November 16, 2026",
+      "summary": "NEW YORK, Nov. 10, 2026 /PRNewswire/ -- Bluerock Acquisition Corp. II (Nasdaq: BRRKU) (the \"Company\") announced that holders of the units sold in the Company's initial public offering of 17,250,000 units, which includes 2,250,000 units issued pursuant to the exercise by the underwriters...",
+      "url": "https://www.prnewswire.com/news-releases/bluerock-acquisition-corp-ii-announces-the-separate-trading-of-its-class-a-ordinary-shares-and-warrants-commencing-on-or-about-november-16-2026-302935648.html",
+      "published_at": "2026-11-10T22:35:00Z",
+      "tickers": [
+        "BRRKU"
+      ],
+      "event_type": "dilution",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "scanned_at": "2026-11-10T22:58:41Z"
+    },
+    {
+      "id": "419267c1706e8719",
+      "source": "prnewswire",
+      "title": "/C O R R E C T I O N - Supermetrics/",
+      "summary": "In the news release, Supermetrics Launches Campaign Manager, Bringing AI-Powered Insights and Campaign Execution Together, issued 10-Nov-2026 by Supermetrics over PR Newswire, we are advised by the company that changes have been made. The complete, corrected release follows, with...",
+      "url": "https://www.prnewswire.com/news-releases/supermetrics-launches-campaign-manager-bringing-ai-powered-insights-and-campaign-execution-together-302934714.html",
+      "published_at": "2026-11-10T22:31:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:58:40Z"
+    },
+    {
+      "id": "b3133fdfc5a969e5",
+      "source": "edgar_8k",
+      "title": "8-K - Spero Therapeutics, Inc. (0001701108) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001193125-26-455789 Size: 142 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
+      "url": "https://www.sec.gov/Archives/edgar/data/1701108/000119312526455789/0001193125-26-455789-index.htm",
+      "published_at": "2026-11-10T22:30:46Z",
+      "tickers": [],
+      "company": "Spero Therapeutics, Inc.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:58:40Z"
+    },
+    {
+      "id": "c0ff0bc21d7450ae",
+      "source": "edgar_8k",
+      "title": "8-K - Aptera Motors Corp (0001786471) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001493152-26-051042 Size: 1 MB Item 1.01: Entry into a Material Definitive Agreement Item 3.02: Unregistered Sales of Equity Securities Item 5.07: Submission of Matters to a Vote of Security Holders Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1786471/000149315226051042/0001493152-26-051042-index.htm",
+      "published_at": "2026-11-10T22:30:39Z",
+      "tickers": [],
+      "company": "Aptera Motors Corp",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:58:40Z"
+    },
+    {
+      "id": "913c3a7c474e81d6",
+      "source": "edgar_8k",
+      "title": "8-K - Star Equity Holdings, Inc. (0001210708) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001210708-26-000099 Size: 343 KB Item 1.01: Entry into a Material Definitive Agreement Item 2.03: Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1210708/000121070826000099/0001210708-26-000099-index.htm",
+      "published_at": "2026-11-10T22:30:09Z",
+      "tickers": [],
+      "company": "Star Equity Holdings, Inc.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:58:40Z"
+    },
+    {
+      "id": "61b2e086e607644d",
+      "source": "edgar_8k",
+      "title": "8-K - Sunrise Realty Trust, Inc. (0002012706) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001628280-26-072851 Size: 1 MB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/2012706/000162828026072851/0001628280-26-072851-index.htm",
+      "published_at": "2026-11-10T22:30:03Z",
+      "tickers": [],
+      "company": "Sunrise Realty Trust, Inc.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:58:40Z"
+    },
+    {
+      "id": "0cc2b57b55adad4d",
+      "source": "prnewswire",
+      "title": "/C O R R E C T I O N - Terra-Gen Operating Company, LLC/",
+      "summary": "In the news release, TERRA-GEN CELEBRATES COMMERCIAL OPERATION OF $950 MILLION LOCKHART SOLAR AND STORAGE PROJECT, issued 10-Nov-2026 by Terra-Gen Operating Company, LLC over PR Newswire, we are advised by the company that changes have been made. The complete, corrected release follows,...",
+      "url": "https://www.prnewswire.com/news-releases/terra-gen-celebrates-commercial-operation-of-950-million-lockhart-solar-and-storage-project-302935633.html",
+      "published_at": "2026-11-10T22:30:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:58:40Z"
+    },
+    {
+      "id": "58313bbdccb114e2",
+      "source": "marketwatch",
+      "title": "Looking to buy the dip in chip stocks? Here\u2019s how to avoid buying too soon.",
+      "summary": "Investors shouldn\u2019t pay much attention to how the SOX chip-sector index trades until it reaches key \u201clines in the sand,\u201d that define technical battleground areas above and below current levels.",
+      "url": "https://www.marketwatch.com/story/ignore-the-wild-swings-in-chip-stocks-until-they-reach-these-lines-in-the-sand-feb6e00f?mod=mw_rss_topstories",
+      "published_at": "2026-11-10T22:30:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:58:43Z"
+    },
+    {
+      "id": "e7be1d5199f9607a",
+      "source": "edgar_8k",
+      "title": "8-K - ASHFORD HOSPITALITY TRUST INC (0001232582) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001232582-26-000214 Size: 2 MB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1232582/000123258226000214/0001232582-26-000214-index.htm",
+      "published_at": "2026-11-10T22:28:33Z",
+      "tickers": [],
+      "company": "ASHFORD HOSPITALITY TRUST INC",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:58:40Z"
+    },
+    {
+      "id": "0f4df24d25e1a626",
+      "source": "edgar_8k",
+      "title": "8-K/A - Cosmos Health Inc. (0001474167) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001477932-26-006823 Size: 151 KB Item 3.03: Material Modifications to Rights of Security Holders Item 5.03: Amendments to Articles of Incorporation or Bylaws; Change in Fiscal Year Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1474167/000147793226006823/0001477932-26-006823-index.htm",
+      "published_at": "2026-11-10T22:28:22Z",
+      "tickers": [],
+      "company": "",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:58:40Z"
+    },
+    {
+      "id": "a40d36ea55430f9d",
+      "source": "edgar_8k",
+      "title": "8-K - Remora Capital Corp (0002045370) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001437749-26-036239 Size: 152 KB Item 5.07: Submission of Matters to a Vote of Security Holders",
+      "url": "https://www.sec.gov/Archives/edgar/data/2045370/000143774926036239/0001437749-26-036239-index.htm",
+      "published_at": "2026-11-10T22:28:07Z",
+      "tickers": [],
+      "company": "Remora Capital Corp",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:58:40Z"
+    },
+    {
+      "id": "6b61595b3b289c2c",
+      "source": "edgar_8k",
+      "title": "8-K - Vivakor, Inc. (0001450704) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001829126-26-012212 Size: 203 KB Item 1.01: Entry into a Material Definitive Agreement Item 3.02: Unregistered Sales of Equity Securities Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1450704/000182912626012212/0001829126-26-012212-index.htm",
+      "published_at": "2026-11-10T22:27:56Z",
+      "tickers": [],
+      "company": "Vivakor, Inc.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:58:40Z"
+    },
+    {
+      "id": "ad3753b6e81d5e98",
+      "source": "edgar_8k",
+      "title": "8-K - Federal Home Loan Bank of New York (0001329842) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001654954-26-009668 Size: 150 KB Item 2.03: Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1329842/000165495426009668/0001654954-26-009668-index.htm",
+      "published_at": "2026-11-10T22:26:29Z",
+      "tickers": [],
+      "company": "Federal Home Loan Bank of New York",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:58:40Z"
+    },
+    {
+      "id": "6bf35cac7cb4b121",
+      "source": "edgar_8k",
+      "title": "8-K - AIR INDUSTRIES GROUP (0001009891) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001213900-26-118138 Size: 220 KB Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1009891/000121390026118138/0001213900-26-118138-index.htm",
+      "published_at": "2026-11-10T22:26:05Z",
+      "tickers": [],
+      "company": "AIR INDUSTRIES GROUP",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:58:40Z"
+    },
+    {
+      "id": "55695407d1bae72f",
+      "source": "edgar_8k",
+      "title": "8-K - National Healthcare Properties, Inc. (0001561032) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001140361-26-043079 Size: 962 KB Item 1.01: Entry into a Material Definitive Agreement Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1561032/000114036126043079/0001140361-26-043079-index.htm",
+      "published_at": "2026-11-10T22:25:57Z",
+      "tickers": [],
+      "company": "National Healthcare Properties, Inc.",
+      "event_type": "fraud_probe",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "scanned_at": "2026-11-10T22:58:40Z"
+    },
+    {
+      "id": "d16118c670d557f0",
+      "source": "edgar_8k",
+      "title": "8-K - Iron Horse Acquisition II Corp. (0002051985) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001213900-26-118137 Size: 292 KB Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/2051985/000121390026118137/0001213900-26-118137-index.htm",
+      "published_at": "2026-11-10T22:25:34Z",
+      "tickers": [],
+      "company": "Iron Horse Acquisition II Corp.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:58:40Z"
+    },
+    {
+      "id": "61fee9ec8a0cdeb8",
+      "source": "edgar_8k",
+      "title": "8-K - REGENCY CENTERS LP (0001066247) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001193125-26-455774 Size: 1 MB Item 1.01: Entry into a Material Definitive Agreement Item 2.03: Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1066247/000119312526455774/0001193125-26-455774-index.htm",
+      "published_at": "2026-11-10T22:24:58Z",
+      "tickers": [],
+      "company": "REGENCY CENTERS LP",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:58:40Z"
+    },
+    {
+      "id": "9c5e22ce24fc9733",
+      "source": "edgar_8k",
+      "title": "8-K - REGENCY CENTERS CORP (0000910606) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001193125-26-455774 Size: 1 MB Item 1.01: Entry into a Material Definitive Agreement Item 2.03: Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/910606/000119312526455774/0001193125-26-455774-index.htm",
+      "published_at": "2026-11-10T22:24:58Z",
+      "tickers": [],
+      "company": "REGENCY CENTERS CORP",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:58:40Z"
+    },
+    {
+      "id": "35e212b625902fd7",
+      "source": "edgar_8k",
+      "title": "8-K - OCULUS INC. (0001107280) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001437749-26-036236 Size: 299 KB Item 5.07: Submission of Matters to a Vote of Security Holders Item 7.01: Regulation FD Disclosure Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1107280/000143774926036236/0001437749-26-036236-index.htm",
+      "published_at": "2026-11-10T22:24:04Z",
+      "tickers": [],
+      "company": "OCULUS INC.",
+      "event_type": "fraud_probe",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "scanned_at": "2026-11-10T22:58:40Z"
+    },
+    {
+      "id": "f89b100d35fbfcc2",
+      "source": "prnewswire",
+      "title": "Fluence Energy Deadline: FLNC Investors Have Opportunity to Lead Fluence Energy, Inc. Securities Fraud Lawsuit",
+      "summary": "NEW YORK, Nov. 10, 2026 /PRNewswire/ -- Why: Rosen Law Firm, a global investor rights law firm, reminds purchasers of securities of Fluence Energy, Inc. (NASDAQ: FLNC) between November 24, 2025 and September 16, 2026, inclusive (the \"Class Period\"), of the important November 30, 2026 lead...",
+      "url": "https://www.prnewswire.com/news-releases/fluence-energy-deadline-flnc-investors-have-opportunity-to-lead-fluence-energy-inc-securities-fraud-lawsuit-302935536.html",
+      "published_at": "2026-11-10T22:24:00Z",
+      "tickers": [
+        "FLNC"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:58:40Z"
+    },
+    {
+      "id": "2a29e87d5382365f",
+      "source": "edgar_8k",
+      "title": "8-K - GROUP 1 AUTOMOTIVE INC (0001031203) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001031203-26-000157 Size: 599 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 5.03: Amendments to Articles of Incorporation or Bylaws; Change in Fiscal Year Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1031203/000103120326000157/0001031203-26-000157-index.htm",
+      "published_at": "2026-11-10T22:21:34Z",
+      "tickers": [],
+      "company": "GROUP 1 AUTOMOTIVE INC",
+      "event_type": "fraud_probe",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "scanned_at": "2026-11-10T22:58:40Z"
+    },
+    {
+      "id": "89f93e87211e948e",
+      "source": "edgar_8k",
+      "title": "8-K - CYABRA, INC. (0002032341) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001213900-26-118128 Size: 360 KB Item 1.01: Entry into a Material Definitive Agreement Item 2.03: Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant Item 5.07: Submission of Matters to a Vote of Security Holders Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/2032341/000121390026118128/0001213900-26-118128-index.htm",
+      "published_at": "2026-11-10T22:21:33Z",
+      "tickers": [],
+      "company": "CYABRA, INC.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:58:40Z"
+    },
+    {
+      "id": "918f6f716f430192",
+      "source": "edgar_8k",
+      "title": "8-K - Lakewood-Amedex Biotherapeutics Inc. (0002079272) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001213900-26-118127 Size: 235 KB Item 1.01: Entry into a Material Definitive Agreement Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/2079272/000121390026118127/0001213900-26-118127-index.htm",
+      "published_at": "2026-11-10T22:20:52Z",
+      "tickers": [],
+      "company": "Lakewood-Amedex Biotherapeutics Inc.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:58:40Z"
+    },
+    {
+      "id": "e251203958a21705",
+      "source": "edgar_8k",
+      "title": "8-K - Regional Management Corp. (0001519401) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001193125-26-455761 Size: 18 MB Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1519401/000119312526455761/0001193125-26-455761-index.htm",
+      "published_at": "2026-11-10T22:20:46Z",
+      "tickers": [],
+      "company": "Regional Management Corp.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:58:40Z"
+    },
+    {
+      "id": "338dd7d1d5279546",
+      "source": "edgar_8k",
+      "title": "8-K - Rallybio Corp (0001739410) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001193125-26-455762 Size: 179 KB Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1739410/000119312526455762/0001193125-26-455762-index.htm",
+      "published_at": "2026-11-10T22:20:38Z",
+      "tickers": [],
+      "company": "Rallybio Corp",
+      "event_type": "fraud_probe",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "scanned_at": "2026-11-10T22:58:40Z"
+    },
+    {
+      "id": "09711906eeb63a45",
+      "source": "edgar_8k",
+      "title": "8-K/A - Nuveen Farmland REIT (0002085428) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001628280-26-072845 Size: 2 MB Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/2085428/000162828026072845/0001628280-26-072845-index.htm",
+      "published_at": "2026-11-10T22:20:23Z",
+      "tickers": [],
+      "company": "",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:58:40Z"
+    },
+    {
+      "id": "13864ed85b6aa025",
+      "source": "edgar_8k",
+      "title": "8-K - Ultra Clean Holdings, Inc. (0001275014) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0000950103-26-017277 Size: 201 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1275014/000095010326017277/0000950103-26-017277-index.htm",
+      "published_at": "2026-11-10T22:20:21Z",
+      "tickers": [],
+      "company": "Ultra Clean Holdings, Inc.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-10T22:58:40Z"
+    },
+    {
+      "id": "8ff3e3ccb0bf0e07",
+      "source": "edgar_8k",
+      "title": "8-K - Live Oak Acquisition Corp. VI (0002115191) (Filer)",
+      "summary": "Filed: 2026-11-10 AccNo: 0001213900-26-118124 Size: 263 KB Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/2115191/000121390026118124/0001213900-26-118124-index.htm",
+      "published_at": "2026-11-10T22:20:13Z",
+      "tickers": [],
+      "company": "Live Oak Acquisition Corp. VI",
+      "event_type": "fraud_probe",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "scanned_at": "2026-11-10T22:58:40Z"
+    },
+    {
       "id": "bc7420975203e452",
       "source": "edgar_8k",
       "title": "8-K - COTY INC. (0001024305) (Filer)",
@@ -31,7 +556,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:37Z"
+      "scanned_at": "2026-11-10T22:58:40Z"
     },
     {
       "id": "c347820afe2886a5",
@@ -46,7 +571,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:37Z"
+      "scanned_at": "2026-11-10T22:58:40Z"
     },
     {
       "id": "88da00cac2c407ae",
@@ -62,7 +587,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:37Z"
+      "scanned_at": "2026-11-10T22:58:40Z"
     },
     {
       "id": "959ff7357c2829db",
@@ -78,7 +603,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:37Z"
+      "scanned_at": "2026-11-10T22:58:41Z"
     },
     {
       "id": "ab2121fe8dcd4ac8",
@@ -94,7 +619,7 @@
       "direction": "bearish",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:37Z"
+      "scanned_at": "2026-11-10T22:58:40Z"
     },
     {
       "id": "f6299d00d7bca1ae",
@@ -110,7 +635,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:37Z"
+      "scanned_at": "2026-11-10T22:58:40Z"
     },
     {
       "id": "d5d3ac430b84bb8f",
@@ -125,7 +650,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:37Z"
+      "scanned_at": "2026-11-10T22:58:40Z"
     },
     {
       "id": "96fa3fb8f0204ebc",
@@ -140,7 +665,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:37Z"
+      "scanned_at": "2026-11-10T22:58:40Z"
     },
     {
       "id": "9112b712924a27ad",
@@ -156,7 +681,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:37Z"
+      "scanned_at": "2026-11-10T22:58:40Z"
     },
     {
       "id": "993f1377f8ac5bb4",
@@ -171,7 +696,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-10T22:20:37Z"
+      "scanned_at": "2026-11-10T22:58:40Z"
     },
     {
       "id": "2e307d3e2bd9bd5f",
@@ -186,7 +711,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:37Z"
+      "scanned_at": "2026-11-10T22:58:40Z"
     },
     {
       "id": "add336b611f84453",
@@ -200,7 +725,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:37Z"
+      "scanned_at": "2026-11-10T22:58:40Z"
     },
     {
       "id": "873c4c4af86942de",
@@ -215,7 +740,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:37Z"
+      "scanned_at": "2026-11-10T22:58:40Z"
     },
     {
       "id": "2be78c32b9a555e3",
@@ -230,7 +755,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:37Z"
+      "scanned_at": "2026-11-10T22:58:40Z"
     },
     {
       "id": "b434f791a99da5e3",
@@ -245,7 +770,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:37Z"
+      "scanned_at": "2026-11-10T22:58:40Z"
     },
     {
       "id": "0cf745a72f09d86a",
@@ -260,7 +785,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:37Z"
+      "scanned_at": "2026-11-10T22:58:40Z"
     },
     {
       "id": "41feee626a3b38c9",
@@ -276,7 +801,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:37Z"
+      "scanned_at": "2026-11-10T22:58:40Z"
     },
     {
       "id": "f4cc399d6f2e540b",
@@ -292,7 +817,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:37Z"
+      "scanned_at": "2026-11-10T22:58:40Z"
     },
     {
       "id": "2db1e98ca6f27715",
@@ -306,7 +831,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:37Z"
+      "scanned_at": "2026-11-10T22:58:40Z"
     },
     {
       "id": "5a91ec5d9deaf05d",
@@ -322,7 +847,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:37Z"
+      "scanned_at": "2026-11-10T22:58:41Z"
     },
     {
       "id": "a6100332ff1280de",
@@ -337,7 +862,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:37Z"
+      "scanned_at": "2026-11-10T22:58:40Z"
     },
     {
       "id": "d68d0d52a2a4cd5b",
@@ -368,7 +893,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-10T22:20:37Z"
+      "scanned_at": "2026-11-10T22:58:40Z"
     },
     {
       "id": "53827de3294f16fa",
@@ -384,7 +909,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:37Z"
+      "scanned_at": "2026-11-10T22:58:40Z"
     },
     {
       "id": "0e2097d2abed6fdd",
@@ -398,7 +923,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:37Z"
+      "scanned_at": "2026-11-10T22:58:40Z"
     },
     {
       "id": "7a0acec4c2401e36",
@@ -412,7 +937,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:39Z"
+      "scanned_at": "2026-11-10T22:58:43Z"
     },
     {
       "id": "9a6709fbaca98653",
@@ -427,7 +952,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:37Z"
+      "scanned_at": "2026-11-10T22:58:40Z"
     },
     {
       "id": "2522bcfc3f4632f3",
@@ -442,7 +967,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:37Z"
+      "scanned_at": "2026-11-10T22:58:40Z"
     },
     {
       "id": "0b8e22f2e01127a1",
@@ -457,7 +982,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:37Z"
+      "scanned_at": "2026-11-10T22:58:40Z"
     },
     {
       "id": "79546af3bb36a110",
@@ -473,7 +998,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:37Z"
+      "scanned_at": "2026-11-10T22:58:40Z"
     },
     {
       "id": "1e5162f285e8a91d",
@@ -489,7 +1014,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:37Z"
+      "scanned_at": "2026-11-10T22:58:40Z"
     },
     {
       "id": "36a0fffee192defe",
@@ -505,7 +1030,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:37Z"
+      "scanned_at": "2026-11-10T22:58:41Z"
     },
     {
       "id": "79dfae2d57050a0a",
@@ -520,7 +1045,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:37Z"
+      "scanned_at": "2026-11-10T22:58:40Z"
     },
     {
       "id": "b69db5895e01905d",
@@ -534,7 +1059,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:37Z"
+      "scanned_at": "2026-11-10T22:58:40Z"
     },
     {
       "id": "131b4bb000c2048c",
@@ -549,7 +1074,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:37Z"
+      "scanned_at": "2026-11-10T22:58:40Z"
     },
     {
       "id": "b5eddfa69bbee693",
@@ -709,7 +1234,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:37Z"
+      "scanned_at": "2026-11-10T22:58:41Z"
     },
     {
       "id": "cadb0b6cbcbd19e0",
@@ -723,7 +1248,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:37Z"
+      "scanned_at": "2026-11-10T22:58:41Z"
     },
     {
       "id": "1597bd4708e04cb2",
@@ -1037,7 +1562,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:39Z"
+      "scanned_at": "2026-11-10T22:58:43Z"
     },
     {
       "id": "613e99e28fd0302c",
@@ -1681,7 +2206,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:37Z"
+      "scanned_at": "2026-11-10T22:58:41Z"
     },
     {
       "id": "dedbd293571d97cf",
@@ -1695,7 +2220,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:37Z"
+      "scanned_at": "2026-11-10T22:58:41Z"
     },
     {
       "id": "88239a4eaf812fea",
@@ -1709,7 +2234,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:37Z"
+      "scanned_at": "2026-11-10T22:58:41Z"
     },
     {
       "id": "a9105d4a7c68f0df",
@@ -1723,7 +2248,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:39Z"
+      "scanned_at": "2026-11-10T22:58:43Z"
     },
     {
       "id": "eae85715ba0dd1aa",
@@ -1767,7 +2292,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:38Z"
+      "scanned_at": "2026-11-10T22:58:42Z"
     },
     {
       "id": "5c3ca06ece4b3587",
@@ -1781,7 +2306,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:39Z"
+      "scanned_at": "2026-11-10T22:58:43Z"
     },
     {
       "id": "fc8adf3db07593d0",
@@ -1795,7 +2320,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:39Z"
+      "scanned_at": "2026-11-10T22:58:43Z"
     },
     {
       "id": "bc77880bdd61c561",
@@ -1823,7 +2348,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:37Z"
+      "scanned_at": "2026-11-10T22:58:41Z"
     },
     {
       "id": "52de3357932f0b98",
@@ -1855,7 +2380,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:37Z"
+      "scanned_at": "2026-11-10T22:58:41Z"
     },
     {
       "id": "87b09d1edcb1744e",
@@ -1999,7 +2524,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:37Z"
+      "scanned_at": "2026-11-10T22:58:41Z"
     },
     {
       "id": "450f9dc9316ab2cc",
@@ -2015,7 +2540,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:37Z"
+      "scanned_at": "2026-11-10T22:58:41Z"
     },
     {
       "id": "6082baf64bed99c2",
@@ -2032,7 +2557,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:37Z"
+      "scanned_at": "2026-11-10T22:58:41Z"
     },
     {
       "id": "d3ff8522cf08aca6",
@@ -2048,7 +2573,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:37Z"
+      "scanned_at": "2026-11-10T22:58:41Z"
     },
     {
       "id": "1185174fc4a99aba",
@@ -2064,7 +2589,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:37Z"
+      "scanned_at": "2026-11-10T22:58:41Z"
     },
     {
       "id": "57a0813c6b0d81eb",
@@ -2080,7 +2605,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:37Z"
+      "scanned_at": "2026-11-10T22:58:41Z"
     },
     {
       "id": "ffb2c502ea72a746",
@@ -2096,7 +2621,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:37Z"
+      "scanned_at": "2026-11-10T22:58:41Z"
     },
     {
       "id": "04f76684d4d3daad",
@@ -2126,7 +2651,7 @@
       "direction": "bullish",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:37Z"
+      "scanned_at": "2026-11-10T22:58:41Z"
     },
     {
       "id": "c6ee395918bcc176",
@@ -2140,7 +2665,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:39Z"
+      "scanned_at": "2026-11-10T22:58:43Z"
     },
     {
       "id": "6a6286aaa530b754",
@@ -2198,7 +2723,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:39Z"
+      "scanned_at": "2026-11-10T22:58:43Z"
     },
     {
       "id": "ef5b0a2d56154612",
@@ -2792,7 +3317,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:39Z"
+      "scanned_at": "2026-11-10T22:58:42Z"
     },
     {
       "id": "5ef8490b9d03387c",
@@ -3197,7 +3722,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:38Z"
+      "scanned_at": "2026-11-10T22:58:42Z"
     },
     {
       "id": "6f10cf2937fd0e20",
@@ -3733,7 +4258,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:38Z"
+      "scanned_at": "2026-11-10T22:58:42Z"
     },
     {
       "id": "e276f27854b7c41d",
@@ -3747,7 +4272,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:39Z"
+      "scanned_at": "2026-11-10T22:58:42Z"
     },
     {
       "id": "3884afb0150970f9",
@@ -3761,7 +4286,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:39Z"
+      "scanned_at": "2026-11-10T22:58:42Z"
     },
     {
       "id": "9235195334146eb0",
@@ -3775,7 +4300,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:38Z"
+      "scanned_at": "2026-11-10T22:58:42Z"
     },
     {
       "id": "c7429c96bd7d3ecb",
@@ -3789,7 +4314,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:38Z"
+      "scanned_at": "2026-11-10T22:58:42Z"
     },
     {
       "id": "fdbc8563b36f8cf5",
@@ -3803,7 +4328,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:38Z"
+      "scanned_at": "2026-11-10T22:58:42Z"
     },
     {
       "id": "67f7c52faf091e43",
@@ -3817,7 +4342,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:38Z"
+      "scanned_at": "2026-11-10T22:58:42Z"
     },
     {
       "id": "4285567555b6675f",
@@ -3831,7 +4356,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:38Z"
+      "scanned_at": "2026-11-10T22:58:42Z"
     },
     {
       "id": "c3c4280bc6e5d8ff",
@@ -3845,7 +4370,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:38Z"
+      "scanned_at": "2026-11-10T22:58:42Z"
     },
     {
       "id": "8dc785c9c3a42a50",
@@ -3859,7 +4384,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:38Z"
+      "scanned_at": "2026-11-10T22:58:42Z"
     },
     {
       "id": "56eac0855ed7c5e7",
@@ -3873,7 +4398,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:39Z"
+      "scanned_at": "2026-11-10T22:58:42Z"
     },
     {
       "id": "7144237b9a02d7db",
@@ -3887,7 +4412,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:38Z"
+      "scanned_at": "2026-11-10T22:58:42Z"
     },
     {
       "id": "65aa2ae6973f5971",
@@ -3901,7 +4426,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:39Z"
+      "scanned_at": "2026-11-10T22:58:42Z"
     },
     {
       "id": "cb3e48820a212891",
@@ -3915,7 +4440,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:38Z"
+      "scanned_at": "2026-11-10T22:58:42Z"
     },
     {
       "id": "acad5801b91c1d7a",
@@ -3929,7 +4454,7 @@
       "direction": "bearish",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:38Z"
+      "scanned_at": "2026-11-10T22:58:42Z"
     },
     {
       "id": "08b3efda9e3fa115",
@@ -3943,7 +4468,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:38Z"
+      "scanned_at": "2026-11-10T22:58:42Z"
     },
     {
       "id": "41383c5c59816f29",
@@ -3957,7 +4482,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:38Z"
+      "scanned_at": "2026-11-10T22:58:42Z"
     },
     {
       "id": "2352affc375bddb8",
@@ -3971,7 +4496,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:38Z"
+      "scanned_at": "2026-11-10T22:58:42Z"
     }
   ]
 }
