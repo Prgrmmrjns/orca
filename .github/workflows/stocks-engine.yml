@@ -1,18 +1,14 @@
 name: stocks-engine
 
-# Schedules only fire from the default branch. If runs stay at zero, Jonas must:
-# Settings → Actions → General → Allow all actions; Workflow permissions → Read and write;
-# then Actions → stocks-engine → Run workflow (once). Pushing this file to main also
-# triggers one engine catch-up via the paths filter below.
+# Fills / exits / marks for all books. Frequent during US RTH so news entries fill promptly.
+# If schedules stay at zero: Settings → Actions → Read and write; Run workflow once.
 on:
   schedule:
-    # US equity session (both EST and EDT slots). Offset minutes reduce drop risk.
-    - cron: "37 14 * * 1-5"   # ~09:37 ET standard time
-    - cron: "37 13 * * 1-5"   # ~09:37 ET daylight time
-    - cron: "32 17 * * 1-5"   # midday EST
-    - cron: "32 16 * * 1-5"   # midday EDT
-    - cron: "17 21 * * 1-5"   # after close EST
-    - cron: "17 20 * * 1-5"   # after close EDT
+    # Every 15 min during US cash session window (covers EST+EDT ≈ 13:30–21:00 UTC weekdays)
+    - cron: "2,17,32,47 13-20 * * 1-5"
+    # After-close mark (EST + EDT)
+    - cron: "17 21 * * 1-5"
+    - cron: "17 20 * * 1-5"
   workflow_dispatch:
   push:
     branches: [main]
@@ -44,7 +40,7 @@ jobs:
       - name: Install deps
         run: |
           python -m pip install --upgrade pip
-          pip install "yfinance>=0.2.40" pandas requests lxml beautifulsoup4 html5lib pyarrow
+          pip install "yfinance>=0.2.40" pandas requests lxml beautifulsoup4 html5lib pyarrow feedparser
 
       - name: Run paper engine (fills / exits / marks)
         env:

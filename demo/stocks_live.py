@@ -7,13 +7,21 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 START = "2026-11-10"
-BOOK_ORDER = ["agent", "bigbeat_gap", "guidance_beat", "beat5_raise", "miss_short"]
+BOOK_ORDER = [
+    "agent",
+    "bigbeat_gap",
+    "guidance_beat",
+    "beat5_raise",
+    "miss_short",
+    "news_event",
+]
 BOOK_TITLES = {
     "agent": "Agent (Chewbacca)",
     "bigbeat_gap": "Big beat + gap",
     "guidance_beat": "Guidance beat",
     "beat5_raise": "Beat 5% + raise",
     "miss_short": "Miss short",
+    "news_event": "News event",
 }
 
 
@@ -131,6 +139,7 @@ def snapshot() -> dict:
     require_paper()
     state = _state_dir()
     cands = _load(state / "candidates.json", {})
+    news = _load(state / "news.json", {})
     book_ids = _discover_books(state)
     books = []
     for bid in book_ids:
@@ -191,6 +200,11 @@ def snapshot() -> dict:
                         "cal_date",
                         "timing",
                         "spy_above_ma50",
+                        "source",
+                        "news_event_type",
+                        "news_direction",
+                        "news_side",
+                        "news_actionable",
                     )
                 },
                 "decision": None
@@ -208,16 +222,40 @@ def snapshot() -> dict:
         )
 
     rules = cands.get("rules") or {b["id"]: b.get("rules") or "" for b in books}
+    news_items = []
+    for it in (news.get("items") or [])[:40]:
+        news_items.append(
+            {
+                "id": it.get("id"),
+                "source": it.get("source"),
+                "title": it.get("title"),
+                "tickers": it.get("tickers") or [],
+                "event_type": it.get("event_type"),
+                "direction": it.get("direction"),
+                "news_side": it.get("news_side"),
+                "actionable": it.get("actionable"),
+                "published_at": it.get("published_at"),
+                "url": it.get("url"),
+            }
+        )
 
     return {
         "mode": "paper",
         "product": "stocks-earnings-multi-book",
         "orders": "paper",
-        "note": "paper only, five-book forward test since 2026-11-10",
+        "note": "paper only, multi-book forward test since 2026-11-10 (incl. news_event)",
         "as_of": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
         "since": START,
         "scanned_at": cands.get("as_of"),
+        "news_as_of": news.get("as_of"),
         "spy_above_ma50": cands.get("spy_above_ma50"),
+        "news": news_items,
+        "news_meta": {
+            "n_items": news.get("n_items"),
+            "n_actionable": news.get("n_actionable"),
+            "sources": news.get("sources") or [],
+            "note": news.get("note"),
+        },
         "books": books,
         "book": {  # backward-compat single-book shape = agent
             "equity_eur": agent.get("equity_eur"),

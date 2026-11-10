@@ -20,8 +20,10 @@ class BookSpec:
     max_open: int
     stop_loss: float | None = None
     take_profit: float | None = None
-    side: str = "long"
+    side: str = "long"  # "long" | "short" | "dynamic" (read candidate news_side/suggested_side)
+    prefer_open: bool = True  # False → fill at session/last during RTH (news mid-day)
     matcher: Callable[[dict[str, Any], bool | None], bool] | None = None
+    started: str = "2026-11-10"
 
 
 def _f(x) -> float | None:
@@ -79,6 +81,33 @@ def match_miss_short(c: dict[str, Any], spy_above: bool | None = None) -> bool:
     if surprise is None or gap is None:
         return False
     return surprise < -10 and gap < -5
+
+
+def match_news_event(c: dict[str, Any], spy_above: bool | None = None) -> bool:
+    """Actionable news: bullish → long, bearish → short (see news_tagger ACTIONABLE_*)."""
+    del spy_above
+    if not c.get("news_actionable"):
+        return False
+    side = (c.get("news_side") or c.get("suggested_side") or "").lower()
+    et = (c.get("news_event_type") or "").lower()
+    if side not in ("long", "short"):
+        return False
+    # Require a concrete event type we trust enough to auto-trade
+    if side == "long" and et not in {
+        "acquisition_target",
+        "big_contract",
+        "fda_approval",
+        "guidance_raise",
+    }:
+        return False
+    if side == "short" and et not in {
+        "fraud_probe",
+        "guidance_cut",
+        "short_seller",
+        "dilution",
+    }:
+        return False
+    return bool(c.get("ticker"))
 
 
 BOOKS: list[BookSpec] = [
@@ -151,6 +180,25 @@ BOOKS: list[BookSpec] = [
         stop_loss=0.08,
         side="short",
         matcher=match_miss_short,
+    ),
+    BookSpec(
+        id="news_event",
+        title="News event",
+        kind="rule",
+        description=(
+            "Long on clearly bullish news (acquisition target, big contract, FDA approval, "
+            "guidance raise); short on clearly bearish (fraud/probe, guidance cut, "
+            "short-seller report, dilutive offering). 5% equity, max 6, hold 2 days, "
+            "hard 8% stop both sides. Entry at next tradable price. Paper shorts — no borrow model."
+        ),
+        size=0.05,
+        hold_days=2,
+        max_open=6,
+        stop_loss=0.08,
+        side="dynamic",
+        prefer_open=False,
+        matcher=match_news_event,
+        started="2026-11-10",
     ),
 ]
 

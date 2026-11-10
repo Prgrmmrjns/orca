@@ -41,6 +41,7 @@ from stocks.paths import (
 def empty_ledger(book: BookSpec | None = None) -> dict:
     book = book or BOOK_BY_ID[AGENT_BOOK_ID]
     fx = eurusd()
+    start = getattr(book, "started", None) or START_DATE
     return {
         "mode": "paper",
         "book_id": book.id,
@@ -49,11 +50,11 @@ def empty_ledger(book: BookSpec | None = None) -> dict:
         "kind": book.kind,
         "base_currency": "EUR",
         "note": (
-            f"Paper only. Forward test book `{book.id}` since {START_DATE}. "
+            f"Paper only. Forward test book `{book.id}` since {start}. "
             "No broker API. " + book.description
         ),
         "rules": book.description,
-        "start_date": START_DATE,
+        "start_date": start,
         "start_capital_eur": START_CAPITAL_EUR,
         "eur_usd_start": fx,
         "cash_eur": START_CAPITAL_EUR,
@@ -62,15 +63,18 @@ def empty_ledger(book: BookSpec | None = None) -> dict:
         "pending": [],
         "closed_trades": [],
         "equity_history": [
-            {"day": START_DATE, "equity_eur": START_CAPITAL_EUR, "spy_eur": START_CAPITAL_EUR}
+            {"day": start, "equity_eur": START_CAPITAL_EUR, "spy_eur": START_CAPITAL_EUR}
         ],
         "spy_history": [],
         "cost_pct": COST_PCT,
-        "max_position_pct": MAX_POSITION_PCT if book.side == "long" or book.kind == "agent" else book.size,
+        "max_position_pct": MAX_POSITION_PCT
+        if book.side in ("long", "dynamic") or book.kind == "agent"
+        else book.size,
         "max_short_pct": MAX_SHORT_PCT,
         "default_size": book.size,
         "default_hold_days": book.hold_days,
         "stop_loss": book.stop_loss,
+        "prefer_open": bool(getattr(book, "prefer_open", True)),
         "max_open": book.max_open,
         "last_run": None,
         "last_reason": f"Initialized paper book `{book.id}`.",
@@ -240,16 +244,23 @@ def auto_decide_rule_book(book: BookSpec) -> int:
             continue
         if len(open_tickers) >= max_open:
             break
+        if book.side == "dynamic":
+            side = (c.get("news_side") or c.get("suggested_side") or "").lower()
+            if side not in ("long", "short"):
+                continue
+        else:
+            side = book.side
         reason = (
-            f"[{book.id}] surprise={c.get('surprise_pct')} gap={c.get('gap_pct')} "
-            f"guidance={c.get('guidance')} spy_above={c.get('spy_above_ma50')} "
-            f"→ {book.side} {book.hold_days}d"
+            f"[{book.id}] event={c.get('news_event_type') or c.get('rule_tags')} "
+            f"surprise={c.get('surprise_pct')} gap={c.get('gap_pct')} "
+            f"guidance={c.get('guidance')} headline={(c.get('headline') or '')[:80]} "
+            f"→ {side} {book.hold_days}d"
         )
         rec = {
             "id": f"{book.id}-{ticker}-{utc_now_iso()}-{uuid.uuid4().hex[:6]}",
             "book_id": book.id,
             "ticker": ticker,
-            "side": book.side,
+            "side": side,
             "size": book.size,
             "hold": book.hold_days,
             "reason": reason,
@@ -260,8 +271,10 @@ def auto_decide_rule_book(book: BookSpec) -> int:
             "surprise_pct": c.get("surprise_pct"),
             "gap_pct": c.get("gap_pct"),
             "guidance": c.get("guidance"),
+            "news_event_type": c.get("news_event_type"),
+            "news_id": c.get("news_id"),
             "agent": f"rule:{book.id}",
-            "prefer_open": True,
+            "prefer_open": bool(getattr(book, "prefer_open", True)),
             "decided_at": utc_now_iso(),
             "status": "new",
         }
@@ -323,7 +336,11 @@ def ingest_decisions(led: dict, book_id: str) -> int:
             "reason": d.get("reason") or "",
             "confidence": d.get("confidence"),
             "rule_tags": d.get("rule_tags") or [],
-            "prefer_open": bool(d.get("prefer_open") or book.kind == "rule"),
+            "prefer_open": bool(
+                d["prefer_open"]
+                if "prefer_open" in d
+                else getattr(book, "prefer_open", book.kind == "rule")
+            ),
             "decided_at": d.get("decided_at"),
             "status": "pending",
             "book_id": book_id,

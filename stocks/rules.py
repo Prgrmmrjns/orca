@@ -39,6 +39,10 @@ def suggested_hold(tags: list[str]) -> int:
 
 
 def suggested_side(tags: list[str]) -> str | None:
+    if "news_short" in tags:
+        return "short"
+    if "news_long" in tags:
+        return "long"
     if "miss_short" in tags and not any(t in tags for t in ("bigbeat_gap", "guidance_beat", "beat5_raise")):
         return "short"
     if any(t in tags for t in ("bigbeat_gap", "guidance_beat", "beat5_raise")):

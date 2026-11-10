@@ -72,7 +72,7 @@
     <header>
       <div>
         <h1>Orca</h1>
-        <p class="sub" id="sub">Five-book US earnings paper forward test</p>
+        <p class="sub" id="sub">Multi-book US earnings + news paper forward test</p>
       </div>
     </header>
 
@@ -111,6 +111,19 @@
     </section>
 
     <section class="panel">
+      <h2>News feed (24/7)</h2>
+      <p class="muted" id="newsMeta" style="margin:0 0 8px"></p>
+      <table>
+        <thead>
+          <tr>
+            <th>When</th><th>Tickers</th><th>Event</th><th>Dir</th><th>Headline</th>
+          </tr>
+        </thead>
+        <tbody id="news"></tbody>
+      </table>
+    </section>
+
+    <section class="panel">
       <h2>Today's candidates (shared) &amp; agent decisions</h2>
       <table>
         <thead><tr><th>Ticker</th><th>Surp%</th><th>Gap%</th><th>Guidance</th><th>Tags</th><th>Agent</th><th>Reason</th></tr></thead>
@@ -123,7 +136,7 @@
       <ul class="rules" id="rules"></ul>
     </section>
 
-    <p class="note">Paper only — five independent €1,000 books since 2026-11-10. No broker API, no real orders. Cost model: 0.5% of notional on every fill. EUR sizing via EURUSD=X. Rule books auto-trade in the Actions engine; only the <code>agent</code> book is discretionary.</p>
+    <p class="note">Paper only — independent €1,000 books since 2026-11-10 (incl. <code>news_event</code>). No broker API, no real orders. Cost 0.5%/fill. EUR via EURUSD=X. News from EDGAR 8-K + wire RSS (keyword tags). Paper shorts have no borrow model. Rule books auto-trade; only <code>agent</code> is discretionary.</p>
   </main>
   <script>
     const COLORS = ["#7fd4ff", "#9ae6b4", "#f6ad55", "#d6bcfa", "#fc8181", "#8eb4cc"];
@@ -266,7 +279,7 @@
       lastData = data;
       const books = data.books || [];
       document.getElementById("sub").textContent =
-        "Paper only · 5× €1,000 since " + (data.since || "2026-11-10") +
+        "Paper only · " + books.length + "× €1,000 since " + (data.since || "2026-11-10") +
         " · " + (data.as_of || "") +
         (data.spy_above_ma50 == null ? "" : (data.spy_above_ma50 ? " · SPY above MA50" : " · SPY below MA50"));
 
@@ -274,7 +287,7 @@
       document.getElementById("strip").innerHTML =
         "<b>" + books.length + " books · leader " +
         (best ? best.id + " " + pct(best.return_pct) : "—") + "</b>" +
-        "<div class='meta'>shared candidates · 0.5%/fill · EURUSD sizing · rule books auto · agent discretionary</div>";
+        "<div class='meta'>earnings + 24/7 news · 0.5%/fill · EURUSD · rule books auto · agent discretionary</div>";
 
       const cmp = document.getElementById("cmp");
       cmp.replaceChildren();
@@ -308,6 +321,36 @@
       }
       if (!books.find(b => b.id === selectedBook) && books[0]) selectedBook = books[0].id;
       selectBook(selectedBook);
+
+      const newsMeta = data.news_meta || {};
+      document.getElementById("newsMeta").textContent =
+        (data.news_as_of ? ("as of " + data.news_as_of + " · ") : "") +
+        (newsMeta.n_items != null ? (newsMeta.n_items + " items") : "") +
+        (newsMeta.n_actionable != null ? (", " + newsMeta.n_actionable + " actionable") : "") +
+        (newsMeta.sources && newsMeta.sources.length ? (" · " + newsMeta.sources.join(", ")) : "");
+      const newsBody = document.getElementById("news");
+      newsBody.replaceChildren();
+      const newsRows = data.news || [];
+      for (const n of newsRows.slice(0, 25)) {
+        const tr = document.createElement("tr");
+        const tickers = (n.tickers || []).join(" ") || "—";
+        const dir = n.direction || "—";
+        const dirCls = dir === "bullish" ? "up" : (dir === "bearish" ? "down" : "muted");
+        const title = n.url
+          ? ("<a href=\"" + n.url + "\" target=\"_blank\" rel=\"noopener\" style=\"color:inherit\">" +
+             (n.title || "").slice(0, 110) + "</a>")
+          : (n.title || "").slice(0, 110);
+        tr.innerHTML =
+          "<td class='muted'>" + ((n.published_at || "").replace("T", " ").replace("Z", "")) + "</td>" +
+          "<td><b>" + tickers + "</b></td>" +
+          "<td><span class='tag'>" + (n.event_type || "other") + "</span></td>" +
+          "<td class='" + dirCls + "'>" + dir + (n.news_side ? (" → " + n.news_side) : "") + "</td>" +
+          "<td>" + title + "</td>";
+        newsBody.appendChild(tr);
+      }
+      if (!newsRows.length) {
+        newsBody.innerHTML = "<tr><td colspan='5' class='muted'>No news items yet — stocks-news workflow fills this every ~15 min.</td></tr>";
+      }
 
       const cands = document.getElementById("cands");
       cands.replaceChildren();

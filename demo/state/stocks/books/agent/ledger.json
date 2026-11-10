@@ -11,7 +11,7 @@
   "start_capital_eur": 1000.0,
   "eur_usd_start": 1.1222084760665894,
   "cash_eur": 889.02236,
-  "equity_eur": 999.31,
+  "equity_eur": 998.9,
   "positions": {
     "MPAA": {
       "ticker": "MPAA",
@@ -35,9 +35,9 @@
       ],
       "decision_id": "MPAA-2026-11-10T13:53:35Z-72c0fa",
       "book_id": "agent",
-      "mark_usd": 7.5,
-      "mark_eur": 6.723,
-      "unrealized_pnl_pct": 0.0
+      "mark_usd": 7.599999904632568,
+      "mark_eur": 6.8134,
+      "unrealized_pnl_pct": -1.3158
     },
     "DCTH": {
       "ticker": "DCTH",
@@ -59,9 +59,9 @@
       "rule_tags": [],
       "decision_id": "DCTH-2026-11-10T13:53:37Z-3a6d90",
       "book_id": "agent",
-      "mark_usd": 21.635000228881836,
-      "mark_eur": 19.3936,
-      "unrealized_pnl_pct": 0.2549
+      "mark_usd": 21.700000762939453,
+      "mark_eur": 19.4541,
+      "unrealized_pnl_pct": 0.5561
     },
     "LINC": {
       "ticker": "LINC",
@@ -84,7 +84,7 @@
       "decision_id": "LINC-2026-11-10T13:53:37Z-740f17",
       "book_id": "agent",
       "mark_usd": 23.34000015258789,
-      "mark_eur": 20.922,
+      "mark_eur": 20.9243,
       "unrealized_pnl_pct": 0.2147
     }
   },
@@ -93,7 +93,7 @@
   "equity_history": [
     {
       "day": "2026-11-10",
-      "equity_eur": 999.31,
+      "equity_eur": 998.9,
       "spy_eur": 1000.0,
       "cash_eur": 889.02,
       "n_open": 3
@@ -103,8 +103,8 @@
     {
       "day": "2026-11-10",
       "spy_eur": 1000.0,
-      "spy_usd": 746.665,
-      "eur_usd": 1.11557
+      "spy_usd": 746.51,
+      "eur_usd": 1.11545
     }
   ],
   "cost_pct": 0.005,
@@ -114,7 +114,7 @@
   "default_hold_days": 5,
   "stop_loss": null,
   "max_open": 8,
-  "last_run": "2026-11-10T16:52:37Z",
+  "last_run": "2026-11-10T16:55:14Z",
   "last_reason": "engine[agent]: auto=0 ingested=0 fills=0 closed=0 open=3 session=open",
-  "eur_usd": 1.1155734062194824
+  "eur_usd": 1.1154489517211914
 }

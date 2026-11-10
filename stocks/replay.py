@@ -212,6 +212,7 @@ def expected_tickers() -> dict[str, list[str]]:
         "guidance_beat": ["GUIDE"],  # surprise 12>8 + raised; BEAT5 has only 6% so no
         "beat5_raise": ["GUIDE", "BEAT5"],  # both raised with beat>5
         "miss_short": ["MISS"],
+        "news_event": [],  # covered by dedicated news tests / live scan
         "agent": [],
     }
 

@@ -5,8 +5,8 @@
   "forward_test_start": "2026-11-10",
   "spy_above_ma50": false,
   "n_calendar": 646,
-  "n_candidates": 644,
-  "n_tagged": 13,
+  "n_candidates": 647,
+  "n_tagged": 16,
   "errors": [],
   "rules": {
     "agent": "Discretionary agentic book. Cursor agent decides via stocks.decide from shared candidates. Baseline \u2014 not auto-traded by the engine.",
@@ -392,6 +392,98 @@
       ],
       "suggested_side": "short",
       "suggested_hold": 2
+    },
+    {
+      "ticker": "US",
+      "name": "Jerash Holdings (US), Inc.",
+      "source": "news",
+      "cal_date": "2026-11-10",
+      "report_date": "2026-11-10",
+      "timing": "news",
+      "surprise_pct": null,
+      "gap_pct": null,
+      "guidance": "none",
+      "headline": "8-K - Jerash Holdings (US), Inc. (0001696558) (Filer)",
+      "excerpt": "Filed: 2026-11-10 AccNo: 0001213900-26-117779 Size: 343 KB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/1696558/000121390026117779/0001213900-26-117779-index.htm",
+      "exhibit_url": "https://www.sec.gov/Archives/edgar/data/1696558/000121390026117779/0001213900-26-117779-index.htm",
+      "news_id": "e63ab1a1cb179901",
+      "news_source": "edgar_8k",
+      "news_event_type": "earnings",
+      "news_direction": "neutral",
+      "news_side": null,
+      "news_actionable": false,
+      "news_published_at": "2026-11-10T13:05:15Z",
+      "rule_tags": [
+        "news_event",
+        "earnings"
+      ],
+      "suggested_side": null,
+      "suggested_hold": null,
+      "spy_above_ma50": null,
+      "scanned_at": "2026-11-10T16:54:47Z"
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVDA",
+      "source": "news",
+      "cal_date": "2026-11-10",
+      "report_date": "2026-11-10",
+      "timing": "news",
+      "surprise_pct": null,
+      "gap_pct": null,
+      "guidance": "none",
+      "headline": "NVDA INVESTOR ALERT: Securities Class Action Filed, NVIDIA Corporation Investors with Substantial Losses Encouraged to Contact Hagens Berman Ahead of January 8, 2027 Lead Plaintiff Deadline",
+      "excerpt": "SAN FRANCISCO, Nov. 10, 2026 /PRNewswire/ -- Hagens Berman, a prominent national trial law firm specializing in securities fraud and shareholder rights, alerts investors in NVIDIA Corporation (NASDAQ: NVDA) to a class action lawsuit filed in federal court. The firm encourages NVIDIA...",
+      "filing_url": "",
+      "exhibit_url": "https://www.prnewswire.com/news-releases/nvda-investor-alert-securities-class-action-filed-nvidia-corporation-investors-with-substantial-losses-encouraged-to-contact-hagens-berman-ahead-of-january-8-2027-lead-plaintiff-deadline-302935156.html",
+      "news_id": "9c58c4c43f1f238e",
+      "news_source": "prnewswire",
+      "news_event_type": "fraud_probe",
+      "news_direction": "bearish",
+      "news_side": "short",
+      "news_actionable": true,
+      "news_published_at": "2026-11-10T16:47:00Z",
+      "rule_tags": [
+        "news_event",
+        "fraud_probe",
+        "news_short"
+      ],
+      "suggested_side": "short",
+      "suggested_hold": 2,
+      "spy_above_ma50": null,
+      "scanned_at": "2026-11-10T16:54:58Z"
+    },
+    {
+      "ticker": "CVRX",
+      "name": "CVRX",
+      "source": "news",
+      "cal_date": "2026-11-10",
+      "report_date": "2026-11-10",
+      "timing": "news",
+      "surprise_pct": null,
+      "gap_pct": null,
+      "guidance": "none",
+      "headline": "CVRX INVESTOR ALERT: Securities Class Action Filed, Hagens Berman Urges CVRx, Inc. Investors with Substantial Losses to Contact Firm Ahead of January 8, 2027 Lead Plaintiff Deadline",
+      "excerpt": "SAN FRANCISCO, Nov. 10, 2026 /PRNewswire/ -- Hagens Berman, a national shareholder rights litigation firm, alerts investors in CVRx, Inc. (NASDAQ: CVRX) to a class action lawsuit filed in federal court. The filing follows disclosures of a U.S. Department of Justice Civil Investigative...",
+      "filing_url": "",
+      "exhibit_url": "https://www.prnewswire.com/news-releases/cvrx-investor-alert-securities-class-action-filed-hagens-berman-urges-cvrx-inc-investors-with-substantial-losses-to-contact-firm-ahead-of-january-8-2027-lead-plaintiff-deadline-302935157.html",
+      "news_id": "4be6d1d8d38240f8",
+      "news_source": "prnewswire",
+      "news_event_type": "fraud_probe",
+      "news_direction": "bearish",
+      "news_side": "short",
+      "news_actionable": true,
+      "news_published_at": "2026-11-10T16:49:00Z",
+      "rule_tags": [
+        "news_event",
+        "fraud_probe",
+        "news_short"
+      ],
+      "suggested_side": "short",
+      "suggested_hold": 2,
+      "spy_above_ma50": null,
+      "scanned_at": "2026-11-10T16:54:58Z"
     },
     {
       "ticker": "ALTI",
@@ -17430,5 +17522,6 @@
       "suggested_side": null,
       "suggested_hold": null
     }
-  ]
+  ],
+  "news_merged_at": "2026-11-10T16:54:58Z"
 }

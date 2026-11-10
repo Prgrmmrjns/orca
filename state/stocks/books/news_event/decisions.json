@@ -1,0 +1,98 @@
+{
+  "mode": "paper",
+  "decisions": [
+    {
+      "id": "news_event-NVDA-2026-11-10T16:55:17Z-33cd8f",
+      "book_id": "news_event",
+      "ticker": "NVDA",
+      "side": "short",
+      "size": 0.05,
+      "hold": 2,
+      "reason": "[news_event] event=fraud_probe surprise=None gap=None guidance=none headline=NVDA INVESTOR ALERT: Securities Class Action Filed, NVIDIA Corporation Investors \u2192 short 2d",
+      "confidence": 1.0,
+      "stop_loss": 0.08,
+      "take_profit": null,
+      "rule_tags": [
+        "news_event",
+        "news_event",
+        "fraud_probe",
+        "news_short"
+      ],
+      "surprise_pct": null,
+      "gap_pct": null,
+      "guidance": "none",
+      "news_event_type": "fraud_probe",
+      "news_id": "9c58c4c43f1f238e",
+      "agent": "rule:news_event",
+      "prefer_open": false,
+      "decided_at": "2026-11-10T16:55:17Z",
+      "status": "filled",
+      "fill": {
+        "time": "2026-11-10T16:55:18Z",
+        "ticker": "NVDA",
+        "side": "sell_short",
+        "price_usd": 167.229996,
+        "shares": 0.333507,
+        "notional_eur": 50.0,
+        "cost_eur": 0.25,
+        "reason": "[news_event] event=fraud_probe surprise=None gap=None guidance=none headline=NVDA INVESTOR ALERT: Securities Class Action Filed, NVIDIA Corporation Investors \u2192 short 2d",
+        "note": "filled at session price (market open)",
+        "decision_id": "news_event-NVDA-2026-11-10T16:55:17Z-33cd8f",
+        "book_id": "news_event"
+      }
+    },
+    {
+      "id": "news_event-CVRX-2026-11-10T16:55:17Z-0e0e94",
+      "book_id": "news_event",
+      "ticker": "CVRX",
+      "side": "short",
+      "size": 0.05,
+      "hold": 2,
+      "reason": "[news_event] event=fraud_probe surprise=None gap=None guidance=none headline=CVRX INVESTOR ALERT: Securities Class Action Filed, Hagens Berman Urges CVRx, In \u2192 short 2d",
+      "confidence": 1.0,
+      "stop_loss": 0.08,
+      "take_profit": null,
+      "rule_tags": [
+        "news_event",
+        "news_event",
+        "fraud_probe",
+        "news_short"
+      ],
+      "surprise_pct": null,
+      "gap_pct": null,
+      "guidance": "none",
+      "news_event_type": "fraud_probe",
+      "news_id": "4be6d1d8d38240f8",
+      "agent": "rule:news_event",
+      "prefer_open": false,
+      "decided_at": "2026-11-10T16:55:17Z",
+      "status": "closed",
+      "fill": {
+        "ticker": "CVRX",
+        "side": "short",
+        "entry_day": "2026-11-10",
+        "exit_day": "2026-11-10",
+        "entry_usd": 0.7502,
+        "exit_usd": 0.810216,
+        "shares": 74.324855,
+        "hold_days": 2,
+        "exit_reason": "stop_loss",
+        "entry_cost_eur": 0.2499,
+        "exit_cost_eur": 0.2699,
+        "pnl_eur": -4.52,
+        "pnl_pct_net": -8.4074,
+        "reason": "[news_event] event=fraud_probe surprise=None gap=None guidance=none headline=CVRX INVESTOR ALERT: Securities Class Action Filed, Hagens Berman Urges CVRx, In \u2192 short 2d",
+        "rule_tags": [
+          "news_event",
+          "news_event",
+          "fraud_probe",
+          "news_short"
+        ],
+        "decision_id": "news_event-CVRX-2026-11-10T16:55:17Z-0e0e94",
+        "book_id": "news_event",
+        "closed_at": "2026-11-10T16:55:18Z"
+      }
+    }
+  ],
+  "updated_at": "2026-11-10T16:55:17Z"
+}

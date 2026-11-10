@@ -11,7 +11,7 @@
   "start_capital_eur": 1000.0,
   "eur_usd_start": 1.1222084760665894,
   "cash_eur": 1199.3835724999997,
-  "equity_eur": 1005.98,
+  "equity_eur": 1005.13,
   "positions": {
     "BKKT": {
       "ticker": "BKKT",
@@ -37,7 +37,7 @@
       "decision_id": "miss_short-BKKT-2026-11-10T11:44:58Z-c56deb",
       "book_id": "miss_short",
       "mark_usd": 4.300000190734863,
-      "mark_eur": 3.8545,
+      "mark_eur": 3.855,
       "unrealized_pnl_pct": 4.8837
     },
     "MPAA": {
@@ -63,9 +63,9 @@
       ],
       "decision_id": "miss_short-MPAA-2026-11-10T11:44:58Z-7f35ed",
       "book_id": "miss_short",
-      "mark_usd": 7.5,
-      "mark_eur": 6.723,
-      "unrealized_pnl_pct": 2.2667
+      "mark_usd": 7.599999904632568,
+      "mark_eur": 6.8134,
+      "unrealized_pnl_pct": 0.9211
     },
     "UNIT": {
       "ticker": "UNIT",
@@ -91,7 +91,7 @@
       "decision_id": "miss_short-UNIT-2026-11-10T11:44:58Z-549ac5",
       "book_id": "miss_short",
       "mark_usd": 4.255000114440918,
-      "mark_eur": 3.8142,
+      "mark_eur": 3.8146,
       "unrealized_pnl_pct": 1.5276
     },
     "HROW": {
@@ -117,9 +117,9 @@
       ],
       "decision_id": "miss_short-HROW-2026-11-10T11:44:58Z-9b9f01",
       "book_id": "miss_short",
-      "mark_usd": 31.184999465942383,
-      "mark_eur": 27.9542,
-      "unrealized_pnl_pct": 5.8426
+      "mark_usd": 31.299999237060547,
+      "mark_eur": 28.0604,
+      "unrealized_pnl_pct": 5.4537
     }
   },
   "pending": [],
@@ -127,7 +127,7 @@
   "equity_history": [
     {
       "day": "2026-11-10",
-      "equity_eur": 1005.98,
+      "equity_eur": 1005.13,
       "spy_eur": 1000.0,
       "cash_eur": 1199.38,
       "n_open": 4
@@ -135,10 +135,10 @@
   ],
   "spy_history": [
     {
-      "day": "2026-11-09",
+      "day": "2026-11-10",
       "spy_eur": 1000.0,
-      "spy_usd": 752.69,
-      "eur_usd": 1.12196
+      "spy_usd": 746.48,
+      "eur_usd": 1.11545
     }
   ],
   "cost_pct": 0.005,
@@ -148,7 +148,7 @@
   "default_hold_days": 2,
   "stop_loss": 0.08,
   "max_open": 4,
-  "last_run": "2026-11-10T16:52:39Z",
+  "last_run": "2026-11-10T16:55:17Z",
   "last_reason": "engine[miss_short]: auto=0 ingested=0 fills=0 closed=0 open=4 session=open",
-  "eur_usd": 1.1155734062194824
+  "eur_usd": 1.1154489517211914
 }
