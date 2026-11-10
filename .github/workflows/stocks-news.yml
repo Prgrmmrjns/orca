@@ -5,6 +5,10 @@ on:
   schedule:
     - cron: "5,20,35,50 * * * *"
   workflow_dispatch:
+  # Fallback if GitHub `schedule` stays silent: external cron can POST
+  # repository_dispatch with event_type=orca-stocks-tick (needs a PAT with actions:write).
+  repository_dispatch:
+    types: [orca-stocks-tick, orca-stocks-news]
   push:
     branches: [main]
     paths:

@@ -51,6 +51,16 @@ Cloud agents cannot flip repo Actions settings or `workflow_dispatch`. Do this o
 
 After one successful run, weekday schedules should keep firing. Pushing the workflow YAML to `main` also triggers a one-shot run via the `paths` filter.
 
+**Fallback if `schedule` never fires:** workflows also listen for `repository_dispatch` types `orca-stocks-tick` / `orca-stocks-news` / `orca-stocks-engine`. Point an external cron (e.g. cron-job.org) at:
+
+```bash
+curl -X POST -H "Authorization: Bearer $GH_PAT" -H "Accept: application/vnd.github+json" \
+  https://api.github.com/repos/Prgrmmrjns/orca/dispatches \
+  -d '{"event_type":"orca-stocks-tick"}'
+```
+
+(`GH_PAT` needs `actions:write`. Cloud agent tokens cannot dispatch.)
+
 ## Layout
 
 ```

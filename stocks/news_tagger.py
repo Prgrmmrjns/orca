@@ -4,20 +4,52 @@ from __future__ import annotations
 import re
 from typing import Any
 
+# Law-firm "shareholder investigation" / class-action solicitation spam.
+# These often name-drop SEC/DOJ; they are NOT real probes for trading.
+SHAREHOLDER_SPAM_RE = re.compile(
+    r"\b("
+    r"investor alert|shareholder alert|shareholders? (?:alert|notice)|"
+    r"investigation on behalf of investors|"
+    r"class action (?:lawsuit )?filed|securities class action|"
+    r"reminds investors|lead plaintiff|"
+    r"lead plaintiff deadline|plaintiff deadline|"
+    r"investors with (?:substantial )?losses|"
+    r"urges? (?:\w+ )?investors|"
+    r"contact (?:the )?firm|contact attorney|"
+    r"rosen law|pomerantz|levi & korsinsky|levi \& korsinsky|"
+    r"bragar eagel|glancy|faruqi|kessler topaz|bronstein|"
+    r"hagens berman|the schall law|schall law firm|"
+    r"glick law|portnoy law|weiss law|kirby mcinerny|"
+    r"bernstein liebhard|robbins geller"
+    r")\b",
+    re.I,
+)
+
+# Real probe / accounting-integrity evidence (not law-firm solicitations).
+REAL_PROBE_RE = re.compile(
+    r"\b("
+    r"sec (?:charges|files? (?:a )?complaint|order(?:s|ed)?|enforcement|"
+    r"administrative proceeding|wells notice)|"
+    r"(?:receives?|received|discloses?|disclosed|notified of) .{0,40}"
+    r"(?:sec|doj|department of justice).{0,40}"
+    r"(?:subpoena|civil investigative demand|cid|wells notice)|"
+    r"item\s*8\.01|"  # 8-K other events often used for investigation disclosures
+    r"accounting restatement|restat(?:es|ed|ement) (?:its )?(?:financials|results|earnings)|"
+    r"auditor resign(?:s|ed|ation)|dismisses? (?:its )?auditor|"
+    r"material weakness|"
+    r"fbi (?:raid|raids|search warrant)|"
+    r"indicted|indictment for (?:securities|wire) fraud|"
+    r"sec (?:probe|investigation|subpoena)|"
+    r"doj (?:probe|investigation|charges)"
+    r")\b",
+    re.I,
+)
+
 # (event_type, direction, patterns) — first match wins within each polarity group.
 # direction: "bullish" | "bearish" | "neutral"
 _RULES: list[tuple[str, str, re.Pattern[str]]] = [
     # Bearish first when both could match (fraud > earnings).
-    (
-        "fraud_probe",
-        "bearish",
-        re.compile(
-            r"\b(accounting (?:fraud|irregularit(?:y|ies)|restatement)|sec (?:probe|investigation|subpoena)|"
-            r"doj (?:probe|investigation)|department of justice|indictment|whistleblower|"
-            r"securities fraud|forensic accounting|fbi (?:raid|probe|investigation))\b",
-            re.I,
-        ),
-    ),
+    # fraud_probe is handled specially in tag_text (spam filter + REAL_PROBE_RE).
     (
         "short_seller",
         "bearish",
@@ -153,15 +185,33 @@ _STOP = {
 }
 
 
+def is_shareholder_spam(title: str, summary: str = "") -> bool:
+    return bool(SHAREHOLDER_SPAM_RE.search(f"{title or ''} {summary or ''}"))
+
+
 def tag_text(title: str, summary: str = "") -> dict[str, Any]:
     text = f"{title or ''}. {summary or ''}"
+    # Law-firm solicitation PRs: never actionable fraud_probe.
+    if is_shareholder_spam(title, summary):
+        return {
+            "event_type": "shareholder_alert",
+            "direction": "bearish",
+            "news_side": None,
+            "actionable": False,
+        }
+
     event_type = "other"
     direction = "neutral"
-    for etype, direc, pat in _RULES:
-        if pat.search(text):
-            event_type = etype
-            direction = direc
-            break
+    if REAL_PROBE_RE.search(text):
+        event_type = "fraud_probe"
+        direction = "bearish"
+    else:
+        for etype, direc, pat in _RULES:
+            if pat.search(text):
+                event_type = etype
+                direction = direc
+                break
+
     actionable = None
     news_side = None
     if event_type in ACTIONABLE_LONG:

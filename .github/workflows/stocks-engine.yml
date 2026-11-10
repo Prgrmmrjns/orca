@@ -10,6 +10,8 @@ on:
     - cron: "17 21 * * 1-5"
     - cron: "17 20 * * 1-5"
   workflow_dispatch:
+  repository_dispatch:
+    types: [orca-stocks-tick, orca-stocks-engine]
   push:
     branches: [main]
     paths:

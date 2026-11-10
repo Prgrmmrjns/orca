@@ -21,10 +21,36 @@ class NewsTaggerTests(unittest.TestCase):
         self.assertEqual(t["news_side"], "long")
         self.assertTrue(t["actionable"])
 
-    def test_fraud_bearish(self):
-        t = tag_text("SEC Probe Into Accounting Fraud at Widgets Inc (WIDG)")
+    def test_fraud_bearish_real_sec(self):
+        t = tag_text("SEC Charges Widgets Inc With Accounting Fraud")
         self.assertEqual(t["event_type"], "fraud_probe")
         self.assertEqual(t["news_side"], "short")
+        self.assertTrue(t["actionable"])
+
+    def test_shareholder_alert_spam_not_probe(self):
+        t = tag_text(
+            "NVDA INVESTOR ALERT: Securities Class Action Filed, Hagens Berman Urges "
+            "NVIDIA Investors with Substantial Losses to Contact Firm",
+            "The filing follows disclosures of a U.S. Department of Justice Civil Investigative Demand.",
+        )
+        self.assertEqual(t["event_type"], "shareholder_alert")
+        self.assertFalse(t["actionable"])
+        self.assertIsNone(t["news_side"])
+
+    def test_rosen_lead_plaintiff_spam(self):
+        t = tag_text(
+            "Rosen Law Firm Reminds AAPL Investors of Important Lead Plaintiff Deadline"
+        )
+        self.assertEqual(t["event_type"], "shareholder_alert")
+        self.assertFalse(t["actionable"])
+
+    def test_8k_subpoena_is_real(self):
+        t = tag_text(
+            "8-K - Acme Corp",
+            "Item 8.01 Other Events. The Company received an SEC subpoena regarding its revenue recognition.",
+        )
+        self.assertEqual(t["event_type"], "fraud_probe")
+        self.assertTrue(t["actionable"])
 
     def test_dilution(self):
         t = tag_text("Company Announces $200 Million Public Offering of Common Stock")

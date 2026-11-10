@@ -5,7 +5,7 @@
   "strategy_title": "News event",
   "kind": "rule",
   "base_currency": "EUR",
-  "note": "Paper only. Forward test book `news_event` since 2026-11-10. No broker API. Long on clearly bullish news (acquisition target, big contract, FDA approval, guidance raise); short on clearly bearish (fraud/probe, guidance cut, short-seller report, dilutive offering). 5% equity, max 6, hold 2 days, hard 8% stop both sides. Entry at next tradable price. Paper shorts \u2014 no borrow model.",
+  "note": "Paper only. Forward test book `news_event` since 2026-11-10. No broker API. Long on clearly bullish news (acquisition target, big contract, FDA approval, guidance raise); short on clearly bearish (fraud/probe, guidance cut, short-seller report, dilutive offering). 5% equity, max 6, hold 2 days, hard 8% stop both sides. Entry at next tradable price. Paper shorts \u2014 no borrow model. FORWARD-TEST NOTE (2026-11-10): NVDA short was a FALSE POSITIVE \u2014 entered on a law-firm 'INVESTOR ALERT' / class-action solicitation PR (Hagens Berman) that name-dropped DOJ; not a real SEC/DOJ action or company 8-K. Position left open as part of the forward-test record. Tagging now filters shareholder-alert spam out of fraud_probe.",
   "rules": "Long on clearly bullish news (acquisition target, big contract, FDA approval, guidance raise); short on clearly bearish (fraud/probe, guidance cut, short-seller report, dilutive offering). 5% equity, max 6, hold 2 days, hard 8% stop both sides. Entry at next tradable price. Paper shorts \u2014 no borrow model.",
   "start_date": "2026-11-10",
   "start_capital_eur": 1000.0,
@@ -40,7 +40,9 @@
       "book_id": "news_event",
       "mark_usd": 166.83859252929688,
       "mark_eur": 149.5875,
-      "unrealized_pnl_pct": 0.2346
+      "unrealized_pnl_pct": 0.2346,
+      "false_positive": true,
+      "false_positive_reason": "shareholder_alert_spam"
     }
   },
   "pending": [],
@@ -98,5 +100,15 @@
   "max_open": 6,
   "last_run": "2026-11-10T16:56:06Z",
   "last_reason": "engine[news_event]: auto=0 ingested=0 fills=0 closed=0 open=1 session=open",
-  "eur_usd": 1.1153244972229004
+  "eur_usd": 1.1153244972229004,
+  "false_positives": [
+    {
+      "ticker": "NVDA",
+      "side": "short",
+      "entry_day": "2026-11-10",
+      "reason": "shareholder_alert_spam",
+      "detail": "Law-firm class-action / investor-alert PR mis-tagged as fraud_probe because the summary mentioned a DOJ Civil Investigative Demand. Filter added 2026-11-10; position retained for the forward-test record.",
+      "decision_id": "news_event-NVDA-2026-11-10T16:55:17Z-33cd8f"
+    }
+  ]
 }

@@ -187,8 +187,9 @@ BOOKS: list[BookSpec] = [
         kind="rule",
         description=(
             "Long on clearly bullish news (acquisition target, big contract, FDA approval, "
-            "guidance raise); short on clearly bearish (fraud/probe, guidance cut, "
-            "short-seller report, dilutive offering). 5% equity, max 6, hold 2 days, "
+            "guidance raise); short on clearly bearish (real fraud/probe, guidance cut, "
+            "short-seller report, dilutive offering). Law-firm shareholder-alert / class-action "
+            "solicitation PRs are NOT fraud_probe. 5% equity, max 6, hold 2 days, "
             "hard 8% stop both sides. Entry at next tradable price. Paper shorts — no borrow model."
         ),
         size=0.05,
