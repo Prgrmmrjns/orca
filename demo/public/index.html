@@ -3,99 +3,237 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Orca paper</title>
+  <title>Orca — earnings paper</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
   <style>
-    :root { color-scheme: dark; --bg: #06111c; --card: #0c2034; --line: #1d4e73; --text: #e7f4ff; --muted: #8eb4cc; --ice: #7fd4ff; }
+    :root {
+      color-scheme: dark;
+      --bg: #06111c;
+      --card: rgba(12, 32, 52, 0.92);
+      --line: #1d4e73;
+      --text: #e7f4ff;
+      --muted: #8eb4cc;
+      --ice: #7fd4ff;
+      --down: #ff8d86;
+    }
     * { box-sizing: border-box; }
-    body { margin: 0; color: var(--text); font: 14px/1.4 ui-sans-serif, system-ui, sans-serif; background: radial-gradient(700px 280px at 8% -20%, rgba(58,160,255,.28), transparent 60%), var(--bg); }
-    main { max-width: 880px; margin: 0 auto; padding: 20px 16px 40px; }
-    h1 { font-family: Palatino, Georgia, serif; font-weight: 500; font-size: 28px; margin: 0; }
-    .sub, .muted { color: var(--muted); }
-    .strip, .panel { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 12px 14px; margin-top: 12px; }
-    .strip b { font-size: 28px; color: var(--ice); }
-    h2 { font-size: 13px; color: var(--ice); margin: 0 0 8px; }
+    body {
+      margin: 0;
+      color: var(--text);
+      font: 13px/1.4 "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+      background:
+        radial-gradient(720px 280px at 8% -20%, rgba(58, 160, 255, 0.28), transparent 60%),
+        radial-gradient(500px 240px at 100% 0%, rgba(20, 90, 120, 0.22), transparent 55%),
+        var(--bg);
+    }
+    main { max-width: 980px; margin: 0 auto; padding: 18px 14px 40px; }
+    header { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+    h1 {
+      font-family: Palatino, "Palatino Linotype", Georgia, serif;
+      font-weight: 500; font-size: 30px; margin: 0; letter-spacing: 0.02em;
+    }
+    .sub { color: var(--muted); margin: 4px 0 0; }
+    .nav { margin-left: auto; font-size: 12px; }
+    .nav a { color: var(--ice); text-decoration: none; border-bottom: 1px solid rgba(127,212,255,.35); }
+    .strip, .panel {
+      background: var(--card); border: 1px solid var(--line); border-radius: 12px;
+      padding: 12px 14px; margin-top: 12px;
+    }
+    .strip b { font-size: 28px; color: var(--ice); font-family: Palatino, Georgia, serif; font-weight: 500; }
+    .strip .meta { color: var(--muted); margin-top: 4px; }
+    h2 { font-size: 12px; color: var(--ice); margin: 0 0 8px; letter-spacing: 0.04em; text-transform: uppercase; }
     table { width: 100%; border-collapse: collapse; }
-    th, td { text-align: left; padding: 4px 6px; border-bottom: 1px solid rgba(29,78,115,.7); }
-    th { color: var(--muted); font-weight: 500; font-size: 12px; }
-    ul { margin: 8px 0 0; padding-left: 18px; }
-    .up { color: var(--ice); } .down { color: #ff8d86; }
+    th, td { text-align: left; padding: 5px 6px; border-bottom: 1px solid rgba(29,78,115,.55); vertical-align: top; }
+    th { color: var(--muted); font-weight: 500; font-size: 11px; }
+    .up { color: var(--ice); } .down { color: var(--down); }
+    .muted { color: var(--muted); }
+    .tag {
+      display: inline-block; font-size: 10px; color: var(--ice);
+      border: 1px solid rgba(127,212,255,.35); padding: 1px 5px; margin: 1px 2px 1px 0;
+      border-radius: 3px;
+    }
+    canvas { max-height: 220px; }
+    ul.rules { margin: 6px 0 0; padding-left: 18px; color: var(--muted); }
+    .note {
+      margin-top: 14px; font-size: 12px; color: var(--muted);
+      border-top: 1px solid rgba(29,78,115,.55); padding-top: 10px;
+    }
   </style>
 </head>
 <body>
   <main>
-    <h1>Orca</h1>
-    <p class="sub" id="sub">Kraken paper demo</p>
-    <section class="strip" id="strip">Loading the book…</section>
+    <header>
+      <div>
+        <h1>Orca</h1>
+        <p class="sub" id="sub">US earnings paper agent</p>
+      </div>
+      <div class="nav"><a href="/crypto.html">Crypto paper (paused) →</a></div>
+    </header>
+
+    <section class="strip" id="strip">Loading paper book…</section>
+
     <section class="panel">
-      <h2>Paper trades</h2>
-      <table><thead><tr><th>Day</th><th>Trade</th><th>Price</th></tr></thead><tbody id="fills"></tbody></table>
+      <h2>Equity vs SPY (EUR)</h2>
+      <canvas id="curve" height="120"></canvas>
     </section>
+
     <section class="panel">
-      <h2>Positions</h2>
-      <table><thead><tr><th>Coin</th><th>Weight</th><th>Last</th><th>P&amp;L</th></tr></thead><tbody id="pos"></tbody></table>
+      <h2>Open positions</h2>
+      <table>
+        <thead><tr><th>Ticker</th><th>Side</th><th>Size</th><th>Entry</th><th>Mark</th><th>P&amp;L</th><th>Exit</th><th>Reason</th></tr></thead>
+        <tbody id="pos"></tbody>
+      </table>
     </section>
+
     <section class="panel">
-      <h2 id="sname">Strategy</h2>
-      <p id="oos" class="muted"></p>
-      <ul id="rule"></ul>
+      <h2>Today's candidates &amp; decisions</h2>
+      <table>
+        <thead><tr><th>Ticker</th><th>Surp%</th><th>Gap%</th><th>Guidance</th><th>Tags</th><th>Decision</th><th>Reason</th></tr></thead>
+        <tbody id="cands"></tbody>
+      </table>
     </section>
+
     <section class="panel">
-      <h2>News</h2>
-      <div id="news" class="muted"></div>
+      <h2>Closed trades (after 0.5% costs)</h2>
+      <table>
+        <thead><tr><th>Ticker</th><th>Side</th><th>Entry</th><th>Exit</th><th>Net P&amp;L</th><th>Why</th></tr></thead>
+        <tbody id="closed"></tbody>
+      </table>
     </section>
+
+    <section class="panel">
+      <h2>Default rules</h2>
+      <ul class="rules" id="rules"></ul>
+    </section>
+
+    <p class="note">Paper only — forward test since 2026-11-10. No broker API, no real orders. Cost model: 0.5% of notional on every fill (entry and exit). Account EUR 1,000; max 10% equity per long, 5% per short, max 8 open.</p>
   </main>
   <script>
     function pct(n) {
-      const v = n * 100;
+      if (n == null || Number.isNaN(n)) return "—";
+      const v = Number(n);
       return (v >= 0 ? "+" : "−") + Math.abs(v).toFixed(1) + "%";
     }
+    function num(n, d=1) {
+      if (n == null || Number.isNaN(n)) return "—";
+      return Number(n).toFixed(d);
+    }
+    let chart;
+    function drawCurve(eqHist, spyHist) {
+      const byDay = {};
+      for (const h of spyHist || []) byDay[h.day] = h.spy_eur;
+      const labels = (eqHist || []).map(h => h.day);
+      const eq = (eqHist || []).map(h => h.equity_eur);
+      const spy = (eqHist || []).map(h => h.spy_eur != null ? h.spy_eur : byDay[h.day]);
+      const ctx = document.getElementById("curve");
+      if (chart) chart.destroy();
+      chart = new Chart(ctx, {
+        type: "line",
+        data: {
+          labels,
+          datasets: [
+            { label: "Orca €", data: eq, borderColor: "#7fd4ff", tension: 0.2, pointRadius: 0, borderWidth: 2 },
+            { label: "SPY €", data: spy, borderColor: "#8eb4cc", tension: 0.2, pointRadius: 0, borderWidth: 1.5, borderDash: [4,3] },
+          ],
+        },
+        options: {
+          responsive: true,
+          plugins: { legend: { labels: { color: "#8eb4cc", boxWidth: 12 } } },
+          scales: {
+            x: { ticks: { color: "#8eb4cc", maxTicksLimit: 6 }, grid: { color: "rgba(29,78,115,.35)" } },
+            y: { ticks: { color: "#8eb4cc" }, grid: { color: "rgba(29,78,115,.35)" } },
+          },
+        },
+      });
+    }
     async function load() {
-      const data = await (await fetch("/api/today", { cache: "no-store" })).json();
-      const d = data.decision || {};
+      const data = await (await fetch("/api/stocks", { cache: "no-store" })).json();
       const book = data.book || {};
       const ret = book.return_pct || 0;
-      document.getElementById("sub").textContent = "Paper since " + data.since + " · " + data.as_of + " · no live orders";
-      document.getElementById("strip").innerHTML = "<b>" + (ret >= 0 ? "+" : "−") + Math.abs(ret).toFixed(1) + "% · €" + Math.round(book.equity_eur || 0).toLocaleString("en-IE") + "</b><div>" + (d.pair || "cash") + " · " + (d.reason || "") + "</div>";
-      const fills = document.getElementById("fills");
-      fills.replaceChildren();
-      for (const fill of data.fills || []) {
+      document.getElementById("sub").textContent =
+        "Paper only, forward test since " + (data.since || "2026-11-10") +
+        " · " + (data.as_of || "") +
+        (data.spy_above_ma50 == null ? "" : (data.spy_above_ma50 ? " · SPY above MA50" : " · SPY below MA50"));
+      document.getElementById("strip").innerHTML =
+        "<b>" + (ret >= 0 ? "+" : "−") + Math.abs(ret).toFixed(1) + "% · €" +
+        Math.round(book.equity_eur || 0).toLocaleString("en-IE") + "</b>" +
+        "<div class='meta'>cash €" + num(book.cash_eur, 0) +
+        " · open " + (book.n_open || 0) +
+        " · closed " + (book.n_closed || 0) +
+        " · EURUSD " + num(book.eur_usd, 4) +
+        " · cost " + ((book.cost_pct || 0.005) * 100).toFixed(1) + "%/fill</div>";
+
+      drawCurve(data.equity_history || [], data.spy_history || []);
+
+      const pos = document.getElementById("pos");
+      pos.replaceChildren();
+      for (const r of data.positions || []) {
         const tr = document.createElement("tr");
-        tr.innerHTML = "<td>" + fill.time + "</td><td>" + fill.side + " " + fill.pair.replace("/USD", "") + "</td><td>$" + fill.price + "</td>";
-        fills.appendChild(tr);
+        const pl = r.unrealized_pnl_pct;
+        tr.innerHTML =
+          "<td>" + r.ticker + "</td><td>" + r.side + "</td><td>" + ((r.size || 0) * 100).toFixed(0) +
+          "%</td><td>$" + num(r.entry_usd, 2) + "</td><td>$" + num(r.mark_usd, 2) +
+          "</td><td class='" + (pl >= 0 ? "up" : "down") + "'>" + pct(pl) +
+          "</td><td>" + (r.exit_day || "") + "</td><td class='muted'>" + (r.reason || "") + "</td>";
+        pos.appendChild(tr);
       }
-      if (!(data.fills || []).length) {
+      if (!(data.positions || []).length) {
+        pos.innerHTML = "<tr><td colspan='8' class='muted'>No open positions.</td></tr>";
+      }
+
+      const cands = document.getElementById("cands");
+      cands.replaceChildren();
+      const rows = (data.candidates || []).slice(0, 40);
+      for (const c of rows) {
         const tr = document.createElement("tr");
-        tr.innerHTML = "<td colspan='3'>No fill yet.</td>";
-        fills.appendChild(tr);
+        const tags = (c.rule_tags || []).map(t => "<span class='tag'>" + t + "</span>").join("") || "—";
+        const d = c.decision;
+        const dec = d
+          ? (d.side + (d.size ? " " + Math.round(d.size * 100) + "%" : "") + " · " + (d.status || ""))
+          : "<span class='muted'>undecided</span>";
+        tr.innerHTML =
+          "<td><b>" + c.ticker + "</b></td>" +
+          "<td>" + num(c.surprise_pct, 1) + "</td>" +
+          "<td>" + num(c.gap_pct, 1) + "</td>" +
+          "<td>" + (c.guidance || "—") + "</td>" +
+          "<td>" + tags + "</td>" +
+          "<td>" + dec + "</td>" +
+          "<td class='muted'>" + ((d && d.reason) || c.headline || "").slice(0, 120) + "</td>";
+        cands.appendChild(tr);
       }
-      const st = data.strategy || {};
-      document.getElementById("sname").textContent = st.name || "Strategy";
-      document.getElementById("oos").textContent = st.oos || "";
-      const rule = document.getElementById("rule");
-      rule.replaceChildren();
-      for (const line of st.rules || []) {
+      if (!rows.length) {
+        cands.innerHTML = "<tr><td colspan='7' class='muted'>No candidates yet — scanner will populate on weekdays.</td></tr>";
+      }
+
+      const closed = document.getElementById("closed");
+      closed.replaceChildren();
+      for (const t of data.closed_trades || []) {
+        const tr = document.createElement("tr");
+        const pl = t.pnl_pct_net;
+        tr.innerHTML =
+          "<td>" + t.ticker + "</td><td>" + t.side + "</td><td>$" + num(t.entry_usd, 2) +
+          "</td><td>$" + num(t.exit_usd, 2) +
+          "</td><td class='" + (pl >= 0 ? "up" : "down") + "'>" + pct(pl) +
+          " · €" + num(t.pnl_eur, 2) +
+          "</td><td class='muted'>" + (t.exit_reason || "") + (t.reason ? " — " + t.reason : "") + "</td>";
+        closed.appendChild(tr);
+      }
+      if (!(data.closed_trades || []).length) {
+        closed.innerHTML = "<tr><td colspan='6' class='muted'>No closed trades yet.</td></tr>";
+      }
+
+      const rules = document.getElementById("rules");
+      rules.replaceChildren();
+      const rmap = data.rules || {};
+      for (const [k, v] of Object.entries(rmap)) {
         const li = document.createElement("li");
-        li.textContent = line;
-        rule.appendChild(li);
+        li.innerHTML = "<b>" + k + "</b> — " + v;
+        rules.appendChild(li);
       }
-      const body = document.getElementById("pos");
-      body.replaceChildren();
-      for (const row of data.positions || []) {
-        const tr = document.createElement("tr");
-        const pl = (row.pnl_pct || 0) / 100;
-        tr.innerHTML = "<td>" + row.pair.replace("/USD", "") + "</td><td>" + (row.weight * 100).toFixed(1) + "%</td><td>$" + row.last + "</td><td class='" + (pl >= 0 ? "up" : "down") + "'>" + pct(pl) + "</td>";
-        body.appendChild(tr);
-      }
-      const news = document.getElementById("news");
-      news.replaceChildren();
-      for (const item of data.headlines || []) {
-        const p = document.createElement("div");
-        p.textContent = item.kind + " · " + item.coins.join(",") + " — " + item.title;
-        news.appendChild(p);
-      }
-      if (!(data.headlines || []).length) news.textContent = "No coin headlines in the latest feeds.";
     }
-    load();
+    load().catch(e => {
+      document.getElementById("strip").textContent = "Failed to load: " + e;
+    });
   </script>
 </body>
 </html>

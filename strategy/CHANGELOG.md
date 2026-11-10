@@ -1,5 +1,9 @@
 # Strategy changelog
 
+## 2026-11-10 — stocks earnings paper forward test (active)
+- Homepage product is now the **US earnings** paper agent (`stocks/`), start EUR 1,000 on 2026-11-10.
+- Crypto v2 daily paper is **paused** (ledger retained; `/crypto.html` still serves marks). Do not run `orca_daily.py --apply` unless Jonas asks.
+
 ## v2.1 — 2026-10-21
 - Cost-model fix only, no signal/parameter change: paper fills now use **0% fee** (Jonas's Kraken plan has 0% trading fees; only bid/ask spread applies). Was 0.4% taker. The 2026-10-20 rebalance stays as booked ($3.74 fees). Research tables still use 0.5%/side, so they're conservative.
 - 2026-10-21 news review: BTC ~$83K after US–Iran talks progress, US equities up on earnings, FINMA approved first Swiss retail BTC ETF, Solana Alpenglow upgrade live today, Ledger tampered-device supply-chain theft (~$90M, not a protocol/custodian hack), France stablecoin tax vote, Kazakhstan court curbs on Coinbase in AIFC → **no override**.

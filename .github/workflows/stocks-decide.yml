@@ -1,0 +1,44 @@
+name: stocks-decide
+
+# Manual / future Chewbacca trigger. Decisions are normally written by the
+# Cursor cloud agent using `python -m stocks.decide` (see AGENT.md).
+on:
+  workflow_dispatch:
+    inputs:
+      note:
+        description: "Optional note for the run log"
+        required: false
+        default: "manual decide dispatch"
+
+permissions:
+  contents: write
+
+jobs:
+  decide-ready:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Show pending candidates
+        env:
+          ORCA_MODE: paper
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          c = json.loads(Path("state/stocks/candidates.json").read_text()) if Path("state/stocks/candidates.json").exists() else {}
+          d = json.loads(Path("state/stocks/decisions.json").read_text()) if Path("state/stocks/decisions.json").exists() else {}
+          decided = {x.get("ticker") for x in d.get("decisions", []) if x.get("status") in ("new","pending","filled","accepted")}
+          tagged = [x for x in c.get("candidates", []) if x.get("rule_tags") and x.get("ticker") not in decided]
+          print("as_of", c.get("as_of"))
+          print("tagged_undecided", len(tagged))
+          for x in tagged[:30]:
+              print(f"{x['ticker']:8} surprise={x.get('surprise_pct')} gap={x.get('gap_pct')} guidance={x.get('guidance')} tags={x.get('rule_tags')}")
+          print("NOTE:", """${{ github.event.inputs.note }}""")
+          print("Run deciding agent per AGENT.md / stocks/DECISION_PROMPT.md")
+          PY
