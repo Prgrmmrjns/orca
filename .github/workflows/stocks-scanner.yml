@@ -1,10 +1,19 @@
 name: stocks-scanner
 
+# Schedules only fire from the default branch. If runs stay at zero, Jonas must:
+# Settings → Actions → General → Allow all actions; Workflow permissions → Read and write;
+# then Actions → stocks-scanner → Run workflow (once). Our push-path trigger also boots
+# the first run when this file lands on main.
 on:
   schedule:
-    # Every 15 minutes on weekdays (UTC)
-    - cron: "*/15 * * * 1-5"
+    # Weekdays UTC. Offset minutes avoid top-of-hour GitHub schedule drops.
+    # Every ~30 min (was */15 — high-frequency crons are often delayed/dropped).
+    - cron: "7,37 * * * 1-5"
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/stocks-scanner.yml"
 
 permissions:
   contents: write
@@ -21,6 +30,8 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          # Persist credentials so the bot can push ledger/candidates back to main.
+          persist-credentials: true
 
       - uses: actions/setup-python@v5
         with:
@@ -46,6 +57,9 @@ jobs:
           exit 0
 
       - name: Commit candidates if changed
+        env:
+          # Force write token for push (repo Setting "Read and write" must be on).
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "orca-stocks-bot"
           git config user.email "orca-bot@users.noreply.github.com"

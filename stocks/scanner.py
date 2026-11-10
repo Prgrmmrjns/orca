@@ -48,6 +48,7 @@ def scan(days_back: int = 1, days_forward: int = 1, max_tickers: int | None = No
     cik_map = load_cik_map()
 
     calendar_rows: list[dict] = []
+    calendar_errors: list[str] = []
     for i in range(-days_back, days_forward + 1):
         d = today + timedelta(days=i)
         if d.weekday() >= 5:
@@ -57,7 +58,11 @@ def scan(days_back: int = 1, days_forward: int = 1, max_tickers: int | None = No
             calendar_rows.extend(rows)
             print(f"nasdaq {d}: {len(rows)} rows", flush=True)
         except Exception as e:
+            calendar_errors.append(f"{d}: {e}")
             print(f"nasdaq calendar {d}: {e}", flush=True)
+
+    prev_file = read_json(CANDIDATES, default={})
+    prev_by = {c["ticker"]: c for c in (prev_file.get("candidates") or []) if c.get("ticker")}
 
     # de-dupe by ticker, prefer today's row
     by_ticker: dict[str, dict] = {}
@@ -67,12 +72,27 @@ def scan(days_back: int = 1, days_forward: int = 1, max_tickers: int | None = No
         if prev is None or row["cal_date"] == today.isoformat():
             by_ticker[t] = row
 
+    # If every calendar fetch failed, keep prior candidates (do not wipe the book).
+    if not by_ticker and prev_by:
+        print(
+            f"nasdaq empty ({len(calendar_errors)} errors) — retaining "
+            f"{len(prev_by)} prior candidates",
+            flush=True,
+        )
+        retained = dict(prev_file)
+        retained["as_of"] = utc_now_iso()
+        retained["as_of_et"] = now_et().strftime("%Y-%m-%d %H:%M ET")
+        retained["spy_above_ma50"] = spy_above
+        retained["scan_note"] = (
+            "calendar fetch failed; retained prior candidates. errors="
+            + "; ".join(calendar_errors[:10])
+        )
+        write_json(CANDIDATES, retained)
+        return retained
+
     tickers = sorted(by_ticker.keys())
     if max_tickers:
         tickers = tickers[:max_tickers]
-
-    prev_file = read_json(CANDIDATES, default={})
-    prev_by = {c["ticker"]: c for c in (prev_file.get("candidates") or []) if c.get("ticker")}
 
     # Pass 1: surprise + gap. Prefer Nasdaq fields; yfinance only when surprise missing.
     prelim: list[dict] = []

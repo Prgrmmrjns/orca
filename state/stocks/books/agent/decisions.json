@@ -20,7 +20,7 @@
       "guidance": "unknown",
       "agent": "chewbacca",
       "decided_at": "2026-11-10T13:53:35Z",
-      "status": "new"
+      "status": "skipped"
     },
     {
       "id": "MPAA-2026-11-10T13:53:35Z-72c0fa",
@@ -41,7 +41,20 @@
       "guidance": "unknown",
       "agent": "chewbacca",
       "decided_at": "2026-11-10T13:53:35Z",
-      "status": "new"
+      "status": "filled",
+      "fill": {
+        "time": "2026-11-10T16:50:43Z",
+        "ticker": "MPAA",
+        "side": "sell_short",
+        "price_usd": 7.5,
+        "shares": 7.436326,
+        "notional_eur": 50.0,
+        "cost_eur": 0.25,
+        "reason": "EPS/sales miss real; FY27 sales cut $780-800M\u2192$715-740M, gap -19% \u2192 short 2d @5%",
+        "note": "filled at session price (market open)",
+        "decision_id": "MPAA-2026-11-10T13:53:35Z-72c0fa",
+        "book_id": "agent"
+      }
     },
     {
       "id": "UNIT-2026-11-10T13:53:36Z-1178d6",
@@ -62,7 +75,7 @@
       "guidance": "unknown",
       "agent": "chewbacca",
       "decided_at": "2026-11-10T13:53:36Z",
-      "status": "new"
+      "status": "skipped"
     },
     {
       "id": "HROW-2026-11-10T13:53:36Z-89b13a",
@@ -83,7 +96,7 @@
       "guidance": "unknown",
       "agent": "chewbacca",
       "decided_at": "2026-11-10T13:53:36Z",
-      "status": "new"
+      "status": "skipped"
     },
     {
       "id": "DCTH-2026-11-10T13:53:37Z-3a6d90",
@@ -102,7 +115,20 @@
       "guidance": "unknown",
       "agent": "chewbacca",
       "decided_at": "2026-11-10T13:53:37Z",
-      "status": "new"
+      "status": "filled",
+      "fill": {
+        "time": "2026-11-10T16:50:44Z",
+        "ticker": "DCTH",
+        "side": "buy",
+        "price_usd": 21.58,
+        "shares": 4.134087,
+        "notional_eur": 79.98,
+        "cost_eur": 0.3999,
+        "reason": "EPS beat to +$0.17 vs -$0.08 est, raised FY26 rev $104-108M\u2192$115-117M, gap +24% \u2192 long 5d",
+        "note": "filled at session price (market open)",
+        "decision_id": "DCTH-2026-11-10T13:53:37Z-3a6d90",
+        "book_id": "agent"
+      }
     },
     {
       "id": "LINC-2026-11-10T13:53:37Z-740f17",
@@ -121,7 +147,20 @@
       "guidance": "none",
       "agent": "chewbacca",
       "decided_at": "2026-11-10T13:53:37Z",
-      "status": "new"
+      "status": "filled",
+      "fill": {
+        "time": "2026-11-10T16:50:44Z",
+        "ticker": "LINC",
+        "side": "buy",
+        "price_usd": 23.290001,
+        "shares": 3.829021,
+        "notional_eur": 79.95,
+        "cost_eur": 0.3997,
+        "reason": "EPS +23% beat ($0.15 vs $0.12), raised FY26 rev $590-600M\u2192$600-605M, gap +14% \u2192 long 5d",
+        "note": "filled at session price (market open)",
+        "decision_id": "LINC-2026-11-10T13:53:37Z-740f17",
+        "book_id": "agent"
+      }
     }
   ],
   "updated_at": "2026-11-10T13:53:37Z",

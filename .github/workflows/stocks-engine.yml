@@ -1,17 +1,23 @@
 name: stocks-engine
 
+# Schedules only fire from the default branch. If runs stay at zero, Jonas must:
+# Settings → Actions → General → Allow all actions; Workflow permissions → Read and write;
+# then Actions → stocks-engine → Run workflow (once). Pushing this file to main also
+# triggers one engine catch-up via the paths filter below.
 on:
   schedule:
-    # US open ~09:35 ET = 14:35 UTC (EST) / 13:35 UTC (EDT). Use both winter/summer-ish slots.
-    - cron: "35 14 * * 1-5"   # ~09:35 ET standard time
-    - cron: "35 13 * * 1-5"   # ~09:35 ET daylight time
-    # Midday ~12:30 ET
-    - cron: "30 17 * * 1-5"
-    - cron: "30 16 * * 1-5"
-    # After close ~16:15 ET
-    - cron: "15 21 * * 1-5"
-    - cron: "15 20 * * 1-5"
+    # US equity session (both EST and EDT slots). Offset minutes reduce drop risk.
+    - cron: "37 14 * * 1-5"   # ~09:37 ET standard time
+    - cron: "37 13 * * 1-5"   # ~09:37 ET daylight time
+    - cron: "32 17 * * 1-5"   # midday EST
+    - cron: "32 16 * * 1-5"   # midday EDT
+    - cron: "17 21 * * 1-5"   # after close EST
+    - cron: "17 20 * * 1-5"   # after close EDT
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/stocks-engine.yml"
 
 permissions:
   contents: write
@@ -28,6 +34,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          persist-credentials: true
 
       - uses: actions/setup-python@v5
         with:
@@ -53,6 +60,8 @@ jobs:
           exit 0
 
       - name: Commit multi-book ledgers if changed
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "orca-stocks-bot"
           git config user.email "orca-bot@users.noreply.github.com"

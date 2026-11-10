@@ -32,9 +32,21 @@ See `AGENT.md` and `stocks/DECISION_PROMPT.md` for the deciding-agent loop (**ag
 
 | Workflow | When |
 | --- | --- |
-| `stocks-scanner` | every 15 min, weekdays |
+| `stocks-scanner` | ~every 30 min weekdays UTC (`7,37 * * * 1-5`) |
 | `stocks-engine` | ~US open / midday / after close |
 | `stocks-decide` | `workflow_dispatch` |
+
+### If schedules never run (Jonas)
+
+Cloud agents cannot flip repo Actions settings or `workflow_dispatch`. Do this once:
+
+1. Open [Settings → Actions → General](https://github.com/Prgrmmrjns/orca/settings/actions)
+2. **Actions permissions** → *Allow all actions and reusable workflows* → Save
+3. **Workflow permissions** → *Read and write permissions* (required so the bot can commit state) → Save
+4. Open [Actions](https://github.com/Prgrmmrjns/orca/actions) → **stocks-scanner** → **Run workflow** (branch `main`)
+5. Same for **stocks-engine**
+
+After one successful run, weekday schedules should keep firing. Pushing the workflow YAML to `main` also triggers a one-shot run via the `paths` filter.
 
 ## Layout
 

@@ -198,28 +198,39 @@ def _nasdaq_json(day: date) -> dict | None:
             pass
         return js
 
-    # Prefer curl first — requests often stalls on this host/CI
-    try:
-        proc = subprocess.run(
-            [
-                "curl", "-sS", "-m", "45",
-                "-A", NASDAQ_HEADERS["User-Agent"],
-                "-H", f"Origin: {NASDAQ_HEADERS['Origin']}",
-                "-H", f"Referer: {NASDAQ_HEADERS['Referer']}",
-                "-H", f"Accept: {NASDAQ_HEADERS['Accept']}",
-                url,
-            ],
-            capture_output=True,
-            text=True,
-            check=False,
-        )
-        if proc.returncode == 0 and proc.stdout and len(proc.stdout) > 50:
-            return _save(json.loads(proc.stdout))
-    except Exception:
-        pass
+    def _load_cache() -> dict | None:
+        if cache_path.exists() and cache_path.stat().st_size > 50:
+            try:
+                return json.loads(cache_path.read_text())
+            except Exception:
+                return None
+        return None
+
+    # Prefer curl (HTTP/1.1) — HTTP/2 often aborts with INTERNAL_ERROR from this host.
+    # Keep timeouts short so we fall back to disk cache quickly in flaky networks.
+    for attempt in range(2):
+        try:
+            proc = subprocess.run(
+                [
+                    "curl", "-sS", "-m", "20", "--http1.1", "--compressed",
+                    "-A", NASDAQ_HEADERS["User-Agent"],
+                    "-H", f"Origin: {NASDAQ_HEADERS['Origin']}",
+                    "-H", f"Referer: {NASDAQ_HEADERS['Referer']}",
+                    "-H", f"Accept: {NASDAQ_HEADERS['Accept']}",
+                    url,
+                ],
+                capture_output=True,
+                text=True,
+                check=False,
+            )
+            if proc.returncode == 0 and proc.stdout and len(proc.stdout) > 50:
+                return _save(json.loads(proc.stdout))
+        except Exception:
+            pass
+        time.sleep(0.5 + attempt)
 
     def _via_requests():
-        r = requests.get(url, headers=NASDAQ_HEADERS, timeout=15)
+        r = requests.get(url, headers=NASDAQ_HEADERS, timeout=12)
         if r.status_code == 429:
             raise RuntimeError("rate limited")
         r.raise_for_status()
@@ -229,11 +240,9 @@ def _nasdaq_json(day: date) -> dict | None:
     if js:
         return _save(js)
 
-    if cache_path.exists() and cache_path.stat().st_size > 50:
-        try:
-            return json.loads(cache_path.read_text())
-        except Exception:
-            pass
+    cached = _load_cache()
+    if cached:
+        return cached
     return None
 
 
