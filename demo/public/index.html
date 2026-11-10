@@ -392,6 +392,20 @@
           rules.appendChild(li);
         }
       }
+      const nec = data.news_event_config
+        || (books.find(b => b.id === "news_event") || {}).strategy_config;
+      if (nec) {
+        const li = document.createElement("li");
+        const enabled = (nec.rules || []).filter(r => r.enabled).map(r =>
+          r.name + " [" + r.side + ": " + (r.categories || []).join(", ") + "]"
+        );
+        li.innerHTML =
+          "<b>news_event config</b> — <code>" + (nec.path || "config/strategies/news_event.yaml") +
+          "</code> · max " + nec.max_positions + " · size from rules · cost " +
+          ((nec.cost_per_fill_pct || 0) * 100).toFixed(1) + "%/fill · " +
+          enabled.join("; ");
+        rules.appendChild(li);
+      }
     }
     load().catch(e => {
       document.getElementById("strip").textContent = "Failed to load: " + e;

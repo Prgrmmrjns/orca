@@ -84,30 +84,16 @@ def match_miss_short(c: dict[str, Any], spy_above: bool | None = None) -> bool:
 
 
 def match_news_event(c: dict[str, Any], spy_above: bool | None = None) -> bool:
-    """Actionable news: bullish → long, bearish → short (see news_tagger ACTIONABLE_*)."""
+    """Config-driven news matcher — see config/strategies/news_event.yaml.
+
+    Reloads YAML every call so parameter edits apply on the next engine tick.
+    Defaults reproduce the 2026-11-10 rules (long acquisition/contract/FDA/raise;
+    short fraud/cut/short-report/dilution; exclude shareholder_alert).
+    """
     del spy_above
-    if not c.get("news_actionable"):
-        return False
-    side = (c.get("news_side") or c.get("suggested_side") or "").lower()
-    et = (c.get("news_event_type") or "").lower()
-    if side not in ("long", "short"):
-        return False
-    # Require a concrete event type we trust enough to auto-trade
-    if side == "long" and et not in {
-        "acquisition_target",
-        "big_contract",
-        "fda_approval",
-        "guidance_raise",
-    }:
-        return False
-    if side == "short" and et not in {
-        "fraud_probe",
-        "guidance_cut",
-        "short_seller",
-        "dilution",
-    }:
-        return False
-    return bool(c.get("ticker"))
+    from stocks.strategy_config import match_candidate_to_news_config
+
+    return match_candidate_to_news_config(c) is not None
 
 
 BOOKS: list[BookSpec] = [
@@ -186,11 +172,11 @@ BOOKS: list[BookSpec] = [
         title="News event",
         kind="rule",
         description=(
-            "Long on clearly bullish news (acquisition target, big contract, FDA approval, "
-            "guidance raise); short on clearly bearish (real fraud/probe, guidance cut, "
-            "short-seller report, dilutive offering). Law-firm shareholder-alert / class-action "
-            "solicitation PRs are NOT fraud_probe. 5% equity, max 6, hold 2 days, "
-            "hard 8% stop both sides. Entry at next tradable price. Paper shorts — no borrow model."
+            "Config-driven news book (config/strategies/news_event.yaml). Defaults: long "
+            "acquisition_target / big_contract / fda_approval / guidance_raise; short "
+            "fraud_probe / guidance_cut / short_report / dilution; exclude shareholder_alert; "
+            "5% equity, max 6, hold 2 days, 8% stop, entry next_bar. Edit YAML to retune — "
+            "engine reloads on next tick. Paper shorts — no borrow model."
         ),
         size=0.05,
         hold_days=2,

@@ -1,0 +1,68 @@
+# news_event paper book — fully config-driven.
+# Edit this file and the engine picks it up on the next tick (no code change).
+# Defaults reproduce the 2026-11-10 live rules exactly.
+
+book_id: news_event
+title: News event
+started: "2026-11-10"
+
+# Book-level risk / accounting
+max_positions: 6
+max_per_ticker: 1
+max_gross_exposure_pct: 0.30   # 6 × 5%
+cost_per_fill_pct: 0.005       # 0.5% per fill
+allow_shorts: true
+# null = never re-enter a ticker once traded in this book (today's behaviour)
+cooldown_minutes: null
+
+rules:
+  - name: bullish_news_long
+    enabled: true
+    categories:
+      - acquisition_target
+      - big_contract
+      - fda_approval
+      - guidance_raise
+    sources: [8-K, PRN, CNBC, MarketWatch]  # all current free sources
+    side: long
+    exclude_tags: [shareholder_alert]
+    # optional thresholds (null = off / unused today)
+    min_gap_pct: null
+    max_gap_pct: null
+    min_eps_surprise_pct: null
+    min_price: null
+    min_avg_dollar_volume: null
+    entry: next_bar            # session/last during RTH; next open if closed
+    size_pct: 0.05
+    hold:
+      days: 2
+    exits:
+      stop_pct: 0.08
+      take_profit_pct: null
+      trailing_stop_pct: null
+      exit_at_close: false
+
+  - name: bearish_news_short
+    enabled: true
+    categories:
+      - fraud_probe
+      - guidance_cut
+      - short_report          # alias of classifier tag short_seller
+      - dilution
+    sources: [8-K, PRN, CNBC, MarketWatch]
+    side: short
+    exclude_tags: [shareholder_alert]
+    min_gap_pct: null
+    max_gap_pct: null
+    min_eps_surprise_pct: null
+    min_price: null
+    min_avg_dollar_volume: null
+    entry: next_bar
+    size_pct: 0.05
+    hold:
+      days: 2
+    exits:
+      stop_pct: 0.08
+      take_profit_pct: null
+      trailing_stop_pct: null
+      exit_at_close: false

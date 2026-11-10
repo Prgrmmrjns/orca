@@ -36,6 +36,93 @@ from stocks.paths import (
     read_json,
     write_json,
 )
+from stocks.strategy_config import load_news_event_config, match_candidate_to_news_config
+
+
+def _cost_pct(led: dict | None = None) -> float:
+    if led is not None and led.get("cost_pct") is not None:
+        try:
+            return float(led["cost_pct"])
+        except (TypeError, ValueError):
+            pass
+    return COST_PCT
+
+
+def _sync_news_event_ledger(led: dict) -> dict:
+    """Apply live YAML book-level settings onto the ledger without touching positions."""
+    cfg = load_news_event_config()
+    led["max_open"] = int(cfg.max_positions)
+    led["cost_pct"] = float(cfg.cost_per_fill_pct)
+    led["default_size"] = (
+        next((r.size_pct for r in cfg.rules if r.enabled), 0.05)
+    )
+    led["max_per_ticker"] = int(cfg.max_per_ticker)
+    led["max_gross_exposure_pct"] = float(cfg.max_gross_exposure_pct)
+    led["allow_shorts"] = bool(cfg.allow_shorts)
+    led["cooldown_minutes"] = cfg.cooldown_minutes
+    led["strategy_config_path"] = "config/strategies/news_event.yaml"
+    led["strategy_title"] = cfg.title
+    # Keep rules text in sync with enabled rule names (positions untouched).
+    enabled = [r.name for r in cfg.rules if r.enabled]
+    led["rules"] = (
+        f"Config-driven news_event ({led['strategy_config_path']}). "
+        f"Enabled rules: {', '.join(enabled) or '(none)'}. "
+        f"max_positions={cfg.max_positions}, cost={cfg.cost_per_fill_pct}."
+    )
+    return led
+
+
+def _ticker_on_cooldown(led: dict, book_id: str, ticker: str, cooldown_minutes: int | None) -> bool:
+    """True if ticker may not be re-entered yet.
+
+    cooldown_minutes is None → never re-enter once traded (today's behaviour).
+    cooldown_minutes == 0 → allow immediate re-entry after close.
+    cooldown_minutes > 0 → block after that many minutes from last close/decision.
+    """
+    open_now = set((led.get("positions") or {}).keys()) | {
+        p.get("ticker") for p in (led.get("pending") or []) if p.get("ticker")
+    }
+    if ticker in open_now:
+        return True
+    for d in load_decisions(book_id).get("decisions") or []:
+        if d.get("ticker") == ticker and d.get("side") in ("long", "short"):
+            if d.get("status") in ("new", "accepted", "pending", "filled"):
+                return True
+    closed = [t for t in (led.get("closed_trades") or []) if t.get("ticker") == ticker]
+    if not closed:
+        # Also block if any historical decision existed when cooldown is None
+        if cooldown_minutes is None:
+            for d in load_decisions(book_id).get("decisions") or []:
+                if d.get("ticker") == ticker and d.get("side") in ("long", "short"):
+                    return True
+        return False
+    if cooldown_minutes is None:
+        return True
+    if cooldown_minutes <= 0:
+        return False
+    last = closed[-1]
+    ts = last.get("closed_at") or last.get("exit_day")
+    if not ts:
+        return True
+    try:
+        if "T" in str(ts):
+            closed_at = datetime.fromisoformat(str(ts).replace("Z", "+00:00"))
+        else:
+            closed_at = datetime.fromisoformat(str(ts) + "T20:00:00+00:00")
+        age_min = (datetime.now(closed_at.tzinfo) - closed_at).total_seconds() / 60.0
+        return age_min < float(cooldown_minutes)
+    except Exception:
+        return True
+
+
+def _gross_exposure_pct(led: dict) -> float:
+    eq = float(led.get("equity_eur") or 0) or 1.0
+    gross = 0.0
+    for p in (led.get("positions") or {}).values():
+        gross += abs(float(p.get("size") or 0))
+    for p in (led.get("pending") or []):
+        gross += abs(float(p.get("size") or 0))
+    return gross
 
 
 def empty_ledger(book: BookSpec | None = None) -> dict:
@@ -224,63 +311,119 @@ def auto_decide_rule_book(book: BookSpec) -> int:
     cands = read_json(CANDIDATES, default={})
     spy_above = cands.get("spy_above_ma50")
     led = load_ledger(book.id)
+    news_cfg = None
+    if book.id == "news_event":
+        # Reload YAML every tick — parameter edits apply with no code change.
+        news_cfg = load_news_event_config()
+        led = _sync_news_event_ledger(led)
+        write_json(ledger_path(book.id), led)
+
     open_tickers = _open_tickers(led, book.id)
-    # One trade per ticker per book for this forward test (no re-entry after close).
-    seen = set(open_tickers)
-    for t in (led.get("closed_trades") or []):
-        if t.get("ticker"):
-            seen.add(t["ticker"])
-    for d in load_decisions(book.id).get("decisions") or []:
-        if d.get("ticker") and d.get("side") in ("long", "short"):
-            seen.add(d["ticker"])
     max_open = int(led.get("max_open") or book.max_open)
+    max_per = int(led.get("max_per_ticker") or 1)
+    max_gross = float(led.get("max_gross_exposure_pct") or 1.0)
+    cooldown = led.get("cooldown_minutes") if book.id == "news_event" else None
+    if book.id != "news_event":
+        # Legacy rule books: one trade per ticker for this forward test (no re-entry).
+        cooldown = None
+
+    # Per-ticker open count (positions + pending + live decisions)
+    ticker_open_n: dict[str, int] = {}
+    for t in (led.get("positions") or {}):
+        ticker_open_n[t] = ticker_open_n.get(t, 0) + 1
+    for p in led.get("pending") or []:
+        if p.get("ticker"):
+            ticker_open_n[p["ticker"]] = ticker_open_n.get(p["ticker"], 0) + 1
+
     dec = load_decisions(book.id)
     n = 0
+    planned_gross = _gross_exposure_pct(led)
     for c in cands.get("candidates") or []:
         ticker = c.get("ticker")
-        if not ticker or ticker in seen:
+        if not ticker:
             continue
-        if not matches(book, c, spy_above):
-            continue
-        if len(open_tickers) >= max_open:
-            break
-        if book.side == "dynamic":
-            side = (c.get("news_side") or c.get("suggested_side") or "").lower()
-            if side not in ("long", "short"):
+        if book.id == "news_event":
+            if _ticker_on_cooldown(led, book.id, ticker, cooldown):
+                continue
+            if ticker_open_n.get(ticker, 0) >= max_per:
+                continue
+            news_match = match_candidate_to_news_config(c, news_cfg)
+            if news_match is None:
+                continue
+            side = news_match.side
+            size = news_match.size_pct
+            hold_days = news_match.hold_days
+            stop_loss = news_match.stop_loss
+            take_profit = news_match.take_profit
+            trailing_stop = news_match.trailing_stop
+            prefer_open = news_match.prefer_open
+            delay_minutes = news_match.delay_minutes
+            exit_at_close = news_match.exit_at_close
+            rule_name = news_match.rule.name
+            if side == "short" and not (news_cfg and news_cfg.allow_shorts):
                 continue
         else:
-            side = book.side
+            if _ticker_on_cooldown(led, book.id, ticker, None):
+                continue
+            if not matches(book, c, spy_above):
+                continue
+            if book.side == "dynamic":
+                side = (c.get("news_side") or c.get("suggested_side") or "").lower()
+                if side not in ("long", "short"):
+                    continue
+            else:
+                side = book.side
+            size = book.size
+            hold_days = book.hold_days
+            stop_loss = book.stop_loss
+            take_profit = book.take_profit
+            trailing_stop = None
+            prefer_open = bool(getattr(book, "prefer_open", True))
+            delay_minutes = 0
+            exit_at_close = False
+            rule_name = book.id
+
+        if len(open_tickers) >= max_open:
+            break
+        if book.id == "news_event" and planned_gross + abs(size) > max_gross + 1e-9:
+            continue
+
         reason = (
-            f"[{book.id}] event={c.get('news_event_type') or c.get('rule_tags')} "
+            f"[{book.id}/{rule_name}] event={c.get('news_event_type') or c.get('rule_tags')} "
             f"surprise={c.get('surprise_pct')} gap={c.get('gap_pct')} "
             f"guidance={c.get('guidance')} headline={(c.get('headline') or '')[:80]} "
-            f"→ {side} {book.hold_days}d"
+            f"→ {side} {hold_days}d"
         )
         rec = {
             "id": f"{book.id}-{ticker}-{utc_now_iso()}-{uuid.uuid4().hex[:6]}",
             "book_id": book.id,
             "ticker": ticker,
             "side": side,
-            "size": book.size,
-            "hold": book.hold_days,
+            "size": size,
+            "hold": hold_days,
             "reason": reason,
             "confidence": 1.0,
-            "stop_loss": book.stop_loss,
-            "take_profit": book.take_profit,
-            "rule_tags": [book.id] + list(c.get("rule_tags") or []),
+            "stop_loss": stop_loss,
+            "take_profit": take_profit,
+            "trailing_stop": trailing_stop,
+            "exit_at_close": exit_at_close,
+            "delay_minutes": delay_minutes,
+            "rule_name": rule_name,
+            "rule_tags": [book.id, rule_name] + list(c.get("rule_tags") or []),
             "surprise_pct": c.get("surprise_pct"),
             "gap_pct": c.get("gap_pct"),
             "guidance": c.get("guidance"),
             "news_event_type": c.get("news_event_type"),
             "news_id": c.get("news_id"),
             "agent": f"rule:{book.id}",
-            "prefer_open": bool(getattr(book, "prefer_open", True)),
+            "prefer_open": prefer_open,
             "decided_at": utc_now_iso(),
             "status": "new",
         }
         dec["decisions"].append(rec)
         open_tickers.add(ticker)
-        seen.add(ticker)
+        ticker_open_n[ticker] = ticker_open_n.get(ticker, 0) + 1
+        planned_gross += abs(size)
         n += 1
     if n:
         dec["updated_at"] = utc_now_iso()
@@ -333,6 +476,10 @@ def ingest_decisions(led: dict, book_id: str) -> int:
             "hold_days": int(d.get("hold") or d.get("hold_days") or book.hold_days),
             "stop_loss": d.get("stop_loss", book.stop_loss),
             "take_profit": d.get("take_profit", book.take_profit),
+            "trailing_stop": d.get("trailing_stop"),
+            "exit_at_close": bool(d.get("exit_at_close") or False),
+            "delay_minutes": int(d.get("delay_minutes") or 0),
+            "rule_name": d.get("rule_name"),
             "reason": d.get("reason") or "",
             "confidence": d.get("confidence"),
             "rule_tags": d.get("rule_tags") or [],
@@ -357,10 +504,24 @@ def fill_pending(led: dict, marks: dict[str, float], fx: float, book_id: str) ->
     """Fill pending at next regular open, or current price if market is open at decision time."""
     session = market_session()
     today = now_et().date()
+    cost_pct = _cost_pct(led)
     fills = []
     still = []
     for order in led.get("pending") or []:
         ticker = order["ticker"]
+        # Optional delay_minutes entry (config: entry: delay_minutes:N)
+        delay = int(order.get("delay_minutes") or 0)
+        if delay > 0 and order.get("decided_at"):
+            try:
+                decided_at = datetime.fromisoformat(
+                    str(order["decided_at"]).replace("Z", "+00:00")
+                )
+                age_min = (datetime.now(decided_at.tzinfo) - decided_at).total_seconds() / 60.0
+                if age_min < delay:
+                    still.append(order)
+                    continue
+            except Exception:
+                pass
         bar = daily_bar(ticker, today)
         px = None
         fill_note = ""
@@ -405,7 +566,7 @@ def fill_pending(led: dict, marks: dict[str, float], fx: float, book_id: str) ->
             continue
         notional_usd = notional_eur * fx
         shares = notional_usd / px
-        cost = notional_usd * COST_PCT
+        cost = notional_usd * cost_pct
         cost_eur = cost / fx
         side = order["side"]
         ts = utc_now_iso()
@@ -415,7 +576,12 @@ def fill_pending(led: dict, marks: dict[str, float], fx: float, book_id: str) ->
         else:
             led["cash_eur"] = float(led["cash_eur"]) + notional_eur - cost_eur
 
-        exit_day = add_trading_days(today, int(order["hold_days"]))
+        hold_days = int(order["hold_days"])
+        if order.get("exit_at_close"):
+            exit_day = today  # same-session / same-day close
+            hold_days = 0
+        else:
+            exit_day = add_trading_days(today, hold_days)
         pos = {
             "ticker": ticker,
             "side": side,
@@ -428,9 +594,13 @@ def fill_pending(led: dict, marks: dict[str, float], fx: float, book_id: str) ->
             "entry_day": today.isoformat(),
             "entry_time": ts,
             "exit_day": exit_day.isoformat(),
-            "hold_days": int(order["hold_days"]),
+            "hold_days": hold_days,
             "stop_loss": order.get("stop_loss"),
             "take_profit": order.get("take_profit"),
+            "trailing_stop": order.get("trailing_stop"),
+            "exit_at_close": bool(order.get("exit_at_close") or False),
+            "trail_extreme": round(px, 6),  # high-water (long) / low-water (short)
+            "rule_name": order.get("rule_name"),
             "reason": order.get("reason"),
             "confidence": order.get("confidence"),
             "rule_tags": order.get("rule_tags") or [],
@@ -472,9 +642,10 @@ def _update_decision_status(book_id: str, did: str | None, status: str, fill: di
 
 
 def check_exits(led: dict, fx: float, book_id: str) -> list[dict]:
-    """Time exits at close after hold days; optional stop/target on daily high/low."""
+    """Time exits at close after hold days; optional stop/target/trail on daily high/low."""
     today = now_et().date()
     session = market_session()
+    cost_pct = _cost_pct(led)
     closed = []
     for ticker, p in list((led.get("positions") or {}).items()):
         bar = daily_bar(ticker, today)
@@ -488,6 +659,20 @@ def check_exits(led: dict, fx: float, book_id: str) -> list[dict]:
         exit_px = None
         exit_why = None
 
+        # Update trailing extreme
+        trail = p.get("trailing_stop")
+        extreme = float(p.get("trail_extreme") or entry)
+        if side == "long":
+            hi = px_high if px_high is not None else last
+            if hi is not None and float(hi) > extreme:
+                extreme = float(hi)
+                p["trail_extreme"] = extreme
+        else:
+            lo = px_low if px_low is not None else last
+            if lo is not None and float(lo) < extreme:
+                extreme = float(lo)
+                p["trail_extreme"] = extreme
+
         sl = p.get("stop_loss")
         tp = p.get("take_profit")
         if side == "long":
@@ -497,6 +682,11 @@ def check_exits(led: dict, fx: float, book_id: str) -> list[dict]:
             elif tp is not None and px_high is not None and px_high >= entry * (1 + float(tp)):
                 exit_px = entry * (1 + float(tp))
                 exit_why = "take_profit"
+            elif trail is not None and px_low is not None and extreme > 0:
+                stop_lvl = extreme * (1 - float(trail))
+                if px_low <= stop_lvl:
+                    exit_px = stop_lvl
+                    exit_why = "trailing_stop"
         else:
             if sl is not None and px_high is not None and px_high >= entry * (1 + float(sl)):
                 exit_px = entry * (1 + float(sl))
@@ -504,12 +694,17 @@ def check_exits(led: dict, fx: float, book_id: str) -> list[dict]:
             elif tp is not None and px_low is not None and px_low <= entry * (1 - float(tp)):
                 exit_px = entry * (1 - float(tp))
                 exit_why = "take_profit"
+            elif trail is not None and px_high is not None and extreme > 0:
+                stop_lvl = extreme * (1 + float(trail))
+                if px_high >= stop_lvl:
+                    exit_px = stop_lvl
+                    exit_why = "trailing_stop"
 
         exit_day = date.fromisoformat(p["exit_day"])
         if exit_px is None and today >= exit_day:
             if session in ("after", "closed") or (session == "open" and now_et().hour >= 15):
                 exit_px = px_close or last
-                exit_why = "time_exit"
+                exit_why = "exit_at_close" if p.get("exit_at_close") else "time_exit"
             elif session == "open" and today > exit_day:
                 exit_px = last
                 exit_why = "time_exit"
@@ -519,18 +714,18 @@ def check_exits(led: dict, fx: float, book_id: str) -> list[dict]:
 
         shares = abs(float(p["shares"]))
         notional_usd = shares * float(exit_px)
-        cost_usd = notional_usd * COST_PCT
+        cost_usd = notional_usd * cost_pct
         cost_eur = cost_usd / fx
         notional_eur = notional_usd / fx
 
         if side == "long":
             led["cash_eur"] = float(led["cash_eur"]) + notional_eur - cost_eur
             pnl_eur = (float(exit_px) - entry) / fx * shares - float(p.get("entry_cost_eur") or 0) - cost_eur
-            pnl_pct = (float(exit_px) / entry - 1) - 2 * COST_PCT
+            pnl_pct = (float(exit_px) / entry - 1) - 2 * cost_pct
         else:
             led["cash_eur"] = float(led["cash_eur"]) - notional_eur - cost_eur
             pnl_eur = (entry - float(exit_px)) / fx * shares - float(p.get("entry_cost_eur") or 0) - cost_eur
-            pnl_pct = (entry / float(exit_px) - 1) - 2 * COST_PCT
+            pnl_pct = (entry / float(exit_px) - 1) - 2 * cost_pct
 
         trade = {
             "ticker": ticker,
@@ -591,6 +786,9 @@ def run_book(book_id: str, apply: bool = True) -> dict:
     if book.kind == "rule" and apply:
         auto_n = auto_decide_rule_book(book)
     led = load_ledger(book_id)
+    if book_id == "news_event":
+        # Even if no new decisions, refresh book-level knobs from YAML.
+        led = _sync_news_event_ledger(led)
     ingested = ingest_decisions(led, book_id) if apply else 0
     led, marks, fx = mark_book(led)
     fills = fill_pending(led, marks, fx, book_id) if apply else []

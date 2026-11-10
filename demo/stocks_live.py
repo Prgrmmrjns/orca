@@ -68,7 +68,20 @@ def _spy_return(led: dict, start: float) -> float | None:
     return round((float(spy_now) / start - 1) * 100, 2)
 
 
-def _book_summary(book_id: str, led: dict, decs: dict) -> dict:
+def _news_event_config() -> dict | None:
+    """Active news_event YAML (for /api/stocks/books). Soft-fail if loader unavailable."""
+    try:
+        repo = Path(__file__).resolve().parents[1]
+        if str(repo) not in __import__("sys").path:
+            __import__("sys").path.insert(0, str(repo))
+        from stocks.strategy_config import load_news_event_config
+
+        return load_news_event_config().to_public_dict()
+    except Exception:
+        return None
+
+
+def _book_summary(book_id: str, led: dict, decs: dict, strategy_config: dict | None = None) -> dict:
     start = float(led.get("start_capital_eur") or 1000)
     eq = float(led.get("equity_eur") or start)
     closed = led.get("closed_trades") or []
@@ -91,7 +104,7 @@ def _book_summary(book_id: str, led: dict, decs: dict) -> dict:
     ret = round((eq / start - 1) * 100, 2)
     spy_ret = _spy_return(led, start)
     vs_spy = None if spy_ret is None else round(ret - spy_ret, 2)
-    return {
+    out = {
         "id": book_id,
         "title": led.get("strategy_title") or BOOK_TITLES.get(book_id, book_id),
         "kind": led.get("kind") or ("agent" if book_id == "agent" else "rule"),
@@ -118,6 +131,10 @@ def _book_summary(book_id: str, led: dict, decs: dict) -> dict:
         "last_run": led.get("last_run"),
         "last_reason": led.get("last_reason"),
     }
+    if book_id == "news_event" and strategy_config is not None:
+        out["strategy_config"] = strategy_config
+        out["config_path"] = strategy_config.get("path") or "config/strategies/news_event.yaml"
+    return out
 
 
 def _discover_books(state: Path) -> list[str]:
@@ -141,6 +158,7 @@ def snapshot() -> dict:
     cands = _load(state / "candidates.json", {})
     news = _load(state / "news.json", {})
     book_ids = _discover_books(state)
+    news_cfg = _news_event_config()
     books = []
     for bid in book_ids:
         led_path = state / "books" / bid / "ledger.json"
@@ -165,7 +183,14 @@ def snapshot() -> dict:
                 "cost_pct": 0.005,
             }
         decs = _load(dec_path, {"decisions": []})
-        books.append(_book_summary(bid, led, decs))
+        books.append(
+            _book_summary(
+                bid,
+                led,
+                decs,
+                strategy_config=news_cfg if bid == "news_event" else None,
+            )
+        )
 
     # Agent book shorthand for older clients
     agent = next((b for b in books if b["id"] == "agent"), books[0] if books else {})
@@ -257,6 +282,7 @@ def snapshot() -> dict:
             "note": news.get("note"),
         },
         "books": books,
+        "news_event_config": news_cfg,
         "book": {  # backward-compat single-book shape = agent
             "equity_eur": agent.get("equity_eur"),
             "cash_eur": agent.get("cash_eur"),
