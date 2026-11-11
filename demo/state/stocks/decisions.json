@@ -524,8 +524,53 @@
       "agent": "chewbacca",
       "decided_at": "2026-11-10T21:50:20Z",
       "status": "skipped"
+    },
+    {
+      "id": "PDCC-2026-11-11T13:50:21Z-d7005b",
+      "book_id": "agent",
+      "ticker": "PDCC",
+      "side": "skip",
+      "size": 0.0,
+      "hold": 0,
+      "reason": "Earnings schedule only (results Nov 16 call); no surprise/gap/guidance \u2192 skip",
+      "confidence": 0.9,
+      "stop_loss": null,
+      "take_profit": null,
+      "rule_tags": [
+        "news_event",
+        "earnings"
+      ],
+      "surprise_pct": null,
+      "gap_pct": null,
+      "guidance": "none",
+      "agent": "chewbacca",
+      "decided_at": "2026-11-11T13:50:21Z",
+      "status": "new"
+    },
+    {
+      "id": "BRRKU-2026-11-11T13:50:22Z-0c4318",
+      "book_id": "agent",
+      "ticker": "BRRKU",
+      "side": "skip",
+      "size": 0.0,
+      "hold": 0,
+      "reason": "SPAC unit separation (not dilution); BRRKU unit illiquid/non-actionable short \u2192 skip",
+      "confidence": 0.9,
+      "stop_loss": null,
+      "take_profit": null,
+      "rule_tags": [
+        "news_event",
+        "dilution",
+        "news_short"
+      ],
+      "surprise_pct": null,
+      "gap_pct": null,
+      "guidance": "none",
+      "agent": "chewbacca",
+      "decided_at": "2026-11-11T13:50:22Z",
+      "status": "new"
     }
   ],
-  "updated_at": "2026-11-10T21:50:20Z",
+  "updated_at": "2026-11-11T13:50:22Z",
   "book_id": "agent"
 }
