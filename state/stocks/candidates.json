@@ -5,8 +5,8 @@
   "forward_test_start": "2026-11-10",
   "spy_above_ma50": false,
   "n_calendar": 646,
-  "n_candidates": 652,
-  "n_tagged": 21,
+  "n_candidates": 653,
+  "n_tagged": 22,
   "errors": [],
   "rules": {
     "agent": "Discretionary agentic book. Cursor agent decides via stocks.decide from shared candidates. Baseline \u2014 not auto-traded by the engine.",
@@ -513,7 +513,7 @@
       "suggested_side": null,
       "suggested_hold": null,
       "spy_above_ma50": null,
-      "scanned_at": "2026-11-11T09:36:56Z"
+      "scanned_at": "2026-11-11T17:29:20Z"
     },
     {
       "ticker": "PDCC",
@@ -543,7 +543,7 @@
       "suggested_side": null,
       "suggested_hold": null,
       "spy_above_ma50": null,
-      "scanned_at": "2026-11-11T09:36:56Z"
+      "scanned_at": "2026-11-11T17:29:20Z"
     },
     {
       "ticker": "PDCC",
@@ -573,7 +573,7 @@
       "suggested_side": null,
       "suggested_hold": null,
       "spy_above_ma50": null,
-      "scanned_at": "2026-11-11T09:36:56Z"
+      "scanned_at": "2026-11-11T17:29:20Z"
     },
     {
       "ticker": "BRRKU",
@@ -604,7 +604,7 @@
       "suggested_side": "short",
       "suggested_hold": 2,
       "spy_above_ma50": null,
-      "scanned_at": "2026-11-11T09:36:56Z"
+      "scanned_at": "2026-11-11T17:29:20Z"
     },
     {
       "ticker": "BRRKU",
@@ -635,7 +635,37 @@
       "suggested_side": "short",
       "suggested_hold": 2,
       "spy_above_ma50": null,
-      "scanned_at": "2026-11-11T09:36:56Z"
+      "scanned_at": "2026-11-11T17:29:20Z"
+    },
+    {
+      "ticker": "DE",
+      "name": "DE",
+      "source": "news",
+      "cal_date": "2026-11-11",
+      "report_date": "2026-11-11",
+      "timing": "news",
+      "surprise_pct": null,
+      "gap_pct": null,
+      "guidance": "none",
+      "headline": "Deere to Announce Fourth Quarter 2026 Financial Results",
+      "excerpt": "MOLINE, Ill., Nov. 11, 2026 /PRNewswire/ -- Deere & Company (NYSE: DE) will hold its fourth quarter 2026 earnings call on Wednesday, 25 November, beginning at 9:00 a.m. central time. During the call, the company's financial and operating performance will be discussed with analysts,...",
+      "filing_url": "",
+      "exhibit_url": "https://www.prnewswire.com/news-releases/deere-to-announce-fourth-quarter-2026-financial-results-302935106.html",
+      "news_id": "f50ffa45c6a69db1",
+      "news_source": "prnewswire_financial",
+      "news_event_type": "earnings",
+      "news_direction": "neutral",
+      "news_side": null,
+      "news_actionable": false,
+      "news_published_at": "2026-11-11T16:00:00Z",
+      "rule_tags": [
+        "news_event",
+        "earnings"
+      ],
+      "suggested_side": null,
+      "suggested_hold": null,
+      "spy_above_ma50": null,
+      "scanned_at": "2026-11-11T17:29:20Z"
     },
     {
       "ticker": "ALTI",
@@ -17675,6 +17705,6 @@
       "suggested_hold": null
     }
   ],
-  "news_merged_at": "2026-11-11T09:36:56Z",
+  "news_merged_at": "2026-11-11T17:29:20Z",
   "scan_note": "calendar fetch failed; retained prior candidates. errors=2026-11-10: nasdaq calendar failed for 2026-11-10; 2026-11-11: nasdaq calendar failed for 2026-11-11; 2026-11-12: nasdaq calendar failed for 2026-11-12"
 }
