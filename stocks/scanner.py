@@ -15,9 +15,9 @@ if str(ROOT) not in sys.path:
 from stocks import START_DATE
 from stocks.books import book_rules_public
 from stocks.market import (
+    earnings_calendar,
     fetch_guidance,
     load_cik_map,
-    nasdaq_earnings,
     now_et,
     price_snapshot,
     spy_above_ma50,
@@ -49,17 +49,20 @@ def scan(days_back: int = 1, days_forward: int = 1, max_tickers: int | None = No
 
     calendar_rows: list[dict] = []
     calendar_errors: list[str] = []
+    calendar_sources: dict[str, str] = {}
     for i in range(-days_back, days_forward + 1):
         d = today + timedelta(days=i)
         if d.weekday() >= 5:
             continue
         try:
-            rows = nasdaq_earnings(d)
+            rows = earnings_calendar(d)
             calendar_rows.extend(rows)
-            print(f"nasdaq {d}: {len(rows)} rows", flush=True)
+            src = (rows[0].get("source") if rows else "unknown") or "unknown"
+            calendar_sources[d.isoformat()] = src
+            print(f"calendar {d}: {len(rows)} rows source={src}", flush=True)
         except Exception as e:
             calendar_errors.append(f"{d}: {e}")
-            print(f"nasdaq calendar {d}: {e}", flush=True)
+            print(f"ERROR calendar {d}: {e}", flush=True)
 
     prev_file = read_json(CANDIDATES, default={})
     prev_by = {c["ticker"]: c for c in (prev_file.get("candidates") or []) if c.get("ticker")}
@@ -72,21 +75,22 @@ def scan(days_back: int = 1, days_forward: int = 1, max_tickers: int | None = No
         if prev is None or row["cal_date"] == today.isoformat():
             by_ticker[t] = row
 
-    # If every calendar fetch failed, keep prior candidates (do not wipe the book).
+    # If every calendar fetch failed, keep prior candidates but surface a hard error.
     if not by_ticker and prev_by:
-        print(
-            f"nasdaq empty ({len(calendar_errors)} errors) — retaining "
-            f"{len(prev_by)} prior candidates",
-            flush=True,
+        err_msg = (
+            "ERROR: earnings calendar all sources failed for every day; "
+            f"retaining {len(prev_by)} prior candidates (FROZEN). errors="
+            + "; ".join(calendar_errors[:10])
         )
+        print(err_msg, flush=True)
         retained = dict(prev_file)
         retained["as_of"] = utc_now_iso()
         retained["as_of_et"] = now_et().strftime("%Y-%m-%d %H:%M ET")
         retained["spy_above_ma50"] = spy_above
-        retained["scan_note"] = (
-            "calendar fetch failed; retained prior candidates. errors="
-            + "; ".join(calendar_errors[:10])
-        )
+        retained["calendar_ok"] = False
+        retained["calendar_sources"] = calendar_sources
+        retained["calendar_error"] = err_msg
+        retained["scan_note"] = err_msg
         write_json(CANDIDATES, retained)
         return retained
 
@@ -255,6 +259,9 @@ def scan(days_back: int = 1, days_forward: int = 1, max_tickers: int | None = No
         "as_of_et": now_et().strftime("%Y-%m-%d %H:%M ET"),
         "forward_test_start": START_DATE,
         "spy_above_ma50": spy_above,
+        "calendar_ok": True,
+        "calendar_sources": calendar_sources,
+        "calendar_error": "; ".join(calendar_errors[:10]) if calendar_errors else "",
         "n_calendar": len(calendar_rows),
         "n_candidates": len(candidates),
         "n_tagged": sum(1 for c in candidates if c.get("rule_tags")),
