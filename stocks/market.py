@@ -17,11 +17,24 @@ from stocks import EDGAR_UA
 from stocks.paths import CACHE, ensure_dirs
 
 ET = ZoneInfo("America/New_York")
+# Real browser UA required — custom bot UAs are silently timed out by api.nasdaq.com
+# (observed from GitHub Actions / datacenter IPs since 2026-11-11).
+BROWSER_UA = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) "
+    "Chrome/120.0.0.0 Safari/537.36"
+)
 NASDAQ_HEADERS = {
-    "User-Agent": "Mozilla/5.0 (compatible; OrcaPaper/1.0; +https://github.com/Prgrmmrjns/orca)",
+    "User-Agent": BROWSER_UA,
     "Accept": "application/json, text/plain, */*",
+    "Accept-Language": "en-US,en;q=0.9",
     "Origin": "https://www.nasdaq.com",
     "Referer": "https://www.nasdaq.com/",
+}
+YAHOO_HEADERS = {
+    "User-Agent": BROWSER_UA,
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
 }
 EDGAR_HEADERS = {
     "User-Agent": EDGAR_UA,
@@ -182,41 +195,43 @@ def spy_history_eur(start: str = "2026-11-10") -> list[dict]:
         return []
 
 
+def _cache_load(path: Path) -> dict | list | None:
+    if path.exists() and path.stat().st_size > 50:
+        try:
+            return json.loads(path.read_text())
+        except Exception:
+            return None
+    return None
+
+
+def _cache_save(path: Path, payload) -> None:
+    try:
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(json.dumps(payload))
+    except Exception:
+        pass
+
+
 def _nasdaq_json(day: date) -> dict | None:
-    """Fetch Nasdaq earnings calendar JSON; curl + disk cache fallbacks."""
+    """Fetch Nasdaq earnings calendar JSON; curl + requests + disk cache."""
     import subprocess
 
     ensure_dirs()
     cache_path = CACHE / "nasdaq" / f"{day.isoformat()}.json"
-    cache_path.parent.mkdir(parents=True, exist_ok=True)
     url = f"https://api.nasdaq.com/api/calendar/earnings?date={day.isoformat()}"
-
-    def _save(js: dict) -> dict:
-        try:
-            cache_path.write_text(json.dumps(js))
-        except Exception:
-            pass
-        return js
-
-    def _load_cache() -> dict | None:
-        if cache_path.exists() and cache_path.stat().st_size > 50:
-            try:
-                return json.loads(cache_path.read_text())
-            except Exception:
-                return None
-        return None
+    errors: list[str] = []
 
     # Prefer curl (HTTP/1.1) — HTTP/2 often aborts with INTERNAL_ERROR from this host.
-    # Keep timeouts short so we fall back to disk cache quickly in flaky networks.
-    for attempt in range(2):
+    for attempt in range(3):
         try:
             proc = subprocess.run(
                 [
-                    "curl", "-sS", "-m", "20", "--http1.1", "--compressed",
+                    "curl", "-sS", "-m", "25", "--http1.1", "--compressed",
                     "-A", NASDAQ_HEADERS["User-Agent"],
                     "-H", f"Origin: {NASDAQ_HEADERS['Origin']}",
                     "-H", f"Referer: {NASDAQ_HEADERS['Referer']}",
                     "-H", f"Accept: {NASDAQ_HEADERS['Accept']}",
+                    "-H", f"Accept-Language: {NASDAQ_HEADERS['Accept-Language']}",
                     url,
                 ],
                 capture_output=True,
@@ -224,32 +239,40 @@ def _nasdaq_json(day: date) -> dict | None:
                 check=False,
             )
             if proc.returncode == 0 and proc.stdout and len(proc.stdout) > 50:
-                return _save(json.loads(proc.stdout))
-        except Exception:
-            pass
-        time.sleep(0.5 + attempt)
+                js = json.loads(proc.stdout)
+                _cache_save(cache_path, js)
+                return js
+            err = (proc.stderr or "").strip() or f"rc={proc.returncode} empty body"
+            errors.append(f"curl[{attempt}]: {err[:160]}")
+        except Exception as e:
+            errors.append(f"curl[{attempt}]: {type(e).__name__}: {e}")
+        time.sleep(0.8 * (attempt + 1))
 
     def _via_requests():
-        r = requests.get(url, headers=NASDAQ_HEADERS, timeout=12)
+        r = requests.get(url, headers=NASDAQ_HEADERS, timeout=20)
         if r.status_code == 429:
             raise RuntimeError("rate limited")
         r.raise_for_status()
         return r.json()
 
-    js = retry(_via_requests, attempts=2, delay=1.0, default=None)
-    if js:
-        return _save(js)
+    try:
+        js = retry(_via_requests, attempts=3, delay=1.2)
+        if js:
+            _cache_save(cache_path, js)
+            return js
+    except Exception as e:
+        errors.append(f"requests: {type(e).__name__}: {e}")
 
-    cached = _load_cache()
-    if cached:
+    cached = _cache_load(cache_path)
+    if isinstance(cached, dict):
+        print(f"nasdaq {day}: using disk cache after fetch errors: {'; '.join(errors[:4])}", flush=True)
         return cached
+    if errors:
+        print(f"nasdaq {day}: fetch failed: {'; '.join(errors[:4])}", flush=True)
     return None
 
 
-def nasdaq_earnings(day: date) -> list[dict]:
-    js = _nasdaq_json(day)
-    if not js:
-        raise RuntimeError(f"nasdaq calendar failed for {day}")
+def _parse_nasdaq_rows(js: dict, day: date) -> list[dict]:
     recs = ((js.get("data") or {}).get("rows")) or []
     out = []
     for rec in recs:
@@ -271,6 +294,278 @@ def nasdaq_earnings(day: date) -> list[dict]:
             }
         )
     return out
+
+
+def _yahoo_earnings_page(day: date, offset: int = 0, size: int = 25) -> tuple[int | None, list[dict]]:
+    """Parse one Yahoo Finance earnings calendar HTML page."""
+    url = (
+        f"https://finance.yahoo.com/calendar/earnings?day={day.isoformat()}"
+        f"&offset={offset}&size={size}"
+    )
+    r = requests.get(url, headers=YAHOO_HEADERS, timeout=25)
+    r.raise_for_status()
+    scripts = re.findall(
+        r'<script[^>]*type="application/json"[^>]*>(.*?)</script>',
+        r.text,
+        re.S,
+    )
+    for sc in scripts:
+        if "SP_EARNINGS" not in sc and "epsestimate" not in sc:
+            continue
+        try:
+            outer = json.loads(sc)
+        except Exception:
+            continue
+        body = outer.get("body", outer)
+        if isinstance(body, str):
+            try:
+                body = json.loads(body)
+            except Exception:
+                continue
+        try:
+            res = body["finance"]["result"][0]
+            doc = res["documents"][0]
+            cols = [c["id"] for c in doc["columns"]]
+            rows = [dict(zip(cols, row)) for row in (doc.get("rows") or [])]
+            total = res.get("total")
+            return (int(total) if total is not None else None), rows
+        except Exception:
+            continue
+    return None, []
+
+
+def yahoo_earnings(day: date) -> list[dict]:
+    """Yahoo Finance earnings calendar (HTML embed) — free Nasdaq fallback."""
+    ensure_dirs()
+    cache_path = CACHE / "yahoo_earnings" / f"{day.isoformat()}.json"
+    cached = _cache_load(cache_path)
+    if isinstance(cached, list) and cached:
+        out = []
+        for rec in cached:
+            row = dict(rec)
+            row["source"] = "yahoo"
+            out.append(row)
+        return out
+
+    all_raw: list[dict] = []
+    total = None
+    page_size = 25
+    errors: list[str] = []
+    for offset in range(0, 500, page_size):
+        try:
+            tot, rows = retry(
+                lambda off=offset: _yahoo_earnings_page(day, offset=off, size=page_size),
+                attempts=2,
+                delay=1.0,
+            )
+        except Exception as e:
+            errors.append(f"offset={offset}: {type(e).__name__}: {e}")
+            break
+        if tot is not None:
+            total = tot
+        if not rows:
+            break
+        all_raw.extend(rows)
+        if total is not None and len(all_raw) >= total:
+            break
+        if len(rows) < page_size:
+            break
+        time.sleep(0.35)
+
+    if not all_raw:
+        raise RuntimeError(
+            f"yahoo calendar failed for {day}"
+            + (f" ({'; '.join(errors[:3])})" if errors else "")
+        )
+
+    out: list[dict] = []
+    seen: set[str] = set()
+    for rec in all_raw:
+        ticker = str(rec.get("ticker") or "").replace(".", "-").upper()
+        if not ticker or ticker in seen:
+            continue
+        seen.add(ticker)
+        time_code = str(rec.get("startdatetimetype") or "").upper()
+        time_label = ""
+        if time_code == "BMO":
+            time_label = "time-pre-market"
+        elif time_code == "AMC":
+            time_label = "time-after-hours"
+        out.append(
+            {
+                "cal_date": day.isoformat(),
+                "ticker": ticker,
+                "name": rec.get("companyshortname") or ticker,
+                "time": time_label,
+                "eps_reported": parse_num(rec.get("epsactual")),
+                "eps_estimate": parse_num(rec.get("epsestimate")),
+                "surprise_pct": parse_num(rec.get("epssurprisepct")),
+                "fiscal_quarter_ending": None,
+                "market_cap": rec.get("intradaymarketcap"),
+                "source": "yahoo",
+            }
+        )
+    _cache_save(cache_path, out)
+    return out
+
+
+def edgar_8k_earnings(day: date) -> list[dict]:
+    """Fallback: recent SEC EDGAR Atom 8-K Item 2.02 filings (results releases).
+
+    Only covers filings visible on the current feed (not a full calendar), and only
+    includes rows we can map to a ticker via the CIK map. Used when Nasdaq + Yahoo fail.
+    """
+    import feedparser
+
+    ensure_dirs()
+    atom = (
+        "https://www.sec.gov/cgi-bin/browse-edgar"
+        "?action=getcurrent&type=8-K&company=&dateb=&owner=include&count=100&output=atom"
+    )
+    text = None
+    try:
+        r = requests.get(
+            atom,
+            headers={"User-Agent": EDGAR_UA, "Accept": "application/atom+xml"},
+            timeout=25,
+        )
+        if r.status_code == 200 and "<feed" in r.text[:800].lower():
+            text = r.text
+    except Exception:
+        text = None
+    if not text:
+        import subprocess
+
+        try:
+            proc = subprocess.run(
+                [
+                    "curl", "-sS", "-m", "25", "--http1.1", "--compressed",
+                    "-A", EDGAR_UA,
+                    "-H", "Accept: application/atom+xml",
+                    atom,
+                ],
+                capture_output=True,
+                text=True,
+                check=False,
+            )
+            if proc.returncode == 0 and proc.stdout and "<feed" in proc.stdout[:800].lower():
+                text = proc.stdout
+        except Exception:
+            text = None
+    if not text:
+        raise RuntimeError(f"edgar 8-K atom failed for {day}")
+
+    cik_map = load_cik_map()
+    cik_to_ticker = {v: k for k, v in cik_map.items()}
+    target = day.isoformat()
+    out: list[dict] = []
+    seen: set[str] = set()
+    parsed = feedparser.parse(text)
+    for e in parsed.entries[:100]:
+        title = (e.get("title") or "").strip()
+        summary = re.sub(r"<[^>]+>", " ", e.get("summary") or "")
+        summary = re.sub(r"\s+", " ", summary).strip()
+        if not re.search(r"Item\s*2\.02", summary, re.I) and not re.search(
+            r"Item\s*2\.02", title, re.I
+        ):
+            continue
+        # Prefer updated/published date matching target day (UTC date).
+        when = e.get("updated") or e.get("published") or ""
+        day_hit = target in when or target in summary
+        if not day_hit:
+            # Atom "current" feed is recent; accept if filed near target (±1 calendar day).
+            m = re.search(r"(\d{4}-\d{2}-\d{2})", when)
+            if not m:
+                continue
+            try:
+                fd = date.fromisoformat(m.group(1))
+            except ValueError:
+                continue
+            if abs((fd - day).days) > 1:
+                continue
+        cik = None
+        m = re.search(r"\((\d{10})\)", title)
+        if m:
+            cik = m.group(1)
+        ticker = cik_to_ticker.get(cik) if cik else None
+        if not ticker:
+            continue
+        if ticker in seen:
+            continue
+        seen.add(ticker)
+        company = ""
+        m = re.search(r"8-K\s*[-–]\s*(.+?)(?:\s*\(\d{10}\))", title, re.I)
+        if m:
+            company = m.group(1).strip()
+        out.append(
+            {
+                "cal_date": day.isoformat(),
+                "ticker": ticker,
+                "name": company or ticker,
+                "time": "",
+                "eps_reported": None,
+                "eps_estimate": None,
+                "surprise_pct": None,
+                "fiscal_quarter_ending": None,
+                "market_cap": None,
+                "source": "edgar_8k_2.02",
+                "filing_url": (e.get("link") or "").strip(),
+            }
+        )
+    if not out:
+        raise RuntimeError(f"edgar 8-K Item 2.02 empty for {day}")
+    return out
+
+
+def nasdaq_earnings(day: date) -> list[dict]:
+    """Nasdaq-only calendar rows (raises if Nasdaq + cache miss)."""
+    js = _nasdaq_json(day)
+    if not js:
+        raise RuntimeError(f"nasdaq calendar failed for {day}")
+    return _parse_nasdaq_rows(js, day)
+
+
+def earnings_calendar(day: date) -> list[dict]:
+    """Earnings calendar with Nasdaq → Yahoo → EDGAR 8-K Item 2.02 fallbacks.
+
+    Logs which source produced rows. Raises RuntimeError if every source fails.
+    """
+    errors: list[str] = []
+
+    try:
+        rows = nasdaq_earnings(day)
+        if rows:
+            print(f"earnings calendar {day}: source=nasdaq rows={len(rows)}", flush=True)
+            return rows
+        errors.append("nasdaq: empty rows")
+    except Exception as e:
+        errors.append(f"nasdaq: {e}")
+
+    try:
+        rows = yahoo_earnings(day)
+        if rows:
+            print(f"earnings calendar {day}: source=yahoo rows={len(rows)}", flush=True)
+            return rows
+        errors.append("yahoo: empty rows")
+    except Exception as e:
+        errors.append(f"yahoo: {e}")
+
+    try:
+        rows = edgar_8k_earnings(day)
+        if rows:
+            print(
+                f"earnings calendar {day}: source=edgar_8k_2.02 rows={len(rows)}",
+                flush=True,
+            )
+            return rows
+        errors.append("edgar_8k_2.02: empty rows")
+    except Exception as e:
+        errors.append(f"edgar_8k_2.02: {e}")
+
+    raise RuntimeError(
+        f"earnings calendar failed for {day} — all sources exhausted: "
+        + "; ".join(errors)
+    )
 
 
 def yf_earnings_surprise(ticker: str) -> dict[str, Any]:
