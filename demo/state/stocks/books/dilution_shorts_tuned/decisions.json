@@ -1,5 +1,38 @@
 {
   "mode": "paper",
-  "decisions": [],
-  "updated_at": null
+  "decisions": [
+    {
+      "id": "dilution_shorts_tuned-BRRKU-2026-11-11T00:40:49Z-40e697",
+      "book_id": "dilution_shorts_tuned",
+      "ticker": "BRRKU",
+      "side": "short",
+      "size": 0.05,
+      "hold": 3,
+      "reason": "[dilution_shorts_tuned/dilution] event=dilution surprise=None gap=None guidance=none headline=Bluerock Acquisition Corp. II Announces the Separate Trading of its Class A Ordi \u2192 short 3d",
+      "confidence": 1.0,
+      "stop_loss": null,
+      "take_profit": null,
+      "trailing_stop": null,
+      "exit_at_close": false,
+      "delay_minutes": 0,
+      "rule_name": "dilution",
+      "rule_tags": [
+        "dilution_shorts_tuned",
+        "dilution",
+        "news_event",
+        "dilution",
+        "news_short"
+      ],
+      "surprise_pct": null,
+      "gap_pct": null,
+      "guidance": "none",
+      "news_event_type": "dilution",
+      "news_id": "d8376c3078bb15a8",
+      "agent": "rule:dilution_shorts_tuned",
+      "prefer_open": true,
+      "decided_at": "2026-11-11T00:40:49Z",
+      "status": "pending"
+    }
+  ],
+  "updated_at": "2026-11-11T00:40:49Z"
 }
