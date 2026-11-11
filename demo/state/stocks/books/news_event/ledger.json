@@ -10,8 +10,8 @@
   "start_date": "2026-11-10",
   "start_capital_eur": 1000.0,
   "eur_usd_start": 1.1154489517211914,
-  "cash_eur": 1045.231128300221,
-  "equity_eur": 994.78,
+  "cash_eur": 1094.607505800221,
+  "equity_eur": 992.24,
   "positions": {
     "NVDA": {
       "ticker": "NVDA",
@@ -38,26 +38,31 @@
       ],
       "decision_id": "news_event-NVDA-2026-11-10T16:55:17Z-33cd8f",
       "book_id": "news_event",
-      "mark_usd": 168.89,
-      "mark_eur": 151.2748,
-      "unrealized_pnl_pct": -0.9829,
+      "mark_usd": 175.47900390625,
+      "mark_eur": 158.1417,
+      "unrealized_pnl_pct": -4.7009,
       "false_positive": true,
       "false_positive_reason": "shareholder_alert_spam",
       "trail_extreme": 165.88999938964844
-    }
-  },
-  "pending": [
-    {
-      "id": "news_event-BRRKU-2026-11-11T00:40:47Z-b0eeb4",
+    },
+    "BRRKU": {
       "ticker": "BRRKU",
       "side": "short",
+      "shares": 5.562113,
+      "entry_usd": 9.9,
+      "entry_eur": 8.92188,
+      "entry_notional_eur": 49.62,
+      "entry_cost_eur": 0.2481,
       "size": 0.05,
+      "entry_day": "2026-11-11",
+      "entry_time": "2026-11-11T20:04:38Z",
+      "exit_day": "2026-11-13",
       "hold_days": 2,
       "stop_loss": 0.08,
       "take_profit": null,
       "trailing_stop": null,
       "exit_at_close": false,
-      "delay_minutes": 0,
+      "trail_extreme": 9.899999618530273,
       "rule_name": "bearish_news_short",
       "reason": "[news_event/bearish_news_short] event=dilution surprise=None gap=None guidance=none headline=Bluerock Acquisition Corp. II Announces the Separate Trading of its Class A Ordi \u2192 short 2d",
       "confidence": 1.0,
@@ -68,12 +73,14 @@
         "dilution",
         "news_short"
       ],
-      "prefer_open": false,
-      "decided_at": "2026-11-11T00:40:47Z",
-      "status": "pending",
-      "book_id": "news_event"
+      "decision_id": "news_event-BRRKU-2026-11-11T00:40:47Z-b0eeb4",
+      "book_id": "news_event",
+      "mark_usd": 9.9,
+      "mark_eur": 8.9219,
+      "unrealized_pnl_pct": 0.0
     }
-  ],
+  },
+  "pending": [],
   "closed_trades": [
     {
       "ticker": "CVRX",
@@ -108,6 +115,13 @@
       "spy_eur": 1000.0,
       "cash_eur": 1045.23,
       "n_open": 1
+    },
+    {
+      "day": "2026-11-11",
+      "equity_eur": 992.24,
+      "spy_eur": 1025.62,
+      "cash_eur": 1094.61,
+      "n_open": 2
     }
   ],
   "spy_history": [
@@ -116,6 +130,12 @@
       "spy_eur": 1000.0,
       "spy_usd": 749.92,
       "eur_usd": 1.12225
+    },
+    {
+      "day": "2026-11-11",
+      "spy_eur": 1025.62,
+      "spy_usd": 760.485,
+      "eur_usd": 1.10963
     }
   ],
   "cost_pct": 0.005,
@@ -126,9 +146,9 @@
   "stop_loss": 0.08,
   "prefer_open": false,
   "max_open": 6,
-  "last_run": "2026-11-11T01:16:13Z",
-  "last_reason": "engine[news_event]: auto=0 ingested=0 fills=0 closed=0 open=1 session=closed",
-  "eur_usd": 1.1164453029632568,
+  "last_run": "2026-11-11T20:04:39Z",
+  "last_reason": "engine[news_event]: auto=0 ingested=0 fills=1 closed=0 open=2 session=open",
+  "eur_usd": 1.1096316576004028,
   "false_positives": [
     {
       "ticker": "NVDA",
