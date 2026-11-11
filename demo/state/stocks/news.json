@@ -1,11 +1,11 @@
 {
   "mode": "paper",
-  "as_of": "2026-11-10T22:58:44Z",
-  "as_of_et": "2026-11-10 17:58 ET",
+  "as_of": "2026-11-11T02:13:30Z",
+  "as_of_et": "2026-11-10 21:13 ET",
   "rolling_hours": 72,
-  "n_items": 302,
+  "n_items": 330,
   "n_actionable": 34,
-  "n_with_ticker": 52,
+  "n_with_ticker": 66,
   "sources": [
     "prnewswire",
     "prnewswire_financial",
@@ -18,6 +18,426 @@
   "errors": [],
   "note": "Paper news feed. Keyword tagging is heuristic. Shorts have no borrow model. RSS/EDGAR can lag minutes\u2013hours.",
   "items": [
+    {
+      "id": "bcb431b461def01f",
+      "source": "prnewswire",
+      "title": "Xuelei Brings Fragrance Creation to Life at Cosmoprof Asia 2026 With Three Showcases",
+      "summary": "From idea to bottle at COSMOLAB, and from scent to senses at SCENT Museum HONG KONG, Nov. 11, 2026 /PRNewswire/ -- How does an idea become a perfume, and how does a perfume become a memory? Xuelei shows both answers at Cosmoprof Asia 2026 in Hong Kong, with three connected showcases...",
+      "url": "https://www.prnewswire.com/news-releases/xuelei-brings-fragrance-creation-to-life-at-cosmoprof-asia-2026-with-three-showcases-302935788.html",
+      "published_at": "2026-11-11T02:11:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-11T02:13:27Z"
+    },
+    {
+      "id": "73fc311f714ba59e",
+      "source": "prnewswire",
+      "title": "CaliberMRI announces release of a preclinical quantitative MRI phantom (T1, T2, ADC) for high-field systems",
+      "summary": "Transforming MRI to advance precision medicine BOULDER, Colo., Nov. 10, 2026 /PRNewswire/ -- CaliberMRI, an industry leader in standardizing Magnetic Resonance Imaging (MRI), announces release of a quantitative MRI phantom compatible with high-field preclinical scanners. Features of the...",
+      "url": "https://www.prnewswire.com/news-releases/calibermri-announces-release-of-a-preclinical-quantitative-mri-phantom-t1-t2-adc-for-high-field-systems-302935782.html",
+      "published_at": "2026-11-11T02:05:00Z",
+      "tickers": [
+        "MRI"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-11T02:13:27Z"
+    },
+    {
+      "id": "8209978bf54a13fc",
+      "source": "prnewswire",
+      "title": "Xuelei Brings Fragrance Creation to Life at Cosmoprof Asia 2026 With Three Showcases",
+      "summary": "From idea to bottle at COSMOLAB, and from scent to senses at SCENT Museum HONG KONG, Nov. 10, 2026 /PRNewswire/ -- How does an idea become a perfume, and how does a perfume become a memory? Xuelei shows both answers at Cosmoprof Asia 2026 in Hong Kong, with three connected showcases...",
+      "url": "https://www.prnewswire.com/news-releases/xuelei-brings-fragrance-creation-to-life-at-cosmoprof-asia-2026-with-three-showcases-302935774.html",
+      "published_at": "2026-11-11T02:00:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-11T02:13:27Z"
+    },
+    {
+      "id": "87f53c9a10155f2d",
+      "source": "prnewswire",
+      "title": "Experts Gather in Nanjing to Explore the Cultural Heritage of the Yangtze River",
+      "summary": "NANJING, China, Nov. 10, 2026 /PRNewswire/ -- Scholars and cultural experts from across the Yangtze River basin gathered in Nanjing on November 10 to explore the river's rich cultural heritage and discuss how it can be preserved and brought to life for new generations. Hosted by the...",
+      "url": "https://www.prnewswire.com/news-releases/experts-gather-in-nanjing-to-explore-the-cultural-heritage-of-the-yangtze-river-302935775.html",
+      "published_at": "2026-11-11T02:00:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-11T02:13:27Z"
+    },
+    {
+      "id": "e09e8c6fef790600",
+      "source": "marketwatch",
+      "title": "One reason Children\u2019s Place is filing for bankruptcy? Not enough children.",
+      "summary": "The chain has been contending with falling birth rates, cautious consumers, stiff competition and $881 million in debt.",
+      "url": "https://www.marketwatch.com/story/one-reason-the-childrens-place-is-going-bankrupt-not-enough-children-b275eab0?mod=mw_rss_topstories",
+      "published_at": "2026-11-11T01:54:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-11T02:13:29Z"
+    },
+    {
+      "id": "da2eef2fa6b7c495",
+      "source": "prnewswire",
+      "title": "Hagerty Announces Pricing of its Upsized Secondary Offering of Class A Common Stock",
+      "summary": "TRAVERSE CITY, Mich., Nov. 10, 2026 /PRNewswire/ -- Hagerty, Inc. (NYSE: HGTY) (\"Hagerty\"), a business that makes it easier and more enjoyable to be a driving enthusiast, announced the pricing of its secondary offering, upsized to 10,000,000 shares of Hagerty's Class A Common Stock, being...",
+      "url": "https://www.prnewswire.com/news-releases/hagerty-announces-pricing-of-its-upsized-secondary-offering-of-class-a-common-stock-302935772.html",
+      "published_at": "2026-11-11T01:53:00Z",
+      "tickers": [
+        "HGTY"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-11T02:13:27Z"
+    },
+    {
+      "id": "a03fb3e0780edc83",
+      "source": "prnewswire_financial",
+      "title": "Hagerty Announces Pricing of its Upsized Secondary Offering of Class A Common Stock",
+      "summary": "TRAVERSE CITY, Mich., Nov. 10, 2026 /PRNewswire/ -- Hagerty, Inc. (NYSE: HGTY) (\"Hagerty\"), a business that makes it easier and more enjoyable to be a driving enthusiast, announced the pricing of its secondary offering, upsized to 10,000,000 shares of Hagerty's Class A Common Stock, being...",
+      "url": "https://www.prnewswire.com/news-releases/hagerty-announces-pricing-of-its-upsized-secondary-offering-of-class-a-common-stock-302935772.html",
+      "published_at": "2026-11-11T01:53:00Z",
+      "tickers": [
+        "HGTY"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-11T02:13:28Z"
+    },
+    {
+      "id": "c8588a2b857cc512",
+      "source": "prnewswire",
+      "title": "Public Service Company of New Mexico Declares Preferred Dividend",
+      "summary": "ALBUQUERQUE, N.M., Nov. 10, 2026 /PRNewswire/ -- The Board of Directors of Public Service Company of New Mexico, a subsidiary of TXNM Energy (NYSE: TXNM), declared the regular quarterly dividend of $1.145 per share on the 4.58 percent series of cumulative preferred stock. The preferred...",
+      "url": "https://www.prnewswire.com/news-releases/public-service-company-of-new-mexico-declares-preferred-dividend-302935769.html",
+      "published_at": "2026-11-11T01:51:00Z",
+      "tickers": [
+        "TXNM"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-11T02:13:27Z"
+    },
+    {
+      "id": "fe08ebc0934183aa",
+      "source": "prnewswire_financial",
+      "title": "Public Service Company of New Mexico Declares Preferred Dividend",
+      "summary": "ALBUQUERQUE, N.M., Nov. 10, 2026 /PRNewswire/ -- The Board of Directors of Public Service Company of New Mexico, a subsidiary of TXNM Energy (NYSE: TXNM), declared the regular quarterly dividend of $1.145 per share on the 4.58 percent series of cumulative preferred stock. The preferred...",
+      "url": "https://www.prnewswire.com/news-releases/public-service-company-of-new-mexico-declares-preferred-dividend-302935769.html",
+      "published_at": "2026-11-11T01:51:00Z",
+      "tickers": [
+        "TXNM"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-11T02:13:28Z"
+    },
+    {
+      "id": "a4b3b0e87b944a04",
+      "source": "prnewswire",
+      "title": "KPS neemt MM Packaging over van MM Group",
+      "summary": "MM Packaging wordt een zelfstandige onderneming MM Group behoudt een belang van 30% NEW YORK, 11 november 2026 /PRNewswire/ -- KPS Capital Partners, LP (\"KPS\") heeft een definitieve overeenkomst gesloten voor de overname van MM Packaging (de \"onderneming\") van Mayr-Melnhof Karton AG (\"MM...",
+      "url": "https://www.prnewswire.com/news-releases/kps-neemt-mm-packaging-over-van-mm-group-302935766.html",
+      "published_at": "2026-11-11T01:46:00Z",
+      "tickers": [
+        "KPS"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-11T02:13:27Z"
+    },
+    {
+      "id": "7935cb34b6c389c3",
+      "source": "prnewswire_financial",
+      "title": "KPS neemt MM Packaging over van MM Group",
+      "summary": "MM Packaging wordt een zelfstandige onderneming MM Group behoudt een belang van 30% NEW YORK, 11 november 2026 /PRNewswire/ -- KPS Capital Partners, LP (\"KPS\") heeft een definitieve overeenkomst gesloten voor de overname van MM Packaging (de \"onderneming\") van Mayr-Melnhof Karton AG (\"MM...",
+      "url": "https://www.prnewswire.com/news-releases/kps-neemt-mm-packaging-over-van-mm-group-302935766.html",
+      "published_at": "2026-11-11T01:46:00Z",
+      "tickers": [
+        "KPS"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-11T02:13:28Z"
+    },
+    {
+      "id": "f9ffd36d99777f37",
+      "source": "prnewswire",
+      "title": "AEWIN Showcases Server Portfolio with AMD EPYC 9006 SP7 Processors at AMD in Depth: EPYC \"Venice\"",
+      "summary": "Comprehensive AI, General-Purpose, and Storage Server Portfolio Highlights Platform Readiness and Upcoming System Shipments LAS VEGAS, Nov. 10, 2026 /PRNewswire/ -- AEWIN Technologies Co., Ltd., a member of the Qisda Group and a server and network appliance provider, today announced new...",
+      "url": "https://www.prnewswire.com/news-releases/aewin-showcases-server-portfolio-with-amd-epyc-9006-sp7-processors-at-amd-in-depth-epyc-venice-302935761.html",
+      "published_at": "2026-11-11T01:42:00Z",
+      "tickers": [
+        "AEWIN"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-11T02:13:27Z"
+    },
+    {
+      "id": "27e46bd2483c4155",
+      "source": "prnewswire",
+      "title": "Rosen Law Firm Encourages The Cooper Companies, Inc. Investors to Inquire About Securities Class Action Investigation - COO",
+      "summary": "NEW YORK, Nov. 10, 2026 /PRNewswire/ -- Why: Rosen Law Firm, a global investor rights law firm, continues to investigate potential securities claims on behalf of shareholders of The Cooper Companies, Inc. (NASDAQ: COO) resulting from allegations that Cooper Companies may have issued...",
+      "url": "https://www.prnewswire.com/news-releases/rosen-law-firm-encourages-the-cooper-companies-inc-investors-to-inquire-about-securities-class-action-investigation---coo-302935590.html",
+      "published_at": "2026-11-11T01:40:00Z",
+      "tickers": [],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-11T02:13:27Z"
+    },
+    {
+      "id": "87d5c25e110adbcb",
+      "source": "prnewswire",
+      "title": "Gilat Satellite Networks Investigation Notice: Levi & Korsinsky Notifies Investors of Pending Investigation Into Gilat Satellite Networks Ltd. (GILT)",
+      "summary": "Gilat Satellite Networks twice reiterated its $500 million to $520 million fiscal 2026 revenue guidance, including in its February and August 2026 disclosures, before reducing its outlook to $455 million to $475 million. An investigation into potential securities law violations is...",
+      "url": "https://www.prnewswire.com/news-releases/gilat-satellite-networks-investigation-notice-levi--korsinsky-notifies-investors-of-pending-investigation-into-gilat-satellite-networks-ltd-gilt-302935666.html",
+      "published_at": "2026-11-11T01:39:00Z",
+      "tickers": [
+        "GILT"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-11T02:13:27Z"
+    },
+    {
+      "id": "bd022c6c04477e36",
+      "source": "prnewswire",
+      "title": "iHeartMedia Investigation Notice: Levi & Korsinsky Notifies Investors of Pending Investigation Into iHeartMedia, Inc. (IHRT)",
+      "summary": "Twice in 2026, iHeartMedia reaffirmed its approximately $800 million full-year Adjusted EBITDA target. However, on November 9, 2026, the Company slashed that forecast to $550 million\u2013$600 million following disappointing third-quarter results. On November 10, 2026, iHeartMedia's stock...",
+      "url": "https://www.prnewswire.com/news-releases/iheartmedia-investigation-notice-levi--korsinsky-notifies-investors-of-pending-investigation-into-iheartmedia-inc-ihrt-302935675.html",
+      "published_at": "2026-11-11T01:39:00Z",
+      "tickers": [
+        "IHRT"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-11T02:13:27Z"
+    },
+    {
+      "id": "b3397dc056d0c689",
+      "source": "prnewswire",
+      "title": "/C O R R E C T I O N - Hi Peach Layne/",
+      "summary": "In the news release, Hi Peach Layne Launches $9.97 Hair Repair Oil on Walmart's \"Beauty Finds Under $10\" Endcap Just in Time for Holidays, issued 10-Nov-2026 by Hi Peach Layne over PR Newswire, we are advised by the company that changes have been made. The complete, corrected release...",
+      "url": "https://www.prnewswire.com/news-releases/hi-peach-layne-launches-9-97-hair-repair-oil-on-walmarts-beauty-finds-under-10-endcap-just-in-time-for-holidays-302934588.html",
+      "published_at": "2026-11-11T01:38:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-11T02:13:27Z"
+    },
+    {
+      "id": "3a18a909f50adf9e",
+      "source": "prnewswire",
+      "title": "McKinley Irvin Welcomes Family Law Attorney Willa Staats",
+      "summary": "SEATTLE, Nov. 10, 2026 /PRNewswire/ -- McKinley Irvin, a leading Pacific Northwest family law firm, welcomes attorney Willa Staats to its legal team. Staats represents clients in a range of family law matters, including complex divorce, high-asset property division, child custody, and...",
+      "url": "https://www.prnewswire.com/news-releases/mckinley-irvin-welcomes-family-law-attorney-willa-staats-302935753.html",
+      "published_at": "2026-11-11T01:35:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-11T02:13:27Z"
+    },
+    {
+      "id": "befe0f39081c6f15",
+      "source": "prnewswire",
+      "title": "ASTS Deadline: ASTS Investors Have Opportunity to Lead AST SpaceMobile, Inc. Securities Fraud Lawsuit",
+      "summary": "NEW YORK, Nov. 10, 2026 /PRNewswire/ -- Why: Rosen Law Firm, a global investor rights law firm, reminds purchasers of securities of AST SpaceMobile, Inc. (NASDAQ: ASTS) between March 4, 2025 and July 15, 2026, inclusive (the \"Class Period\"), of the important November 13, 2026 lead...",
+      "url": "https://www.prnewswire.com/news-releases/asts-deadline-asts-investors-have-opportunity-to-lead-ast-spacemobile-inc-securities-fraud-lawsuit-302935592.html",
+      "published_at": "2026-11-11T01:19:00Z",
+      "tickers": [
+        "ASTS"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-11T02:13:27Z"
+    },
+    {
+      "id": "22e192072711b530",
+      "source": "prnewswire",
+      "title": "TIGR Investors Have Opportunity to Lead UP Fintech Holding Limited Securities Fraud Lawsuit Filed by The Rosen Law Firm",
+      "summary": "NEW YORK, Nov. 10, 2026 /PRNewswire/ -- Why: Rosen Law Firm, a global investor rights law firm, reminds purchasers of securities of UP Fintech Holding Limited (NASDAQ: TIGR) between April 22, 2024 and June 2, 2026, both dates inclusive (the \"Class Period\"), of the important December 28,...",
+      "url": "https://www.prnewswire.com/news-releases/tigr-investors-have-opportunity-to-lead-up-fintech-holding-limited-securities-fraud-lawsuit-filed-by-the-rosen-law-firm-302935587.html",
+      "published_at": "2026-11-11T01:18:00Z",
+      "tickers": [
+        "TIGR"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-11T02:13:27Z"
+    },
+    {
+      "id": "beae1ede5c3a3985",
+      "source": "prnewswire",
+      "title": "K-beauty na targach CES: Kolmar Korea jako pierwsze przedsi\u0119biorstwo zdobywa nagrod\u0119 Best of Innovation w kategorii Beauty Tech dwa lata z rz\u0119du",
+      "summary": "Wykorzystuj\u0105cy AI system \u201eChromaFlow\" do tworzenia spersonalizowanych odcieni kosmetyk\u00f3w do ust zdobywa dwa wyr\u00f3\u017cnienia: nagrod\u0119 Best of Innovation w kategorii Beauty Tech oraz nagrod\u0119 Innovation Award w kategorii AI Urz\u0105dzenie \u201eLumiJet Pro\" do piel\u0119gnacji sk\u00f3ry z wykorzystaniem AI...",
+      "url": "https://www.prnewswire.com/news-releases/k-beauty-na-targach-ces-kolmar-korea-jako-pierwsze-przedsibiorstwo-zdobywa-nagrod-best-of-innovation-w-kategorii-beauty-tech-dwa-lata-z-rzdu-302935745.html",
+      "published_at": "2026-11-11T01:16:00Z",
+      "tickers": [
+        "K"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-11T02:13:27Z"
+    },
+    {
+      "id": "bf727ec4a904d36b",
+      "source": "prnewswire",
+      "title": "BIDU Deadline: BIDU Investors Have Opportunity to Lead Baidu, Inc. Securities Fraud Lawsuit",
+      "summary": "NEW YORK, Nov. 10, 2026 /PRNewswire/ -- Why: Rosen Law Firm, a global investor rights law firm, reminds purchasers of securities of Baidu, Inc. (NASDAQ: BIDU) between November 18, 2025 and August 17, 2026, inclusive (the \"Class Period\"), of the important November 13, 2026 lead plaintiff...",
+      "url": "https://www.prnewswire.com/news-releases/bidu-deadline-bidu-investors-have-opportunity-to-lead-baidu-inc-securities-fraud-lawsuit-302935584.html",
+      "published_at": "2026-11-11T01:13:00Z",
+      "tickers": [
+        "BIDU"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-11T02:13:27Z"
+    },
+    {
+      "id": "517c4e19ef8ea71c",
+      "source": "marketwatch",
+      "title": "CoreWeave\u2019s stock pops as new financing playbook eases debt concerns",
+      "summary": "A third-quarter revenue beat and $9 billion in planned prepayments gave investors renewed confidence in CoreWeave\u2019s business.",
+      "url": "https://www.marketwatch.com/story/coreweaves-stock-pops-as-new-financing-playbook-eases-debt-concerns-70241525?mod=mw_rss_topstories",
+      "published_at": "2026-11-11T01:12:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-11T02:13:29Z"
+    },
+    {
+      "id": "7c556ec6c10312b8",
+      "source": "prnewswire",
+      "title": "Mile High Holidays Brings Seasonal Cheer for the Whole Family",
+      "summary": "The nightly Mile High Drone Shows return alongside the Mile High Tree and other fan-favorite holiday season events. DENVER, Nov. 10, 2026 /PRNewswire/ -- Mile High Holidays, Visit Denver's annual seasonal promotion, returns this year bringing holiday magic for all ages. Below is a roundup...",
+      "url": "https://www.prnewswire.com/news-releases/mile-high-holidays-brings-seasonal-cheer-for-the-whole-family-302935653.html",
+      "published_at": "2026-11-11T01:10:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-11T02:13:27Z"
+    },
+    {
+      "id": "3b1fefbf0290f369",
+      "source": "prnewswire",
+      "title": "SAMILBIO Moves to Launch 'NpillAI' This Year, Pairing AI Consultation with Pharmacist Review",
+      "summary": "Platform provides nutrition management information based on health checkup and medication data; kiosk integration development completed SEOUL, South Korea, Nov. 10, 2026 /PRNewswire/ -- SAMILBIO is preparing to launch \"NpillAI\", a health functional food platform that combines AI chat...",
+      "url": "https://www.prnewswire.com/news-releases/samilbio-moves-to-launch-npillai-this-year-pairing-ai-consultation-with-pharmacist-review-302934637.html",
+      "published_at": "2026-11-11T01:00:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-11T02:13:27Z"
+    },
+    {
+      "id": "a97628aba486c906",
+      "source": "prnewswire",
+      "title": "HanAll F&B Pursues U.S. Food Market Entry, Moves to Build Foreign-Language Promotion and Distribution Channels",
+      "summary": "Company taps export voucher program to expand overseas sales channels for foods made with regional agricultural products SEOUL, South Korea, Nov. 10, 2026 /PRNewswire/ -- HanAll F&amp;B Farming Association Corporation (hanallfnb), a food manufacturer based in Taebaek, Gangwon Province, is...",
+      "url": "https://www.prnewswire.com/news-releases/hanall-fb-pursues-us-food-market-entry-moves-to-build-foreign-language-promotion-and-distribution-channels-302934631.html",
+      "published_at": "2026-11-11T01:00:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-11T02:13:27Z"
+    },
+    {
+      "id": "5fec55f64aa499c6",
+      "source": "prnewswire_financial",
+      "title": "Valet Living nombra a Rafael Andres Diaz-Granados presidente del Consejo de Administraci\u00f3n y director ejecutivo",
+      "summary": "Un ejecutivo con amplia experiencia en el sector de servicios dirigir\u00e1 Valet Living y MultiPro Property Solutions tras la jubilaci\u00f3n de Shawn Handrahan despu\u00e9s de casi 15 a\u00f1os TAMPA, Florida, 10 de noviembre de 2026 /PRNewswire-HISPANIC PR WIRE/ -- Valet Living LLC anunci\u00f3 hoy el...",
+      "url": "https://www.prnewswire.com/news-releases/valet-living-nombra-a-rafael-andres-diaz-granados-presidente-del-consejo-de-administracion-y-director-ejecutivo-881939291.html",
+      "published_at": "2026-11-11T00:06:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-11T02:13:28Z"
+    },
+    {
+      "id": "d050dc958e49b477",
+      "source": "prnewswire_financial",
+      "title": "Alyssa Bunch: The Name Behind the Biggest Deals",
+      "summary": "SEVIERVILLE, Tenn., Nov. 10, 2026 /PRNewswire/ -- Vanderbilt-educated attorney, real estate professional, and deal strategist Alyssa Bunch has built a career around the places where law, business, property, and opportunity intersect. Vanderbilt-educated attorney and deal strategist Alyssa...",
+      "url": "https://www.prnewswire.com/news-releases/alyssa-bunch-the-name-behind-the-biggest-deals-302935668.html",
+      "published_at": "2026-11-10T23:15:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-11T02:13:28Z"
+    },
+    {
+      "id": "3c14eff680a8936f",
+      "source": "prnewswire_financial",
+      "title": "/C O R R E C T I O N - Hispanic Scholarship Fund/",
+      "summary": "In the news release, Hispanic Scholarship Fund Will Open HSF Scholar Program To All Students, issued 10-Nov-2026 by Hispanic Scholarship Fund over PR Newswire, we are advised by the company that changes have been made. The complete, corrected release follows, with additional details at...",
+      "url": "https://www.prnewswire.com/news-releases/hispanic-scholarship-fund-will-open-hsf-scholar-program-to-all-students-302934949.html",
+      "published_at": "2026-11-10T23:15:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-11T02:13:28Z"
+    },
     {
       "id": "2020cc4f72e56ac3",
       "source": "marketwatch",
@@ -74,7 +494,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:41Z"
+      "scanned_at": "2026-11-11T02:13:28Z"
     },
     {
       "id": "be7626fab85fd637",
@@ -106,7 +526,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:43Z"
+      "scanned_at": "2026-11-11T02:13:29Z"
     },
     {
       "id": "d8376c3078bb15a8",
@@ -138,7 +558,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-10T22:58:41Z"
+      "scanned_at": "2026-11-11T02:13:28Z"
     },
     {
       "id": "419267c1706e8719",
@@ -167,7 +587,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:40Z"
+      "scanned_at": "2026-11-11T02:13:27Z"
     },
     {
       "id": "c0ff0bc21d7450ae",
@@ -182,7 +602,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:40Z"
+      "scanned_at": "2026-11-11T02:13:27Z"
     },
     {
       "id": "913c3a7c474e81d6",
@@ -197,7 +617,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:40Z"
+      "scanned_at": "2026-11-11T02:13:27Z"
     },
     {
       "id": "61b2e086e607644d",
@@ -212,7 +632,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:40Z"
+      "scanned_at": "2026-11-11T02:13:27Z"
     },
     {
       "id": "0cc2b57b55adad4d",
@@ -240,7 +660,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:43Z"
+      "scanned_at": "2026-11-11T02:13:29Z"
     },
     {
       "id": "e7be1d5199f9607a",
@@ -255,7 +675,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:40Z"
+      "scanned_at": "2026-11-11T02:13:27Z"
     },
     {
       "id": "0f4df24d25e1a626",
@@ -270,7 +690,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:40Z"
+      "scanned_at": "2026-11-11T02:13:27Z"
     },
     {
       "id": "a40d36ea55430f9d",
@@ -285,7 +705,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:40Z"
+      "scanned_at": "2026-11-11T02:13:27Z"
     },
     {
       "id": "6b61595b3b289c2c",
@@ -300,7 +720,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:40Z"
+      "scanned_at": "2026-11-11T02:13:27Z"
     },
     {
       "id": "ad3753b6e81d5e98",
@@ -315,7 +735,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:40Z"
+      "scanned_at": "2026-11-11T02:13:27Z"
     },
     {
       "id": "6bf35cac7cb4b121",
@@ -330,7 +750,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:40Z"
+      "scanned_at": "2026-11-11T02:13:27Z"
     },
     {
       "id": "55695407d1bae72f",
@@ -345,7 +765,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-10T22:58:40Z"
+      "scanned_at": "2026-11-11T02:13:27Z"
     },
     {
       "id": "d16118c670d557f0",
@@ -360,7 +780,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:40Z"
+      "scanned_at": "2026-11-11T02:13:27Z"
     },
     {
       "id": "61fee9ec8a0cdeb8",
@@ -375,7 +795,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:40Z"
+      "scanned_at": "2026-11-11T02:13:27Z"
     },
     {
       "id": "9c5e22ce24fc9733",
@@ -390,7 +810,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:40Z"
+      "scanned_at": "2026-11-11T02:13:27Z"
     },
     {
       "id": "35e212b625902fd7",
@@ -405,7 +825,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-10T22:58:40Z"
+      "scanned_at": "2026-11-11T02:13:27Z"
     },
     {
       "id": "f89b100d35fbfcc2",
@@ -436,7 +856,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-10T22:58:40Z"
+      "scanned_at": "2026-11-11T02:13:27Z"
     },
     {
       "id": "89f93e87211e948e",
@@ -451,7 +871,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:40Z"
+      "scanned_at": "2026-11-11T02:13:27Z"
     },
     {
       "id": "918f6f716f430192",
@@ -466,7 +886,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:40Z"
+      "scanned_at": "2026-11-11T02:13:27Z"
     },
     {
       "id": "e251203958a21705",
@@ -481,7 +901,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:40Z"
+      "scanned_at": "2026-11-11T02:13:27Z"
     },
     {
       "id": "338dd7d1d5279546",
@@ -496,7 +916,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-10T22:58:40Z"
+      "scanned_at": "2026-11-11T02:13:27Z"
     },
     {
       "id": "09711906eeb63a45",
@@ -511,7 +931,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:40Z"
+      "scanned_at": "2026-11-11T02:13:27Z"
     },
     {
       "id": "13864ed85b6aa025",
@@ -526,7 +946,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:40Z"
+      "scanned_at": "2026-11-11T02:13:27Z"
     },
     {
       "id": "8ff3e3ccb0bf0e07",
@@ -541,7 +961,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-10T22:58:40Z"
+      "scanned_at": "2026-11-11T02:13:27Z"
     },
     {
       "id": "bc7420975203e452",
@@ -556,7 +976,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:40Z"
+      "scanned_at": "2026-11-11T02:13:27Z"
     },
     {
       "id": "c347820afe2886a5",
@@ -571,7 +991,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:40Z"
+      "scanned_at": "2026-11-11T02:13:27Z"
     },
     {
       "id": "88da00cac2c407ae",
@@ -603,7 +1023,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:41Z"
+      "scanned_at": "2026-11-11T02:13:28Z"
     },
     {
       "id": "ab2121fe8dcd4ac8",
@@ -650,7 +1070,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:40Z"
+      "scanned_at": "2026-11-11T02:13:27Z"
     },
     {
       "id": "96fa3fb8f0204ebc",
@@ -665,7 +1085,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:40Z"
+      "scanned_at": "2026-11-11T02:13:27Z"
     },
     {
       "id": "9112b712924a27ad",
@@ -696,7 +1116,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-10T22:58:40Z"
+      "scanned_at": "2026-11-11T02:13:27Z"
     },
     {
       "id": "2e307d3e2bd9bd5f",
@@ -711,7 +1131,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:40Z"
+      "scanned_at": "2026-11-11T02:13:27Z"
     },
     {
       "id": "add336b611f84453",
@@ -740,7 +1160,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:40Z"
+      "scanned_at": "2026-11-11T02:13:27Z"
     },
     {
       "id": "2be78c32b9a555e3",
@@ -755,7 +1175,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:40Z"
+      "scanned_at": "2026-11-11T02:13:27Z"
     },
     {
       "id": "b434f791a99da5e3",
@@ -770,7 +1190,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:40Z"
+      "scanned_at": "2026-11-11T02:13:27Z"
     },
     {
       "id": "0cf745a72f09d86a",
@@ -785,7 +1205,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:40Z"
+      "scanned_at": "2026-11-11T02:13:27Z"
     },
     {
       "id": "41feee626a3b38c9",
@@ -847,7 +1267,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:41Z"
+      "scanned_at": "2026-11-11T02:13:28Z"
     },
     {
       "id": "a6100332ff1280de",
@@ -862,7 +1282,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:40Z"
+      "scanned_at": "2026-11-11T02:13:27Z"
     },
     {
       "id": "d68d0d52a2a4cd5b",
@@ -893,7 +1313,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-10T22:58:40Z"
+      "scanned_at": "2026-11-11T02:13:27Z"
     },
     {
       "id": "53827de3294f16fa",
@@ -937,7 +1357,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:43Z"
+      "scanned_at": "2026-11-11T02:13:29Z"
     },
     {
       "id": "9a6709fbaca98653",
@@ -952,7 +1372,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:40Z"
+      "scanned_at": "2026-11-11T02:13:27Z"
     },
     {
       "id": "2522bcfc3f4632f3",
@@ -967,7 +1387,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:40Z"
+      "scanned_at": "2026-11-11T02:13:27Z"
     },
     {
       "id": "0b8e22f2e01127a1",
@@ -982,7 +1402,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:40Z"
+      "scanned_at": "2026-11-11T02:13:27Z"
     },
     {
       "id": "79546af3bb36a110",
@@ -1030,7 +1450,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:41Z"
+      "scanned_at": "2026-11-11T02:13:28Z"
     },
     {
       "id": "79dfae2d57050a0a",
@@ -1045,7 +1465,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:40Z"
+      "scanned_at": "2026-11-11T02:13:27Z"
     },
     {
       "id": "b69db5895e01905d",
@@ -1074,7 +1494,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:40Z"
+      "scanned_at": "2026-11-11T02:13:27Z"
     },
     {
       "id": "b5eddfa69bbee693",
@@ -1234,7 +1654,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:41Z"
+      "scanned_at": "2026-11-11T02:13:28Z"
     },
     {
       "id": "cadb0b6cbcbd19e0",
@@ -1248,7 +1668,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:41Z"
+      "scanned_at": "2026-11-11T02:13:28Z"
     },
     {
       "id": "1597bd4708e04cb2",
@@ -1562,7 +1982,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:43Z"
+      "scanned_at": "2026-11-11T02:13:29Z"
     },
     {
       "id": "613e99e28fd0302c",
@@ -2206,7 +2626,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:41Z"
+      "scanned_at": "2026-11-11T02:13:28Z"
     },
     {
       "id": "dedbd293571d97cf",
@@ -2220,7 +2640,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:41Z"
+      "scanned_at": "2026-11-11T02:13:28Z"
     },
     {
       "id": "88239a4eaf812fea",
@@ -2234,7 +2654,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:41Z"
+      "scanned_at": "2026-11-11T02:13:28Z"
     },
     {
       "id": "a9105d4a7c68f0df",
@@ -2292,7 +2712,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:42Z"
+      "scanned_at": "2026-11-11T02:13:28Z"
     },
     {
       "id": "5c3ca06ece4b3587",
@@ -2348,7 +2768,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:41Z"
+      "scanned_at": "2026-11-11T02:13:28Z"
     },
     {
       "id": "52de3357932f0b98",
@@ -2380,7 +2800,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:41Z"
+      "scanned_at": "2026-11-11T02:13:28Z"
     },
     {
       "id": "87b09d1edcb1744e",
@@ -2540,7 +2960,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:41Z"
+      "scanned_at": "2026-11-11T02:13:28Z"
     },
     {
       "id": "6082baf64bed99c2",
@@ -2557,7 +2977,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:41Z"
+      "scanned_at": "2026-11-11T02:13:28Z"
     },
     {
       "id": "d3ff8522cf08aca6",
@@ -3317,7 +3737,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:42Z"
+      "scanned_at": "2026-11-11T02:13:29Z"
     },
     {
       "id": "5ef8490b9d03387c",
@@ -3374,7 +3794,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:57:50Z"
+      "scanned_at": "2026-11-11T02:13:29Z"
     },
     {
       "id": "285d63549735e824",
@@ -3447,7 +3867,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:20:39Z"
+      "scanned_at": "2026-11-11T02:13:29Z"
     },
     {
       "id": "19c280e5d59ce747",
@@ -3637,7 +4057,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:57:50Z"
+      "scanned_at": "2026-11-11T02:13:29Z"
     },
     {
       "id": "01ca38b7712e8317",
@@ -3671,7 +4091,7 @@
       "id": "99fd73972d2c6c3d",
       "source": "marketwatch",
       "title": "\u2018The thought of living to 100 terrifies me\u2019: Is Social Security a giant Ponzi scheme?",
-      "summary": "There\u2019s already a demographic \u2018run\u2019 on Social Security.",
+      "summary": "There is already a demographic \u2018run\u2019 on Social Security.",
       "url": "https://www.marketwatch.com/story/the-thought-of-living-to-100-terrifies-me-is-social-security-a-giant-ponzi-scheme-84a64e7e?mod=mw_rss_topstories",
       "published_at": "2026-11-10T15:30:00Z",
       "tickers": [],
@@ -3679,7 +4099,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T16:57:50Z"
+      "scanned_at": "2026-11-11T02:13:29Z"
     },
     {
       "id": "9cde0c69d324c8ca",
@@ -3722,7 +4142,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:42Z"
+      "scanned_at": "2026-11-11T02:13:28Z"
     },
     {
       "id": "6f10cf2937fd0e20",
@@ -4258,7 +4678,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:42Z"
+      "scanned_at": "2026-11-11T02:13:28Z"
     },
     {
       "id": "e276f27854b7c41d",
@@ -4272,7 +4692,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:42Z"
+      "scanned_at": "2026-11-11T02:13:29Z"
     },
     {
       "id": "3884afb0150970f9",
@@ -4286,7 +4706,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:42Z"
+      "scanned_at": "2026-11-11T02:13:29Z"
     },
     {
       "id": "9235195334146eb0",
@@ -4300,7 +4720,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:42Z"
+      "scanned_at": "2026-11-11T02:13:28Z"
     },
     {
       "id": "c7429c96bd7d3ecb",
@@ -4314,7 +4734,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:42Z"
+      "scanned_at": "2026-11-11T02:13:28Z"
     },
     {
       "id": "fdbc8563b36f8cf5",
@@ -4328,7 +4748,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:42Z"
+      "scanned_at": "2026-11-11T02:13:28Z"
     },
     {
       "id": "67f7c52faf091e43",
@@ -4342,7 +4762,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:42Z"
+      "scanned_at": "2026-11-11T02:13:28Z"
     },
     {
       "id": "4285567555b6675f",
@@ -4356,7 +4776,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:42Z"
+      "scanned_at": "2026-11-11T02:13:28Z"
     },
     {
       "id": "c3c4280bc6e5d8ff",
@@ -4370,7 +4790,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:42Z"
+      "scanned_at": "2026-11-11T02:13:28Z"
     },
     {
       "id": "8dc785c9c3a42a50",
@@ -4384,7 +4804,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:42Z"
+      "scanned_at": "2026-11-11T02:13:28Z"
     },
     {
       "id": "56eac0855ed7c5e7",
@@ -4398,7 +4818,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:42Z"
+      "scanned_at": "2026-11-11T02:13:29Z"
     },
     {
       "id": "7144237b9a02d7db",
@@ -4412,7 +4832,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:42Z"
+      "scanned_at": "2026-11-11T02:13:28Z"
     },
     {
       "id": "65aa2ae6973f5971",
@@ -4426,7 +4846,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:42Z"
+      "scanned_at": "2026-11-11T02:13:29Z"
     },
     {
       "id": "cb3e48820a212891",
@@ -4440,7 +4860,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:42Z"
+      "scanned_at": "2026-11-11T02:13:28Z"
     },
     {
       "id": "acad5801b91c1d7a",
@@ -4454,7 +4874,7 @@
       "direction": "bearish",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:42Z"
+      "scanned_at": "2026-11-11T02:13:28Z"
     },
     {
       "id": "08b3efda9e3fa115",
@@ -4468,7 +4888,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:42Z"
+      "scanned_at": "2026-11-11T02:13:28Z"
     },
     {
       "id": "41383c5c59816f29",
@@ -4482,7 +4902,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:42Z"
+      "scanned_at": "2026-11-11T02:13:28Z"
     },
     {
       "id": "2352affc375bddb8",
@@ -4496,7 +4916,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-10T22:58:42Z"
+      "scanned_at": "2026-11-11T02:13:28Z"
     }
   ]
 }
