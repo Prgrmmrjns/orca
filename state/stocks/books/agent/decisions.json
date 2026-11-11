@@ -569,8 +569,30 @@
       "agent": "chewbacca",
       "decided_at": "2026-11-11T13:50:22Z",
       "status": "skipped"
+    },
+    {
+      "id": "DE-2026-11-11T21:41:42Z-4fd09d",
+      "book_id": "agent",
+      "ticker": "DE",
+      "side": "skip",
+      "size": 0.0,
+      "hold": 0,
+      "reason": "Earnings-date announcement only, no results or guidance",
+      "confidence": 0.9,
+      "stop_loss": null,
+      "take_profit": null,
+      "rule_tags": [
+        "news_event",
+        "earnings"
+      ],
+      "surprise_pct": null,
+      "gap_pct": null,
+      "guidance": "none",
+      "agent": "chewbacca",
+      "decided_at": "2026-11-11T21:41:42Z",
+      "status": "new"
     }
   ],
-  "updated_at": "2026-11-11T13:50:22Z",
+  "updated_at": "2026-11-11T21:41:42Z",
   "book_id": "agent"
 }
