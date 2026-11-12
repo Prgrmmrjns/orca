@@ -11,7 +11,7 @@
   "start_capital_eur": 1000.0,
   "eur_usd_start": 1.1154489517211914,
   "cash_eur": 1094.607505800221,
-  "equity_eur": 992.24,
+  "equity_eur": 992.53,
   "positions": {
     "NVDA": {
       "ticker": "NVDA",
@@ -38,9 +38,9 @@
       ],
       "decision_id": "news_event-NVDA-2026-11-10T16:55:17Z-33cd8f",
       "book_id": "news_event",
-      "mark_usd": 175.47900390625,
-      "mark_eur": 158.1417,
-      "unrealized_pnl_pct": -4.7009,
+      "mark_usd": 173.73,
+      "mark_eur": 156.5481,
+      "unrealized_pnl_pct": -3.7414,
       "false_positive": true,
       "false_positive_reason": "shareholder_alert_spam",
       "trail_extreme": 165.88999938964844
@@ -75,9 +75,9 @@
       ],
       "decision_id": "news_event-BRRKU-2026-11-11T00:40:47Z-b0eeb4",
       "book_id": "news_event",
-      "mark_usd": 9.9,
-      "mark_eur": 8.9219,
-      "unrealized_pnl_pct": 0.0
+      "mark_usd": 9.949999809265137,
+      "mark_eur": 8.9659,
+      "unrealized_pnl_pct": -0.5025
     }
   },
   "pending": [],
@@ -118,8 +118,8 @@
     },
     {
       "day": "2026-11-11",
-      "equity_eur": 992.24,
-      "spy_eur": 1025.62,
+      "equity_eur": 992.53,
+      "spy_eur": NaN,
       "cash_eur": 1094.61,
       "n_open": 2
     }
@@ -133,9 +133,9 @@
     },
     {
       "day": "2026-11-11",
-      "spy_eur": 1025.62,
-      "spy_usd": 760.485,
-      "eur_usd": 1.10963
+      "spy_eur": NaN,
+      "spy_usd": NaN,
+      "eur_usd": 1.11689
     }
   ],
   "cost_pct": 0.005,
@@ -146,9 +146,9 @@
   "stop_loss": 0.08,
   "prefer_open": false,
   "max_open": 6,
-  "last_run": "2026-11-11T20:04:39Z",
-  "last_reason": "engine[news_event]: auto=0 ingested=0 fills=1 closed=0 open=2 session=open",
-  "eur_usd": 1.1096316576004028,
+  "last_run": "2026-11-12T01:54:10Z",
+  "last_reason": "engine[news_event]: auto=0 ingested=0 fills=0 closed=0 open=2 session=closed",
+  "eur_usd": 1.1097548007965088,
   "false_positives": [
     {
       "ticker": "NVDA",

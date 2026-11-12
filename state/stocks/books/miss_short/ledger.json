@@ -11,7 +11,7 @@
   "start_capital_eur": 1000.0,
   "eur_usd_start": 1.1222084760665894,
   "cash_eur": 1199.3835724999997,
-  "equity_eur": 1010.44,
+  "equity_eur": 1012.9,
   "positions": {
     "BKKT": {
       "ticker": "BKKT",
@@ -36,9 +36,9 @@
       ],
       "decision_id": "miss_short-BKKT-2026-11-10T11:44:58Z-c56deb",
       "book_id": "miss_short",
-      "mark_usd": 4.090000152587891,
-      "mark_eur": 3.6859,
-      "unrealized_pnl_pct": 10.2689,
+      "mark_usd": 3.96,
+      "mark_eur": 3.5684,
+      "unrealized_pnl_pct": 13.8889,
       "trail_extreme": 4.020500183105469
     },
     "MPAA": {
@@ -64,9 +64,9 @@
       ],
       "decision_id": "miss_short-MPAA-2026-11-10T11:44:58Z-7f35ed",
       "book_id": "miss_short",
-      "mark_usd": 7.690000057220459,
-      "mark_eur": 6.9302,
-      "unrealized_pnl_pct": -0.2601,
+      "mark_usd": 7.62,
+      "mark_eur": 6.8664,
+      "unrealized_pnl_pct": 0.6562,
       "trail_extreme": 7.239999771118164
     },
     "UNIT": {
@@ -92,9 +92,9 @@
       ],
       "decision_id": "miss_short-UNIT-2026-11-10T11:44:58Z-549ac5",
       "book_id": "miss_short",
-      "mark_usd": 4.144999980926514,
-      "mark_eur": 3.7355,
-      "unrealized_pnl_pct": 4.222,
+      "mark_usd": 4.07,
+      "mark_eur": 3.6675,
+      "unrealized_pnl_pct": 6.1425,
       "trail_extreme": 3.9100000858306885
     },
     "HROW": {
@@ -120,9 +120,9 @@
       ],
       "decision_id": "miss_short-HROW-2026-11-10T11:44:58Z-9b9f01",
       "book_id": "miss_short",
-      "mark_usd": 29.139999389648438,
-      "mark_eur": 26.261,
-      "unrealized_pnl_pct": 13.2704,
+      "mark_usd": 29.37,
+      "mark_eur": 26.4653,
+      "unrealized_pnl_pct": 12.3834,
       "trail_extreme": 28.600000381469727
     }
   },
@@ -138,8 +138,8 @@
     },
     {
       "day": "2026-11-11",
-      "equity_eur": 1010.44,
-      "spy_eur": 1025.61,
+      "equity_eur": 1012.9,
+      "spy_eur": NaN,
       "cash_eur": 1199.38,
       "n_open": 4
     }
@@ -153,9 +153,9 @@
     },
     {
       "day": "2026-11-11",
-      "spy_eur": 1025.61,
-      "spy_usd": 760.48,
-      "eur_usd": 1.10963
+      "spy_eur": NaN,
+      "spy_usd": NaN,
+      "eur_usd": 1.11689
     }
   ],
   "cost_pct": 0.005,
@@ -165,7 +165,7 @@
   "default_hold_days": 2,
   "stop_loss": 0.08,
   "max_open": 4,
-  "last_run": "2026-11-11T20:04:34Z",
-  "last_reason": "engine[miss_short]: auto=0 ingested=0 fills=0 closed=0 open=4 session=open",
-  "eur_usd": 1.1096316576004028
+  "last_run": "2026-11-12T01:54:08Z",
+  "last_reason": "engine[miss_short]: auto=0 ingested=0 fills=0 closed=0 open=4 session=closed",
+  "eur_usd": 1.1097548007965088
 }

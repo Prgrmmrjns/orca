@@ -590,7 +590,7 @@
       "guidance": "none",
       "agent": "chewbacca",
       "decided_at": "2026-11-11T21:41:42Z",
-      "status": "new"
+      "status": "skipped"
     }
   ],
   "updated_at": "2026-11-11T21:41:42Z",

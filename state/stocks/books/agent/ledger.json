@@ -11,7 +11,7 @@
   "start_capital_eur": 1000.0,
   "eur_usd_start": 1.1222084760665894,
   "cash_eur": 889.02236,
-  "equity_eur": 1000.83,
+  "equity_eur": 1000.18,
   "positions": {
     "MPAA": {
       "ticker": "MPAA",
@@ -35,9 +35,9 @@
       ],
       "decision_id": "MPAA-2026-11-10T13:53:35Z-72c0fa",
       "book_id": "agent",
-      "mark_usd": 7.690000057220459,
-      "mark_eur": 6.9302,
-      "unrealized_pnl_pct": -2.4707,
+      "mark_usd": 7.62,
+      "mark_eur": 6.8664,
+      "unrealized_pnl_pct": -1.5748,
       "trail_extreme": 7.239999771118164
     },
     "DCTH": {
@@ -60,9 +60,9 @@
       "rule_tags": [],
       "decision_id": "DCTH-2026-11-10T13:53:37Z-3a6d90",
       "book_id": "agent",
-      "mark_usd": 21.799999237060547,
-      "mark_eur": 19.6462,
-      "unrealized_pnl_pct": 1.0195,
+      "mark_usd": 21.77,
+      "mark_eur": 19.6169,
+      "unrealized_pnl_pct": 0.8804,
       "trail_extreme": 22.315000534057617
     },
     "LINC": {
@@ -85,9 +85,9 @@
       "rule_tags": [],
       "decision_id": "LINC-2026-11-10T13:53:37Z-740f17",
       "book_id": "agent",
-      "mark_usd": 23.799999237060547,
-      "mark_eur": 21.4486,
-      "unrealized_pnl_pct": 2.1898,
+      "mark_usd": 23.51,
+      "mark_eur": 21.1849,
+      "unrealized_pnl_pct": 0.9446,
       "trail_extreme": 24.239999771118164
     }
   },
@@ -103,8 +103,8 @@
     },
     {
       "day": "2026-11-11",
-      "equity_eur": 1000.83,
-      "spy_eur": 1025.58,
+      "equity_eur": 1000.18,
+      "spy_eur": NaN,
       "cash_eur": 889.02,
       "n_open": 3
     }
@@ -118,9 +118,9 @@
     },
     {
       "day": "2026-11-11",
-      "spy_eur": 1025.58,
-      "spy_usd": 760.46,
-      "eur_usd": 1.10963
+      "spy_eur": NaN,
+      "spy_usd": NaN,
+      "eur_usd": 1.11689
     }
   ],
   "cost_pct": 0.005,
@@ -130,7 +130,7 @@
   "default_hold_days": 5,
   "stop_loss": null,
   "max_open": 8,
-  "last_run": "2026-11-11T20:04:31Z",
-  "last_reason": "engine[agent]: auto=0 ingested=0 fills=0 closed=0 open=3 session=open",
-  "eur_usd": 1.1096316576004028
+  "last_run": "2026-11-12T01:54:06Z",
+  "last_reason": "engine[agent]: auto=0 ingested=0 fills=0 closed=0 open=3 session=closed",
+  "eur_usd": 1.1097548007965088
 }

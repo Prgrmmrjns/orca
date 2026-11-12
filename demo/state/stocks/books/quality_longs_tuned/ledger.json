@@ -26,7 +26,7 @@
     {
       "day": "2026-11-11",
       "equity_eur": 1000.0,
-      "spy_eur": 1025.57,
+      "spy_eur": NaN,
       "cash_eur": 1000.0,
       "n_open": 0
     }
@@ -40,9 +40,9 @@
     },
     {
       "day": "2026-11-11",
-      "spy_eur": 1025.57,
-      "spy_usd": 760.45,
-      "eur_usd": 1.10963
+      "spy_eur": NaN,
+      "spy_usd": NaN,
+      "eur_usd": 1.11689
     }
   ],
   "cost_pct": 0.005,
@@ -53,8 +53,8 @@
   "stop_loss": null,
   "prefer_open": true,
   "max_open": 15,
-  "last_run": "2026-11-11T20:04:44Z",
-  "last_reason": "engine[quality_longs_tuned]: auto=0 ingested=0 fills=0 closed=0 open=0 session=open",
+  "last_run": "2026-11-12T01:54:11Z",
+  "last_reason": "engine[quality_longs_tuned]: auto=0 ingested=0 fills=0 closed=0 open=0 session=closed",
   "max_per_ticker": 1,
   "max_gross_exposure_pct": 0.75,
   "allow_shorts": false,
@@ -62,5 +62,5 @@
   "sizing": "fixed",
   "score_ref": 10.0,
   "strategy_config_path": "config/strategies/quality_longs_tuned.yaml",
-  "eur_usd": 1.1096316576004028
+  "eur_usd": 1.1097548007965088
 }

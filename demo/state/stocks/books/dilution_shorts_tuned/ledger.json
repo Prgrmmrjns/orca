@@ -11,7 +11,7 @@
   "start_capital_eur": 1000.0,
   "eur_usd_start": 1.1168192625045776,
   "cash_eur": 1049.75,
-  "equity_eur": 999.8,
+  "equity_eur": 999.55,
   "positions": {
     "BRRKU": {
       "ticker": "BRRKU",
@@ -43,9 +43,9 @@
       ],
       "decision_id": "dilution_shorts_tuned-BRRKU-2026-11-11T00:40:49Z-40e697",
       "book_id": "dilution_shorts_tuned",
-      "mark_usd": 9.9,
-      "mark_eur": 8.9219,
-      "unrealized_pnl_pct": 0.101
+      "mark_usd": 9.949999809265137,
+      "mark_eur": 8.9659,
+      "unrealized_pnl_pct": -0.402
     }
   },
   "pending": [],
@@ -60,8 +60,8 @@
     },
     {
       "day": "2026-11-11",
-      "equity_eur": 999.8,
-      "spy_eur": 1025.56,
+      "equity_eur": 999.55,
+      "spy_eur": NaN,
       "cash_eur": 1049.75,
       "n_open": 1
     }
@@ -75,9 +75,9 @@
     },
     {
       "day": "2026-11-11",
-      "spy_eur": 1025.56,
-      "spy_usd": 760.4401,
-      "eur_usd": 1.10963
+      "spy_eur": NaN,
+      "spy_usd": NaN,
+      "eur_usd": 1.11689
     }
   ],
   "cost_pct": 0.005,
@@ -88,8 +88,8 @@
   "stop_loss": null,
   "prefer_open": true,
   "max_open": 8,
-  "last_run": "2026-11-11T20:04:43Z",
-  "last_reason": "engine[dilution_shorts_tuned]: auto=0 ingested=0 fills=1 closed=0 open=1 session=open",
+  "last_run": "2026-11-12T01:54:11Z",
+  "last_reason": "engine[dilution_shorts_tuned]: auto=0 ingested=0 fills=0 closed=0 open=1 session=closed",
   "max_per_ticker": 1,
   "max_gross_exposure_pct": 0.4,
   "allow_shorts": true,
@@ -97,5 +97,5 @@
   "sizing": "fixed",
   "score_ref": 10.0,
   "strategy_config_path": "config/strategies/dilution_shorts_tuned.yaml",
-  "eur_usd": 1.1096316576004028
+  "eur_usd": 1.1097548007965088
 }
