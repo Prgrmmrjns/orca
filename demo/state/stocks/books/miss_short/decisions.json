@@ -22,19 +22,29 @@
       "agent": "rule:miss_short",
       "prefer_open": true,
       "decided_at": "2026-11-10T11:44:58Z",
-      "status": "filled",
+      "status": "closed",
       "fill": {
-        "time": "2026-11-10T16:50:46Z",
         "ticker": "BKKT",
-        "side": "sell_short",
-        "price_usd": 4.51,
+        "side": "short",
+        "entry_day": "2026-11-10",
+        "exit_day": "2026-11-12",
+        "entry_usd": 4.51,
+        "exit_usd": 3.7,
         "shares": 12.366396,
-        "notional_eur": 50.0,
-        "cost_eur": 0.25,
+        "hold_days": 2,
+        "exit_reason": "time_exit",
+        "entry_cost_eur": 0.25,
+        "exit_cost_eur": 0.2069,
+        "pnl_eur": 8.6,
+        "pnl_pct_net": 20.8919,
         "reason": "[miss_short] surprise=-153.24 gap=-6.3596 guidance=unknown spy_above=False \u2192 short 2d",
-        "note": "filled at regular-session open (rule book)",
+        "rule_tags": [
+          "miss_short",
+          "miss_short"
+        ],
         "decision_id": "miss_short-BKKT-2026-11-10T11:44:58Z-c56deb",
-        "book_id": "miss_short"
+        "book_id": "miss_short",
+        "closed_at": "2026-11-12T20:42:21Z"
       }
     },
     {
@@ -58,19 +68,29 @@
       "agent": "rule:miss_short",
       "prefer_open": true,
       "decided_at": "2026-11-10T11:44:58Z",
-      "status": "filled",
+      "status": "closed",
       "fill": {
-        "time": "2026-11-10T16:50:46Z",
         "ticker": "MPAA",
-        "side": "sell_short",
-        "price_usd": 7.67,
+        "side": "short",
+        "entry_day": "2026-11-10",
+        "exit_day": "2026-11-12",
+        "entry_usd": 7.67,
+        "exit_usd": 7.72,
         "shares": 7.28663,
-        "notional_eur": 50.1,
-        "cost_eur": 0.2505,
+        "hold_days": 2,
+        "exit_reason": "time_exit",
+        "entry_cost_eur": 0.2505,
+        "exit_cost_eur": 0.2544,
+        "pnl_eur": -0.83,
+        "pnl_pct_net": -1.6477,
         "reason": "[miss_short] surprise=-80.2 gap=-19.2966 guidance=unknown spy_above=False \u2192 short 2d",
-        "note": "filled at regular-session open (rule book)",
+        "rule_tags": [
+          "miss_short",
+          "miss_short"
+        ],
         "decision_id": "miss_short-MPAA-2026-11-10T11:44:58Z-7f35ed",
-        "book_id": "miss_short"
+        "book_id": "miss_short",
+        "closed_at": "2026-11-12T20:42:22Z"
       }
     },
     {
@@ -94,19 +114,29 @@
       "agent": "rule:miss_short",
       "prefer_open": true,
       "decided_at": "2026-11-10T11:44:58Z",
-      "status": "filled",
+      "status": "closed",
       "fill": {
-        "time": "2026-11-10T16:50:46Z",
         "ticker": "UNIT",
-        "side": "sell_short",
-        "price_usd": 4.32,
+        "side": "short",
+        "entry_day": "2026-11-10",
+        "exit_day": "2026-11-12",
+        "entry_usd": 4.32,
+        "exit_usd": 4.44,
         "shares": 12.948245,
-        "notional_eur": 50.15,
-        "cost_eur": 0.2507,
+        "hold_days": 2,
+        "exit_reason": "time_exit",
+        "entry_cost_eur": 0.2507,
+        "exit_cost_eur": 0.26,
+        "pnl_eur": -1.92,
+        "pnl_pct_net": -3.7027,
         "reason": "[miss_short] surprise=-78.66 gap=-8.2721 guidance=unknown spy_above=False \u2192 short 2d",
-        "note": "filled at regular-session open (rule book)",
+        "rule_tags": [
+          "miss_short",
+          "miss_short"
+        ],
         "decision_id": "miss_short-UNIT-2026-11-10T11:44:58Z-549ac5",
-        "book_id": "miss_short"
+        "book_id": "miss_short",
+        "closed_at": "2026-11-12T20:42:22Z"
       }
     },
     {
@@ -130,19 +160,29 @@
       "agent": "rule:miss_short",
       "prefer_open": true,
       "decided_at": "2026-11-10T11:44:58Z",
-      "status": "filled",
+      "status": "closed",
       "fill": {
-        "time": "2026-11-10T16:51:01Z",
         "ticker": "HROW",
-        "side": "sell_short",
-        "price_usd": 33.007,
+        "side": "short",
+        "entry_day": "2026-11-10",
+        "exit_day": "2026-11-12",
+        "entry_usd": 33.007,
+        "exit_usd": 28.315001,
         "shares": 1.694261,
-        "notional_eur": 50.13,
-        "cost_eur": 0.2507,
+        "hold_days": 2,
+        "exit_reason": "time_exit",
+        "entry_cost_eur": 0.2507,
+        "exit_cost_eur": 0.2169,
+        "pnl_eur": 6.72,
+        "pnl_pct_net": 15.5707,
         "reason": "[miss_short] surprise=-56.91 gap=-15.3121 guidance=unknown spy_above=False \u2192 short 2d",
-        "note": "filled at regular-session open (rule book)",
+        "rule_tags": [
+          "miss_short",
+          "miss_short"
+        ],
         "decision_id": "miss_short-HROW-2026-11-10T11:44:58Z-9b9f01",
-        "book_id": "miss_short"
+        "book_id": "miss_short",
+        "closed_at": "2026-11-12T20:42:22Z"
       }
     }
   ],

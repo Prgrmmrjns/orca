@@ -41,19 +41,28 @@
       "guidance": "unknown",
       "agent": "chewbacca",
       "decided_at": "2026-11-10T13:53:35Z",
-      "status": "filled",
+      "status": "closed",
       "fill": {
-        "time": "2026-11-10T16:50:43Z",
         "ticker": "MPAA",
-        "side": "sell_short",
-        "price_usd": 7.5,
+        "side": "short",
+        "entry_day": "2026-11-10",
+        "exit_day": "2026-11-12",
+        "entry_usd": 7.5,
+        "exit_usd": 7.72,
         "shares": 7.436326,
-        "notional_eur": 50.0,
-        "cost_eur": 0.25,
+        "hold_days": 2,
+        "exit_reason": "time_exit",
+        "entry_cost_eur": 0.25,
+        "exit_cost_eur": 0.2596,
+        "pnl_eur": -1.99,
+        "pnl_pct_net": -3.8497,
         "reason": "EPS/sales miss real; FY27 sales cut $780-800M\u2192$715-740M, gap -19% \u2192 short 2d @5%",
-        "note": "filled at session price (market open)",
+        "rule_tags": [
+          "miss_short"
+        ],
         "decision_id": "MPAA-2026-11-10T13:53:35Z-72c0fa",
-        "book_id": "agent"
+        "book_id": "agent",
+        "closed_at": "2026-11-12T20:42:18Z"
       }
     },
     {
@@ -611,7 +620,7 @@
       "guidance": "none",
       "agent": "chewbacca",
       "decided_at": "2026-11-12T13:46:28Z",
-      "status": "new"
+      "status": "skipped"
     },
     {
       "id": "FRMM-2026-11-12T13:46:28Z-a6dd4d",
@@ -630,7 +639,20 @@
       "guidance": "none",
       "agent": "chewbacca",
       "decided_at": "2026-11-12T13:46:28Z",
-      "status": "new"
+      "status": "filled",
+      "fill": {
+        "time": "2026-11-12T20:42:18Z",
+        "ticker": "FRMM",
+        "side": "sell_short",
+        "price_usd": 2.5,
+        "shares": 17.631491,
+        "notional_eur": 39.86,
+        "cost_eur": 0.1993,
+        "reason": "FY26 rev guide cut $18-22M\u2192$8-9M (no AI compute rev 2026); rev miss \u2192 short 2d @4%",
+        "note": "filled at regular-session open (rule book)",
+        "decision_id": "FRMM-2026-11-12T13:46:28Z-a6dd4d",
+        "book_id": "agent"
+      }
     },
     {
       "id": "MOVE-2026-11-12T13:46:29Z-31dcd8",
@@ -649,7 +671,7 @@
       "guidance": "none",
       "agent": "chewbacca",
       "decided_at": "2026-11-12T13:46:29Z",
-      "status": "new"
+      "status": "skipped"
     }
   ],
   "updated_at": "2026-11-12T13:46:29Z",

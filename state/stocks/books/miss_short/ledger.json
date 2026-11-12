@@ -10,124 +10,104 @@
   "start_date": "2026-11-10",
   "start_capital_eur": 1000.0,
   "eur_usd_start": 1.1222084760665894,
-  "cash_eur": 1199.3835724999997,
-  "equity_eur": 1012.9,
-  "positions": {
-    "BKKT": {
+  "cash_eur": 1010.8080287630762,
+  "equity_eur": 1010.81,
+  "positions": {},
+  "pending": [],
+  "closed_trades": [
+    {
       "ticker": "BKKT",
       "side": "short",
-      "shares": 12.366396,
-      "entry_usd": 4.51,
-      "entry_eur": 4.043215,
-      "entry_notional_eur": 50.0,
-      "entry_cost_eur": 0.25,
-      "size": 0.05,
       "entry_day": "2026-11-10",
-      "entry_time": "2026-11-10T16:50:46Z",
       "exit_day": "2026-11-12",
+      "entry_usd": 4.51,
+      "exit_usd": 3.7,
+      "shares": 12.366396,
       "hold_days": 2,
-      "stop_loss": 0.08,
-      "take_profit": null,
+      "exit_reason": "time_exit",
+      "entry_cost_eur": 0.25,
+      "exit_cost_eur": 0.2069,
+      "pnl_eur": 8.6,
+      "pnl_pct_net": 20.8919,
       "reason": "[miss_short] surprise=-153.24 gap=-6.3596 guidance=unknown spy_above=False \u2192 short 2d",
-      "confidence": 1.0,
       "rule_tags": [
         "miss_short",
         "miss_short"
       ],
       "decision_id": "miss_short-BKKT-2026-11-10T11:44:58Z-c56deb",
       "book_id": "miss_short",
-      "mark_usd": 3.9600000381469727,
-      "mark_eur": 3.5684,
-      "unrealized_pnl_pct": 13.8889,
-      "trail_extreme": 3.9549999237060547
+      "closed_at": "2026-11-12T20:42:21Z"
     },
-    "MPAA": {
+    {
       "ticker": "MPAA",
       "side": "short",
-      "shares": 7.28663,
-      "entry_usd": 7.67,
-      "entry_eur": 6.876155,
-      "entry_notional_eur": 50.1,
-      "entry_cost_eur": 0.2505,
-      "size": 0.05,
       "entry_day": "2026-11-10",
-      "entry_time": "2026-11-10T16:50:46Z",
       "exit_day": "2026-11-12",
+      "entry_usd": 7.67,
+      "exit_usd": 7.72,
+      "shares": 7.28663,
       "hold_days": 2,
-      "stop_loss": 0.08,
-      "take_profit": null,
+      "exit_reason": "time_exit",
+      "entry_cost_eur": 0.2505,
+      "exit_cost_eur": 0.2544,
+      "pnl_eur": -0.83,
+      "pnl_pct_net": -1.6477,
       "reason": "[miss_short] surprise=-80.2 gap=-19.2966 guidance=unknown spy_above=False \u2192 short 2d",
-      "confidence": 1.0,
       "rule_tags": [
         "miss_short",
         "miss_short"
       ],
       "decision_id": "miss_short-MPAA-2026-11-10T11:44:58Z-7f35ed",
       "book_id": "miss_short",
-      "mark_usd": 7.619999885559082,
-      "mark_eur": 6.8664,
-      "unrealized_pnl_pct": 0.6562,
-      "trail_extreme": 7.239999771118164
+      "closed_at": "2026-11-12T20:42:22Z"
     },
-    "UNIT": {
+    {
       "ticker": "UNIT",
       "side": "short",
-      "shares": 12.948245,
-      "entry_usd": 4.32,
-      "entry_eur": 3.87288,
-      "entry_notional_eur": 50.15,
-      "entry_cost_eur": 0.2507,
-      "size": 0.05,
       "entry_day": "2026-11-10",
-      "entry_time": "2026-11-10T16:50:46Z",
       "exit_day": "2026-11-12",
+      "entry_usd": 4.32,
+      "exit_usd": 4.44,
+      "shares": 12.948245,
       "hold_days": 2,
-      "stop_loss": 0.08,
-      "take_profit": null,
+      "exit_reason": "time_exit",
+      "entry_cost_eur": 0.2507,
+      "exit_cost_eur": 0.26,
+      "pnl_eur": -1.92,
+      "pnl_pct_net": -3.7027,
       "reason": "[miss_short] surprise=-78.66 gap=-8.2721 guidance=unknown spy_above=False \u2192 short 2d",
-      "confidence": 1.0,
       "rule_tags": [
         "miss_short",
         "miss_short"
       ],
       "decision_id": "miss_short-UNIT-2026-11-10T11:44:58Z-549ac5",
       "book_id": "miss_short",
-      "mark_usd": 4.070000171661377,
-      "mark_eur": 3.6675,
-      "unrealized_pnl_pct": 6.1425,
-      "trail_extreme": 3.9100000858306885
+      "closed_at": "2026-11-12T20:42:22Z"
     },
-    "HROW": {
+    {
       "ticker": "HROW",
       "side": "short",
-      "shares": 1.694261,
-      "entry_usd": 33.007,
-      "entry_eur": 29.590776,
-      "entry_notional_eur": 50.13,
-      "entry_cost_eur": 0.2507,
-      "size": 0.05,
       "entry_day": "2026-11-10",
-      "entry_time": "2026-11-10T16:51:01Z",
       "exit_day": "2026-11-12",
+      "entry_usd": 33.007,
+      "exit_usd": 28.315001,
+      "shares": 1.694261,
       "hold_days": 2,
-      "stop_loss": 0.08,
-      "take_profit": null,
+      "exit_reason": "time_exit",
+      "entry_cost_eur": 0.2507,
+      "exit_cost_eur": 0.2169,
+      "pnl_eur": 6.72,
+      "pnl_pct_net": 15.5707,
       "reason": "[miss_short] surprise=-56.91 gap=-15.3121 guidance=unknown spy_above=False \u2192 short 2d",
-      "confidence": 1.0,
       "rule_tags": [
         "miss_short",
         "miss_short"
       ],
       "decision_id": "miss_short-HROW-2026-11-10T11:44:58Z-9b9f01",
       "book_id": "miss_short",
-      "mark_usd": 29.3700008392334,
-      "mark_eur": 26.4653,
-      "unrealized_pnl_pct": 12.3834,
-      "trail_extreme": 28.600000381469727
+      "closed_at": "2026-11-12T20:42:22Z"
     }
-  },
-  "pending": [],
-  "closed_trades": [],
+  ],
   "equity_history": [
     {
       "day": "2026-11-10",
@@ -145,10 +125,10 @@
     },
     {
       "day": "2026-11-12",
-      "equity_eur": 1012.9,
-      "spy_eur": 1018.04,
-      "cash_eur": 1199.38,
-      "n_open": 4
+      "equity_eur": 1010.81,
+      "spy_eur": 1024.56,
+      "cash_eur": 1010.81,
+      "n_open": 0
     }
   ],
   "spy_history": [
@@ -163,6 +143,12 @@
       "spy_eur": 1018.04,
       "spy_usd": 759.81,
       "eur_usd": 1.11689
+    },
+    {
+      "day": "2026-11-12",
+      "spy_eur": 1024.56,
+      "spy_usd": 757.01,
+      "eur_usd": 1.10571
     }
   ],
   "cost_pct": 0.005,
@@ -172,7 +158,7 @@
   "default_hold_days": 2,
   "stop_loss": 0.08,
   "max_open": 4,
-  "last_run": "2026-11-12T10:02:16Z",
-  "last_reason": "engine[miss_short]: auto=0 ingested=0 fills=0 closed=0 open=4 session=pre",
-  "eur_usd": 1.1097548007965088
+  "last_run": "2026-11-12T20:42:22Z",
+  "last_reason": "engine[miss_short]: auto=0 ingested=0 fills=0 closed=4 open=0 session=open",
+  "eur_usd": 1.1057054996490479
 }

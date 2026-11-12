@@ -26,19 +26,31 @@
       "agent": "rule:news_event",
       "prefer_open": false,
       "decided_at": "2026-11-10T16:55:17Z",
-      "status": "filled",
+      "status": "closed",
       "fill": {
-        "time": "2026-11-10T16:55:18Z",
         "ticker": "NVDA",
-        "side": "sell_short",
-        "price_usd": 167.229996,
+        "side": "short",
+        "entry_day": "2026-11-10",
+        "exit_day": "2026-11-12",
+        "entry_usd": 167.229996,
+        "exit_usd": 164.524994,
         "shares": 0.333507,
-        "notional_eur": 50.0,
-        "cost_eur": 0.25,
+        "hold_days": 2,
+        "exit_reason": "time_exit",
+        "entry_cost_eur": 0.25,
+        "exit_cost_eur": 0.2481,
+        "pnl_eur": 0.32,
+        "pnl_pct_net": 0.6441,
         "reason": "[news_event] event=fraud_probe surprise=None gap=None guidance=none headline=NVDA INVESTOR ALERT: Securities Class Action Filed, NVIDIA Corporation Investors \u2192 short 2d",
-        "note": "filled at session price (market open)",
+        "rule_tags": [
+          "news_event",
+          "news_event",
+          "fraud_probe",
+          "news_short"
+        ],
         "decision_id": "news_event-NVDA-2026-11-10T16:55:17Z-33cd8f",
-        "book_id": "news_event"
+        "book_id": "news_event",
+        "closed_at": "2026-11-12T20:42:23Z"
       }
     },
     {

@@ -10,36 +10,9 @@
   "start_date": "2026-11-10",
   "start_capital_eur": 1000.0,
   "eur_usd_start": 1.1222084760665894,
-  "cash_eur": 889.02236,
-  "equity_eur": 1000.18,
+  "cash_eur": 876.5080491092698,
+  "equity_eur": 998.64,
   "positions": {
-    "MPAA": {
-      "ticker": "MPAA",
-      "side": "short",
-      "shares": 7.436326,
-      "entry_usd": 7.5,
-      "entry_eur": 6.72375,
-      "entry_notional_eur": 50.0,
-      "entry_cost_eur": 0.25,
-      "size": 0.05,
-      "entry_day": "2026-11-10",
-      "entry_time": "2026-11-10T16:50:43Z",
-      "exit_day": "2026-11-12",
-      "hold_days": 2,
-      "stop_loss": null,
-      "take_profit": null,
-      "reason": "EPS/sales miss real; FY27 sales cut $780-800M\u2192$715-740M, gap -19% \u2192 short 2d @5%",
-      "confidence": 0.78,
-      "rule_tags": [
-        "miss_short"
-      ],
-      "decision_id": "MPAA-2026-11-10T13:53:35Z-72c0fa",
-      "book_id": "agent",
-      "mark_usd": 7.619999885559082,
-      "mark_eur": 6.8664,
-      "unrealized_pnl_pct": -1.5748,
-      "trail_extreme": 7.239999771118164
-    },
     "DCTH": {
       "ticker": "DCTH",
       "side": "long",
@@ -60,10 +33,10 @@
       "rule_tags": [],
       "decision_id": "DCTH-2026-11-10T13:53:37Z-3a6d90",
       "book_id": "agent",
-      "mark_usd": 21.770000457763672,
-      "mark_eur": 19.6169,
-      "unrealized_pnl_pct": 0.8804,
-      "trail_extreme": 22.329999923706055
+      "mark_usd": 21.399999618530273,
+      "mark_eur": 19.3542,
+      "unrealized_pnl_pct": -0.8341,
+      "trail_extreme": 22.510000228881836
     },
     "LINC": {
       "ticker": "LINC",
@@ -85,14 +58,65 @@
       "rule_tags": [],
       "decision_id": "LINC-2026-11-10T13:53:37Z-740f17",
       "book_id": "agent",
-      "mark_usd": 23.510000228881836,
-      "mark_eur": 21.1849,
-      "unrealized_pnl_pct": 0.9446,
+      "mark_usd": 22.959999084472656,
+      "mark_eur": 20.765,
+      "unrealized_pnl_pct": -1.4169,
       "trail_extreme": 24.25
+    },
+    "FRMM": {
+      "ticker": "FRMM",
+      "side": "short",
+      "shares": 17.631491,
+      "entry_usd": 2.5,
+      "entry_eur": 2.261,
+      "entry_notional_eur": 39.86,
+      "entry_cost_eur": 0.1993,
+      "size": 0.04,
+      "entry_day": "2026-11-12",
+      "entry_time": "2026-11-12T20:42:18Z",
+      "exit_day": "2026-11-16",
+      "hold_days": 2,
+      "stop_loss": null,
+      "take_profit": null,
+      "trailing_stop": null,
+      "exit_at_close": false,
+      "trail_extreme": 2.0999999046325684,
+      "rule_name": null,
+      "reason": "FY26 rev guide cut $18-22M\u2192$8-9M (no AI compute rev 2026); rev miss \u2192 short 2d @4%",
+      "confidence": 0.72,
+      "rule_tags": [],
+      "decision_id": "FRMM-2026-11-12T13:46:28Z-a6dd4d",
+      "book_id": "agent",
+      "mark_usd": 2.3450000286102295,
+      "mark_eur": 2.1208,
+      "unrealized_pnl_pct": 6.6098
     }
   },
   "pending": [],
-  "closed_trades": [],
+  "closed_trades": [
+    {
+      "ticker": "MPAA",
+      "side": "short",
+      "entry_day": "2026-11-10",
+      "exit_day": "2026-11-12",
+      "entry_usd": 7.5,
+      "exit_usd": 7.72,
+      "shares": 7.436326,
+      "hold_days": 2,
+      "exit_reason": "time_exit",
+      "entry_cost_eur": 0.25,
+      "exit_cost_eur": 0.2596,
+      "pnl_eur": -1.99,
+      "pnl_pct_net": -3.8497,
+      "reason": "EPS/sales miss real; FY27 sales cut $780-800M\u2192$715-740M, gap -19% \u2192 short 2d @5%",
+      "rule_tags": [
+        "miss_short"
+      ],
+      "decision_id": "MPAA-2026-11-10T13:53:35Z-72c0fa",
+      "book_id": "agent",
+      "closed_at": "2026-11-12T20:42:18Z"
+    }
+  ],
   "equity_history": [
     {
       "day": "2026-11-10",
@@ -110,9 +134,9 @@
     },
     {
       "day": "2026-11-12",
-      "equity_eur": 1000.18,
-      "spy_eur": 1018.04,
-      "cash_eur": 889.02,
+      "equity_eur": 998.64,
+      "spy_eur": 1024.54,
+      "cash_eur": 876.51,
       "n_open": 3
     }
   ],
@@ -128,6 +152,12 @@
       "spy_eur": 1018.04,
       "spy_usd": 759.81,
       "eur_usd": 1.11689
+    },
+    {
+      "day": "2026-11-12",
+      "spy_eur": 1024.54,
+      "spy_usd": 757.0,
+      "eur_usd": 1.10571
     }
   ],
   "cost_pct": 0.005,
@@ -137,7 +167,7 @@
   "default_hold_days": 5,
   "stop_loss": null,
   "max_open": 8,
-  "last_run": "2026-11-12T10:02:11Z",
-  "last_reason": "engine[agent]: auto=0 ingested=0 fills=0 closed=0 open=3 session=pre",
-  "eur_usd": 1.1097548007965088
+  "last_run": "2026-11-12T20:42:19Z",
+  "last_reason": "engine[agent]: auto=0 ingested=1 fills=1 closed=1 open=3 session=open",
+  "eur_usd": 1.1057054996490479
 }
