@@ -139,7 +139,7 @@
     {
       "day": "2026-11-11",
       "equity_eur": 1012.86,
-      "spy_eur": NaN,
+      "spy_eur": null,
       "cash_eur": 1199.38,
       "n_open": 4
     }
@@ -153,8 +153,8 @@
     },
     {
       "day": "2026-11-11",
-      "spy_eur": NaN,
-      "spy_usd": NaN,
+      "spy_eur": null,
+      "spy_usd": null,
       "eur_usd": 1.11689
     }
   ],
