@@ -11,7 +11,7 @@
   "start_capital_eur": 1000.0,
   "eur_usd_start": 1.1222084760665894,
   "cash_eur": 889.02236,
-  "equity_eur": 1000.18,
+  "equity_eur": 1000.2,
   "positions": {
     "MPAA": {
       "ticker": "MPAA",
@@ -36,7 +36,7 @@
       "decision_id": "MPAA-2026-11-10T13:53:35Z-72c0fa",
       "book_id": "agent",
       "mark_usd": 7.62,
-      "mark_eur": 6.8664,
+      "mark_eur": 6.8679,
       "unrealized_pnl_pct": -1.5748,
       "trail_extreme": 7.239999771118164
     },
@@ -61,7 +61,7 @@
       "decision_id": "DCTH-2026-11-10T13:53:37Z-3a6d90",
       "book_id": "agent",
       "mark_usd": 21.77,
-      "mark_eur": 19.6169,
+      "mark_eur": 19.6213,
       "unrealized_pnl_pct": 0.8804,
       "trail_extreme": 22.315000534057617
     },
@@ -86,7 +86,7 @@
       "decision_id": "LINC-2026-11-10T13:53:37Z-740f17",
       "book_id": "agent",
       "mark_usd": 23.51,
-      "mark_eur": 21.1849,
+      "mark_eur": 21.1896,
       "unrealized_pnl_pct": 0.9446,
       "trail_extreme": 24.239999771118164
     }
@@ -103,7 +103,7 @@
     },
     {
       "day": "2026-11-11",
-      "equity_eur": 1000.18,
+      "equity_eur": 1000.2,
       "spy_eur": NaN,
       "cash_eur": 889.02,
       "n_open": 3
@@ -130,7 +130,7 @@
   "default_hold_days": 5,
   "stop_loss": null,
   "max_open": 8,
-  "last_run": "2026-11-12T01:55:21Z",
+  "last_run": "2026-11-12T02:17:20Z",
   "last_reason": "engine[agent]: auto=0 ingested=0 fills=0 closed=0 open=3 session=closed",
-  "eur_usd": 1.1097548007965088
+  "eur_usd": 1.1095085144042969
 }
