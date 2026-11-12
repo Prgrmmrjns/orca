@@ -591,8 +591,67 @@
       "agent": "chewbacca",
       "decided_at": "2026-11-11T21:41:42Z",
       "status": "skipped"
+    },
+    {
+      "id": "BGSI-2026-11-12T13:46:28Z-698abf",
+      "book_id": "agent",
+      "ticker": "BGSI",
+      "side": "skip",
+      "size": 0.0,
+      "hold": 0,
+      "reason": "EPS -26% miss real ($0.68 vs $0.92) but no guidance cut; on track $65M savings, margins up \u2192 skip",
+      "confidence": 0.85,
+      "stop_loss": null,
+      "take_profit": null,
+      "rule_tags": [
+        "miss_short"
+      ],
+      "surprise_pct": -26.09,
+      "gap_pct": -11.2994,
+      "guidance": "none",
+      "agent": "chewbacca",
+      "decided_at": "2026-11-12T13:46:28Z",
+      "status": "new"
+    },
+    {
+      "id": "FRMM-2026-11-12T13:46:28Z-a6dd4d",
+      "book_id": "agent",
+      "ticker": "FRMM",
+      "side": "short",
+      "size": 0.04,
+      "hold": 2,
+      "reason": "FY26 rev guide cut $18-22M\u2192$8-9M (no AI compute rev 2026); rev miss \u2192 short 2d @4%",
+      "confidence": 0.72,
+      "stop_loss": null,
+      "take_profit": null,
+      "rule_tags": [],
+      "surprise_pct": null,
+      "gap_pct": 0.3546,
+      "guidance": "none",
+      "agent": "chewbacca",
+      "decided_at": "2026-11-12T13:46:28Z",
+      "status": "new"
+    },
+    {
+      "id": "MOVE-2026-11-12T13:46:29Z-31dcd8",
+      "book_id": "agent",
+      "ticker": "MOVE",
+      "side": "skip",
+      "size": 0.0,
+      "hold": 0,
+      "reason": "Rev ~$5.0M vs ~$5.5M / EPS -$0.60 vs ~-$0.09 miss but no guidance cut; ops narrative mixed \u2192 skip",
+      "confidence": 0.8,
+      "stop_loss": null,
+      "take_profit": null,
+      "rule_tags": [],
+      "surprise_pct": null,
+      "gap_pct": 1.6129,
+      "guidance": "none",
+      "agent": "chewbacca",
+      "decided_at": "2026-11-12T13:46:29Z",
+      "status": "new"
     }
   ],
-  "updated_at": "2026-11-11T21:41:42Z",
+  "updated_at": "2026-11-12T13:46:29Z",
   "book_id": "agent"
 }
