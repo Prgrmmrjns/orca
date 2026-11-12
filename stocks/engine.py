@@ -773,6 +773,14 @@ def append_equity(led: dict) -> None:
             if r["day"] == today:
                 spy_today = r["spy_eur"]
                 break
+    # Never persist non-finite SPY marks (breaks Starlette JSONResponse)
+    try:
+        if spy_today is not None and (
+            spy_today != spy_today or spy_today in (float("inf"), float("-inf"))
+        ):
+            spy_today = None
+    except Exception:
+        spy_today = None
     hist = [h for h in led.get("equity_history") or [] if h.get("day") != today]
     hist.append(
         {

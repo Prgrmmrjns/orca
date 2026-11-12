@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+import math
 import os
 from datetime import datetime, timezone
 from pathlib import Path
@@ -52,6 +53,27 @@ def require_paper() -> None:
         raise RuntimeError("Orca demo is paper-only")
 
 
+def json_safe(obj):
+    """NaN/Inf → None so Starlette JSONResponse (allow_nan=False) never 500s."""
+    if isinstance(obj, float):
+        return None if not math.isfinite(obj) else obj
+    if isinstance(obj, dict):
+        return {k: json_safe(v) for k, v in obj.items()}
+    if isinstance(obj, (list, tuple)):
+        return [json_safe(v) for v in obj]
+    return obj
+
+
+def _finite(v) -> float | None:
+    try:
+        if v is None:
+            return None
+        x = float(v)
+        return x if math.isfinite(x) else None
+    except Exception:
+        return None
+
+
 def _state_dir() -> Path:
     here = Path(__file__).resolve().parent
     for cand in (here.parent / "state" / "stocks", here / "state" / "stocks"):
@@ -78,16 +100,22 @@ def _win_rate(closed: list[dict]) -> float | None:
 
 def _spy_return(led: dict, start: float) -> float | None:
     """Return % of SPY (EUR-normalized) since forward-test start, vs start capital."""
+    if not start:
+        return None
     hist = led.get("equity_history") or []
     spy_hist = led.get("spy_history") or []
     spy_now = None
     if hist:
-        spy_now = hist[-1].get("spy_eur")
+        spy_now = _finite(hist[-1].get("spy_eur"))
     if spy_now is None and spy_hist:
-        spy_now = spy_hist[-1].get("spy_eur")
+        # Prefer last finite SPY print (skip NaN days left in old ledgers)
+        for row in reversed(spy_hist):
+            spy_now = _finite(row.get("spy_eur"))
+            if spy_now is not None:
+                break
     if spy_now is None:
         return None
-    return round((float(spy_now) / start - 1) * 100, 2)
+    return round((spy_now / start - 1) * 100, 2)
 
 
 def _strategy_configs() -> dict[str, dict]:
@@ -110,11 +138,13 @@ def _strategy_configs() -> dict[str, dict]:
 
 
 def _book_summary(book_id: str, led: dict, decs: dict, strategy_config: dict | None = None) -> dict:
-    start = float(led.get("start_capital_eur") or 1000)
-    eq = float(led.get("equity_eur") or start)
+    start = _finite(led.get("start_capital_eur")) or 1000.0
+    eq = _finite(led.get("equity_eur")) or start
     closed = led.get("closed_trades") or []
     positions = []
     for t, p in (led.get("positions") or {}).items():
+        if not isinstance(p, dict):
+            continue
         positions.append(
             {
                 "ticker": t,
@@ -138,7 +168,7 @@ def _book_summary(book_id: str, led: dict, decs: dict, strategy_config: dict | N
         "kind": led.get("kind") or ("agent" if book_id == "agent" else "rule"),
         "rules": led.get("rules") or led.get("note") or "",
         "equity_eur": round(eq, 2),
-        "cash_eur": round(float(led.get("cash_eur") or 0), 2),
+        "cash_eur": round(_finite(led.get("cash_eur")) or 0.0, 2),
         "return_pct": ret,
         "spy_return_pct": spy_ret,
         "vs_spy_pct": vs_spy,
@@ -189,37 +219,64 @@ def snapshot() -> dict:
     cfg_map = _strategy_configs()
     news_cfg = cfg_map.get("news_event")
     books = []
+    book_errors: list[dict] = []
     for bid in book_ids:
-        led_path = state / "books" / bid / "ledger.json"
-        dec_path = state / "books" / bid / "decisions.json"
-        if not led_path.exists() and bid == "agent":
-            led_path = state / "ledger.json"
-            dec_path = state / "decisions.json"
-        led = _load(led_path, {})
-        if not led:
-            led = {
-                "mode": "paper",
-                "book_id": bid,
-                "strategy_title": BOOK_TITLES.get(bid, bid),
-                "kind": "agent" if bid == "agent" else "rule",
-                "start_capital_eur": 1000,
-                "cash_eur": 1000,
-                "equity_eur": 1000,
-                "positions": {},
-                "pending": [],
-                "closed_trades": [],
-                "equity_history": [{"day": START, "equity_eur": 1000, "spy_eur": 1000}],
-                "cost_pct": 0.005,
-            }
-        decs = _load(dec_path, {"decisions": []})
-        books.append(
-            _book_summary(
-                bid,
-                led,
-                decs,
-                strategy_config=cfg_map.get(bid) if bid in CONFIG_BOOK_IDS else None,
+        try:
+            led_path = state / "books" / bid / "ledger.json"
+            dec_path = state / "books" / bid / "decisions.json"
+            if not led_path.exists() and bid == "agent":
+                led_path = state / "ledger.json"
+                dec_path = state / "decisions.json"
+            led = _load(led_path, {})
+            if not led:
+                led = {
+                    "mode": "paper",
+                    "book_id": bid,
+                    "strategy_title": BOOK_TITLES.get(bid, bid),
+                    "kind": "agent" if bid == "agent" else "rule",
+                    "start_capital_eur": 1000,
+                    "cash_eur": 1000,
+                    "equity_eur": 1000,
+                    "positions": {},
+                    "pending": [],
+                    "closed_trades": [],
+                    "equity_history": [{"day": START, "equity_eur": 1000, "spy_eur": 1000}],
+                    "cost_pct": 0.005,
+                }
+            decs = _load(dec_path, {"decisions": []})
+            books.append(
+                _book_summary(
+                    bid,
+                    led,
+                    decs,
+                    strategy_config=cfg_map.get(bid) if bid in CONFIG_BOOK_IDS else None,
+                )
             )
-        )
+        except Exception as exc:
+            book_errors.append({"id": bid, "error": f"{type(exc).__name__}: {exc}"})
+            books.append(
+                {
+                    "id": bid,
+                    "title": BOOK_TITLES.get(bid, bid),
+                    "kind": "agent" if bid == "agent" else "rule",
+                    "rules": "",
+                    "equity_eur": 1000.0,
+                    "cash_eur": 1000.0,
+                    "return_pct": 0.0,
+                    "spy_return_pct": None,
+                    "vs_spy_pct": None,
+                    "n_open": 0,
+                    "n_pending": 0,
+                    "n_closed": 0,
+                    "win_rate_pct": None,
+                    "positions": [],
+                    "pending": [],
+                    "closed_trades": [],
+                    "equity_history": [],
+                    "spy_history": [],
+                    "error": f"{type(exc).__name__}: {exc}",
+                }
+            )
 
     # Agent book shorthand for older clients
     agent = next((b for b in books if b["id"] == "agent"), books[0] if books else {})
@@ -228,56 +285,63 @@ def snapshot() -> dict:
     if not agent_dec_path.exists():
         agent_dec_path = state / "decisions.json"
     for d in (_load(agent_dec_path, {}).get("decisions") or []):
-        if d.get("ticker"):
+        if isinstance(d, dict) and d.get("ticker"):
             decisions[d["ticker"]] = d
 
     today_cands = []
     for c in cands.get("candidates") or []:
-        d = decisions.get(c.get("ticker"))
-        today_cands.append(
-            {
-                **{
-                    k: c.get(k)
-                    for k in (
-                        "ticker",
-                        "name",
-                        "surprise_pct",
-                        "gap_pct",
-                        "guidance",
-                        "tone",
-                        "headline",
-                        "rule_tags",
-                        "suggested_side",
-                        "suggested_hold",
-                        "exhibit_url",
-                        "filing_url",
-                        "cal_date",
-                        "timing",
-                        "spy_above_ma50",
-                        "source",
-                        "news_event_type",
-                        "news_direction",
-                        "news_side",
-                        "news_actionable",
-                    )
-                },
-                "decision": None
-                if not d
-                else {
-                    "side": d.get("side"),
-                    "size": d.get("size"),
-                    "hold": d.get("hold"),
-                    "reason": d.get("reason"),
-                    "confidence": d.get("confidence"),
-                    "status": d.get("status"),
-                    "book_id": d.get("book_id") or "agent",
-                },
-            }
-        )
+        if not isinstance(c, dict):
+            continue
+        try:
+            d = decisions.get(c.get("ticker"))
+            today_cands.append(
+                {
+                    **{
+                        k: c.get(k)
+                        for k in (
+                            "ticker",
+                            "name",
+                            "surprise_pct",
+                            "gap_pct",
+                            "guidance",
+                            "tone",
+                            "headline",
+                            "rule_tags",
+                            "suggested_side",
+                            "suggested_hold",
+                            "exhibit_url",
+                            "filing_url",
+                            "cal_date",
+                            "timing",
+                            "spy_above_ma50",
+                            "source",
+                            "news_event_type",
+                            "news_direction",
+                            "news_side",
+                            "news_actionable",
+                        )
+                    },
+                    "decision": None
+                    if not d
+                    else {
+                        "side": d.get("side"),
+                        "size": d.get("size"),
+                        "hold": d.get("hold"),
+                        "reason": d.get("reason"),
+                        "confidence": d.get("confidence"),
+                        "status": d.get("status"),
+                        "book_id": d.get("book_id") or "agent",
+                    },
+                }
+            )
+        except Exception:
+            continue
 
     rules = cands.get("rules") or {b["id"]: b.get("rules") or "" for b in books}
     news_items = []
     for it in (news.get("items") or [])[:40]:
+        if not isinstance(it, dict):
+            continue
         news_items.append(
             {
                 "id": it.get("id"),
@@ -293,7 +357,7 @@ def snapshot() -> dict:
             }
         )
 
-    return {
+    payload = {
         "mode": "paper",
         "product": "stocks-earnings-multi-book",
         "orders": "paper",
@@ -333,3 +397,6 @@ def snapshot() -> dict:
         "candidates": today_cands,
         "rules": rules,
     }
+    if book_errors:
+        payload["book_errors"] = book_errors
+    return json_safe(payload)

@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+import math
 import shutil
 from pathlib import Path
 
@@ -19,6 +20,19 @@ NEWS = STATE / "news.json"
 # Legacy single-book paths (migrated into books/agent/)
 LEGACY_DECISIONS = STATE / "decisions.json"
 LEGACY_LEDGER = STATE / "ledger.json"
+
+
+def json_safe(obj):
+    """Replace NaN/Inf with None so json.dumps(..., allow_nan=False) never fails."""
+    if isinstance(obj, float):
+        return None if not math.isfinite(obj) else obj
+    if isinstance(obj, dict):
+        return {k: json_safe(v) for k, v in obj.items()}
+    if isinstance(obj, list):
+        return [json_safe(v) for v in obj]
+    if isinstance(obj, tuple):
+        return [json_safe(v) for v in obj]
+    return obj
 
 
 def ensure_dirs() -> None:
@@ -62,7 +76,9 @@ def read_json(path: Path, default=None):
 def write_json(path: Path, data) -> None:
     ensure_dirs()
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(data, indent=2, default=str) + "\n")
+    path.write_text(
+        json.dumps(json_safe(data), indent=2, default=str, allow_nan=False) + "\n"
+    )
     # Mirror into demo/ so Vercel (root=demo/) can serve it
     if path.is_relative_to(STATE):
         rel = path.relative_to(STATE)

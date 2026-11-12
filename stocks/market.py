@@ -161,7 +161,11 @@ def spy_above_ma50() -> bool | None:
 
 
 def spy_history_eur(start: str = "2026-11-10") -> list[dict]:
-    """Daily SPY close converted to EUR index starting at 1000."""
+    """Daily SPY close converted to EUR index starting at 1000.
+
+    Skips days with non-finite SPY/FX prints so ledgers never store NaN
+    (Starlette JSONResponse uses allow_nan=False and would 500 the demo API).
+    """
     try:
         spy = yf.Ticker("SPY").history(start=start, auto_adjust=True)
         fx = yf.Ticker("EURUSD=X").history(start=start, auto_adjust=True)
@@ -172,24 +176,40 @@ def spy_history_eur(start: str = "2026-11-10") -> list[dict]:
         start_fx = None
         for ts, row in spy.iterrows():
             d = ts.tz_convert(ET).date().isoformat() if getattr(ts, "tzinfo", None) else ts.date().isoformat()
-            px = float(row["Close"])
+            px = _f(row["Close"])
+            if px is None or px <= 0:
+                continue
+            rate = None
             try:
                 fx_row = fx.loc[fx.index.normalize() == ts.normalize()]
-                rate = float(fx_row["Close"].iloc[-1]) if len(fx_row) else None
+                rate = _f(fx_row["Close"].iloc[-1]) if len(fx_row) else None
             except Exception:
                 rate = None
-            if rate is None:
+            if rate is None or rate <= 0:
                 # nearest prior
                 try:
                     prior = fx[fx.index <= ts]
-                    rate = float(prior["Close"].iloc[-1]) if len(prior) else eurusd()
+                    rate = _f(prior["Close"].iloc[-1]) if len(prior) else _f(eurusd())
                 except Exception:
-                    rate = eurusd()
+                    rate = _f(eurusd())
+            if rate is None or rate <= 0:
+                continue
             if start_px is None:
                 start_px, start_fx = px, rate
+            if not start_px or not start_fx:
+                continue
             # SPY in EUR terms relative to start equity 1000
             spy_eur = 1000.0 * (px / start_px) * (start_fx / rate)
-            rows.append({"day": d, "spy_eur": round(spy_eur, 2), "spy_usd": round(px, 4), "eur_usd": round(rate, 5)})
+            if spy_eur != spy_eur:  # NaN guard
+                continue
+            rows.append(
+                {
+                    "day": d,
+                    "spy_eur": round(spy_eur, 2),
+                    "spy_usd": round(px, 4),
+                    "eur_usd": round(rate, 5),
+                }
+            )
         return rows
     except Exception:
         return []
