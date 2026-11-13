@@ -1,6 +1,6 @@
 {
   "mode": "paper",
-  "as_of": "2026-11-13T18:29:03Z",
+  "as_of": "2026-11-13T23:12:10Z",
   "as_of_et": "2026-11-13 13:29 ET",
   "forward_test_start": "2026-11-10",
   "spy_above_ma50": false,
@@ -27,7 +27,7 @@
     "guidance_raise_score": "Config: long guidance_raise \u00b7 score-scaled size (|EPS| or |gap| vs 10%, 0.25x\u20132x) \u00b7 max 8 \u00b7 hold 2d \u00b7 no stop \u00b7 next_open (config/strategies/guidance_raise_score.yaml). Box test +4.5%.",
     "gap_filtered_guidance": "Config: long guidance_raise with gap \u22655% \u00b7 5% \u00b7 max 8 \u00b7 hold 5d \u00b7 no stop \u00b7 next_open (config/strategies/gap_filtered_guidance.yaml). Box test +4.4%.",
     "wide_capacity": "Config: quality longs \u00b7 5% \u00b7 max 15 \u00b7 hold 2d \u00b7 no stop \u00b7 next_open (config/strategies/wide_capacity.yaml). Box test +2.1%.",
-    "bigmove_unified_v1": "Fade offering / PR-pop / M&A gap-downs and selective gap-down fades across pre/regular/after hours. Alert-only mega-cap shocks. No earnings/guidance chase. 5% \u00b7 max 20 \u00b7 hold 5d \u00b7 0.5%/fill + 0.5% ext slippage \u00b7 config/strategies/bigmove_unified_v1.yaml.",
+    "bigmove_unified_v1": "Fade offering / PR-pop / M&A gap-downs and selective gap-down fades across pre/regular/after hours. Alert-only mega-cap shocks. No earnings/guidance chase.\n",
     "bigmove_eu_v1": "EU liquid large/mid caps: fade \u226510% gap-downs (earnings / other-PR / no-news) on Xetra/Euronext primary hours (09:00\u201317:30 Berlin). Gap-up shorts dropped after EU event study. Alert-only mega-cap shocks. No earnings/guidance chase. 5% \u00b7 max 20 \u00b7 hold 5d \u00b7 0.5%/fill (+0.5% outside primary) \u00b7 config/strategies/bigmove_eu_v1.yaml."
   },
   "candidates": [
@@ -17250,6 +17250,66 @@
       "rule_tags": [],
       "suggested_side": null,
       "suggested_hold": null
+    },
+    {
+      "ticker": "AMD",
+      "name": "AMD",
+      "cal_date": "2026-11-13",
+      "gap_pct": -10.6954,
+      "last": 522.7,
+      "prev_close": 585.2999877929688,
+      "rel_vol": 5.799,
+      "adv20_usd": 16920631814.901276,
+      "avg_dollar_volume": 16920631814.901276,
+      "spy_above_ma50": false,
+      "session": "after",
+      "headline": "AMD and other chip stocks slide as Wall Street rethinks the AI trade without Jensen Huang",
+      "news_event_type": "other_8k",
+      "news_direction": "bearish",
+      "news_side": null,
+      "news_actionable": true,
+      "news_source": "marketwatch",
+      "news_id": "23788f63f3197bbd",
+      "filing_url": "https://www.marketwatch.com/story/amd-and-other-chip-stocks-slide-as-wall-street-rethinks-the-ai-trade-without-jensen-huang-2fb74547?mod=mw_rss_topstories",
+      "rule_tags": [
+        "bigmove",
+        "other_8k",
+        "bigmove_unified_v1"
+      ],
+      "source": "bigmove_move_trigger",
+      "suggested_side": null,
+      "suggested_hold": 5,
+      "as_of": "2026-11-13T23:11:28Z"
+    },
+    {
+      "ticker": "DNA",
+      "name": "DNA",
+      "cal_date": "2026-11-13",
+      "gap_pct": -5.6696,
+      "last": 9.65,
+      "prev_close": 10.229999542236328,
+      "rel_vol": 1.046,
+      "adv20_usd": 28047687.70963669,
+      "avg_dollar_volume": 28047687.70963669,
+      "spy_above_ma50": false,
+      "session": "after",
+      "headline": "HTL Biotechnology launches HTL8, a production unit dedicated to pharmaceutical-grade polynucleotides (DNA)",
+      "news_event_type": "other_8k",
+      "news_direction": "bearish",
+      "news_side": null,
+      "news_actionable": true,
+      "news_source": "prnewswire",
+      "news_id": "fc6dceb836b242b5",
+      "filing_url": "https://www.prnewswire.com/news-releases/htl-biotechnology-launches-htl8-a-production-unit-dedicated-to-pharmaceutical-grade-polynucleotides-dna-302937819.html",
+      "rule_tags": [
+        "bigmove",
+        "other_8k",
+        "bigmove_unified_v1"
+      ],
+      "source": "bigmove_move_trigger",
+      "suggested_side": null,
+      "suggested_hold": 5,
+      "as_of": "2026-11-13T23:11:54Z"
     }
   ],
   "news_merged_at": "2026-11-13T22:33:21Z"
