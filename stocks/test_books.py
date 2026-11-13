@@ -94,6 +94,7 @@ class ReplayTests(unittest.TestCase):
                 "gap_filtered_guidance",
                 "wide_capacity",
                 "bigmove_unified_v1",
+                "bigmove_eu_v1",
             }:
                 continue  # news/config books — see test_strategy_config / test_tuned_books / test_bigmove
             sim = simulate_book(book, SAMPLE_CANDIDATES)

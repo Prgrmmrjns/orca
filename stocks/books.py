@@ -303,6 +303,27 @@ BOOKS: list[BookSpec] = [
         matcher=make_config_matcher("bigmove_unified_v1"),
         started="2026-11-13",
     ),
+    # European primary-session gap-fade book (paper, start 2026-11-13). Existing books unchanged.
+    BookSpec(
+        id="bigmove_eu_v1",
+        title="Bigmove EU v1",
+        kind="rule",
+        description=(
+            "EU liquid large/mid caps: fade ≥10% gap-downs (earnings / other-PR / no-news) "
+            "on Xetra/Euronext primary hours (09:00–17:30 Berlin). Gap-up shorts dropped "
+            "after EU event study. Alert-only mega-cap shocks. No earnings/guidance chase. "
+            "5% · max 20 · hold 5d · 0.5%/fill (+0.5% outside primary) · "
+            "config/strategies/bigmove_eu_v1.yaml."
+        ),
+        size=0.05,
+        hold_days=5,
+        max_open=20,
+        stop_loss=None,
+        side="dynamic",
+        prefer_open=False,
+        matcher=make_config_matcher("bigmove_eu_v1"),
+        started="2026-11-13",
+    ),
 ]
 
 BOOK_BY_ID: dict[str, BookSpec] = {b.id: b for b in BOOKS}

@@ -1,0 +1,116 @@
+name: stocks-bigmove-eu
+
+# Dense paper cadence for bigmove_eu_v1 across European primary hours (Berlin).
+# Free yfinance has no reliable Tradegate/L&S 08:00–22:00 prints — cover Xetra/
+# Euronext primary ≈09:00–17:30 Berlin only. Cron alone is unreliable on free
+# Actions — each run also loops ~22 min polling every ~2.5 min.
+# Concurrency group prevents overlapping ledger writes; push uses rebase/retry.
+on:
+  schedule:
+    # Every ~30 min from 08:00–16:59 UTC weekdays ≈ 09:00–17:59 Berlin (CET)
+    # and ≈10:00–18:59 Berlin (CEST). Slightly wide to cover both DST offsets.
+    - cron: "5,35 8-16 * * 1-5"
+  workflow_dispatch:
+  repository_dispatch:
+    types: [orca-stocks-tick, orca-stocks-bigmove-eu]
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/stocks-bigmove-eu.yml"
+      - "config/strategies/bigmove_eu_v1.yaml"
+      - "stocks/bigmove_eu.py"
+      - "stocks/eu_news.py"
+      - "stocks/eu_universe.py"
+      - "stocks/engine.py"
+      - "stocks/strategy_config.py"
+      - "stocks/market.py"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stocks-bigmove-eu
+  cancel-in-progress: false
+
+jobs:
+  bigmove-eu:
+    runs-on: ubuntu-latest
+    # Loop ~22 min + setup/commit headroom
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install "yfinance>=0.2.40" pandas requests lxml beautifulsoup4 html5lib pyarrow feedparser pyyaml
+
+      - name: Skip European holidays
+        id: holiday
+        run: |
+          python - <<'PY'
+          import os, sys
+          from pathlib import Path
+          sys.path.insert(0, ".")
+          from stocks.market import is_eu_holiday, now_berlin
+          d = now_berlin().date()
+          skip = "true" if is_eu_holiday(d) else "false"
+          print(f"EU calendar {d} skip={skip}")
+          out = os.environ.get("GITHUB_OUTPUT")
+          if out:
+              with open(out, "a") as f:
+                  f.write(f"skip={skip}\n")
+          PY
+
+      - name: Init books if missing
+        if: steps.holiday.outputs.skip != 'true'
+        env:
+          ORCA_MODE: paper
+        run: python -m stocks init
+
+      - name: Poll EU news + movers + engine loop
+        if: steps.holiday.outputs.skip != 'true'
+        env:
+          ORCA_MODE: paper
+        run: |
+          set +e
+          # ~22 min × ~2.5 min polls ≈ 8–9 cycles per scheduled fire
+          python -m stocks bigmove-eu --loop --duration-minutes 22 --poll-seconds 150
+          ec=$?
+          if [ $ec -ne 0 ]; then
+            echo "bigmove-eu loop exited $ec — attempting single scan + engine"
+            python -m stocks bigmove-eu --once || true
+            python -m stocks engine --apply --book bigmove_eu_v1 || true
+          fi
+          exit 0
+
+      - name: Commit bigmove EU state if changed
+        if: steps.holiday.outputs.skip != 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "orca-stocks-bot"
+          git config user.email "orca-bot@users.noreply.github.com"
+          git add state/stocks/ demo/state/stocks/ || true
+          if git diff --cached --quiet; then
+            echo "no bigmove_eu state changes"
+          else
+            git commit -m "stocks: bigmove_eu_v1 tick $(date -u +%Y-%m-%dT%H:%MZ)"
+            for i in 1 2 3 4; do
+              git pull --rebase --autostash origin main || true
+              if git push origin HEAD:main; then
+                exit 0
+              fi
+              echo "push conflict; rebase retry $i"
+              sleep $((i * 8))
+            done
+            echo "push failed after retries (non-fatal)"
+          fi

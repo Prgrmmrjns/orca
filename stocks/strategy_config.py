@@ -31,7 +31,11 @@ TUNED_NEWS_BOOK_IDS: list[str] = [
 
 # Extended-hours / big-move fade book (paper, start 2026-11-13).
 BIGMOVE_BOOK_ID = "bigmove_unified_v1"
+# European primary-session big-move fade book (paper, start 2026-11-13).
+BIGMOVE_EU_BOOK_ID = "bigmove_eu_v1"
 EXTENDED_HOURS_BOOK_IDS: list[str] = [BIGMOVE_BOOK_ID]
+# EU book fills on Berlin primary session only (no free Tradegate ext data).
+EU_SESSION_BOOK_IDS: list[str] = [BIGMOVE_EU_BOOK_ID]
 
 # Classifier source ids → config source labels
 SOURCE_ALIASES: dict[str, str] = {
@@ -49,6 +53,13 @@ SOURCE_ALIASES: dict[str, str] = {
     "marketwatch": "MarketWatch",
     "marketwatch_realtime": "MarketWatch",
     "news": "PRN",  # generic news candidate source → allow all-source rules via skip
+    # EU free aggregators → config source labels
+    "eqs_google": "EQS",
+    "eqs": "EQS",
+    "dgap": "EQS",
+    "wso_nachrichten": "WSO",
+    "finanzen_net": "Finanzen",
+    "yahoo_eu": "YahooEU",
 }
 
 # Config category ↔ classifier event_type aliases
@@ -76,6 +87,7 @@ CATEGORY_ALIASES: dict[str, set[str]] = {
 }
 
 ALL_SOURCES = ["8-K", "PRN", "CNBC", "MarketWatch"]
+EU_SOURCES = ["EQS", "WSO", "Finanzen", "YahooEU", "8-K", "PRN", "CNBC", "MarketWatch"]
 
 VALID_SIDES = {"long", "short"}
 VALID_ENTRY = {"next_open", "next_bar"}
@@ -266,6 +278,8 @@ def is_config_driven_book(book_id: str) -> bool:
         return True
     if book_id == BIGMOVE_BOOK_ID:
         return True
+    if book_id == BIGMOVE_EU_BOOK_ID:
+        return True
     return strategy_path(book_id).exists()
 
 
@@ -277,6 +291,17 @@ def allows_extended_hours(book_id: str, led: dict | None = None) -> bool:
         return True
     try:
         return bool(load_strategy_config(book_id).allow_extended_hours)
+    except Exception:
+        return False
+
+
+def uses_eu_session(book_id: str) -> bool:
+    """True when fills/exits should use Berlin primary-session clock."""
+    if book_id in EU_SESSION_BOOK_IDS:
+        return True
+    try:
+        cfg = load_strategy_config(book_id)
+        return bool(getattr(cfg, "region", None) == "EU" or book_id.endswith("_eu_v1"))
     except Exception:
         return False
 
@@ -663,7 +688,7 @@ def normalize_source(src: str | None) -> str | None:
     if not src:
         return None
     key = str(src).strip().lower()
-    if key in {"news", "move_trigger", "bigmove_move_trigger"}:
+    if key in {"news", "move_trigger", "bigmove_move_trigger", "bigmove_eu_move_trigger"}:
         return None  # unknown / synthetic wire — do not filter out
     return SOURCE_ALIASES.get(key, src)
 

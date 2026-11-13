@@ -1,6 +1,6 @@
 # Orca — multi-book US earnings paper forward test
 
-**Paper-only** side-by-side forward test of **13** strategies (12 since **2026-11-10**, plus `bigmove_unified_v1` from **2026-11-13**; EUR **1,000 each**). Live: [orca-paper.vercel.app](https://orca-paper.vercel.app).
+**Paper-only** side-by-side forward test of **14** strategies (12 since **2026-11-10**, plus `bigmove_unified_v1` and `bigmove_eu_v1` from **2026-11-13**; EUR **1,000 each**). Live: [orca-paper.vercel.app](https://orca-paper.vercel.app).
 
 > **Safety:** `mode: paper` only. No broker API, no real orders, no keys with trade/withdraw rights. `ORCA_MODE` must stay `paper`.
 
@@ -16,8 +16,9 @@
 | `news_event` | Engine | config-driven (`config/strategies/news_event.yaml`) · defaults: bullish/bearish · 5% · max 6 · hold 2 · 8% stop |
 | `guidance_raise_tuned` / `dilution_shorts_tuned` / `quality_longs_tuned` / `guidance_raise_score` / `gap_filtered_guidance` / `wide_capacity` | Engine | tuned news configs from box backtest · each €1,000 paper · next_open · mostly no stop |
 | `bigmove_unified_v1` | Engine + bigmove loop | Fade offering / PR-pop / M&A gaps + selective gap-down fades across **pre / regular / after** · 5% · max 20 · hold 5 · 0.5%/fill **+ 0.5% ext slippage** · mega-cap shocks **alert only** · no earnings/guidance chase · start 2026-11-13 |
+| `bigmove_eu_v1` | Engine + bigmove-eu loop | EU liquid large/mid caps: fade **≥10% gap-downs** (earnings / other-PR / no-news) on **primary hours 09:00–17:30 Berlin** · 5% · max 20 · hold 5 · 0.5%/fill (+0.5% outside primary) · STOXX/DAX regime · alert-only mega-caps · no gap-up shorts (EU event study) · start 2026-11-13 |
 
-Shared candidates + `state/stocks/news.json`; independent ledgers. Cost **0.5%**/fill (bigmove adds configurable **0.5%** outside RTH); EUR sizing via **EURUSD=X**. Paper shorts have **no borrow model**.
+Shared candidates + `state/stocks/news.json`; independent ledgers. Cost **0.5%**/fill (bigmove adds configurable **0.5%** outside primary/RTH); EUR sizing via **EURUSD=X** (EU quotes converted when needed). Paper shorts have **no borrow model**.
 
 ## Commands
 
@@ -26,9 +27,12 @@ python -m stocks scan                  # earnings calendar candidates
 python -m stocks news                  # 24/7 news → news.json + candidate merge
 python -m stocks bigmove --once        # EDGAR 8-K/424B/SC TO + move triggers (bigmove book)
 python -m stocks bigmove --loop        # ~22 min poll every ~2.5 min + engine ticks
+python -m stocks bigmove-eu --once     # EQS/DGAP aggregators + EU movers (bigmove_eu book)
+python -m stocks bigmove-eu --loop     # ~22 min poll every ~2.5 min + engine ticks (Berlin primary)
 python -m stocks.decide --ticker TICK --side long --size 0.08 --hold 5 --reason "..."  # agent book only
 python -m stocks engine --apply        # all books: auto-decide rules + fill/exit/mark
 python -m stocks engine --apply --book bigmove_unified_v1
+python -m stocks engine --apply --book bigmove_eu_v1
 python -m stocks init                  # ensure all books exist (€1,000; does not wipe existing)
 python -m stocks replay --live         # rule dry-run over sample + live candidates
 ```
@@ -43,6 +47,7 @@ See `AGENT.md` and `stocks/DECISION_PROMPT.md` for the deciding-agent loop (**ag
 | `stocks-scanner` | ~every 30 min weekdays UTC (`7,37 * * * 1-5`) | earnings calendar |
 | `stocks-engine` | every 15 min during US RTH window + after close | regular session fills/marks for all books |
 | `stocks-bigmove` | every ~30 min **08:00–00:00 UTC weekdays**, each run loops **~22 min** polling every **~2.5 min** | **US pre 04:00–09:30 ET**, **regular 09:30–16:00 ET**, **after 16:00–20:00 ET** (weekdays). Concurrency group `stocks-bigmove`; rebase/retry on push. |
+| `stocks-bigmove-eu` | every ~30 min **08:00–16:59 UTC weekdays**, each run loops **~22 min** polling every **~2.5 min** | **EU primary ≈09:00–17:30 Berlin** (no free Tradegate/L&S). Skips EU holidays. Concurrency group `stocks-bigmove-eu`; rebase/retry on push. |
 | `stocks-decide` | `workflow_dispatch` | manual agent helper |
 
 ### Bigmove hours & cadence

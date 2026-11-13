@@ -7,7 +7,9 @@ import sys
 
 def main() -> int:
     if len(sys.argv) < 2 or sys.argv[1] in {"-h", "--help"}:
-        print("usage: python -m stocks <scan|news|engine|decide|init|replay|bigmove> [args...]")
+        print(
+            "usage: python -m stocks <scan|news|engine|decide|init|replay|bigmove|bigmove-eu> [args...]"
+        )
         return 0
     cmd = sys.argv[1]
     sys.argv = [sys.argv[0]] + sys.argv[2:]
@@ -41,6 +43,10 @@ def main() -> int:
         return m()
     if cmd == "bigmove":
         from stocks.bigmove import main as m
+
+        return m()
+    if cmd in {"bigmove-eu", "bigmove_eu"}:
+        from stocks.bigmove_eu import main as m
 
         return m()
     print(f"unknown command: {cmd}", file=sys.stderr)
