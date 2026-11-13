@@ -11,7 +11,7 @@
   "start_capital_eur": 1000.0,
   "eur_usd_start": 1.1222084760665894,
   "cash_eur": 876.5080491092698,
-  "equity_eur": 998.36,
+  "equity_eur": 998.32,
   "positions": {
     "DCTH": {
       "ticker": "DCTH",
@@ -34,7 +34,7 @@
       "decision_id": "DCTH-2026-11-10T13:53:37Z-3a6d90",
       "book_id": "agent",
       "mark_usd": 21.38,
-      "mark_eur": 19.3318,
+      "mark_eur": 19.3254,
       "unrealized_pnl_pct": -0.9268,
       "trail_extreme": 22.510000228881836
     },
@@ -59,7 +59,7 @@
       "decision_id": "LINC-2026-11-10T13:53:37Z-740f17",
       "book_id": "agent",
       "mark_usd": 22.98,
-      "mark_eur": 20.7785,
+      "mark_eur": 20.7716,
       "unrealized_pnl_pct": -1.331,
       "trail_extreme": 24.25
     },
@@ -88,7 +88,7 @@
       "decision_id": "FRMM-2026-11-12T13:46:28Z-a6dd4d",
       "book_id": "agent",
       "mark_usd": 2.36,
-      "mark_eur": 2.1339,
+      "mark_eur": 2.1332,
       "unrealized_pnl_pct": 5.9322
     }
   },
@@ -134,7 +134,7 @@
     },
     {
       "day": "2026-11-12",
-      "equity_eur": 998.36,
+      "equity_eur": 998.32,
       "spy_eur": 1018.04,
       "cash_eur": 876.51,
       "n_open": 3
@@ -161,7 +161,7 @@
   "default_hold_days": 5,
   "stop_loss": null,
   "max_open": 8,
-  "last_run": "2026-11-13T01:04:28Z",
+  "last_run": "2026-11-13T01:29:24Z",
   "last_reason": "engine[agent]: auto=0 ingested=0 fills=0 closed=0 open=3 session=closed",
-  "eur_usd": 1.1059499979019165
+  "eur_usd": 1.1063170433044434
 }
