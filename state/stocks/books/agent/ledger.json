@@ -11,7 +11,7 @@
   "start_capital_eur": 1000.0,
   "eur_usd_start": 1.1222084760665894,
   "cash_eur": 876.5080491092698,
-  "equity_eur": 998.36,
+  "equity_eur": 998.69,
   "positions": {
     "DCTH": {
       "ticker": "DCTH",
@@ -33,9 +33,9 @@
       "rule_tags": [],
       "decision_id": "DCTH-2026-11-10T13:53:37Z-3a6d90",
       "book_id": "agent",
-      "mark_usd": 21.3799991607666,
-      "mark_eur": 19.3318,
-      "unrealized_pnl_pct": -0.9268,
+      "mark_usd": 20.770000457763672,
+      "mark_eur": 18.7802,
+      "unrealized_pnl_pct": -3.7535,
       "trail_extreme": 22.510000228881836,
       "quote_fx": 1.1059499979019165
     },
@@ -59,9 +59,9 @@
       "rule_tags": [],
       "decision_id": "LINC-2026-11-10T13:53:37Z-740f17",
       "book_id": "agent",
-      "mark_usd": 22.979999542236328,
-      "mark_eur": 20.7785,
-      "unrealized_pnl_pct": -1.331,
+      "mark_usd": 22.950000762939453,
+      "mark_eur": 20.7514,
+      "unrealized_pnl_pct": -1.4599,
       "trail_extreme": 24.25,
       "quote_fx": 1.1059499979019165
     },
@@ -89,9 +89,9 @@
       "rule_tags": [],
       "decision_id": "FRMM-2026-11-12T13:46:28Z-a6dd4d",
       "book_id": "agent",
-      "mark_usd": 2.359999895095825,
-      "mark_eur": 2.1339,
-      "unrealized_pnl_pct": 5.9322,
+      "mark_usd": 2.190000057220459,
+      "mark_eur": 1.9802,
+      "unrealized_pnl_pct": 14.1552,
       "quote_fx": 1.1059499979019165
     }
   },
@@ -144,8 +144,8 @@
     },
     {
       "day": "2026-11-13",
-      "equity_eur": 998.36,
-      "spy_eur": 1021.18,
+      "equity_eur": 998.69,
+      "spy_eur": 1022.66,
       "cash_eur": 876.51,
       "n_open": 3
     }
@@ -168,6 +168,12 @@
       "spy_eur": 1021.18,
       "spy_usd": 757.12,
       "eur_usd": 1.10952
+    },
+    {
+      "day": "2026-11-13",
+      "spy_eur": 1022.66,
+      "spy_usd": 753.4418,
+      "eur_usd": 1.10254
     }
   ],
   "cost_pct": 0.005,
@@ -177,7 +183,7 @@
   "default_hold_days": 5,
   "stop_loss": null,
   "max_open": 8,
-  "last_run": "2026-11-13T09:39:13Z",
-  "last_reason": "engine[agent]: auto=0 ingested=0 fills=0 closed=0 open=3 session=pre",
-  "eur_usd": 1.1059499979019165
+  "last_run": "2026-11-13T20:24:00Z",
+  "last_reason": "engine[agent]: auto=0 ingested=0 fills=0 closed=0 open=3 session=open",
+  "eur_usd": 1.1025358438491821
 }
