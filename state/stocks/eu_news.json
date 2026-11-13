@@ -1,6 +1,774 @@
 {
   "items": [
     {
+      "id": "1f651f1c61c888bd",
+      "source": "wso_nachrichten",
+      "title": "AMD +17,8 % in 13 Wochen \u2014 aber der Sektor schwankt 8 Prozentpunkte an einem Tag: Was h\u00e4lt hier stand?",
+      "summary": "Stellen Sie sich eine alte H\u00e4ngebr\u00fccke vor: Bei ruhigem Wetter l\u00e4uft man sicher hin\u00fcber. Aber wenn der Wind dreht, schwankt sie so stark, dass man nicht mehr wei\u00df, ob man schneller oder &hellip;",
+      "url": "https://www.wallstreet-online.de/nachricht/21690573-amd-17-8-13-wochen-sektor-schwankt-8-prozentpunkte-tag-haelt-stand",
+      "published_at": "2026-11-13T17:35:20Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-13T17:39:40Z",
+      "region": "EU"
+    },
+    {
+      "id": "669f2f39fded969c",
+      "source": "wso_nachrichten",
+      "title": "Aerowash +24 %, Vincorion +41 % Umsatz \u2014 aber Vertiv und Quanta treten auf der Stelle: Wer hat hier die Richtung?",
+      "summary": "Stellen Sie sich eine Weiche im Schienennetz vor. Der Zug kommt mit Schwung, aber je nach Stellung der Weiche landet er auf dem Schnellgleis oder auf dem Abstellgleis. Genau das beobachte &hellip;",
+      "url": "https://www.wallstreet-online.de/nachricht/21690558-aerowash-24-vincorion-41-umsatz-vertiv-quanta-treten-stelle-richtung",
+      "published_at": "2026-11-13T17:35:20Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-13T17:39:40Z",
+      "region": "EU"
+    },
+    {
+      "id": "6c6ffc9ab7b6846d",
+      "source": "wso_nachrichten",
+      "title": "ReeXploration +2000 %, Freeport -15 % in 13 Wochen \u2014 was trennt hier Bewegung von Substanz?",
+      "summary": "Stellen Sie sich vor, Sie stehen an einer Weiche im Rangierbahnhof. Auf dem einen Gleis rollt ein schwerer G\u00fcterzug langsam, aber stetig. Auf dem anderen schie\u00dft eine einzelne Lore mit &hellip;",
+      "url": "https://www.wallstreet-online.de/nachricht/21690567-reexploration-2000-freeport-15-13-wochen-trennt-bewegung-substanz",
+      "published_at": "2026-11-13T17:35:19Z",
+      "tickers": [
+        "UBSG.SW"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-13T17:39:40Z",
+      "region": "EU"
+    },
+    {
+      "id": "bbe319af385dd1cc",
+      "source": "wso_nachrichten",
+      "title": "Tr\u00e4gt AMDs Rechenzentrumsmomentum wirklich genug, um ein KGV von 125 zu rechtfertigen, w\u00e4hrend der freie Cashflow schrumpft?",
+      "summary": "Morgan Stanley hat das Kursziel auf 550 Dollar angehoben \u2014 und gleichzeitig die Einstufung auf \u201eEqual Weight\u201d belassen. Das ist kein Widerspruch, sondern eine ziemlich pr\u00e4zise Beschreibung &hellip;",
+      "url": "https://www.wallstreet-online.de/nachricht/21690579-amds-rechenzentrumsmomentum-genug-kgv-125-rechtfertigen-cashflow-schrumpft",
+      "published_at": "2026-11-13T17:34:57Z",
+      "tickers": [
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "analyst",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "analyst",
+      "scanned_at": "2026-11-13T17:39:40Z",
+      "region": "EU"
+    },
+    {
+      "id": "d6c3b828f790a2fb",
+      "source": "wso_nachrichten",
+      "title": "MPCMs Zinssatz-Argument l\u00e4sst GFT-Aktie trotz angehobener Jahresziele abst\u00fcrzen",
+      "summary": "Analyst Felix Ellmann von MPCM hat am 13. November 2026 die GFT-Aktie von \u201eBuy\u201d auf \u201eHold\u201d herabgestuft und das Kursziel von 32 auf 29 Euro gesenkt. Die Begr\u00fcndung ist technisch, aber &hellip;",
+      "url": "https://www.wallstreet-online.de/nachricht/21690576-mpcms-zinssatz-argument-laesst-gft-aktie-trotz-angehobener-jahresziele-abstuerzen",
+      "published_at": "2026-11-13T17:34:57Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "analyst",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "analyst",
+      "scanned_at": "2026-11-13T17:39:40Z",
+      "region": "EU"
+    },
+    {
+      "id": "f0b95cbf96d644ad",
+      "source": "wso_nachrichten",
+      "title": "Nebius liefert 571 Prozent Umsatzwachstum, aber der Markt rechnet mit 40 bis 45 Milliarden Dollar Capex-Bedarf bis 2027",
+      "summary": "Wenn ein Unternehmen den Quartalsumsatz um 571 Prozent steigert und die Aktie trotzdem zweistellig f\u00e4llt, lohnt sich ein genauerer Blick auf das, was das Management f\u00fcr die n\u00e4chsten zwei &hellip;",
+      "url": "https://www.wallstreet-online.de/nachricht/21690564-nebius-liefert-571-prozent-umsatzwachstum-markt-rechnet-40-45-milliarden-dollar-capex-bedarf-2027",
+      "published_at": "2026-11-13T17:34:57Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-13T17:39:40Z",
+      "region": "EU"
+    },
+    {
+      "id": "3d49b0ee0708965f",
+      "source": "wso_nachrichten",
+      "title": "Piper Sandler h\u00e4lt an 410-Dollar-Kursziel fest, Goldman Sachs k\u00fcrzt auf 320 Dollar",
+      "summary": "Piper Sandler best\u00e4tigte am 10. November seine Kaufempfehlung mit einem Kursziel von 410 US-Dollar \u2014 mehr als doppelt so hoch wie der aktuelle Kurs von rund 167 Dollar. Das ist kein kleines &hellip;",
+      "url": "https://www.wallstreet-online.de/nachricht/21690561-piper-sandler-haelt-410-dollar-kursziel-fest-goldman-sachs-kuerzt-320-dollar",
+      "published_at": "2026-11-13T17:34:57Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "analyst",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "analyst",
+      "scanned_at": "2026-11-13T17:39:40Z",
+      "region": "EU"
+    },
+    {
+      "id": "d3939e95adcd70f1",
+      "source": "wso_nachrichten",
+      "title": "Bereinigtes EBIT w\u00e4chst um 25 Prozent im dritten Quartal \u2014 doch NuWays sieht noch 40 Prozent Luft bis zum Kursziel",
+      "summary": "NuWays hat die Einstufung \u201eBuy\u201d f\u00fcr Eckert & Ziegler bekr\u00e4ftigt und das Kursziel bei 21,50 Euro belassen. Gemessen am heutigen Xetra-Schlusskurs von 15,35 Euro sind das rechnerisch knapp 40 &hellip;",
+      "url": "https://www.wallstreet-online.de/nachricht/21690555-bereinigtes-ebit-waechst-25-prozent-dritten-quartal-nuways-40-prozent-luft-kursziel",
+      "published_at": "2026-11-13T17:34:57Z",
+      "tickers": [
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "analyst",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "analyst",
+      "scanned_at": "2026-11-13T17:39:40Z",
+      "region": "EU"
+    },
+    {
+      "id": "0b7c022005a08e65",
+      "source": "wso_nachrichten",
+      "title": "Kreditportfolio-Prognose auf 14\u201315 Prozent angehoben: ProCredit dreht die Kostendebatte in eine Wachstumsstory um",
+      "summary": "Berenberg hat das Kursziel f\u00fcr ProCredit von 15,50 auf 16,50 Euro erh\u00f6ht und das \u201eBuy\u201d-Rating best\u00e4tigt. Warburg Research bleibt ebenfalls bei \u201eBuy\u201d mit 16,00 Euro. Beide Ziele liegen gut &hellip;",
+      "url": "https://www.wallstreet-online.de/nachricht/21690570-kreditportfolio-prognose-14-15-prozent-angehoben-procredit-dreht-kostendebatte-wachstumsstory",
+      "published_at": "2026-11-13T17:34:56Z",
+      "tickers": [
+        "INGA.AS",
+        "BATS.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "analyst",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "analyst",
+      "scanned_at": "2026-11-13T17:39:40Z",
+      "region": "EU"
+    },
+    {
+      "id": "a59936713a7cc552",
+      "source": "yahoo_eu",
+      "title": "Doppelter Schock f\u00fcr die deutsche Autoindustrie \u2013 warum BMW, Mercedes und VW trotzdem Hoffnung haben",
+      "summary": "Die deutsche Automobilindustrie h\u00e4ngt beim Thema Elektroautos hinterher. Jetzt wird klar, wie stark die Branche tats\u00e4chlich in der Klemme steckt.",
+      "url": "https://www.businessinsider.de/wirtschaft/deutsche-autoindustrie-steckt-in-der-krise-so-ernst-ist-die-lage/?.tsrc=rss",
+      "published_at": "2026-11-13T17:32:16Z",
+      "tickers": [
+        "VOW3.DE",
+        "MBG.DE",
+        "BMW.DE"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-13T17:39:44Z",
+      "region": "EU"
+    },
+    {
+      "id": "ae028172465694fe",
+      "source": "wso_nachrichten",
+      "title": "Sparta Capital Ltd. Announces Application to the Ontario Securities Commission to Become a Reporting Issuer in Ontario",
+      "summary": "Not for distribution to U.S. Newswire Services or for dissemination in the United States of America. Any failure to comply with this restriction may constitute a violation of U.S. securities laws. TORONTO, ON / ACCESS Newswire / November 13, 2026 / &hellip;",
+      "url": "https://www.wallstreet-online.de/nachricht/21690546-sparta-capital-ltd-announces-application-to-the-ontario-securities-commission-to-become-a-reporting-issuer-ontario",
+      "published_at": "2026-11-13T17:30:00Z",
+      "tickers": [
+        "INGA.AS",
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-13T17:39:40Z",
+      "region": "EU"
+    },
+    {
+      "id": "d97b6e102a8d8e0d",
+      "source": "wso_nachrichten",
+      "title": "Immobilienm\u00e4rkte: Publikums-AIF Habona Fonds 09 investiert in moderne Vollsortimenter",
+      "summary": "Mit Ank\u00e4ufen in attraktiven Sekund\u00e4rstandorten startet der neue Habona Publikumsfonds in die Investitionsphase",
+      "url": "https://www.wallstreet-online.de/nachricht/21690525-immobilienmaerkte-publikums-aif-habona-fonds-09-investiert-moderne-vollsortimenter",
+      "published_at": "2026-11-13T17:28:00Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-13T17:39:40Z",
+      "region": "EU"
+    },
+    {
+      "id": "8e8dee6040b5a7bd",
+      "source": "wso_nachrichten",
+      "title": "KOWIN High-performance Storage Products Empowering the All-electric Society",
+      "summary": "MUNICH, Nov. 13, 2026 /PRNewswire/ -- At&nbsp;Electronica 2026 in Munich, Germany, KOWIN showcased its full-spectrum storage portfolio, covering embedded storage, SSD, DRAM modules and removable storage. The company delivers high-reliability storage solutions and supports the development of an all-electric society as highlighted at the show. Embedded Storage:",
+      "url": "https://www.wallstreet-online.de/nachricht/21690528-kowin-high-performance-storage-products-empowering-the-all-electric-society",
+      "published_at": "2026-11-13T17:27:00Z",
+      "tickers": [
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-13T17:39:40Z",
+      "region": "EU"
+    },
+    {
+      "id": "205609d8f63bb952",
+      "source": "wso_nachrichten",
+      "title": "We Find It Leak Detection Co. Launches Sydney Leak Detection Services from New Balmain Location",
+      "summary": "We Find It Leak Detection Co. has launched Sydney leak detection services from its new operating location at 372 Darling St, Balmain, establishing a local base to serve properties across the city. Balmain, Australia--(Newsfile Corp. - November 13, 2026) - We Find It Leak Detection Co. has launched its leak detection services across Sydney from its new operating location at 372 Darling St, Balmain.",
+      "url": "https://www.wallstreet-online.de/nachricht/21690516-we-find-it-leak-detection-co-launches-sydney-leak-detection-services-from-new-balmain-location",
+      "published_at": "2026-11-13T17:26:00Z",
+      "tickers": [
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-13T17:39:40Z",
+      "region": "EU"
+    },
+    {
+      "id": "74bef1703d450cc6",
+      "source": "wso_nachrichten",
+      "title": "BlackRock Greater Europe Investment Trust Plc - Transaction in Own Shares",
+      "summary": "BlackRock Greater Europe Investment Trust plc (\u2018the Company\u2019) LEI \u2013 5493003R8FJ6I76ZUW55 Transaction in own shares: purchase of own shares to be held in treasury The Company announces that it has today purchased 30,479 of its Ordinary Shares at an average price of 573.89 pence per share to be held in treasury. Following settlement of this",
+      "url": "https://www.wallstreet-online.de/nachricht/21690534-blackrock-greater-europe-investment-trust-plc-transaction-own-shares",
+      "published_at": "2026-11-13T17:23:00Z",
+      "tickers": [
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-13T17:39:40Z",
+      "region": "EU"
+    },
+    {
+      "id": "3f7258fc6c820d7c",
+      "source": "wso_nachrichten",
+      "title": "Ukraine: Unklarheit \u00fcber Europas Platz am Verhandlungstisch",
+      "summary": "MOSKAU (dpa-AFX) - Das russische Au\u00dfenministerium hat nach Angaben von Sprecherin Maria Sacharowa keine Kenntnis von einer Einigung auf eine k\u00fcnftige Beteiligung europ\u00e4ischer Staaten an den Ukraine-Verhandlungen. \"Soweit dem Au\u00dfenministerium Russlands bekannt ist, wurde das genannte Thema im Rahmen der Gespr\u00e4che mit Steve Witkoff und Jared Kushner in Moskau nicht beraten\", sagte Sacharowa.",
+      "url": "https://www.wallstreet-online.de/nachricht/21690504-ukraine-unklarheit-europas-platz-verhandlungstisch",
+      "published_at": "2026-11-13T17:21:09Z",
+      "tickers": [
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-13T17:39:40Z",
+      "region": "EU"
+    },
+    {
+      "id": "e51f438a20fcb757",
+      "source": "wso_nachrichten",
+      "title": "Funke Mediengruppe schafft neue Beraterfunktion f\u00fcr Regionalmedien",
+      "summary": "ESSEN (dpa-AFX) - Die Funke Mediengruppe schafft im Zuge der Neuorganisation ihrer Regionalzeitungen eine weitere F\u00fchrungsfunktion. Jost L\u00fcbben \u00fcbernimmt ab Januar 2027 die neu geschaffene Position des \"Chief Editorial Advisor\", wie das Unternehmen mitteilte. Er soll die k\u00fcnftigen Publisher der Regionalmedien bei der digitalen Transformation beraten und den Wandel in den Redaktionen vorantreiben.",
+      "url": "https://www.wallstreet-online.de/nachricht/21690507-funke-mediengruppe-schafft-beraterfunktion-regionalmedien",
+      "published_at": "2026-11-13T17:20:33Z",
+      "tickers": [
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-13T17:39:40Z",
+      "region": "EU"
+    },
+    {
+      "id": "66ca5adf34c4252a",
+      "source": "wso_nachrichten",
+      "title": "ANALYSE-FLASH: DZ Bank senkt fairen Wert f\u00fcr Telefonica auf 3 Euro - 'Verkaufen'",
+      "summary": "FRANKFURT (dpa-AFX) - Die DZ Bank hat den fairen Wert f\u00fcr Telefonica von 3,30 auf 3,00 Euro gesenkt und die Einstufung auf \"Verkaufen\" belassen. Der Telekomkonzern habe zwar mit den j\u00fcngst ver\u00f6ffentlichten Quartalszahlen die Erwartungen erf\u00fcllt und den Ausblick teilweise angehoben, schrieb Matthias Volkert in einer am Freitag vorliegenden Studie. Doch dem Kunden- und Margenwachstum in Spanien",
+      "url": "https://www.wallstreet-online.de/nachricht/21690510-analyse-flash-dz-bank-fairen-wert-telefonica-3-euro-verkaufen",
+      "published_at": "2026-11-13T17:20:02Z",
+      "tickers": [
+        "TEF.MC",
+        "DTE.DE",
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "analyst",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "analyst",
+      "scanned_at": "2026-11-13T17:39:40Z",
+      "region": "EU"
+    },
+    {
+      "id": "57a674232eda31d5",
+      "source": "wso_nachrichten",
+      "title": "The Biotech Growth Trust PLC - Transaction in Own Shares",
+      "summary": "For immediate release 13 November 2026 THE BIOTECH GROWTH TRUST PLC (the \"Company\") &nbsp; &nbsp; MARKET PURCHASE OF COMPANY'S OWN SHARES &nbsp; &nbsp; &nbsp; Notification is given, pursuant to the authority granted at the Annual General Meeting",
+      "url": "https://www.wallstreet-online.de/nachricht/21690531-the-biotech-growth-trust-plc-transaction-own-shares",
+      "published_at": "2026-11-13T17:19:00Z",
+      "tickers": [
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-13T17:39:40Z",
+      "region": "EU"
+    },
+    {
+      "id": "bee5f512dc2a1fdf",
+      "source": "wso_nachrichten",
+      "title": "Tuya ver\u00f6ffentlicht Open-Source-Skill Meta Muse zur Steuerung von Smart-Ger\u00e4ten in \u00fcber 3.000 Kategorien",
+      "summary": "Mit Tuya Cloud Devices k\u00f6nnen Muse-Benutzer die Ger\u00e4te in ihrem Tuya-Konto mithilfe nat\u00fcrlicher Sprache und eines einzigen API-Schl\u00fcssels abfragen und steuern, ohne dass lokale Ger\u00e4teschl\u00fcssel oder Firmware-\u00c4nderungen erforderlich sind. SANTA CLARA, Kalifornien, 13. November 2026 PRNewswire/ \u2013 Tuya Smart (NYSE: TUYA; HKEX: 2391), ein weltweit f\u00fchrender",
+      "url": "https://www.wallstreet-online.de/nachricht/21690489-tuya-open-source-skill-muse-steuerung-smart-geraeten-3-000-kategorien",
+      "published_at": "2026-11-13T17:18:00Z",
+      "tickers": [
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-13T17:39:40Z",
+      "region": "EU"
+    },
+    {
+      "id": "edb186a4981a02ae",
+      "source": "wso_nachrichten",
+      "title": "Am B\u00fcrger vorbei: Die BRD im Atomtechnikonzern Unrenco",
+      "summary": "Gestern Abend berichtete Die Welt \u00fcber den Fund aus der \u201eBereinigungssitzung\u201c zum Haushaltsentwurf 2027 des Bundestags: \u201eAusgaben im Zusammenhang mit dem Erwerb und Halten von Beteiligungen an Unternehmen im Bereich der Energiewirtschaft: 4 Milliarden Euro\u201c, den sie als geplanten Erwerb der Anteile von RWE und Eon am Atomtechnikonzern Unrenco (UK) durch die Bundesregierung identifizierte.",
+      "url": "https://www.wallstreet-online.de/nachricht/21690495-buerger-vorbei-brd-atomtechnikonzern-unrenco",
+      "published_at": "2026-11-13T17:16:09Z",
+      "tickers": [
+        "RWE.DE",
+        "EOAN.DE"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-13T17:39:40Z",
+      "region": "EU"
+    },
+    {
+      "id": "471d222f270c5905",
+      "source": "wso_nachrichten",
+      "title": "ROUNDUP/Aktien Frankfurt Schluss: Dax trotzt Nasdaq-Schw\u00e4che - Pause nach Rekord",
+      "summary": "FRANKFURT (dpa-AFX) - Der Dax ist nach seinem Rekordhoch vom Vortag am Freitag letztlich wenig von der Stelle gekommen. \u00dcberraschend schwache US-Inflationsdaten gaben dem deutschen Leitindex nur kurzzeitig etwas Auftrieb. Mit einem Minus von 0,08 Prozent auf 26.749,95 Punkte trotzte er aber der schwachen US-Technologieb\u00f6rse Nasdaq und behauptete ein Wochenplus von 3,6 Prozent. Der MDax der mittelgro\u00dfen",
+      "url": "https://www.wallstreet-online.de/nachricht/21690363-roundup-aktien-frankfurt-schluss-dax-trotzt-nasdaq-schwaeche-pause-rekord",
+      "published_at": "2026-11-13T17:15:54Z",
+      "tickers": [
+        "ENI.MI",
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-13T17:39:40Z",
+      "region": "EU"
+    },
+    {
+      "id": "e9edaad8d5f202a8",
+      "source": "wso_nachrichten",
+      "title": "4basebio Plc - Holding(s) in Company",
+      "summary": "TR-1: Standard form for notification of major holdings 1. Issuer Details ISIN GB00BMCLYF79 Issuer Name 4BASEBIO PLC UK or Non-UK Issuer UK 2. Reason for Notification An event changing the breakdown of voting rights 3. Details of person subject",
+      "url": "https://www.wallstreet-online.de/nachricht/21690537-4basebio-plc-holding-s-company",
+      "published_at": "2026-11-13T17:15:00Z",
+      "tickers": [
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-13T17:39:40Z",
+      "region": "EU"
+    },
+    {
+      "id": "b7dcafb6c5ec921f",
+      "source": "wso_nachrichten",
+      "title": "Siemens: +58 % Auftr\u00e4ge \u2013 z\u00fcndet KI jetzt die DAX-Aktie?",
+      "summary": "Siemens: +58 % Auftr\u00e4ge \u2013 z\u00fcndet KI jetzt die DAX-Aktie? Siemens \u00fcberrascht mit Rekordzahlen \u2013 und zeigt, dass der KI-Boom l\u00e4ngst nicht nur ein Gesch\u00e4ft f\u00fcr amerikanische Technologiekonzerne ist. Der deutsche Industriekonzern meldet f\u00fcr das vierte Quartal 2026 einen beeindruckenden",
+      "url": "https://app.newstool.de/t/B28sbWse8cynbKQSpssWhV/?as=WE5eSnWcFXCmYcC3G259xZ",
+      "published_at": "2026-11-13T17:15:00Z",
+      "tickers": [
+        "SIE.DE"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-13T17:39:40Z",
+      "region": "EU"
+    },
+    {
+      "id": "744cdd8b7eb4080a",
+      "source": "wso_nachrichten",
+      "title": "Mehr Reichweite als USA: Kanadas Gasvorkommen sind riesig, aber ungenutzt \u2013 das soll sich jetzt \u00e4ndern",
+      "summary": "Kanada k\u00f6nnte zu den gr\u00f6\u00dften Gewinnern am globalen Gasmarkt werden. Das Land verf\u00fcgt \u00fcber Reserven, die l\u00e4nger halten als die der USA oder Australiens. Jetzt will es sie auch nutzen.",
+      "url": "https://www.wallstreet-online.de/nachricht/21689367-reichweite-usa-kanadas-gasvorkommen-riesig-ungenutzt-aendern",
+      "published_at": "2026-11-13T17:15:00Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-13T17:39:40Z",
+      "region": "EU"
+    },
+    {
+      "id": "804cc364b57edce5",
+      "source": "wso_nachrichten",
+      "title": "SEC Proposes Executive and Director Compensation Disclosure Reforms",
+      "summary": "Washington, D.C.--(Newsfile Corp. - November 13, 2026) - The Securities and Exchange Commission today proposed rule amendments to make its executive and director compensation disclosure requirements more principles-based and materiality-driven, providing investors with clearer, more concise, and less complex disclosures. The proposal follows the Commission\u2019s review of its executive and director",
+      "url": "https://www.wallstreet-online.de/nachricht/21690480-sec-proposes-executive-and-director-compensation-disclosure-reforms",
+      "published_at": "2026-11-13T17:14:00Z",
+      "tickers": [
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-13T17:39:40Z",
+      "region": "EU"
+    },
+    {
+      "id": "11bbc0f606226b1b",
+      "source": "eqs_google",
+      "title": "EQS-Adhoc: CHAPTERS Group AG: Capital Increase from Authorized Capital Resolved - finanzen.ch",
+      "summary": "EQS-Adhoc: CHAPTERS Group AG: Capital Increase from Authorized Capital Resolved &nbsp;&nbsp; finanzen.ch",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQQk5ZVHBQWmRfWmFiQmhJZ0c0RUJ5Zm1xWklYdFgzUUYwa09yUk9OWXVzdDVxckFuQm9qcG5FSnFKZ01sb3VTaHNRLUhwY2MybGVITmlWMElIV1h1eG00akFxZE50ZzhaOWMwanREMUxPRlloUXdvTXVpU1pjUklyY0NWNEhaai1WaExJVjB2MXhxTm1zT0JCVGJJU0VKS3pFbEpKcWtUMGFIckluTC1VNkZjMG5kbmFIZVNJaGUtN3N0MFE4N0NiWXg1QQ?oc=5",
+      "published_at": "2026-11-13T17:13:13Z",
+      "tickers": [],
+      "form": "EU_ADHOC",
+      "event_type": "offering",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "eu_category": "offering",
+      "scanned_at": "2026-11-13T17:39:38Z",
+      "region": "EU"
+    },
+    {
+      "id": "328aae3d46ba4e38",
+      "source": "wso_nachrichten",
+      "title": "ROUNDUP/Aktien Europa Schluss: Aufw\u00e4rtsdrang erlahmt nach starker B\u00f6rsenwoche",
+      "summary": "PARIS/LONDON/Z\u00dcRICH (dpa-AFX) - Nach einer starken Woche an Europas Aktienm\u00e4rkten haben die Kurse am Freitag \u00fcberwiegend leicht nachgegeben. Der Eurozone-Leitindex EuroStoxx 50 schloss 0,19 Prozent niedriger bei 6.386,86 Z\u00e4hlern. Mit einem Aufschlag von 3,5 Prozent war die B\u00f6rsenwoche die st\u00e4rkste seit April. Am Vortag hatte es der EuroStoxx 50 auf den h\u00f6chsten Stand seit Ende August geschafft.",
+      "url": "https://www.wallstreet-online.de/nachricht/21690444-roundup-aktien-europa-schluss-aufwaertsdrang-erlahmt-starker-boersenwoche",
+      "published_at": "2026-11-13T17:11:10Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-13T17:39:40Z",
+      "region": "EU"
+    },
+    {
+      "id": "c3392517e50b54ce",
+      "source": "wso_nachrichten",
+      "title": "Webull Corporation (BULL) Deadline Approaching: Berger Montague Advises Investors of Deadline in Securities Fraud Lawsuit",
+      "summary": "Philadelphia, Pennsylvania--(Newsfile Corp. - November 13, 2026) - Berger Montague, a leading national plaintiffs' law firm, announces a class action lawsuit, captioned Ward v. Webull Corporation, et al., No. 26-cv-03052 (M.D. Fla.), against Webull Corporation (NASDAQ: BULL) (\"Webull\" or the \"Company\") on behalf of investors who purchased or acquired Webull securities during the period from April",
+      "url": "https://www.wallstreet-online.de/nachricht/21690462-webull-corporation-bull-deadline-approaching-berger-montague-advises-investors-of-deadline-securities-fraud-lawsuit",
+      "published_at": "2026-11-13T17:11:00Z",
+      "tickers": [
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "lawsuit",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-13T17:39:40Z",
+      "region": "EU"
+    },
+    {
+      "id": "8af832a3990585d7",
+      "source": "wso_nachrichten",
+      "title": "EQS-News: WIN SOURCE pr\u00e4sentiert NEXUS auf der electronica 2026: St\u00e4rkung der Resilienz der Lieferkette",
+      "summary": "EQS-News: WIN SOURCE / Schlagwort(e): Sonstiges WIN SOURCE pr\u00e4sentiert NEXUS auf der electronica 2026: St\u00e4rkung der Resilienz der Lieferkette 13.11.2026 / 18:10 CET/CEST F\u00fcr den Inhalt der Mitteilung ist der Emittent / Herausgeber verantwortlich. M\u00dcNCHEN, 13. November 2026 /PRNewswire/ -- WIN SOURCE, ein globaler",
+      "url": "https://www.wallstreet-online.de/nachricht/21690474-eqs-news-win-source-praesentiert-nexus-electronica-2026-staerkung-resilienz-lieferkette",
+      "published_at": "2026-11-13T17:10:22Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-13T17:39:40Z",
+      "region": "EU"
+    },
+    {
+      "id": "40146600d542fbbe",
+      "source": "wso_nachrichten",
+      "title": "EQS-PVR: K+S Aktiengesellschaft: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
+      "summary": "EQS Voting Rights Announcement: K+S Aktiengesellschaft K+S Aktiengesellschaft: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution 13.11.2026 / 18:10 CET/CEST Dissemination of a Voting Rights Announcement transmitted by EQS News - a service of EQS Group. The",
+      "url": "https://www.wallstreet-online.de/nachricht/21690471-eqs-pvr-k-s-aktiengesellschaft-release-according-to-article-40-section-1-of-the-wphg-the-german-securities-trading-act-with-the-objective-of-europe-wide-distribution",
+      "published_at": "2026-11-13T17:10:01Z",
+      "tickers": [
+        "INGA.AS",
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-13T17:39:40Z",
+      "region": "EU"
+    },
+    {
+      "id": "e39c1edfff490530",
+      "source": "wso_nachrichten",
+      "title": "Fidelity European Trust Plc - Transaction in Own Shares",
+      "summary": "FIDELITY EUROPEAN TRUST PLC (the 'Company') &nbsp; &nbsp; TRANSACTION IN OWN SHARES &nbsp;",
+      "url": "https://www.wallstreet-online.de/nachricht/21690492-fidelity-european-trust-plc-transaction-own-shares",
+      "published_at": "2026-11-13T17:07:00Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-13T17:39:40Z",
+      "region": "EU"
+    },
+    {
+      "id": "e75dae83e35d79d3",
+      "source": "yahoo_eu",
+      "title": "ROUNDUP/Berichte: Bund k\u00f6nnte Eons und RWEs Urenco-Anteil kaufen",
+      "summary": "Die Bundesregierung will sich nach einem Bericht der Tageszeitung \"Die Welt\" aus geostrategischen Gr\u00fcnden am Atomtechnikkonzern Urenco beteiligen. Nach Informationen der Zeitung plant der Bund, ein Drittel des multinationalen Brennelemente-Herstellers mit Sitz in Gro\u00dfbritannien zu \u00fcbernehmen. Bei diesem Drittel soll es sich um den zu gleichen Teilen von den deutschen Energiekonzernen RWE und Eon gehaltenen Anteil handeln. Urenco betreibt auch in Deutschland bei Gronau eine Urananreicherungsanlag",
+      "url": "https://de.finance.yahoo.com/nachrichten/roundup-berichte-bund-k%C3%B6nnte-eons-134943456.html?.tsrc=rss",
+      "published_at": "2026-11-13T13:49:43Z",
+      "tickers": [
+        "RWE.DE",
+        "EOAN.DE"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-13T17:39:42Z",
+      "region": "EU"
+    },
+    {
+      "id": "97684acb52a1102e",
+      "source": "eqs_google",
+      "title": "Jungheinrich Aktie: 15% weniger Kursziel - dennoch immenses Aufw\u00e4rtspotenzial? - AktienCheck.de",
+      "summary": "Jungheinrich Aktie: 15% weniger Kursziel - dennoch immenses Aufw\u00e4rtspotenzial? &nbsp;&nbsp; AktienCheck.de",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRFE0VGR3RGdCbDVSeEs4U2hoOEZncmRSOVJuV3pGNjZUXzVGMkhwaWlHbnFuX0JrekNYcm5xUFEyTUZoQXNMY0VpRE5aaU9xX180NGIwVmVZUHNiOGFWRHN6QWpfbTVaS0M3RHJQekdzSmdqMnRXTG5MUlZ5WmZQYTVsZmJHdVVCdWU4YUVuYklKZklCOEhfajVwbHF2WWtETUpVSDVkaUU?oc=5",
+      "published_at": "2026-11-13T13:07:36Z",
+      "tickers": [
+        "ENI.MI"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "analyst",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "analyst",
+      "scanned_at": "2026-11-13T17:39:39Z",
+      "region": "EU"
+    },
+    {
+      "id": "b894f2f57c020480",
+      "source": "yahoo_eu",
+      "title": "Investitionsstopp bei Mercedes-Benz: IG Metall will \u00fcber \"L\u00f6sungen\" sprechen",
+      "summary": "In den Verhandlungen \u00fcber Kostensenkungen bei Mercedes-Benz hat der Vorstand den Druck deutlich erh\u00f6ht: IG Metall und der Gesamtbetriebsrat des Autobauers betonten nun am Freitag ihre \"L\u00f6sungsbereitschaft\" und forderten \"ernsthafte\" Gespr\u00e4che \u00fcber Wege aus der Krise.Die Arbeitsdirektorin von Mercedes-Benz, Britta Seeger, hatte am Donnerstag unter Verweis auf die \"seit Monaten\" laufenden Gespr\u00e4che mit der Arbeitnehmervertretung \u00fcber Kostensenkungen kritisiert, es zeichne sich leider noch kein L\u00f6s",
+      "url": "https://de.finance.yahoo.com/nachrichten/investitionsstopp-mercedes-benz-ig-metall-095133387.html?.tsrc=rss",
+      "published_at": "2026-11-13T11:34:13Z",
+      "tickers": [
+        "MBG.DE",
+        "RWE.DE"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-13T17:39:43Z",
+      "region": "EU"
+    },
+    {
+      "id": "0a0650f44a483ee5",
+      "source": "yahoo_eu",
+      "title": "WDH: Arbeitnehmer kritisieren Standort-Debatte bei Mercedes",
+      "summary": "(Wiederholung: Im 4. Absatz, erster Satz wurde ein Tippfehler beseitigt: \"Barbara\" (statt: Barabara).)",
+      "url": "https://de.finance.yahoo.com/nachrichten/wdh-arbeitnehmer-kritisieren-standort-debatte-110930070.html?.tsrc=rss",
+      "published_at": "2026-11-13T11:09:30Z",
+      "tickers": [
+        "MBG.DE",
+        "BATS.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-13T17:39:43Z",
+      "region": "EU"
+    },
+    {
+      "id": "bfa0d35b40e2b1fd",
+      "source": "eqs_google",
+      "title": "Intel Aktie: BofA-Analyst warnt vor KI-R\u00fcckstand - droht die n\u00e4chste Entt\u00e4uschung? - AktienCheck.de",
+      "summary": "Intel Aktie: BofA-Analyst warnt vor KI-R\u00fcckstand - droht die n\u00e4chste Entt\u00e4uschung? &nbsp;&nbsp; AktienCheck.de",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbG94OFBnejV0NHBGMmtEQWcxZ3FJNjQyVTNLUGlKOUV2QzNlMHo0d0wwRklneS0zdGk5bGluYlJpcjBxSVF6RHVPa2xFQ3hiR25VZnQ3dmUyRXZhVEtPbngyZEExVEk3MEpHYTlpSEgzMDRMZUZrUzdLYXJEWU44LTdreVVLcjVIdmF6elJwUU5md0NlTXJPVmVIQmwyWWs?oc=5",
+      "published_at": "2026-11-13T10:54:23Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "analyst",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "analyst",
+      "scanned_at": "2026-11-13T17:39:39Z",
+      "region": "EU"
+    },
+    {
+      "id": "546465e11d114e98",
+      "source": "yahoo_eu",
+      "title": "AKTIEN IM FOKUS: Versicherer ziehen weiter an - Kurse im Bereich der Rekordh\u00f6hen",
+      "summary": "Im europaweit freundlichen Sektor der Versicherer haben am Freitag die Papiere der Munich Re an ihren starken Vortag angekn\u00fcpft. Sie gewannen zuletzt 1,5 Prozent und blieben auf Kurs zu ihrem Rekordhoch von fast 616 Euro von Ende April 2025. Am Vortag hatten Quartalszahlen des R\u00fcckversicherers den Kurs bereits angetrieben. Trotz deutlich h\u00f6herer Sch\u00e4den durch Naturkatastrophen waren die versicherten Gro\u00dfsch\u00e4den im dritten Quartal unter den Erwartungen geblieben.",
+      "url": "https://de.finance.yahoo.com/nachrichten/aktien-fokus-versicherer-ziehen-kurse-103940521.html?.tsrc=rss",
+      "published_at": "2026-11-13T10:39:40Z",
+      "tickers": [
+        "MUV2.DE"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "earnings",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "earnings_nosurprise",
+      "scanned_at": "2026-11-13T17:39:46Z",
+      "region": "EU"
+    },
+    {
+      "id": "8702af516c82d710",
+      "source": "yahoo_eu",
+      "title": "Mercedes stoppt neue Investitionen in Deutschland \u2013 das steckt wirklich hinter dem radikalen Schlag",
+      "summary": "Mercedes streicht Investitionen in Deutschland. Grund: niedrige Produktivit\u00e4t, hohe Arbeitskosten. Doch dainter steckt ein Arbeitskampf.",
+      "url": "https://www.businessinsider.de/wirtschaft/mercedes-stoppt-investitionen-in-deutschland-das-steckt-hinter-dem-radikalen-schlag/?.tsrc=rss",
+      "published_at": "2026-11-13T10:24:47Z",
+      "tickers": [
+        "VOW3.DE",
+        "MBG.DE"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-13T17:39:44Z",
+      "region": "EU"
+    },
+    {
+      "id": "f0aa5e74425dfd32",
+      "source": "yahoo_eu",
+      "title": "Deutschland will 4 Milliarden in diesen Atomkonzern investieren \u2013 warum das vor allem milit\u00e4risch brisant ist",
+      "summary": "Deutschland plant, Anteile am Atomtechnik-Konzern Urenco zu kaufen, um sich Mitspracherecht im Nuklearsektor zu sichern.",
+      "url": "https://www.businessinsider.de/wirtschaft/deutschland-will-4-milliarden-in-diesen-atomkonzern-investieren-das-steckt-dahinter/?.tsrc=rss",
+      "published_at": "2026-11-13T10:04:09Z",
+      "tickers": [
+        "RWE.DE"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-13T17:39:42Z",
+      "region": "EU"
+    },
+    {
+      "id": "e033b5e5353c8620",
+      "source": "yahoo_eu",
+      "title": "Devisen: Pfund tritt auf der Stelle \u2013 Hawkishe Fed st\u00fctzt den US-Dollar",
+      "summary": "Investing.com - Das britische Pfund zeigte sich am Freitag kaum ver\u00e4ndert, w\u00e4hrend der Euro leichte Kursgewinne verbuchte. Nach einer Woche mit unerwartet hoher US-Inflation und aggressiveren Zinserwartungen an die Federal Reserve notierte der US-Dollar weiterhin nahe seinen Jahresh\u00f6chstst\u00e4nden.",
+      "url": "https://de.finance.yahoo.com/nachrichten/devisen-pfund-tritt-stelle-hawkishe-093809645.html?.tsrc=rss",
+      "published_at": "2026-11-13T09:38:09Z",
+      "tickers": [
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-13T17:39:41Z",
+      "region": "EU"
+    },
+    {
       "id": "315841720aa0dbd7",
       "source": "wso_nachrichten",
       "title": "Videoausblick: Die Nvidia-Lawine startet: Bitcoin-Absturz, Microsoft-Ausfall, Trump!",
@@ -549,7 +1317,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:56Z",
+      "scanned_at": "2026-11-13T17:39:43Z",
       "region": "EU"
     },
     {
@@ -608,7 +1376,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:56Z",
+      "scanned_at": "2026-11-13T17:39:43Z",
       "region": "EU"
     },
     {
@@ -664,7 +1432,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:50Z",
+      "scanned_at": "2026-11-13T17:39:37Z",
       "region": "EU"
     },
     {
@@ -681,7 +1449,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:50Z",
+      "scanned_at": "2026-11-13T17:39:37Z",
       "region": "EU"
     },
     {
@@ -702,7 +1470,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:56Z",
+      "scanned_at": "2026-11-13T17:39:44Z",
       "region": "EU"
     },
     {
@@ -722,7 +1490,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:56Z",
+      "scanned_at": "2026-11-13T17:39:44Z",
       "region": "EU"
     },
     {
@@ -741,7 +1509,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:56Z",
+      "scanned_at": "2026-11-13T17:39:43Z",
       "region": "EU"
     },
     {
@@ -762,7 +1530,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:56Z",
+      "scanned_at": "2026-11-13T17:39:43Z",
       "region": "EU"
     },
     {
@@ -818,7 +1586,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:52Z",
+      "scanned_at": "2026-11-13T17:39:39Z",
       "region": "EU"
     },
     {
@@ -835,7 +1603,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:50Z",
+      "scanned_at": "2026-11-13T17:39:37Z",
       "region": "EU"
     },
     {
@@ -855,7 +1623,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:56Z",
+      "scanned_at": "2026-11-13T17:39:44Z",
       "region": "EU"
     },
     {
@@ -874,7 +1642,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:52Z",
+      "scanned_at": "2026-11-13T17:39:39Z",
       "region": "EU"
     },
     {
@@ -893,7 +1661,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:50Z",
+      "scanned_at": "2026-11-13T17:39:37Z",
       "region": "EU"
     },
     {
@@ -948,7 +1716,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:50Z",
+      "scanned_at": "2026-11-13T17:39:37Z",
       "region": "EU"
     },
     {
@@ -982,7 +1750,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:52Z",
+      "scanned_at": "2026-11-13T17:39:39Z",
       "region": "EU"
     },
     {
@@ -999,7 +1767,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:52Z",
+      "scanned_at": "2026-11-13T17:39:39Z",
       "region": "EU"
     },
     {
@@ -1018,7 +1786,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:56Z",
+      "scanned_at": "2026-11-13T17:39:44Z",
       "region": "EU"
     },
     {
@@ -1039,7 +1807,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:56Z",
+      "scanned_at": "2026-11-13T17:39:45Z",
       "region": "EU"
     },
     {
@@ -1058,7 +1826,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:57Z",
+      "scanned_at": "2026-11-13T17:39:46Z",
       "region": "EU"
     },
     {
@@ -1094,7 +1862,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:56Z",
+      "scanned_at": "2026-11-13T17:39:44Z",
       "region": "EU"
     },
     {
@@ -1113,7 +1881,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:56Z",
+      "scanned_at": "2026-11-13T17:39:44Z",
       "region": "EU"
     },
     {
@@ -1132,7 +1900,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:56Z",
+      "scanned_at": "2026-11-13T17:39:45Z",
       "region": "EU"
     },
     {
@@ -1149,7 +1917,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:52Z",
+      "scanned_at": "2026-11-13T17:39:39Z",
       "region": "EU"
     },
     {
@@ -1169,7 +1937,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:56Z",
+      "scanned_at": "2026-11-13T17:39:44Z",
       "region": "EU"
     },
     {
@@ -1188,7 +1956,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "earnings_nosurprise",
-      "scanned_at": "2026-11-13T09:36:56Z",
+      "scanned_at": "2026-11-13T17:39:45Z",
       "region": "EU"
     },
     {
@@ -1229,7 +1997,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:56Z",
+      "scanned_at": "2026-11-13T17:39:45Z",
       "region": "EU"
     },
     {
@@ -1249,7 +2017,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:56Z",
+      "scanned_at": "2026-11-13T17:39:45Z",
       "region": "EU"
     },
     {
@@ -1270,7 +2038,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:56Z",
+      "scanned_at": "2026-11-13T17:39:44Z",
       "region": "EU"
     },
     {
@@ -1290,7 +2058,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:56Z",
+      "scanned_at": "2026-11-13T17:39:44Z",
       "region": "EU"
     },
     {
@@ -1310,7 +2078,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "earnings_nosurprise",
-      "scanned_at": "2026-11-13T09:36:56Z",
+      "scanned_at": "2026-11-13T17:39:45Z",
       "region": "EU"
     },
     {
@@ -1329,7 +2097,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:56Z",
+      "scanned_at": "2026-11-13T17:39:45Z",
       "region": "EU"
     },
     {
@@ -1348,7 +2116,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:57Z",
+      "scanned_at": "2026-11-13T17:39:46Z",
       "region": "EU"
     },
     {
@@ -1368,7 +2136,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:56Z",
+      "scanned_at": "2026-11-13T17:39:44Z",
       "region": "EU"
     },
     {
@@ -1387,7 +2155,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:56Z",
+      "scanned_at": "2026-11-13T17:39:45Z",
       "region": "EU"
     },
     {
@@ -1398,7 +2166,7 @@
       "url": "https://de.finance.yahoo.com/nachrichten/wochenvorschau-termine-25-novem-2026-050509830.html?.tsrc=rss",
       "published_at": "2026-11-12T05:05:09Z",
       "tickers": [
-        "WIE.VI"
+        "ALV.DE"
       ],
       "form": "EU_NEWS",
       "event_type": "other",
@@ -1406,7 +2174,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:58Z",
+      "scanned_at": "2026-11-13T17:39:44Z",
       "region": "EU"
     },
     {
@@ -1425,7 +2193,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:56Z",
+      "scanned_at": "2026-11-13T17:39:44Z",
       "region": "EU"
     },
     {
@@ -1444,7 +2212,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:56Z",
+      "scanned_at": "2026-11-13T17:39:44Z",
       "region": "EU"
     },
     {
@@ -1463,7 +2231,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:57Z",
+      "scanned_at": "2026-11-13T17:39:46Z",
       "region": "EU"
     },
     {
@@ -1484,7 +2252,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:56Z",
+      "scanned_at": "2026-11-13T17:39:44Z",
       "region": "EU"
     },
     {
@@ -1504,7 +2272,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:54Z",
+      "scanned_at": "2026-11-13T17:39:42Z",
       "region": "EU"
     },
     {
@@ -1523,7 +2291,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:50Z",
+      "scanned_at": "2026-11-13T17:39:37Z",
       "region": "EU"
     },
     {
@@ -1543,7 +2311,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:52Z",
+      "scanned_at": "2026-11-13T17:39:39Z",
       "region": "EU"
     },
     {
@@ -1562,7 +2330,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:50Z",
+      "scanned_at": "2026-11-13T17:39:37Z",
       "region": "EU"
     },
     {
@@ -1661,7 +2429,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:54Z",
+      "scanned_at": "2026-11-13T17:39:42Z",
       "region": "EU"
     },
     {
@@ -1681,7 +2449,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:53Z",
+      "scanned_at": "2026-11-13T17:39:41Z",
       "region": "EU"
     },
     {
@@ -1701,7 +2469,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "earnings_nosurprise",
-      "scanned_at": "2026-11-13T09:36:54Z",
+      "scanned_at": "2026-11-13T17:39:42Z",
       "region": "EU"
     },
     {
@@ -1722,7 +2490,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:57Z",
+      "scanned_at": "2026-11-13T17:39:46Z",
       "region": "EU"
     },
     {
@@ -1744,7 +2512,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:57Z",
+      "scanned_at": "2026-11-13T17:39:47Z",
       "region": "EU"
     },
     {
@@ -1764,7 +2532,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:54Z",
+      "scanned_at": "2026-11-13T17:39:42Z",
       "region": "EU"
     },
     {
@@ -1785,7 +2553,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "earnings_nosurprise",
-      "scanned_at": "2026-11-13T09:36:54Z",
+      "scanned_at": "2026-11-13T17:39:42Z",
       "region": "EU"
     },
     {
@@ -1806,7 +2574,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:57Z",
+      "scanned_at": "2026-11-13T17:39:46Z",
       "region": "EU"
     },
     {
@@ -1825,7 +2593,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:51Z",
+      "scanned_at": "2026-11-13T17:39:38Z",
       "region": "EU"
     },
     {
@@ -1844,7 +2612,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:52Z",
+      "scanned_at": "2026-11-13T17:39:39Z",
       "region": "EU"
     },
     {
@@ -1898,7 +2666,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:54Z",
+      "scanned_at": "2026-11-13T17:39:42Z",
       "region": "EU"
     },
     {
@@ -1918,7 +2686,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:57Z",
+      "scanned_at": "2026-11-13T17:39:47Z",
       "region": "EU"
     },
     {
@@ -1929,7 +2697,6 @@
       "url": "https://www.businessinsider.de/wirtschaft/emirates-chef-erteilt-220-millionen-absage-das-fordert-er-jetzt-von-airbus-und-boeing/?.tsrc=rss",
       "published_at": "2026-11-10T20:47:26Z",
       "tickers": [
-        "AIR.DE",
         "AIR.PA",
         "INGA.AS"
       ],
@@ -1939,7 +2706,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:58Z",
+      "scanned_at": "2026-11-13T17:39:48Z",
       "region": "EU"
     },
     {
@@ -1960,7 +2727,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:34Z",
+      "scanned_at": "2026-11-13T17:39:49Z",
       "region": "EU"
     },
     {
@@ -2000,7 +2767,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:57Z",
+      "scanned_at": "2026-11-13T17:39:47Z",
       "region": "EU"
     },
     {
@@ -2020,7 +2787,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:57Z",
+      "scanned_at": "2026-11-13T17:39:47Z",
       "region": "EU"
     },
     {
@@ -2042,7 +2809,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:57Z",
+      "scanned_at": "2026-11-13T17:39:47Z",
       "region": "EU"
     },
     {
@@ -2063,7 +2830,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:55Z",
+      "scanned_at": "2026-11-13T17:39:43Z",
       "region": "EU"
     },
     {
@@ -2083,7 +2850,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:56Z",
+      "scanned_at": "2026-11-13T17:39:44Z",
       "region": "EU"
     },
     {
@@ -2104,7 +2871,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "earnings_nosurprise",
-      "scanned_at": "2026-11-13T09:36:58Z",
+      "scanned_at": "2026-11-13T17:39:47Z",
       "region": "EU"
     },
     {
@@ -2125,7 +2892,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "earnings_nosurprise",
-      "scanned_at": "2026-11-13T09:36:58Z",
+      "scanned_at": "2026-11-13T17:39:47Z",
       "region": "EU"
     },
     {
@@ -2145,7 +2912,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:58Z",
+      "scanned_at": "2026-11-13T17:39:47Z",
       "region": "EU"
     },
     {
@@ -2205,7 +2972,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:55Z",
+      "scanned_at": "2026-11-13T17:39:43Z",
       "region": "EU"
     },
     {
@@ -2244,7 +3011,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:50Z",
+      "scanned_at": "2026-11-13T17:39:37Z",
       "region": "EU"
     },
     {
@@ -2281,7 +3048,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:57Z",
+      "scanned_at": "2026-11-13T17:39:46Z",
       "region": "EU"
     },
     {
@@ -2298,7 +3065,7 @@
       "news_side": "short",
       "actionable": false,
       "eu_category": "earnings_chase",
-      "scanned_at": "2026-11-13T09:36:50Z",
+      "scanned_at": "2026-11-13T17:39:37Z",
       "region": "EU"
     },
     {
@@ -2376,7 +3143,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:58Z",
+      "scanned_at": "2026-11-13T17:39:47Z",
       "region": "EU"
     },
     {
@@ -2395,7 +3162,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:55Z",
+      "scanned_at": "2026-11-13T17:39:42Z",
       "region": "EU"
     },
     {
@@ -2414,7 +3181,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:51Z",
+      "scanned_at": "2026-11-13T17:39:38Z",
       "region": "EU"
     },
     {
@@ -2526,7 +3293,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:50Z",
+      "scanned_at": "2026-11-13T17:39:37Z",
       "region": "EU"
     },
     {
@@ -2547,7 +3314,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:58Z",
+      "scanned_at": "2026-11-13T17:39:48Z",
       "region": "EU"
     },
     {
@@ -2567,7 +3334,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:57Z",
+      "scanned_at": "2026-11-13T17:39:46Z",
       "region": "EU"
     },
     {
@@ -2606,7 +3373,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:58Z",
+      "scanned_at": "2026-11-13T17:39:48Z",
       "region": "EU"
     },
     {
@@ -2625,7 +3392,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:58Z",
+      "scanned_at": "2026-11-13T17:39:48Z",
       "region": "EU"
     },
     {
@@ -2642,7 +3409,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:50Z",
+      "scanned_at": "2026-11-13T17:39:37Z",
       "region": "EU"
     },
     {
@@ -2661,7 +3428,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:55Z",
+      "scanned_at": "2026-11-13T17:39:43Z",
       "region": "EU"
     },
     {
@@ -2700,7 +3467,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:57Z",
+      "scanned_at": "2026-11-13T17:39:46Z",
       "region": "EU"
     },
     {
@@ -2719,7 +3486,7 @@
       "news_side": "long",
       "actionable": true,
       "eu_category": "mna",
-      "scanned_at": "2026-11-13T09:36:57Z",
+      "scanned_at": "2026-11-13T17:39:46Z",
       "region": "EU"
     },
     {
@@ -2861,7 +3628,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:55Z",
+      "scanned_at": "2026-11-13T17:39:42Z",
       "region": "EU"
     },
     {
@@ -2884,6 +3651,23 @@
       "region": "EU"
     },
     {
+      "id": "729efe11f5df0d50",
+      "source": "eqs_google",
+      "title": "AEVIS VICTORIA SA: Anhaltendes Umsatzwachstum im dritten Quartal 2026 | Ad-hoc - EQS News",
+      "summary": "AEVIS VICTORIA SA: Anhaltendes Umsatzwachstum im dritten Quartal 2026 | Ad-hoc &nbsp;&nbsp; EQS News",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQcVMzRng2UUl4YWFPczAwNnJlZlFOME1lRWFmVHJlY3pHTmtyaGQzQVZRaGMtc3R2OFVGeVgtNUMzai1pX2NZSHN6UkZxTzFMQW9XTjFTT050MUJYWjVfN2VIai1NZkxFR3padW0xa2ZYc3pyNFpMRVg0RmZvQzNQZ3RHWmhqbXBFYjZTTG9pOWRfcTJ1TWZ0MDVrWk1NbEhKWEljX19NdXgyWnVBNHc3NGZNWVRKNzlRSmpEeVl6WGJhbVBJYUFmUC1LLW9pQ3ZZM1ZYREtFbkFDWHhpbmw4SHpB?oc=5",
+      "published_at": "2026-11-05T06:00:00Z",
+      "tickers": [],
+      "form": "EU_ADHOC",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-13T17:39:37Z",
+      "region": "EU"
+    },
+    {
       "id": "7c1ec6cd2e38bede",
       "source": "yahoo_eu",
       "title": "Kreise: Kompromiss in UBS-Eigenmittelfrage will Bewertungsmethode \u00e4ndern",
@@ -2900,7 +3684,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:55Z",
+      "scanned_at": "2026-11-13T17:39:42Z",
       "region": "EU"
     },
     {
@@ -2920,7 +3704,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:55Z",
+      "scanned_at": "2026-11-13T17:39:42Z",
       "region": "EU"
     },
     {
@@ -3040,7 +3824,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:58Z",
+      "scanned_at": "2026-11-13T17:39:47Z",
       "region": "EU"
     },
     {
@@ -3106,7 +3890,7 @@
       "url": "https://de.finance.yahoo.com/nachrichten/ig-metall-setzt-warnstreiks-tarifbezirk-154904624.html?.tsrc=rss",
       "published_at": "2026-11-03T15:49:04Z",
       "tickers": [
-        "AIR.DE"
+        "AIR.PA"
       ],
       "form": "EU_NEWS",
       "event_type": "other",
@@ -3114,7 +3898,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:58Z",
+      "scanned_at": "2026-11-13T17:39:48Z",
       "region": "EU"
     },
     {
@@ -3131,7 +3915,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:50Z",
+      "scanned_at": "2026-11-13T17:39:37Z",
       "region": "EU"
     },
     {
@@ -3207,7 +3991,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:57Z",
+      "scanned_at": "2026-11-13T17:39:46Z",
       "region": "EU"
     },
     {
@@ -3227,7 +4011,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:57Z",
+      "scanned_at": "2026-11-13T17:39:46Z",
       "region": "EU"
     },
     {
@@ -3246,7 +4030,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:50Z",
+      "scanned_at": "2026-11-13T17:39:37Z",
       "region": "EU"
     },
     {
@@ -3266,7 +4050,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:57Z",
+      "scanned_at": "2026-11-13T17:39:46Z",
       "region": "EU"
     },
     {
@@ -3288,7 +4072,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:55Z",
+      "scanned_at": "2026-11-13T17:39:49Z",
       "region": "EU"
     },
     {
@@ -3308,7 +4092,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:57Z",
+      "scanned_at": "2026-11-13T17:39:46Z",
       "region": "EU"
     },
     {
@@ -3328,7 +4112,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:34Z",
+      "scanned_at": "2026-11-13T17:39:49Z",
       "region": "EU"
     },
     {
@@ -3359,7 +4143,6 @@
       "url": "https://de.finance.yahoo.com/nachrichten/verteidigungsministerium-best%C3%A4tigt-probleme-airbus-hubschrau-130834355.html?.tsrc=rss",
       "published_at": "2026-11-02T13:08:34Z",
       "tickers": [
-        "AIR.DE",
         "AIR.PA",
         "UBSG.SW"
       ],
@@ -3369,7 +4152,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:58Z",
+      "scanned_at": "2026-11-13T17:39:48Z",
       "region": "EU"
     },
     {
@@ -3390,7 +4173,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:56Z",
+      "scanned_at": "2026-11-13T17:39:44Z",
       "region": "EU"
     },
     {
@@ -3430,7 +4213,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:57Z",
+      "scanned_at": "2026-11-13T17:39:46Z",
       "region": "EU"
     },
     {
@@ -3449,7 +4232,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:51Z",
+      "scanned_at": "2026-11-13T17:39:38Z",
       "region": "EU"
     },
     {
@@ -3469,7 +4252,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:55Z",
+      "scanned_at": "2026-11-13T17:39:42Z",
       "region": "EU"
     },
     {
@@ -3488,7 +4271,26 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:50Z",
+      "scanned_at": "2026-11-13T17:39:37Z",
+      "region": "EU"
+    },
+    {
+      "id": "6a0f2802e0eceddf",
+      "source": "eqs_google",
+      "title": "BOOSTER Precision Components Holding gibt Verl\u00e4ngerung der Stillhaltevereinbarung mit Ad-hoc-Gruppe bekannt | Corporate - EQS News",
+      "summary": "BOOSTER Precision Components Holding gibt Verl\u00e4ngerung der Stillhaltevereinbarung mit Ad-hoc-Gruppe bekannt | Corporate &nbsp;&nbsp; EQS News",
+      "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNYzd6N3dlcDBwN2pvbGVsNWhyNDNWeXoybTB4TDFfVTVlcVoyamthMm5jbktuYWNUTDFYV2VfbkswaXFzdkZscFZFTmZkeXZBbGl6N2tUcVpaZC1hb0tVdW1BREpEWHFSdk5XRW9HeTdFV1hocy1jT244QVZ3TUJYVnpJMWMtcUdYWFFxLWJ4djd6aEN3eEZIS1NIWGtJeEdIRmotVlRnU1Z1VUFaMVhuektnZ2pjdV9hMThkclhoQlFQSko1eVg4SjNCcWxTaklsQlM0R3dsdC1mS01ObnZWNGV3bjhOUTYzWUZyMFJLcWQ4Tl9NYWdFZlEyQ2FicVJqT2dvbzBCNDBkY043YmtzWThMUUNfSTQ?oc=5",
+      "published_at": "2026-10-30T09:49:00Z",
+      "tickers": [
+        "INGA.AS"
+      ],
+      "form": "EU_ADHOC",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-13T17:39:37Z",
       "region": "EU"
     },
     {
@@ -3510,7 +4312,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:34Z",
+      "scanned_at": "2026-11-13T17:39:49Z",
       "region": "EU"
     },
     {
@@ -3529,7 +4331,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:55Z",
+      "scanned_at": "2026-11-13T17:39:43Z",
       "region": "EU"
     },
     {
@@ -3549,7 +4351,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:53Z",
+      "scanned_at": "2026-11-13T17:39:41Z",
       "region": "EU"
     },
     {
@@ -3568,7 +4370,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:34Z",
+      "scanned_at": "2026-11-13T17:39:49Z",
       "region": "EU"
     },
     {
@@ -3587,7 +4389,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "earnings_nosurprise",
-      "scanned_at": "2026-11-13T09:36:34Z",
+      "scanned_at": "2026-11-13T17:39:49Z",
       "region": "EU"
     },
     {
@@ -3607,7 +4409,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:34Z",
+      "scanned_at": "2026-11-13T17:39:49Z",
       "region": "EU"
     },
     {
@@ -3626,7 +4428,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:34Z",
+      "scanned_at": "2026-11-13T17:39:49Z",
       "region": "EU"
     },
     {
@@ -3637,7 +4439,6 @@
       "url": "https://de.finance.yahoo.com/nachrichten/roundup-airbus-rechnet-trotz-holprigem-105340136.html?.tsrc=rss",
       "published_at": "2026-10-29T10:53:40Z",
       "tickers": [
-        "AIR.DE",
         "AIR.PA",
         "INGA.AS"
       ],
@@ -3647,7 +4448,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:58Z",
+      "scanned_at": "2026-11-13T17:39:48Z",
       "region": "EU"
     },
     {
@@ -3658,7 +4459,7 @@
       "url": "https://de.finance.yahoo.com/nachrichten/triebwerkshersteller-mtu-sitzt-vollen-auftragsb%C3%BCchern-105337049.html?.tsrc=rss",
       "published_at": "2026-10-29T10:53:37Z",
       "tickers": [
-        "AIR.DE"
+        "AIR.PA"
       ],
       "form": "EU_NEWS",
       "event_type": "other",
@@ -3666,7 +4467,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:58Z",
+      "scanned_at": "2026-11-13T17:39:48Z",
       "region": "EU"
     },
     {
@@ -3686,7 +4487,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "earnings_nosurprise",
-      "scanned_at": "2026-11-13T09:36:53Z",
+      "scanned_at": "2026-11-13T17:39:41Z",
       "region": "EU"
     },
     {
@@ -3706,7 +4507,26 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "earnings_nosurprise",
-      "scanned_at": "2026-11-13T09:36:55Z",
+      "scanned_at": "2026-11-13T17:39:43Z",
+      "region": "EU"
+    },
+    {
+      "id": "b32819c8df072c93",
+      "source": "yahoo_eu",
+      "title": "AKTIE IM FOKUS: Zuversicht treibt Airbus-Kurs an nach Quartalszahlen",
+      "summary": "Die Aktien von Airbus haben sich am Donnerstag nach der Ver\u00f6ffentlichung von Quartalszahlen deutlicher von der 21-Tage-Linie abgesetzt. Zudem versuchten sie den Sprung \u00fcber die 50-Tage-Linie. Die beiden Indikatoren liefern Hinweise f\u00fcr den kurz- beziehungsweise mittelfristigen Trend. Zuletzt gewannen die Papiere des Flugzeugbauers 1,8 Prozent.",
+      "url": "https://de.finance.yahoo.com/nachrichten/aktie-fokus-zuversicht-treibt-airbus-091431157.html?.tsrc=rss",
+      "published_at": "2026-10-29T09:14:31Z",
+      "tickers": [
+        "AIR.PA"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "earnings",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "earnings_nosurprise",
+      "scanned_at": "2026-11-13T17:39:48Z",
       "region": "EU"
     },
     {
@@ -3727,7 +4547,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:57Z",
+      "scanned_at": "2026-11-13T17:39:46Z",
       "region": "EU"
     },
     {
@@ -3746,7 +4566,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:55Z",
+      "scanned_at": "2026-11-13T17:39:43Z",
       "region": "EU"
     },
     {
@@ -3763,7 +4583,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:50Z",
+      "scanned_at": "2026-11-13T17:39:37Z",
       "region": "EU"
     },
     {
@@ -3782,7 +4602,48 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:55Z",
+      "scanned_at": "2026-11-13T17:39:43Z",
+      "region": "EU"
+    },
+    {
+      "id": "339361de6fd4a7cd",
+      "source": "yahoo_eu",
+      "title": "euroAtlantic Airways erweitert seine Gro\u00dfraumflotte um einen zweiten A330-300",
+      "summary": "LISSABON, Portugal, October 28, 2026--euroAtlantic Airways (\u201eEAA\"), ein Portfoliounternehmen von Njord Partners und eine portugiesische ACMI- und Charterfluggesellschaft, hat einen zweiten Airbus A330-300 aus dem Leasingvertrag mit Jackson Square Aviation (JSA) in ihre Flotte aufgenommen und damit ihre Gro\u00dfraumkapazit\u00e4t weiter ausgebaut. Das zweite Flugzeug traf am 28. Oktober 2026 in Portugal ein, wodurch sich die Gesamtflottengr\u00f6\u00dfe von EAA auf acht Flugzeuge erh\u00f6ht.",
+      "url": "https://de.finance.yahoo.com/nachrichten/euroatlantic-airways-erweitert-gro%C3%9Fraumflotte-um-192400080.html?.tsrc=rss",
+      "published_at": "2026-10-28T19:24:00Z",
+      "tickers": [
+        "AIR.PA",
+        "RWE.DE",
+        "INGA.AS",
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-13T17:39:48Z",
+      "region": "EU"
+    },
+    {
+      "id": "ac8134799ccdcf19",
+      "source": "yahoo_eu",
+      "title": "ROUNDUP: Airbus rechnet trotz holprigem Sommer mit Rekordjahr",
+      "summary": "Der weltgr\u00f6\u00dfte Flugzeughersteller Airbus steuert trotz eines Sommers mit Produktionsm\u00e4ngeln weiterhin auf ein Rekordjahr zu. Wie geplant sollen rund 870 Verkehrsflugzeuge den Weg zu den Kunden finden und damit etwas mehr als die 863 Jets aus dem Spitzenjahr 2019, kurz vor der Corona-Pandemie. Im dritten Quartal musste sich Airbus jedoch mit technischen M\u00e4ngeln an gleich zwei Flugzeugtypen herumschlagen. Die Auslieferungen stockten, und der Umsatz und der Gewinn im Tagesgesch\u00e4ft gi",
+      "url": "https://de.finance.yahoo.com/nachrichten/roundup-airbus-rechnet-trotz-holprigem-185555161.html?.tsrc=rss",
+      "published_at": "2026-10-28T18:55:55Z",
+      "tickers": [
+        "AIR.PA"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-13T17:39:48Z",
       "region": "EU"
     },
     {
@@ -3803,7 +4664,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:55Z",
+      "scanned_at": "2026-11-13T17:39:42Z",
       "region": "EU"
     },
     {
@@ -3822,7 +4683,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:55Z",
+      "scanned_at": "2026-11-13T17:39:42Z",
       "region": "EU"
     },
     {
@@ -3842,7 +4703,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:53Z",
+      "scanned_at": "2026-11-13T17:39:41Z",
       "region": "EU"
     },
     {
@@ -3863,7 +4724,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "earnings_nosurprise",
-      "scanned_at": "2026-11-13T09:36:57Z",
+      "scanned_at": "2026-11-13T17:39:46Z",
       "region": "EU"
     },
     {
@@ -3880,7 +4741,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:50Z",
+      "scanned_at": "2026-11-13T17:39:37Z",
       "region": "EU"
     },
     {
@@ -3899,7 +4760,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:50Z",
+      "scanned_at": "2026-11-13T17:39:37Z",
       "region": "EU"
     },
     {
@@ -3918,7 +4779,7 @@
       "news_side": "short",
       "actionable": true,
       "eu_category": "offering",
-      "scanned_at": "2026-11-13T09:36:50Z",
+      "scanned_at": "2026-11-13T17:39:37Z",
       "region": "EU"
     },
     {
@@ -3935,7 +4796,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:50Z",
+      "scanned_at": "2026-11-13T17:39:37Z",
       "region": "EU"
     },
     {
@@ -3954,7 +4815,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:53Z",
+      "scanned_at": "2026-11-13T17:39:41Z",
       "region": "EU"
     },
     {
@@ -3974,7 +4835,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:57Z",
+      "scanned_at": "2026-11-13T17:39:46Z",
       "region": "EU"
     },
     {
@@ -3994,7 +4855,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:58Z",
+      "scanned_at": "2026-11-13T17:39:47Z",
       "region": "EU"
     },
     {
@@ -4032,7 +4893,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:51Z",
+      "scanned_at": "2026-11-13T17:39:38Z",
       "region": "EU"
     },
     {
@@ -4049,7 +4910,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:52Z",
+      "scanned_at": "2026-11-13T17:39:39Z",
       "region": "EU"
     },
     {
@@ -4068,7 +4929,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:56Z",
+      "scanned_at": "2026-11-13T17:39:44Z",
       "region": "EU"
     },
     {
@@ -4088,7 +4949,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:53Z",
+      "scanned_at": "2026-11-13T17:39:41Z",
       "region": "EU"
     },
     {
@@ -4128,7 +4989,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:53Z",
+      "scanned_at": "2026-11-13T17:39:41Z",
       "region": "EU"
     },
     {
@@ -4148,7 +5009,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:52Z",
+      "scanned_at": "2026-11-13T17:39:39Z",
       "region": "EU"
     },
     {
@@ -4167,7 +5028,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:52Z",
+      "scanned_at": "2026-11-13T17:39:39Z",
       "region": "EU"
     },
     {
@@ -4186,7 +5047,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:50Z",
+      "scanned_at": "2026-11-13T17:39:37Z",
       "region": "EU"
     },
     {
@@ -4205,7 +5066,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:52Z",
+      "scanned_at": "2026-11-13T17:39:39Z",
       "region": "EU"
     },
     {
@@ -4239,7 +5100,24 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:50Z",
+      "scanned_at": "2026-11-13T17:39:37Z",
+      "region": "EU"
+    },
+    {
+      "id": "4d4d7a41089ac4ea",
+      "source": "eqs_google",
+      "title": "TAKKT AG: Cyberangriff bei TAKKT AG | Ad-hoc - EQS News",
+      "summary": "TAKKT AG: Cyberangriff bei TAKKT AG | Ad-hoc &nbsp;&nbsp; EQS News",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNcGgwVURJcW9YUXF3bjVXMWR3WnM4V2t1ZFZycGJZMUZHdGNaa0dEUFZvMVZCbHdYSzdqSFRZUE56bWdLdExyS3lPQXI0US1jejRFTnplV3dlSUZTb3N6blhEaC1FeV9LYVZScllSTVNkTjhWRVFKSGMzbURYaFVJdDRQWkNQODdhcUhhQS15ai1sc2FRd19Qa2NrMFFkMHZ3ZGtxcWltX3lVTEM1LWttRA?oc=5",
+      "published_at": "2026-10-21T07:00:00Z",
+      "tickers": [],
+      "form": "EU_ADHOC",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-13T17:39:37Z",
       "region": "EU"
     },
     {
@@ -4276,7 +5154,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:50Z",
+      "scanned_at": "2026-11-13T17:39:37Z",
       "region": "EU"
     },
     {
@@ -4293,7 +5171,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:50Z",
+      "scanned_at": "2026-11-13T17:39:37Z",
       "region": "EU"
     },
     {
@@ -4310,7 +5188,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:50Z",
+      "scanned_at": "2026-11-13T17:39:37Z",
       "region": "EU"
     },
     {
@@ -4331,6 +5209,25 @@
       "region": "EU"
     },
     {
+      "id": "7d356fe68b84a3ed",
+      "source": "eqs_google",
+      "title": "Comet Holding AG Comet: Beschleunigtes Umsatzwachstum im 3. Quartal - EQS News",
+      "summary": "Comet Holding AG Comet: Beschleunigtes Umsatzwachstum im 3. Quartal &nbsp;&nbsp; EQS News",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNd0ctOUFQTktBSmQtbEZqdWZtN1BEcTlpSFJhb0ZDTHVlS21KUm4xVGN2VXpTVEhxV0dCSzZERDhzSkRhUzRaa2FjYU0tWHRaQ2ZFWUNRTWFudFgyb0x5bmJUNmpjZVpqM3N6Z1FFeGI2RDhoT1UtTXpRclgtTHJrdWptcnUwUVpieG0wVnMwQnJjTkh3WWVaOW94anZjRjJLWFVqakp3OC1YbzNDT3JoM3kyWUlJZV9fT1dLQ29ZbzhudW8?oc=5",
+      "published_at": "2026-10-20T04:30:00Z",
+      "tickers": [
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-13T17:39:37Z",
+      "region": "EU"
+    },
+    {
       "id": "fdba828cfa0bc5c6",
       "source": "yahoo_eu",
       "title": "Morgan Advanced Materials: Citi stuft Aktie ab \u2013 Begrenztes Kurspotenzial bremst Erholung",
@@ -4347,7 +5244,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:53Z",
+      "scanned_at": "2026-11-13T17:39:41Z",
       "region": "EU"
     },
     {
@@ -4364,7 +5261,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:50Z",
+      "scanned_at": "2026-11-13T17:39:37Z",
       "region": "EU"
     },
     {
@@ -4381,7 +5278,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:52Z",
+      "scanned_at": "2026-11-13T17:39:39Z",
       "region": "EU"
     },
     {
@@ -4398,7 +5295,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:52Z",
+      "scanned_at": "2026-11-13T17:39:39Z",
       "region": "EU"
     },
     {
@@ -4456,7 +5353,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:53Z",
+      "scanned_at": "2026-11-13T17:39:41Z",
       "region": "EU"
     },
     {
@@ -4476,7 +5373,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:53Z",
+      "scanned_at": "2026-11-13T17:39:41Z",
       "region": "EU"
     },
     {
@@ -4517,7 +5414,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:55Z",
+      "scanned_at": "2026-11-13T17:39:43Z",
       "region": "EU"
     },
     {
@@ -4537,7 +5434,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:53Z",
+      "scanned_at": "2026-11-13T17:39:41Z",
       "region": "EU"
     },
     {
@@ -4558,7 +5455,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:53Z",
+      "scanned_at": "2026-11-13T17:39:41Z",
       "region": "EU"
     },
     {
@@ -4577,7 +5474,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:53Z",
+      "scanned_at": "2026-11-13T17:39:41Z",
       "region": "EU"
     },
     {
@@ -4598,7 +5495,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:53Z",
+      "scanned_at": "2026-11-13T17:39:41Z",
       "region": "EU"
     },
     {
@@ -4617,7 +5514,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:53Z",
+      "scanned_at": "2026-11-13T17:39:41Z",
       "region": "EU"
     },
     {
@@ -4636,7 +5533,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:53Z",
+      "scanned_at": "2026-11-13T17:39:41Z",
       "region": "EU"
     },
     {
@@ -4656,7 +5553,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:53Z",
+      "scanned_at": "2026-11-13T17:39:41Z",
       "region": "EU"
     },
     {
@@ -4677,7 +5574,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:54Z",
+      "scanned_at": "2026-11-13T17:39:42Z",
       "region": "EU"
     },
     {
@@ -4697,7 +5594,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:53Z",
+      "scanned_at": "2026-11-13T17:39:41Z",
       "region": "EU"
     },
     {
@@ -4716,7 +5613,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:53Z",
+      "scanned_at": "2026-11-13T17:39:41Z",
       "region": "EU"
     },
     {
@@ -4733,7 +5630,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:50Z",
+      "scanned_at": "2026-11-13T17:39:37Z",
       "region": "EU"
     },
     {
@@ -4754,7 +5651,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:53Z",
+      "scanned_at": "2026-11-13T17:39:41Z",
       "region": "EU"
     },
     {
@@ -4774,7 +5671,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:58Z",
+      "scanned_at": "2026-11-13T17:39:47Z",
       "region": "EU"
     },
     {
@@ -4796,7 +5693,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:53Z",
+      "scanned_at": "2026-11-13T17:39:41Z",
       "region": "EU"
     },
     {
@@ -4815,7 +5712,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:56Z",
+      "scanned_at": "2026-11-13T17:39:44Z",
       "region": "EU"
     },
     {
@@ -4832,7 +5729,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:50Z",
+      "scanned_at": "2026-11-13T17:39:37Z",
       "region": "EU"
     },
     {
@@ -4851,7 +5748,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:52Z",
+      "scanned_at": "2026-11-13T17:39:39Z",
       "region": "EU"
     },
     {
@@ -4870,7 +5767,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:56Z",
+      "scanned_at": "2026-11-13T17:39:44Z",
       "region": "EU"
     },
     {
@@ -4889,7 +5786,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:53Z",
+      "scanned_at": "2026-11-13T17:39:41Z",
       "region": "EU"
     },
     {
@@ -4909,7 +5806,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:58Z",
+      "scanned_at": "2026-11-13T17:39:47Z",
       "region": "EU"
     },
     {
@@ -4926,7 +5823,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:52Z",
+      "scanned_at": "2026-11-13T17:39:39Z",
       "region": "EU"
     },
     {
@@ -4950,6 +5847,25 @@
       "region": "EU"
     },
     {
+      "id": "321d70845efd4b49",
+      "source": "eqs_google",
+      "title": "adidas-Aktie vor dem Comeback? Analyst sieht 35 Prozent Potenzial - Finanzen.net",
+      "summary": "adidas-Aktie vor dem Comeback? Analyst sieht 35 Prozent Potenzial &nbsp;&nbsp; Finanzen.net",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNaUxhOVRSTHhkbmtwdS16UUJoOFdlRk5Eb21oYlk5bmhUQ3ZZZ3J4R3BVQTBGNU5QQnN2QzlUdDJ3LThqNDNBcjNIbVZIczhMZE1aUjlfQXZwQUt5TXJ1SUVVZ1ZFdFpTbTgtNzBHRzlFSU5sZW15dkZwR2VlTHV0WEJ1ZGpJTGFVVnVVMVVkeU10ajcwYzhLZ1N5YURLTzJHcXdTOUJ2aUtuY0lnZXVsZ3J4bGE1YVIzaHdqQUpVb0llR2xVTzRB?oc=5",
+      "published_at": "2026-09-22T07:00:00Z",
+      "tickers": [
+        "ADS.DE"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "analyst",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "analyst",
+      "scanned_at": "2026-11-13T17:39:39Z",
+      "region": "EU"
+    },
+    {
       "id": "6a6f2232bf751982",
       "source": "yahoo_eu",
       "title": "MSITEK nimmt am Retail Innovation Lab der New York Fashion Week teil",
@@ -4965,7 +5881,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:58Z",
+      "scanned_at": "2026-11-13T17:39:47Z",
       "region": "EU"
     },
     {
@@ -4984,7 +5900,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:56Z",
+      "scanned_at": "2026-11-13T17:39:44Z",
       "region": "EU"
     },
     {
@@ -5021,7 +5937,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:25Z",
+      "scanned_at": "2026-11-13T17:39:37Z",
       "region": "EU"
     },
     {
@@ -5040,7 +5956,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:58Z",
+      "scanned_at": "2026-11-13T17:39:47Z",
       "region": "EU"
     },
     {
@@ -5061,7 +5977,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:57Z",
+      "scanned_at": "2026-11-13T17:39:46Z",
       "region": "EU"
     },
     {
@@ -5081,7 +5997,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:57Z",
+      "scanned_at": "2026-11-13T17:39:46Z",
       "region": "EU"
     },
     {
@@ -5098,7 +6014,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:50Z",
+      "scanned_at": "2026-11-13T17:39:37Z",
       "region": "EU"
     },
     {
@@ -5119,7 +6035,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:54Z",
+      "scanned_at": "2026-11-13T17:39:42Z",
       "region": "EU"
     },
     {
@@ -5157,7 +6073,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:52Z",
+      "scanned_at": "2026-11-13T17:39:39Z",
       "region": "EU"
     },
     {
@@ -5174,7 +6090,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:52Z",
+      "scanned_at": "2026-11-13T17:39:39Z",
       "region": "EU"
     },
     {
@@ -5231,7 +6147,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:25Z",
+      "scanned_at": "2026-11-13T17:39:37Z",
       "region": "EU"
     },
     {
@@ -5270,7 +6186,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:56Z",
+      "scanned_at": "2026-11-13T17:39:44Z",
       "region": "EU"
     },
     {
@@ -5290,7 +6206,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:58Z",
+      "scanned_at": "2026-11-13T17:39:47Z",
       "region": "EU"
     },
     {
@@ -5408,7 +6324,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:52Z",
+      "scanned_at": "2026-11-13T17:39:39Z",
       "region": "EU"
     },
     {
@@ -5427,7 +6343,26 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:52Z",
+      "scanned_at": "2026-11-13T17:39:39Z",
+      "region": "EU"
+    },
+    {
+      "id": "23b97d487025b243",
+      "source": "eqs_google",
+      "title": "Neue Warnsignale f\u00fcr BASF? Berenberg senkt die Erwartungen - Aktie steigt dennoch - Finanzen.net",
+      "summary": "Neue Warnsignale f\u00fcr BASF? Berenberg senkt die Erwartungen - Aktie steigt dennoch &nbsp;&nbsp; Finanzen.net",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQMEE5N2xKRjI3LXVjZWVWTXBZSUpKUm45eFZDYnB5MGtRcERieDR1TUFtWmxqMlhPb0FlWEhoUVlQdkdUWU1QRTkzVGdWR0p4Z1NCZ3RSbU1TS2tZSUhGVkYxekhWb2lOeDNYaUdTajVvclRaa1pCSFlyRjdrcHgxc3ZBTDNXMUt3Tlkxamlla2pmbFBVNW9yZHNCQm1DMTNDazNKR29maUJEZ2Y1WHh2S1hNVTkxa3BUNDFRRjh0akJjOGdid2Z3Z2hTNUl3c1dnc1lubHFsanZzaG1BQnc?oc=5",
+      "published_at": "2026-07-16T07:00:00Z",
+      "tickers": [
+        "BAS.DE"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-13T17:39:39Z",
       "region": "EU"
     },
     {
@@ -5465,7 +6400,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:52Z",
+      "scanned_at": "2026-11-13T17:39:39Z",
       "region": "EU"
     },
     {
@@ -5485,7 +6420,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:52Z",
+      "scanned_at": "2026-11-13T17:39:39Z",
       "region": "EU"
     },
     {
@@ -5566,7 +6501,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:52Z",
+      "scanned_at": "2026-11-13T17:39:39Z",
       "region": "EU"
     },
     {
@@ -5583,7 +6518,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:52Z",
+      "scanned_at": "2026-11-13T17:39:39Z",
       "region": "EU"
     },
     {
@@ -5605,7 +6540,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:57Z",
+      "scanned_at": "2026-11-13T17:39:46Z",
       "region": "EU"
     },
     {
@@ -5624,7 +6559,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:52Z",
+      "scanned_at": "2026-11-13T17:39:39Z",
       "region": "EU"
     },
     {
@@ -5645,7 +6580,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:54Z",
+      "scanned_at": "2026-11-13T17:39:42Z",
       "region": "EU"
     },
     {
@@ -5662,7 +6597,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:52Z",
+      "scanned_at": "2026-11-13T17:39:39Z",
       "region": "EU"
     },
     {
@@ -5681,7 +6616,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:52Z",
+      "scanned_at": "2026-11-13T17:39:39Z",
       "region": "EU"
     },
     {
@@ -5698,7 +6633,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:52Z",
+      "scanned_at": "2026-11-13T17:39:39Z",
       "region": "EU"
     },
     {
@@ -5717,7 +6652,24 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:52Z",
+      "scanned_at": "2026-11-13T17:39:39Z",
+      "region": "EU"
+    },
+    {
+      "id": "eb879086f45b3a2f",
+      "source": "eqs_google",
+      "title": "Lufthansa-Aktie h\u00f6her: Analyst sieht neuen R\u00fcckenwind und setzt Kursziel hoch - Finanzen.net",
+      "summary": "Lufthansa-Aktie h\u00f6her: Analyst sieht neuen R\u00fcckenwind und setzt Kursziel hoch &nbsp;&nbsp; Finanzen.net",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOUklpMHVPX0gyNnhXZ1ozUWl2UDVQY1piZWxiZ2ltRDhMX3NGeFZBVXZuRHE1dTZFWko5WmM4Q1JsUWl4bFk1UHBDZGlJdU9aYm9abmMtZ05yN1lRdTlIekhUSGlSZDFCZjVGMmthLUM2TDd2bkR0eWZ1a3NEOWdUNHpBbHdCSzFOVUhpZkRtMHdYcjJlY05TOVB5MEdnbHdETC1yXzBid1RqS1BMRFdCVzllT1lGak1yTFFVMnBOb09nMmNjcnZtMzNYN01uZUVRZG8ya0hUYWpjMndvblJpd1ltUEFTUVZoSUU2WkJFYw?oc=5",
+      "published_at": "2026-06-22T07:00:00Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "analyst",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "analyst",
+      "scanned_at": "2026-11-13T17:39:39Z",
       "region": "EU"
     },
     {
@@ -5734,7 +6686,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:52Z",
+      "scanned_at": "2026-11-13T17:39:39Z",
       "region": "EU"
     },
     {
@@ -5771,7 +6723,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:50Z",
+      "scanned_at": "2026-11-13T17:39:37Z",
       "region": "EU"
     },
     {
@@ -5847,7 +6799,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:57Z",
+      "scanned_at": "2026-11-13T17:39:46Z",
       "region": "EU"
     },
     {
@@ -5869,7 +6821,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:57Z",
+      "scanned_at": "2026-11-13T17:39:46Z",
       "region": "EU"
     },
     {
@@ -5889,7 +6841,7 @@
       "news_side": "long",
       "actionable": true,
       "eu_category": "mna",
-      "scanned_at": "2026-11-13T09:36:57Z",
+      "scanned_at": "2026-11-13T17:39:46Z",
       "region": "EU"
     },
     {
@@ -5906,7 +6858,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:52Z",
+      "scanned_at": "2026-11-13T17:39:39Z",
       "region": "EU"
     },
     {
@@ -5925,7 +6877,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:54Z",
+      "scanned_at": "2026-11-13T17:39:42Z",
       "region": "EU"
     },
     {
@@ -5942,7 +6894,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:50Z",
+      "scanned_at": "2026-11-13T17:39:37Z",
       "region": "EU"
     },
     {
@@ -5961,7 +6913,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:52Z",
+      "scanned_at": "2026-11-13T17:39:39Z",
       "region": "EU"
     },
     {
@@ -6016,7 +6968,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:52Z",
+      "scanned_at": "2026-11-13T17:39:39Z",
       "region": "EU"
     },
     {
@@ -6033,7 +6985,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:52Z",
+      "scanned_at": "2026-11-13T17:39:39Z",
       "region": "EU"
     },
     {
@@ -6052,7 +7004,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:52Z",
+      "scanned_at": "2026-11-13T17:39:39Z",
       "region": "EU"
     },
     {
@@ -6089,7 +7041,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:52Z",
+      "scanned_at": "2026-11-13T17:39:39Z",
       "region": "EU"
     },
     {
@@ -6106,7 +7058,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:50Z",
+      "scanned_at": "2026-11-13T17:39:37Z",
       "region": "EU"
     },
     {
@@ -6144,7 +7096,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:54Z",
+      "scanned_at": "2026-11-13T17:39:42Z",
       "region": "EU"
     },
     {
@@ -6163,7 +7115,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:51Z",
+      "scanned_at": "2026-11-13T17:39:38Z",
       "region": "EU"
     },
     {
@@ -6199,7 +7151,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:50Z",
+      "scanned_at": "2026-11-13T17:39:37Z",
       "region": "EU"
     },
     {
@@ -6218,7 +7170,7 @@
       "news_side": "short",
       "actionable": true,
       "eu_category": "offering",
-      "scanned_at": "2026-11-13T09:36:51Z",
+      "scanned_at": "2026-11-13T17:39:38Z",
       "region": "EU"
     },
     {
@@ -6235,7 +7187,7 @@
       "news_side": "short",
       "actionable": true,
       "eu_category": "offering",
-      "scanned_at": "2026-11-13T09:36:51Z",
+      "scanned_at": "2026-11-13T17:39:38Z",
       "region": "EU"
     },
     {
@@ -6252,7 +7204,24 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:25Z",
+      "scanned_at": "2026-11-13T17:39:37Z",
+      "region": "EU"
+    },
+    {
+      "id": "88e3c82793cbdef0",
+      "source": "eqs_google",
+      "title": "ABIONYX Announces the Success of Its Capital Increase in Cash by Private Placement at a Price of \u20ac3.60 Per Share - Onvista",
+      "summary": "ABIONYX Announces the Success of Its Capital Increase in Cash by Private Placement at a Price of \u20ac3.60 Per Share &nbsp;&nbsp; Onvista",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQLTNaVDRfNElTSUNnSUNLMTZqSGpQSzNRcnVYMFM1M2VZWnVLREcwc2cxdDNpYmJiTU0zaFVzck9hVnhnRG5VZ0VHYXZRakt6amRMY3FnWEp5WWUzY0tManJiZ3JXbEhmUFE1Wmh6NUdNNlkxcmVFRllfMDVLOFpSRDhaSHFpNEZMcjZNZGh1M2lMRGU4b0tfTWYtb1R4M3hFUUxmSlBzTFl5YzJydXFfMHJvalJoV0JMUkUza1BRNm5RVU1Ob21pa0Z4MHJpXzlmZGVIUnBMeTM4RmpnNFBUa3ViVERrRlVCNGJlR29UaDhiSnBwQVVF?oc=5",
+      "published_at": "2021-12-01T08:00:00Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "offering",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "eu_category": "offering",
+      "scanned_at": "2026-11-13T17:39:38Z",
       "region": "EU"
     },
     {
@@ -6269,7 +7238,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:50Z",
+      "scanned_at": "2026-11-13T17:39:37Z",
       "region": "EU"
     },
     {
@@ -6289,7 +7258,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:51Z",
+      "scanned_at": "2026-11-13T17:39:38Z",
       "region": "EU"
     },
     {
@@ -6306,13 +7275,13 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:51Z",
+      "scanned_at": "2026-11-13T17:39:38Z",
       "region": "EU"
     }
   ],
   "region": "EU",
-  "as_of": "2026-11-13T09:36:58Z",
-  "n_items": 330,
+  "as_of": "2026-11-13T17:39:50Z",
+  "n_items": 382,
   "sources": [
     "eqs_google",
     "finanzen_net",

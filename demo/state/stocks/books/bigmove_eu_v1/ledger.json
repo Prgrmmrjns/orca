@@ -19,7 +19,7 @@
     {
       "day": "2026-11-13",
       "equity_eur": 1000.0,
-      "spy_eur": 1021.18,
+      "spy_eur": 1019.09,
       "cash_eur": 1000.0,
       "n_open": 0
     }
@@ -42,6 +42,12 @@
       "spy_eur": 1021.18,
       "spy_usd": 757.12,
       "eur_usd": 1.10952
+    },
+    {
+      "day": "2026-11-13",
+      "spy_eur": 1019.09,
+      "spy_usd": 751.31,
+      "eur_usd": 1.10327
     }
   ],
   "cost_pct": 0.005,
@@ -52,8 +58,8 @@
   "stop_loss": null,
   "prefer_open": false,
   "max_open": 20,
-  "last_run": "2026-11-13T09:39:27Z",
-  "last_reason": "engine[bigmove_eu_v1]: auto=0 ingested=0 fills=0 closed=0 open=0 session=open",
+  "last_run": "2026-11-13T17:40:21Z",
+  "last_reason": "engine[bigmove_eu_v1]: auto=0 ingested=0 fills=0 closed=0 open=0 session=closed",
   "extended_hours_extra_slippage_pct": 0.005,
   "allow_extended_hours": false,
   "max_per_ticker": 1,
@@ -63,5 +69,5 @@
   "sizing": "fixed",
   "score_ref": 10.0,
   "strategy_config_path": "config/strategies/bigmove_eu_v1.yaml",
-  "eur_usd": 1.1059499979019165
+  "eur_usd": 1.103265643119812
 }

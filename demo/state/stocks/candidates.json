@@ -1,6 +1,6 @@
 {
   "mode": "paper",
-  "as_of": "2026-11-13T10:47:56Z",
+  "as_of": "2026-11-13T17:40:16Z",
   "as_of_et": "2026-11-13 05:47 ET",
   "forward_test_start": "2026-11-10",
   "spy_above_ma50": false,
@@ -28,7 +28,7 @@
     "gap_filtered_guidance": "Config: long guidance_raise with gap \u22655% \u00b7 5% \u00b7 max 8 \u00b7 hold 5d \u00b7 no stop \u00b7 next_open (config/strategies/gap_filtered_guidance.yaml). Box test +4.4%.",
     "wide_capacity": "Config: quality longs \u00b7 5% \u00b7 max 15 \u00b7 hold 2d \u00b7 no stop \u00b7 next_open (config/strategies/wide_capacity.yaml). Box test +2.1%.",
     "bigmove_unified_v1": "Fade offering / PR-pop / M&A gap-downs and selective gap-down fades across pre/regular/after hours. Alert-only mega-cap shocks. No earnings/guidance chase. 5% \u00b7 max 20 \u00b7 hold 5d \u00b7 0.5%/fill + 0.5% ext slippage \u00b7 config/strategies/bigmove_unified_v1.yaml.",
-    "bigmove_eu_v1": "EU liquid large/mid caps: fade \u226510% gap-downs (earnings / other-PR / no-news) on Xetra/Euronext primary hours (09:00\u201317:30 Berlin). Gap-up shorts dropped after EU event study. Alert-only mega-cap shocks. No earnings/guidance chase. 5% \u00b7 max 20 \u00b7 hold 5d \u00b7 0.5%/fill (+0.5% outside primary) \u00b7 config/strategies/bigmove_eu_v1.yaml."
+    "bigmove_eu_v1": "EU liquid large/mid caps: fade large gap-downs after earnings/PR/no-news on primary hours (09:00\u201317:30 Berlin). Alert-only mega-cap shocks. No earnings/ guidance chase. No gap-up shorts (unprofitable on EU event study).\n"
   },
   "candidates": [
     {
@@ -16970,7 +16970,39 @@
       "rule_tags": [],
       "suggested_side": null,
       "suggested_hold": null
+    },
+    {
+      "ticker": "IFX.DE",
+      "name": "IFX.DE",
+      "cal_date": "2026-11-13",
+      "gap_pct": -4.2794,
+      "last": 49.880001068115234,
+      "prev_close": 52.11000061035156,
+      "rel_vol": 0.749,
+      "adv20_usd": 232889202.6539858,
+      "avg_dollar_volume": 232889202.6539858,
+      "spy_above_ma50": true,
+      "session": "closed",
+      "headline": "Infineon-Aktie weit im Plus: Jefferies senkt Kursziel - bekr\u00e4ftigt aber Kaufempfehlung - Finanzen.net",
+      "news_event_type": "analyst",
+      "news_direction": "bearish",
+      "news_side": null,
+      "news_actionable": true,
+      "news_source": "eqs_google",
+      "news_id": "65677e6e012515ac",
+      "filing_url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxObkdaRU5WT0RKTVd3SnJSM2xVMEV3bmUtTEVNSHVMUHVYQnRXWFVhRVFXcTR2dE42cDhob29QcFhkQkVZZWZJajFrd3R6bVpxYnRIVmpQWGxZLTh3RWVCdzJxeWxlVzAtWUNWNE9Eek81MEU5Yl9DbnZ6SGZIWVk0QXM4QTByZ29PcXRzZ2s4ZkdkeXZSY1VhRHRBSXVVMGsxUGVHcnNTWEdKd2dGQ2hjLW5JUXNNdng3SkRBZElkQkVaTW5obUlqUmRobzA5bTdDRkU1cUV2enlEY3NGQ3V5LWdfRFAtZw?oc=5",
+      "rule_tags": [
+        "bigmove_eu",
+        "analyst",
+        "bigmove_eu_v1"
+      ],
+      "source": "bigmove_eu_move_trigger",
+      "suggested_side": null,
+      "suggested_hold": 5,
+      "region": "EU",
+      "as_of": "2026-11-13T17:39:58Z"
     }
   ],
-  "news_merged_at": "2026-11-13T16:52:19Z"
+  "news_merged_at": "2026-11-13T16:52:19Z",
+  "stoxx_above_ma50": true
 }
