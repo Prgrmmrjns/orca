@@ -20,6 +20,7 @@ from stocks.market import (
     add_trading_days,
     daily_bar,
     eurusd,
+    fillable_quote,
     market_session,
     now_et,
     price_snapshot,
@@ -37,6 +38,7 @@ from stocks.paths import (
     write_json,
 )
 from stocks.strategy_config import (
+    allows_extended_hours,
     is_config_driven_book,
     load_strategy_config,
     match_candidate_to_news_config,
@@ -52,11 +54,27 @@ def _cost_pct(led: dict | None = None) -> float:
     return COST_PCT
 
 
+def _fill_cost_pct(led: dict | None, session: str) -> float:
+    """Base cost + optional extended-hours slippage (configurable per book)."""
+    base = _cost_pct(led)
+    if session not in ("pre", "after"):
+        return base
+    extra = 0.0
+    if led is not None and led.get("extended_hours_extra_slippage_pct") is not None:
+        try:
+            extra = float(led["extended_hours_extra_slippage_pct"])
+        except (TypeError, ValueError):
+            extra = 0.0
+    return base + max(0.0, extra)
+
+
 def _sync_config_ledger(book_id: str, led: dict) -> dict:
     """Apply live YAML book-level settings onto the ledger without touching positions."""
     cfg = load_strategy_config(book_id)
     led["max_open"] = int(cfg.max_positions)
     led["cost_pct"] = float(cfg.cost_per_fill_pct)
+    led["extended_hours_extra_slippage_pct"] = float(cfg.extended_hours_extra_slippage_pct)
+    led["allow_extended_hours"] = bool(cfg.allow_extended_hours)
     led["default_size"] = next((r.size_pct for r in cfg.rules if r.enabled), 0.05)
     led["max_per_ticker"] = int(cfg.max_per_ticker)
     led["max_gross_exposure_pct"] = float(cfg.max_gross_exposure_pct)
@@ -71,7 +89,9 @@ def _sync_config_ledger(book_id: str, led: dict) -> dict:
         f"Config-driven {book_id} ({led['strategy_config_path']}). "
         f"Enabled rules: {', '.join(enabled) or '(none)'}. "
         f"sizing={cfg.sizing}, max_positions={cfg.max_positions}, "
-        f"cost={cfg.cost_per_fill_pct}."
+        f"cost={cfg.cost_per_fill_pct}, "
+        f"ext_slip={cfg.extended_hours_extra_slippage_pct}, "
+        f"extended_hours={cfg.allow_extended_hours}."
     )
     return led
 
@@ -509,10 +529,10 @@ def ingest_decisions(led: dict, book_id: str) -> int:
 
 
 def fill_pending(led: dict, marks: dict[str, float], fx: float, book_id: str) -> list[dict]:
-    """Fill pending at next regular open, or current price if market is open at decision time."""
+    """Fill pending at next regular open, session price, or extended-hours quote when allowed."""
     session = market_session()
     today = now_et().date()
-    cost_pct = _cost_pct(led)
+    ext_ok = allows_extended_hours(book_id, led)
     fills = []
     still = []
     for order in led.get("pending") or []:
@@ -533,15 +553,28 @@ def fill_pending(led: dict, marks: dict[str, float], fx: float, book_id: str) ->
         bar = daily_bar(ticker, today)
         px = None
         fill_note = ""
+        fill_session = session
         prefer_open = bool(order.get("prefer_open"))
         if session == "open":
             if prefer_open and bar.get("open"):
                 px = bar["open"]
                 fill_note = "filled at regular-session open (rule book)"
+                fill_session = "open"
             else:
                 snap = price_snapshot(ticker)
                 px = snap.get("last") or (bar.get("open") if bar else None) or marks.get(ticker)
                 fill_note = "filled at session price (market open)"
+                fill_session = "open"
+        elif ext_ok and session in ("pre", "after"):
+            # First available extended-hours quote after the trigger
+            q = fillable_quote(ticker, allow_extended=True)
+            px = q.get("last") or marks.get(ticker)
+            if px:
+                fill_note = f"filled at extended-hours quote ({session})"
+                fill_session = session
+            else:
+                still.append(order)
+                continue
         else:
             decided = order.get("decided_at")
             decided_day = None
@@ -555,6 +588,7 @@ def fill_pending(led: dict, marks: dict[str, float], fx: float, book_id: str) ->
             if decided_day and decided_day < today and bar.get("open"):
                 px = bar["open"]
                 fill_note = "filled at regular-session open"
+                fill_session = "open"
             elif session == "pre" and bar.get("open"):
                 still.append(order)
                 continue
@@ -565,6 +599,7 @@ def fill_pending(led: dict, marks: dict[str, float], fx: float, book_id: str) ->
             still.append(order)
             continue
 
+        cost_pct = _fill_cost_pct(led, fill_session)
         size = float(order["size"])
         led, marks2, fx = mark_book(led)
         eq = float(led["equity_eur"])
@@ -598,9 +633,12 @@ def fill_pending(led: dict, marks: dict[str, float], fx: float, book_id: str) ->
             "entry_eur": round(px / fx, 6),
             "entry_notional_eur": round(notional_eur, 2),
             "entry_cost_eur": round(cost_eur, 4),
+            "entry_cost_pct": cost_pct,
             "size": size,
             "entry_day": today.isoformat(),
             "entry_time": ts,
+            "entry_session": fill_session,
+            "session": fill_session,
             "exit_day": exit_day.isoformat(),
             "hold_days": hold_days,
             "stop_loss": order.get("stop_loss"),
@@ -625,6 +663,8 @@ def fill_pending(led: dict, marks: dict[str, float], fx: float, book_id: str) ->
             "shares": pos["shares"],
             "notional_eur": round(notional_eur, 2),
             "cost_eur": round(cost_eur, 4),
+            "cost_pct": cost_pct,
+            "session": fill_session,
             "reason": order.get("reason"),
             "note": fill_note,
             "decision_id": order.get("id"),
@@ -650,22 +690,29 @@ def _update_decision_status(book_id: str, did: str | None, status: str, fill: di
 
 
 def check_exits(led: dict, fx: float, book_id: str) -> list[dict]:
-    """Time exits at close after hold days; optional stop/target/trail on daily high/low."""
+    """Time exits at close after hold days; optional stop/target/trail on daily high/low.
+
+    Extended-hours books may also exit in pre/after when that is the first available quote.
+    """
     today = now_et().date()
     session = market_session()
-    cost_pct = _cost_pct(led)
+    ext_ok = allows_extended_hours(book_id, led)
     closed = []
     for ticker, p in list((led.get("positions") or {}).items()):
         bar = daily_bar(ticker, today)
         px_close = bar.get("close")
         px_high = bar.get("high")
         px_low = bar.get("low")
-        snap = price_snapshot(ticker)
+        if ext_ok and session in ("pre", "after"):
+            snap = fillable_quote(ticker, allow_extended=True)
+        else:
+            snap = price_snapshot(ticker)
         last = snap.get("last") or px_close or p.get("mark_usd")
         entry = float(p["entry_usd"])
         side = p.get("side", "long")
         exit_px = None
         exit_why = None
+        exit_session = session if session != "closed" else "after"
 
         # Update trailing extreme
         trail = p.get("trailing_stop")
@@ -713,13 +760,22 @@ def check_exits(led: dict, fx: float, book_id: str) -> list[dict]:
             if session in ("after", "closed") or (session == "open" and now_et().hour >= 15):
                 exit_px = px_close or last
                 exit_why = "exit_at_close" if p.get("exit_at_close") else "time_exit"
+                exit_session = "after" if session in ("after", "closed") else "open"
+            elif ext_ok and session == "pre" and last:
+                # First available extended-hours quote after hold_days
+                exit_px = last
+                exit_why = "time_exit_extended"
+                exit_session = "pre"
             elif session == "open" and today > exit_day:
                 exit_px = last
                 exit_why = "time_exit"
+                exit_session = "open"
 
         if exit_px is None:
             continue
 
+        cost_pct = _fill_cost_pct(led, exit_session)
+        entry_cost_pct = float(p.get("entry_cost_pct") or _cost_pct(led))
         shares = abs(float(p["shares"]))
         notional_usd = shares * float(exit_px)
         cost_usd = notional_usd * cost_pct
@@ -729,11 +785,11 @@ def check_exits(led: dict, fx: float, book_id: str) -> list[dict]:
         if side == "long":
             led["cash_eur"] = float(led["cash_eur"]) + notional_eur - cost_eur
             pnl_eur = (float(exit_px) - entry) / fx * shares - float(p.get("entry_cost_eur") or 0) - cost_eur
-            pnl_pct = (float(exit_px) / entry - 1) - 2 * cost_pct
+            pnl_pct = (float(exit_px) / entry - 1) - entry_cost_pct - cost_pct
         else:
             led["cash_eur"] = float(led["cash_eur"]) - notional_eur - cost_eur
             pnl_eur = (entry - float(exit_px)) / fx * shares - float(p.get("entry_cost_eur") or 0) - cost_eur
-            pnl_pct = (entry / float(exit_px) - 1) - 2 * cost_pct
+            pnl_pct = (entry / float(exit_px) - 1) - entry_cost_pct - cost_pct
 
         trade = {
             "ticker": ticker,
@@ -745,12 +801,18 @@ def check_exits(led: dict, fx: float, book_id: str) -> list[dict]:
             "shares": shares,
             "hold_days": p.get("hold_days"),
             "exit_reason": exit_why,
+            "entry_session": p.get("entry_session") or p.get("session"),
+            "exit_session": exit_session,
+            "session": exit_session,
             "entry_cost_eur": p.get("entry_cost_eur"),
             "exit_cost_eur": round(cost_eur, 4),
+            "entry_cost_pct": entry_cost_pct,
+            "exit_cost_pct": cost_pct,
             "pnl_eur": round(pnl_eur, 2),
             "pnl_pct_net": round(pnl_pct * 100, 4),
             "reason": p.get("reason"),
             "rule_tags": p.get("rule_tags") or [],
+            "rule_name": p.get("rule_name"),
             "decision_id": p.get("decision_id"),
             "book_id": book_id,
             "closed_at": utc_now_iso(),

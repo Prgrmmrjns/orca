@@ -1,0 +1,139 @@
+# Frozen rules — bigmove_unified_v1 paper book (start 2026-11-13).
+# Fade large gaps; do NOT chase earnings/guidance gaps. Paper only.
+name: bigmove_unified_v1
+book_id: bigmove_unified_v1
+title: Bigmove unified v1
+description: >
+  Fade offering / PR-pop / M&A gap-downs and selective gap-down fades across
+  pre/regular/after hours. Alert-only mega-cap shocks. No earnings/guidance chase.
+started: "2026-11-13"
+
+book:
+  starting_equity: 1000
+  cost_per_fill_pct: 0.5
+  extended_hours_extra_slippage_pct: 0.5
+  allow_shorts: true
+  max_positions: 20
+  max_per_ticker: 1
+  max_gross_exposure_pct: 100
+
+universe:
+  min_prev_close: 5
+  min_adv20_usd: 10000000
+  exclude_etfs: true
+
+signal:
+  news: "8-K/424B/SC TO/analyst/earnings"
+  entry: "first available quote after the trigger, in any session (pre, regular, post)"
+  gap: "last price / prior regular close - 1"
+  regime: "SPY prior close vs 50d MA"
+  stops: none
+
+mega_cap_shock:
+  min_adv_usd: 2.0e9
+  min_gap_down_pct: 5
+  trigger: "CEO/exec 8-K Item 5.02 or >=3 negative analyst actions"
+  action: alert_only
+
+# Book-level (Orca schema; percent points normalized on load)
+max_positions: 20
+max_per_ticker: 1
+max_gross_exposure_pct: 100
+cost_per_fill_pct: 0.5
+extended_hours_extra_slippage_pct: 0.5
+allow_shorts: true
+allow_extended_hours: true
+cooldown_minutes: null
+sizing: fixed
+guidance_bridge: false
+
+rules:
+  - name: offering_gapdown_short
+    enabled: true
+    categories: [offering]
+    sources: [8-K, PRN, CNBC, MarketWatch]
+    gap_dir: down
+    min_gap_pct: 4
+    side: short
+    regime: any
+    size_pct: 5
+    hold_days: 5
+    entry: next_bar
+    exclude_tags: [shareholder_alert, earnings_chase]
+    exits:
+      stop_pct: null
+      take_profit_pct: null
+      trailing_stop_pct: null
+      exit_at_close: false
+
+  - name: pr_pop_fade_short
+    enabled: true
+    categories: [other_8k, contract, earnings_nosurprise]
+    sources: [8-K, PRN, CNBC, MarketWatch]
+    gap_dir: up
+    min_gap_pct: 4
+    side: short
+    regime: spy_above
+    size_pct: 5
+    hold_days: 5
+    entry: next_bar
+    exclude_tags: [shareholder_alert, earnings_chase, guidance_raise, guidance_cut]
+    exits:
+      stop_pct: null
+      take_profit_pct: null
+      trailing_stop_pct: null
+      exit_at_close: false
+
+  - name: mna_gapdown_short
+    enabled: true
+    categories: [mna]
+    sources: [8-K, PRN, CNBC, MarketWatch]
+    gap_dir: down
+    min_gap_pct: 4
+    side: short
+    regime: any
+    size_pct: 5
+    hold_days: 5
+    entry: next_bar
+    exclude_tags: [shareholder_alert]
+    exits:
+      stop_pct: null
+      take_profit_pct: null
+      trailing_stop_pct: null
+      exit_at_close: false
+
+  - name: analyst_gapdown_fade_long
+    enabled: true
+    categories: [analyst]
+    sources: [8-K, PRN, CNBC, MarketWatch]
+    gap_dir: down
+    min_gap_pct: 8
+    side: long
+    regime: any
+    size_pct: 5
+    hold_days: 5
+    entry: next_bar
+    exclude_tags: [shareholder_alert]
+    exits:
+      stop_pct: null
+      take_profit_pct: null
+      trailing_stop_pct: null
+      exit_at_close: false
+
+  - name: capitulation_fade_long
+    enabled: true
+    categories: [no_news_found]
+    sources: [8-K, PRN, CNBC, MarketWatch]
+    gap_dir: down
+    min_gap_pct: 10
+    side: long
+    regime: spy_below
+    size_pct: 5
+    hold_days: 5
+    entry: next_bar
+    exclude_tags: [shareholder_alert]
+    exits:
+      stop_pct: null
+      take_profit_pct: null
+      trailing_stop_pct: null
+      exit_at_close: false
