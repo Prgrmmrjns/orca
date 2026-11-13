@@ -1,6 +1,6 @@
 {
   "mode": "paper",
-  "as_of": "2026-11-13T02:52:58Z",
+  "as_of": "2026-11-13T09:37:15Z",
   "as_of_et": "2026-11-12 21:52 ET",
   "forward_test_start": "2026-11-10",
   "spy_above_ma50": false,
@@ -27,7 +27,8 @@
     "quality_longs_tuned": "Config: long guidance_raise / acquisition_target / big_contract \u00b7 5% \u00b7 max 15 \u00b7 hold 5d \u00b7 no stop \u00b7 next_open (config/strategies/quality_longs_tuned.yaml). Box test +4.8%.",
     "guidance_raise_score": "Config: long guidance_raise \u00b7 score-scaled size (|EPS| or |gap| vs 10%, 0.25x\u20132x) \u00b7 max 8 \u00b7 hold 2d \u00b7 no stop \u00b7 next_open (config/strategies/guidance_raise_score.yaml). Box test +4.5%.",
     "gap_filtered_guidance": "Config: long guidance_raise with gap \u22655% \u00b7 5% \u00b7 max 8 \u00b7 hold 5d \u00b7 no stop \u00b7 next_open (config/strategies/gap_filtered_guidance.yaml). Box test +4.4%.",
-    "wide_capacity": "Config: quality longs \u00b7 5% \u00b7 max 15 \u00b7 hold 2d \u00b7 no stop \u00b7 next_open (config/strategies/wide_capacity.yaml). Box test +2.1%."
+    "wide_capacity": "Config: quality longs \u00b7 5% \u00b7 max 15 \u00b7 hold 2d \u00b7 no stop \u00b7 next_open (config/strategies/wide_capacity.yaml). Box test +2.1%.",
+    "bigmove_eu_v1": "EU liquid large/mid caps: fade large gap-downs after earnings/PR/no-news on primary hours (09:00\u201317:30 Berlin). Alert-only mega-cap shocks. No earnings/ guidance chase. No gap-up shorts (unprofitable on EU event study).\n"
   },
   "candidates": [
     {
@@ -19464,5 +19465,6 @@
       "suggested_hold": null
     }
   ],
-  "news_merged_at": "2026-11-13T09:23:38Z"
+  "news_merged_at": "2026-11-13T09:23:38Z",
+  "stoxx_above_ma50": true
 }

@@ -149,10 +149,10 @@
       <ul class="rules" id="rules"></ul>
     </section>
 
-    <p class="note">Paper only — independent €1,000 books (12 since 2026-11-10 + <code>bigmove_unified_v1</code> from 2026-11-13). No broker API, no real orders. Cost 0.5%/fill (+0.5% ext slippage on bigmove outside RTH). EUR via EURUSD=X. News from EDGAR 8-K/424B/SC TO + wire RSS. Paper shorts have no borrow model. Rule books auto-trade; only <code>agent</code> is discretionary. Bigmove covers pre/regular/after (04:00–20:00 ET weekdays).</p>
+    <p class="note">Paper only — independent €1,000 books (12 since 2026-11-10 + <code>bigmove_unified_v1</code> + <code>bigmove_eu_v1</code> from 2026-11-13). No broker API, no real orders. Cost 0.5%/fill (+0.5% ext/outside-primary slippage where configured). EUR via EURUSD=X (EU quotes converted when needed). News from EDGAR + EQS/DGAP aggregators + wire RSS. Paper shorts have no borrow model. Rule books auto-trade; only <code>agent</code> is discretionary. US bigmove: pre/regular/after (04:00–20:00 ET). EU bigmove: primary only (09:00–17:30 Berlin; no free Tradegate/L&amp;S data).</p>
   </main>
   <script>
-    const COLORS = ["#7fd4ff", "#9ae6b4", "#f6ad55", "#d6bcfa", "#fc8181", "#8eb4cc", "#fbd38d", "#90cdf4", "#c6f6d5", "#feb2b2", "#e9d8fd", "#b2f5ea"];
+    const COLORS = ["#7fd4ff", "#9ae6b4", "#f6ad55", "#d6bcfa", "#fc8181", "#8eb4cc", "#fbd38d", "#90cdf4", "#c6f6d5", "#feb2b2", "#e9d8fd", "#b2f5ea", "#faf089", "#81e6d9"];
     function pct(n) {
       if (n == null || Number.isNaN(n)) return "—";
       const v = Number(n);

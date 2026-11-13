@@ -1,0 +1,189 @@
+# Frozen rules — bigmove_eu_v1 paper book (start 2026-11-13).
+# Validated on EU >10% single-day moves 2024-11-01..2026-10-31 (pre-Nov freeze).
+# Kept: gap-down fade longs (earnings / other-PR / no-news). Dropped US gap-up shorts
+# and offering/M&A shorts (no edge or insufficient labeled sample on EU data).
+# Hours: primary exchange only (≈09:00–17:30 Berlin). No free Tradegate/L&S data.
+# Paper only. Regime proxy field spy_above_ma50 = STOXX 600 (fallback DAX) vs 50d MA.
+name: bigmove_eu_v1
+book_id: bigmove_eu_v1
+title: Bigmove EU v1
+description: >
+  EU liquid large/mid caps: fade large gap-downs after earnings/PR/no-news on
+  primary hours (09:00–17:30 Berlin). Alert-only mega-cap shocks. No earnings/
+  guidance chase. No gap-up shorts (unprofitable on EU event study).
+started: "2026-11-13"
+region: EU
+
+book:
+  starting_equity: 1000
+  cost_per_fill_pct: 0.5
+  extended_hours_extra_slippage_pct: 0.5
+  allow_shorts: true
+  max_positions: 20
+  max_per_ticker: 1
+  max_gross_exposure_pct: 100
+
+universe:
+  min_prev_close: 5
+  # Interpreted as EUR ADV for this book
+  min_adv20_usd: 10000000
+  exclude_etfs: true
+
+signal:
+  news: "EQS/DGAP ad-hoc via Google News RSS + wallstreet-online + finanzen.net + Yahoo DE"
+  entry: "first available primary-session quote after the trigger (09:00–17:30 Berlin)"
+  gap: "last price / prior regular close - 1"
+  regime: "STOXX 600 (fallback DAX) prior close vs 50d MA"
+  stops: none
+  hours_note: >
+    Free yfinance feeds lack reliable Tradegate/Lang & Schwarz 08:00–22:00 prints;
+    paper loop covers primary sessions only. Outside primary, +0.5% slippage if filled.
+
+mega_cap_shock:
+  min_adv_usd: 5.0e8
+  min_gap_down_pct: 5
+  trigger: "CEO/exec departure headline or >=3 negative analyst actions"
+  action: alert_only
+
+# Book-level (Orca schema; percent points normalized on load)
+max_positions: 20
+max_per_ticker: 1
+max_gross_exposure_pct: 100
+cost_per_fill_pct: 0.5
+extended_hours_extra_slippage_pct: 0.5
+allow_shorts: true
+allow_extended_hours: false
+cooldown_minutes: null
+sizing: fixed
+guidance_bridge: false
+
+rules:
+  # Event study: earnings gap-down fade long n=15 mean_5d_net=+0.86% hit=53%
+  - name: earnings_gapdown_fade_long
+    enabled: true
+    categories: [earnings_nosurprise]
+    sources: [EQS, WSO, Finanzen, YahooEU, PRN]
+    gap_dir: down
+    min_gap_pct: 10
+    side: long
+    regime: any
+    size_pct: 5
+    hold_days: 5
+    entry: next_bar
+    exclude_tags: [shareholder_alert, earnings_chase, guidance_raise, guidance_cut]
+    exits:
+      stop_pct: null
+      take_profit_pct: null
+      trailing_stop_pct: null
+      exit_at_close: false
+
+  # Event study: other/contract gap-down fade long n=41 mean_5d_net=+0.73% hit=46%
+  - name: other_gapdown_fade_long
+    enabled: true
+    categories: [other_8k, contract]
+    sources: [EQS, WSO, Finanzen, YahooEU, PRN]
+    gap_dir: down
+    min_gap_pct: 10
+    side: long
+    regime: any
+    size_pct: 5
+    hold_days: 5
+    entry: next_bar
+    exclude_tags: [shareholder_alert, earnings_chase, guidance_raise, guidance_cut]
+    exits:
+      stop_pct: null
+      take_profit_pct: null
+      trailing_stop_pct: null
+      exit_at_close: false
+
+  # Event study: no-news / weak-news dump fade; regime filter removed (spy_below hurt EU)
+  - name: capitulation_fade_long
+    enabled: true
+    categories: [no_news_found]
+    sources: [EQS, WSO, Finanzen, YahooEU, PRN]
+    gap_dir: down
+    min_gap_pct: 10
+    side: long
+    regime: any
+    size_pct: 5
+    hold_days: 5
+    entry: next_bar
+    exclude_tags: [shareholder_alert]
+    exits:
+      stop_pct: null
+      take_profit_pct: null
+      trailing_stop_pct: null
+      exit_at_close: false
+
+  # --- Disabled after EU event study (kept for audit; enabled: false) ---
+  - name: offering_gapdown_short
+    enabled: false
+    categories: [offering]
+    sources: [EQS, WSO, Finanzen, YahooEU, PRN]
+    gap_dir: down
+    min_gap_pct: 4
+    side: short
+    regime: any
+    size_pct: 5
+    hold_days: 5
+    entry: next_bar
+    exclude_tags: [shareholder_alert, earnings_chase]
+    exits:
+      stop_pct: null
+      take_profit_pct: null
+      trailing_stop_pct: null
+      exit_at_close: false
+
+  - name: pr_pop_fade_short
+    enabled: false
+    categories: [other_8k, contract, earnings_nosurprise]
+    sources: [EQS, WSO, Finanzen, YahooEU, PRN]
+    gap_dir: up
+    min_gap_pct: 4
+    side: short
+    regime: spy_above
+    size_pct: 5
+    hold_days: 5
+    entry: next_bar
+    exclude_tags: [shareholder_alert, earnings_chase, guidance_raise, guidance_cut]
+    exits:
+      stop_pct: null
+      take_profit_pct: null
+      trailing_stop_pct: null
+      exit_at_close: false
+
+  - name: mna_gapdown_short
+    enabled: false
+    categories: [mna]
+    sources: [EQS, WSO, Finanzen, YahooEU, PRN]
+    gap_dir: down
+    min_gap_pct: 4
+    side: short
+    regime: any
+    size_pct: 5
+    hold_days: 5
+    entry: next_bar
+    exclude_tags: [shareholder_alert]
+    exits:
+      stop_pct: null
+      take_profit_pct: null
+      trailing_stop_pct: null
+      exit_at_close: false
+
+  - name: analyst_gapdown_fade_long
+    enabled: false
+    categories: [analyst]
+    sources: [EQS, WSO, Finanzen, YahooEU, PRN]
+    gap_dir: down
+    min_gap_pct: 8
+    side: long
+    regime: any
+    size_pct: 5
+    hold_days: 5
+    entry: next_bar
+    exclude_tags: [shareholder_alert]
+    exits:
+      stop_pct: null
+      take_profit_pct: null
+      trailing_stop_pct: null
+      exit_at_close: false

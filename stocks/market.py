@@ -17,6 +17,27 @@ from stocks import EDGAR_UA
 from stocks.paths import CACHE, ensure_dirs
 
 ET = ZoneInfo("America/New_York")
+BERLIN = ZoneInfo("Europe/Berlin")
+
+# German/Xetra public holidays (fixed + observed common movable approximations).
+# Used to skip EU engine loops on closed days; not a full exchange calendar.
+_EU_HOLIDAYS_FIXED = {
+    (1, 1),   # New Year
+    (5, 1),   # Labour Day
+    (10, 3),  # German Unity
+    (12, 24), # Christmas Eve (early close / often treated closed for paper)
+    (12, 25), # Christmas
+    (12, 26), # Boxing Day
+    (12, 31), # New Year's Eve
+}
+# Movable (Good Friday / Easter Monday / Ascension / Whit Monday) for 2024–2027
+_EU_HOLIDAYS_EXTRA = {
+    date(2024, 3, 29), date(2024, 4, 1), date(2024, 5, 9), date(2024, 5, 20),
+    date(2025, 4, 18), date(2025, 4, 21), date(2025, 5, 29), date(2025, 6, 9),
+    date(2026, 4, 3), date(2026, 4, 6), date(2026, 5, 14), date(2026, 5, 25),
+    date(2027, 3, 26), date(2027, 3, 29), date(2027, 5, 6), date(2027, 5, 17),
+}
+
 # Real browser UA required — custom bot UAs are silently timed out by api.nasdaq.com
 # (observed from GitHub Actions / datacenter IPs since 2026-11-11).
 BROWSER_UA = (
@@ -78,13 +99,27 @@ def now_et() -> datetime:
     return datetime.now(ET)
 
 
+def now_berlin() -> datetime:
+    return datetime.now(BERLIN)
+
+
 def is_weekday(d: date | None = None) -> bool:
     d = d or now_et().date()
     return d.weekday() < 5
 
 
+def is_eu_holiday(d: date | None = None) -> bool:
+    """True on weekends or common Xetra/EU equity holidays."""
+    d = d or now_berlin().date()
+    if d.weekday() >= 5:
+        return True
+    if (d.month, d.day) in _EU_HOLIDAYS_FIXED:
+        return True
+    return d in _EU_HOLIDAYS_EXTRA
+
+
 def market_session(when: datetime | None = None) -> str:
-    """Return 'pre', 'open', 'after', or 'closed'."""
+    """Return 'pre', 'open', 'after', or 'closed' (US/ET hours)."""
     when = when or now_et()
     if when.weekday() >= 5:
         return "closed"
@@ -98,6 +133,240 @@ def market_session(when: datetime | None = None) -> str:
     if t < 20 * 60:
         return "after"
     return "closed"
+
+
+def berlin_market_session(when: datetime | None = None) -> str:
+    """European primary-session clock (Berlin).
+
+    yfinance free feeds for .DE/.PA/.AS/.MI/.MC/.SW/.L only cover primary exchange
+    hours (≈09:00–17:30 Berlin for Xetra/Euronext). Tradegate/Lang & Schwarz
+    08:00–22:00 prints are NOT reliably available for free — so we do **not**
+    model extended EU sessions. Returns:
+      - 'open'  during primary continuous trading 09:00–17:30 Berlin weekdays
+      - 'closed' otherwise (weekends, holidays, outside primary hours)
+    """
+    when = when or now_berlin()
+    if when.tzinfo is None:
+        when = when.replace(tzinfo=BERLIN)
+    else:
+        when = when.astimezone(BERLIN)
+    if is_eu_holiday(when.date()):
+        return "closed"
+    t = when.hour * 60 + when.minute
+    # Xetra continuous: 09:00–17:30; Euronext similar; LSE 08:00–16:30 London
+    # ≈09:00–17:30 Berlin in CET/CEST. Use the common Xetra window as paper clock.
+    if 9 * 60 <= t < 17 * 60 + 30:
+        return "open"
+    return "closed"
+
+
+def index_above_ma50(symbol: str = "^STOXX") -> bool | None:
+    """Prior close vs 50d MA for a European index (STOXX 600 / DAX)."""
+    try:
+        h = yf.Ticker(symbol).history(period="4mo")
+        if h is None or len(h) < 50:
+            return None
+        ma = h["Close"].rolling(50).mean().iloc[-1]
+        return bool(h["Close"].iloc[-1] > ma)
+    except Exception:
+        return None
+
+
+def stoxx_above_ma50() -> bool | None:
+    """STOXX 600 vs 50d MA; fall back to DAX if STOXX unavailable."""
+    v = index_above_ma50("^STOXX")
+    if v is not None:
+        return v
+    return index_above_ma50("^GDAXI")
+
+
+def quote_currency(ticker: str) -> str:
+    """Best-effort quote currency for a yfinance ticker (EUR/USD/CHF/GBp/GBP)."""
+    t = (ticker or "").upper()
+    if t.endswith((".DE", ".PA", ".AS", ".MI", ".MC", ".BR", ".HE", ".VI")):
+        return "EUR"
+    if t.endswith(".SW"):
+        return "CHF"
+    if t.endswith(".L"):
+        return "GBp"  # Yahoo UK equities are usually in pence
+    if t.endswith((".US", "")) or "." not in t:
+        return "USD"
+    try:
+        fi = yf.Ticker(ticker).fast_info
+        cur = getattr(fi, "currency", None)
+        if cur:
+            return str(cur)
+    except Exception:
+        pass
+    return "USD"
+
+
+_FX_CACHE: dict[str, float] = {}
+
+
+def _fx_pair_rate(pair: str, fallback: float) -> float:
+    """USDXXX or cross via Yahoo; cached briefly in-process."""
+    if pair in _FX_CACHE:
+        return _FX_CACHE[pair]
+    try:
+        h = yf.Ticker(pair).history(period="5d")
+        if h is not None and not h.empty:
+            v = float(h["Close"].iloc[-1])
+            if v > 0:
+                _FX_CACHE[pair] = v
+                return v
+    except Exception:
+        pass
+    return fallback
+
+
+def quote_to_eur_divisor(ticker: str) -> float:
+    """Return D such that native_price / D = EUR price.
+
+    Mirrors the US engine convention (USD price / EURUSD = EUR).
+      EUR → 1.0
+      USD → EURUSD
+      CHF → CHF per 1 EUR (EURCHF)
+      GBp → (GBP per 1 EUR) * 100
+      GBP → GBP per 1 EUR
+    """
+    cur = quote_currency(ticker)
+    if cur == "EUR":
+        return 1.0
+    if cur == "USD":
+        return float(eurusd())
+    if cur == "CHF":
+        return _fx_pair_rate("EURCHF=X", 0.94)
+    if cur == "GBp":
+        # EURGBP ≈ GBP per 1 EUR; Yahoo UK prices in pence
+        eurgbp = _fx_pair_rate("EURGBP=X", 0.86)
+        return eurgbp * 100.0
+    if cur == "GBP":
+        return _fx_pair_rate("EURGBP=X", 0.86)
+    return float(eurusd())
+
+
+def eu_session_quote(ticker: str) -> dict[str, Any]:
+    """Primary-session quote for European tickers (no reliable free extended hours)."""
+    session = berlin_market_session()
+
+    def _one():
+        t = yf.Ticker(ticker)
+        daily = t.history(period="15d", interval="1d", auto_adjust=True)
+        prev_close = None
+        if daily is not None and not daily.empty:
+            closes = daily["Close"].dropna()
+            if len(closes) >= 2:
+                last_day = (
+                    daily.index[-1].tz_convert(BERLIN).date()
+                    if getattr(daily.index[-1], "tzinfo", None)
+                    else daily.index[-1].date()
+                )
+                today = now_berlin().date()
+                if last_day == today:
+                    prev_close = float(closes.iloc[-2])
+                else:
+                    prev_close = float(closes.iloc[-1])
+            elif len(closes) == 1:
+                prev_close = float(closes.iloc[-1])
+
+        last = None
+        bar_ts = None
+        volume = None
+        for iv in ("5m", "1m"):
+            try:
+                h = t.history(period="5d", interval=iv, auto_adjust=True)
+            except Exception:
+                h = None
+            if h is None or h.empty or "Close" not in h:
+                continue
+            h = h.dropna(subset=["Close"])
+            if h.empty:
+                continue
+            row = h.iloc[-1]
+            last = _f(row["Close"])
+            volume = _f(row["Volume"]) if "Volume" in h.columns else None
+            ts = h.index[-1]
+            if getattr(ts, "tzinfo", None):
+                bar_ts = ts.tz_convert(BERLIN)
+            else:
+                bar_ts = ts
+            break
+
+        if last is None:
+            snap = price_snapshot(ticker)
+            last = snap.get("last")
+            prev_close = prev_close or snap.get("prev_close")
+
+        gap_pct = None
+        if prev_close and last and prev_close > 0:
+            gap_pct = round((last / prev_close - 1.0) * 100.0, 4)
+
+        rel_vol = None
+        try:
+            if daily is not None and not daily.empty and "Volume" in daily.columns:
+                vols = daily["Volume"].dropna().tail(21)
+                adv_shares = None
+                if len(vols) >= 5:
+                    adv_shares = float(vols.iloc[:-1].mean()) if len(vols) >= 6 else float(vols.mean())
+                if adv_shares and adv_shares > 0:
+                    try:
+                        bars = t.history(period="2d", interval="5m", auto_adjust=True)
+                        if bars is not None and not bars.empty and "Volume" in bars.columns:
+                            today = now_berlin().date()
+                            todays = []
+                            for ts, row in bars.iterrows():
+                                d = (
+                                    ts.tz_convert(BERLIN).date()
+                                    if getattr(ts, "tzinfo", None)
+                                    else ts.date()
+                                )
+                                if d == today:
+                                    todays.append(float(row["Volume"] or 0))
+                            if todays:
+                                rel_vol = round(sum(todays) / adv_shares, 3)
+                    except Exception:
+                        pass
+        except Exception:
+            pass
+
+        return {
+            "last": last,
+            "prev_close": prev_close,
+            "gap_pct": gap_pct,
+            "session": session,
+            "bar_time": bar_ts.isoformat() if hasattr(bar_ts, "isoformat") else None,
+            "volume": volume,
+            "rel_vol": rel_vol,
+            "source": "yfinance_eu_primary",
+            "quote_currency": quote_currency(ticker),
+        }
+
+    try:
+        return retry(_one, attempts=2, default={}) or {}
+    except Exception:
+        return {}
+
+
+def adv20_eur(ticker: str) -> float | None:
+    """Approx 20-day average traded value in EUR."""
+    try:
+        h = yf.Ticker(ticker).history(period="2mo", interval="1d", auto_adjust=True)
+        if h is None or h.empty or "Close" not in h or "Volume" not in h:
+            return None
+        tail = h.tail(21).iloc[:-1] if len(h) > 21 else h.tail(20)
+        if tail.empty:
+            return None
+        dv = (tail["Close"] * tail["Volume"]).dropna()
+        if len(dv) < 5:
+            return None
+        native = float(dv.mean())
+        div = quote_to_eur_divisor(ticker)
+        if not div:
+            return None
+        return native / div
+    except Exception:
+        return None
 
 
 def parse_num(x) -> float | None:

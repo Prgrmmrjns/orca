@@ -18,12 +18,16 @@ from stocks import COST_PCT, MAX_POSITION_PCT, MAX_SHORT_PCT, START_CAPITAL_EUR,
 from stocks.books import AGENT_BOOK_ID, BOOK_BY_ID, BOOKS, BookSpec, matches
 from stocks.market import (
     add_trading_days,
+    berlin_market_session,
     daily_bar,
     eurusd,
+    eu_session_quote,
     fillable_quote,
     market_session,
+    now_berlin,
     now_et,
     price_snapshot,
+    quote_to_eur_divisor,
     spy_history_eur,
     utc_now_iso,
 )
@@ -42,7 +46,26 @@ from stocks.strategy_config import (
     is_config_driven_book,
     load_strategy_config,
     match_candidate_to_news_config,
+    uses_eu_session,
 )
+
+
+def _session_for_book(book_id: str) -> str:
+    """US ET session, or Berlin primary session for EU books."""
+    if uses_eu_session(book_id):
+        return berlin_market_session()
+    return market_session()
+
+
+def _quote_fx(ticker: str, book_id: str | None = None, led: dict | None = None) -> float:
+    """Divisor D such that native_price / D = EUR (US books: EURUSD)."""
+    bid = book_id or (led or {}).get("book_id")
+    if bid and uses_eu_session(str(bid)):
+        try:
+            return float(quote_to_eur_divisor(ticker) or 1.0)
+        except Exception:
+            return 1.0
+    return float(eurusd())
 
 
 def _cost_pct(led: dict | None = None) -> float:
@@ -293,14 +316,20 @@ def load_decisions(book_id: str) -> dict:
 
 
 def mark_book(led: dict) -> tuple[dict, dict[str, float], float]:
-    fx = eurusd()
+    book_id = str(led.get("book_id") or "")
+    fx_usd = eurusd()
     marks: dict[str, float] = {}
     for t, p in list((led.get("positions") or {}).items()):
-        snap = price_snapshot(t)
+        if uses_eu_session(book_id):
+            snap = eu_session_quote(t) or price_snapshot(t)
+        else:
+            snap = price_snapshot(t)
         px = snap.get("last") or p.get("mark_usd") or p.get("entry_usd")
         marks[t] = float(px)
+        qfx = float(p.get("quote_fx") or _quote_fx(t, book_id, led))
         p["mark_usd"] = marks[t]
-        p["mark_eur"] = round(marks[t] / fx, 4)
+        p["mark_eur"] = round(marks[t] / qfx, 4) if qfx else None
+        p["quote_fx"] = qfx
         entry = float(p["entry_usd"])
         if p.get("side") == "short":
             p["unrealized_pnl_pct"] = round((entry / marks[t] - 1) * 100, 4) if marks[t] else None
@@ -310,13 +339,14 @@ def mark_book(led: dict) -> tuple[dict, dict[str, float], float]:
     for t, p in (led.get("positions") or {}).items():
         px = marks[t]
         shares = abs(float(p["shares"]))
+        qfx = float(p.get("quote_fx") or _quote_fx(t, book_id, led))
         if p.get("side") == "short":
-            eq -= (shares * px) / fx
+            eq -= (shares * px) / qfx
         else:
-            eq += (shares * px) / fx
+            eq += (shares * px) / qfx
     led["equity_eur"] = round(eq, 2)
-    led["eur_usd"] = fx
-    return led, marks, fx
+    led["eur_usd"] = fx_usd
+    return led, marks, fx_usd
 
 
 def _open_count(led: dict) -> int:
@@ -530,8 +560,8 @@ def ingest_decisions(led: dict, book_id: str) -> int:
 
 def fill_pending(led: dict, marks: dict[str, float], fx: float, book_id: str) -> list[dict]:
     """Fill pending at next regular open, session price, or extended-hours quote when allowed."""
-    session = market_session()
-    today = now_et().date()
+    session = _session_for_book(book_id)
+    today = now_berlin().date() if uses_eu_session(book_id) else now_et().date()
     ext_ok = allows_extended_hours(book_id, led)
     fills = []
     still = []
@@ -561,7 +591,10 @@ def fill_pending(led: dict, marks: dict[str, float], fx: float, book_id: str) ->
                 fill_note = "filled at regular-session open (rule book)"
                 fill_session = "open"
             else:
-                snap = price_snapshot(ticker)
+                if uses_eu_session(book_id):
+                    snap = eu_session_quote(ticker) or price_snapshot(ticker)
+                else:
+                    snap = price_snapshot(ticker)
                 px = snap.get("last") or (bar.get("open") if bar else None) or marks.get(ticker)
                 fill_note = "filled at session price (market open)"
                 fill_session = "open"
@@ -580,8 +613,9 @@ def fill_pending(led: dict, marks: dict[str, float], fx: float, book_id: str) ->
             decided_day = None
             if decided:
                 try:
+                    clock = now_berlin if uses_eu_session(book_id) else now_et
                     decided_day = datetime.fromisoformat(decided.replace("Z", "+00:00")).astimezone(
-                        now_et().tzinfo
+                        clock().tzinfo
                     ).date()
                 except Exception:
                     decided_day = None
@@ -599,6 +633,10 @@ def fill_pending(led: dict, marks: dict[str, float], fx: float, book_id: str) ->
             still.append(order)
             continue
 
+        # Outside primary: apply configurable extra slippage (EU books record session).
+        if uses_eu_session(book_id) and fill_session != "open":
+            fill_session = "after"  # treat non-primary as extended for cost
+
         cost_pct = _fill_cost_pct(led, fill_session)
         size = float(order["size"])
         led, marks2, fx = mark_book(led)
@@ -607,10 +645,9 @@ def fill_pending(led: dict, marks: dict[str, float], fx: float, book_id: str) ->
         if notional_eur < 5:
             order["status"] = "rejected_too_small"
             continue
-        notional_usd = notional_eur * fx
-        shares = notional_usd / px
-        cost = notional_usd * cost_pct
-        cost_eur = cost / fx
+        qfx = _quote_fx(ticker, book_id, led)
+        shares = notional_eur / (px / qfx) if qfx else 0.0
+        cost_eur = notional_eur * cost_pct
         side = order["side"]
         ts = utc_now_iso()
 
@@ -630,7 +667,8 @@ def fill_pending(led: dict, marks: dict[str, float], fx: float, book_id: str) ->
             "side": side,
             "shares": round(shares, 6),
             "entry_usd": round(px, 6),
-            "entry_eur": round(px / fx, 6),
+            "entry_eur": round(px / qfx, 6) if qfx else None,
+            "quote_fx": qfx,
             "entry_notional_eur": round(notional_eur, 2),
             "entry_cost_eur": round(cost_eur, 4),
             "entry_cost_pct": cost_pct,
@@ -665,6 +703,7 @@ def fill_pending(led: dict, marks: dict[str, float], fx: float, book_id: str) ->
             "cost_eur": round(cost_eur, 4),
             "cost_pct": cost_pct,
             "session": fill_session,
+            "quote_fx": qfx,
             "reason": order.get("reason"),
             "note": fill_note,
             "decision_id": order.get("id"),
@@ -694,8 +733,8 @@ def check_exits(led: dict, fx: float, book_id: str) -> list[dict]:
 
     Extended-hours books may also exit in pre/after when that is the first available quote.
     """
-    today = now_et().date()
-    session = market_session()
+    today = now_berlin().date() if uses_eu_session(book_id) else now_et().date()
+    session = _session_for_book(book_id)
     ext_ok = allows_extended_hours(book_id, led)
     closed = []
     for ticker, p in list((led.get("positions") or {}).items()):
@@ -703,7 +742,9 @@ def check_exits(led: dict, fx: float, book_id: str) -> list[dict]:
         px_close = bar.get("close")
         px_high = bar.get("high")
         px_low = bar.get("low")
-        if ext_ok and session in ("pre", "after"):
+        if uses_eu_session(book_id):
+            snap = eu_session_quote(ticker) or price_snapshot(ticker)
+        elif ext_ok and session in ("pre", "after"):
             snap = fillable_quote(ticker, allow_extended=True)
         else:
             snap = price_snapshot(ticker)
@@ -712,7 +753,8 @@ def check_exits(led: dict, fx: float, book_id: str) -> list[dict]:
         side = p.get("side", "long")
         exit_px = None
         exit_why = None
-        exit_session = session if session != "closed" else "after"
+        exit_session = session if session != "closed" else ("open" if uses_eu_session(book_id) else "after")
+        qfx = float(p.get("quote_fx") or _quote_fx(ticker, book_id, led))
 
         # Update trailing extreme
         trail = p.get("trailing_stop")
@@ -757,7 +799,18 @@ def check_exits(led: dict, fx: float, book_id: str) -> list[dict]:
 
         exit_day = date.fromisoformat(p["exit_day"])
         if exit_px is None and today >= exit_day:
-            if session in ("after", "closed") or (session == "open" and now_et().hour >= 15):
+            if uses_eu_session(book_id):
+                # Exit near Berlin close (after 17:00) or next open if past exit_day
+                berlin_h = now_berlin().hour
+                if session == "open" and (berlin_h >= 17 or today > exit_day):
+                    exit_px = px_close or last
+                    exit_why = "exit_at_close" if p.get("exit_at_close") else "time_exit"
+                    exit_session = "open"
+                elif session == "closed" and today > exit_day and (px_close or last):
+                    exit_px = px_close or last
+                    exit_why = "time_exit"
+                    exit_session = "open"
+            elif session in ("after", "closed") or (session == "open" and now_et().hour >= 15):
                 exit_px = px_close or last
                 exit_why = "exit_at_close" if p.get("exit_at_close") else "time_exit"
                 exit_session = "after" if session in ("after", "closed") else "open"
@@ -774,21 +827,22 @@ def check_exits(led: dict, fx: float, book_id: str) -> list[dict]:
         if exit_px is None:
             continue
 
+        if uses_eu_session(book_id) and exit_session != "open":
+            exit_session = "after"
+
         cost_pct = _fill_cost_pct(led, exit_session)
         entry_cost_pct = float(p.get("entry_cost_pct") or _cost_pct(led))
         shares = abs(float(p["shares"]))
-        notional_usd = shares * float(exit_px)
-        cost_usd = notional_usd * cost_pct
-        cost_eur = cost_usd / fx
-        notional_eur = notional_usd / fx
+        notional_eur = (shares * float(exit_px)) / qfx if qfx else 0.0
+        cost_eur = notional_eur * cost_pct
 
         if side == "long":
             led["cash_eur"] = float(led["cash_eur"]) + notional_eur - cost_eur
-            pnl_eur = (float(exit_px) - entry) / fx * shares - float(p.get("entry_cost_eur") or 0) - cost_eur
+            pnl_eur = (float(exit_px) - entry) / qfx * shares - float(p.get("entry_cost_eur") or 0) - cost_eur
             pnl_pct = (float(exit_px) / entry - 1) - entry_cost_pct - cost_pct
         else:
             led["cash_eur"] = float(led["cash_eur"]) - notional_eur - cost_eur
-            pnl_eur = (entry - float(exit_px)) / fx * shares - float(p.get("entry_cost_eur") or 0) - cost_eur
+            pnl_eur = (entry - float(exit_px)) / qfx * shares - float(p.get("entry_cost_eur") or 0) - cost_eur
             pnl_pct = (entry / float(exit_px) - 1) - entry_cost_pct - cost_pct
 
         trade = {
@@ -877,7 +931,8 @@ def run_book(book_id: str, apply: bool = True) -> dict:
         led["last_run"] = utc_now_iso()
         led["last_reason"] = (
             f"engine[{book_id}]: auto={auto_n} ingested={ingested} fills={len(fills)} "
-            f"closed={len(closed)} open={len(led.get('positions') or {})} session={market_session()}"
+            f"closed={len(closed)} open={len(led.get('positions') or {})} "
+            f"session={_session_for_book(book_id)}"
         )
         write_json(ledger_path(book_id), led)
         if book_id == AGENT_BOOK_ID:
@@ -897,7 +952,7 @@ def run_book(book_id: str, apply: bool = True) -> dict:
         "closed": closed,
         "n_open": len(led.get("positions") or {}),
         "n_pending": len(led.get("pending") or []),
-        "session": market_session(),
+        "session": _session_for_book(book_id),
     }
 
 

@@ -24,6 +24,8 @@ BOOK_ORDER = [
     "wide_capacity",
     # Extended-hours gap-fade book (paper, from 2026-11-13)
     "bigmove_unified_v1",
+    # European primary-session gap-fade book (paper, from 2026-11-13)
+    "bigmove_eu_v1",
 ]
 BOOK_TITLES = {
     "agent": "Agent (Chewbacca)",
@@ -39,6 +41,7 @@ BOOK_TITLES = {
     "gap_filtered_guidance": "Gap-filtered guidance",
     "wide_capacity": "Wide capacity",
     "bigmove_unified_v1": "Bigmove unified v1",
+    "bigmove_eu_v1": "Bigmove EU v1",
 }
 CONFIG_BOOK_IDS = {
     "news_event",
@@ -49,6 +52,7 @@ CONFIG_BOOK_IDS = {
     "gap_filtered_guidance",
     "wide_capacity",
     "bigmove_unified_v1",
+    "bigmove_eu_v1",
 }
 
 
@@ -414,7 +418,7 @@ def snapshot() -> dict:
         "orders": "paper",
         "note": (
             "paper only, multi-book forward test since 2026-11-10 "
-            "(12 books + bigmove_unified_v1 from 2026-11-13)"
+            "(12 books + bigmove_unified_v1 + bigmove_eu_v1 from 2026-11-13)"
         ),
         "as_of": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
         "since": START,
