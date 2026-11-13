@@ -87,7 +87,7 @@
       "suggested_side": null,
       "suggested_hold": null,
       "spy_above_ma50": null,
-      "scanned_at": "2026-11-13T08:49:42Z"
+      "scanned_at": "2026-11-13T09:23:38Z"
     },
     {
       "ticker": "MOVE",
@@ -117,7 +117,7 @@
       "suggested_side": null,
       "suggested_hold": null,
       "spy_above_ma50": null,
-      "scanned_at": "2026-11-13T08:49:42Z"
+      "scanned_at": "2026-11-13T09:23:38Z"
     },
     {
       "ticker": "VINP",
@@ -147,7 +147,7 @@
       "suggested_side": null,
       "suggested_hold": null,
       "spy_above_ma50": null,
-      "scanned_at": "2026-11-13T08:49:42Z"
+      "scanned_at": "2026-11-13T09:23:38Z"
     },
     {
       "ticker": "VINCI",
@@ -177,7 +177,7 @@
       "suggested_side": null,
       "suggested_hold": null,
       "spy_above_ma50": null,
-      "scanned_at": "2026-11-13T08:49:42Z"
+      "scanned_at": "2026-11-13T09:23:38Z"
     },
     {
       "ticker": "HIT",
@@ -207,7 +207,7 @@
       "suggested_side": null,
       "suggested_hold": null,
       "spy_above_ma50": null,
-      "scanned_at": "2026-11-13T08:49:42Z"
+      "scanned_at": "2026-11-13T09:23:38Z"
     },
     {
       "ticker": "LFT",
@@ -237,7 +237,7 @@
       "suggested_side": null,
       "suggested_hold": null,
       "spy_above_ma50": null,
-      "scanned_at": "2026-11-13T08:49:42Z"
+      "scanned_at": "2026-11-13T09:23:38Z"
     },
     {
       "ticker": "AVEX",
@@ -19464,5 +19464,5 @@
       "suggested_hold": null
     }
   ],
-  "news_merged_at": "2026-11-13T08:49:42Z"
+  "news_merged_at": "2026-11-13T09:23:38Z"
 }

@@ -1,11 +1,11 @@
 {
   "mode": "paper",
-  "as_of": "2026-11-13T08:49:42Z",
-  "as_of_et": "2026-11-13 03:49 ET",
+  "as_of": "2026-11-13T09:23:38Z",
+  "as_of_et": "2026-11-13 04:23 ET",
   "rolling_hours": 72,
   "n_items": 400,
-  "n_actionable": 22,
-  "n_with_ticker": 89,
+  "n_actionable": 23,
+  "n_with_ticker": 88,
   "sources": [
     "prnewswire",
     "prnewswire_financial",
@@ -19,6 +19,232 @@
   "note": "Paper news feed. Keyword tagging is heuristic. Shorts have no borrow model. RSS/EDGAR can lag minutes\u2013hours.",
   "items": [
     {
+      "id": "326d89f180cf9179",
+      "source": "prnewswire",
+      "title": "Nagarro releases unaudited Q3 2026 results, posts 2.7% constant currency growth for 9 months ended September 2026",
+      "summary": "MUNICH, Nov. 13, 2026 /PRNewswire/ -- Nagarro, a global AI-native engineering and transformation leader, presented its unaudited financial numbers for 9M 2026 and 3M 2026, and released its quarterly statement for Q3 2026. In 9M 2026, revenue grew to \u20ac755.5 million from \u20ac753.4 million in...",
+      "url": "https://www.prnewswire.com/news-releases/nagarro-releases-unaudited-q3-2026-results-posts-2-7-constant-currency-growth-for-9-months-ended-september-2026--302938829.html",
+      "published_at": "2026-11-13T09:18:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-13T09:23:35Z"
+    },
+    {
+      "id": "02a794ffd575ae1f",
+      "source": "prnewswire_financial",
+      "title": "Nagarro releases unaudited Q3 2026 results, posts 2.7% constant currency growth for 9 months ended September 2026",
+      "summary": "MUNICH, Nov. 13, 2026 /PRNewswire/ -- Nagarro, a global AI-native engineering and transformation leader, presented its unaudited financial numbers for 9M 2026 and 3M 2026, and released its quarterly statement for Q3 2026. In 9M 2026, revenue grew to \u20ac755.5 million from \u20ac753.4 million in...",
+      "url": "https://www.prnewswire.com/news-releases/nagarro-releases-unaudited-q3-2026-results-posts-2-7-constant-currency-growth-for-9-months-ended-september-2026--302938829.html",
+      "published_at": "2026-11-13T09:18:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-13T09:23:35Z"
+    },
+    {
+      "id": "dbcbd2fd4225b268",
+      "source": "prnewswire",
+      "title": "ZINZINO AB (PUBL.): Nomination committee of Zinzino AB (publ) for the Annual General Meeting 2027",
+      "summary": "GOTHENBURG, Sweden, Nov. 13, 2026 /PRNewswire/ -- In accordance with the Nomination Committee Charter adopted at the Annual General Meeting 2026, the members who, together with the Chair of the Board, constitute the Nomination Committee in preparation for the Annual General Meeting 2027...",
+      "url": "https://www.prnewswire.com/news-releases/zinzino-ab-publ-nomination-committee-of-zinzino-ab-publ-for-the-annual-general-meeting-2027-302938826.html",
+      "published_at": "2026-11-13T09:13:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-13T09:23:35Z"
+    },
+    {
+      "id": "bc4c3c1d3df9bebd",
+      "source": "prnewswire",
+      "title": "Nagarro releases unaudited Q3 2026 results, posts 2.7% constant currency growth for 9 months ended September 2026",
+      "summary": "MUNICH, Nov. 13, 2026 /PRNewswire/ -- Nagarro, a global AI-native engineering and transformation leader, presented its unaudited financial numbers for 9M 2026 and 3M 2026, and released its quarterly statement for Q3 2026. In 9M 2026, revenue grew to \u20ac755.5 million from \u20ac753.4 million in...",
+      "url": "https://www.prnewswire.com/news-releases/nagarro-releases-unaudited-q3-2026-results-posts-2-7-constant-currency-growth-for-9-months-ended-september-2026--302938824.html",
+      "published_at": "2026-11-13T09:11:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-13T09:23:35Z"
+    },
+    {
+      "id": "ac4b29b97835de00",
+      "source": "prnewswire_financial",
+      "title": "Nagarro releases unaudited Q3 2026 results, posts 2.7% constant currency growth for 9 months ended September 2026",
+      "summary": "MUNICH, Nov. 13, 2026 /PRNewswire/ -- Nagarro, a global AI-native engineering and transformation leader, presented its unaudited financial numbers for 9M 2026 and 3M 2026, and released its quarterly statement for Q3 2026. In 9M 2026, revenue grew to \u20ac755.5 million from \u20ac753.4 million in...",
+      "url": "https://www.prnewswire.com/news-releases/nagarro-releases-unaudited-q3-2026-results-posts-2-7-constant-currency-growth-for-9-months-ended-september-2026--302938824.html",
+      "published_at": "2026-11-13T09:11:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-13T09:23:35Z"
+    },
+    {
+      "id": "2fe71d4914cea2f9",
+      "source": "marketwatch",
+      "title": "My wife has dementia and may outlive me. How do we prepare for long-term memory care?",
+      "summary": "\u201cShe\u2019s 69 and otherwise healthy as a horse.\u201d",
+      "url": "https://www.marketwatch.com/story/my-wife-has-dementia-and-may-outlive-me-how-do-we-prepare-for-long-term-memory-care-9c23efaa?mod=mw_rss_topstories",
+      "published_at": "2026-11-13T09:09:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-13T09:23:37Z"
+    },
+    {
+      "id": "70b327a396063ee7",
+      "source": "prnewswire",
+      "title": "Appier Doubles Operating Income on Record Revenue and Margins, Raises FY26 Guidance and Dividend Forecast",
+      "summary": "AI-driven efficiency and an outcome-based model keep gross profit growing faster than OPEX, driving margin expansion Highlights and achievements of Q3 FY26 Revenue reached a record JPY 13.9 billion, up 21.8% YoY, with organic growth of 27.1% YoY beating the above-25% guidance. Gross...",
+      "url": "https://www.prnewswire.com/news-releases/appier-doubles-operating-income-on-record-revenue-and-margins-raises-fy26-guidance-and-dividend-forecast-302938822.html",
+      "published_at": "2026-11-13T09:05:00Z",
+      "tickers": [],
+      "event_type": "guidance_raise",
+      "direction": "bullish",
+      "news_side": "long",
+      "actionable": true,
+      "scanned_at": "2026-11-13T09:23:35Z"
+    },
+    {
+      "id": "aa0cc95192842a39",
+      "source": "prnewswire",
+      "title": "DEEPBLUE SMARTHOUSE Highlights Panelized Building Systems for Low Rise Development Projects",
+      "summary": "NINGBO, China, Nov. 13, 2026 /PRNewswire/ -- DEEPBLUE SMARTHOUSE, a supplier of light-gauge steel building systems based in Ningbo, China, has outlined its panelized approach for developers, contractors and institutional teams planning low-rise projects. The supply model combines...",
+      "url": "https://www.prnewswire.com/news-releases/deepblue-smarthouse-highlights-panelized-building-systems-for-low-rise-development-projects-302938821.html",
+      "published_at": "2026-11-13T09:04:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-13T09:23:35Z"
+    },
+    {
+      "id": "b03d71a5d8dd7525",
+      "source": "prnewswire_financial",
+      "title": "DEEPBLUE SMARTHOUSE Highlights Panelized Building Systems for Low Rise Development Projects",
+      "summary": "NINGBO, China, Nov. 13, 2026 /PRNewswire/ -- DEEPBLUE SMARTHOUSE, a supplier of light-gauge steel building systems based in Ningbo, China, has outlined its panelized approach for developers, contractors and institutional teams planning low-rise projects. The supply model combines...",
+      "url": "https://www.prnewswire.com/news-releases/deepblue-smarthouse-highlights-panelized-building-systems-for-low-rise-development-projects-302938821.html",
+      "published_at": "2026-11-13T09:04:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-13T09:23:35Z"
+    },
+    {
+      "id": "9e9fdf349a090494",
+      "source": "prnewswire",
+      "title": "CSTS Enterprises Champions Sustainability through its Support of the Nobel Sustainability Trust Hong Kong Summit 2026",
+      "summary": "Reinforcing CSTS' commitment to sustainable hospitality and world-class MICE solutions that bring together international leaders to drive global sustainability collaboration. NEW YORK and HONG KONG, Nov. 13, 2026 /PRNewswire/ -- CSTS Enterprises (CSTS), a New York-based sports,...",
+      "url": "https://www.prnewswire.com/news-releases/csts-enterprises-champions-sustainability-through-its-support-of-the-nobel-sustainability-trust-hong-kong-summit-2026-302938697.html",
+      "published_at": "2026-11-13T09:00:00Z",
+      "tickers": [
+        "CSTS"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-13T09:23:35Z"
+    },
+    {
+      "id": "0a9058fd83244921",
+      "source": "prnewswire",
+      "title": "Estonia Apartments Specify Penetron Crystalline Admixture for Below-Grade Waterproofing",
+      "summary": "Completed in November 2026, the 18-unit Saekoja 5 residential project in Tartu, Estonia, specified PENETRON ADMIX SB for elevator pits and the foundation slab to help protect below-grade concrete exposed to high groundwater. ORLANDO, Fla., Nov. 13, 2026 /PRNewswire/ -- Saekoja Apartments...",
+      "url": "https://www.prnewswire.com/news-releases/estonia-apartments-specify-penetron-crystalline-admixture-for-below-grade-waterproofing-302937804.html",
+      "published_at": "2026-11-13T09:00:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-13T09:23:35Z"
+    },
+    {
+      "id": "bd6b6625aeffdf8c",
+      "source": "prnewswire",
+      "title": "EVIDENT erm\u00f6glicht mit dem neuen SilVIR-RAY\u2122-Detektor simultane Vierkanal-Superaufl\u00f6sungsbildgebung in der Lebendzellforschung.",
+      "summary": "Der neue Detektor erweitert die konfokale Plattform FLUOVIEW\u2122FV5000 von Evident und hilft Forschern, sich schnell ver\u00e4ndernde biologische Ereignisse gleichzeitig \u00fcber bis zu vier Kan\u00e4le zu erfassen, wobei die Daten f\u00fcr die quantitative Analyse bereit sind. NEEDHAM,...",
+      "url": "https://www.prnewswire.com/news-releases/evident-ermoglicht-mit-dem-neuen-silvir-ray-detektor-simultane-vierkanal-superauflosungsbildgebung-in-der-lebendzellforschung-302937304.html",
+      "published_at": "2026-11-13T08:55:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-13T09:23:35Z"
+    },
+    {
+      "id": "1c25fdf275e3fb3f",
+      "source": "prnewswire",
+      "title": "EVIDENT apporte l'imagerie super-r\u00e9solution simultan\u00e9e \u00e0 quatre canaux \u00e0 la recherche sur cellules vivantes avec son nouveau d\u00e9tecteur SilVIR-RAY\u2122",
+      "summary": "Le nouveau d\u00e9tecteur \u00e9tend la plateforme confocale FLUOVIEW\u2122FV5000 d'Evident, aidant les chercheurs \u00e0 capturer simultan\u00e9ment des \u00e9v\u00e9nements biologiques \u00e0 \u00e9volution rapide sur jusqu'\u00e0 quatre canaux avec des donn\u00e9es pr\u00eates pour une analyse quantitative. NEEDHAM, Massachusetts,/PRNewswire/...",
+      "url": "https://www.prnewswire.com/news-releases/evident-apporte-limagerie-super-resolution-simultanee-a-quatre-canaux-a-la-recherche-sur-cellules-vivantes-avec-son-nouveau-detecteur-silvir-ray-302938719.html",
+      "published_at": "2026-11-13T08:55:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-13T09:23:35Z"
+    },
+    {
+      "id": "37afaa7230922763",
+      "source": "prnewswire",
+      "title": "EVIDENT presenta el nuevo detector SilVIR-RAY\u2122",
+      "summary": "- EVIDENT incorpora la obtenci\u00f3n de im\u00e1genes de superresoluci\u00f3n de cuatro canales simult\u00e1neos a la investigaci\u00f3n de c\u00e9lulas vivas con el nuevo detector SilVIR-RAY\u2122 El nuevo detector ampl\u00eda la plataforma confocal FLUOVIEW\u2122 FV5000 de Evident, permitiendo a los investigadores capturar...",
+      "url": "https://www.prnewswire.com/news-releases/evident-presenta-el-nuevo-detector-silvir-ray-302937674.html",
+      "published_at": "2026-11-13T08:55:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-13T09:23:35Z"
+    },
+    {
+      "id": "5eb7f396a273f6a8",
+      "source": "prnewswire",
+      "title": "Appier Doubles Operating Income on Record Revenue and Margins, Raises FY26 Guidance and Dividend Forecast",
+      "summary": "AI-driven efficiency and an outcome-based model keep gross profit growing faster than OPEX, driving margin expansion Highlights and achievements of Q3 FY26 Revenue reached a record JPY 13.9 billion, up 21.8% YoY, with organic growth of 27.1% YoY beating the above-25% guidance. Gross...",
+      "url": "https://www.prnewswire.com/news-releases/appier-doubles-operating-income-on-record-revenue-and-margins-raises-fy26-guidance-and-dividend-forecast-302938814.html",
+      "published_at": "2026-11-13T08:49:00Z",
+      "tickers": [],
+      "event_type": "guidance_raise",
+      "direction": "bullish",
+      "news_side": "long",
+      "actionable": true,
+      "scanned_at": "2026-11-13T09:23:35Z"
+    },
+    {
+      "id": "d14762773a771c1d",
+      "source": "prnewswire",
+      "title": "LITEON Showcases Cloud-to-Edge AI Innovation and NVIDIA MGX Platform at electronica 2026",
+      "summary": "MUNICH, Nov. 13, 2026 /PRNewswire/ -- LITEON Technology (2301) showcases its cross-portfolio technology capabilities at electronica 2026, held November 10\u201313 in Munich, Germany. Under the theme \"LITEON Powers AI,\" LITEON presents technologies spanning AI data center power, connectivity...",
+      "url": "https://www.prnewswire.com/news-releases/liteon-showcases-cloud-to-edge-ai-innovation-and-nvidia-mgx-platform-at-electronica-2026-302938812.html",
+      "published_at": "2026-11-13T08:46:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-13T09:23:35Z"
+    },
+    {
       "id": "4ca3cafccbdfc72e",
       "source": "prnewswire",
       "title": "Longsys and Lexar Showcase Industrial, Automotive and Edge AI Storage at electronica 2026",
@@ -30,7 +256,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:35Z"
     },
     {
       "id": "172e8ca7ab64db6e",
@@ -44,7 +270,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:35Z"
     },
     {
       "id": "fc6dceb836b242b5",
@@ -61,7 +287,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:35Z"
     },
     {
       "id": "ded5d246db55912c",
@@ -75,7 +301,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:35Z"
     },
     {
       "id": "286ccc9b5234949a",
@@ -89,7 +315,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:35Z"
     },
     {
       "id": "161971a8da3c9b13",
@@ -103,7 +329,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:35Z"
     },
     {
       "id": "77c9e9297093392d",
@@ -117,7 +343,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:35Z"
     },
     {
       "id": "53effcf8c40dac54",
@@ -131,7 +357,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:35Z"
     },
     {
       "id": "37446272bf331cf1",
@@ -313,7 +539,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:35Z"
     },
     {
       "id": "a3ce302dcc33b8fb",
@@ -327,7 +553,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:40Z"
+      "scanned_at": "2026-11-13T09:23:37Z"
     },
     {
       "id": "d696beed5e3212f2",
@@ -343,7 +569,7 @@
       "direction": "bearish",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:35Z"
     },
     {
       "id": "a7a871b1c754ce95",
@@ -357,7 +583,7 @@
       "direction": "bullish",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:35Z"
     },
     {
       "id": "eb7ba5166bbf0ed5",
@@ -559,7 +785,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:35Z"
     },
     {
       "id": "6435d989ac6ba11f",
@@ -679,7 +905,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:35Z"
     },
     {
       "id": "998829d2eac4c4ce",
@@ -693,7 +919,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:41Z"
+      "scanned_at": "2026-11-13T09:23:37Z"
     },
     {
       "id": "08279f1e5397b030",
@@ -709,7 +935,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:35Z"
     },
     {
       "id": "4f66115c4ed13edd",
@@ -723,7 +949,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:41Z"
+      "scanned_at": "2026-11-13T09:23:37Z"
     },
     {
       "id": "0f46fc32a4d2e7e3",
@@ -739,7 +965,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:35Z"
     },
     {
       "id": "499f2b62af16a507",
@@ -754,7 +980,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:34Z"
     },
     {
       "id": "0aff2491bcb15175",
@@ -769,7 +995,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:34Z"
     },
     {
       "id": "013e009219e22a91",
@@ -784,7 +1010,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:34Z"
     },
     {
       "id": "30d8a047d47db2f8",
@@ -799,7 +1025,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:34Z"
     },
     {
       "id": "36882aec20934c73",
@@ -814,7 +1040,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:34Z"
     },
     {
       "id": "8a7e51ef99d41846",
@@ -829,7 +1055,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:34Z"
     },
     {
       "id": "a5448c248ba092c5",
@@ -844,7 +1070,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:34Z"
     },
     {
       "id": "28b4281ae9d9f77d",
@@ -860,7 +1086,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:35Z"
     },
     {
       "id": "d20d8d0d5e125f73",
@@ -875,7 +1101,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:34Z"
     },
     {
       "id": "ac5f9d4e0fd8e446",
@@ -890,7 +1116,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:34Z"
     },
     {
       "id": "e712f7a8eec2584e",
@@ -906,7 +1132,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:35Z"
     },
     {
       "id": "cf968f86a362e15c",
@@ -921,7 +1147,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:34Z"
     },
     {
       "id": "ebc41fc1f3bed093",
@@ -936,7 +1162,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:34Z"
     },
     {
       "id": "baa1b686851edb43",
@@ -951,7 +1177,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:34Z"
     },
     {
       "id": "2f80fd0389de56fe",
@@ -966,7 +1192,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:34Z"
     },
     {
       "id": "28122ab2d4860352",
@@ -981,7 +1207,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:34Z"
     },
     {
       "id": "96a13e7a81217508",
@@ -996,7 +1222,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:34Z"
     },
     {
       "id": "26d8717486edd3c1",
@@ -1011,7 +1237,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:34Z"
     },
     {
       "id": "3dce66607997f2c1",
@@ -1026,7 +1252,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:34Z"
     },
     {
       "id": "cb51f691c55c1440",
@@ -1041,7 +1267,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:34Z"
     },
     {
       "id": "b6be9f0e74abdaa9",
@@ -1056,7 +1282,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:34Z"
     },
     {
       "id": "d27a213cfbbaf5da",
@@ -1071,7 +1297,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:34Z"
     },
     {
       "id": "831554bebd9a3f60",
@@ -1086,7 +1312,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:34Z"
     },
     {
       "id": "b3c5624a0eb6cb24",
@@ -1100,7 +1326,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:41Z"
+      "scanned_at": "2026-11-13T09:23:37Z"
     },
     {
       "id": "66c893d03fa08dbe",
@@ -1115,7 +1341,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:34Z"
     },
     {
       "id": "f7b1b6298c4026ce",
@@ -1130,7 +1356,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:34Z"
     },
     {
       "id": "6ed503636b602a37",
@@ -1145,7 +1371,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:34Z"
     },
     {
       "id": "4a101ba70383787a",
@@ -1160,7 +1386,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:34Z"
     },
     {
       "id": "afe0431d17ba2ce9",
@@ -1175,7 +1401,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:34Z"
     },
     {
       "id": "500797985a1090e7",
@@ -1190,7 +1416,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:34Z"
     },
     {
       "id": "e4c55bd00fd00fe2",
@@ -1205,7 +1431,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:34Z"
     },
     {
       "id": "83e0e0199df97bdf",
@@ -1219,7 +1445,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:35Z"
     },
     {
       "id": "2d05a6561de90125",
@@ -1234,7 +1460,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:34Z"
     },
     {
       "id": "2f60470381cd45c0",
@@ -1249,7 +1475,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:34Z"
     },
     {
       "id": "d407b639212a2689",
@@ -1264,7 +1490,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:34Z"
     },
     {
       "id": "632d2523262e2b77",
@@ -1279,7 +1505,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:34Z"
     },
     {
       "id": "6e3d9743c0bea1b6",
@@ -1294,7 +1520,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:34Z"
     },
     {
       "id": "c486f628c4ae056e",
@@ -1309,7 +1535,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:34Z"
     },
     {
       "id": "a8bf351d96cf2b7a",
@@ -1324,7 +1550,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:34Z"
     },
     {
       "id": "225776eb8b755646",
@@ -1339,7 +1565,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:34Z"
     },
     {
       "id": "c9e4dda9124940e7",
@@ -1354,7 +1580,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:34Z"
     },
     {
       "id": "c0f250b0c155fe73",
@@ -1369,7 +1595,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:34Z"
     },
     {
       "id": "68ee3b14a79524a2",
@@ -1384,7 +1610,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:34Z"
     },
     {
       "id": "5931624584e1a956",
@@ -1399,7 +1625,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:34Z"
     },
     {
       "id": "b4d4856c45f62758",
@@ -1413,7 +1639,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:41Z"
+      "scanned_at": "2026-11-13T09:23:37Z"
     },
     {
       "id": "ddf0556c1bee212d",
@@ -1427,7 +1653,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:41Z"
+      "scanned_at": "2026-11-13T09:23:37Z"
     },
     {
       "id": "f860b82f5dc5e060",
@@ -1443,7 +1669,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:35Z"
     },
     {
       "id": "db8ef56b085f47f2",
@@ -1459,7 +1685,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:35Z"
     },
     {
       "id": "747be4f2fcd40b51",
@@ -1473,7 +1699,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:35Z"
     },
     {
       "id": "77f51b1df25761d6",
@@ -1489,7 +1715,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:35Z"
     },
     {
       "id": "a03d66df467091ad",
@@ -1503,7 +1729,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:35Z"
     },
     {
       "id": "5de554190acda810",
@@ -1519,7 +1745,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:35Z"
     },
     {
       "id": "2ca6babe5e9377cd",
@@ -1551,7 +1777,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:38Z"
+      "scanned_at": "2026-11-13T09:23:35Z"
     },
     {
       "id": "bb65bc81c4baadeb",
@@ -1579,7 +1805,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:41Z"
+      "scanned_at": "2026-11-13T09:23:37Z"
     },
     {
       "id": "db0428b926d8c873",
@@ -2257,7 +2483,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:40Z"
+      "scanned_at": "2026-11-13T09:23:37Z"
     },
     {
       "id": "bfadabbd1327e27d",
@@ -2271,7 +2497,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:40Z"
+      "scanned_at": "2026-11-13T09:23:37Z"
     },
     {
       "id": "7b52989c271fc05e",
@@ -2361,7 +2587,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:41Z"
+      "scanned_at": "2026-11-13T09:23:37Z"
     },
     {
       "id": "45b8595deaff812d",
@@ -2731,7 +2957,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:39Z"
+      "scanned_at": "2026-11-13T09:23:36Z"
     },
     {
       "id": "2607b21e5dae38a9",
@@ -4294,7 +4520,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:39Z"
+      "scanned_at": "2026-11-13T09:23:36Z"
     },
     {
       "id": "29cb42ff2b803843",
@@ -4324,7 +4550,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:41Z"
+      "scanned_at": "2026-11-13T09:23:37Z"
     },
     {
       "id": "9c74ac431e77827d",
@@ -4352,7 +4578,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:40Z"
+      "scanned_at": "2026-11-13T09:23:37Z"
     },
     {
       "id": "b5d5a9d30a7e752e",
@@ -4482,7 +4708,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:41Z"
+      "scanned_at": "2026-11-13T09:23:37Z"
     },
     {
       "id": "f9ca31f342d338d2",
@@ -5001,7 +5227,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:39Z"
+      "scanned_at": "2026-11-13T09:23:36Z"
     },
     {
       "id": "4ca15591d24b927e",
@@ -5149,7 +5375,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:39Z"
+      "scanned_at": "2026-11-13T09:23:36Z"
     },
     {
       "id": "8a4564cdd436f5b1",
@@ -5177,7 +5403,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:39Z"
+      "scanned_at": "2026-11-13T09:23:36Z"
     },
     {
       "id": "37c4ecb7c1259b2a",
@@ -5232,7 +5458,7 @@
       "url": "https://www.marketwatch.com/story/sandisks-stock-is-soaring-and-these-three-trends-could-send-it-even-higher-b0d7d5ec?mod=mw_rss_topstories",
       "published_at": "2026-11-11T21:40:00Z",
       "tickers": [],
-      "event_type": "other",
+      "event_type": "analyst",
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
@@ -5509,7 +5735,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T08:49:40Z"
+      "scanned_at": "2026-11-13T09:23:37Z"
     },
     {
       "id": "a3435494e1f7a0eb",
@@ -5619,7 +5845,7 @@
       "url": "https://www.marketwatch.com/story/has-nvidia-flown-too-close-to-the-sun-one-analyst-warns-of-major-scrutiny-ahead-a323c4dd?mod=mw_rss_topstories",
       "published_at": "2026-11-11T17:13:00Z",
       "tickers": [],
-      "event_type": "other",
+      "event_type": "analyst",
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
@@ -5688,236 +5914,6 @@
       "summary": "Cresta opens its Tokyo office, names Jim Tamura Country Manager, and announces work with Shop Japan, BELLSYSTEM24, and Kotoba Technologies. SUNNYVALE, Calif., Nov. 11, 2026 /PRNewswire/ -- Cresta, the AI operating system for customer experience, has launched in Japan and opened its Tokyo...",
       "url": "https://www.prnewswire.com/news-releases/cresta-launches-in-japan-as-momentum-in-asia-accelerates-302936505.html",
       "published_at": "2026-11-11T17:01:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-11T17:29:15Z"
-    },
-    {
-      "id": "eaea5e8953558a0c",
-      "source": "prnewswire",
-      "title": "InventHelp Inventor Develops New Trim Gauge for Carpenters (LJD-593)",
-      "summary": "PITTSBURGH, Nov. 11, 2026 /PRNewswire/ -- \"As a carpenter, I needed a better way to make exact measurements when trimming doors or windows to exact reveals of the trim,\" said an inventor from Bayshore, New York. As a result, they developed the TRIM GAUGE, designed to greatly simplify this...",
-      "url": "https://www.prnewswire.com/news-releases/inventhelp-inventor-develops-new-trim-gauge-for-carpenters-ljd-593-302935934.html",
-      "published_at": "2026-11-11T17:00:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-11T17:29:15Z"
-    },
-    {
-      "id": "7df7c176c6ae1c54",
-      "source": "prnewswire",
-      "title": "Jeep\u00ae Brand, FOX Factory Vehicles and USO Partner to Auction Customized Jeep Wrangler Commando 392",
-      "summary": "AUBURN HILLS, Mich., Nov. 11, 2026 /PRNewswire/ -- Custom Jeep\u00ae Wrangler Commando 392 to be auctioned exclusively to the public, with proceeds benefiting the USO Final Jeep Wrangler Commando is the only public offering from a limited 250-unit program; 249 were reserved for active-duty...",
-      "url": "https://www.prnewswire.com/news-releases/jeep-brand-fox-factory-vehicles-and-uso-partner-to-auction-customized-jeep-wrangler-commando-392-302936599.html",
-      "published_at": "2026-11-11T17:00:00Z",
-      "tickers": [],
-      "event_type": "dilution",
-      "direction": "bearish",
-      "news_side": "short",
-      "actionable": true,
-      "scanned_at": "2026-11-11T17:29:15Z"
-    },
-    {
-      "id": "301f935ccd58fab1",
-      "source": "prnewswire",
-      "title": "Vitamin Angels Partners with Government of Cambodia to Advance Scale-Up of MMS and Reach One-Third of Pregnant Women in 2027",
-      "summary": "Approximately 51% of pregnant women in Cambodia experience anemia. Maternal anemia increases the risk of severe bleeding during childbirth, a leading cause of maternal death, and is associated with adverse birth outcomes. United Nations International Multiple Micronutrient Antenatal...",
-      "url": "https://www.prnewswire.com/news-releases/vitamin-angels-partners-with-government-of-cambodia-to-advance-scale-up-of-mms-and-reach-one-third-of-pregnant-women-in-2027-302936664.html",
-      "published_at": "2026-11-11T17:00:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-11T17:29:15Z"
-    },
-    {
-      "id": "c035d6b56c6fbcd4",
-      "source": "prnewswire",
-      "title": "Argentic to Launch Its European Real Estate Lending Platform, \"Argentic Europe\", in 2027",
-      "summary": "LONDON, Nov. 11, 2026 /PRNewswire/ -- Argentic Investment Management LLC (\"Argentic\" or \"the Company\") is pleased to announce the expansion of its successful US real estate lending platform to Europe in 2027, with the goal of supporting middle-market investors across the UK and...",
-      "url": "https://www.prnewswire.com/news-releases/argentic-to-launch-its-european-real-estate-lending-platform-argentic-europe-in-2027-302936749.html",
-      "published_at": "2026-11-11T17:00:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-11T17:29:15Z"
-    },
-    {
-      "id": "958308d9eae1fb2b",
-      "source": "prnewswire",
-      "title": "Caristo's CaRi-Heart\u00ae FAI-Score\u2122 Demonstrates Superior Prognostic Capability in Landmark Study of 19,110 Patients Published in JAMA Cardiology",
-      "summary": "Very high coronary inflammation assessment in patients with a calcium score of zero associated with a 14.1x higher risk of cardiovascular death Very high coronary inflammation assessment without calcified or non-calcified plaque associated with a 10.4x higher risk of cardiovascular death...",
-      "url": "https://www.prnewswire.com/news-releases/caristos-cari-heart-fai-score-demonstrates-superior-prognostic-capability-in-landmark-study-of-19-110-patients-published-in-jama-cardiology-302936765.html",
-      "published_at": "2026-11-11T17:00:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-11T17:29:15Z"
-    },
-    {
-      "id": "36ac574869e3fd11",
-      "source": "prnewswire_financial",
-      "title": "Argentic to Launch Its European Real Estate Lending Platform, \"Argentic Europe\", in 2027",
-      "summary": "LONDON, Nov. 11, 2026 /PRNewswire/ -- Argentic Investment Management LLC (\"Argentic\" or \"the Company\") is pleased to announce the expansion of its successful US real estate lending platform to Europe in 2027, with the goal of supporting middle-market investors across the UK and...",
-      "url": "https://www.prnewswire.com/news-releases/argentic-to-launch-its-european-real-estate-lending-platform-argentic-europe-in-2027-302936749.html",
-      "published_at": "2026-11-11T17:00:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-11T17:29:15Z"
-    },
-    {
-      "id": "4d712d564f554b20",
-      "source": "prnewswire",
-      "title": "Water Wings Swim School to Open in Billings on November 21 as Montana's First Dedicated Swim School, Helping Kids Build Confidence One Splash at a Time",
-      "summary": "Locally Owned Swim School Brings Year-Round Swim Instruction, Water Safety Education and a Family-Focused Approach Designed to Help Children Love the Water for Life BILLINGS, Mont., Nov. 11, 2026 /PRNewswire/ -- Water Wings Swim School, a year-round swim school dedicated to helping...",
-      "url": "https://www.prnewswire.com/news-releases/water-wings-swim-school-to-open-in-billings-on-november-21-as-montanas-first-dedicated-swim-school-helping-kids-build-confidence-one-splash-at-a-time-302936740.html",
-      "published_at": "2026-11-11T16:53:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-11T17:29:15Z"
-    },
-    {
-      "id": "4bbb2aa4a311685e",
-      "source": "cnbc_finance",
-      "title": "Fed's Goolsbee calls inflation report 'borderline disturbing' as central bank weighs more hikes",
-      "summary": "The consumer price index rose more than expected in October, raising alarm among Federal Reserve officials.",
-      "url": "https://www.cnbc.com/2026/11/11/goolsbee-october-inflation-fed-rates-disturbing-distressing.html",
-      "published_at": "2026-11-11T16:49:02Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-13T08:49:40Z"
-    },
-    {
-      "id": "8bcf39634f8b6ee2",
-      "source": "prnewswire",
-      "title": "Miami Backyard Ultra Brings the Last-Runner-Standing Race to Miami for the First Time",
-      "summary": "The inaugural event starts December 19 at 8 AM at Miami Marine Stadium & Basin Trail on Virginia Key. Registration is open now. MIAMI, Nov. 11, 2026 /PRNewswire/ -- Miami's running community is about to discover just how far it can go. On Saturday, December 19, 2026, at 8 AM, the...",
-      "url": "https://www.prnewswire.com/news-releases/miami-backyard-ultra-brings-the-last-runner-standing-race-to-miami-for-the-first-time-302936747.html",
-      "published_at": "2026-11-11T16:48:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-11T17:29:15Z"
-    },
-    {
-      "id": "d5d003efb35fc2ae",
-      "source": "prnewswire",
-      "title": "New Strider & Friends Book and Animated Series Inspire Confidence and Adventure",
-      "summary": "RAPID CITY, S.D., Nov. 11, 2026 /PRNewswire/ -- Strider Bikes and animation company BuddyCraft today launched Strider & Friends, a new animated universe created to inspire children to discover confidence through friendship and bike riding. Follow the adventures of kids' bikes \u2013 Strider,...",
-      "url": "https://www.prnewswire.com/news-releases/new-strider--friends-book-and-animated-series-inspire-confidence-and-adventure-302936746.html",
-      "published_at": "2026-11-11T16:47:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-11T17:29:15Z"
-    },
-    {
-      "id": "87b2d71798c823c0",
-      "source": "prnewswire",
-      "title": "FPL doubles Saving Steps funding to $30 million to help more customers save energy and money",
-      "summary": "JUNO BEACH, Fla., Nov. 11, 2026 /PRNewswire/ -- Florida Power & Light Company (FPL), a subsidiary of NextEra Energy, Inc. (NYSE: NEE), announced it is doubling funding for FPL Saving Steps from $15 million to $30 million. The program combines energy-saving education with a $200 bill...",
-      "url": "https://www.prnewswire.com/news-releases/fpl-doubles-saving-steps-funding-to-30-million-to-help-more-customers-save-energy-and-money-302936743.html",
-      "published_at": "2026-11-11T16:45:00Z",
-      "tickers": [
-        "NEE",
-        "FPL"
-      ],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-11T17:29:15Z"
-    },
-    {
-      "id": "6c18cd6e9cf9eeb7",
-      "source": "prnewswire",
-      "title": "Universal Music Group to Participate in the Morgan Stanley European Technology, Media & Telecom Conference 2026",
-      "summary": "HILVERSUM, Netherlands, Nov. 11, 2026 /PRNewswire/ -- Universal Music Group N.V. (EURONEXT: UMG) announced today that Matt Ellis, Chief Financial Officer, and Michael Nash, Chief Digital Officer, will participate in a question-and-answer session at the Morgan Stanley European Technology,...",
-      "url": "https://www.prnewswire.com/news-releases/universal-music-group-to-participate-in-the-morgan-stanley-european-technology-media--telecom-conference-2026-302936726.html",
-      "published_at": "2026-11-11T16:45:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-11T17:29:15Z"
-    },
-    {
-      "id": "b154ad3e1faf84ea",
-      "source": "prnewswire",
-      "title": "InventHelp Inventor Develops Bold Bracelet Design (LAX-875)",
-      "summary": "PITTSBURGH, Nov. 11, 2026 /PRNewswire/ -- \"I wanted to create a bold bracelet design that would stand out in a crowd,\" said an inventor, from West Hills, Calif., \"so I invented the CUFFLET. My design could be made from various metals with different gemstone embellishments to enhance style....",
-      "url": "https://www.prnewswire.com/news-releases/inventhelp-inventor-develops-bold-bracelet-design-lax-875-302935939.html",
-      "published_at": "2026-11-11T16:45:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-11T17:29:15Z"
-    },
-    {
-      "id": "5747c9010b603a97",
-      "source": "prnewswire_financial",
-      "title": "FPL doubles Saving Steps funding to $30 million to help more customers save energy and money",
-      "summary": "JUNO BEACH, Fla., Nov. 11, 2026 /PRNewswire/ -- Florida Power & Light Company (FPL), a subsidiary of NextEra Energy, Inc. (NYSE: NEE), announced it is doubling funding for FPL Saving Steps from $15 million to $30 million. The program combines energy-saving education with a $200 bill...",
-      "url": "https://www.prnewswire.com/news-releases/fpl-doubles-saving-steps-funding-to-30-million-to-help-more-customers-save-energy-and-money-302936743.html",
-      "published_at": "2026-11-11T16:45:00Z",
-      "tickers": [
-        "NEE",
-        "FPL"
-      ],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-11T17:29:15Z"
-    },
-    {
-      "id": "86bd9aa666b9f5d6",
-      "source": "prnewswire",
-      "title": "Helix Secures $6.2 Million in Pre-Seed Capital and Launches Voice-Based Human Verification for the AI Era",
-      "summary": "Helix accurately detect bots and predict age using voice samples in under four seconds Helix advisors include Dag Kittlaus, co-creator and CEO of Siri LOS ANGELES, Nov. 11, 2026 /PRNewswire/ -- Helix, a voice-powered human verification platform, today announced it has raised $6.2 million...",
-      "url": "https://www.prnewswire.com/news-releases/helix-secures-6-2-million-in-pre-seed-capital-and-launches-voice-based-human-verification-for-the-ai-era-302936742.html",
-      "published_at": "2026-11-11T16:43:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-11T17:29:15Z"
-    },
-    {
-      "id": "3be786852fbde9f2",
-      "source": "prnewswire_financial",
-      "title": "OneAmerica Financial announces record life insurance dividend payments",
-      "summary": "INDIANAPOLIS, Nov. 11, 2026 /PRNewswire/ -- OneAmerica Financial this week announced a historic $54.9 million life insurance dividend payout and a 25-basis point increase in its 2027 dividend interest rate. The dividend payout represents a 29% increase over the most recent payment in 2026...",
-      "url": "https://www.prnewswire.com/news-releases/oneamerica-financial-announces-record-life-insurance-dividend-payments-302936646.html",
-      "published_at": "2026-11-11T16:15:00Z",
       "tickers": [],
       "event_type": "other",
       "direction": "neutral",
