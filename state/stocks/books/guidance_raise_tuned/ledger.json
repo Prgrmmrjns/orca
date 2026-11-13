@@ -6,7 +6,7 @@
   "kind": "rule",
   "base_currency": "EUR",
   "note": "Paper only. Forward test book `guidance_raise_tuned` since 2026-11-10. No broker API. Config: long guidance_raise only \u00b7 5% \u00b7 max 15 \u00b7 hold 5d \u00b7 no stop \u00b7 next_open (config/strategies/guidance_raise_tuned.yaml). Box test +11.2%.",
-  "rules": "Config-driven guidance_raise_tuned (config/strategies/guidance_raise_tuned.yaml). Enabled rules: guidance_raise. sizing=fixed, max_positions=15, cost=0.005.",
+  "rules": "Config-driven guidance_raise_tuned (config/strategies/guidance_raise_tuned.yaml). Enabled rules: guidance_raise. sizing=fixed, max_positions=15, cost=0.005, ext_slip=0.0, extended_hours=False.",
   "start_date": "2026-11-10",
   "start_capital_eur": 1000.0,
   "eur_usd_start": 1.1168192625045776,
@@ -36,6 +36,13 @@
       "spy_eur": 1018.04,
       "cash_eur": 1000.0,
       "n_open": 0
+    },
+    {
+      "day": "2026-11-13",
+      "equity_eur": 1000.0,
+      "spy_eur": 1021.18,
+      "cash_eur": 1000.0,
+      "n_open": 0
     }
   ],
   "spy_history": [
@@ -50,6 +57,12 @@
       "spy_eur": 1018.04,
       "spy_usd": 759.81,
       "eur_usd": 1.11689
+    },
+    {
+      "day": "2026-11-12",
+      "spy_eur": 1021.18,
+      "spy_usd": 757.12,
+      "eur_usd": 1.10952
     }
   ],
   "cost_pct": 0.005,
@@ -60,8 +73,8 @@
   "stop_loss": null,
   "prefer_open": true,
   "max_open": 15,
-  "last_run": "2026-11-13T01:51:35Z",
-  "last_reason": "engine[guidance_raise_tuned]: auto=0 ingested=0 fills=0 closed=0 open=0 session=closed",
+  "last_run": "2026-11-13T09:23:43Z",
+  "last_reason": "engine[guidance_raise_tuned]: auto=0 ingested=0 fills=0 closed=0 open=0 session=pre",
   "max_per_ticker": 1,
   "max_gross_exposure_pct": 0.75,
   "allow_shorts": false,
@@ -69,5 +82,7 @@
   "sizing": "fixed",
   "score_ref": 10.0,
   "strategy_config_path": "config/strategies/guidance_raise_tuned.yaml",
-  "eur_usd": 1.1065618991851807
+  "eur_usd": 1.106439471244812,
+  "extended_hours_extra_slippage_pct": 0.0,
+  "allow_extended_hours": false
 }

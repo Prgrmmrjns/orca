@@ -36,6 +36,13 @@
       "spy_eur": 1018.04,
       "cash_eur": 1000.0,
       "n_open": 0
+    },
+    {
+      "day": "2026-11-13",
+      "equity_eur": 1000.0,
+      "spy_eur": 1021.18,
+      "cash_eur": 1000.0,
+      "n_open": 0
     }
   ],
   "spy_history": [
@@ -50,6 +57,12 @@
       "spy_eur": 1018.04,
       "spy_usd": 759.81,
       "eur_usd": 1.11689
+    },
+    {
+      "day": "2026-11-12",
+      "spy_eur": 1021.18,
+      "spy_usd": 757.12,
+      "eur_usd": 1.10952
     }
   ],
   "cost_pct": 0.005,
@@ -59,7 +72,7 @@
   "default_hold_days": 3,
   "stop_loss": null,
   "max_open": 8,
-  "last_run": "2026-11-13T01:51:28Z",
-  "last_reason": "engine[bigbeat_gap]: auto=0 ingested=0 fills=0 closed=0 open=0 session=closed",
-  "eur_usd": 1.1065618991851807
+  "last_run": "2026-11-13T09:23:36Z",
+  "last_reason": "engine[bigbeat_gap]: auto=0 ingested=0 fills=0 closed=0 open=0 session=pre",
+  "eur_usd": 1.106439471244812
 }

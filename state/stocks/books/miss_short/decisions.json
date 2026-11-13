@@ -184,7 +184,37 @@
         "book_id": "miss_short",
         "closed_at": "2026-11-12T20:42:22Z"
       }
+    },
+    {
+      "id": "miss_short-CTVA-2026-11-13T09:23:37Z-7cab03",
+      "book_id": "miss_short",
+      "ticker": "CTVA",
+      "side": "short",
+      "size": 0.05,
+      "hold": 2,
+      "reason": "[miss_short/miss_short] event=['miss_short'] surprise=-144.44 gap=-6.1607 guidance=none headline= \u2192 short 2d",
+      "confidence": 1.0,
+      "stop_loss": 0.08,
+      "take_profit": null,
+      "trailing_stop": null,
+      "exit_at_close": false,
+      "delay_minutes": 0,
+      "rule_name": "miss_short",
+      "rule_tags": [
+        "miss_short",
+        "miss_short",
+        "miss_short"
+      ],
+      "surprise_pct": -144.44,
+      "gap_pct": -6.1607,
+      "guidance": "none",
+      "news_event_type": null,
+      "news_id": null,
+      "agent": "rule:miss_short",
+      "prefer_open": true,
+      "decided_at": "2026-11-13T09:23:37Z",
+      "status": "pending"
     }
   ],
-  "updated_at": "2026-11-10T11:44:58Z"
+  "updated_at": "2026-11-13T09:23:37Z"
 }

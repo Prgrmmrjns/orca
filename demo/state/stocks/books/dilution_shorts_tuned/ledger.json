@@ -6,12 +6,12 @@
   "kind": "rule",
   "base_currency": "EUR",
   "note": "Paper only. Forward test book `dilution_shorts_tuned` since 2026-11-10. No broker API. Config: short dilution \u00b7 5% \u00b7 max 8 \u00b7 hold 3d \u00b7 no stop \u00b7 next_open (config/strategies/dilution_shorts_tuned.yaml). Paper shorts. Box test +10.0%.",
-  "rules": "Config-driven dilution_shorts_tuned (config/strategies/dilution_shorts_tuned.yaml). Enabled rules: dilution. sizing=fixed, max_positions=8, cost=0.005.",
+  "rules": "Config-driven dilution_shorts_tuned (config/strategies/dilution_shorts_tuned.yaml). Enabled rules: dilution. sizing=fixed, max_positions=8, cost=0.005, ext_slip=0.0, extended_hours=False.",
   "start_date": "2026-11-10",
   "start_capital_eur": 1000.0,
   "eur_usd_start": 1.1168192625045776,
   "cash_eur": 1049.75,
-  "equity_eur": 999.66,
+  "equity_eur": 999.4,
   "positions": {
     "BRRKU": {
       "ticker": "BRRKU",
@@ -43,9 +43,9 @@
       ],
       "decision_id": "dilution_shorts_tuned-BRRKU-2026-11-11T00:40:49Z-40e697",
       "book_id": "dilution_shorts_tuned",
-      "mark_usd": 9.9,
-      "mark_eur": 8.9466,
-      "unrealized_pnl_pct": 0.101
+      "mark_usd": 9.949999809265137,
+      "mark_eur": 8.9928,
+      "unrealized_pnl_pct": -0.402
     }
   },
   "pending": [],
@@ -71,6 +71,13 @@
       "spy_eur": 1018.04,
       "cash_eur": 1049.75,
       "n_open": 1
+    },
+    {
+      "day": "2026-11-13",
+      "equity_eur": 999.4,
+      "spy_eur": 1021.18,
+      "cash_eur": 1049.75,
+      "n_open": 1
     }
   ],
   "spy_history": [
@@ -85,6 +92,12 @@
       "spy_eur": 1018.04,
       "spy_usd": 759.81,
       "eur_usd": 1.11689
+    },
+    {
+      "day": "2026-11-12",
+      "spy_eur": 1021.18,
+      "spy_usd": 757.12,
+      "eur_usd": 1.10952
     }
   ],
   "cost_pct": 0.005,
@@ -95,8 +108,8 @@
   "stop_loss": null,
   "prefer_open": true,
   "max_open": 8,
-  "last_run": "2026-11-13T01:51:38Z",
-  "last_reason": "engine[dilution_shorts_tuned]: auto=0 ingested=0 fills=0 closed=0 open=1 session=closed",
+  "last_run": "2026-11-13T09:23:45Z",
+  "last_reason": "engine[dilution_shorts_tuned]: auto=0 ingested=0 fills=0 closed=0 open=1 session=pre",
   "max_per_ticker": 1,
   "max_gross_exposure_pct": 0.4,
   "allow_shorts": true,
@@ -104,5 +117,7 @@
   "sizing": "fixed",
   "score_ref": 10.0,
   "strategy_config_path": "config/strategies/dilution_shorts_tuned.yaml",
-  "eur_usd": 1.1065618991851807
+  "eur_usd": 1.106439471244812,
+  "extended_hours_extra_slippage_pct": 0.0,
+  "allow_extended_hours": false
 }
