@@ -1,11 +1,11 @@
 {
   "mode": "paper",
-  "as_of": "2026-11-13T01:46:37Z",
-  "as_of_et": "2026-11-12 20:46 ET",
+  "as_of": "2026-11-13T08:49:42Z",
+  "as_of_et": "2026-11-13 03:49 ET",
   "rolling_hours": 72,
   "n_items": 400,
-  "n_actionable": 21,
-  "n_with_ticker": 91,
+  "n_actionable": 22,
+  "n_with_ticker": 89,
   "sources": [
     "prnewswire",
     "prnewswire_financial",
@@ -18,6 +18,347 @@
   "errors": [],
   "note": "Paper news feed. Keyword tagging is heuristic. Shorts have no borrow model. RSS/EDGAR can lag minutes\u2013hours.",
   "items": [
+    {
+      "id": "4ca3cafccbdfc72e",
+      "source": "prnewswire",
+      "title": "Longsys and Lexar Showcase Industrial, Automotive and Edge AI Storage at electronica 2026",
+      "summary": "MUNICH, Nov. 13, 2026 /PRNewswire/ -- Longsys (301308.SZ/09976.HK) and its International high-end consumer storage brand Lexar are exhibiting at electronica 2026 in Munich, Germany, from November 10 to 13. Under the theme \"Integrated Storage Empowering Edge AI,\" Longsys is launching an...",
+      "url": "https://www.prnewswire.com/news-releases/longsys-and-lexar-showcase-industrial-automotive-and-edge-ai-storage-at-electronica-2026-302938809.html",
+      "published_at": "2026-11-13T08:36:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-13T08:49:38Z"
+    },
+    {
+      "id": "172e8ca7ab64db6e",
+      "source": "prnewswire",
+      "title": "Global Wisdom, Shared Future: Inaugural Global Energy Storage Colloquium Held in Xiamen",
+      "summary": "XIAMEN, China, Nov. 13, 2026 /PRNewswire/ -- The inaugural Global Energy Storage Colloquium was held in Xiamen under the theme \"Frontiers in Dialogue\u2022Powering Tomorrow's Storage.\" Hosted by HiTHIUM and co-organized by the Energy Storage Application Branch of China Industrial Association...",
+      "url": "https://www.prnewswire.com/news-releases/global-wisdom-shared-future-inaugural-global-energy-storage-colloquium-held-in-xiamen-302938808.html",
+      "published_at": "2026-11-13T08:32:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-13T08:49:38Z"
+    },
+    {
+      "id": "fc6dceb836b242b5",
+      "source": "prnewswire",
+      "title": "HTL Biotechnology launches HTL8, a production unit dedicated to pharmaceutical-grade polynucleotides (DNA)",
+      "summary": "JAVEN\u00c9, France, Nov. 13, 2026 /PRNewswire/ -- Thursday, November 12, HTL Biotechnology, a world leader in the development and production of pharmaceutical-grade biopolymers, inaugurated its new production unit, HTL8, dedicated to the manufacture of pharmaceutical-grade polynucleotides, at...",
+      "url": "https://www.prnewswire.com/news-releases/htl-biotechnology-launches-htl8-a-production-unit-dedicated-to-pharmaceutical-grade-polynucleotides-dna-302937819.html",
+      "published_at": "2026-11-13T08:30:00Z",
+      "tickers": [
+        "DNA",
+        "HTL"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-13T08:49:38Z"
+    },
+    {
+      "id": "ded5d246db55912c",
+      "source": "prnewswire",
+      "title": "Global Wisdom, Shared Future: Inaugural Global Energy Storage Colloquium Held in Xiamen",
+      "summary": "XIAMEN, China, Nov. 13, 2026 /PRNewswire/ -- The inaugural Global Energy Storage Colloquium was held in Xiamen under the theme \"Frontiers in Dialogue\u2022Powering Tomorrow's Storage.\" Hosted by HiTHIUM and co-organized by the Energy Storage Application Branch of China Industrial Association...",
+      "url": "https://www.prnewswire.com/news-releases/global-wisdom-shared-future-inaugural-global-energy-storage-colloquium-held-in-xiamen-302938805.html",
+      "published_at": "2026-11-13T08:24:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-13T08:49:38Z"
+    },
+    {
+      "id": "286ccc9b5234949a",
+      "source": "prnewswire",
+      "title": "COP31 in Focus: How POWERCHINA Projects Bring Clean Power to Grids and Communities Across the Globe",
+      "summary": "BEIJING, Nov. 13, 2026 /PRNewswire/ -- Power Construction Corporation of China (\"POWERCHINA\" or \"the Company\") is advancing the global clean energy transition with solutions tailored to local resources, infrastructure, and electricity needs. With world leaders gathering for the United...",
+      "url": "https://www.prnewswire.com/news-releases/cop31-in-focus-how-powerchina-projects-bring-clean-power-to-grids-and-communities-across-the-globe-302938791.html",
+      "published_at": "2026-11-13T07:48:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-13T08:49:38Z"
+    },
+    {
+      "id": "161971a8da3c9b13",
+      "source": "prnewswire",
+      "title": "iQIYI's \"The Shadow's Edge\" Gains Further Industry Recognition as Tony Ka-fai LEUNG Wins Best Actor at the Golden Rooster Awards",
+      "summary": "BEIJING, Nov. 13, 2026 /PRNewswire/ -- On November 10, Tony Ka-fai LEUNG won Best Actor at the 39th Golden Rooster Awards for his performance in iQIYI-produced action-crime film \"The Shadow's Edge.\" The award was presented at the ceremony in Xiamen, China. Earlier, \"The Shadow's Edge\"...",
+      "url": "https://www.prnewswire.com/news-releases/iqiyis-the-shadows-edge-gains-further-industry-recognition-as-tony-ka-fai-leung-wins-best-actor-at-the-golden-rooster-awards-302938790.html",
+      "published_at": "2026-11-13T07:39:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-13T08:49:38Z"
+    },
+    {
+      "id": "77c9e9297093392d",
+      "source": "prnewswire",
+      "title": "Dahua Pro Challenge 2026 Celebrates Global Installer Expertise and Long-term Collaboration",
+      "summary": "HANGZHOU, China, Nov. 13, 2026 /PRNewswire/ -- Dahua Technology, a world-leading video-centric AIoT solution and service provider, brought together installer partners from around the world for Pro Challenge 2026, recognizing their professional expertise and strengthening cooperation...",
+      "url": "https://www.prnewswire.com/news-releases/dahua-pro-challenge-2026-celebrates-global-installer-expertise-and-long-term-collaboration-302938784.html",
+      "published_at": "2026-11-13T07:26:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-13T08:49:38Z"
+    },
+    {
+      "id": "53effcf8c40dac54",
+      "source": "prnewswire",
+      "title": "Essity invests in increased production capacity for Tork in Lilla Edet",
+      "summary": "STOCKHOLM, Nov. 13, 2026 /PRNewswire/ -- Hygiene and health company Essity is investing approximately SEK 850m in a new tissue machine at its production facility in Lilla Edet, Sweden. The investment, which is carried out during a three-year period, enhances Essity's ability to meet...",
+      "url": "https://www.prnewswire.com/news-releases/essity-invests-in-increased-production-capacity-for-tork-in-lilla-edet-302938783.html",
+      "published_at": "2026-11-13T07:25:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-13T08:49:38Z"
+    },
+    {
+      "id": "37446272bf331cf1",
+      "source": "prnewswire",
+      "title": "Classys Reports Nine-Month 2026 Revenue of KRW 275.7 Billion, Up 13% Year over Year; Prepares to Accelerate Growth in 2027 on China Entry, U.S. and Europe Expansion, New Product Launches and Direct-Operations Integration",
+      "summary": "Nine-month revenue of KRW 275.7 billion and operating profit of KRW 108.1 billion; revenue up 13% year over year China market entry and broader product lineups in the U.S. and Europe strengthen the foundation for medium- to long-term growth New devices and cartridges in Korea, together...",
+      "url": "https://www.prnewswire.com/news-releases/classys-reports-nine-month-2026-revenue-of-krw-275-7-billion-up-13-year-over-year-prepares-to-accelerate-growth-in-2027-on-china-entry-us-and-europe-expansion-new-product-launches-and-direct-operations-integration-302938782.html",
+      "published_at": "2026-11-13T07:24:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-13T08:49:38Z"
+    },
+    {
+      "id": "4e32cd9b9710558c",
+      "source": "prnewswire",
+      "title": "Essity invests in increased production capacity for Tork in Lilla Edet",
+      "summary": "STOCKHOLM, Nov. 13, 2026 /PRNewswire/ -- Hygiene and health company Essity is investing approximately SEK 850m in a new tissue machine at its production facility in Lilla Edet, Sweden. The investment, which is carried out during a three-year period, enhances Essity's ability to meet...",
+      "url": "https://www.prnewswire.com/news-releases/essity-invests-in-increased-production-capacity-for-tork-in-lilla-edet-302938780.html",
+      "published_at": "2026-11-13T07:22:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-13T08:49:38Z"
+    },
+    {
+      "id": "70f19070b21570c7",
+      "source": "prnewswire",
+      "title": "Leqembi\u00ae Pen subcutaneous treatment launched in Japan",
+      "summary": "STOCKHOLM, Nov. 13, 2026 /PRNewswire/ -- BioArctic AB's (publ) (NASDAQ Stockholm: BIOA B) partner Eisai today announced that Leqembi Pen, the subcutaneous formulation of lecanemab, has been launched in Japan for the treatment of early Alzheimer's disease. Japan is the second country,...",
+      "url": "https://www.prnewswire.com/news-releases/leqembi-pen-subcutaneous-treatment-launched-in-japan-302938776.html",
+      "published_at": "2026-11-13T07:16:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-13T08:49:38Z"
+    },
+    {
+      "id": "7c38c16039491734",
+      "source": "prnewswire",
+      "title": "Leqembi\u00ae Pen subcutaneous treatment launched in Japan",
+      "summary": "STOCKHOLM, Nov. 13, 2026 /PRNewswire/ -- BioArctic AB's (publ) (NASDAQ Stockholm: BIOA B) partner Eisai today announced that Leqembi Pen, the subcutaneous formulation of lecanemab, has been launched in Japan for the treatment of early Alzheimer's disease. Japan is the second country,...",
+      "url": "https://www.prnewswire.com/news-releases/leqembi-pen-subcutaneous-treatment-launched-in-japan-302938775.html",
+      "published_at": "2026-11-13T07:11:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-13T08:49:38Z"
+    },
+    {
+      "id": "8e1bcd1bba983ab2",
+      "source": "prnewswire",
+      "title": "Huawei, \u00dc\u00e7 \u00c7\u0131\u011f\u0131r A\u00e7an Yenilikle Konut Enerji Sistemlerinin Gelece\u011fini Yeniden Tan\u0131mlayan, LUTERRA\u00ae S2'yi Piyasaya S\u00fcrd\u00fc",
+      "summary": "PALMA DE MALLORCA, \u0130spanya, 13 Kas\u0131m 2026 /PRNewswire/ -- 9 Kas\u0131m'da Huawei, hibrit invert\u00f6r, enerji depolama sistemi ve yapay zeka destekli enerji y\u00f6netimini tek bir istiflenebilir \u00fcnitede bir araya getiren hepsi bir arada konut enerji sistemi HUAWEI LUTERRA S2'nin piyasaya s\u00fcr\u00fcld\u00fc\u011f\u00fcn\u00fc...",
+      "url": "https://www.prnewswire.com/news-releases/huawei-uc-cr-acan-yenilikle-konut-enerji-sistemlerinin-geleceini-yeniden-tanmlayan-luterra-s2yi-piyasaya-surdu-302938771.html",
+      "published_at": "2026-11-13T07:02:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-13T08:49:38Z"
+    },
+    {
+      "id": "350368bd4390d247",
+      "source": "prnewswire",
+      "title": "The Adam Foundation launches UK Ramadan campaign from COP31: 'Our Planet, Our Responsibility'",
+      "summary": "ANTALYA, T\u00fcrkiye, Nov. 13, 2026 /PRNewswire/ -- In an appeal to UK Muslim communities, the UK-based Adam Foundation has today launched a new environmental campaign from COP31, encouraging communities to take practical action to help protect the planet. Entitled 'Our Planet, Our...",
+      "url": "https://www.prnewswire.com/news-releases/the-adam-foundation-launches-uk-ramadan-campaign-from-cop31-our-planet-our-responsibility-302938306.html",
+      "published_at": "2026-11-13T07:00:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-13T08:49:38Z"
+    },
+    {
+      "id": "224812625f3e4dd6",
+      "source": "prnewswire",
+      "title": "Does a Heart Stent Prevent Future Heart Attacks in Stable Patients? 25-Year Follow-Up Offers New Insight",
+      "summary": "CU Anschutz researcher leads extended follow-up of landmark COURAGE trial, finding no significant difference in the risk of death or heart attack between stable patients treated with a procedure to open blocked arteries and those treated with medical therapy alone AURORA, Colo., Nov. 13,...",
+      "url": "https://www.prnewswire.com/news-releases/does-a-heart-stent-prevent-future-heart-attacks-in-stable-patients-25-year-follow-up-offers-new-insight-302938734.html",
+      "published_at": "2026-11-13T07:00:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-13T08:49:38Z"
+    },
+    {
+      "id": "e536d10e47675097",
+      "source": "prnewswire",
+      "title": "Bracco and Avicenna.AI Announce FDA Clearance for UPTUNITY\u2122 | Aneurysm, a New AI-Enabled Software for Brain Aneurysm Detection and Assessment",
+      "summary": "Developed in collaboration with Avicenna.AI, the newly FDA-cleared technology introduces UPTUNITY\u2122, Bracco's new portfolio of AI-enabled clinical decision support solutions. MILAN, Nov. 13, 2026 /PRNewswire/ -- Bracco and Avicenna.AI today announced U.S. Food and Drug Administration (FDA)...",
+      "url": "https://www.prnewswire.com/news-releases/bracco-and-avicennaai-announce-fda-clearance-for-uptunity--aneurysm-a-new-ai-enabled-software-for-brain-aneurysm-detection-and-assessment-302938500.html",
+      "published_at": "2026-11-13T07:00:00Z",
+      "tickers": [],
+      "event_type": "fda_approval",
+      "direction": "bullish",
+      "news_side": "long",
+      "actionable": true,
+      "scanned_at": "2026-11-13T08:49:38Z"
+    },
+    {
+      "id": "41422b1ad0dcb1bc",
+      "source": "prnewswire",
+      "title": "La Fondation Adam lance sa campagne Ramadan au Royaume-Uni depuis la COP31 : \u00ab Notre plan\u00e8te, notre responsabilit\u00e9 \u00bb",
+      "summary": "ANTALYA, T\u00fcrkiye, 13 novembre 2026 /PRNewswire/ -- Dans un appel aux communaut\u00e9s musulmanes du Royaume-Uni, la Fondation Adam, bas\u00e9e au Royaume-Uni, a lanc\u00e9 aujourd'hui une nouvelle campagne environnementale \u00e0 l'occasion de la COP31, encourageant les communaut\u00e9s \u00e0 prendre des mesures...",
+      "url": "https://www.prnewswire.com/news-releases/la-fondation-adam-lance-sa-campagne-ramadan-au-royaume-uni-depuis-la-cop31---notre-planete-notre-responsabilite--302938430.html",
+      "published_at": "2026-11-13T07:00:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-13T08:49:38Z"
+    },
+    {
+      "id": "e2d038373da98102",
+      "source": "prnewswire",
+      "title": "Die Adam Foundation startet im Rahmen der COP31 eine Ramadan-Kampagne in Gro\u00dfbritannien: \u201eUnser Planet, unsere Verantwortung\"",
+      "summary": "ANTALYA, T\u00fcrkei, 13. November 2026 /PRNewswire/ -- In einem Appell an die muslimischen Gemeinden Gro\u00dfbritanniens hat die in Gro\u00dfbritannien ans\u00e4ssige Adam Foundation heute eine neue Umweltkampagne von der COP31 aus gestartet, die die Gemeinden dazu aufruft, praktische Ma\u00dfnahmen zum Schutz...",
+      "url": "https://www.prnewswire.com/news-releases/die-adam-foundation-startet-im-rahmen-der-cop31-eine-ramadan-kampagne-in-groWbritannien-unser-planet-unsere-verantwortung-302938432.html",
+      "published_at": "2026-11-13T07:00:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-13T08:49:38Z"
+    },
+    {
+      "id": "c6570984d2bc7999",
+      "source": "prnewswire",
+      "title": "Dahua Pro Challenge 2026 Celebrates Global Installer Expertise and Long-term Collaboration",
+      "summary": "HANGZHOU, China, Nov. 13, 2026 /PRNewswire/ -- Dahua Technology, a world-leading video-centric AIoT solution and service provider, brought together installer partners from around the world for Pro Challenge 2026, recognizing their professional expertise and strengthening cooperation...",
+      "url": "https://www.prnewswire.com/news-releases/dahua-pro-challenge-2026-celebrates-global-installer-expertise-and-long-term-collaboration-302938763.html",
+      "published_at": "2026-11-13T07:00:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-13T08:49:38Z"
+    },
+    {
+      "id": "5ae3a24645d53970",
+      "source": "prnewswire",
+      "title": "Huawei pr\u00e4sentiert LUTERRA\u00ae S2 und definiert mit drei herausragenden Innovationen die Zukunft von Energiesystemen f\u00fcr Privathaushalte neu",
+      "summary": "PALMA DE MALLORCA, Spanien, 13. November 2026 /PRNewswire/ -- Am 9. November k\u00fcndigte Huawei die Markteinf\u00fchrung von HUAWEI LUTERRA S2 an, einem All-in-One-Energiesystem f\u00fcr Privathaushalte, das einen Hybridwechselrichter, einen Energiespeicher sowie KI-gest\u00fctztes Energiemanagement in...",
+      "url": "https://www.prnewswire.com/news-releases/huawei-prasentiert-luterra-s2-und-definiert-mit-drei-herausragenden-innovationen-die-zukunft-von-energiesystemen-fur-privathaushalte-neu-302938770.html",
+      "published_at": "2026-11-13T07:00:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-13T08:49:38Z"
+    },
+    {
+      "id": "3c6808c9c6ee8820",
+      "source": "prnewswire_financial",
+      "title": "Operationalizing AI Governance Gives Banks an Advantage in Scaling AI",
+      "summary": "Most Banks Permit AI Agents in Production for Select Use Cases, but Adoption Is Limited and Only 8% Have Comprehensive Controls Nearly Half Reported an AI-Related Issue or Incident in the Past 12 Months Most Have Governance Foundations in Place, but Day-to-Day Controls Lag Banks with More...",
+      "url": "https://www.prnewswire.com/news-releases/operationalizing-ai-governance-gives-banks-an-advantage-in-scaling-ai-302938342.html",
+      "published_at": "2026-11-13T05:01:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-13T08:49:38Z"
+    },
+    {
+      "id": "a3ce302dcc33b8fb",
+      "source": "cnbc_finance",
+      "title": "How the Jensen Huang affair changes the outlook for U.S.-China relations",
+      "summary": "The political climate heading into next week's Trump-Xi summit is drastically different from the last meeting in September.",
+      "url": "https://www.cnbc.com/2026/11/13/jensen-huang-nvidia-us-china-relations.html",
+      "published_at": "2026-11-13T02:56:35Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-13T08:49:40Z"
+    },
+    {
+      "id": "d696beed5e3212f2",
+      "source": "prnewswire_financial",
+      "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of Caterpillar Inc. - CAT",
+      "summary": "NEW YORK, Nov. 12, 2026 /PRNewswire/ -- Pomerantz LLP is investigating claims on behalf of investors of Caterpillar Inc. (\"Caterpillar\" or the \"Company\") (NYSE: CAT). Such investors are advised to contact Danielle Peyton at newaction@pomlaw.com or 646-581-9980, ext. 7980. The...",
+      "url": "https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-of-investors-of-caterpillar-inc---cat-302938461.html",
+      "published_at": "2026-11-13T02:42:00Z",
+      "tickers": [
+        "CAT"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-13T08:49:38Z"
+    },
+    {
+      "id": "a7a871b1c754ce95",
+      "source": "prnewswire_financial",
+      "title": "Avatar Capital Partners Secures US$156 Million First Close for Fund II and Forms Strategic Partnership with GCM Grosvenor and Teacher Retirement System of Texas",
+      "summary": "Fund II is targeting US$300 million focused on the Japan living sector, following the full deployment of Fund I and five successful exits within just 12 months of its final closing. CHICAGO and TOKYO and HONG KONG, Nov. 12, 2026 /PRNewswire/ -- Avatar Capital Partners (\"ACP\"), an...",
+      "url": "https://www.prnewswire.com/news-releases/avatar-capital-partners-secures-us156-million-first-close-for-fund-ii-and-forms-strategic-partnership-with-gcm-grosvenor-and-teacher-retirement-system-of-texas-302937925.html",
+      "published_at": "2026-11-13T02:00:00Z",
+      "tickers": [],
+      "event_type": "mna_deal",
+      "direction": "bullish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-13T08:49:38Z"
+    },
     {
       "id": "eb7ba5166bbf0ed5",
       "source": "prnewswire",
@@ -218,7 +559,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:33Z"
+      "scanned_at": "2026-11-13T08:49:38Z"
     },
     {
       "id": "6435d989ac6ba11f",
@@ -338,7 +679,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:33Z"
+      "scanned_at": "2026-11-13T08:49:38Z"
     },
     {
       "id": "998829d2eac4c4ce",
@@ -352,7 +693,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:36Z"
+      "scanned_at": "2026-11-13T08:49:41Z"
     },
     {
       "id": "08279f1e5397b030",
@@ -368,7 +709,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:33Z"
+      "scanned_at": "2026-11-13T08:49:38Z"
     },
     {
       "id": "4f66115c4ed13edd",
@@ -382,7 +723,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:36Z"
+      "scanned_at": "2026-11-13T08:49:41Z"
     },
     {
       "id": "0f46fc32a4d2e7e3",
@@ -398,7 +739,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:33Z"
+      "scanned_at": "2026-11-13T08:49:38Z"
     },
     {
       "id": "499f2b62af16a507",
@@ -413,7 +754,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-13T01:46:32Z"
+      "scanned_at": "2026-11-13T08:49:38Z"
     },
     {
       "id": "0aff2491bcb15175",
@@ -428,7 +769,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:32Z"
+      "scanned_at": "2026-11-13T08:49:38Z"
     },
     {
       "id": "013e009219e22a91",
@@ -443,7 +784,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-13T01:46:32Z"
+      "scanned_at": "2026-11-13T08:49:38Z"
     },
     {
       "id": "30d8a047d47db2f8",
@@ -458,7 +799,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-13T01:46:32Z"
+      "scanned_at": "2026-11-13T08:49:38Z"
     },
     {
       "id": "36882aec20934c73",
@@ -473,7 +814,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:32Z"
+      "scanned_at": "2026-11-13T08:49:38Z"
     },
     {
       "id": "8a7e51ef99d41846",
@@ -488,7 +829,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:32Z"
+      "scanned_at": "2026-11-13T08:49:38Z"
     },
     {
       "id": "a5448c248ba092c5",
@@ -503,7 +844,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-13T01:46:32Z"
+      "scanned_at": "2026-11-13T08:49:38Z"
     },
     {
       "id": "28b4281ae9d9f77d",
@@ -519,7 +860,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:33Z"
+      "scanned_at": "2026-11-13T08:49:38Z"
     },
     {
       "id": "d20d8d0d5e125f73",
@@ -534,7 +875,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:32Z"
+      "scanned_at": "2026-11-13T08:49:38Z"
     },
     {
       "id": "ac5f9d4e0fd8e446",
@@ -549,7 +890,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:32Z"
+      "scanned_at": "2026-11-13T08:49:38Z"
     },
     {
       "id": "e712f7a8eec2584e",
@@ -565,7 +906,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:33Z"
+      "scanned_at": "2026-11-13T08:49:38Z"
     },
     {
       "id": "cf968f86a362e15c",
@@ -580,7 +921,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-13T01:46:32Z"
+      "scanned_at": "2026-11-13T08:49:38Z"
     },
     {
       "id": "ebc41fc1f3bed093",
@@ -595,7 +936,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:32Z"
+      "scanned_at": "2026-11-13T08:49:38Z"
     },
     {
       "id": "baa1b686851edb43",
@@ -610,7 +951,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:32Z"
+      "scanned_at": "2026-11-13T08:49:38Z"
     },
     {
       "id": "2f80fd0389de56fe",
@@ -625,7 +966,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-13T01:46:32Z"
+      "scanned_at": "2026-11-13T08:49:38Z"
     },
     {
       "id": "28122ab2d4860352",
@@ -640,7 +981,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:32Z"
+      "scanned_at": "2026-11-13T08:49:38Z"
     },
     {
       "id": "96a13e7a81217508",
@@ -655,7 +996,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:32Z"
+      "scanned_at": "2026-11-13T08:49:38Z"
     },
     {
       "id": "26d8717486edd3c1",
@@ -670,7 +1011,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:32Z"
+      "scanned_at": "2026-11-13T08:49:38Z"
     },
     {
       "id": "3dce66607997f2c1",
@@ -685,7 +1026,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:32Z"
+      "scanned_at": "2026-11-13T08:49:38Z"
     },
     {
       "id": "cb51f691c55c1440",
@@ -700,7 +1041,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:32Z"
+      "scanned_at": "2026-11-13T08:49:38Z"
     },
     {
       "id": "b6be9f0e74abdaa9",
@@ -715,7 +1056,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:32Z"
+      "scanned_at": "2026-11-13T08:49:38Z"
     },
     {
       "id": "d27a213cfbbaf5da",
@@ -730,7 +1071,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:32Z"
+      "scanned_at": "2026-11-13T08:49:38Z"
     },
     {
       "id": "831554bebd9a3f60",
@@ -745,7 +1086,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:32Z"
+      "scanned_at": "2026-11-13T08:49:38Z"
     },
     {
       "id": "b3c5624a0eb6cb24",
@@ -759,7 +1100,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:36Z"
+      "scanned_at": "2026-11-13T08:49:41Z"
     },
     {
       "id": "66c893d03fa08dbe",
@@ -774,7 +1115,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:32Z"
+      "scanned_at": "2026-11-13T08:49:38Z"
     },
     {
       "id": "f7b1b6298c4026ce",
@@ -789,7 +1130,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:32Z"
+      "scanned_at": "2026-11-13T08:49:38Z"
     },
     {
       "id": "6ed503636b602a37",
@@ -804,7 +1145,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:32Z"
+      "scanned_at": "2026-11-13T08:49:38Z"
     },
     {
       "id": "4a101ba70383787a",
@@ -819,7 +1160,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:32Z"
+      "scanned_at": "2026-11-13T08:49:38Z"
     },
     {
       "id": "afe0431d17ba2ce9",
@@ -834,7 +1175,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:32Z"
+      "scanned_at": "2026-11-13T08:49:38Z"
     },
     {
       "id": "500797985a1090e7",
@@ -849,7 +1190,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-13T01:46:32Z"
+      "scanned_at": "2026-11-13T08:49:38Z"
     },
     {
       "id": "e4c55bd00fd00fe2",
@@ -864,7 +1205,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:32Z"
+      "scanned_at": "2026-11-13T08:49:38Z"
     },
     {
       "id": "83e0e0199df97bdf",
@@ -878,7 +1219,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:33Z"
+      "scanned_at": "2026-11-13T08:49:38Z"
     },
     {
       "id": "2d05a6561de90125",
@@ -893,7 +1234,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:32Z"
+      "scanned_at": "2026-11-13T08:49:38Z"
     },
     {
       "id": "2f60470381cd45c0",
@@ -908,7 +1249,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:32Z"
+      "scanned_at": "2026-11-13T08:49:38Z"
     },
     {
       "id": "d407b639212a2689",
@@ -923,7 +1264,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:32Z"
+      "scanned_at": "2026-11-13T08:49:38Z"
     },
     {
       "id": "632d2523262e2b77",
@@ -938,7 +1279,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-13T01:46:32Z"
+      "scanned_at": "2026-11-13T08:49:38Z"
     },
     {
       "id": "6e3d9743c0bea1b6",
@@ -953,7 +1294,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:32Z"
+      "scanned_at": "2026-11-13T08:49:38Z"
     },
     {
       "id": "c486f628c4ae056e",
@@ -968,7 +1309,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:32Z"
+      "scanned_at": "2026-11-13T08:49:38Z"
     },
     {
       "id": "a8bf351d96cf2b7a",
@@ -983,7 +1324,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:32Z"
+      "scanned_at": "2026-11-13T08:49:38Z"
     },
     {
       "id": "225776eb8b755646",
@@ -998,7 +1339,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:32Z"
+      "scanned_at": "2026-11-13T08:49:38Z"
     },
     {
       "id": "c9e4dda9124940e7",
@@ -1013,7 +1354,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:32Z"
+      "scanned_at": "2026-11-13T08:49:38Z"
     },
     {
       "id": "c0f250b0c155fe73",
@@ -1028,7 +1369,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:32Z"
+      "scanned_at": "2026-11-13T08:49:38Z"
     },
     {
       "id": "68ee3b14a79524a2",
@@ -1043,7 +1384,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:32Z"
+      "scanned_at": "2026-11-13T08:49:38Z"
     },
     {
       "id": "5931624584e1a956",
@@ -1058,7 +1399,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:32Z"
+      "scanned_at": "2026-11-13T08:49:38Z"
     },
     {
       "id": "b4d4856c45f62758",
@@ -1072,7 +1413,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:36Z"
+      "scanned_at": "2026-11-13T08:49:41Z"
     },
     {
       "id": "ddf0556c1bee212d",
@@ -1086,7 +1427,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:36Z"
+      "scanned_at": "2026-11-13T08:49:41Z"
     },
     {
       "id": "f860b82f5dc5e060",
@@ -1102,7 +1443,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:33Z"
+      "scanned_at": "2026-11-13T08:49:38Z"
     },
     {
       "id": "db8ef56b085f47f2",
@@ -1118,7 +1459,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:33Z"
+      "scanned_at": "2026-11-13T08:49:38Z"
     },
     {
       "id": "747be4f2fcd40b51",
@@ -1132,7 +1473,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:33Z"
+      "scanned_at": "2026-11-13T08:49:38Z"
     },
     {
       "id": "77f51b1df25761d6",
@@ -1148,7 +1489,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:33Z"
+      "scanned_at": "2026-11-13T08:49:38Z"
     },
     {
       "id": "a03d66df467091ad",
@@ -1162,7 +1503,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:33Z"
+      "scanned_at": "2026-11-13T08:49:38Z"
     },
     {
       "id": "5de554190acda810",
@@ -1178,7 +1519,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:33Z"
+      "scanned_at": "2026-11-13T08:49:38Z"
     },
     {
       "id": "2ca6babe5e9377cd",
@@ -1194,7 +1535,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:33Z"
+      "scanned_at": "2026-11-13T08:49:38Z"
     },
     {
       "id": "9befe688e02bd40c",
@@ -1210,7 +1551,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:33Z"
+      "scanned_at": "2026-11-13T08:49:38Z"
     },
     {
       "id": "bb65bc81c4baadeb",
@@ -1224,7 +1565,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:33Z"
+      "scanned_at": "2026-11-13T08:49:38Z"
     },
     {
       "id": "12e3cf2a40f48a10",
@@ -1238,7 +1579,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:36Z"
+      "scanned_at": "2026-11-13T08:49:41Z"
     },
     {
       "id": "db0428b926d8c873",
@@ -1254,7 +1595,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:33Z"
+      "scanned_at": "2026-11-13T08:49:38Z"
     },
     {
       "id": "02623d0e36c25986",
@@ -1362,7 +1703,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:36Z"
+      "scanned_at": "2026-11-13T08:49:41Z"
     },
     {
       "id": "fee05b73cd9741bb",
@@ -1916,7 +2257,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:35Z"
+      "scanned_at": "2026-11-13T08:49:40Z"
     },
     {
       "id": "bfadabbd1327e27d",
@@ -1930,7 +2271,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:35Z"
+      "scanned_at": "2026-11-13T08:49:40Z"
     },
     {
       "id": "7b52989c271fc05e",
@@ -2020,7 +2361,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:36Z"
+      "scanned_at": "2026-11-13T08:49:41Z"
     },
     {
       "id": "45b8595deaff812d",
@@ -2390,7 +2731,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:34Z"
+      "scanned_at": "2026-11-13T08:49:39Z"
     },
     {
       "id": "2607b21e5dae38a9",
@@ -3953,7 +4294,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:34Z"
+      "scanned_at": "2026-11-13T08:49:39Z"
     },
     {
       "id": "29cb42ff2b803843",
@@ -3983,7 +4324,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:36Z"
+      "scanned_at": "2026-11-13T08:49:41Z"
     },
     {
       "id": "9c74ac431e77827d",
@@ -4011,7 +4352,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:35Z"
+      "scanned_at": "2026-11-13T08:49:40Z"
     },
     {
       "id": "b5d5a9d30a7e752e",
@@ -4141,7 +4482,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-12T04:24:24Z"
+      "scanned_at": "2026-11-13T08:49:41Z"
     },
     {
       "id": "f9ca31f342d338d2",
@@ -4660,7 +5001,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:34Z"
+      "scanned_at": "2026-11-13T08:49:39Z"
     },
     {
       "id": "4ca15591d24b927e",
@@ -4808,7 +5149,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:34Z"
+      "scanned_at": "2026-11-13T08:49:39Z"
     },
     {
       "id": "8a4564cdd436f5b1",
@@ -4836,7 +5177,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:34Z"
+      "scanned_at": "2026-11-13T08:49:39Z"
     },
     {
       "id": "37c4ecb7c1259b2a",
@@ -5168,7 +5509,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:35Z"
+      "scanned_at": "2026-11-13T08:49:40Z"
     },
     {
       "id": "a3435494e1f7a0eb",
@@ -5464,7 +5805,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T01:46:35Z"
+      "scanned_at": "2026-11-13T08:49:40Z"
     },
     {
       "id": "8bcf39634f8b6ee2",
@@ -5583,350 +5924,6 @@
       "news_side": null,
       "actionable": false,
       "scanned_at": "2026-11-11T17:29:15Z"
-    },
-    {
-      "id": "f53b77040d9e53a8",
-      "source": "marketwatch",
-      "title": "Anthropic\u2019s IPO roadshow kicks off \u2014 and the big money is already lining up",
-      "summary": "Despite nagging concerns over the AI trade, Anthropic\u2019s IPO is reportedly seeing very strong demand.",
-      "url": "https://www.marketwatch.com/story/anthropics-ipo-roadshow-kicks-off-and-the-big-money-is-already-lining-up-7cdd4f8b?mod=mw_rss_topstories",
-      "published_at": "2026-11-11T16:03:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-11T17:29:19Z"
-    },
-    {
-      "id": "9903f4a84e4ebb4b",
-      "source": "prnewswire_financial",
-      "title": "Coreshell Technologies Raises $30M Series B to Scale China-Free Batteries for U.S. Industries",
-      "summary": "Round co-led by Ferroglobe and Access Industries builds on $50M DOE grant to accelerate commercialization of batteries made with domestic critical materials SAN LEANDRO, Calif., Nov. 11, 2026 /PRNewswire/ -- Coreshell Technologies, a battery technology company, today announced the close...",
-      "url": "https://www.prnewswire.com/news-releases/coreshell-technologies-raises-30m-series-b-to-scale-china-free-batteries-for-us-industries-302936063.html",
-      "published_at": "2026-11-11T16:00:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-11T17:29:15Z"
-    },
-    {
-      "id": "f50ffa45c6a69db1",
-      "source": "prnewswire_financial",
-      "title": "Deere to Announce Fourth Quarter 2026 Financial Results",
-      "summary": "MOLINE, Ill., Nov. 11, 2026 /PRNewswire/ -- Deere & Company (NYSE: DE) will hold its fourth quarter 2026 earnings call on Wednesday, 25 November, beginning at 9:00 a.m. central time. During the call, the company's financial and operating performance will be discussed with analysts,...",
-      "url": "https://www.prnewswire.com/news-releases/deere-to-announce-fourth-quarter-2026-financial-results-302935106.html",
-      "published_at": "2026-11-11T16:00:00Z",
-      "tickers": [
-        "DE"
-      ],
-      "event_type": "earnings",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-11T17:29:15Z"
-    },
-    {
-      "id": "c5e3628ae9d2c701",
-      "source": "prnewswire_financial",
-      "title": "CNCF Welcomes Adyen as Platinum End User Member to Advance Open Source Financial Infrastructure",
-      "summary": "Operating over 100 Kubernetes clusters across \u20ac1.39T in volume, Adyen brings production-scale fintech expertise to CNCF governance and open source projects Key Highlights Adyen joins the CNCF as a Platinum End User Member, gaining seats on the CNCF Governing Board and End User Technical...",
-      "url": "https://www.prnewswire.com/news-releases/cncf-welcomes-adyen-as-platinum-end-user-member-to-advance-open-source-financial-infrastructure-302927411.html",
-      "published_at": "2026-11-11T16:00:00Z",
-      "tickers": [
-        "CNCF"
-      ],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-11T17:29:15Z"
-    },
-    {
-      "id": "4c06cd7d43bc0b25",
-      "source": "prnewswire_financial",
-      "title": "UrVenue Expands Stripe Integration to Bring Modern Payment Technology to Resorts and Hospitality",
-      "summary": "Expanded Stripe capabilities give UrVenue customers access to more payment options, offering guests greater choice, flexibility and convenience when booking experiences. LAS VEGAS, Nov. 11, 2026 /PRNewswire/ -- UrVenue, a hospitality technology company that enables venues, hotels,...",
-      "url": "https://www.prnewswire.com/news-releases/urvenue-expands-stripe-integration-to-bring-modern-payment-technology-to-resorts-and-hospitality-302936484.html",
-      "published_at": "2026-11-11T16:00:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-11T17:29:15Z"
-    },
-    {
-      "id": "12c55c7556e8920e",
-      "source": "prnewswire_financial",
-      "title": "Apex Group joins Hedera Council to advance institutional digital assets",
-      "summary": "HAMILTON, Bermuda, Nov. 11, 2026 /PRNewswire/ -- Apex Group Ltd. (\"Apex Group\"), a global financial services provider servicing more than $3.5 trillion in assets, has joined Hedera Council, contributing its expertise in fund services, digital assets and institutional market infrastructure...",
-      "url": "https://www.prnewswire.com/news-releases/apex-group-joins-hedera-council-to-advance-institutional-digital-assets-302936667.html",
-      "published_at": "2026-11-11T16:00:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-11T17:29:15Z"
-    },
-    {
-      "id": "373b75a0c3524956",
-      "source": "marketwatch",
-      "title": "CoreWeave just gave a shot in the arm to Micron, Lumentum and the rest of the AI trade",
-      "summary": "CoreWeave\u2019s improved AI economics and its vow to show some discipline around debt are sparking a broad rally across the chip sector.",
-      "url": "https://www.marketwatch.com/story/micron-and-other-ai-stocks-surge-as-coreweave-calms-wall-streets-worst-fears-0a18152a?mod=mw_rss_topstories",
-      "published_at": "2026-11-11T15:26:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-12T04:24:24Z"
-    },
-    {
-      "id": "338bdfdf24cfdcf2",
-      "source": "marketwatch",
-      "title": "I\u2019m 63 and want to spend $95,000 on a roof deck for my $500,000 home. Is that a good investment?",
-      "summary": "\u201cI have a net worth of $2.3 million and my only debt is a 15-year mortgage with an outstanding balance of $295,000.\u201d",
-      "url": "https://www.marketwatch.com/story/im-63-and-want-to-spend-95-000-on-a-roof-deck-for-my-500-000-home-is-that-a-good-investment-f1a59c27?mod=mw_rss_topstories",
-      "published_at": "2026-11-11T15:25:00Z",
-      "tickers": [
-        "I"
-      ],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-11T17:29:19Z"
-    },
-    {
-      "id": "e43f608996e5f0e1",
-      "source": "marketwatch",
-      "title": "Market angst is driving investors into low-volatility stocks as AI trade stumbles",
-      "summary": "Anxiety in the U.S. stock market has surged amid a sharp selloff in artificial intelligence names and stubbornly high bond yields.",
-      "url": "https://www.marketwatch.com/story/market-angst-is-driving-investors-into-low-volatility-stocks-as-ai-trade-stumbles-23d905e9?mod=mw_rss_topstories",
-      "published_at": "2026-11-11T15:15:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-11T17:29:19Z"
-    },
-    {
-      "id": "d637638f4dc6b422",
-      "source": "cnbc_business",
-      "title": "Measles is surging in the U.S. \u2014 and outbreaks can cost millions",
-      "summary": "A new tool developed by Johns Hopkins researchers estimates that the 2025 measles outbreak in the U.S. carried an economic cost of more than $37 million.",
-      "url": "https://www.cnbc.com/2026/11/11/measles-outbreak-us-economic-cost.html",
-      "published_at": "2026-11-11T15:14:53Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-13T01:46:34Z"
-    },
-    {
-      "id": "22a55ca88c8ca607",
-      "source": "prnewswire_financial",
-      "title": "AI's blind spot: CRE investors' top priorities aren't delivering the biggest returns",
-      "summary": "While 83% of investors have moved AI beyond the initial testing stage, many are finding the greatest returns outside their top focus area. Key Takeaways AI returns are strongest in less prioritized places: Investors want AI to drive outperformance and strengthen capital deployment...",
-      "url": "https://www.prnewswire.com/news-releases/ais-blind-spot-cre-investors-top-priorities-arent-delivering-the-biggest-returns-302936613.html",
-      "published_at": "2026-11-11T15:08:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-11T17:29:15Z"
-    },
-    {
-      "id": "500f5cd18d9e3715",
-      "source": "marketwatch",
-      "title": "From living in his car to a 756 credit score: How one veteran rebuilt his finances",
-      "summary": "Many service members face an often invisible financial trap when they step out of uniform.",
-      "url": "https://www.marketwatch.com/story/from-living-in-his-car-to-a-756-credit-score-how-one-veteran-rebuilt-his-finances-026c3336?mod=mw_rss_topstories",
-      "published_at": "2026-11-11T15:08:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-11T17:29:19Z"
-    },
-    {
-      "id": "ba88a8610104e1f4",
-      "source": "prnewswire_financial",
-      "title": "Ita\u00fasa reports record recurring net income of R$5.1 billion in 3Q26, up 25%",
-      "summary": "S\u00c3O PAULO, Nov. 11, 2026 /PRNewswire/ -- Ita\u00fasa (B3: ITSA4), Brazil's largest publicly traded investment holding company, reported record recurring net income of R$5.1 billion in the third quarter of 2026, up 25% compared to 3Q25, and recurring ROE of 21.1%, an increase of 3.3 percentage...",
-      "url": "https://www.prnewswire.com/news-releases/itausa-reports-record-recurring-net-income-of-r5-1-billion-in-3q26--up-25-302936610.html",
-      "published_at": "2026-11-11T15:04:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-11T17:29:15Z"
-    },
-    {
-      "id": "51e700ea01e02cc1",
-      "source": "prnewswire_financial",
-      "title": "Ita\u00fasa reports record recurring net income of R$5.1 billion in 3Q26, up 25%",
-      "summary": "S\u00c3O PAULO, Nov. 11, 2026 /PRNewswire/ -- Ita\u00fasa (B3: ITSA4), Brazil's largest publicly traded investment holding company, reported record recurring net income of R$5.1 billion in the third quarter of 2026, up 25% compared to 3Q25, and recurring ROE of 21.1%, an increase of 3.3 percentage...",
-      "url": "https://www.prnewswire.com/news-releases/itausa-reports-record-recurring-net-income-of-r5-1-billion-in-3q26--up-25-302936606.html",
-      "published_at": "2026-11-11T15:02:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-11T17:29:15Z"
-    },
-    {
-      "id": "0f52ad4880ee97d5",
-      "source": "prnewswire_financial",
-      "title": "Los compradores de vivienda en Texas tuvieron m\u00e1s opciones en el tercer trimestre de 2026",
-      "summary": "La disponibilidad de vivienda aument\u00f3 en la mayor\u00eda de los mercados, seg\u00fan un informe de Texas Realtors AUSTIN, Texas, 11 de noviembre de 2026 /PRNewswire-HISPANIC PR WIRE/ -- Los compradores de vivienda en Texas tuvieron m\u00e1s viviendas para elegir en el tercer trimestre, ya que las...",
-      "url": "https://www.prnewswire.com/news-releases/los-compradores-de-vivienda-en-texas-tuvieron-mas-opciones-en-el-tercer-trimestre-de-2026-809257295.html",
-      "published_at": "2026-11-11T15:00:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-11T17:29:15Z"
-    },
-    {
-      "id": "700b9bf662984860",
-      "source": "prnewswire_financial",
-      "title": "Greece Sotheby's International Realty: Confidence in Greek luxury property strengthens as home markets soften",
-      "summary": "Second annual Voices of Affluence survey by Greece Sotheby's International Realty: 57% of affluent respondents expect prices to rise, half plan to buy within two years, and the single change they ask of Greece is a faster, clearer process, well ahead of lower taxes. ATHENS, Greece, Nov....",
-      "url": "https://www.prnewswire.com/news-releases/greece-sothebys-international-realty-confidence-in-greek-luxury-property-strengthens-as-home-markets-soften-302936603.html",
-      "published_at": "2026-11-11T14:58:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-11T17:29:15Z"
-    },
-    {
-      "id": "59bae70a7dc2c0de",
-      "source": "prnewswire_financial",
-      "title": "Group 1 Automotive Welcomes Porsche Atlanta North Following Hennessy Acquisition",
-      "summary": "Porsche Atlanta North continues to operate under its existing name as part of Group 1's growing Atlanta-area network ATLANTA, Nov. 11, 2026 /PRNewswire/ -- As part of its ongoing nationwide initiative to unify its extensive network of dealerships, Group 1 Automotive, Inc., a Houston-based...",
-      "url": "https://www.prnewswire.com/news-releases/group-1-automotive-welcomes-porsche-atlanta-north-following-hennessy-acquisition-302935995.html",
-      "published_at": "2026-11-11T14:52:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-11T17:29:15Z"
-    },
-    {
-      "id": "3cc5ec36c328a784",
-      "source": "prnewswire_financial",
-      "title": "Group 1 Automotive Welcomes Porsche Atlanta Northwest Following Hennessy Acquisition",
-      "summary": "Porsche Atlanta Northwest continues to operate under its existing name as part of Group 1's growing Atlanta-area network ATLANTA, Nov. 11, 2026 /PRNewswire/ -- As part of its ongoing nationwide initiative to unify its extensive network of dealerships, Group 1 Automotive, Inc., a...",
-      "url": "https://www.prnewswire.com/news-releases/group-1-automotive-welcomes-porsche-atlanta-northwest-following-hennessy-acquisition-302935980.html",
-      "published_at": "2026-11-11T14:46:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-11T17:29:15Z"
-    },
-    {
-      "id": "9f270b5d119bba43",
-      "source": "prnewswire_financial",
-      "title": "Group 1 Automotive Continues Nationwide Brand Alignment with Lexus Gwinnett",
-      "summary": "Former Hennessy Lexus of Gwinnett is among the dealerships now operating under Group 1's ownership ATLANTA, Nov. 11, 2026 /PRNewswire/ -- As part of its ongoing nationwide initiative to unify its extensive network of dealerships, Group 1 Automotive, Inc., a Houston-based automotive...",
-      "url": "https://www.prnewswire.com/news-releases/group-1-automotive-continues-nationwide-brand-alignment-with-lexus-gwinnett-302936026.html",
-      "published_at": "2026-11-11T14:41:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-11T17:29:15Z"
-    },
-    {
-      "id": "9a187c0b6bf54ac4",
-      "source": "prnewswire_financial",
-      "title": "Group 1 Automotive Continues Nationwide Brand Alignment with Lexus of Atlanta",
-      "summary": "Former Hennessy Lexus of Atlanta is among the dealerships now operating under Group 1's ownership ATLANTA, Nov. 11, 2026 /PRNewswire/ -- As part of its ongoing nationwide initiative to unify its extensive network of dealerships, Group 1 Automotive, Inc., a Houston-based automotive...",
-      "url": "https://www.prnewswire.com/news-releases/group-1-automotive-continues-nationwide-brand-alignment-with-lexus-of-atlanta-302936000.html",
-      "published_at": "2026-11-11T14:36:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-11T17:29:15Z"
-    },
-    {
-      "id": "95638ba87cce7cbb",
-      "source": "prnewswire_financial",
-      "title": "Woolery & Co Welcomes Debbie Wang as Counsel",
-      "summary": "Ms. Wang joins from Ropes & Gray LLP, where she was recently elected Counsel NEW YORK, Nov. 11, 2026 /PRNewswire/ -- Woolery & Co, a premier strategic advisory law firm, is pleased to announce the addition of Debbie Wang as Counsel, further strengthening the firm's capabilities in mergers...",
-      "url": "https://www.prnewswire.com/news-releases/woolery--co-welcomes-debbie-wang-as-counsel-302936514.html",
-      "published_at": "2026-11-11T14:30:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-11T17:29:15Z"
-    },
-    {
-      "id": "ad540a698b225a3e",
-      "source": "prnewswire_financial",
-      "title": "Compound Real Estate Bonds Expands IRA Access Through Equity Trust, Offering 8.50% APY Real Estate Income",
-      "summary": "CREB brings professionally managed real estate fixed income to retirement investors, offering direct access through self-directed IRAs and standard investment accounts without managing property. NEW YORK, Nov. 11, 2026 /PRNewswire/ -- Compound Real Estate Bonds (CREB), a U.S. fixed-income...",
-      "url": "https://www.prnewswire.com/news-releases/compound-real-estate-bonds-expands-ira-access-through-equity-trust-offering-8-50-apy-real-estate-income-302936009.html",
-      "published_at": "2026-11-11T14:30:00Z",
-      "tickers": [
-        "CREB"
-      ],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-11T17:29:15Z"
-    },
-    {
-      "id": "bd460cc6e378fccd",
-      "source": "prnewswire_financial",
-      "title": "Lennar Expands New Home Offerings Across Loudoun County, One of Northern Virginia's Most Sought-After Markets",
-      "summary": "ASHBURN, Va., Nov. 11, 2026 /PRNewswire/ -- Lennar, one of the nation's leading homebuilders, continues to expand its presence in Loudoun County, Virginia, with three new communities now selling and another set to open this fall, offering a range of home types, designs and price points...",
-      "url": "https://www.prnewswire.com/news-releases/lennar-expands-new-home-offerings-across-loudoun-county-one-of-northern-virginias-most-sought-after-markets-302936586.html",
-      "published_at": "2026-11-11T14:30:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-11T17:29:15Z"
-    },
-    {
-      "id": "8f0ba5e100a88a2d",
-      "source": "marketwatch",
-      "title": "My friend hates her job but shuts down when I give her advice. How can I help her?",
-      "summary": "It\u2019s counterintuitive, but the worst thing you could do is give your friend advice, says one career coach.",
-      "url": "https://www.marketwatch.com/story/my-friend-feels-trapped-at-her-job-but-wont-do-anything-about-it-am-i-supposed-to-step-in-7e55604e?mod=mw_rss_topstories",
-      "published_at": "2026-11-11T14:24:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-11T17:29:19Z"
     }
   ]
 }
