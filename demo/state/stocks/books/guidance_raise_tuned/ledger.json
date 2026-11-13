@@ -73,7 +73,7 @@
   "stop_loss": null,
   "prefer_open": true,
   "max_open": 15,
-  "last_run": "2026-11-13T09:23:43Z",
+  "last_run": "2026-11-13T09:39:18Z",
   "last_reason": "engine[guidance_raise_tuned]: auto=0 ingested=0 fills=0 closed=0 open=0 session=pre",
   "max_per_ticker": 1,
   "max_gross_exposure_pct": 0.75,
@@ -82,7 +82,7 @@
   "sizing": "fixed",
   "score_ref": 10.0,
   "strategy_config_path": "config/strategies/guidance_raise_tuned.yaml",
-  "eur_usd": 1.106439471244812,
+  "eur_usd": 1.1059499979019165,
   "extended_hours_extra_slippage_pct": 0.0,
   "allow_extended_hours": false
 }
