@@ -16,6 +16,7 @@ DEMO_BOOKS_DIR = DEMO_STATE / "books"
 # Shared across all books
 CANDIDATES = STATE / "candidates.json"
 NEWS = STATE / "news.json"
+ALERTS = STATE / "alerts.json"
 
 # Legacy single-book paths (migrated into books/agent/)
 LEGACY_DECISIONS = STATE / "decisions.json"

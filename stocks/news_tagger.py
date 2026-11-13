@@ -156,6 +156,16 @@ _RULES: list[tuple[str, str, re.Pattern[str]]] = [
         ),
     ),
     (
+        "analyst",
+        "neutral",
+        re.compile(
+            r"\b(analyst|downgrade[sd]?|upgrade[sd]?|price[- ]target|"
+            r"initiates? coverage|reiterate[sd]?|overweight|underweight|"
+            r"outperform|underperform|sell[- ]rated|buy[- ]rated)\b",
+            re.I,
+        ),
+    ),
+    (
         "earnings",
         "neutral",
         re.compile(

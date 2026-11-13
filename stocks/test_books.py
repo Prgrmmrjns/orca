@@ -93,8 +93,9 @@ class ReplayTests(unittest.TestCase):
                 "guidance_raise_score",
                 "gap_filtered_guidance",
                 "wide_capacity",
+                "bigmove_unified_v1",
             }:
-                continue  # news/config books — see test_strategy_config / test_tuned_books
+                continue  # news/config books — see test_strategy_config / test_tuned_books / test_bigmove
             sim = simulate_book(book, SAMPLE_CANDIDATES)
             self.assertEqual(sim["n_opened"], sim["n_closed"])
             self.assertGreaterEqual(sim["n_opened"], 1, book.id)

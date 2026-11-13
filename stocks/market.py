@@ -699,6 +699,166 @@ def price_snapshot(ticker: str) -> dict[str, Any]:
         return {}
 
 
+def extended_hours_quote(ticker: str, *, interval: str = "1m") -> dict[str, Any]:
+    """Latest extended-hours capable quote via yfinance prepost bars.
+
+    Returns last trade print (pre/regular/post when available), prior regular close,
+    gap vs prior close, and relative volume vs recent average.
+    """
+    session = market_session()
+
+    def _one():
+        t = yf.Ticker(ticker)
+        # Prior regular close from daily bars
+        daily = t.history(period="15d", interval="1d", auto_adjust=True)
+        prev_close = None
+        if daily is not None and not daily.empty:
+            # If today's regular bar exists and we're still in pre, prior is yesterday
+            closes = daily["Close"].dropna()
+            if len(closes) >= 2:
+                last_day = (
+                    daily.index[-1].tz_convert(ET).date()
+                    if getattr(daily.index[-1], "tzinfo", None)
+                    else daily.index[-1].date()
+                )
+                today = now_et().date()
+                if last_day == today and session == "pre":
+                    prev_close = float(closes.iloc[-2])
+                elif last_day == today:
+                    prev_close = float(closes.iloc[-2]) if len(closes) >= 2 else float(closes.iloc[-1])
+                else:
+                    prev_close = float(closes.iloc[-1])
+            elif len(closes) == 1:
+                prev_close = float(closes.iloc[-1])
+
+        last = None
+        bar_ts = None
+        volume = None
+        # Prefer 1m/5m prepost for live extended prints
+        for iv in (interval, "5m", "1m"):
+            try:
+                h = t.history(period="5d", interval=iv, prepost=True, auto_adjust=True)
+            except Exception:
+                h = None
+            if h is None or h.empty or "Close" not in h:
+                continue
+            # Drop empty closes
+            h = h.dropna(subset=["Close"])
+            if h.empty:
+                continue
+            row = h.iloc[-1]
+            last = _f(row["Close"])
+            volume = _f(row["Volume"]) if "Volume" in h.columns else None
+            ts = h.index[-1]
+            if getattr(ts, "tzinfo", None):
+                bar_ts = ts.tz_convert(ET)
+            else:
+                bar_ts = ts
+            break
+
+        if last is None:
+            snap = price_snapshot(ticker)
+            last = snap.get("last")
+            prev_close = prev_close or snap.get("prev_close")
+
+        gap_pct = None
+        if prev_close and last and prev_close > 0:
+            gap_pct = round((last / prev_close - 1.0) * 100.0, 4)
+
+        # Relative volume: today's cumulative volume vs 20d ADV (shares)
+        rel_vol = None
+        adv_shares = None
+        try:
+            if daily is not None and not daily.empty and "Volume" in daily.columns:
+                vols = daily["Volume"].dropna().tail(21)
+                if len(vols) >= 5:
+                    # Exclude today if present
+                    adv_shares = float(vols.iloc[:-1].mean()) if len(vols) >= 6 else float(vols.mean())
+            if adv_shares and adv_shares > 0:
+                # Sum today's prepost volume from 5m bars when available
+                try:
+                    bars = t.history(period="2d", interval="5m", prepost=True, auto_adjust=True)
+                    if bars is not None and not bars.empty and "Volume" in bars.columns:
+                        today = now_et().date()
+                        todays = []
+                        for ts, row in bars.iterrows():
+                            d = ts.tz_convert(ET).date() if getattr(ts, "tzinfo", None) else ts.date()
+                            if d == today:
+                                todays.append(float(row["Volume"] or 0))
+                        if todays:
+                            rel_vol = round(sum(todays) / adv_shares, 3)
+                except Exception:
+                    pass
+        except Exception:
+            pass
+
+        return {
+            "last": last,
+            "prev_close": prev_close,
+            "gap_pct": gap_pct,
+            "session": session,
+            "bar_time": bar_ts.isoformat() if hasattr(bar_ts, "isoformat") else None,
+            "volume": volume,
+            "rel_vol": rel_vol,
+            "source": "yfinance_prepost",
+        }
+
+    try:
+        return retry(_one, attempts=2, default={}) or {}
+    except Exception:
+        return {}
+
+
+def fillable_quote(ticker: str, *, allow_extended: bool = False) -> dict[str, Any]:
+    """Quote usable for paper fills. Extended books use prepost bars outside RTH."""
+    session = market_session()
+    if allow_extended and session in ("pre", "after"):
+        q = extended_hours_quote(ticker)
+        if q.get("last"):
+            return q
+    snap = price_snapshot(ticker)
+    snap["session"] = session
+    snap["source"] = "yfinance_regular"
+    return snap
+
+
+def adv20_usd(ticker: str) -> float | None:
+    """Approx 20-day average dollar volume."""
+    try:
+        h = yf.Ticker(ticker).history(period="2mo", interval="1d", auto_adjust=True)
+        if h is None or h.empty or "Close" not in h or "Volume" not in h:
+            return None
+        tail = h.tail(21).iloc[:-1] if len(h) > 21 else h.tail(20)
+        if tail.empty:
+            return None
+        dv = (tail["Close"] * tail["Volume"]).dropna()
+        if len(dv) < 5:
+            return None
+        return float(dv.mean())
+    except Exception:
+        return None
+
+
+def is_etf_ticker(ticker: str) -> bool | None:
+    """Best-effort ETF detection via yfinance quoteType / info."""
+    try:
+        t = yf.Ticker(ticker)
+        qt = None
+        try:
+            fi = t.fast_info
+            qt = getattr(fi, "quote_type", None) or getattr(fi, "quoteType", None)
+        except Exception:
+            pass
+        if not qt:
+            info = getattr(t, "info", None) or {}
+            qt = info.get("quoteType") or info.get("quote_type")
+        if not qt:
+            return None
+        return str(qt).upper() in {"ETF", "MUTUALFUND", "INDEX"}
+    except Exception:
+        return None
+
+
 def daily_bar(ticker: str, day: date | None = None) -> dict[str, Any]:
     day = day or now_et().date()
     try:

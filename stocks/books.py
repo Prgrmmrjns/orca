@@ -283,6 +283,26 @@ BOOKS: list[BookSpec] = [
         hold_days=2,
         max_open=15,
     ),
+    # Extended-hours gap-fade book (paper, start 2026-11-13). Existing 12 books unchanged.
+    BookSpec(
+        id="bigmove_unified_v1",
+        title="Bigmove unified v1",
+        kind="rule",
+        description=(
+            "Fade offering / PR-pop / M&A gap-downs and selective gap-down fades across "
+            "pre/regular/after hours. Alert-only mega-cap shocks. No earnings/guidance chase. "
+            "5% · max 20 · hold 5d · 0.5%/fill + 0.5% ext slippage · "
+            "config/strategies/bigmove_unified_v1.yaml."
+        ),
+        size=0.05,
+        hold_days=5,
+        max_open=20,
+        stop_loss=None,
+        side="dynamic",
+        prefer_open=False,
+        matcher=make_config_matcher("bigmove_unified_v1"),
+        started="2026-11-13",
+    ),
 ]
 
 BOOK_BY_ID: dict[str, BookSpec] = {b.id: b for b in BOOKS}

@@ -22,6 +22,8 @@ BOOK_ORDER = [
     "guidance_raise_score",
     "gap_filtered_guidance",
     "wide_capacity",
+    # Extended-hours gap-fade book (paper, from 2026-11-13)
+    "bigmove_unified_v1",
 ]
 BOOK_TITLES = {
     "agent": "Agent (Chewbacca)",
@@ -36,6 +38,7 @@ BOOK_TITLES = {
     "guidance_raise_score": "Guidance raise score",
     "gap_filtered_guidance": "Gap-filtered guidance",
     "wide_capacity": "Wide capacity",
+    "bigmove_unified_v1": "Bigmove unified v1",
 }
 CONFIG_BOOK_IDS = {
     "news_event",
@@ -45,6 +48,7 @@ CONFIG_BOOK_IDS = {
     "guidance_raise_score",
     "gap_filtered_guidance",
     "wide_capacity",
+    "bigmove_unified_v1",
 }
 
 
@@ -125,9 +129,13 @@ def _strategy_configs() -> dict[str, dict]:
         repo = Path(__file__).resolve().parents[1]
         if str(repo) not in __import__("sys").path:
             __import__("sys").path.insert(0, str(repo))
-        from stocks.strategy_config import TUNED_NEWS_BOOK_IDS, load_strategy_config
+        from stocks.strategy_config import (
+            BIGMOVE_BOOK_ID,
+            TUNED_NEWS_BOOK_IDS,
+            load_strategy_config,
+        )
 
-        for bid in ["news_event", *TUNED_NEWS_BOOK_IDS]:
+        for bid in ["news_event", *TUNED_NEWS_BOOK_IDS, BIGMOVE_BOOK_ID]:
             try:
                 out[bid] = load_strategy_config(bid).to_public_dict()
             except Exception:
@@ -157,6 +165,25 @@ def _book_summary(book_id: str, led: dict, decs: dict, strategy_config: dict | N
                 "unrealized_pnl_pct": p.get("unrealized_pnl_pct"),
                 "reason": p.get("reason"),
                 "rule_tags": p.get("rule_tags") or [],
+                "session": p.get("entry_session") or p.get("session"),
+                "entry_session": p.get("entry_session") or p.get("session"),
+            }
+        )
+    # Sanitize closed trades (session + finite numerics)
+    closed_out = []
+    for t in reversed(closed[-50:]):
+        if not isinstance(t, dict):
+            continue
+        closed_out.append(
+            {
+                **t,
+                "pnl_eur": _finite(t.get("pnl_eur")),
+                "pnl_pct_net": _finite(t.get("pnl_pct_net")),
+                "entry_usd": _finite(t.get("entry_usd")),
+                "exit_usd": _finite(t.get("exit_usd")),
+                "session": t.get("exit_session") or t.get("session") or t.get("entry_session"),
+                "entry_session": t.get("entry_session"),
+                "exit_session": t.get("exit_session") or t.get("session"),
             }
         )
     ret = round((eq / start - 1) * 100, 2)
@@ -178,16 +205,19 @@ def _book_summary(book_id: str, led: dict, decs: dict, strategy_config: dict | N
         "win_rate_pct": _win_rate(closed),
         "eur_usd": led.get("eur_usd"),
         "cost_pct": led.get("cost_pct", 0.005),
+        "extended_hours_extra_slippage_pct": led.get("extended_hours_extra_slippage_pct"),
+        "allow_extended_hours": led.get("allow_extended_hours"),
         "max_open": led.get("max_open"),
         "default_size": led.get("default_size"),
         "equity_history": led.get("equity_history") or [],
         "spy_history": led.get("spy_history") or [],
         "positions": positions,
         "pending": led.get("pending") or [],
-        "closed_trades": list(reversed(closed))[:50],
+        "closed_trades": closed_out,
         "n_decisions": len(decs.get("decisions") or []),
         "last_run": led.get("last_run"),
         "last_reason": led.get("last_reason"),
+        "start_date": led.get("start_date"),
     }
     if strategy_config is not None:
         out["strategy_config"] = strategy_config
@@ -357,13 +387,34 @@ def snapshot() -> dict:
             }
         )
 
+    alerts_doc = _load(state / "alerts.json", {"alerts": []})
+    alerts = []
+    for a in (alerts_doc.get("alerts") or [])[-30:]:
+        if not isinstance(a, dict):
+            continue
+        alerts.append(
+            {
+                "id": a.get("id"),
+                "type": a.get("type"),
+                "ticker": a.get("ticker"),
+                "gap_pct": _finite(a.get("gap_pct")),
+                "adv20_usd": _finite(a.get("adv20_usd")),
+                "session": a.get("session"),
+                "as_of": a.get("as_of"),
+                "action": a.get("action"),
+                "note": a.get("note"),
+                "item_502": a.get("item_502"),
+                "neg_analyst_count": a.get("neg_analyst_count"),
+            }
+        )
+
     payload = {
         "mode": "paper",
         "product": "stocks-earnings-multi-book",
         "orders": "paper",
         "note": (
             "paper only, multi-book forward test since 2026-11-10 "
-            "(legacy 6 + 6 tuned news books)"
+            "(12 books + bigmove_unified_v1 from 2026-11-13)"
         ),
         "as_of": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
         "since": START,
@@ -377,6 +428,8 @@ def snapshot() -> dict:
             "sources": news.get("sources") or [],
             "note": news.get("note"),
         },
+        "alerts": alerts,
+        "alerts_as_of": alerts_doc.get("as_of"),
         "books": books,
         "news_event_config": news_cfg,
         "strategy_configs": cfg_map,

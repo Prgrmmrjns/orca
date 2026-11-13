@@ -29,9 +29,15 @@ TUNED_NEWS_BOOK_IDS: list[str] = [
     "wide_capacity",
 ]
 
+# Extended-hours / big-move fade book (paper, start 2026-11-13).
+BIGMOVE_BOOK_ID = "bigmove_unified_v1"
+EXTENDED_HOURS_BOOK_IDS: list[str] = [BIGMOVE_BOOK_ID]
+
 # Classifier source ids → config source labels
 SOURCE_ALIASES: dict[str, str] = {
     "edgar_8k": "8-K",
+    "edgar_424b": "8-K",
+    "edgar_sc_to": "8-K",
     "8-k": "8-K",
     "8k": "8-K",
     "prnewswire": "PRN",
@@ -53,6 +59,20 @@ CATEGORY_ALIASES: dict[str, set[str]] = {
     "exec_departure": {"ceo_exit", "exec_departure"},
     "earnings_miss": {"earnings_miss"},
     "earnings_beat": {"earnings_beat"},
+    # bigmove_unified_v1 categories
+    "offering": {"offering", "dilution"},
+    "dilution": {"offering", "dilution"},
+    "other_8k": {"other_8k", "other"},
+    "other": {"other_8k", "other"},
+    "contract": {"contract", "big_contract"},
+    "big_contract": {"contract", "big_contract"},
+    "earnings_nosurprise": {"earnings_nosurprise", "earnings"},
+    "earnings": {"earnings_nosurprise", "earnings"},
+    "mna": {"mna", "mna_deal", "acquisition_target"},
+    "mna_deal": {"mna", "mna_deal", "acquisition_target"},
+    "acquisition_target": {"mna", "mna_deal", "acquisition_target"},
+    "analyst": {"analyst"},
+    "no_news_found": {"no_news_found"},
 }
 
 ALL_SOURCES = ["8-K", "PRN", "CNBC", "MarketWatch"]
@@ -60,6 +80,8 @@ ALL_SOURCES = ["8-K", "PRN", "CNBC", "MarketWatch"]
 VALID_SIDES = {"long", "short"}
 VALID_ENTRY = {"next_open", "next_bar"}
 VALID_SIZING = {"fixed", "score_scaled", "vol_scaled"}
+VALID_GAP_DIR = {"up", "down", "any", None}
+VALID_REGIME = {"any", "spy_above", "spy_below", None}
 
 # Score / vol size multiplier clamp (matches box backtest)
 SIZE_MULT_MIN = 0.25
@@ -99,6 +121,8 @@ class NewsRule:
     exclude_tags: list[str] = field(default_factory=list)
     min_gap_pct: float | None = None
     max_gap_pct: float | None = None
+    gap_dir: str | None = None  # up | down | any | None
+    regime: str | None = None  # any | spy_above | spy_below | None
     min_eps_surprise_pct: float | None = None
     max_eps_surprise_pct: float | None = None
     min_price: float | None = None
@@ -119,6 +143,21 @@ class NewsRule:
 
 
 @dataclass
+class UniverseSpec:
+    min_prev_close: float | None = None
+    min_adv20_usd: float | None = None
+    exclude_etfs: bool = False
+
+
+@dataclass
+class MegaCapShockSpec:
+    min_adv_usd: float = 2.0e9
+    min_gap_down_pct: float = 5.0
+    trigger: str = ""
+    action: str = "alert_only"
+
+
+@dataclass
 class NewsEventConfig:
     book_id: str = "news_event"
     title: str = "News event"
@@ -128,7 +167,9 @@ class NewsEventConfig:
     max_per_ticker: int = 1
     max_gross_exposure_pct: float = 0.30
     cost_per_fill_pct: float = 0.005
+    extended_hours_extra_slippage_pct: float = 0.0
     allow_shorts: bool = True
+    allow_extended_hours: bool = False
     cooldown_minutes: int | None = None  # None = never re-enter
     sizing: str = "fixed"  # fixed | score_scaled | vol_scaled
     vol_lookback_days: int = 20
@@ -138,6 +179,8 @@ class NewsEventConfig:
     # When true, guidance=raised/cut from the earnings classifier counts as
     # guidance_raise / guidance_cut event types (tuned books). news_event keeps false.
     guidance_bridge: bool = True
+    universe: UniverseSpec = field(default_factory=UniverseSpec)
+    mega_cap_shock: MegaCapShockSpec | None = None
     rules: list[NewsRule] = field(default_factory=list)
     path: str | None = None
 
@@ -152,7 +195,9 @@ class NewsEventConfig:
             "max_per_ticker": self.max_per_ticker,
             "max_gross_exposure_pct": self.max_gross_exposure_pct,
             "cost_per_fill_pct": self.cost_per_fill_pct,
+            "extended_hours_extra_slippage_pct": self.extended_hours_extra_slippage_pct,
             "allow_shorts": self.allow_shorts,
+            "allow_extended_hours": self.allow_extended_hours,
             "cooldown_minutes": self.cooldown_minutes,
             "sizing": self.sizing,
             "vol_lookback_days": self.vol_lookback_days,
@@ -160,6 +205,19 @@ class NewsEventConfig:
             "score_ref": self.score_ref,
             "chart_filter": self.chart_filter,
             "guidance_bridge": self.guidance_bridge,
+            "universe": {
+                "min_prev_close": self.universe.min_prev_close,
+                "min_adv20_usd": self.universe.min_adv20_usd,
+                "exclude_etfs": self.universe.exclude_etfs,
+            },
+            "mega_cap_shock": None
+            if self.mega_cap_shock is None
+            else {
+                "min_adv_usd": self.mega_cap_shock.min_adv_usd,
+                "min_gap_down_pct": self.mega_cap_shock.min_gap_down_pct,
+                "trigger": self.mega_cap_shock.trigger,
+                "action": self.mega_cap_shock.action,
+            },
             "rules": [
                 {
                     "name": r.name,
@@ -170,6 +228,8 @@ class NewsEventConfig:
                     "exclude_tags": list(r.exclude_tags),
                     "min_gap_pct": r.min_gap_pct,
                     "max_gap_pct": r.max_gap_pct,
+                    "gap_dir": r.gap_dir,
+                    "regime": r.regime,
                     "min_eps_surprise_pct": r.min_eps_surprise_pct,
                     "max_eps_surprise_pct": r.max_eps_surprise_pct,
                     "min_price": r.min_price,
@@ -204,7 +264,21 @@ def is_config_driven_book(book_id: str) -> bool:
         return True
     if book_id in TUNED_NEWS_BOOK_IDS:
         return True
+    if book_id == BIGMOVE_BOOK_ID:
+        return True
     return strategy_path(book_id).exists()
+
+
+def allows_extended_hours(book_id: str, led: dict | None = None) -> bool:
+    """True when this book may fill in pre/after using extended-hours quotes."""
+    if led is not None and led.get("allow_extended_hours") is not None:
+        return bool(led.get("allow_extended_hours"))
+    if book_id in EXTENDED_HOURS_BOOK_IDS:
+        return True
+    try:
+        return bool(load_strategy_config(book_id).allow_extended_hours)
+    except Exception:
+        return False
 
 
 def default_news_event_config() -> NewsEventConfig:
@@ -336,11 +410,17 @@ def normalize_strategy_raw(data: dict[str, Any], default_book_id: str = "news_ev
     book = out.pop("book", None)
     if isinstance(book, dict):
         for k, v in book.items():
+            if k == "starting_equity":
+                continue
             out.setdefault(k, v)
 
     # Percent-point → fraction for book-level knobs
     if "cost_per_fill_pct" in out and out["cost_per_fill_pct"] is not None:
         out["cost_per_fill_pct"] = _pct_to_frac(float(out["cost_per_fill_pct"]), assume_percent_if_gt=0.05)
+    if "extended_hours_extra_slippage_pct" in out and out["extended_hours_extra_slippage_pct"] is not None:
+        out["extended_hours_extra_slippage_pct"] = _pct_to_frac(
+            float(out["extended_hours_extra_slippage_pct"]), assume_percent_if_gt=0.05
+        )
     if "max_gross_exposure_pct" in out and out["max_gross_exposure_pct"] is not None:
         out["max_gross_exposure_pct"] = _pct_to_frac(
             float(out["max_gross_exposure_pct"]), assume_percent_if_gt=1.5
@@ -376,6 +456,11 @@ def normalize_strategy_raw(data: dict[str, Any], default_book_id: str = "news_ev
             rr["entry"] = _parse_entry(rr["entry"])
         if "size_pct" in rr and rr["size_pct"] is not None:
             rr["size_pct"] = _pct_to_frac(float(rr["size_pct"]), assume_percent_if_gt=1.0)
+        # Flat hold_days → hold: {days: N}
+        if "hold" not in rr and rr.get("hold_days") is not None:
+            rr["hold"] = {"days": int(rr.pop("hold_days"))}
+        elif "hold_days" in rr and "hold" in rr:
+            rr.pop("hold_days", None)
         # Explicit empty exclude_tags stays empty (do not inject shareholder_alert)
         if "exclude_tags" not in rr:
             rr["exclude_tags"] = thr.get("exclude_tags") if isinstance(thr, dict) else None
@@ -419,6 +504,23 @@ def _parse_rule(raw: dict[str, Any]) -> NewsRule:
         exclude = ["shareholder_alert"]
     if not isinstance(exclude, list):
         raise ValueError(f"rule {name}: exclude_tags must be a list")
+    gap_dir = raw.get("gap_dir")
+    if gap_dir is not None and str(gap_dir).strip():
+        gap_dir = str(gap_dir).lower().strip()
+        if gap_dir not in {"up", "down", "any"}:
+            raise ValueError(f"rule {name}: gap_dir must be up|down|any, got {gap_dir!r}")
+    else:
+        gap_dir = None
+    regime = raw.get("regime")
+    if regime is not None and str(regime).strip():
+        regime = str(regime).lower().strip()
+        if regime not in {"any", "spy_above", "spy_below"}:
+            raise ValueError(f"rule {name}: regime must be any|spy_above|spy_below, got {regime!r}")
+    else:
+        regime = None
+    hold_raw = raw.get("hold")
+    if hold_raw is None and raw.get("hold_days") is not None:
+        hold_raw = {"days": int(raw["hold_days"])}
     return NewsRule(
         name=name,
         categories=[str(c).lower() for c in cats],
@@ -427,13 +529,15 @@ def _parse_rule(raw: dict[str, Any]) -> NewsRule:
         exclude_tags=[str(t).lower() for t in exclude],
         min_gap_pct=_as_float(raw.get("min_gap_pct")),
         max_gap_pct=_as_float(raw.get("max_gap_pct")),
+        gap_dir=gap_dir,
+        regime=regime,
         min_eps_surprise_pct=_as_float(raw.get("min_eps_surprise_pct")),
         max_eps_surprise_pct=_as_float(raw.get("max_eps_surprise_pct")),
         min_price=_as_float(raw.get("min_price")),
         min_avg_dollar_volume=_as_float(raw.get("min_avg_dollar_volume")),
         entry=entry,
         size_pct=float(size),
-        hold=_parse_hold(raw.get("hold")),
+        hold=_parse_hold(hold_raw),
         exits=_parse_exits(raw.get("exits")),
         enabled=bool(raw.get("enabled", True)),
     )
@@ -461,6 +565,11 @@ def parse_news_event_dict(data: dict[str, Any], default_book_id: str = "news_eve
         cost = cost / 100.0
     if cost is None or cost < 0:
         raise ValueError("cost_per_fill_pct must be >= 0")
+    ext_slip = _as_float(data.get("extended_hours_extra_slippage_pct"), 0.0) or 0.0
+    if ext_slip > 0.05:
+        ext_slip = ext_slip / 100.0
+    if ext_slip < 0:
+        raise ValueError("extended_hours_extra_slippage_pct must be >= 0")
     cool = data.get("cooldown_minutes", None)
     if cool == "" or cool == "null":
         cool = None
@@ -472,6 +581,21 @@ def parse_news_event_dict(data: dict[str, Any], default_book_id: str = "news_eve
     if sizing not in VALID_SIZING:
         raise ValueError(f"sizing must be one of {sorted(VALID_SIZING)}, got {sizing!r}")
     book_id = str(data.get("book_id") or default_book_id)
+    uni_raw = data.get("universe") if isinstance(data.get("universe"), dict) else {}
+    universe = UniverseSpec(
+        min_prev_close=_as_float(uni_raw.get("min_prev_close")),
+        min_adv20_usd=_as_float(uni_raw.get("min_adv20_usd")),
+        exclude_etfs=bool(uni_raw.get("exclude_etfs") or False),
+    )
+    mega = None
+    mega_raw = data.get("mega_cap_shock")
+    if isinstance(mega_raw, dict):
+        mega = MegaCapShockSpec(
+            min_adv_usd=float(_as_float(mega_raw.get("min_adv_usd"), 2.0e9) or 2.0e9),
+            min_gap_down_pct=float(_as_float(mega_raw.get("min_gap_down_pct"), 5.0) or 5.0),
+            trigger=str(mega_raw.get("trigger") or ""),
+            action=str(mega_raw.get("action") or "alert_only"),
+        )
     return NewsEventConfig(
         book_id=book_id,
         title=str(data.get("title") or book_id),
@@ -481,7 +605,9 @@ def parse_news_event_dict(data: dict[str, Any], default_book_id: str = "news_eve
         max_per_ticker=int(max_per),
         max_gross_exposure_pct=float(gross),
         cost_per_fill_pct=float(cost),
+        extended_hours_extra_slippage_pct=float(ext_slip),
         allow_shorts=bool(data.get("allow_shorts", True)),
+        allow_extended_hours=bool(data.get("allow_extended_hours", False)),
         cooldown_minutes=cool,
         sizing=sizing,
         vol_lookback_days=int(_as_int(data.get("vol_lookback_days"), 20) or 20),
@@ -493,6 +619,8 @@ def parse_news_event_dict(data: dict[str, Any], default_book_id: str = "news_eve
             if "guidance_bridge" in data
             else (book_id != "news_event")
         ),
+        universe=universe,
+        mega_cap_shock=mega,
         rules=rules,
         path=data.get("path"),
     )
@@ -535,8 +663,8 @@ def normalize_source(src: str | None) -> str | None:
     if not src:
         return None
     key = str(src).strip().lower()
-    if key == "news":
-        return None  # unknown wire — do not filter out
+    if key in {"news", "move_trigger", "bigmove_move_trigger"}:
+        return None  # unknown / synthetic wire — do not filter out
     return SOURCE_ALIASES.get(key, src)
 
 
@@ -661,7 +789,42 @@ def match_candidate_to_news_config(
 
     src = normalize_source(candidate.get("news_source") or candidate.get("source"))
     gap, surprise, px = _enrich_market_fields(candidate)
-    dvol = _f(candidate.get("avg_dollar_volume") or candidate.get("dollar_volume"))
+    dvol = _f(
+        candidate.get("avg_dollar_volume")
+        or candidate.get("dollar_volume")
+        or candidate.get("adv20_usd")
+    )
+    spy_above = candidate.get("spy_above_ma50")
+    if spy_above is None:
+        try:
+            from stocks.market import spy_above_ma50
+
+            spy_above = spy_above_ma50()
+        except Exception:
+            spy_above = None
+
+    # Book-level universe filters
+    uni = cfg.universe
+    if uni.min_prev_close is not None:
+        prev = _f(candidate.get("prev_close")) or px
+        if prev is None or prev < uni.min_prev_close:
+            return None
+    if uni.min_adv20_usd is not None and (dvol is None or dvol < uni.min_adv20_usd):
+        # Enrich ADV once if missing
+        if dvol is None and ticker:
+            try:
+                from stocks.market import adv20_usd
+
+                dvol = adv20_usd(str(ticker))
+            except Exception:
+                dvol = None
+        if dvol is None or dvol < uni.min_adv20_usd:
+            return None
+    if uni.exclude_etfs and (
+        candidate.get("is_etf") is True
+        or str(candidate.get("quote_type") or "").upper() in {"ETF", "EQUITY ETF"}
+    ):
+        return None
 
     for rule in cfg.rules:
         if not rule.enabled:
@@ -677,12 +840,31 @@ def match_candidate_to_news_config(
             if src not in allowed:
                 continue
         # Enrich gap if this rule needs it
-        needs_gap = rule.min_gap_pct is not None or rule.max_gap_pct is not None
+        needs_gap = (
+            rule.min_gap_pct is not None
+            or rule.max_gap_pct is not None
+            or rule.gap_dir in ("up", "down")
+        )
         if needs_gap and gap is None:
             gap, surprise, px = _enrich_market_fields(candidate)
-        if rule.min_gap_pct is not None and (gap is None or gap < rule.min_gap_pct):
-            continue
+        if rule.gap_dir == "up":
+            if gap is None or gap <= 0:
+                continue
+            if rule.min_gap_pct is not None and gap < rule.min_gap_pct:
+                continue
+        elif rule.gap_dir == "down":
+            if gap is None or gap >= 0:
+                continue
+            if rule.min_gap_pct is not None and abs(gap) < rule.min_gap_pct:
+                continue
+        else:
+            if rule.min_gap_pct is not None and (gap is None or gap < rule.min_gap_pct):
+                continue
         if rule.max_gap_pct is not None and (gap is None or gap > rule.max_gap_pct):
+            continue
+        if rule.regime == "spy_above" and spy_above is not True:
+            continue
+        if rule.regime == "spy_below" and spy_above is not False:
             continue
         if rule.min_eps_surprise_pct is not None and (
             surprise is None or surprise < rule.min_eps_surprise_pct

@@ -102,11 +102,24 @@
       <table>
         <thead>
           <tr>
-            <th>Status</th><th>Ticker</th><th>Side</th><th>Size</th>
+            <th>Status</th><th>Ticker</th><th>Side</th><th>Session</th><th>Size</th>
             <th>Entry</th><th>Exit / mark</th><th>P&amp;L</th><th>Why</th>
           </tr>
         </thead>
         <tbody id="trades"></tbody>
+      </table>
+    </section>
+
+    <section class="panel">
+      <h2>Alerts (mega-cap shocks — alert only)</h2>
+      <p class="muted" id="alertsMeta" style="margin:0 0 8px"></p>
+      <table>
+        <thead>
+          <tr>
+            <th>When</th><th>Ticker</th><th>Gap%</th><th>Session</th><th>Trigger</th>
+          </tr>
+        </thead>
+        <tbody id="alerts"></tbody>
       </table>
     </section>
 
@@ -136,7 +149,7 @@
       <ul class="rules" id="rules"></ul>
     </section>
 
-    <p class="note">Paper only — independent €1,000 books since 2026-11-10 (legacy 6 + 6 tuned news strategies). No broker API, no real orders. Cost 0.5%/fill. EUR via EURUSD=X. News from EDGAR 8-K + wire RSS (keyword tags). Paper shorts have no borrow model. Rule books auto-trade; only <code>agent</code> is discretionary.</p>
+    <p class="note">Paper only — independent €1,000 books (12 since 2026-11-10 + <code>bigmove_unified_v1</code> from 2026-11-13). No broker API, no real orders. Cost 0.5%/fill (+0.5% ext slippage on bigmove outside RTH). EUR via EURUSD=X. News from EDGAR 8-K/424B/SC TO + wire RSS. Paper shorts have no borrow model. Rule books auto-trade; only <code>agent</code> is discretionary. Bigmove covers pre/regular/after (04:00–20:00 ET weekdays).</p>
   </main>
   <script>
     const COLORS = ["#7fd4ff", "#9ae6b4", "#f6ad55", "#d6bcfa", "#fc8181", "#8eb4cc", "#fbd38d", "#90cdf4", "#c6f6d5", "#feb2b2", "#e9d8fd", "#b2f5ea"];
@@ -223,6 +236,7 @@
           status: "open",
           ticker: p.ticker,
           side: p.side,
+          session: p.entry_session || p.session || "",
           size: p.size,
           entry: p.entry_usd,
           exit: p.mark_usd,
@@ -231,10 +245,12 @@
         });
       }
       for (const t of book.closed_trades || []) {
+        const sess = [t.entry_session, t.exit_session || t.session].filter(Boolean).join("→") || t.session || "";
         rows.push({
           status: "closed",
           ticker: t.ticker,
           side: t.side,
+          session: sess,
           size: null,
           entry: t.entry_usd,
           exit: t.exit_usd,
@@ -244,7 +260,7 @@
         });
       }
       if (!rows.length) {
-        tbody.innerHTML = "<tr><td colspan='8' class='muted'>No trades yet on this book.</td></tr>";
+        tbody.innerHTML = "<tr><td colspan='9' class='muted'>No trades yet on this book.</td></tr>";
         return;
       }
       for (const r of rows) {
@@ -253,12 +269,40 @@
           "<td>" + r.status + "</td>" +
           "<td><b>" + r.ticker + "</b></td>" +
           "<td>" + (r.side || "") + "</td>" +
+          "<td class='muted'>" + (r.session || "—") + "</td>" +
           "<td>" + (r.size != null ? Math.round(r.size * 100) + "%" : "—") + "</td>" +
           "<td>$" + num(r.entry, 2) + "</td>" +
           "<td>$" + num(r.exit, 2) + "</td>" +
           "<td class='" + cls(r.pl) + "'>" + pct(r.pl) +
           (r.pnl_eur != null ? " · €" + num(r.pnl_eur, 2) : "") + "</td>" +
           "<td class='muted'>" + (r.why || "").slice(0, 140) + "</td>";
+        tbody.appendChild(tr);
+      }
+    }
+
+    function renderAlerts(data) {
+      const tbody = document.getElementById("alerts");
+      const meta = document.getElementById("alertsMeta");
+      if (!tbody) return;
+      tbody.replaceChildren();
+      const alerts = data.alerts || [];
+      if (meta) {
+        meta.textContent = alerts.length
+          ? (alerts.length + " recent mega-cap alerts · alert_only (no trade) · " + (data.alerts_as_of || ""))
+          : "No mega-cap shock alerts yet.";
+      }
+      if (!alerts.length) {
+        tbody.innerHTML = "<tr><td colspan='5' class='muted'>No alerts.</td></tr>";
+        return;
+      }
+      for (const a of alerts.slice().reverse()) {
+        const tr = document.createElement("tr");
+        tr.innerHTML =
+          "<td class='muted'>" + (a.as_of || "").replace("T", " ").slice(0, 16) + "</td>" +
+          "<td><b>" + (a.ticker || "") + "</b></td>" +
+          "<td class='" + cls(a.gap_pct) + "'>" + pct(a.gap_pct) + "</td>" +
+          "<td>" + (a.session || "—") + "</td>" +
+          "<td class='muted'>" + (a.note || a.type || "mega_cap_shock").slice(0, 120) + "</td>";
         tbody.appendChild(tr);
       }
     }
@@ -287,7 +331,8 @@
       document.getElementById("strip").innerHTML =
         "<b>" + books.length + " books · leader " +
         (best ? best.id + " " + pct(best.return_pct) : "—") + "</b>" +
-        "<div class='meta'>earnings + 24/7 news · 0.5%/fill · EURUSD · rule books auto · agent discretionary</div>";
+        "<div class='meta'>earnings + 24/7 news + bigmove ext-hours · 0.5%/fill · EURUSD · rule books auto · agent discretionary</div>";
+      renderAlerts(data);
 
       const cmp = document.getElementById("cmp");
       cmp.replaceChildren();

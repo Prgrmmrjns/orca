@@ -1,0 +1,94 @@
+name: stocks-bigmove
+
+# Dense paper cadence for bigmove_unified_v1 across US pre / regular / after hours.
+# Cron alone is unreliable on free Actions — each run also loops ~22 min polling every ~2.5 min.
+# Coverage window: weekdays 08:00–00:00 UTC ≈ 04:00–20:00 ET (EST/EDT).
+# Concurrency group prevents overlapping ledger writes; push uses rebase/retry.
+on:
+  schedule:
+    # Every ~30 min from 08:00–23:59 UTC weekdays (04:00–19:00 ET approx)
+    - cron: "5,35 8-23 * * 1-5"
+    # Catch last after-hours hour (20:00 ET ≈ 00:00/01:00 UTC depending on DST)
+    - cron: "5,35 0 * * 2-6"
+  workflow_dispatch:
+  repository_dispatch:
+    types: [orca-stocks-tick, orca-stocks-bigmove]
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/stocks-bigmove.yml"
+      - "config/strategies/bigmove_unified_v1.yaml"
+      - "stocks/bigmove.py"
+      - "stocks/engine.py"
+      - "stocks/strategy_config.py"
+      - "stocks/market.py"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stocks-bigmove
+  cancel-in-progress: false
+
+jobs:
+  bigmove:
+    runs-on: ubuntu-latest
+    # Loop ~22 min + setup/commit headroom
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install "yfinance>=0.2.40" pandas requests lxml beautifulsoup4 html5lib pyarrow feedparser pyyaml
+
+      - name: Init bigmove book if missing
+        env:
+          ORCA_MODE: paper
+        run: python -m stocks init
+
+      - name: Poll EDGAR + movers + engine loop
+        env:
+          ORCA_MODE: paper
+        run: |
+          set +e
+          # ~22 min × ~2.5 min polls ≈ 8–9 cycles per scheduled fire
+          python -m stocks bigmove --loop --duration-minutes 22 --poll-seconds 150
+          ec=$?
+          if [ $ec -ne 0 ]; then
+            echo "bigmove loop exited $ec — attempting single scan + engine"
+            python -m stocks bigmove --once || true
+            python -m stocks engine --apply --book bigmove_unified_v1 || true
+          fi
+          exit 0
+
+      - name: Commit bigmove state if changed
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "orca-stocks-bot"
+          git config user.email "orca-bot@users.noreply.github.com"
+          git add state/stocks/ demo/state/stocks/ || true
+          if git diff --cached --quiet; then
+            echo "no bigmove state changes"
+          else
+            git commit -m "stocks: bigmove_unified_v1 tick $(date -u +%Y-%m-%dT%H:%MZ)"
+            for i in 1 2 3 4; do
+              git pull --rebase --autostash origin main || true
+              if git push origin HEAD:main; then
+                exit 0
+              fi
+              echo "push conflict; rebase retry $i"
+              sleep $((i * 8))
+            done
+            echo "push failed after retries (non-fatal)"
+          fi
