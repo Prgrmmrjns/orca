@@ -1,11 +1,11 @@
 {
   "mode": "paper",
-  "as_of": "2026-11-14T16:06:03Z",
-  "as_of_et": "2026-11-14 11:06 ET",
+  "as_of": "2026-11-14T20:48:50Z",
+  "as_of_et": "2026-11-14 15:48 ET",
   "rolling_hours": 72,
-  "n_items": 357,
+  "n_items": 375,
   "n_actionable": 24,
-  "n_with_ticker": 111,
+  "n_with_ticker": 114,
   "sources": [
     "prnewswire",
     "prnewswire_financial",
@@ -19,6 +19,278 @@
   "note": "Paper news feed. Keyword tagging is heuristic. Shorts have no borrow model. RSS/EDGAR can lag minutes\u2013hours.",
   "items": [
     {
+      "id": "be6358caa48e1852",
+      "source": "prnewswire",
+      "title": "Servier Presents Updated Four-Year Results from Phase 2 FIREFLY-1 Study of OJEMDA\u00ae (tovorafenib) in Pediatric Low-Grade Glioma (pLGG) at SNO 2026",
+      "summary": "Updated longer-term analysis, including up to four years of follow-up data in patients with relapsed or refractory BRAF-altered pediatric low-grade glioma treated with OJEMDA\u00ae(tovorafenib), will be presented as an oral presentation on November 14 at 3:45 p.m. EST Data expand on clinically...",
+      "url": "https://www.prnewswire.com/news-releases/servier-presents-updated-four-year-results-from-phase-2-firefly-1-study-of-ojemda-tovorafenib-in-pediatric-low-grade-glioma-plgg-at-sno-2026-302939577.html",
+      "published_at": "2026-11-14T20:45:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-14T20:48:46Z"
+    },
+    {
+      "id": "9e697f6e036e986b",
+      "source": "prnewswire",
+      "title": "EFICYENT wird sich Banken und Fintech-Unternehmen beim Singapore FinTech Festival 2026 anschlie\u00dfen",
+      "summary": "DUBAI, VAE, 14. November 2026 /PRNewswire/ -- EFICYENT, eine grenz\u00fcberschreitende Zahlungsplattform, wird am Singapore FinTech Festival (SFF) 2026 teilnehmen, das eines der weltweit gr\u00f6\u00dften Treffen des globalen Finanz- und Technologie\u00f6kosystems sein wird. Es findet zwischen dem November...",
+      "url": "https://www.prnewswire.com/news-releases/eficyent-wird-sich-banken-und-fintech-unternehmen-beim-singapore-fintech-festival-2026-anschlieWen-302939573.html",
+      "published_at": "2026-11-14T19:40:00Z",
+      "tickers": [
+        "SFF"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-14T20:48:46Z"
+    },
+    {
+      "id": "c6ad268a10c46cba",
+      "source": "prnewswire_financial",
+      "title": "EFICYENT wird sich Banken und Fintech-Unternehmen beim Singapore FinTech Festival 2026 anschlie\u00dfen",
+      "summary": "DUBAI, VAE, 14. November 2026 /PRNewswire/ -- EFICYENT, eine grenz\u00fcberschreitende Zahlungsplattform, wird am Singapore FinTech Festival (SFF) 2026 teilnehmen, das eines der weltweit gr\u00f6\u00dften Treffen des globalen Finanz- und Technologie\u00f6kosystems sein wird. Es findet zwischen dem November...",
+      "url": "https://www.prnewswire.com/news-releases/eficyent-wird-sich-banken-und-fintech-unternehmen-beim-singapore-fintech-festival-2026-anschlieWen-302939573.html",
+      "published_at": "2026-11-14T19:40:00Z",
+      "tickers": [
+        "SFF"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-14T20:48:47Z"
+    },
+    {
+      "id": "e35edd1a627efb49",
+      "source": "prnewswire",
+      "title": "Layne's Chicken Fingers Brings the Crunch to Brownsville with 11/14 Grand Opening",
+      "summary": "Ricki Oberoi opens Layne's Chicken Fingers in Brownsville as part of the brand's continued expansion in the Rio Grande Valley. BROWNSVILLE, Texas, Nov. 14, 2026 /PRNewswire/ -- Layne's Chicken Fingers, the fast-growing, 50+ location chicken finger franchise known for its hand-breaded...",
+      "url": "https://www.prnewswire.com/news-releases/laynes-chicken-fingers-brings-the-crunch-to-brownsville-with-1114-grand-opening-302939559.html",
+      "published_at": "2026-11-14T19:01:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-14T20:48:46Z"
+    },
+    {
+      "id": "72c9d347396b19ac",
+      "source": "marketwatch",
+      "title": "Should a widow leave her late partner\u2019s home to her stepkids \u2014 or cut off contact with them?",
+      "summary": "\u201cIt would be a less drastic step than selling the home now and splitting the proceeds.\u201d",
+      "url": "https://www.marketwatch.com/story/she-can-always-change-her-mind-should-a-widow-leave-the-family-home-to-her-stepchildren-649b06af?mod=mw_rss_topstories",
+      "published_at": "2026-11-14T18:30:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-14T20:48:49Z"
+    },
+    {
+      "id": "d75bec2b43fecb96",
+      "source": "marketwatch",
+      "title": "Here\u2019s how Bernie Sanders wants to keep Social Security solvent \u2018for generations\u2019",
+      "summary": "The Vermont senator aims to eliminate the taxable maximum, making the wealthy pay more in taxes",
+      "url": "https://www.marketwatch.com/story/heres-how-bernie-sanders-wants-to-keep-social-security-solvent-for-generations-f5666a38?mod=mw_rss_topstories",
+      "published_at": "2026-11-14T17:50:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-14T20:48:49Z"
+    },
+    {
+      "id": "fc8adf3db07593d0",
+      "source": "marketwatch",
+      "title": "Retirees should be big beneficiaries of the midterms: \u2018Democrats will hold every gavel that matters for aging and public policy\u2019",
+      "summary": "Here\u2019s what might be coming for Social Security, Medicare and long-term care.",
+      "url": "https://www.marketwatch.com/story/retirees-should-be-big-beneficiaries-of-the-midterms-democrats-will-hold-every-gavel-that-matters-for-aging-and-public-policy-71e966f0?mod=mw_rss_topstories",
+      "published_at": "2026-11-14T17:50:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-14T20:48:49Z"
+    },
+    {
+      "id": "186b9c18f857136b",
+      "source": "marketwatch",
+      "title": "The lonely labor of caregiving: \u2018You shouldn\u2019t have to be rich to take care of the people you love\u2019",
+      "summary": "\u201cTake Me Home\u201d offers a view of how one family faces caregiving issues and finds solutions.",
+      "url": "https://www.marketwatch.com/story/if-you-could-change-one-thing-about-caregiving-what-would-it-be-8b20be29?mod=mw_rss_topstories",
+      "published_at": "2026-11-14T17:50:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-14T20:48:49Z"
+    },
+    {
+      "id": "d85d29ba0b514dd8",
+      "source": "marketwatch",
+      "title": "Medicare at age 50? What \u2018Medicare for more\u2019 could mean for American workers.",
+      "summary": "It\u2019s not \u201cMedicare for All,\u201d but a new bill would lower the Medicare age to 50, expanding coverage for 60 million adults",
+      "url": "https://www.marketwatch.com/story/its-not-medicare-for-all-but-medicare-for-more-what-this-could-mean-for-workers-over-50-4a5c51a3?mod=mw_rss_topstories",
+      "published_at": "2026-11-14T17:50:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-14T20:48:49Z"
+    },
+    {
+      "id": "ff151d8e2060f8db",
+      "source": "marketwatch",
+      "title": "Why this \u2018big idea\u2019 to fix Social Security relies on a massive stock-market gamble",
+      "summary": "From a long-term perspective, the past 50 years of strong market gains are the exception rather than the rule",
+      "url": "https://www.marketwatch.com/story/why-this-big-idea-to-fix-social-security-relies-on-a-massive-stock-market-gamble-5423f50f?mod=mw_rss_topstories",
+      "published_at": "2026-11-14T17:50:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-14T20:48:49Z"
+    },
+    {
+      "id": "6145e32da8a5e5ab",
+      "source": "prnewswire",
+      "title": "/C O R R E C T I O N - WeaveGrid/",
+      "summary": "In the news release, North Carolina's Electric Cooperatives Launches EVConnectNC, Powered by WeaveGrid, to Maximize Charging During Lower Demand and Power Cost Periods, issued 20-Oct-2026 by WeaveGrid over PR Newswire, we are advised by the company that changes have been made. The...",
+      "url": "https://www.prnewswire.com/news-releases/north-carolinas-electric-cooperatives-launches-evconnectnc-powered-by-weavegrid-to-maximize-charging-during-lower-demand-and-power-cost-periods-302913655.html",
+      "published_at": "2026-11-14T17:48:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-14T20:48:46Z"
+    },
+    {
+      "id": "98ee64aa327de9c2",
+      "source": "prnewswire",
+      "title": "Novo's Wegovy\u00ae was associated with a reduction in food noise according to real-world studies at ObesityWeek\u00ae 2026",
+      "summary": "Statistically significant reductions in food noise scores from baseline were observed in adults taking semaglutide injection within the first month of initiation and through six months in the SIGNAL study1 Oral semaglutide was associated with about a 25% reduction from baseline in...",
+      "url": "https://www.prnewswire.com/news-releases/novos-wegovy-was-associated-with-a-reduction-in-food-noise-according-to-real-world-studies-at-obesityweek-2026-302939553.html",
+      "published_at": "2026-11-14T17:15:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-14T20:48:46Z"
+    },
+    {
+      "id": "366ca3d99f445ca2",
+      "source": "prnewswire",
+      "title": "Lilly to present new data across Zepbound, Foundayo, EloraTZP and retatrutide at ObesityWeek 2026, moving obesity care beyond the scale",
+      "summary": "Phase 2 results showed EloraTZP, an investigational combination of eloralintide and tirzepatide, delivered substantial weight loss and A1C improvements in participants with obesity and type 2 diabetes Results from TRIUMPH-1, TRIUMPH-2 and TRIUMPH-4 demonstrated retatrutide, an...",
+      "url": "https://www.prnewswire.com/news-releases/lilly-to-present-new-data-across-zepbound-foundayo-eloratzp-and-retatrutide-at-obesityweek-2026-moving-obesity-care-beyond-the-scale-302938569.html",
+      "published_at": "2026-11-14T17:01:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-14T20:48:46Z"
+    },
+    {
+      "id": "9156eee698b16fdb",
+      "source": "prnewswire",
+      "title": "La palabra escrita permanece: YSTUDIO presenta la caja de regalo Brand Day 2026 y los nuevos bol\u00edgrafos \u00abInner Universe\u00bb",
+      "summary": "TAIP\u00c9I, 14 de noviembre de 2026 /PRNewswire/ -- Ahora es posible enviar y anular el env\u00edo de mensajes con un solo toque. En esta era de la comunicaci\u00f3n instant\u00e1nea, \u00bfcu\u00e1nto tiempo hace que no recibimos palabras que realmente merezcan la pena conservar? YSTUDIO, marca taiwanesa de...",
+      "url": "https://www.prnewswire.com/news-releases/la-palabra-escrita-permanece-ystudio-presenta-la-caja-de-regalo-brand-day-2026-y-los-nuevos-boligrafos-inner-universe-302934812.html",
+      "published_at": "2026-11-14T17:00:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-14T20:48:46Z"
+    },
+    {
+      "id": "512b64f3e838be96",
+      "source": "prnewswire",
+      "title": "The Written Word Remains: YSTUDIO Unveils 2026 Brand Day Gift Box and New \"Inner Universe\" Pen Series",
+      "summary": "TAIPEI, Nov. 14, 2026 /PRNewswire/ -- Messages can now be sent and unsent with a single tap. In this era of instant communication, how long has it been since we last received words truly worth keeping? Taiwanese premium stationery brand YSTUDIO today unveiled its 2026 Brand Day Gift Box...",
+      "url": "https://www.prnewswire.com/news-releases/the-written-word-remains-ystudio-unveils-2026-brand-day-gift-box-and-new-inner-universe-pen-series-302934346.html",
+      "published_at": "2026-11-14T17:00:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-14T20:48:46Z"
+    },
+    {
+      "id": "6d9f6822c5f0bd0f",
+      "source": "prnewswire",
+      "title": "Novo's investigational CagriSema, a GLP-1 and amylin analog, demonstrated ~21% average weight loss with lower doses in the REDEFINE 9 trial, presented at ObesityWeek\u00ae 2026 and published in The Lancet Diabetes & Endocrinology",
+      "summary": "REDEFINE 9 trial showed CagriSema 1.7 mg / 1.7 mg and 1.0 mg / 1.0 mg produced estimated average weight loss of 20.7% and 21.0%, respectively, at 68 weeks, compared with 2.0% with placebo, in adults with overweight or obesity, if all patients stayed on treatment1 REDEFINE 9 is the first...",
+      "url": "https://www.prnewswire.com/news-releases/novos-investigational-cagrisema-a-glp-1-and-amylin-analog-demonstrated-21-average-weight-loss-with-lower-doses-in-the-redefine-9-trial-presented-at-obesityweek-2026-and-published-in-the-lancet-diabetes--endocrinology-302939556.html",
+      "published_at": "2026-11-14T17:00:00Z",
+      "tickers": [],
+      "event_type": "analyst",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-14T20:48:46Z"
+    },
+    {
+      "id": "c94f94de4d165dfe",
+      "source": "prnewswire",
+      "title": "L'\u00e9crit demeure : YSTUDIO d\u00e9voile le coffret cadeau de la Journ\u00e9e de la marque 2026 et sa nouvelle s\u00e9rie de stylos \u00ab Inner Universe \u00bb.",
+      "summary": "TAIPEI, 14 novembre 2026 /PRNewswire/ -- Les messages peuvent d\u00e9sormais \u00eatre envoy\u00e9s et annul\u00e9s d'un simple clic. \u00c0 l'\u00e8re de la communication instantan\u00e9e, depuis combien de temps n'avons-nous pas re\u00e7u de paroles qui m\u00e9ritent vraiment d'\u00eatre conserv\u00e9es ? La marque ta\u00efwanaise de papeterie...",
+      "url": "https://www.prnewswire.com/news-releases/lecrit-demeure--ystudio-devoile-le-coffret-cadeau-de-la-journee-de-la-marque-2026-et-sa-nouvelle-serie-de-stylos--inner-universe--302932896.html",
+      "published_at": "2026-11-14T17:00:00Z",
+      "tickers": [
+        "L"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-14T20:48:46Z"
+    },
+    {
+      "id": "bb38c3058c571fa2",
+      "source": "prnewswire",
+      "title": "Das geschriebene Wort bleibt: YSTUDIO pr\u00e4sentiert die Geschenkbox zum Markentag 2026 und die neue Stiftserie \u201eInner Universe\".",
+      "summary": "TAIPEI, 14. November 2026 /PRNewswire/ -- Nachrichten k\u00f6nnen jetzt mit einem einzigen Tippen gesendet und zur\u00fcckgezogen werden. In diesem Zeitalter der sofortigen Kommunikation: Wie lange ist es her, dass wir Worte erhalten haben, die es wert waren, bewahrt zu werden? Die taiwanesische...",
+      "url": "https://www.prnewswire.com/news-releases/das-geschriebene-wort-bleibt-ystudio-prasentiert-die-geschenkbox-zum-markentag-2026-und-die-neue-stiftserie-inner-universe-302932897.html",
+      "published_at": "2026-11-14T17:00:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-14T20:48:46Z"
+    },
+    {
+      "id": "e43a35581a6a1c74",
+      "source": "prnewswire",
+      "title": "HiTHIUM Partners with the University of Cambridge to Advance International Industry-Academia Collaboration in Long-Duration Energy Storage",
+      "summary": "XIAMEN, China, Nov. 14, 2026 /PRNewswire/ -- On November 12, the Global Energy Storage Colloquium was held in Xiamen. During the colloquium, HiTHIUM and the University of Cambridge signed a memorandum of understanding (MoU), establishing a strategic partnership. The two parties will...",
+      "url": "https://www.prnewswire.com/news-releases/hithium-partners-with-the-university-of-cambridge-to-advance-international-industry-academia-collaboration-in-long-duration-energy-storage-302939555.html",
+      "published_at": "2026-11-14T16:18:00Z",
+      "tickers": [],
+      "event_type": "mna_deal",
+      "direction": "bullish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-14T20:48:46Z"
+    },
+    {
       "id": "0594e6f98ddb13b5",
       "source": "marketwatch",
       "title": "\u2018It leaves me with a sour taste\u2019: My elderly mother gave our cousin $800 for a car repair. Should I be worried?",
@@ -30,7 +302,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:06:02Z"
+      "scanned_at": "2026-11-14T20:48:49Z"
     },
     {
       "id": "bf644e7f0f8c93c5",
@@ -44,7 +316,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:46Z"
     },
     {
       "id": "5bf48a78d4efbfac",
@@ -61,7 +333,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:46Z"
     },
     {
       "id": "2925f8b42723f1c7",
@@ -78,7 +350,21 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:47Z"
+    },
+    {
+      "id": "3bf63055f3d8ddc6",
+      "source": "cnbc_finance",
+      "title": "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts",
+      "summary": "ETF experts say Nvidia\u2019s leadership turmoil and Democratic control of Congress could shift AI demand to the benefit of other Big Tech stocks, rival chipmakers.",
+      "url": "https://www.cnbc.com/2026/11/14/nvidia-ai-trade-data-centers-congress.html",
+      "published_at": "2026-11-14T15:50:43Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-14T20:48:48Z"
     },
     {
       "id": "44892c1ba75abb2e",
@@ -94,7 +380,7 @@
       "direction": "bearish",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:46Z"
     },
     {
       "id": "71938098884ed5a3",
@@ -122,7 +408,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:46Z"
     },
     {
       "id": "10fbcabefd0910ca",
@@ -136,7 +422,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:46Z"
     },
     {
       "id": "4f5b1e0f448c985a",
@@ -152,7 +438,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:46Z"
     },
     {
       "id": "446a8967af2227f0",
@@ -168,7 +454,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:47Z"
     },
     {
       "id": "454bac7cbf1f3099",
@@ -200,7 +486,7 @@
       "direction": "bearish",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:46Z"
     },
     {
       "id": "261fb68632b72fb6",
@@ -216,7 +502,7 @@
       "direction": "bearish",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:46Z"
     },
     {
       "id": "912e69e275612cdb",
@@ -302,7 +588,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:06:00Z"
+      "scanned_at": "2026-11-14T20:48:48Z"
     },
     {
       "id": "bd2aeb7c8c6442c9",
@@ -344,7 +630,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:06:00Z"
+      "scanned_at": "2026-11-14T20:48:48Z"
     },
     {
       "id": "69e914beb2c8edef",
@@ -358,7 +644,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:06:01Z"
+      "scanned_at": "2026-11-14T20:48:48Z"
     },
     {
       "id": "c05645d153e4da3c",
@@ -534,7 +820,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:47Z"
     },
     {
       "id": "ddd62e01ae00b08d",
@@ -902,7 +1188,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:47Z"
     },
     {
       "id": "7093301db28c866d",
@@ -930,7 +1216,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:06:01Z"
+      "scanned_at": "2026-11-14T20:48:48Z"
     },
     {
       "id": "129a987691af23fb",
@@ -994,7 +1280,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:47Z"
     },
     {
       "id": "9ab12a1b5d2eddc6",
@@ -1054,7 +1340,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:47Z"
     },
     {
       "id": "973f0fc80d312446",
@@ -1086,7 +1372,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:47Z"
     },
     {
       "id": "b6f97ab8cca0d988",
@@ -1132,7 +1418,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:47Z"
     },
     {
       "id": "0e28831c4ae3cd72",
@@ -1147,7 +1433,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:46Z"
     },
     {
       "id": "fa65e72df64dfe3f",
@@ -1175,7 +1461,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:47Z"
     },
     {
       "id": "d20c87e4d730c495",
@@ -1190,7 +1476,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:46Z"
     },
     {
       "id": "d7b0e34af737a70f",
@@ -1205,7 +1491,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:46Z"
     },
     {
       "id": "8022d5ed4737bb63",
@@ -1220,7 +1506,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:46Z"
     },
     {
       "id": "8bc4c4a6282b2c5c",
@@ -1235,7 +1521,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:46Z"
     },
     {
       "id": "c1afe3e311fe2530",
@@ -1250,7 +1536,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:46Z"
     },
     {
       "id": "68831d56eef55e90",
@@ -1265,7 +1551,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:46Z"
     },
     {
       "id": "ede6743168914110",
@@ -1280,7 +1566,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:46Z"
     },
     {
       "id": "59c2ab01f0b57435",
@@ -1295,7 +1581,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:46Z"
     },
     {
       "id": "ad3879833d7bea53",
@@ -1310,7 +1596,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:46Z"
     },
     {
       "id": "19619a17ec3ab931",
@@ -1325,7 +1611,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:46Z"
     },
     {
       "id": "9e71c7f7d83ceb71",
@@ -1340,7 +1626,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:46Z"
     },
     {
       "id": "0c6e6defb1f8d5a8",
@@ -1355,7 +1641,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:46Z"
     },
     {
       "id": "1109a0ebb3826b56",
@@ -1370,7 +1656,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:46Z"
     },
     {
       "id": "bc5be7b5bef55c4e",
@@ -1385,7 +1671,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:46Z"
     },
     {
       "id": "590cc58e8001fbee",
@@ -1400,7 +1686,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:46Z"
     },
     {
       "id": "9a95371b25f2d26d",
@@ -1415,7 +1701,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:46Z"
     },
     {
       "id": "b2eb73a22cdde2dd",
@@ -1430,7 +1716,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:46Z"
     },
     {
       "id": "2a3c1ff26b443f6b",
@@ -1445,7 +1731,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:46Z"
     },
     {
       "id": "bbda84808136838e",
@@ -1460,7 +1746,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:46Z"
     },
     {
       "id": "9e86d7e87c3bbed7",
@@ -1475,7 +1761,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:46Z"
     },
     {
       "id": "d3133c601aa513dc",
@@ -1490,7 +1776,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:46Z"
     },
     {
       "id": "6dbf30347f4dba87",
@@ -1505,7 +1791,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:46Z"
     },
     {
       "id": "ee0f7bb6c8b4a4cd",
@@ -1520,7 +1806,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:46Z"
     },
     {
       "id": "91853671c64e688f",
@@ -1584,7 +1870,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:46Z"
     },
     {
       "id": "c028a5247a7210e7",
@@ -1599,7 +1885,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:46Z"
     },
     {
       "id": "68408ab09e198486",
@@ -1614,7 +1900,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:46Z"
     },
     {
       "id": "479ccddbddb17350",
@@ -1629,7 +1915,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:46Z"
     },
     {
       "id": "3732dff0d735d792",
@@ -1644,7 +1930,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:46Z"
     },
     {
       "id": "1aa40b7d1b73fdcb",
@@ -1675,7 +1961,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:46Z"
     },
     {
       "id": "709d172a7e4ff485",
@@ -1704,7 +1990,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:46Z"
     },
     {
       "id": "a50685ab445736ea",
@@ -1747,7 +2033,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:46Z"
     },
     {
       "id": "0f2a8dc9745e69b9",
@@ -1762,7 +2048,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:46Z"
     },
     {
       "id": "be276c0d4f1cae41",
@@ -1793,7 +2079,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:46Z"
     },
     {
       "id": "f0896bc769b02012",
@@ -1808,7 +2094,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:46Z"
     },
     {
       "id": "677db1b3c780327e",
@@ -1823,7 +2109,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:46Z"
     },
     {
       "id": "a5e277c31c383672",
@@ -1838,7 +2124,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:46Z"
     },
     {
       "id": "043ad3cac0875e66",
@@ -1853,7 +2139,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:46Z"
     },
     {
       "id": "5787d3562bf68bb7",
@@ -1868,7 +2154,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:46Z"
     },
     {
       "id": "a22ac6952506665b",
@@ -1883,7 +2169,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:46Z"
     },
     {
       "id": "a0772c7a54902a13",
@@ -1941,7 +2227,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:47Z"
     },
     {
       "id": "20a14b1427f01915",
@@ -1985,7 +2271,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:47Z"
     },
     {
       "id": "49174537e3322a23",
@@ -2019,7 +2305,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:47Z"
     },
     {
       "id": "5ca1d6f4c5b8894d",
@@ -2119,7 +2405,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:47Z"
     },
     {
       "id": "7c5d4775cd2eb6b1",
@@ -2152,7 +2438,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:47Z"
     },
     {
       "id": "92552074b57f3eef",
@@ -2168,7 +2454,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:47Z"
     },
     {
       "id": "f8eb5f66676e4ef4",
@@ -2196,7 +2482,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:47Z"
     },
     {
       "id": "b62541c45fd76fa1",
@@ -2212,7 +2498,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:47Z"
     },
     {
       "id": "64a9ff4df05df75c",
@@ -2228,7 +2514,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:47Z"
     },
     {
       "id": "23788f63f3197bbd",
@@ -2260,7 +2546,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:05:59Z"
+      "scanned_at": "2026-11-14T20:48:47Z"
     },
     {
       "id": "e6d92441563f818a",
@@ -2274,7 +2560,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T22:33:20Z"
+      "scanned_at": "2026-11-14T20:48:49Z"
     },
     {
       "id": "3cc55358c2dee577",
@@ -3570,7 +3856,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-13T16:52:18Z"
+      "scanned_at": "2026-11-14T20:48:49Z"
     },
     {
       "id": "14fafc43bef8e06f",
@@ -3643,7 +3929,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T09:32:24Z"
+      "scanned_at": "2026-11-14T20:48:49Z"
     },
     {
       "id": "e28f44348e4f2d93",
@@ -3949,7 +4235,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:06:01Z"
+      "scanned_at": "2026-11-14T20:48:48Z"
     },
     {
       "id": "ff4c80411f305bab",
@@ -5429,7 +5715,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:06:01Z"
+      "scanned_at": "2026-11-14T20:48:48Z"
     },
     {
       "id": "bfadabbd1327e27d",
@@ -5443,7 +5729,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:06:01Z"
+      "scanned_at": "2026-11-14T20:48:48Z"
     },
     {
       "id": "9d88ba8eed76a2fe",
@@ -5457,7 +5743,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:06:00Z"
+      "scanned_at": "2026-11-14T20:48:48Z"
     },
     {
       "id": "08212cbeb90633da",
@@ -5471,7 +5757,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:06:01Z"
+      "scanned_at": "2026-11-14T20:48:48Z"
     },
     {
       "id": "8e3f16d7edde3ef5",
@@ -5485,7 +5771,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:06:00Z"
+      "scanned_at": "2026-11-14T20:48:48Z"
     },
     {
       "id": "c727f831795e5f01",
@@ -5499,7 +5785,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:06:01Z"
+      "scanned_at": "2026-11-14T20:48:48Z"
     },
     {
       "id": "37afaf8e8895a88c",
@@ -5513,7 +5799,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:06:00Z"
+      "scanned_at": "2026-11-14T20:48:48Z"
     },
     {
       "id": "528efea6b1b45228",
@@ -5527,7 +5813,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:06:00Z"
+      "scanned_at": "2026-11-14T20:48:48Z"
     },
     {
       "id": "e55933a0c798bad9",
@@ -5541,35 +5827,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:06:00Z"
-    },
-    {
-      "id": "4416b7c7369a18e3",
-      "source": "cnbc_finance",
-      "title": "Prediction markets tied to clinical trials and drug approvals draw lawmakers' ire",
-      "summary": "Sens. Angela Alsobrooks and Ron Wyden are asking what steps the Department of Health and Human Services has taken to mitigate risks from the markets.",
-      "url": "https://www.cnbc.com/2026/11/11/kalsi-polymarket-prediction-market-senators-hhs-drug-approval.html",
-      "published_at": "2026-11-11T19:16:23Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-14T16:06:01Z"
-    },
-    {
-      "id": "4bbb2aa4a311685e",
-      "source": "cnbc_finance",
-      "title": "Fed's Goolsbee calls inflation report 'borderline disturbing' as central bank weighs more hikes",
-      "summary": "The consumer price index rose more than expected in October, raising alarm among Federal Reserve officials.",
-      "url": "https://www.cnbc.com/2026/11/11/goolsbee-october-inflation-fed-rates-disturbing-distressing.html",
-      "published_at": "2026-11-11T16:49:02Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-14T16:06:01Z"
+      "scanned_at": "2026-11-14T20:48:48Z"
     }
   ]
 }
