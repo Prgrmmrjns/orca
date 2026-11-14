@@ -11,8 +11,8 @@
   },
   "calendar_error": "",
   "n_calendar": 630,
-  "n_candidates": 629,
-  "n_tagged": 14,
+  "n_candidates": 632,
+  "n_tagged": 17,
   "errors": [],
   "rules": {
     "agent": "Discretionary agentic book. Cursor agent decides via stocks.decide from shared candidates. Baseline \u2014 not auto-traded by the engine.",
@@ -436,6 +436,97 @@
       ],
       "suggested_side": "short",
       "suggested_hold": 2
+    },
+    {
+      "ticker": "H",
+      "name": "H",
+      "source": "news",
+      "cal_date": "2026-11-13",
+      "report_date": "2026-11-13",
+      "timing": "news",
+      "surprise_pct": null,
+      "gap_pct": null,
+      "guidance": "none",
+      "headline": "H.I.G. Forms New Creator Economy Company Waveborn, Acquires JRE",
+      "excerpt": "New creator economy investment platform combines talent management, brand relationships, content production, and creator monetization. Platform to expand through strategic acquisitions, leveraging H.I.G.'s strong M&amp;A and operational experience. BOSTON, Nov. 13, 2026 /PRNewswire/ -- H.I.G....",
+      "filing_url": "",
+      "exhibit_url": "https://www.prnewswire.com/news-releases/hig-forms-new-creator-economy-company-waveborn-acquires-jre-302938533.html",
+      "news_id": "f12795c697365bf6",
+      "news_source": "prnewswire_financial",
+      "news_event_type": "mna_deal",
+      "news_direction": "bullish",
+      "news_side": null,
+      "news_actionable": false,
+      "news_published_at": "2026-11-13T14:00:00Z",
+      "rule_tags": [
+        "news_event",
+        "mna_deal"
+      ],
+      "suggested_side": null,
+      "suggested_hold": null,
+      "spy_above_ma50": null,
+      "scanned_at": "2026-11-14T02:41:48Z"
+    },
+    {
+      "ticker": "HSBC",
+      "name": "HSBC",
+      "source": "news",
+      "cal_date": "2026-11-13",
+      "report_date": "2026-11-13",
+      "timing": "news",
+      "surprise_pct": null,
+      "gap_pct": null,
+      "guidance": "none",
+      "headline": "HSBC HOLDINGS PLC ANNOUNCES THE SATISFACTION OF THE NEW ISSUE CONDITION IN RESPECT OF ITS TENDER OFFER FOR ONE SERIES OF SECURITIES",
+      "excerpt": "LONDON, Nov. 13, 2026 /PRNewswire/ -- HSBC Holdings plc (the 'Company', 'we' or 'us') today announces the successful closing, on terms and conditions reasonably satisfactory to the Company, of the offering of $1,500,000,000 7.625% Perpetual Subordinated Contingent Convertible Securities...",
+      "filing_url": "",
+      "exhibit_url": "https://www.prnewswire.com/news-releases/hsbc-holdings-plc-announces-the-satisfaction-of-the-new-issue-condition-in-respect-of-its-tender-offer-for-one-series-of-securities-302939078.html",
+      "news_id": "d8e73441a83e9738",
+      "news_source": "prnewswire_financial",
+      "news_event_type": "acquisition_target",
+      "news_direction": "bullish",
+      "news_side": "long",
+      "news_actionable": true,
+      "news_published_at": "2026-11-13T15:54:00Z",
+      "rule_tags": [
+        "news_event",
+        "acquisition_target",
+        "news_long"
+      ],
+      "suggested_side": "long",
+      "suggested_hold": 2,
+      "spy_above_ma50": null,
+      "scanned_at": "2026-11-14T02:41:48Z"
+    },
+    {
+      "ticker": "BULL",
+      "name": "BULL",
+      "source": "news",
+      "cal_date": "2026-11-13",
+      "report_date": "2026-11-13",
+      "timing": "news",
+      "surprise_pct": null,
+      "gap_pct": null,
+      "guidance": "none",
+      "headline": "Webull Corporation (BULL) Deadline Approaching: Berger Montague Advises Investors of Deadline in Securities Fraud Lawsuit",
+      "excerpt": "Philadelphia, Pennsylvania--(Newsfile Corp. - November 13, 2026) - Berger Montague, a leading national plaintiffs' law firm, announces a class action lawsuit, captioned Ward v. Webull Corporation, et al., No. 26-cv-03052 (M.D. Fla.), against Webull Corporation (NASDAQ: BULL) (\"Webull\" or the \"Company\") on behalf of investors who purchased or acquired Webull securities during the period from April",
+      "filing_url": "",
+      "exhibit_url": "https://www.wallstreet-online.de/nachricht/21690462-webull-corporation-bull-deadline-approaching-berger-montague-advises-investors-of-deadline-securities-fraud-lawsuit",
+      "news_id": "c3392517e50b54ce",
+      "news_source": "wso_nachrichten",
+      "news_event_type": "lawsuit",
+      "news_direction": "bearish",
+      "news_side": null,
+      "news_actionable": false,
+      "news_published_at": "2026-11-13T17:11:00Z",
+      "rule_tags": [
+        "news_event",
+        "lawsuit"
+      ],
+      "suggested_side": null,
+      "suggested_hold": null,
+      "spy_above_ma50": null,
+      "scanned_at": "2026-11-14T02:41:48Z"
     },
     {
       "ticker": "PAL",
@@ -17042,5 +17133,6 @@
       "suggested_side": null,
       "suggested_hold": null
     }
-  ]
+  ],
+  "news_merged_at": "2026-11-14T02:41:48Z"
 }
