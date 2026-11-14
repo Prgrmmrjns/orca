@@ -11,8 +11,8 @@
   },
   "calendar_error": "",
   "n_calendar": 630,
-  "n_candidates": 632,
-  "n_tagged": 17,
+  "n_candidates": 635,
+  "n_tagged": 20,
   "errors": [],
   "rules": {
     "agent": "Discretionary agentic book. Cursor agent decides via stocks.decide from shared candidates. Baseline \u2014 not auto-traded by the engine.",
@@ -438,6 +438,96 @@
       "suggested_hold": 2
     },
     {
+      "ticker": "CLBT",
+      "name": "CLBT",
+      "cal_date": "2026-11-13",
+      "gap_pct": 5.9688,
+      "last": 11.54,
+      "prev_close": 10.890000343322754,
+      "rel_vol": 2.234,
+      "adv20_usd": 22470721.213231087,
+      "avg_dollar_volume": 22470721.213231087,
+      "spy_above_ma50": false,
+      "session": "closed",
+      "headline": "Cellebrite DI Investigation Notice: Levi & Korsinsky Notifies Investors of Pending Investigation Into Cellebrite DI (CLBT)",
+      "news_event_type": "other_8k",
+      "news_direction": "bullish",
+      "news_side": null,
+      "news_actionable": true,
+      "news_source": "prnewswire",
+      "news_id": "b032019d05d1a016",
+      "filing_url": "https://www.prnewswire.com/news-releases/cellebrite-di-investigation-notice-levi--korsinsky-notifies-investors-of-pending-investigation-into-cellebrite-di-clbt-302939345.html",
+      "rule_tags": [
+        "bigmove",
+        "other_8k",
+        "bigmove_unified_v1"
+      ],
+      "source": "bigmove_move_trigger",
+      "suggested_side": null,
+      "suggested_hold": 5,
+      "as_of": "2026-11-14T03:04:43Z"
+    },
+    {
+      "ticker": "AMD",
+      "name": "AMD",
+      "cal_date": "2026-11-13",
+      "gap_pct": -10.9516,
+      "last": 521.2,
+      "prev_close": 585.2999877929688,
+      "rel_vol": 1.158,
+      "adv20_usd": 16920631814.901276,
+      "avg_dollar_volume": 16920631814.901276,
+      "spy_above_ma50": false,
+      "session": "closed",
+      "headline": "AMD and other chip stocks slide as Wall Street rethinks the AI trade without Jensen Huang",
+      "news_event_type": "other_8k",
+      "news_direction": "bearish",
+      "news_side": null,
+      "news_actionable": true,
+      "news_source": "marketwatch",
+      "news_id": "23788f63f3197bbd",
+      "filing_url": "https://www.marketwatch.com/story/amd-and-other-chip-stocks-slide-as-wall-street-rethinks-the-ai-trade-without-jensen-huang-2fb74547?mod=mw_rss_topstories",
+      "rule_tags": [
+        "bigmove",
+        "other_8k",
+        "bigmove_unified_v1"
+      ],
+      "source": "bigmove_move_trigger",
+      "suggested_side": null,
+      "suggested_hold": 5,
+      "as_of": "2026-11-14T03:04:53Z"
+    },
+    {
+      "ticker": "DNA",
+      "name": "DNA",
+      "cal_date": "2026-11-13",
+      "gap_pct": -4.6921,
+      "last": 9.75,
+      "prev_close": 10.229999542236328,
+      "rel_vol": 0.944,
+      "adv20_usd": 28047687.70963669,
+      "avg_dollar_volume": 28047687.70963669,
+      "spy_above_ma50": false,
+      "session": "closed",
+      "headline": "HTL Biotechnology launches HTL8, a production unit dedicated to pharmaceutical-grade polynucleotides (DNA)",
+      "news_event_type": "other_8k",
+      "news_direction": "bearish",
+      "news_side": null,
+      "news_actionable": true,
+      "news_source": "prnewswire",
+      "news_id": "fc6dceb836b242b5",
+      "filing_url": "https://www.prnewswire.com/news-releases/htl-biotechnology-launches-htl8-a-production-unit-dedicated-to-pharmaceutical-grade-polynucleotides-dna-302937819.html",
+      "rule_tags": [
+        "bigmove",
+        "other_8k",
+        "bigmove_unified_v1"
+      ],
+      "source": "bigmove_move_trigger",
+      "suggested_side": null,
+      "suggested_hold": 5,
+      "as_of": "2026-11-14T03:05:13Z"
+    },
+    {
       "ticker": "H",
       "name": "H",
       "source": "news",
@@ -465,7 +555,7 @@
       "suggested_side": null,
       "suggested_hold": null,
       "spy_above_ma50": null,
-      "scanned_at": "2026-11-14T02:41:48Z"
+      "scanned_at": "2026-11-14T09:32:25Z"
     },
     {
       "ticker": "HSBC",
@@ -496,7 +586,7 @@
       "suggested_side": "long",
       "suggested_hold": 2,
       "spy_above_ma50": null,
-      "scanned_at": "2026-11-14T02:41:48Z"
+      "scanned_at": "2026-11-14T09:32:25Z"
     },
     {
       "ticker": "BULL",
@@ -526,7 +616,7 @@
       "suggested_side": null,
       "suggested_hold": null,
       "spy_above_ma50": null,
-      "scanned_at": "2026-11-14T02:41:48Z"
+      "scanned_at": "2026-11-14T09:32:25Z"
     },
     {
       "ticker": "PAL",
@@ -17132,97 +17222,7 @@
       "rule_tags": [],
       "suggested_side": null,
       "suggested_hold": null
-    },
-    {
-      "ticker": "CLBT",
-      "name": "CLBT",
-      "cal_date": "2026-11-13",
-      "gap_pct": 5.9688,
-      "last": 11.54,
-      "prev_close": 10.890000343322754,
-      "rel_vol": 2.234,
-      "adv20_usd": 22470721.213231087,
-      "avg_dollar_volume": 22470721.213231087,
-      "spy_above_ma50": false,
-      "session": "closed",
-      "headline": "Cellebrite DI Investigation Notice: Levi & Korsinsky Notifies Investors of Pending Investigation Into Cellebrite DI (CLBT)",
-      "news_event_type": "other_8k",
-      "news_direction": "bullish",
-      "news_side": null,
-      "news_actionable": true,
-      "news_source": "prnewswire",
-      "news_id": "b032019d05d1a016",
-      "filing_url": "https://www.prnewswire.com/news-releases/cellebrite-di-investigation-notice-levi--korsinsky-notifies-investors-of-pending-investigation-into-cellebrite-di-clbt-302939345.html",
-      "rule_tags": [
-        "bigmove",
-        "other_8k",
-        "bigmove_unified_v1"
-      ],
-      "source": "bigmove_move_trigger",
-      "suggested_side": null,
-      "suggested_hold": 5,
-      "as_of": "2026-11-14T03:04:43Z"
-    },
-    {
-      "ticker": "AMD",
-      "name": "AMD",
-      "cal_date": "2026-11-13",
-      "gap_pct": -10.9516,
-      "last": 521.2,
-      "prev_close": 585.2999877929688,
-      "rel_vol": 1.158,
-      "adv20_usd": 16920631814.901276,
-      "avg_dollar_volume": 16920631814.901276,
-      "spy_above_ma50": false,
-      "session": "closed",
-      "headline": "AMD and other chip stocks slide as Wall Street rethinks the AI trade without Jensen Huang",
-      "news_event_type": "other_8k",
-      "news_direction": "bearish",
-      "news_side": null,
-      "news_actionable": true,
-      "news_source": "marketwatch",
-      "news_id": "23788f63f3197bbd",
-      "filing_url": "https://www.marketwatch.com/story/amd-and-other-chip-stocks-slide-as-wall-street-rethinks-the-ai-trade-without-jensen-huang-2fb74547?mod=mw_rss_topstories",
-      "rule_tags": [
-        "bigmove",
-        "other_8k",
-        "bigmove_unified_v1"
-      ],
-      "source": "bigmove_move_trigger",
-      "suggested_side": null,
-      "suggested_hold": 5,
-      "as_of": "2026-11-14T03:04:53Z"
-    },
-    {
-      "ticker": "DNA",
-      "name": "DNA",
-      "cal_date": "2026-11-13",
-      "gap_pct": -4.6921,
-      "last": 9.75,
-      "prev_close": 10.229999542236328,
-      "rel_vol": 0.944,
-      "adv20_usd": 28047687.70963669,
-      "avg_dollar_volume": 28047687.70963669,
-      "spy_above_ma50": false,
-      "session": "closed",
-      "headline": "HTL Biotechnology launches HTL8, a production unit dedicated to pharmaceutical-grade polynucleotides (DNA)",
-      "news_event_type": "other_8k",
-      "news_direction": "bearish",
-      "news_side": null,
-      "news_actionable": true,
-      "news_source": "prnewswire",
-      "news_id": "fc6dceb836b242b5",
-      "filing_url": "https://www.prnewswire.com/news-releases/htl-biotechnology-launches-htl8-a-production-unit-dedicated-to-pharmaceutical-grade-polynucleotides-dna-302937819.html",
-      "rule_tags": [
-        "bigmove",
-        "other_8k",
-        "bigmove_unified_v1"
-      ],
-      "source": "bigmove_move_trigger",
-      "suggested_side": null,
-      "suggested_hold": 5,
-      "as_of": "2026-11-14T03:05:13Z"
     }
   ],
-  "news_merged_at": "2026-11-14T02:41:48Z"
+  "news_merged_at": "2026-11-14T09:32:25Z"
 }

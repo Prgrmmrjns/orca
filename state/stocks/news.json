@@ -1,11 +1,11 @@
 {
   "mode": "paper",
-  "as_of": "2026-11-14T06:06:21Z",
-  "as_of_et": "2026-11-13 21:41 ET",
+  "as_of": "2026-11-14T09:32:25Z",
+  "as_of_et": "2026-11-14 04:32 ET",
   "rolling_hours": 72,
-  "n_items": 300,
+  "n_items": 329,
   "n_actionable": 24,
-  "n_with_ticker": 104,
+  "n_with_ticker": 102,
   "sources": [
     "prnewswire",
     "prnewswire_financial",
@@ -13,13 +13,259 @@
     "cnbc_finance",
     "marketwatch",
     "marketwatch_realtime",
-    "edgar_8k",
-    "edgar_424b",
-    "edgar_sc_to"
+    "edgar_8k"
   ],
   "errors": [],
   "note": "Paper news feed. Keyword tagging is heuristic. Shorts have no borrow model. RSS/EDGAR can lag minutes\u2013hours.",
   "items": [
+    {
+      "id": "cb9bff08259ec8e5",
+      "source": "prnewswire",
+      "title": "Beko Calls for Climate, Trade, and Finance Policies to Align as Carbon Rules Reshape Manufacturing",
+      "summary": "Fatih \u00d6zkad\u0131 and Bar\u0131\u015f Alparslan set out the company's case for competitive, lower-carbon value chains and the capital needed to build them. ANTALYA, T\u00fcrkiye, Nov. 14, 2026 /PRNewswire/ -- Beko used its COP31 panels to make the case that climate, trade and industrial policies need to work...",
+      "url": "https://www.prnewswire.com/news-releases/beko-calls-for-climate-trade-and-finance-policies-to-align-as-carbon-rules-reshape-manufacturing-302939497.html",
+      "published_at": "2026-11-14T08:00:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-14T09:32:22Z"
+    },
+    {
+      "id": "169c10d599e0b7b2",
+      "source": "prnewswire",
+      "title": "MV Transportation Supports the Nomination of Mark Aesch to serve as FTA Administrator",
+      "summary": "DALLAS, Nov. 14, 2026 /PRNewswire/ -- MV Transportation strongly supports the nomination of Mark Aesch to serve as Administrator of the Federal Transit Administration and urges the Senate to act swiftly to confirm him. At a time when public transit agencies face significant financial and...",
+      "url": "https://www.prnewswire.com/news-releases/mv-transportation-supports-the-nomination-of-mark-aesch-to-serve-as-fta-administrator-302939488.html",
+      "published_at": "2026-11-14T07:40:00Z",
+      "tickers": [
+        "MV"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-14T09:32:22Z"
+    },
+    {
+      "id": "5d516eb12b09c604",
+      "source": "prnewswire",
+      "title": "HiTHIUM Partners with the University of Cambridge to Advance International Industry-Academia Collaboration in Long-Duration Energy Storage",
+      "summary": "XIAMEN, China, Nov. 14, 2026 /PRNewswire/ -- On November 12, the Global Energy Storage Colloquium was held in Xiamen. During the colloquium, HiTHIUM and the University of Cambridge signed a memorandum of understanding (MoU), establishing a strategic partnership. The two parties will...",
+      "url": "https://www.prnewswire.com/news-releases/hithium-partners-with-the-university-of-cambridge-to-advance-international-industry-academia-collaboration-in-long-duration-energy-storage-302939492.html",
+      "published_at": "2026-11-14T06:40:00Z",
+      "tickers": [],
+      "event_type": "mna_deal",
+      "direction": "bullish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-14T09:32:22Z"
+    },
+    {
+      "id": "46f45944f12f4c1d",
+      "source": "prnewswire",
+      "title": "Innovent Announces Seven Innovative Products Including Mazdutide and PECONDLE\u00ae Successfully Included in the 2026 National Reimbursement Drug List",
+      "summary": "PALO ALTO, Calif. and SUZHOU, China, Nov. 14, 2026 /PRNewswire/ -- Innovent Biologics, Inc. (HKEX Stock Code: 01801), a biopharmaceutical company dedicated to the research, development, manufacturing, and commercialization of innovative drugs for major diseases including oncology,...",
+      "url": "https://www.prnewswire.com/news-releases/innovent-announces-seven-innovative-products-including-mazdutide-and-pecondle-successfully-included-in-the-2026-national-reimbursement-drug-list-302939483.html",
+      "published_at": "2026-11-14T03:48:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-14T09:32:22Z"
+    },
+    {
+      "id": "8d36ea296243783b",
+      "source": "prnewswire",
+      "title": "Innovative Immunology Biotech Windward Bio Lists on Nasdaq",
+      "summary": "SHANGHAI, Nov. 14, 2026 /PRNewswire/ -- Windward Bio, a portfolio company of Qiming Venture Partners and a clinical-stage biotechnology company, successfully listed on Nasdaq on November 13, 2026. Windward Bio (Nasdaq: WWB) priced its IPO at $17.00 per share. Its shares closed at $28.50...",
+      "url": "https://www.prnewswire.com/news-releases/innovative-immunology-biotech-windward-bio-lists-on-nasdaq-302939481.html",
+      "published_at": "2026-11-14T03:13:00Z",
+      "tickers": [
+        "ON",
+        "WWB"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-14T09:32:22Z"
+    },
+    {
+      "id": "7274a35cd5ab87a0",
+      "source": "prnewswire_financial",
+      "title": "Innovative Immunology Biotech Windward Bio Lists on Nasdaq",
+      "summary": "SHANGHAI, Nov. 14, 2026 /PRNewswire/ -- Windward Bio, a portfolio company of Qiming Venture Partners and a clinical-stage biotechnology company, successfully listed on Nasdaq on November 13, 2026. Windward Bio (Nasdaq: WWB) priced its IPO at $17.00 per share. Its shares closed at $28.50...",
+      "url": "https://www.prnewswire.com/news-releases/innovative-immunology-biotech-windward-bio-lists-on-nasdaq-302939481.html",
+      "published_at": "2026-11-14T03:13:00Z",
+      "tickers": [
+        "ON",
+        "WWB"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-14T09:32:22Z"
+    },
+    {
+      "id": "ddd62e01ae00b08d",
+      "source": "prnewswire",
+      "title": "Chemours Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against The Chemours Company - CC",
+      "summary": "NEW ORLEANS, Nov. 13, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until December 7, 2026 to file lead plaintiff applications in a securities class action lawsuit against The Chemours Company (\"Chemours\" or the \"Company\")...",
+      "url": "https://www.prnewswire.com/news-releases/chemours-shareholder-alert-claimsfiler-reminds-investors-with-losses-in-excess-of-100-000-of-lead-plaintiff-deadline-in-class-action-lawsuit-against-the-chemours-company---cc-302939406.html",
+      "published_at": "2026-11-14T03:00:00Z",
+      "tickers": [],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-14T09:32:22Z"
+    },
+    {
+      "id": "d5c77f444f8fb4e8",
+      "source": "prnewswire",
+      "title": "LaserAway, Nation's Largest Aesthetic Dermatology Brand, Opens Its 244th Clinic",
+      "summary": "LOCATED AT 6300 KINGERY HWY, SUITE 112, WILLOWBROOK, IL, this clinic opening marks 20 years of uninterrupted growth for the founder-led, Los Angeles\u2013based company. LOS ANGELES, Nov. 13, 2026 /PRNewswire/ -- LaserAway, the nation's leader in aesthetic dermatology today announced the...",
+      "url": "https://www.prnewswire.com/news-releases/laseraway-nations-largest-aesthetic-dermatology-brand-opens-its-244th-clinic-302936320.html",
+      "published_at": "2026-11-14T03:00:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-14T09:32:22Z"
+    },
+    {
+      "id": "c82be98b85e1381c",
+      "source": "prnewswire",
+      "title": "Duolingo Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against Duolingo, Inc. - DUOL",
+      "summary": "NEW ORLEANS, Nov. 13, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until December 7, 2026 to file lead plaintiff applications in a securities class action lawsuit against Duolingo, Inc. (\"Duolingo\" or the \"Company\") (NasdaqGS:...",
+      "url": "https://www.prnewswire.com/news-releases/duolingo-shareholder-alert-claimsfiler-reminds-investors-with-losses-in-excess-of-100-000-of-lead-plaintiff-deadline-in-class-action-lawsuit-against-duolingo-inc---duol-302939411.html",
+      "published_at": "2026-11-14T03:00:00Z",
+      "tickers": [],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-14T09:32:22Z"
+    },
+    {
+      "id": "4209892bf3656c95",
+      "source": "prnewswire",
+      "title": "Everest Group Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against Everest Group, Ltd. - EG",
+      "summary": "NEW ORLEANS, Nov. 13, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until December 28, 2026 to file lead plaintiff applications in a securities class action lawsuit against Everest Group, Ltd. (\"Everest\" or the \"Company\") (NYSE:...",
+      "url": "https://www.prnewswire.com/news-releases/everest-group-shareholder-alert-claimsfiler-reminds-investors-with-losses-in-excess-of-100-000-of-lead-plaintiff-deadline-in-class-action-lawsuit-against-everest-group-ltd---eg-302939415.html",
+      "published_at": "2026-11-14T03:00:00Z",
+      "tickers": [],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-14T09:32:22Z"
+    },
+    {
+      "id": "074f8f276021b26c",
+      "source": "prnewswire",
+      "title": "Gildan Activewear Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against Gildan Activewear Inc. - GIL",
+      "summary": "NEW ORLEANS, Nov. 13, 2026 /PRNewswire/ -- - ClaimsFiler, a FREE shareholder information service, reminds investors that they have until December 14, 2026 to file lead plaintiff applications in a securities class action lawsuit against Gildan Activewear Inc. (\"Gildan\" or the \"Company\")...",
+      "url": "https://www.prnewswire.com/news-releases/gildan-activewear-shareholder-alert-claimsfiler-reminds-investors-with-losses-in-excess-of-100-000-of-lead-plaintiff-deadline-in-class-action-lawsuit-against-gildan-activewear-inc---gil-302939416.html",
+      "published_at": "2026-11-14T03:00:00Z",
+      "tickers": [],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-14T09:32:22Z"
+    },
+    {
+      "id": "19ceb1d3d12484b8",
+      "source": "prnewswire",
+      "title": "Honeywell Aerospace Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against Honeywell Aerospace, Inc. - HONA",
+      "summary": "NEW ORLEANS, Nov. 13, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until October 30, 2026 to file lead plaintiff applications in a securities class action lawsuit against Honeywell Aerospace, Inc. (\"Honeywell Aerospace\" or the...",
+      "url": "https://www.prnewswire.com/news-releases/honeywell-aerospace-shareholder-alert-claimsfiler-reminds-investors-with-losses-in-excess-of-100-000-of-lead-plaintiff-deadline-in-class-action-lawsuit-against-honeywell-aerospace-inc---hona-302939418.html",
+      "published_at": "2026-11-14T03:00:00Z",
+      "tickers": [],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-14T09:32:22Z"
+    },
+    {
+      "id": "8ebfb64d8d74943d",
+      "source": "prnewswire",
+      "title": "Millrose Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against Millrose Properties, Inc. - MRP",
+      "summary": "NEW ORLEANS, Nov. 13, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until December 8, 2026 to file lead plaintiff applications in a securities class action lawsuit against Millrose Properties, Inc. (\"Millrose\" or the \"Company\")...",
+      "url": "https://www.prnewswire.com/news-releases/millrose-shareholder-alert-claimsfiler-reminds-investors-with-losses-in-excess-of-100-000-of-lead-plaintiff-deadline-in-class-action-lawsuit-against-millrose-properties-inc---mrp-302939424.html",
+      "published_at": "2026-11-14T03:00:00Z",
+      "tickers": [],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-14T09:32:22Z"
+    },
+    {
+      "id": "eee95698014522bd",
+      "source": "prnewswire",
+      "title": "Ensign Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against The Ensign Group, Inc. - ENSG",
+      "summary": "NEW ORLEANS, Nov. 13, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until December 7, 2026 to file lead plaintiff applications in a securities class action lawsuit against The Ensign Group, Inc. (\"Ensign\" or the \"Company\")...",
+      "url": "https://www.prnewswire.com/news-releases/ensign-shareholder-alert-claimsfiler-reminds-investors-with-losses-in-excess-of-100-000-of-lead-plaintiff-deadline-in-class-action-lawsuit-against-the-ensign-group-inc---ensg-302939414.html",
+      "published_at": "2026-11-14T03:00:00Z",
+      "tickers": [],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-14T09:32:22Z"
+    },
+    {
+      "id": "60f8fa0057ae532f",
+      "source": "prnewswire",
+      "title": "Manhattan Associates Investigation Initiated: Kahn Swick & Foti, LLC Investigates the Officers and Directors of Manhattan Associates, Inc. - MANH",
+      "summary": "NEW ORLEANS, Nov. 13, 2026 /PRNewswire/ -- Former Attorney General of Louisiana, Charles C. Foti, Jr., Esq., a partner at the law firm of Kahn Swick & Foti, LLC (\"KSF\"), announces that KSF has commenced an investigation into Manhattan Associates, Inc. (\"Manhattan\") (NasdaqGS: MANH)....",
+      "url": "https://www.prnewswire.com/news-releases/manhattan-associates-investigation-initiated-kahn-swick--foti-llc-investigates-the-officers-and-directors-of-manhattan-associates-inc---manh-302939420.html",
+      "published_at": "2026-11-14T03:00:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-14T09:32:22Z"
+    },
+    {
+      "id": "17dddbe6d5323749",
+      "source": "prnewswire",
+      "title": "Greenberg Traurig's Brad Kaufman Named Best Mentor by The American Lawyer",
+      "summary": "WEST PALM BEACH, Fla., Nov. 13, 2026 /PRNewswire/ -- Global law firm Greenberg Traurig, P.A. Senior Chairman and Global Chairman of Professional Development and Integration Brad Kaufman received The American Lawyer Industry Awards' Best Mentor recognition. The award honors lawyers and...",
+      "url": "https://www.prnewswire.com/news-releases/greenberg-traurigs-brad-kaufman-named-best-mentor-by-the-american-lawyer-302939453.html",
+      "published_at": "2026-11-14T02:50:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-14T09:32:22Z"
+    },
+    {
+      "id": "aa22464152b55225",
+      "source": "marketwatch",
+      "title": "FAA lifts rare nationwide ground stop on flights; air travel may take days to recover",
+      "summary": "Homeland Security Secretary Mullin said that there was \u2018zero evidence\u2019 of cyberattack as fewer flights amid fuel-cost surge may hamper rebookings.",
+      "url": "https://www.marketwatch.com/story/faa-declares-rare-widespread-ground-outage-bdc46393?mod=mw_rss_topstories",
+      "published_at": "2026-11-14T02:42:00Z",
+      "tickers": [
+        "FAA"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-14T09:32:24Z"
+    },
     {
       "id": "3b4d5c0915aac8bf",
       "source": "prnewswire",
@@ -32,7 +278,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:44Z"
+      "scanned_at": "2026-11-14T09:32:22Z"
     },
     {
       "id": "81f33e1d2ff72524",
@@ -46,7 +292,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:44Z"
+      "scanned_at": "2026-11-14T09:32:22Z"
     },
     {
       "id": "6d80a465c4dbf18c",
@@ -62,7 +308,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:44Z"
+      "scanned_at": "2026-11-14T09:32:22Z"
     },
     {
       "id": "0afa4cb0152937c2",
@@ -76,7 +322,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:44Z"
+      "scanned_at": "2026-11-14T09:32:22Z"
     },
     {
       "id": "4498c030ad9e7350",
@@ -108,7 +354,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:44Z"
+      "scanned_at": "2026-11-14T09:32:22Z"
     },
     {
       "id": "4f3038bc11c7da29",
@@ -230,7 +476,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:45Z"
+      "scanned_at": "2026-11-14T09:32:22Z"
     },
     {
       "id": "7093301db28c866d",
@@ -258,7 +504,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:46Z"
+      "scanned_at": "2026-11-14T09:32:23Z"
     },
     {
       "id": "129a987691af23fb",
@@ -322,7 +568,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:45Z"
+      "scanned_at": "2026-11-14T09:32:22Z"
     },
     {
       "id": "9ab12a1b5d2eddc6",
@@ -350,7 +596,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:47Z"
+      "scanned_at": "2026-11-14T09:32:24Z"
     },
     {
       "id": "0b97fa052a43812d",
@@ -382,7 +628,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:45Z"
+      "scanned_at": "2026-11-14T09:32:22Z"
     },
     {
       "id": "973f0fc80d312446",
@@ -414,7 +660,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:45Z"
+      "scanned_at": "2026-11-14T09:32:22Z"
     },
     {
       "id": "b6f97ab8cca0d988",
@@ -444,7 +690,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:47Z"
+      "scanned_at": "2026-11-14T09:32:24Z"
     },
     {
       "id": "0760b5b9ad692d6a",
@@ -460,7 +706,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:45Z"
+      "scanned_at": "2026-11-14T09:32:22Z"
     },
     {
       "id": "0e28831c4ae3cd72",
@@ -475,7 +721,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:44Z"
+      "scanned_at": "2026-11-14T09:32:21Z"
     },
     {
       "id": "fa65e72df64dfe3f",
@@ -503,7 +749,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:45Z"
+      "scanned_at": "2026-11-14T09:32:22Z"
     },
     {
       "id": "d20c87e4d730c495",
@@ -518,7 +764,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:44Z"
+      "scanned_at": "2026-11-14T09:32:21Z"
     },
     {
       "id": "d7b0e34af737a70f",
@@ -533,7 +779,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:44Z"
+      "scanned_at": "2026-11-14T09:32:21Z"
     },
     {
       "id": "8022d5ed4737bb63",
@@ -548,7 +794,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:44Z"
+      "scanned_at": "2026-11-14T09:32:21Z"
     },
     {
       "id": "8bc4c4a6282b2c5c",
@@ -563,7 +809,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-14T02:41:44Z"
+      "scanned_at": "2026-11-14T09:32:21Z"
     },
     {
       "id": "c1afe3e311fe2530",
@@ -578,7 +824,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-14T02:41:44Z"
+      "scanned_at": "2026-11-14T09:32:21Z"
     },
     {
       "id": "68831d56eef55e90",
@@ -593,7 +839,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:44Z"
+      "scanned_at": "2026-11-14T09:32:21Z"
     },
     {
       "id": "ede6743168914110",
@@ -608,7 +854,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:44Z"
+      "scanned_at": "2026-11-14T09:32:21Z"
     },
     {
       "id": "59c2ab01f0b57435",
@@ -623,7 +869,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:44Z"
+      "scanned_at": "2026-11-14T09:32:21Z"
     },
     {
       "id": "ad3879833d7bea53",
@@ -638,7 +884,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:44Z"
+      "scanned_at": "2026-11-14T09:32:21Z"
     },
     {
       "id": "19619a17ec3ab931",
@@ -653,7 +899,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:44Z"
+      "scanned_at": "2026-11-14T09:32:21Z"
     },
     {
       "id": "9e71c7f7d83ceb71",
@@ -668,7 +914,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-14T02:41:44Z"
+      "scanned_at": "2026-11-14T09:32:21Z"
     },
     {
       "id": "0c6e6defb1f8d5a8",
@@ -683,7 +929,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:44Z"
+      "scanned_at": "2026-11-14T09:32:21Z"
     },
     {
       "id": "1109a0ebb3826b56",
@@ -698,7 +944,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:44Z"
+      "scanned_at": "2026-11-14T09:32:21Z"
     },
     {
       "id": "bc5be7b5bef55c4e",
@@ -713,7 +959,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:44Z"
+      "scanned_at": "2026-11-14T09:32:21Z"
     },
     {
       "id": "590cc58e8001fbee",
@@ -728,7 +974,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:44Z"
+      "scanned_at": "2026-11-14T09:32:21Z"
     },
     {
       "id": "9a95371b25f2d26d",
@@ -743,7 +989,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:44Z"
+      "scanned_at": "2026-11-14T09:32:21Z"
     },
     {
       "id": "b2eb73a22cdde2dd",
@@ -758,7 +1004,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-14T02:41:44Z"
+      "scanned_at": "2026-11-14T09:32:21Z"
     },
     {
       "id": "2a3c1ff26b443f6b",
@@ -773,7 +1019,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:44Z"
+      "scanned_at": "2026-11-14T09:32:21Z"
     },
     {
       "id": "bbda84808136838e",
@@ -788,7 +1034,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:44Z"
+      "scanned_at": "2026-11-14T09:32:21Z"
     },
     {
       "id": "9e86d7e87c3bbed7",
@@ -803,7 +1049,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:44Z"
+      "scanned_at": "2026-11-14T09:32:21Z"
     },
     {
       "id": "d3133c601aa513dc",
@@ -818,7 +1064,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:44Z"
+      "scanned_at": "2026-11-14T09:32:21Z"
     },
     {
       "id": "6dbf30347f4dba87",
@@ -833,7 +1079,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:44Z"
+      "scanned_at": "2026-11-14T09:32:21Z"
     },
     {
       "id": "ee0f7bb6c8b4a4cd",
@@ -848,7 +1094,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-14T02:41:44Z"
+      "scanned_at": "2026-11-14T09:32:21Z"
     },
     {
       "id": "91853671c64e688f",
@@ -912,7 +1158,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:44Z"
+      "scanned_at": "2026-11-14T09:32:21Z"
     },
     {
       "id": "c028a5247a7210e7",
@@ -927,7 +1173,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:44Z"
+      "scanned_at": "2026-11-14T09:32:21Z"
     },
     {
       "id": "68408ab09e198486",
@@ -942,7 +1188,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:44Z"
+      "scanned_at": "2026-11-14T09:32:21Z"
     },
     {
       "id": "479ccddbddb17350",
@@ -957,7 +1203,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:44Z"
+      "scanned_at": "2026-11-14T09:32:21Z"
     },
     {
       "id": "3732dff0d735d792",
@@ -972,7 +1218,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:44Z"
+      "scanned_at": "2026-11-14T09:32:21Z"
     },
     {
       "id": "1aa40b7d1b73fdcb",
@@ -1003,7 +1249,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:44Z"
+      "scanned_at": "2026-11-14T09:32:21Z"
     },
     {
       "id": "709d172a7e4ff485",
@@ -1017,7 +1263,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:47Z"
+      "scanned_at": "2026-11-14T09:32:24Z"
     },
     {
       "id": "c7ee938e3f58d09a",
@@ -1032,7 +1278,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:44Z"
+      "scanned_at": "2026-11-14T09:32:21Z"
     },
     {
       "id": "a50685ab445736ea",
@@ -1075,7 +1321,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:44Z"
+      "scanned_at": "2026-11-14T09:32:21Z"
     },
     {
       "id": "0f2a8dc9745e69b9",
@@ -1090,7 +1336,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:44Z"
+      "scanned_at": "2026-11-14T09:32:21Z"
     },
     {
       "id": "be276c0d4f1cae41",
@@ -1121,7 +1367,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:44Z"
+      "scanned_at": "2026-11-14T09:32:21Z"
     },
     {
       "id": "f0896bc769b02012",
@@ -1136,7 +1382,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:44Z"
+      "scanned_at": "2026-11-14T09:32:21Z"
     },
     {
       "id": "677db1b3c780327e",
@@ -1151,7 +1397,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:44Z"
+      "scanned_at": "2026-11-14T09:32:21Z"
     },
     {
       "id": "a5e277c31c383672",
@@ -1166,7 +1412,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:44Z"
+      "scanned_at": "2026-11-14T09:32:21Z"
     },
     {
       "id": "043ad3cac0875e66",
@@ -1181,7 +1427,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:44Z"
+      "scanned_at": "2026-11-14T09:32:21Z"
     },
     {
       "id": "5787d3562bf68bb7",
@@ -1196,7 +1442,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:44Z"
+      "scanned_at": "2026-11-14T09:32:21Z"
     },
     {
       "id": "a22ac6952506665b",
@@ -1211,7 +1457,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:44Z"
+      "scanned_at": "2026-11-14T09:32:21Z"
     },
     {
       "id": "a0772c7a54902a13",
@@ -1269,7 +1515,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:45Z"
+      "scanned_at": "2026-11-14T09:32:22Z"
     },
     {
       "id": "20a14b1427f01915",
@@ -1313,7 +1559,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:45Z"
+      "scanned_at": "2026-11-14T09:32:22Z"
     },
     {
       "id": "49174537e3322a23",
@@ -1347,7 +1593,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:45Z"
+      "scanned_at": "2026-11-14T09:32:22Z"
     },
     {
       "id": "5ca1d6f4c5b8894d",
@@ -1447,7 +1693,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:45Z"
+      "scanned_at": "2026-11-14T09:32:22Z"
     },
     {
       "id": "7c5d4775cd2eb6b1",
@@ -1480,7 +1726,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:45Z"
+      "scanned_at": "2026-11-14T09:32:22Z"
     },
     {
       "id": "92552074b57f3eef",
@@ -1496,7 +1742,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:45Z"
+      "scanned_at": "2026-11-14T09:32:22Z"
     },
     {
       "id": "f8eb5f66676e4ef4",
@@ -1510,7 +1756,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:47Z"
+      "scanned_at": "2026-11-14T09:32:24Z"
     },
     {
       "id": "e73e70f8a6a317ff",
@@ -1524,7 +1770,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:45Z"
+      "scanned_at": "2026-11-14T09:32:22Z"
     },
     {
       "id": "b62541c45fd76fa1",
@@ -1540,7 +1786,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:45Z"
+      "scanned_at": "2026-11-14T09:32:22Z"
     },
     {
       "id": "64a9ff4df05df75c",
@@ -1556,7 +1802,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:45Z"
+      "scanned_at": "2026-11-14T09:32:22Z"
     },
     {
       "id": "23788f63f3197bbd",
@@ -1572,7 +1818,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:47Z"
+      "scanned_at": "2026-11-14T09:32:24Z"
     },
     {
       "id": "93123fc8c932140d",
@@ -1588,7 +1834,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:45Z"
+      "scanned_at": "2026-11-14T09:32:22Z"
     },
     {
       "id": "e6d92441563f818a",
@@ -1618,7 +1864,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:45Z"
+      "scanned_at": "2026-11-14T09:32:22Z"
     },
     {
       "id": "04a5dac3edd30118",
@@ -1632,7 +1878,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:45Z"
+      "scanned_at": "2026-11-14T09:32:22Z"
     },
     {
       "id": "4c959c15206fcebc",
@@ -1660,7 +1906,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:45Z"
+      "scanned_at": "2026-11-14T09:32:22Z"
     },
     {
       "id": "0acb609391dbb2d0",
@@ -2725,7 +2971,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:47Z"
+      "scanned_at": "2026-11-14T09:32:24Z"
     },
     {
       "id": "8fac2a047dadaf59",
@@ -2912,7 +3158,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:47Z"
+      "scanned_at": "2026-11-14T09:32:24Z"
     },
     {
       "id": "d8e73441a83e9738",
@@ -2971,7 +3217,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:47Z"
+      "scanned_at": "2026-11-14T09:32:24Z"
     },
     {
       "id": "e28f44348e4f2d93",
@@ -2985,7 +3231,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:47Z"
+      "scanned_at": "2026-11-14T09:32:24Z"
     },
     {
       "id": "b053a942cee1f76d",
@@ -3277,7 +3523,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T02:41:46Z"
+      "scanned_at": "2026-11-14T09:32:23Z"
     },
     {
       "id": "ff4c80411f305bab",
@@ -4744,6 +4990,174 @@
       "news_side": null,
       "actionable": false,
       "scanned_at": "2026-11-13T09:23:35Z"
+    },
+    {
+      "id": "a3ce302dcc33b8fb",
+      "source": "cnbc_finance",
+      "title": "How the Jensen Huang affair changes the outlook for U.S.-China relations",
+      "summary": "The political climate heading into next week's Trump-Xi summit is drastically different from the last meeting in September.",
+      "url": "https://www.cnbc.com/2026/11/13/jensen-huang-nvidia-us-china-relations.html",
+      "published_at": "2026-11-13T02:56:35Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-14T09:32:23Z"
+    },
+    {
+      "id": "bfadabbd1327e27d",
+      "source": "cnbc_finance",
+      "title": "Oil prices rise after Trump says no Iran deal needed: 'We've got their Strait'",
+      "summary": "Oil prices were mixed on Thursday, after the latest comments from President Donald Trump raised worries that an end to the U.S.-Iran war was not in sight.",
+      "url": "https://www.cnbc.com/2026/11/12/oil-prices-jump-after-trump-says-no-iran-deal-needed-weve-got-their-strait.html",
+      "published_at": "2026-11-13T00:01:19Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-14T09:32:23Z"
+    },
+    {
+      "id": "9d88ba8eed76a2fe",
+      "source": "cnbc_business",
+      "title": "Scout Motors has 212,000 vehicle reservations as $2 billion South Carolina plant nears completion",
+      "summary": "Scout Motors has roughly 212,000 reservations for its Terra pickup and Traveler SUV, CEO Scott Keogh told CNBC.",
+      "url": "https://www.cnbc.com/2026/11/12/scout-motors-reservations-south-carolina-plant.html",
+      "published_at": "2026-11-12T22:17:05Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-14T09:32:23Z"
+    },
+    {
+      "id": "08212cbeb90633da",
+      "source": "cnbc_finance",
+      "title": "In a policy switch, the Fed says its October 2027 meeting will not see a vote on interest rates",
+      "summary": "There will be seven voting meetings next year, with the October session set up as extra time for policy deliberation without a formal vote or post-meeting statement.",
+      "url": "https://www.cnbc.com/2026/11/12/in-policy-switch-fed-says-its-october-2027-meeting-will-not-see-a-vote-on-interest-rates.html",
+      "published_at": "2026-11-12T19:05:25Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-14T09:32:23Z"
+    },
+    {
+      "id": "8e3f16d7edde3ef5",
+      "source": "cnbc_business",
+      "title": "Disney's 'Star Wars' is coming to Cosm domes ahead of 50th anniversary as part of multiyear film deal",
+      "summary": "Cosm has secured a new studio partnership with Disney that will bring \"Star Wars: A New Hope\" to its domes as part of a multiyear, multifilm collaboration.",
+      "url": "https://www.cnbc.com/2026/11/12/star-wars-cosm-dome-screenings.html",
+      "published_at": "2026-11-12T17:23:25Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-14T09:32:23Z"
+    },
+    {
+      "id": "c727f831795e5f01",
+      "source": "cnbc_finance",
+      "title": "China's Ministry of State Security thrust into the spotlight by Nvidia CEO affair",
+      "summary": "China's Ministry of State Security is getting attention after news of Nvidia CEO Jensen Huang's affair with an alleged MSS spy.",
+      "url": "https://www.cnbc.com/2026/11/12/china-ministry-state-security-nvidia-ceo.html",
+      "published_at": "2026-11-12T07:28:48Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-14T09:32:23Z"
+    },
+    {
+      "id": "37afaf8e8895a88c",
+      "source": "cnbc_business",
+      "title": "Feds arrest top official of healthcare company, alleging illegal drug importation",
+      "summary": "U.S. officials are accusing two top officials of a Canadian company of operating a scheme to illegally import prescription drugs, court records show.",
+      "url": "https://www.cnbc.com/2026/11/11/canarx-official-arrested-drug-importation.html",
+      "published_at": "2026-11-11T22:58:11Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-14T09:32:23Z"
+    },
+    {
+      "id": "528efea6b1b45228",
+      "source": "cnbc_business",
+      "title": "American Airlines brings fresh food back to NY-Chicago first class for first time since 2019",
+      "summary": "American Airlines' first-class food options include sandwiches, fruit and chia bowls",
+      "url": "https://www.cnbc.com/2026/11/11/american-airlines-first-class-chicago-new-york.html",
+      "published_at": "2026-11-11T22:20:58Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-14T09:32:23Z"
+    },
+    {
+      "id": "e55933a0c798bad9",
+      "source": "cnbc_business",
+      "title": "JetBlue unveils new first-class seats to bring back profits",
+      "summary": "JetBlue gave reporters a look at its new first-class seats on Wednesday.",
+      "url": "https://www.cnbc.com/2026/11/11/jetblue-ceo-premium.html",
+      "published_at": "2026-11-11T22:10:50Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-14T09:32:23Z"
+    },
+    {
+      "id": "4416b7c7369a18e3",
+      "source": "cnbc_finance",
+      "title": "Prediction markets tied to clinical trials and drug approvals draw lawmakers' ire",
+      "summary": "Sens. Angela Alsobrooks and Ron Wyden are asking what steps the Department of Health and Human Services has taken to mitigate risks from the markets.",
+      "url": "https://www.cnbc.com/2026/11/11/kalsi-polymarket-prediction-market-senators-hhs-drug-approval.html",
+      "published_at": "2026-11-11T19:16:23Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-14T09:32:23Z"
+    },
+    {
+      "id": "4bbb2aa4a311685e",
+      "source": "cnbc_finance",
+      "title": "Fed's Goolsbee calls inflation report 'borderline disturbing' as central bank weighs more hikes",
+      "summary": "The consumer price index rose more than expected in October, raising alarm among Federal Reserve officials.",
+      "url": "https://www.cnbc.com/2026/11/11/goolsbee-october-inflation-fed-rates-disturbing-distressing.html",
+      "published_at": "2026-11-11T16:49:02Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-14T09:32:23Z"
+    },
+    {
+      "id": "d637638f4dc6b422",
+      "source": "cnbc_business",
+      "title": "Measles is surging in the U.S. \u2014 and outbreaks can cost millions",
+      "summary": "A new tool developed by Johns Hopkins researchers estimates that the 2025 measles outbreak in the U.S. carried an economic cost of more than $37 million.",
+      "url": "https://www.cnbc.com/2026/11/11/measles-outbreak-us-economic-cost.html",
+      "published_at": "2026-11-11T15:14:53Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-14T09:32:23Z"
     }
   ]
 }
