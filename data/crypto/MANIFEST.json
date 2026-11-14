@@ -1,0 +1,138 @@
+{
+  "built_at": "2026-11-14T11:16:55.102037+00:00",
+  "source": {
+    "archives": [
+      "https://assets.kraken.com/marketing/institutions/Kraken_OHLCVT_Full.zip.part00",
+      "https://assets.kraken.com/marketing/institutions/Kraken_OHLCVT_Full.zip.part01",
+      "https://assets.kraken.com/marketing/institutions/Kraken_OHLCVT_Full.zip.part02",
+      "https://assets.kraken.com/marketing/institutions/Kraken_OHLCVT_Full.zip.part03",
+      "https://assets.kraken.com/marketing/institutions/Kraken_OHLCVT_Full.zip.part04"
+    ],
+    "quarterly_optional": [
+      "https://assets.kraken.com/marketing/institutions/Kraken_OHLCVT_2026Q1.zip",
+      "https://assets.kraken.com/marketing/institutions/Kraken_OHLCVT_2026Q2.zip",
+      "https://assets.kraken.com/marketing/institutions/Kraken_OHLCVT_2026Q3.zip"
+    ],
+    "rest": "https://api.kraken.com/0/public/OHLC",
+    "rest_cap_bars": 720,
+    "note": "Full history is range-read from the split OHLCVT zip. The open bar is dropped."
+  },
+  "panel_start_requested": "2018-01-01",
+  "intervals": {
+    "1h": {
+      "joint": {
+        "BTC": {
+          "rows": 47420,
+          "start": "2021-06-17T15:00:00+00:00",
+          "end": "2026-11-14T10:00:00+00:00"
+        },
+        "ETH": {
+          "rows": 47420,
+          "start": "2021-06-17T15:00:00+00:00",
+          "end": "2026-11-14T10:00:00+00:00"
+        },
+        "SOL": {
+          "rows": 47420,
+          "start": "2021-06-17T15:00:00+00:00",
+          "end": "2026-11-14T10:00:00+00:00"
+        },
+        "XRP": {
+          "rows": 47420,
+          "start": "2021-06-17T15:00:00+00:00",
+          "end": "2026-11-14T10:00:00+00:00"
+        }
+      },
+      "per_asset_from_2018_or_listing": {
+        "BTC": {
+          "rows": 77747,
+          "start": "2018-01-01T00:00:00+00:00",
+          "end": "2026-11-14T10:00:00+00:00",
+          "cache_sha256": "67035e77833744dff879615f970a28584af19c8aeb53d108f462d88c9be4eb6a"
+        },
+        "ETH": {
+          "rows": 77747,
+          "start": "2018-01-01T00:00:00+00:00",
+          "end": "2026-11-14T10:00:00+00:00",
+          "cache_sha256": "948edcb66a7ec7fdf151bf2911ab316a66de7cac42cc7c8b278ddc20519c7d77"
+        },
+        "SOL": {
+          "rows": 47420,
+          "start": "2021-06-17T15:00:00+00:00",
+          "end": "2026-11-14T10:00:00+00:00",
+          "cache_sha256": "cd4e7e92d295f3c53d41ede98c6c33ff6c7168dfeeb8e90ea7754d27a47df5ea"
+        },
+        "XRP": {
+          "rows": 77747,
+          "start": "2018-01-01T00:00:00+00:00",
+          "end": "2026-11-14T10:00:00+00:00",
+          "cache_sha256": "25286e8171cdbd0ac82f8d46b6b8f348ea99d83d290f8f10ca7c5174b1cfa0ab"
+        }
+      },
+      "joint_start": "2021-06-17T15:00:00+00:00",
+      "joint_end": "2026-11-14T10:00:00+00:00",
+      "joint_rows": 47420
+    },
+    "4h": {
+      "joint": {
+        "BTC": {
+          "rows": 11855,
+          "start": "2021-06-17T12:00:00+00:00",
+          "end": "2026-11-14T04:00:00+00:00"
+        },
+        "ETH": {
+          "rows": 11855,
+          "start": "2021-06-17T12:00:00+00:00",
+          "end": "2026-11-14T04:00:00+00:00"
+        },
+        "SOL": {
+          "rows": 11855,
+          "start": "2021-06-17T12:00:00+00:00",
+          "end": "2026-11-14T04:00:00+00:00"
+        },
+        "XRP": {
+          "rows": 11855,
+          "start": "2021-06-17T12:00:00+00:00",
+          "end": "2026-11-14T04:00:00+00:00"
+        }
+      },
+      "per_asset_from_2018_or_listing": {
+        "BTC": {
+          "rows": 19436,
+          "start": "2018-01-01T00:00:00+00:00",
+          "end": "2026-11-14T04:00:00+00:00",
+          "cache_sha256": "206ac3b310b925fcf2982ef0603a3c81df71bbd7a6b24dd0d5bb4a2a50d2cc5e"
+        },
+        "ETH": {
+          "rows": 19436,
+          "start": "2018-01-01T00:00:00+00:00",
+          "end": "2026-11-14T04:00:00+00:00",
+          "cache_sha256": "0a71c2e6401cbb421428e995f4b3013dab34c3e5dc3e6bd844e425def3de869f"
+        },
+        "SOL": {
+          "rows": 11855,
+          "start": "2021-06-17T12:00:00+00:00",
+          "end": "2026-11-14T04:00:00+00:00",
+          "cache_sha256": "94e9206674f46122b5e062fd4be22de7325b848d3e7587c9a7352dd4db92dbb5"
+        },
+        "XRP": {
+          "rows": 19436,
+          "start": "2018-01-01T00:00:00+00:00",
+          "end": "2026-11-14T04:00:00+00:00",
+          "cache_sha256": "5f1dc713dcfa5e97982ecbb6b56d23b7b3cb85c37a427a2f65a1fd303c6cbb5d"
+        }
+      },
+      "joint_start": "2021-06-17T12:00:00+00:00",
+      "joint_end": "2026-11-14T04:00:00+00:00",
+      "joint_rows": 11855
+    }
+  },
+  "cross_check": {
+    "path": "/agent/repos/orca/research/closes.csv",
+    "present": false,
+    "pairs": {}
+  },
+  "sample": [
+    "data/crypto/sample/1h_closes_sample.csv",
+    "data/crypto/sample/4h_closes_sample.csv"
+  ]
+}

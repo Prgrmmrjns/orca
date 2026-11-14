@@ -1,0 +1,9 @@
+id: dl_patchtst_4h
+title: PatchTST 4h
+workspace: orca-dl-patchtst
+kind: patchtst
+mode: paper
+capital_eur: 1000
+bar: 4h
+universe: [BTC, ETH, SOL, XRP]
+checkpoint: crypto/checkpoints/patchtst.onnx

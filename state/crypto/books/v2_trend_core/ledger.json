@@ -1,0 +1,26 @@
+{
+  "mode": "paper",
+  "book_id": "v2_trend_core",
+  "strategy": "v2_trend_core",
+  "strategy_title": "V2 trend core",
+  "kind": "trend",
+  "workspace": "orca-v2-trend-core",
+  "base_currency": "EUR",
+  "note": "Paper only. Book `v2_trend_core` workspace `orca-v2-trend-core`. No live orders, no API key.",
+  "start_date": "2026-11-14",
+  "start_capital_eur": 1000.0,
+  "eur_usd_start": 1.10086,
+  "cash_usd": 1100.86,
+  "positions": {},
+  "fills": [],
+  "high_water_eur": 1000.0,
+  "last_rebalance": null,
+  "last_target": {
+    "BTC": 0.0,
+    "ETH": 0.0,
+    "SOL": 0.0,
+    "XRP": 0.0
+  },
+  "equity_eur": 1000.0,
+  "equity_usd": 1100.86
+}
