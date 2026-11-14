@@ -40,7 +40,7 @@
     {
       "day": "2026-11-13",
       "equity_eur": 1000.0,
-      "spy_eur": 1021.61,
+      "spy_eur": 1021.18,
       "cash_eur": 1000.0,
       "n_open": 0
     }
@@ -63,12 +63,6 @@
       "spy_eur": 1021.18,
       "spy_usd": 757.12,
       "eur_usd": 1.10952
-    },
-    {
-      "day": "2026-11-13",
-      "spy_eur": 1021.61,
-      "spy_usd": 754.37,
-      "eur_usd": 1.10502
     }
   ],
   "cost_pct": 0.005,
@@ -79,8 +73,8 @@
   "stop_loss": null,
   "prefer_open": true,
   "max_open": 15,
-  "last_run": "2026-11-14T00:59:01Z",
-  "last_reason": "engine[guidance_raise_tuned]: auto=0 ingested=0 fills=0 closed=0 open=0 session=after",
+  "last_run": "2026-11-14T01:28:07Z",
+  "last_reason": "engine[guidance_raise_tuned]: auto=0 ingested=0 fills=0 closed=0 open=0 session=closed",
   "max_per_ticker": 1,
   "max_gross_exposure_pct": 0.75,
   "allow_shorts": false,
