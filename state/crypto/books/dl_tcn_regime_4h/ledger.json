@@ -1,0 +1,92 @@
+{
+  "mode": "paper",
+  "book_id": "dl_tcn_regime_4h",
+  "strategy": "dl_tcn_regime_4h",
+  "strategy_title": "Causal TCN 4h",
+  "kind": "tcn",
+  "workspace": "orca-dl-tcn",
+  "base_currency": "EUR",
+  "note": "Paper only. Book `dl_tcn_regime_4h` workspace `orca-dl-tcn`. No live orders, no API key.",
+  "start_date": "2026-11-14",
+  "start_capital_eur": 1000.0,
+  "eur_usd_start": 1.10086,
+  "cash_usd": 142.5846,
+  "positions": {
+    "SOL": {
+      "units": 3.15598464,
+      "avg_cost_usd": 75.81
+    },
+    "ETH": {
+      "units": 0.1254405,
+      "avg_cost_usd": 1907.47
+    },
+    "BTC": {
+      "units": 0.00356439,
+      "avg_cost_usd": 67221.2
+    },
+    "XRP": {
+      "units": 242.33900289,
+      "avg_cost_usd": 0.99094
+    }
+  },
+  "fills": [
+    {
+      "time": "2026-11-14T11:23:06Z",
+      "side": "buy",
+      "pair": "SOL/USD",
+      "price": 75.81,
+      "units": 3.15598464,
+      "notional_usd": 239.26,
+      "fee_usd": 0.0,
+      "notional_eur": 217.33,
+      "eur_usd": 1.10086,
+      "reason": "dl_tcn_regime_4h"
+    },
+    {
+      "time": "2026-11-14T11:23:06Z",
+      "side": "buy",
+      "pair": "ETH/USD",
+      "price": 1907.47,
+      "units": 0.1254405,
+      "notional_usd": 239.27,
+      "fee_usd": 0.0,
+      "notional_eur": 217.35,
+      "eur_usd": 1.10086,
+      "reason": "dl_tcn_regime_4h"
+    },
+    {
+      "time": "2026-11-14T11:23:06Z",
+      "side": "buy",
+      "pair": "BTC/USD",
+      "price": 67221.2,
+      "units": 0.00356439,
+      "notional_usd": 239.6,
+      "fee_usd": 0.0,
+      "notional_eur": 217.65,
+      "eur_usd": 1.10086,
+      "reason": "dl_tcn_regime_4h"
+    },
+    {
+      "time": "2026-11-14T11:23:06Z",
+      "side": "buy",
+      "pair": "XRP/USD",
+      "price": 0.99094,
+      "units": 242.33900289,
+      "notional_usd": 240.14,
+      "fee_usd": 0.0,
+      "notional_eur": 218.14,
+      "eur_usd": 1.10086,
+      "reason": "dl_tcn_regime_4h"
+    }
+  ],
+  "high_water_eur": 1000.01,
+  "last_rebalance": "2026-11-14",
+  "last_target": {
+    "BTC": 0.217651,
+    "ETH": 0.217352,
+    "SOL": 0.217335,
+    "XRP": 0.218142
+  },
+  "equity_eur": 1000.01,
+  "equity_usd": 1100.87
+}

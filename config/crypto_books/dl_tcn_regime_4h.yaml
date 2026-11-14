@@ -1,0 +1,9 @@
+id: dl_tcn_regime_4h
+title: Causal TCN 4h
+workspace: orca-dl-tcn
+kind: tcn
+mode: paper
+capital_eur: 1000
+bar: 4h
+universe: [BTC, ETH, SOL, XRP]
+checkpoint: crypto/checkpoints/tcn.onnx

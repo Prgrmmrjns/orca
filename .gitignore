@@ -25,3 +25,6 @@ research/closes.csv
 stocks/data/cache/
 stocks/data/raw/
 *.parquet
+# Kraken OHLCVT zips and full crypto panels (rebuild: python -m crypto data)
+data/crypto/raw/
+data/crypto/cache/
