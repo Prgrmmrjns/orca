@@ -1,11 +1,11 @@
 {
   "mode": "paper",
-  "as_of": "2026-11-14T20:48:50Z",
-  "as_of_et": "2026-11-14 15:48 ET",
+  "as_of": "2026-11-15T00:30:06Z",
+  "as_of_et": "2026-11-14 19:30 ET",
   "rolling_hours": 72,
-  "n_items": 375,
+  "n_items": 378,
   "n_actionable": 24,
-  "n_with_ticker": 114,
+  "n_with_ticker": 116,
   "sources": [
     "prnewswire",
     "prnewswire_financial",
@@ -19,6 +19,94 @@
   "note": "Paper news feed. Keyword tagging is heuristic. Shorts have no borrow model. RSS/EDGAR can lag minutes\u2013hours.",
   "items": [
     {
+      "id": "ea62038c990a54db",
+      "source": "prnewswire",
+      "title": "Uber Data Breach Investigation: Edelson Lechtzin LLP Probes Class Action Claims After Driver Data Is Exposed",
+      "summary": "National class action law firm offers free, confidential case evaluations to Uber drivers and others whose personal information may have been exposed in the reported data breach. NEWTOWN, Pa., Nov. 14, 2026 /PRNewswire/ -- Edelson Lechtzin LLP, a national class action law firm, is...",
+      "url": "https://www.prnewswire.com/news-releases/uber-data-breach-investigation-edelson-lechtzin-llp-probes-class-action-claims-after-driver-data-is-exposed-302939593.html",
+      "published_at": "2026-11-15T00:06:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-15T00:30:02Z"
+    },
+    {
+      "id": "303af2187e9e3a40",
+      "source": "prnewswire",
+      "title": "EZaccessMD Data Breach Investigation: Edelson Lechtzin LLP Probes Class Action Claims After Patient Data Is Exposed",
+      "summary": "National class action law firm offers free, confidential case evaluations to EZaccessMD patients and others whose personal information may have been exposed in the reported data breach. NEWTOWN, Pa., Nov. 14, 2026 /PRNewswire/ -- Edelson Lechtzin LLP, a national class action law firm, is...",
+      "url": "https://www.prnewswire.com/news-releases/ezaccessmd-data-breach-investigation-edelson-lechtzin-llp-probes-class-action-claims-after-patient-data-is-exposed-302939591.html",
+      "published_at": "2026-11-14T23:55:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-15T00:30:02Z"
+    },
+    {
+      "id": "4a52629e0f067adf",
+      "source": "marketwatch",
+      "title": "SpaceX successfully catches Starship rocket in huge milestone for the space industry",
+      "summary": "The historic first gets SpaceX closer to \u201crapid reusability\u201d of rockets.",
+      "url": "https://www.marketwatch.com/story/spacex-successfully-catches-starship-rocket-in-huge-milestone-for-the-space-industry-f42c136c?mod=mw_rss_topstories",
+      "published_at": "2026-11-14T23:34:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-15T00:30:05Z"
+    },
+    {
+      "id": "e27d1d4333da9f23",
+      "source": "marketwatch",
+      "title": "I\u2019m 63 and spending $95,000 on a roof deck for my $500,000 home. Is that a good investment?",
+      "summary": "\u201cI have a net worth of $2.3 million and my only debt is a 15-year mortgage.\u201d",
+      "url": "https://www.marketwatch.com/story/im-63-and-want-to-spend-95-000-on-a-roof-deck-for-my-500-000-home-is-that-a-good-investment-f1a59c27?mod=mw_rss_topstories",
+      "published_at": "2026-11-14T21:31:00Z",
+      "tickers": [
+        "I"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-15T00:30:05Z"
+    },
+    {
+      "id": "21a470626adeab7d",
+      "source": "prnewswire",
+      "title": "HONGQI EHS4 Set for Global Debut in Venice: Eastern Elegance Arrives in Europe",
+      "summary": "VENICE, Italy, Nov. 14, 2026 /PRNewswire/ -- HONGQI, one of China's leading automotive marques, will introduce its all-new all-electric SUV, HONGQI EHS4, to the European market. Making its global debut in Venice, Italy, on 16 November 2026, the EHS4 marks another milestone in the brand's...",
+      "url": "https://www.prnewswire.com/news-releases/hongqi-ehs4-set-for-global-debut-in-venice-eastern-elegance-arrives-in-europe-302939551.html",
+      "published_at": "2026-11-14T21:15:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-15T00:30:02Z"
+    },
+    {
+      "id": "b3f3af27826f6cb6",
+      "source": "marketwatch",
+      "title": "I inherited $1.4 million from my father. Am I wrong to ask my husband of 25 years for a postnuptial agreement?",
+      "summary": "\u201cHe has always said he wants his daughter to inherit a chunk of his estate, and I\u2019ve never objected to that.\u201d",
+      "url": "https://www.marketwatch.com/story/i-inherited-1-4-million-from-my-father-am-i-wrong-to-ask-my-husband-of-25-years-for-a-postnuptial-agreement-b739c51d?mod=mw_rss_topstories",
+      "published_at": "2026-11-14T21:00:00Z",
+      "tickers": [
+        "I"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-15T00:30:05Z"
+    },
+    {
       "id": "be6358caa48e1852",
       "source": "prnewswire",
       "title": "Servier Presents Updated Four-Year Results from Phase 2 FIREFLY-1 Study of OJEMDA\u00ae (tovorafenib) in Pediatric Low-Grade Glioma (pLGG) at SNO 2026",
@@ -30,7 +118,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:46Z"
+      "scanned_at": "2026-11-15T00:30:02Z"
     },
     {
       "id": "9e697f6e036e986b",
@@ -46,7 +134,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:46Z"
+      "scanned_at": "2026-11-15T00:30:02Z"
     },
     {
       "id": "c6ad268a10c46cba",
@@ -62,7 +150,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:47Z"
+      "scanned_at": "2026-11-15T00:30:03Z"
     },
     {
       "id": "e35edd1a627efb49",
@@ -76,7 +164,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:46Z"
+      "scanned_at": "2026-11-15T00:30:02Z"
     },
     {
       "id": "72c9d347396b19ac",
@@ -90,7 +178,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:49Z"
+      "scanned_at": "2026-11-15T00:30:05Z"
     },
     {
       "id": "d75bec2b43fecb96",
@@ -104,7 +192,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:49Z"
+      "scanned_at": "2026-11-15T00:30:05Z"
     },
     {
       "id": "fc8adf3db07593d0",
@@ -118,7 +206,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:49Z"
+      "scanned_at": "2026-11-15T00:30:05Z"
     },
     {
       "id": "186b9c18f857136b",
@@ -174,7 +262,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:46Z"
+      "scanned_at": "2026-11-15T00:30:02Z"
     },
     {
       "id": "98ee64aa327de9c2",
@@ -188,7 +276,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:46Z"
+      "scanned_at": "2026-11-15T00:30:02Z"
     },
     {
       "id": "366ca3d99f445ca2",
@@ -202,7 +290,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:46Z"
+      "scanned_at": "2026-11-15T00:30:02Z"
     },
     {
       "id": "9156eee698b16fdb",
@@ -216,7 +304,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:46Z"
+      "scanned_at": "2026-11-15T00:30:02Z"
     },
     {
       "id": "512b64f3e838be96",
@@ -230,7 +318,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:46Z"
+      "scanned_at": "2026-11-15T00:30:02Z"
     },
     {
       "id": "6d9f6822c5f0bd0f",
@@ -244,7 +332,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:46Z"
+      "scanned_at": "2026-11-15T00:30:02Z"
     },
     {
       "id": "c94f94de4d165dfe",
@@ -260,7 +348,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:46Z"
+      "scanned_at": "2026-11-15T00:30:02Z"
     },
     {
       "id": "bb38c3058c571fa2",
@@ -274,7 +362,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:46Z"
+      "scanned_at": "2026-11-15T00:30:02Z"
     },
     {
       "id": "e43a35581a6a1c74",
@@ -288,7 +376,7 @@
       "direction": "bullish",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:46Z"
+      "scanned_at": "2026-11-15T00:30:02Z"
     },
     {
       "id": "0594e6f98ddb13b5",
@@ -302,7 +390,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:49Z"
+      "scanned_at": "2026-11-15T00:30:05Z"
     },
     {
       "id": "bf644e7f0f8c93c5",
@@ -316,7 +404,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:46Z"
+      "scanned_at": "2026-11-15T00:30:02Z"
     },
     {
       "id": "5bf48a78d4efbfac",
@@ -333,7 +421,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:46Z"
+      "scanned_at": "2026-11-15T00:30:02Z"
     },
     {
       "id": "2925f8b42723f1c7",
@@ -350,7 +438,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:47Z"
+      "scanned_at": "2026-11-15T00:30:03Z"
     },
     {
       "id": "3bf63055f3d8ddc6",
@@ -364,7 +452,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:48Z"
+      "scanned_at": "2026-11-15T00:30:04Z"
     },
     {
       "id": "44892c1ba75abb2e",
@@ -380,7 +468,7 @@
       "direction": "bearish",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:46Z"
+      "scanned_at": "2026-11-15T00:30:02Z"
     },
     {
       "id": "71938098884ed5a3",
@@ -408,7 +496,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:46Z"
+      "scanned_at": "2026-11-15T00:30:02Z"
     },
     {
       "id": "10fbcabefd0910ca",
@@ -422,7 +510,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:46Z"
+      "scanned_at": "2026-11-15T00:30:02Z"
     },
     {
       "id": "4f5b1e0f448c985a",
@@ -454,7 +542,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:47Z"
+      "scanned_at": "2026-11-15T00:30:03Z"
     },
     {
       "id": "454bac7cbf1f3099",
@@ -588,7 +676,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:48Z"
+      "scanned_at": "2026-11-15T00:30:03Z"
     },
     {
       "id": "bd2aeb7c8c6442c9",
@@ -630,7 +718,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:48Z"
+      "scanned_at": "2026-11-15T00:30:03Z"
     },
     {
       "id": "69e914beb2c8edef",
@@ -644,7 +732,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:48Z"
+      "scanned_at": "2026-11-15T00:30:04Z"
     },
     {
       "id": "c05645d153e4da3c",
@@ -820,7 +908,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:47Z"
+      "scanned_at": "2026-11-15T00:30:03Z"
     },
     {
       "id": "ddd62e01ae00b08d",
@@ -1188,7 +1276,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:47Z"
+      "scanned_at": "2026-11-15T00:30:03Z"
     },
     {
       "id": "7093301db28c866d",
@@ -1216,7 +1304,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:48Z"
+      "scanned_at": "2026-11-15T00:30:04Z"
     },
     {
       "id": "129a987691af23fb",
@@ -1280,7 +1368,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:47Z"
+      "scanned_at": "2026-11-15T00:30:03Z"
     },
     {
       "id": "9ab12a1b5d2eddc6",
@@ -1340,7 +1428,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:47Z"
+      "scanned_at": "2026-11-15T00:30:03Z"
     },
     {
       "id": "973f0fc80d312446",
@@ -1372,7 +1460,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:47Z"
+      "scanned_at": "2026-11-15T00:30:03Z"
     },
     {
       "id": "b6f97ab8cca0d988",
@@ -1418,7 +1506,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:47Z"
+      "scanned_at": "2026-11-15T00:30:03Z"
     },
     {
       "id": "0e28831c4ae3cd72",
@@ -1433,7 +1521,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:46Z"
+      "scanned_at": "2026-11-15T00:30:02Z"
     },
     {
       "id": "fa65e72df64dfe3f",
@@ -1461,7 +1549,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:47Z"
+      "scanned_at": "2026-11-15T00:30:03Z"
     },
     {
       "id": "d20c87e4d730c495",
@@ -1476,7 +1564,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:46Z"
+      "scanned_at": "2026-11-15T00:30:02Z"
     },
     {
       "id": "d7b0e34af737a70f",
@@ -1491,7 +1579,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:46Z"
+      "scanned_at": "2026-11-15T00:30:02Z"
     },
     {
       "id": "8022d5ed4737bb63",
@@ -1506,7 +1594,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:46Z"
+      "scanned_at": "2026-11-15T00:30:02Z"
     },
     {
       "id": "8bc4c4a6282b2c5c",
@@ -1521,7 +1609,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-14T20:48:46Z"
+      "scanned_at": "2026-11-15T00:30:02Z"
     },
     {
       "id": "c1afe3e311fe2530",
@@ -1536,7 +1624,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-14T20:48:46Z"
+      "scanned_at": "2026-11-15T00:30:02Z"
     },
     {
       "id": "68831d56eef55e90",
@@ -1551,7 +1639,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:46Z"
+      "scanned_at": "2026-11-15T00:30:02Z"
     },
     {
       "id": "ede6743168914110",
@@ -1566,7 +1654,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:46Z"
+      "scanned_at": "2026-11-15T00:30:02Z"
     },
     {
       "id": "59c2ab01f0b57435",
@@ -1581,7 +1669,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:46Z"
+      "scanned_at": "2026-11-15T00:30:02Z"
     },
     {
       "id": "ad3879833d7bea53",
@@ -1596,7 +1684,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:46Z"
+      "scanned_at": "2026-11-15T00:30:02Z"
     },
     {
       "id": "19619a17ec3ab931",
@@ -1611,7 +1699,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:46Z"
+      "scanned_at": "2026-11-15T00:30:02Z"
     },
     {
       "id": "9e71c7f7d83ceb71",
@@ -1626,7 +1714,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-14T20:48:46Z"
+      "scanned_at": "2026-11-15T00:30:02Z"
     },
     {
       "id": "0c6e6defb1f8d5a8",
@@ -1641,7 +1729,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:46Z"
+      "scanned_at": "2026-11-15T00:30:02Z"
     },
     {
       "id": "1109a0ebb3826b56",
@@ -1656,7 +1744,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:46Z"
+      "scanned_at": "2026-11-15T00:30:02Z"
     },
     {
       "id": "bc5be7b5bef55c4e",
@@ -1671,7 +1759,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:46Z"
+      "scanned_at": "2026-11-15T00:30:02Z"
     },
     {
       "id": "590cc58e8001fbee",
@@ -1686,7 +1774,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:46Z"
+      "scanned_at": "2026-11-15T00:30:02Z"
     },
     {
       "id": "9a95371b25f2d26d",
@@ -1701,7 +1789,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:46Z"
+      "scanned_at": "2026-11-15T00:30:02Z"
     },
     {
       "id": "b2eb73a22cdde2dd",
@@ -1716,7 +1804,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-14T20:48:46Z"
+      "scanned_at": "2026-11-15T00:30:02Z"
     },
     {
       "id": "2a3c1ff26b443f6b",
@@ -1731,7 +1819,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:46Z"
+      "scanned_at": "2026-11-15T00:30:02Z"
     },
     {
       "id": "bbda84808136838e",
@@ -1746,7 +1834,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:46Z"
+      "scanned_at": "2026-11-15T00:30:02Z"
     },
     {
       "id": "9e86d7e87c3bbed7",
@@ -1761,7 +1849,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:46Z"
+      "scanned_at": "2026-11-15T00:30:02Z"
     },
     {
       "id": "d3133c601aa513dc",
@@ -1776,7 +1864,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:46Z"
+      "scanned_at": "2026-11-15T00:30:02Z"
     },
     {
       "id": "6dbf30347f4dba87",
@@ -1791,7 +1879,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:46Z"
+      "scanned_at": "2026-11-15T00:30:02Z"
     },
     {
       "id": "ee0f7bb6c8b4a4cd",
@@ -1806,7 +1894,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-14T20:48:46Z"
+      "scanned_at": "2026-11-15T00:30:02Z"
     },
     {
       "id": "91853671c64e688f",
@@ -1870,7 +1958,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:46Z"
+      "scanned_at": "2026-11-15T00:30:02Z"
     },
     {
       "id": "c028a5247a7210e7",
@@ -1885,7 +1973,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:46Z"
+      "scanned_at": "2026-11-15T00:30:02Z"
     },
     {
       "id": "68408ab09e198486",
@@ -1900,7 +1988,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:46Z"
+      "scanned_at": "2026-11-15T00:30:02Z"
     },
     {
       "id": "479ccddbddb17350",
@@ -1915,7 +2003,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:46Z"
+      "scanned_at": "2026-11-15T00:30:02Z"
     },
     {
       "id": "3732dff0d735d792",
@@ -1930,7 +2018,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:46Z"
+      "scanned_at": "2026-11-15T00:30:02Z"
     },
     {
       "id": "1aa40b7d1b73fdcb",
@@ -1961,7 +2049,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:46Z"
+      "scanned_at": "2026-11-15T00:30:02Z"
     },
     {
       "id": "709d172a7e4ff485",
@@ -1990,7 +2078,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:46Z"
+      "scanned_at": "2026-11-15T00:30:02Z"
     },
     {
       "id": "a50685ab445736ea",
@@ -2033,7 +2121,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:46Z"
+      "scanned_at": "2026-11-15T00:30:02Z"
     },
     {
       "id": "0f2a8dc9745e69b9",
@@ -2048,7 +2136,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:46Z"
+      "scanned_at": "2026-11-15T00:30:02Z"
     },
     {
       "id": "be276c0d4f1cae41",
@@ -2079,7 +2167,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:46Z"
+      "scanned_at": "2026-11-15T00:30:02Z"
     },
     {
       "id": "f0896bc769b02012",
@@ -2094,7 +2182,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:46Z"
+      "scanned_at": "2026-11-15T00:30:02Z"
     },
     {
       "id": "677db1b3c780327e",
@@ -2109,7 +2197,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:46Z"
+      "scanned_at": "2026-11-15T00:30:02Z"
     },
     {
       "id": "a5e277c31c383672",
@@ -2124,7 +2212,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:46Z"
+      "scanned_at": "2026-11-15T00:30:02Z"
     },
     {
       "id": "043ad3cac0875e66",
@@ -2139,7 +2227,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:46Z"
+      "scanned_at": "2026-11-15T00:30:02Z"
     },
     {
       "id": "5787d3562bf68bb7",
@@ -2154,7 +2242,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:46Z"
+      "scanned_at": "2026-11-15T00:30:02Z"
     },
     {
       "id": "a22ac6952506665b",
@@ -2169,7 +2257,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:46Z"
+      "scanned_at": "2026-11-15T00:30:02Z"
     },
     {
       "id": "a0772c7a54902a13",
@@ -2227,7 +2315,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:47Z"
+      "scanned_at": "2026-11-15T00:30:03Z"
     },
     {
       "id": "20a14b1427f01915",
@@ -2271,7 +2359,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:47Z"
+      "scanned_at": "2026-11-15T00:30:03Z"
     },
     {
       "id": "49174537e3322a23",
@@ -2305,7 +2393,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:47Z"
+      "scanned_at": "2026-11-15T00:30:03Z"
     },
     {
       "id": "5ca1d6f4c5b8894d",
@@ -2405,7 +2493,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:47Z"
+      "scanned_at": "2026-11-15T00:30:03Z"
     },
     {
       "id": "7c5d4775cd2eb6b1",
@@ -2438,7 +2526,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:47Z"
+      "scanned_at": "2026-11-15T00:30:03Z"
     },
     {
       "id": "92552074b57f3eef",
@@ -2454,7 +2542,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:47Z"
+      "scanned_at": "2026-11-15T00:30:03Z"
     },
     {
       "id": "f8eb5f66676e4ef4",
@@ -2482,7 +2570,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:47Z"
+      "scanned_at": "2026-11-15T00:30:03Z"
     },
     {
       "id": "b62541c45fd76fa1",
@@ -2498,7 +2586,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:47Z"
+      "scanned_at": "2026-11-15T00:30:03Z"
     },
     {
       "id": "64a9ff4df05df75c",
@@ -2514,7 +2602,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:47Z"
+      "scanned_at": "2026-11-15T00:30:03Z"
     },
     {
       "id": "23788f63f3197bbd",
@@ -2546,7 +2634,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:47Z"
+      "scanned_at": "2026-11-15T00:30:03Z"
     },
     {
       "id": "e6d92441563f818a",
@@ -2560,7 +2648,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:49Z"
+      "scanned_at": "2026-11-15T00:30:05Z"
     },
     {
       "id": "3cc55358c2dee577",
@@ -3856,7 +3944,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:49Z"
+      "scanned_at": "2026-11-15T00:30:05Z"
     },
     {
       "id": "14fafc43bef8e06f",
@@ -3929,7 +4017,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:49Z"
+      "scanned_at": "2026-11-15T00:30:05Z"
     },
     {
       "id": "e28f44348e4f2d93",
@@ -4235,7 +4323,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:48Z"
+      "scanned_at": "2026-11-15T00:30:04Z"
     },
     {
       "id": "ff4c80411f305bab",
@@ -5715,7 +5803,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:48Z"
+      "scanned_at": "2026-11-15T00:30:04Z"
     },
     {
       "id": "bfadabbd1327e27d",
@@ -5729,7 +5817,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:48Z"
+      "scanned_at": "2026-11-15T00:30:04Z"
     },
     {
       "id": "9d88ba8eed76a2fe",
@@ -5743,7 +5831,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:48Z"
+      "scanned_at": "2026-11-15T00:30:03Z"
     },
     {
       "id": "08212cbeb90633da",
@@ -5757,7 +5845,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:48Z"
+      "scanned_at": "2026-11-15T00:30:04Z"
     },
     {
       "id": "8e3f16d7edde3ef5",
@@ -5771,7 +5859,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:48Z"
+      "scanned_at": "2026-11-15T00:30:03Z"
     },
     {
       "id": "c727f831795e5f01",
@@ -5785,49 +5873,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T20:48:48Z"
-    },
-    {
-      "id": "37afaf8e8895a88c",
-      "source": "cnbc_business",
-      "title": "Feds arrest top official of healthcare company, alleging illegal drug importation",
-      "summary": "U.S. officials are accusing two top officials of a Canadian company of operating a scheme to illegally import prescription drugs, court records show.",
-      "url": "https://www.cnbc.com/2026/11/11/canarx-official-arrested-drug-importation.html",
-      "published_at": "2026-11-11T22:58:11Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-14T20:48:48Z"
-    },
-    {
-      "id": "528efea6b1b45228",
-      "source": "cnbc_business",
-      "title": "American Airlines brings fresh food back to NY-Chicago first class for first time since 2019",
-      "summary": "American Airlines' first-class food options include sandwiches, fruit and chia bowls",
-      "url": "https://www.cnbc.com/2026/11/11/american-airlines-first-class-chicago-new-york.html",
-      "published_at": "2026-11-11T22:20:58Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-14T20:48:48Z"
-    },
-    {
-      "id": "e55933a0c798bad9",
-      "source": "cnbc_business",
-      "title": "JetBlue unveils new first-class seats to bring back profits",
-      "summary": "JetBlue gave reporters a look at its new first-class seats on Wednesday.",
-      "url": "https://www.cnbc.com/2026/11/11/jetblue-ceo-premium.html",
-      "published_at": "2026-11-11T22:10:50Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-14T20:48:48Z"
+      "scanned_at": "2026-11-15T00:30:04Z"
     }
   ]
 }
