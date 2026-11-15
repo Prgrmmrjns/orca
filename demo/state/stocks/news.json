@@ -1,11 +1,11 @@
 {
   "mode": "paper",
-  "as_of": "2026-11-15T07:08:08Z",
-  "as_of_et": "2026-11-15 02:08 ET",
+  "as_of": "2026-11-15T14:52:02Z",
+  "as_of_et": "2026-11-15 09:52 ET",
   "rolling_hours": 72,
-  "n_items": 382,
+  "n_items": 400,
   "n_actionable": 25,
-  "n_with_ticker": 118,
+  "n_with_ticker": 124,
   "sources": [
     "prnewswire",
     "prnewswire_financial",
@@ -18,6 +18,369 @@
   "errors": [],
   "note": "Paper news feed. Keyword tagging is heuristic. Shorts have no borrow model. RSS/EDGAR can lag minutes\u2013hours.",
   "items": [
+    {
+      "id": "f95c3edf899c454a",
+      "source": "prnewswire",
+      "title": "Les produits de stockage \u00e0 haute performance de KOWIN au service de la soci\u00e9t\u00e9 du tout-\u00e9lectrique",
+      "summary": "MUNICH, 15 novembre 2026 /PRNewswire/ -- Au salon electronica 2026 de Munich, en Allemagne, KOWIN a pr\u00e9sent\u00e9 sa gamme compl\u00e8te de solutions de stockage, couvrant les supports de stockage embarqu\u00e9s, les disques \u00e0 semi-conducteurs (SSD), les modules de m\u00e9moire vive dynamique (DRAM) et les...",
+      "url": "https://www.prnewswire.com/news-releases/les-produits-de-stockage-a-haute-performance-de-kowin-au-service-de-la-societe-du-tout-electrique-302939728.html",
+      "published_at": "2026-11-15T14:48:00Z",
+      "tickers": [
+        "SSD",
+        "DRAM"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-15T14:51:59Z"
+    },
+    {
+      "id": "95fd5307ccd72095",
+      "source": "prnewswire",
+      "title": "Cemig i Huawei wsp\u00f3lnie wdra\u017caj\u0105 prywatn\u0105 sie\u0107 bezprzewodow\u0105 dzia\u0142aj\u0105c\u0105 w pa\u015bmie 450 MHz",
+      "summary": "JOHANNESBURG, 15 listopada 2026 r. /PRNewswire/ -- W miar\u0119 jak us\u0142ugi sieci dystrybucyjnej stawa\u0142y si\u0119 coraz bardziej z\u0142o\u017cone, urz\u0105dzenia dystrybucyjne firmy Cemig korzysta\u0142y g\u0142\u00f3wnie z dzier\u017cawionych sieci publicznych do przesy\u0142u danych. Model ten wi\u0105za\u0142 si\u0119 jednak ze znacznym ryzykiem....",
+      "url": "https://www.prnewswire.com/news-releases/cemig-i-huawei-wspolnie-wdraaj-prywatn-sie-bezprzewodow-dziaajc-w-pamie-450-mhz-302939716.html",
+      "published_at": "2026-11-15T14:08:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-15T14:51:59Z"
+    },
+    {
+      "id": "783fa8736e6454ab",
+      "source": "prnewswire",
+      "title": "Cemig e Huawei implementano congiuntamente una rete wireless privata da 450 MHz",
+      "summary": "JOHANNESBURG, 15 novembre 2026 /PRNewswire/ -- A fronte della crescente complessit\u00e0 dei servizi delle reti di distribuzione, i dispositivi di distribuzione di Cemig facevano principalmente affidamento su reti pubbliche in leasing per il backhaul dei dati. Tuttavia, questo modello presenta...",
+      "url": "https://www.prnewswire.com/news-releases/cemig-e-huawei-implementano-congiuntamente-una-rete-wireless-privata-da-450-mhz-302939715.html",
+      "published_at": "2026-11-15T14:06:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-15T14:51:59Z"
+    },
+    {
+      "id": "c8d9d1d5f5bef36f",
+      "source": "prnewswire",
+      "title": "Cemig \u0438 Huawei \u0441\u043e\u0432\u043c\u0435\u0441\u0442\u043d\u043e \u0440\u0430\u0437\u0432\u0435\u0440\u0442\u044b\u0432\u0430\u044e\u0442 \u0447\u0430\u0441\u0442\u043d\u0443\u044e \u0431\u0435\u0441\u043f\u0440\u043e\u0432\u043e\u0434\u043d\u0443\u044e \u0441\u0435\u0442\u044c \u0432 \u0434\u0438\u0430\u043f\u0430\u0437\u043e\u043d\u0435 450 \u041c\u0413\u0446",
+      "summary": "\u0419\u041e\u0425\u0410\u041d\u041d\u0415\u0421\u0411\u0423\u0420\u0413, 15 \u043d\u043e\u044f\u0431\u0440\u044f 2026 \u0433. /PRNewswire/ -- \u041f\u043e \u043c\u0435\u0440\u0435 \u0443\u0441\u043b\u043e\u0436\u043d\u0435\u043d\u0438\u044f \u0437\u0430\u0434\u0430\u0447 \u044d\u043a\u0441\u043f\u043b\u0443\u0430\u0442\u0430\u0446\u0438\u0438 \u0440\u0430\u0441\u043f\u0440\u0435\u0434\u0435\u043b\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0445 \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u0441\u0435\u0442\u0435\u0439 \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u044f Cemig \u043f\u0440\u0435\u0438\u043c\u0443\u0449\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e \u043f\u043e\u043b\u0430\u0433\u0430\u043b\u0430\u0441\u044c \u043d\u0430 \u0430\u0440\u0435\u043d\u0434\u043e\u0432\u0430\u043d\u043d\u044b\u0435 \u043a\u0430\u043d\u0430\u043b\u044b \u0441\u0432\u044f\u0437\u0438 \u0441\u0435\u0442\u0435\u0439 \u043e\u0431\u0449\u0435\u0433\u043e \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043f\u0435\u0440\u0435\u0434\u0430\u0447\u0438 \u0434\u0430\u043d\u043d\u044b\u0445 \u043e\u0442 \u043e\u0431\u043e\u0440\u0443\u0434\u043e\u0432\u0430\u043d\u0438\u044f \u0440\u0430\u0441\u043f\u0440\u0435\u0434\u0435\u043b\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0439 \u0441\u0435\u0442\u0438. \u041e\u0434\u043d\u0430\u043a\u043e \u0442\u0430\u043a\u0430\u044f...",
+      "url": "https://www.prnewswire.com/news-releases/cemig--huawei--------450--302939714.html",
+      "published_at": "2026-11-15T14:04:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-15T14:51:59Z"
+    },
+    {
+      "id": "b16f1726eb7a1fd1",
+      "source": "prnewswire",
+      "title": "KINGRVER Offers RV Water Heater Upgrades Focused on Everyday Comfort",
+      "summary": "The CT6 lineup offers dual-fuel and propane-only options, with replacement guidance and customer support for RV owners. ELKHART, Ind., Nov. 15, 2026 /PRNewswire/ -- KINGRVER offers RV owners replacing an aging water heater a choice of 6-gallon tank models designed around everyday hot...",
+      "url": "https://www.prnewswire.com/news-releases/kingrver-offers-rv-water-heater-upgrades-focused-on-everyday-comfort-302938769.html",
+      "published_at": "2026-11-15T14:04:00Z",
+      "tickers": [],
+      "event_type": "analyst",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-15T14:51:59Z"
+    },
+    {
+      "id": "9ac1fa0c45929344",
+      "source": "prnewswire",
+      "title": "Cemig ve Huawei, 450 MHz \u00d6zel Kablosuz A\u011f\u0131 Ortakla\u015fa Kurdular",
+      "summary": "JOHANNESBURG, 15 Kas\u0131m 2026 /PRNewswire/ -- Da\u011f\u0131t\u0131m a\u011f\u0131 hizmetleri giderek daha karma\u015f\u0131k hale geldik\u00e7e, Cemig'in da\u011f\u0131t\u0131m cihazlar\u0131 veri aktar\u0131m\u0131nda esas olarak kiralanan kamu a\u011flar\u0131na ba\u011f\u0131ml\u0131 hale geldi. Ancak bu model, \u00f6nemli riskler bar\u0131nd\u0131r\u0131yordu. Kapsama eksiklikleri: Kapsama...",
+      "url": "https://www.prnewswire.com/news-releases/cemig-ve-huawei-450-mhz-ozel-kablosuz-a-ortaklaa-kurdular-302939713.html",
+      "published_at": "2026-11-15T14:01:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-15T14:51:59Z"
+    },
+    {
+      "id": "25d7a8014874b3d7",
+      "source": "prnewswire",
+      "title": "Ambrosia Biosciences Announces the Nonclinical Data Profiles of Two Oral Small Molecule Programs: A GLP-1 Receptor Agonist Intended for Once-Weekly Dosing and a GIP Receptor Antagonist",
+      "summary": "AMB-895 and AMB-131 demonstrate highly differentiated PK profiles and robust efficacy in preclinical models The data were shared as poster presentations at ObesityWeek\u00ae 2026 BOULDER, Colo., Nov. 15, 2026 /PRNewswire/ -- Ambrosia Biosciences Inc. (\"Ambrosia\"), today announced nonclinical...",
+      "url": "https://www.prnewswire.com/news-releases/ambrosia-biosciences-announces-the-nonclinical-data-profiles-of-two-oral-small-molecule-programs-a-glp-1-receptor-agonist-intended-for-once-weekly-dosing-and-a-gip-receptor-antagonist-302939600.html",
+      "published_at": "2026-11-15T14:00:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-15T14:51:59Z"
+    },
+    {
+      "id": "1b654c48336e8ec4",
+      "source": "marketwatch",
+      "title": "Will the Anthropic IPO create a disturbance in the broader U.S. equity market, like SpaceX did?",
+      "summary": "SpaceX\u2019s offering coincided with the June peak in semiconductors.",
+      "url": "https://www.marketwatch.com/story/will-the-anthropic-ipo-create-a-disturbance-in-the-broader-u-s-equity-market-like-spacex-did-05ba4351?mod=mw_rss_topstories",
+      "published_at": "2026-11-15T14:00:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-15T14:52:01Z"
+    },
+    {
+      "id": "cf052f43a8f65794",
+      "source": "prnewswire",
+      "title": "Cemig en Huawei lanceren gezamenlijk een 450 MHz besloten draadloos netwerk",
+      "summary": "JOHANNESBURG, 15 november 2026 /PRNewswire/ -- In een context van diensten van distributienetwerken die steeds complexer werden, vertrouwden de distributieapparaten van Cemig voornamelijk op gehuurde openbare netwerken voor data backhaul. Dit model bracht echter aanzienlijke risico's met...",
+      "url": "https://www.prnewswire.com/news-releases/cemig-en-huawei-lanceren-gezamenlijk-een-450-mhz-besloten-draadloos-netwerk-302939711.html",
+      "published_at": "2026-11-15T13:59:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-15T14:51:59Z"
+    },
+    {
+      "id": "b3f452fe62843005",
+      "source": "prnewswire",
+      "title": "Cemig a Huawei spolo\u010dne zav\u00e1dzaj\u00fa s\u00fakromn\u00fa bezdr\u00f4tov\u00fa sie\u0165 s frekvenciou 450 MHz",
+      "summary": "JOHANNESBURG, 15. novembra 2026 /PRNewswire/ -- S rast\u00facou zlo\u017eitos\u0165ou slu\u017eieb distribu\u010dnej siete sa distribu\u010dn\u00e9 zariadenia spolo\u010dnosti Cemig pri prenose d\u00e1t spoliehali predov\u0161etk\u00fdm na prenajat\u00e9 verejn\u00e9 siete. Tento model v\u0161ak predstavoval zna\u010dn\u00e9 rizik\u00e1. Nedostatky v pokryt\u00ed: pokrytie...",
+      "url": "https://www.prnewswire.com/news-releases/cemig-a-huawei-spolone-zavadzaju-sukromnu-bezdrotovu-sie-s-frekvenciou-450-mhz-302939710.html",
+      "published_at": "2026-11-15T13:57:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-15T14:51:59Z"
+    },
+    {
+      "id": "0eb6c154bb348e88",
+      "source": "prnewswire",
+      "title": "Cemig und Huawei f\u00fchren gemeinsam ein privates 450-MHz-Funknetzwerk ein",
+      "summary": "JOHANNESBURG, 15. November 2026 /PRNewswire/ -- Da die Dienste im Stromverteilungsnetz zunehmend komplexer wurden, waren die Ger\u00e4te von Cemig f\u00fcr die R\u00fcck\u00fcbertragung von Daten haupts\u00e4chlich auf angemietete \u00f6ffentliche Netze angewiesen. Dieses Modell barg jedoch erhebliche Risiken....",
+      "url": "https://www.prnewswire.com/news-releases/cemig-und-huawei-fuhren-gemeinsam-ein-privates-450-mhz-funknetzwerk-ein-302939709.html",
+      "published_at": "2026-11-15T13:55:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-15T14:51:59Z"
+    },
+    {
+      "id": "3f8b3779de25f3bb",
+      "source": "prnewswire",
+      "title": "Cemig et Huawei d\u00e9ploient conjointement un r\u00e9seau sans fil priv\u00e9 de 450 MHz",
+      "summary": "JOHANNESBOURG, 15 novembre 2026 /PRNewswire/ -- Alors que les services de r\u00e9seau de distribution devenaient de plus en plus complexes, les dispositifs de distribution de Cemig s'appuyaient principalement sur des r\u00e9seaux publics lou\u00e9s pour le transport des donn\u00e9es. Cependant, ce mod\u00e8le...",
+      "url": "https://www.prnewswire.com/news-releases/cemig-et-huawei-deploient-conjointement-un-reseau-sans-fil-prive-de-450-mhz-302939708.html",
+      "published_at": "2026-11-15T13:53:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-15T14:51:59Z"
+    },
+    {
+      "id": "983e6e5619e2786c",
+      "source": "prnewswire",
+      "title": "Cemig y Huawei implementan conjuntamente una red inal\u00e1mbrica privada de 450 MHz",
+      "summary": "JOHANNESBURGO, 15 de noviembre de 2026 /PRNewswire/ -- A medida que los servicios de la red de distribuci\u00f3n se volv\u00edan cada vez m\u00e1s complejos, los dispositivos de distribuci\u00f3n de Cemig depend\u00edan principalmente de redes p\u00fablicas alquiladas para la transmisi\u00f3n de datos. Sin embargo, este...",
+      "url": "https://www.prnewswire.com/news-releases/cemig-y-huawei-implementan-conjuntamente-una-red-inalambrica-privada-de-450-mhz-302939706.html",
+      "published_at": "2026-11-15T13:48:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-15T14:51:59Z"
+    },
+    {
+      "id": "34707af03c64e01b",
+      "source": "prnewswire",
+      "title": "JOYEE N01 \u0441\u043e\u0448\u0451\u043b \u0441 \u043a\u043e\u043d\u0432\u0435\u0439\u0435\u0440\u0430 \u0433\u043b\u043e\u0431\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432\u0430 -- \u0441\u043e\u0441\u0442\u043e\u044f\u043b\u0430\u0441\u044c \u0446\u0435\u0440\u0435\u043c\u043e\u043d\u0438\u044f \u043f\u0435\u0440\u0435\u0434\u0430\u0447\u0438 \u043f\u0435\u0440\u0432\u043e\u0439 \u043f\u0430\u0440\u0442\u0438\u0438 \u0438\u0437 2000 \u0437\u0430\u0440\u0443\u0431\u0435\u0436\u043d\u044b\u0445 \u0437\u0430\u043a\u0430\u0437\u043e\u0432",
+      "summary": "\u042f\u043d\u044c\u0447\u044d\u043d, \u041a\u0438\u0442\u0430\u0439, 15 \u043d\u043e\u044f\u0431\u0440\u044f 2026 \u0433. /PRNewswire/ -- 28 \u043e\u043a\u0442\u044f\u0431\u0440\u044f \u043d\u0430 \u0437\u0430\u0432\u043e\u0434\u0435 \u043a\u0438\u0442\u0430\u0439\u0441\u043a\u043e\u0439 \u043a\u043e\u0440\u043f\u043e\u0440\u0430\u0446\u0438\u0438 FAW \u0432 \u042f\u043d\u044c\u0447\u044d\u043d\u0435 \u0442\u043e\u0440\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e \u043f\u0440\u043e\u0448\u043b\u0430 \u0446\u0435\u0440\u0435\u043c\u043e\u043d\u0438\u044f \u043d\u0430\u0447\u0430\u043b\u0430 \u0433\u043b\u043e\u0431\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u0441\u0435\u0440\u0438\u0439\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432\u0430 JOYEE N01 \u0438 \u043f\u0435\u0440\u0432\u043e\u0439 \u043f\u043e\u0441\u0442\u0430\u0432\u043a\u0438 \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u0435\u0439 \u043f\u043e \u0437\u0430\u0440\u0443\u0431\u0435\u0436\u043d\u043e\u043c\u0443 \u0437\u0430\u043a\u0430\u0437\u0443 \u0432 2000 \u0435\u0434\u0438\u043d\u0438\u0446. \u0412 \u0445\u043e\u0434\u0435 \u043c\u0435\u0440\u043e\u043f\u0440\u0438\u044f\u0442\u0438\u044f \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u044f FAWCAR...",
+      "url": "https://www.prnewswire.com/news-releases/joyee-n01-------------2000---302939704.html",
+      "published_at": "2026-11-15T13:30:00Z",
+      "tickers": [
+        "JOYEE"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-15T14:51:59Z"
+    },
+    {
+      "id": "36595c3fb63d6a69",
+      "source": "marketwatch",
+      "title": "The U.S. is turning more socialist under Trump 2.0, one analyst says. What could change with a Democratic-run Congress?",
+      "summary": "A handy chart shows how the U.S. used to be among the economies with the least state control \u2014 until that changed last year.",
+      "url": "https://www.marketwatch.com/story/the-u-s-is-turning-more-socialist-under-trump-2-0-one-analyst-says-what-could-change-with-a-democratic-run-congress-95d7ff17?mod=mw_rss_topstories",
+      "published_at": "2026-11-15T13:30:00Z",
+      "tickers": [],
+      "event_type": "analyst",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-15T14:52:01Z"
+    },
+    {
+      "id": "6318d6b0f220dae3",
+      "source": "prnewswire",
+      "title": "JOYEE N01 sale de la l\u00ednea de producci\u00f3n global y se celebra la ceremonia de entrega del primer lote de 2.000 pedidos en el extranjero",
+      "summary": "YANCHENG, China, 15 de noviembre de 2026 /PRNewswire/ -- El 28 de octubre, la ceremonia de arranque de la producci\u00f3n en masa global del JOYEE N01 y de la primera entrega de 2.000 pedidos en el extranjero se celebr\u00f3 con gran solemnidad en la filial de Yancheng de FAW. En el lugar del...",
+      "url": "https://www.prnewswire.com/news-releases/joyee-n01-sale-de-la-linea-de-produccion-global-y-se-celebra-la-ceremonia-de-entrega-del-primer-lote-de-2-000-pedidos-en-el-extranjero-302939703.html",
+      "published_at": "2026-11-15T13:27:00Z",
+      "tickers": [
+        "JOYEE"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-15T14:51:59Z"
+    },
+    {
+      "id": "50336cd846ace66e",
+      "source": "prnewswire",
+      "title": "JOYEE N01 Rolls Off Global Production Line as First Batch Delivery Ceremony for 2,000 Overseas Orders Takes Place",
+      "summary": "YANCHENG, China, Nov. 15, 2026 /PRNewswire/ -- On October 28, the ceremony for the global mass production launch of the JOYEE N01 and the first batch delivery of 2,000 overseas orders was grandly held at the Yancheng Branch of FAW. At the event, FAWCAR delivered the first batch of 500...",
+      "url": "https://www.prnewswire.com/news-releases/joyee-n01-rolls-off-global-production-line-as-first-batch-delivery-ceremony-for-2-000-overseas-orders-takes-place-302939702.html",
+      "published_at": "2026-11-15T13:19:00Z",
+      "tickers": [
+        "JOYEE"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-15T14:51:59Z"
+    },
+    {
+      "id": "4281be69f8bac076",
+      "source": "prnewswire",
+      "title": "JOYEE N01 Rolls Off Global Production Line as First Batch Delivery Ceremony for 2,000 Overseas Orders Takes Place",
+      "summary": "YANCHENG, China, Nov. 15, 2026 /PRNewswire/ -- On October 28, the ceremony for the global mass production launch of the JOYEE N01 and the first batch delivery of 2,000 overseas orders was grandly held at the Yancheng Branch of FAW. At the event, FAWCAR delivered the first batch of 500...",
+      "url": "https://www.prnewswire.com/news-releases/joyee-n01-rolls-off-global-production-line-as-first-batch-delivery-ceremony-for-2-000-overseas-orders-takes-place-302939696.html",
+      "published_at": "2026-11-15T13:04:00Z",
+      "tickers": [
+        "JOYEE"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-15T14:51:59Z"
+    },
+    {
+      "id": "eb5a7cec36bd3e66",
+      "source": "cnbc_business",
+      "title": "Rivian, Lucid, Scout CEOs aren\u2019t counting on Democrats to restore EV federal support after midterm wins",
+      "summary": "EV makers have had to contend with flip-flopping regulatory support from Washington over the years.",
+      "url": "https://www.cnbc.com/2026/11/15/rivian-lucid-scout-arent-counting-on-dems-to-restore-ev-incentives.html",
+      "published_at": "2026-11-15T13:00:02Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-15T14:52:00Z"
+    },
+    {
+      "id": "78f394926cafc2f4",
+      "source": "prnewswire",
+      "title": "Novo's CagriSema was associated with 25% mean weight loss among early responders in a post hoc analysis of REDEFINE 1 presented at ObesityWeek\u00ae 2026",
+      "summary": "In a post hoc analysis of the phase 3 REDEFINE 1 trial, 67.8% of adults treated with investigational CagriSema 2.4 mg / 2.4 mg were early responders, achieving at least 5% weight loss by week 81 Women were more likely to be early responders than delayed responders (71.8% vs 59.5%)1 In a...",
+      "url": "https://www.prnewswire.com/news-releases/novos-cagrisema-was-associated-with-25-mean-weight-loss-among-early-responders-in-a-post-hoc-analysis-of-redefine-1-presented-at-obesityweek-2026-302939681.html",
+      "published_at": "2026-11-15T13:00:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-15T14:51:59Z"
+    },
+    {
+      "id": "b73d61ba99ac0773",
+      "source": "prnewswire",
+      "title": "Employment & Labor Lawyers, at Blumenthal Nordrehaug Bhowmik De Blouw LLP, File Suit Against American Broadcasting Companies, Inc., for Alleged Failure to Provide Meal Periods and Rest Breaks",
+      "summary": "Allegedly, American Broadcasting Companies, Inc, failed to provide employees with accurate itemized wage statements due to missed meal breaks. This, allegedly, has resulted in violations of various California Labor codes. **THIS IS AN ATTORNEY ADVERTISEMENT** LOS ANGELES, Nov. 15, 2026...",
+      "url": "https://www.prnewswire.com/news-releases/employment--labor-lawyers-at-blumenthal-nordrehaug-bhowmik-de-blouw-llp-file-suit-against-american-broadcasting-companies-inc-for-alleged-failure-to-provide-meal-periods-and-rest-breaks-302939438.html",
+      "published_at": "2026-11-15T13:00:00Z",
+      "tickers": [],
+      "event_type": "lawsuit",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-15T14:51:59Z"
+    },
+    {
+      "id": "7c65d0d637e20f00",
+      "source": "prnewswire",
+      "title": "Dahua Pro Challenge 2026 w\u00fcrdigt globales Installations-Know-how und langfristige Zusammenarbeit",
+      "summary": "HANGZHOU, China, 15. November 2026 /PRNewswire/ -- Dahua Technology, ein weltweit f\u00fchrender Anbieter von videozentrierten AIoT-L\u00f6sungen und -Dienstleistungen, brachte Installationspartner aus aller Welt zur Pro Challenge 2026 zusammen, um deren Fachkompetenz zu w\u00fcrdigen und die...",
+      "url": "https://www.prnewswire.com/news-releases/dahua-pro-challenge-2026-wurdigt-globales-installations-know-how-und-langfristige-zusammenarbeit-302939695.html",
+      "published_at": "2026-11-15T12:45:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-15T14:51:59Z"
+    },
+    {
+      "id": "16504d4871f08964",
+      "source": "prnewswire",
+      "title": "El Dahua Pro Challenge 2026 celebra la experiencia de los instaladores a nivel mundial y la colaboraci\u00f3n a largo plazo",
+      "summary": "HANGZHOU, China, 15 de noviembre de 2026 /PRNewswire/ -- Dahua Technology, proveedor l\u00edder mundial de soluciones y servicios de inteligencia artificial de los objetos (AIoT) centrados en v\u00eddeo, reuni\u00f3 a socios instaladores de todo el mundo para el Pro Challenge 2026, reconociendo su...",
+      "url": "https://www.prnewswire.com/news-releases/el-dahua-pro-challenge-2026-celebra-la-experiencia-de-los-instaladores-a-nivel-mundial-y-la-colaboracion-a-largo-plazo-302939694.html",
+      "published_at": "2026-11-15T12:43:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-15T14:51:59Z"
+    },
+    {
+      "id": "539d5b03f265bb11",
+      "source": "marketwatch",
+      "title": "Gold and silver are supposed to protect against inflation. So why are both metals tumbling instead?",
+      "summary": "Charts show the potential for more pain ahead",
+      "url": "https://www.marketwatch.com/story/gold-and-silver-are-supposed-to-protect-against-inflation-so-why-are-both-metals-tumbling-instead-1735eca7?mod=mw_rss_topstories",
+      "published_at": "2026-11-15T12:30:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-15T14:52:01Z"
+    },
+    {
+      "id": "62f6f59deaba6998",
+      "source": "prnewswire_financial",
+      "title": "EFICYENT rejoindra les banques et les entreprises de la fintech au Singapore FinTech Festival 2026",
+      "summary": "DUBA\u00cf, \u00c9mirats arabes unis, 15 novembre 2026 /PRNewswire/ -- EFICYENT, une plateforme de paiement transfrontalier, participera au Singapore FinTech Festival (SFF) 2026, qui sera l'un des plus grands rassemblements mondiaux de l'\u00e9cosyst\u00e8me financier et technologique. Il se d\u00e9roulera du 18...",
+      "url": "https://www.prnewswire.com/news-releases/eficyent-rejoindra-les-banques-et-les-entreprises-de-la-fintech-au-singapore-fintech-festival-2026-302939679.html",
+      "published_at": "2026-11-15T11:55:00Z",
+      "tickers": [
+        "SFF"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-15T14:52:00Z"
+    },
     {
       "id": "2d57c6bd0ef3985f",
       "source": "prnewswire",
@@ -119,7 +482,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:07Z"
+      "scanned_at": "2026-11-15T14:52:01Z"
     },
     {
       "id": "e27d1d4333da9f23",
@@ -135,7 +498,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:07Z"
+      "scanned_at": "2026-11-15T14:52:01Z"
     },
     {
       "id": "21a470626adeab7d",
@@ -165,7 +528,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:07Z"
+      "scanned_at": "2026-11-15T14:52:01Z"
     },
     {
       "id": "be6358caa48e1852",
@@ -211,7 +574,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:05Z"
+      "scanned_at": "2026-11-15T14:52:00Z"
     },
     {
       "id": "e35edd1a627efb49",
@@ -239,7 +602,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:07Z"
+      "scanned_at": "2026-11-15T14:52:01Z"
     },
     {
       "id": "d75bec2b43fecb96",
@@ -451,7 +814,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:07Z"
+      "scanned_at": "2026-11-15T14:52:01Z"
     },
     {
       "id": "bf644e7f0f8c93c5",
@@ -499,7 +862,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:05Z"
+      "scanned_at": "2026-11-15T14:52:00Z"
     },
     {
       "id": "3bf63055f3d8ddc6",
@@ -513,7 +876,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:06Z"
+      "scanned_at": "2026-11-15T14:52:01Z"
     },
     {
       "id": "44892c1ba75abb2e",
@@ -603,7 +966,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:05Z"
+      "scanned_at": "2026-11-15T14:52:00Z"
     },
     {
       "id": "454bac7cbf1f3099",
@@ -737,7 +1100,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:06Z"
+      "scanned_at": "2026-11-15T14:52:00Z"
     },
     {
       "id": "bd2aeb7c8c6442c9",
@@ -779,7 +1142,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:06Z"
+      "scanned_at": "2026-11-15T14:52:00Z"
     },
     {
       "id": "69e914beb2c8edef",
@@ -793,7 +1156,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:06Z"
+      "scanned_at": "2026-11-15T14:52:01Z"
     },
     {
       "id": "c05645d153e4da3c",
@@ -969,7 +1332,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:05Z"
+      "scanned_at": "2026-11-15T14:52:00Z"
     },
     {
       "id": "ddd62e01ae00b08d",
@@ -1337,7 +1700,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:05Z"
+      "scanned_at": "2026-11-15T14:52:00Z"
     },
     {
       "id": "7093301db28c866d",
@@ -1365,7 +1728,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:06Z"
+      "scanned_at": "2026-11-15T14:52:01Z"
     },
     {
       "id": "129a987691af23fb",
@@ -1429,7 +1792,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:05Z"
+      "scanned_at": "2026-11-15T14:52:00Z"
     },
     {
       "id": "9ab12a1b5d2eddc6",
@@ -1457,7 +1820,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:06:02Z"
+      "scanned_at": "2026-11-15T14:52:01Z"
     },
     {
       "id": "0b97fa052a43812d",
@@ -1489,7 +1852,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:05Z"
+      "scanned_at": "2026-11-15T14:52:00Z"
     },
     {
       "id": "973f0fc80d312446",
@@ -1521,7 +1884,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:05Z"
+      "scanned_at": "2026-11-15T14:52:00Z"
     },
     {
       "id": "b6f97ab8cca0d988",
@@ -1567,7 +1930,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:05Z"
+      "scanned_at": "2026-11-15T14:52:00Z"
     },
     {
       "id": "0e28831c4ae3cd72",
@@ -1582,7 +1945,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:04Z"
+      "scanned_at": "2026-11-15T14:51:59Z"
     },
     {
       "id": "fa65e72df64dfe3f",
@@ -1610,7 +1973,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:05Z"
+      "scanned_at": "2026-11-15T14:52:00Z"
     },
     {
       "id": "d20c87e4d730c495",
@@ -1625,7 +1988,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:04Z"
+      "scanned_at": "2026-11-15T14:51:59Z"
     },
     {
       "id": "d7b0e34af737a70f",
@@ -1640,7 +2003,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:04Z"
+      "scanned_at": "2026-11-15T14:51:59Z"
     },
     {
       "id": "8022d5ed4737bb63",
@@ -1655,7 +2018,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:04Z"
+      "scanned_at": "2026-11-15T14:51:59Z"
     },
     {
       "id": "8bc4c4a6282b2c5c",
@@ -1670,7 +2033,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-15T07:08:04Z"
+      "scanned_at": "2026-11-15T14:51:59Z"
     },
     {
       "id": "c1afe3e311fe2530",
@@ -1685,7 +2048,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-15T07:08:04Z"
+      "scanned_at": "2026-11-15T14:51:59Z"
     },
     {
       "id": "68831d56eef55e90",
@@ -1700,7 +2063,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:04Z"
+      "scanned_at": "2026-11-15T14:51:59Z"
     },
     {
       "id": "ede6743168914110",
@@ -1715,7 +2078,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:04Z"
+      "scanned_at": "2026-11-15T14:51:59Z"
     },
     {
       "id": "59c2ab01f0b57435",
@@ -1730,7 +2093,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:04Z"
+      "scanned_at": "2026-11-15T14:51:59Z"
     },
     {
       "id": "ad3879833d7bea53",
@@ -1745,7 +2108,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:04Z"
+      "scanned_at": "2026-11-15T14:51:59Z"
     },
     {
       "id": "19619a17ec3ab931",
@@ -1760,7 +2123,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:04Z"
+      "scanned_at": "2026-11-15T14:51:59Z"
     },
     {
       "id": "9e71c7f7d83ceb71",
@@ -1775,7 +2138,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-15T07:08:04Z"
+      "scanned_at": "2026-11-15T14:51:59Z"
     },
     {
       "id": "0c6e6defb1f8d5a8",
@@ -1790,7 +2153,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:04Z"
+      "scanned_at": "2026-11-15T14:51:59Z"
     },
     {
       "id": "1109a0ebb3826b56",
@@ -1805,7 +2168,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:04Z"
+      "scanned_at": "2026-11-15T14:51:59Z"
     },
     {
       "id": "bc5be7b5bef55c4e",
@@ -1820,7 +2183,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:04Z"
+      "scanned_at": "2026-11-15T14:51:59Z"
     },
     {
       "id": "590cc58e8001fbee",
@@ -1835,7 +2198,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:04Z"
+      "scanned_at": "2026-11-15T14:51:59Z"
     },
     {
       "id": "9a95371b25f2d26d",
@@ -1850,7 +2213,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:04Z"
+      "scanned_at": "2026-11-15T14:51:59Z"
     },
     {
       "id": "b2eb73a22cdde2dd",
@@ -1865,7 +2228,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-15T07:08:04Z"
+      "scanned_at": "2026-11-15T14:51:59Z"
     },
     {
       "id": "2a3c1ff26b443f6b",
@@ -1880,7 +2243,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:04Z"
+      "scanned_at": "2026-11-15T14:51:59Z"
     },
     {
       "id": "bbda84808136838e",
@@ -1895,7 +2258,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:04Z"
+      "scanned_at": "2026-11-15T14:51:59Z"
     },
     {
       "id": "9e86d7e87c3bbed7",
@@ -1910,7 +2273,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:04Z"
+      "scanned_at": "2026-11-15T14:51:59Z"
     },
     {
       "id": "d3133c601aa513dc",
@@ -1925,7 +2288,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:04Z"
+      "scanned_at": "2026-11-15T14:51:59Z"
     },
     {
       "id": "6dbf30347f4dba87",
@@ -1940,7 +2303,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:04Z"
+      "scanned_at": "2026-11-15T14:51:59Z"
     },
     {
       "id": "ee0f7bb6c8b4a4cd",
@@ -1955,7 +2318,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-15T07:08:04Z"
+      "scanned_at": "2026-11-15T14:51:59Z"
     },
     {
       "id": "91853671c64e688f",
@@ -2019,7 +2382,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:04Z"
+      "scanned_at": "2026-11-15T14:51:59Z"
     },
     {
       "id": "c028a5247a7210e7",
@@ -2034,7 +2397,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:04Z"
+      "scanned_at": "2026-11-15T14:51:59Z"
     },
     {
       "id": "68408ab09e198486",
@@ -2049,7 +2412,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:04Z"
+      "scanned_at": "2026-11-15T14:51:59Z"
     },
     {
       "id": "479ccddbddb17350",
@@ -2064,7 +2427,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:04Z"
+      "scanned_at": "2026-11-15T14:51:59Z"
     },
     {
       "id": "3732dff0d735d792",
@@ -2079,7 +2442,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:04Z"
+      "scanned_at": "2026-11-15T14:51:59Z"
     },
     {
       "id": "1aa40b7d1b73fdcb",
@@ -2110,7 +2473,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:04Z"
+      "scanned_at": "2026-11-15T14:51:59Z"
     },
     {
       "id": "709d172a7e4ff485",
@@ -2139,7 +2502,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:04Z"
+      "scanned_at": "2026-11-15T14:51:59Z"
     },
     {
       "id": "a50685ab445736ea",
@@ -2182,7 +2545,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:04Z"
+      "scanned_at": "2026-11-15T14:51:59Z"
     },
     {
       "id": "0f2a8dc9745e69b9",
@@ -2197,7 +2560,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:04Z"
+      "scanned_at": "2026-11-15T14:51:59Z"
     },
     {
       "id": "be276c0d4f1cae41",
@@ -2228,7 +2591,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:04Z"
+      "scanned_at": "2026-11-15T14:51:59Z"
     },
     {
       "id": "f0896bc769b02012",
@@ -2243,7 +2606,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:04Z"
+      "scanned_at": "2026-11-15T14:51:59Z"
     },
     {
       "id": "677db1b3c780327e",
@@ -2258,7 +2621,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:04Z"
+      "scanned_at": "2026-11-15T14:51:59Z"
     },
     {
       "id": "a5e277c31c383672",
@@ -2273,7 +2636,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:04Z"
+      "scanned_at": "2026-11-15T14:51:59Z"
     },
     {
       "id": "043ad3cac0875e66",
@@ -2288,7 +2651,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:04Z"
+      "scanned_at": "2026-11-15T14:51:59Z"
     },
     {
       "id": "5787d3562bf68bb7",
@@ -2303,7 +2666,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:04Z"
+      "scanned_at": "2026-11-15T14:51:59Z"
     },
     {
       "id": "a22ac6952506665b",
@@ -2318,7 +2681,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:04Z"
+      "scanned_at": "2026-11-15T14:51:59Z"
     },
     {
       "id": "a0772c7a54902a13",
@@ -2376,7 +2739,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:05Z"
+      "scanned_at": "2026-11-15T14:52:00Z"
     },
     {
       "id": "20a14b1427f01915",
@@ -2420,7 +2783,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:05Z"
+      "scanned_at": "2026-11-15T14:52:00Z"
     },
     {
       "id": "49174537e3322a23",
@@ -2454,7 +2817,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:05Z"
+      "scanned_at": "2026-11-15T14:52:00Z"
     },
     {
       "id": "5ca1d6f4c5b8894d",
@@ -2554,7 +2917,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:05Z"
+      "scanned_at": "2026-11-15T14:52:00Z"
     },
     {
       "id": "7c5d4775cd2eb6b1",
@@ -2587,7 +2950,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:05Z"
+      "scanned_at": "2026-11-15T14:52:00Z"
     },
     {
       "id": "92552074b57f3eef",
@@ -2603,7 +2966,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:05Z"
+      "scanned_at": "2026-11-15T14:52:00Z"
     },
     {
       "id": "f8eb5f66676e4ef4",
@@ -2631,7 +2994,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:05Z"
+      "scanned_at": "2026-11-15T14:52:00Z"
     },
     {
       "id": "b62541c45fd76fa1",
@@ -2647,7 +3010,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:05Z"
+      "scanned_at": "2026-11-15T14:52:00Z"
     },
     {
       "id": "64a9ff4df05df75c",
@@ -2663,7 +3026,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:05Z"
+      "scanned_at": "2026-11-15T14:52:00Z"
     },
     {
       "id": "23788f63f3197bbd",
@@ -4005,7 +4368,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:07Z"
+      "scanned_at": "2026-11-15T14:52:01Z"
     },
     {
       "id": "14fafc43bef8e06f",
@@ -4384,7 +4747,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T07:08:06Z"
+      "scanned_at": "2026-11-15T14:52:01Z"
     },
     {
       "id": "ff4c80411f305bab",
@@ -5837,104 +6200,6 @@
       "news_side": null,
       "actionable": false,
       "scanned_at": "2026-11-13T09:23:35Z"
-    },
-    {
-      "id": "ded5d246db55912c",
-      "source": "prnewswire",
-      "title": "Global Wisdom, Shared Future: Inaugural Global Energy Storage Colloquium Held in Xiamen",
-      "summary": "XIAMEN, China, Nov. 13, 2026 /PRNewswire/ -- The inaugural Global Energy Storage Colloquium was held in Xiamen under the theme \"Frontiers in Dialogue\u2022Powering Tomorrow's Storage.\" Hosted by HiTHIUM and co-organized by the Energy Storage Application Branch of China Industrial Association...",
-      "url": "https://www.prnewswire.com/news-releases/global-wisdom-shared-future-inaugural-global-energy-storage-colloquium-held-in-xiamen-302938805.html",
-      "published_at": "2026-11-13T08:24:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-13T09:23:35Z"
-    },
-    {
-      "id": "a3ce302dcc33b8fb",
-      "source": "cnbc_finance",
-      "title": "How the Jensen Huang affair changes the outlook for U.S.-China relations",
-      "summary": "The political climate heading into next week's Trump-Xi summit is drastically different from the last meeting in September.",
-      "url": "https://www.cnbc.com/2026/11/13/jensen-huang-nvidia-us-china-relations.html",
-      "published_at": "2026-11-13T02:56:35Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-15T07:08:06Z"
-    },
-    {
-      "id": "bfadabbd1327e27d",
-      "source": "cnbc_finance",
-      "title": "Oil prices rise after Trump says no Iran deal needed: 'We've got their Strait'",
-      "summary": "Oil prices were mixed on Thursday, after the latest comments from President Donald Trump raised worries that an end to the U.S.-Iran war was not in sight.",
-      "url": "https://www.cnbc.com/2026/11/12/oil-prices-jump-after-trump-says-no-iran-deal-needed-weve-got-their-strait.html",
-      "published_at": "2026-11-13T00:01:19Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-15T07:08:06Z"
-    },
-    {
-      "id": "9d88ba8eed76a2fe",
-      "source": "cnbc_business",
-      "title": "Scout Motors has 212,000 vehicle reservations as $2 billion South Carolina plant nears completion",
-      "summary": "Scout Motors has roughly 212,000 reservations for its Terra pickup and Traveler SUV, CEO Scott Keogh told CNBC.",
-      "url": "https://www.cnbc.com/2026/11/12/scout-motors-reservations-south-carolina-plant.html",
-      "published_at": "2026-11-12T22:17:05Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-15T07:08:06Z"
-    },
-    {
-      "id": "08212cbeb90633da",
-      "source": "cnbc_finance",
-      "title": "In a policy switch, the Fed says its October 2027 meeting will not see a vote on interest rates",
-      "summary": "There will be seven voting meetings next year, with the October session set up as extra time for policy deliberation without a formal vote or post-meeting statement.",
-      "url": "https://www.cnbc.com/2026/11/12/in-policy-switch-fed-says-its-october-2027-meeting-will-not-see-a-vote-on-interest-rates.html",
-      "published_at": "2026-11-12T19:05:25Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-15T07:08:06Z"
-    },
-    {
-      "id": "8e3f16d7edde3ef5",
-      "source": "cnbc_business",
-      "title": "Disney's 'Star Wars' is coming to Cosm domes ahead of 50th anniversary as part of multiyear film deal",
-      "summary": "Cosm has secured a new studio partnership with Disney that will bring \"Star Wars: A New Hope\" to its domes as part of a multiyear, multifilm collaboration.",
-      "url": "https://www.cnbc.com/2026/11/12/star-wars-cosm-dome-screenings.html",
-      "published_at": "2026-11-12T17:23:25Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-15T07:08:06Z"
-    },
-    {
-      "id": "c727f831795e5f01",
-      "source": "cnbc_finance",
-      "title": "China's Ministry of State Security thrust into the spotlight by Nvidia CEO affair",
-      "summary": "China's Ministry of State Security is getting attention after news of Nvidia CEO Jensen Huang's affair with an alleged MSS spy.",
-      "url": "https://www.cnbc.com/2026/11/12/china-ministry-state-security-nvidia-ceo.html",
-      "published_at": "2026-11-12T07:28:48Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-15T07:08:06Z"
     }
   ]
 }
