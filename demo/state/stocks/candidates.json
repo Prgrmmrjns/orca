@@ -555,7 +555,7 @@
       "suggested_side": null,
       "suggested_hold": null,
       "spy_above_ma50": null,
-      "scanned_at": "2026-11-15T14:52:02Z"
+      "scanned_at": "2026-11-15T20:21:28Z"
     },
     {
       "ticker": "HSBC",
@@ -586,7 +586,7 @@
       "suggested_side": "long",
       "suggested_hold": 2,
       "spy_above_ma50": null,
-      "scanned_at": "2026-11-15T14:52:02Z"
+      "scanned_at": "2026-11-15T20:21:28Z"
     },
     {
       "ticker": "BULL",
@@ -616,7 +616,7 @@
       "suggested_side": null,
       "suggested_hold": null,
       "spy_above_ma50": null,
-      "scanned_at": "2026-11-15T14:52:02Z"
+      "scanned_at": "2026-11-15T20:21:28Z"
     },
     {
       "ticker": "WHO",
@@ -647,7 +647,7 @@
       "suggested_side": "long",
       "suggested_hold": 2,
       "spy_above_ma50": null,
-      "scanned_at": "2026-11-15T14:52:02Z"
+      "scanned_at": "2026-11-15T20:21:28Z"
     },
     {
       "ticker": "RCSI",
@@ -678,7 +678,7 @@
       "suggested_side": "long",
       "suggested_hold": 2,
       "spy_above_ma50": null,
-      "scanned_at": "2026-11-15T14:52:02Z"
+      "scanned_at": "2026-11-15T20:21:28Z"
     },
     {
       "ticker": "PAL",
@@ -17286,5 +17286,5 @@
       "suggested_hold": null
     }
   ],
-  "news_merged_at": "2026-11-15T14:52:02Z"
+  "news_merged_at": "2026-11-15T20:21:28Z"
 }
