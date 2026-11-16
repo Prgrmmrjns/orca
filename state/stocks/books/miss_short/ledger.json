@@ -10,8 +10,8 @@
   "start_date": "2026-11-10",
   "start_capital_eur": 1000.0,
   "eur_usd_start": 1.1222084760665894,
-  "cash_eur": 1156.902019090561,
-  "equity_eur": 1008.73,
+  "cash_eur": 1207.673386590561,
+  "equity_eur": 1021.06,
   "positions": {
     "CTVA": {
       "ticker": "CTVA",
@@ -34,7 +34,7 @@
       "take_profit": null,
       "trailing_stop": null,
       "exit_at_close": false,
-      "trail_extreme": 9.01039981842041,
+      "trail_extreme": 8.870100021362305,
       "rule_name": "miss_short",
       "reason": "[miss_short/miss_short] event=['miss_short'] surprise=-144.44 gap=-6.1607 guidance=none headline= \u2192 short 2d",
       "confidence": 1.0,
@@ -45,9 +45,9 @@
       ],
       "decision_id": "miss_short-CTVA-2026-11-13T09:23:37Z-7cab03",
       "book_id": "miss_short",
-      "mark_usd": 9.43,
-      "mark_eur": 8.553,
-      "unrealized_pnl_pct": -3.3934
+      "mark_usd": 9.039999961853027,
+      "mark_eur": 8.1993,
+      "unrealized_pnl_pct": 0.7743
     },
     "YSS": {
       "ticker": "YSS",
@@ -70,7 +70,7 @@
       "take_profit": null,
       "trailing_stop": null,
       "exit_at_close": false,
-      "trail_extreme": 5.130000114440918,
+      "trail_extreme": 4.800000190734863,
       "rule_name": "miss_short",
       "reason": "[miss_short/miss_short] event=['miss_short'] surprise=-2504.35 gap=-6.506 guidance=none headline= \u2192 short 2d",
       "confidence": 1.0,
@@ -81,9 +81,9 @@
       ],
       "decision_id": "miss_short-YSS-2026-11-13T20:24:01Z-ea3d60",
       "book_id": "miss_short",
-      "mark_usd": 5.78,
-      "mark_eur": 5.2425,
-      "unrealized_pnl_pct": 0.692
+      "mark_usd": 4.920000076293945,
+      "mark_eur": 4.4624,
+      "unrealized_pnl_pct": 18.2927
     },
     "SST": {
       "ticker": "SST",
@@ -117,23 +117,32 @@
       ],
       "decision_id": "miss_short-SST-2026-11-13T20:24:01Z-beb83a",
       "book_id": "miss_short",
-      "mark_usd": 0.98,
-      "mark_eur": 0.8889,
-      "unrealized_pnl_pct": 10.2041
-    }
-  },
-  "pending": [
-    {
-      "id": "miss_short-ADRX-2026-11-14T00:53:21Z-0c12d4",
+      "mark_usd": 0.9333000183105469,
+      "mark_eur": 0.8465,
+      "unrealized_pnl_pct": 15.7184
+    },
+    "ADRX": {
       "ticker": "ADRX",
       "side": "short",
+      "shares": 3.946724,
+      "entry_usd": 14.22,
+      "entry_eur": 12.928824,
+      "quote_fx": 1.0998680591583252,
+      "entry_notional_eur": 51.03,
+      "entry_cost_eur": 0.2551,
+      "entry_cost_pct": 0.005,
       "size": 0.05,
+      "entry_day": "2026-11-16",
+      "entry_time": "2026-11-16T22:46:51Z",
+      "entry_session": "open",
+      "session": "open",
+      "exit_day": "2026-11-18",
       "hold_days": 2,
       "stop_loss": 0.08,
       "take_profit": null,
       "trailing_stop": null,
       "exit_at_close": false,
-      "delay_minutes": 0,
+      "trail_extreme": 13.079999923706055,
       "rule_name": "miss_short",
       "reason": "[miss_short/miss_short] event=['miss_short'] surprise=-335.0 gap=-5.9711 guidance=unknown headline= \u2192 short 2d",
       "confidence": 1.0,
@@ -142,12 +151,14 @@
         "miss_short",
         "miss_short"
       ],
-      "prefer_open": true,
-      "decided_at": "2026-11-14T00:53:21Z",
-      "status": "pending",
-      "book_id": "miss_short"
+      "decision_id": "miss_short-ADRX-2026-11-14T00:53:21Z-0c12d4",
+      "book_id": "miss_short",
+      "mark_usd": 14.0,
+      "mark_eur": 12.7288,
+      "unrealized_pnl_pct": 1.5714
     }
-  ],
+  },
+  "pending": [],
   "closed_trades": [
     {
       "ticker": "BKKT",
@@ -300,6 +311,13 @@
       "spy_eur": 1021.18,
       "cash_eur": 1156.9,
       "n_open": 3
+    },
+    {
+      "day": "2026-11-16",
+      "equity_eur": 1021.06,
+      "spy_eur": 1006.78,
+      "cash_eur": 1207.67,
+      "n_open": 4
     }
   ],
   "spy_history": [
@@ -320,6 +338,18 @@
       "spy_eur": 1021.18,
       "spy_usd": 757.12,
       "eur_usd": 1.10952
+    },
+    {
+      "day": "2026-11-13",
+      "spy_eur": 1021.61,
+      "spy_usd": 754.37,
+      "eur_usd": 1.10502
+    },
+    {
+      "day": "2026-11-16",
+      "spy_eur": 1006.78,
+      "spy_usd": 739.95,
+      "eur_usd": 1.09987
     }
   ],
   "cost_pct": 0.005,
@@ -329,7 +359,7 @@
   "default_hold_days": 2,
   "stop_loss": 0.08,
   "max_open": 4,
-  "last_run": "2026-11-14T01:28:07Z",
-  "last_reason": "engine[miss_short]: auto=0 ingested=0 fills=0 closed=0 open=3 session=closed",
-  "eur_usd": 1.1050212383270264
+  "last_run": "2026-11-16T22:46:52Z",
+  "last_reason": "engine[miss_short]: auto=0 ingested=0 fills=1 closed=0 open=4 session=after",
+  "eur_usd": 1.0998680591583252
 }

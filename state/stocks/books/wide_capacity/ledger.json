@@ -13,7 +13,85 @@
   "cash_eur": 1000.0,
   "equity_eur": 1000.0,
   "positions": {},
-  "pending": [],
+  "pending": [
+    {
+      "id": "wide_capacity-WHO-2026-11-16T22:47:01Z-d4434e",
+      "ticker": "WHO",
+      "side": "long",
+      "size": 0.05,
+      "hold_days": 2,
+      "stop_loss": null,
+      "take_profit": null,
+      "trailing_stop": null,
+      "exit_at_close": false,
+      "delay_minutes": 0,
+      "rule_name": "quality_longs",
+      "reason": "[wide_capacity/quality_longs] event=big_contract surprise=None gap=None guidance=none headline=WHO Bahrain and RCSI Medical University of Bahrain sign agreement to strengthen  \u2192 long 2d",
+      "confidence": 1.0,
+      "rule_tags": [
+        "wide_capacity",
+        "quality_longs",
+        "news_event",
+        "big_contract",
+        "news_long"
+      ],
+      "prefer_open": true,
+      "decided_at": "2026-11-16T22:47:01Z",
+      "status": "pending",
+      "book_id": "wide_capacity"
+    },
+    {
+      "id": "wide_capacity-RCSI-2026-11-16T22:47:02Z-532b21",
+      "ticker": "RCSI",
+      "side": "long",
+      "size": 0.05,
+      "hold_days": 2,
+      "stop_loss": null,
+      "take_profit": null,
+      "trailing_stop": null,
+      "exit_at_close": false,
+      "delay_minutes": 0,
+      "rule_name": "quality_longs",
+      "reason": "[wide_capacity/quality_longs] event=big_contract surprise=None gap=None guidance=none headline=WHO Bahrain and RCSI Medical University of Bahrain sign agreement to strengthen  \u2192 long 2d",
+      "confidence": 1.0,
+      "rule_tags": [
+        "wide_capacity",
+        "quality_longs",
+        "news_event",
+        "big_contract",
+        "news_long"
+      ],
+      "prefer_open": true,
+      "decided_at": "2026-11-16T22:47:02Z",
+      "status": "pending",
+      "book_id": "wide_capacity"
+    },
+    {
+      "id": "wide_capacity-PINE-2026-11-16T22:47:02Z-52935e",
+      "ticker": "PINE",
+      "side": "long",
+      "size": 0.05,
+      "hold_days": 2,
+      "stop_loss": null,
+      "take_profit": null,
+      "trailing_stop": null,
+      "exit_at_close": false,
+      "delay_minutes": 0,
+      "rule_name": "quality_longs",
+      "reason": "[wide_capacity/quality_longs] event=mna_deal surprise=None gap=None guidance=none headline=PINE TREE JOINT VENTURE ACQUIRES $108 MILLION SHOPPING CENTER IN TULSA, OKLAHOMA \u2192 long 2d",
+      "confidence": 1.0,
+      "rule_tags": [
+        "wide_capacity",
+        "quality_longs",
+        "news_event",
+        "mna_deal"
+      ],
+      "prefer_open": true,
+      "decided_at": "2026-11-16T22:47:02Z",
+      "status": "pending",
+      "book_id": "wide_capacity"
+    }
+  ],
   "closed_trades": [],
   "equity_history": [
     {
@@ -43,6 +121,13 @@
       "spy_eur": 1021.18,
       "cash_eur": 1000.0,
       "n_open": 0
+    },
+    {
+      "day": "2026-11-16",
+      "equity_eur": 1000.0,
+      "spy_eur": 1006.78,
+      "cash_eur": 1000.0,
+      "n_open": 0
     }
   ],
   "spy_history": [
@@ -63,6 +148,18 @@
       "spy_eur": 1021.18,
       "spy_usd": 757.12,
       "eur_usd": 1.10952
+    },
+    {
+      "day": "2026-11-13",
+      "spy_eur": 1021.61,
+      "spy_usd": 754.37,
+      "eur_usd": 1.10502
+    },
+    {
+      "day": "2026-11-16",
+      "spy_eur": 1006.78,
+      "spy_usd": 739.95,
+      "eur_usd": 1.09987
     }
   ],
   "cost_pct": 0.005,
@@ -73,8 +170,8 @@
   "stop_loss": null,
   "prefer_open": true,
   "max_open": 15,
-  "last_run": "2026-11-14T01:28:09Z",
-  "last_reason": "engine[wide_capacity]: auto=0 ingested=0 fills=0 closed=0 open=0 session=closed",
+  "last_run": "2026-11-16T22:47:02Z",
+  "last_reason": "engine[wide_capacity]: auto=3 ingested=3 fills=0 closed=0 open=0 session=after",
   "max_per_ticker": 1,
   "max_gross_exposure_pct": 0.75,
   "allow_shorts": false,
@@ -82,7 +179,7 @@
   "sizing": "fixed",
   "score_ref": 10.0,
   "strategy_config_path": "config/strategies/wide_capacity.yaml",
-  "eur_usd": 1.1050212383270264,
+  "eur_usd": 1.0998680591583252,
   "extended_hours_extra_slippage_pct": 0.0,
   "allow_extended_hours": false
 }

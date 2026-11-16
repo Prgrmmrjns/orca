@@ -411,7 +411,23 @@
       "agent": "rule:miss_short",
       "prefer_open": true,
       "decided_at": "2026-11-14T00:53:21Z",
-      "status": "pending"
+      "status": "filled",
+      "fill": {
+        "time": "2026-11-16T22:46:51Z",
+        "ticker": "ADRX",
+        "side": "sell_short",
+        "price_usd": 14.22,
+        "shares": 3.946724,
+        "notional_eur": 51.03,
+        "cost_eur": 0.2551,
+        "cost_pct": 0.005,
+        "session": "open",
+        "quote_fx": 1.0998680591583252,
+        "reason": "[miss_short/miss_short] event=['miss_short'] surprise=-335.0 gap=-5.9711 guidance=unknown headline= \u2192 short 2d",
+        "note": "filled at regular-session open",
+        "decision_id": "miss_short-ADRX-2026-11-14T00:53:21Z-0c12d4",
+        "book_id": "miss_short"
+      }
     }
   ],
   "updated_at": "2026-11-14T00:53:21Z"

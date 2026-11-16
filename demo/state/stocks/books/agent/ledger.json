@@ -10,8 +10,8 @@
   "start_date": "2026-11-10",
   "start_capital_eur": 1000.0,
   "eur_usd_start": 1.1222084760665894,
-  "cash_eur": 876.5080491092698,
-  "equity_eur": 997.86,
+  "cash_eur": 839.8174262393579,
+  "equity_eur": 994.17,
   "positions": {
     "DCTH": {
       "ticker": "DCTH",
@@ -33,9 +33,9 @@
       "rule_tags": [],
       "decision_id": "DCTH-2026-11-10T13:53:37Z-3a6d90",
       "book_id": "agent",
-      "mark_usd": 20.55,
-      "mark_eur": 18.5813,
-      "unrealized_pnl_pct": -4.7729,
+      "mark_usd": 19.8700008392334,
+      "mark_eur": 17.9665,
+      "unrealized_pnl_pct": -7.924,
       "trail_extreme": 22.510000228881836,
       "quote_fx": 1.1059499979019165
     },
@@ -59,39 +59,10 @@
       "rule_tags": [],
       "decision_id": "LINC-2026-11-10T13:53:37Z-740f17",
       "book_id": "agent",
-      "mark_usd": 22.81,
-      "mark_eur": 20.6248,
-      "unrealized_pnl_pct": -2.061,
-      "trail_extreme": 24.25,
-      "quote_fx": 1.1059499979019165
-    },
-    "FRMM": {
-      "ticker": "FRMM",
-      "side": "short",
-      "shares": 17.631491,
-      "entry_usd": 2.5,
-      "entry_eur": 2.261,
-      "entry_notional_eur": 39.86,
-      "entry_cost_eur": 0.1993,
-      "size": 0.04,
-      "entry_day": "2026-11-12",
-      "entry_time": "2026-11-12T20:42:18Z",
-      "exit_day": "2026-11-16",
-      "hold_days": 2,
-      "stop_loss": null,
-      "take_profit": null,
-      "trailing_stop": null,
-      "exit_at_close": false,
-      "trail_extreme": 2.0999999046325684,
-      "rule_name": null,
-      "reason": "FY26 rev guide cut $18-22M\u2192$8-9M (no AI compute rev 2026); rev miss \u2192 short 2d @4%",
-      "confidence": 0.72,
-      "rule_tags": [],
-      "decision_id": "FRMM-2026-11-12T13:46:28Z-a6dd4d",
-      "book_id": "agent",
-      "mark_usd": 2.16,
-      "mark_eur": 1.9531,
-      "unrealized_pnl_pct": 15.7407,
+      "mark_usd": 23.1299991607666,
+      "mark_eur": 20.9141,
+      "unrealized_pnl_pct": -0.687,
+      "trail_extreme": 24.540000915527344,
       "quote_fx": 1.1059499979019165
     }
   },
@@ -118,6 +89,32 @@
       "decision_id": "MPAA-2026-11-10T13:53:35Z-72c0fa",
       "book_id": "agent",
       "closed_at": "2026-11-12T20:42:18Z"
+    },
+    {
+      "ticker": "FRMM",
+      "side": "short",
+      "entry_day": "2026-11-12",
+      "exit_day": "2026-11-16",
+      "entry_usd": 2.5,
+      "exit_usd": 2.29,
+      "shares": 17.631491,
+      "hold_days": 2,
+      "exit_reason": "time_exit",
+      "entry_session": null,
+      "exit_session": "after",
+      "session": "after",
+      "entry_cost_eur": 0.1993,
+      "exit_cost_eur": 0.1825,
+      "entry_cost_pct": 0.005,
+      "exit_cost_pct": 0.005,
+      "pnl_eur": 2.97,
+      "pnl_pct_net": 8.1703,
+      "reason": "FY26 rev guide cut $18-22M\u2192$8-9M (no AI compute rev 2026); rev miss \u2192 short 2d @4%",
+      "rule_tags": [],
+      "rule_name": null,
+      "decision_id": "FRMM-2026-11-12T13:46:28Z-a6dd4d",
+      "book_id": "agent",
+      "closed_at": "2026-11-16T22:46:49Z"
     }
   ],
   "equity_history": [
@@ -148,6 +145,13 @@
       "spy_eur": 1021.18,
       "cash_eur": 876.51,
       "n_open": 3
+    },
+    {
+      "day": "2026-11-16",
+      "equity_eur": 994.17,
+      "spy_eur": 1006.78,
+      "cash_eur": 839.82,
+      "n_open": 2
     }
   ],
   "spy_history": [
@@ -168,6 +172,18 @@
       "spy_eur": 1021.18,
       "spy_usd": 757.12,
       "eur_usd": 1.10952
+    },
+    {
+      "day": "2026-11-13",
+      "spy_eur": 1021.61,
+      "spy_usd": 754.37,
+      "eur_usd": 1.10502
+    },
+    {
+      "day": "2026-11-16",
+      "spy_eur": 1006.78,
+      "spy_usd": 739.95,
+      "eur_usd": 1.09987
     }
   ],
   "cost_pct": 0.005,
@@ -177,7 +193,7 @@
   "default_hold_days": 5,
   "stop_loss": null,
   "max_open": 8,
-  "last_run": "2026-11-14T01:28:04Z",
-  "last_reason": "engine[agent]: auto=0 ingested=0 fills=0 closed=0 open=3 session=closed",
-  "eur_usd": 1.1050212383270264
+  "last_run": "2026-11-16T22:46:49Z",
+  "last_reason": "engine[agent]: auto=0 ingested=0 fills=0 closed=1 open=2 session=after",
+  "eur_usd": 1.0998680591583252
 }

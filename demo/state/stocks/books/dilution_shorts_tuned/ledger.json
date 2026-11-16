@@ -10,30 +10,31 @@
   "start_date": "2026-11-10",
   "start_capital_eur": 1000.0,
   "eur_usd_start": 1.1168192625045776,
-  "cash_eur": 1049.75,
-  "equity_eur": 999.38,
-  "positions": {
-    "BRRKU": {
+  "cash_eur": 999.129222029224,
+  "equity_eur": 999.13,
+  "positions": {},
+  "pending": [],
+  "closed_trades": [
+    {
       "ticker": "BRRKU",
       "side": "short",
-      "shares": 5.598545,
-      "entry_usd": 9.91,
-      "entry_eur": 8.930891,
-      "entry_notional_eur": 50.0,
-      "entry_cost_eur": 0.25,
-      "size": 0.05,
       "entry_day": "2026-11-11",
-      "entry_time": "2026-11-11T20:04:42Z",
       "exit_day": "2026-11-16",
+      "entry_usd": 9.91,
+      "exit_usd": 9.95,
+      "shares": 5.598545,
       "hold_days": 3,
-      "stop_loss": null,
-      "take_profit": null,
-      "trailing_stop": null,
-      "exit_at_close": false,
-      "trail_extreme": 9.899999618530273,
-      "rule_name": "dilution",
+      "exit_reason": "time_exit",
+      "entry_session": null,
+      "exit_session": "after",
+      "session": "after",
+      "entry_cost_eur": 0.25,
+      "exit_cost_eur": 0.2518,
+      "entry_cost_pct": 0.005,
+      "exit_cost_pct": 0.005,
+      "pnl_eur": -0.7,
+      "pnl_pct_net": -1.402,
       "reason": "[dilution_shorts_tuned/dilution] event=dilution surprise=None gap=None guidance=none headline=Bluerock Acquisition Corp. II Announces the Separate Trading of its Class A Ordi \u2192 short 3d",
-      "confidence": 1.0,
       "rule_tags": [
         "dilution_shorts_tuned",
         "dilution",
@@ -41,16 +42,12 @@
         "dilution",
         "news_short"
       ],
+      "rule_name": "dilution",
       "decision_id": "dilution_shorts_tuned-BRRKU-2026-11-11T00:40:49Z-40e697",
       "book_id": "dilution_shorts_tuned",
-      "mark_usd": 9.949999809265137,
-      "mark_eur": 8.9968,
-      "unrealized_pnl_pct": -0.402,
-      "quote_fx": 1.1059499979019165
+      "closed_at": "2026-11-16T22:46:58Z"
     }
-  },
-  "pending": [],
-  "closed_trades": [],
+  ],
   "equity_history": [
     {
       "day": "2026-11-10",
@@ -79,6 +76,13 @@
       "spy_eur": 1021.18,
       "cash_eur": 1049.75,
       "n_open": 1
+    },
+    {
+      "day": "2026-11-16",
+      "equity_eur": 999.13,
+      "spy_eur": 1006.78,
+      "cash_eur": 999.13,
+      "n_open": 0
     }
   ],
   "spy_history": [
@@ -99,6 +103,18 @@
       "spy_eur": 1021.18,
       "spy_usd": 757.12,
       "eur_usd": 1.10952
+    },
+    {
+      "day": "2026-11-13",
+      "spy_eur": 1021.61,
+      "spy_usd": 754.37,
+      "eur_usd": 1.10502
+    },
+    {
+      "day": "2026-11-16",
+      "spy_eur": 1006.78,
+      "spy_usd": 739.95,
+      "eur_usd": 1.09987
     }
   ],
   "cost_pct": 0.005,
@@ -109,8 +125,8 @@
   "stop_loss": null,
   "prefer_open": true,
   "max_open": 8,
-  "last_run": "2026-11-14T01:28:08Z",
-  "last_reason": "engine[dilution_shorts_tuned]: auto=0 ingested=0 fills=0 closed=0 open=1 session=closed",
+  "last_run": "2026-11-16T22:46:58Z",
+  "last_reason": "engine[dilution_shorts_tuned]: auto=0 ingested=0 fills=0 closed=1 open=0 session=after",
   "max_per_ticker": 1,
   "max_gross_exposure_pct": 0.4,
   "allow_shorts": true,
@@ -118,7 +134,7 @@
   "sizing": "fixed",
   "score_ref": 10.0,
   "strategy_config_path": "config/strategies/dilution_shorts_tuned.yaml",
-  "eur_usd": 1.1050212383270264,
+  "eur_usd": 1.0998680591583252,
   "extended_hours_extra_slippage_pct": 0.0,
   "allow_extended_hours": false
 }
