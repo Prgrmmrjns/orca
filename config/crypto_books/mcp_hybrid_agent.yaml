@@ -1,0 +1,9 @@
+id: mcp_hybrid_agent
+title: MCP hybrid agent
+workspace: orca-mcp-hybrid
+kind: hybrid
+mode: paper
+capital_eur: 1000
+bar: 4h
+universe: [BTC, ETH, SOL, XRP]
+checkpoint: crypto/checkpoints/patchtst.onnx

@@ -19,3 +19,6 @@ lxml>=5.0
 beautifulsoup4>=4.12
 html5lib>=1.1
 pyarrow>=14.0
+
+# Crypto paper engine inference. Training deps live in scripts/train_hf_gpu.py.
+onnxruntime>=1.18.0

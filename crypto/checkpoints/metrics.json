@@ -1,0 +1,281 @@
+{
+  "device": "cpu",
+  "preset": "cpu",
+  "interval": "4h",
+  "assets": [
+    "BTC",
+    "ETH",
+    "SOL",
+    "XRP"
+  ],
+  "rows": 11656,
+  "start": "2021-07-20 16:00:00+00:00",
+  "end": "2026-11-14 04:00:00+00:00",
+  "lookback": 32,
+  "epochs": 3,
+  "seeds": [
+    1,
+    2
+  ],
+  "cost_bps_per_side": 10.0,
+  "delay_bars": 1,
+  "walk_forward": "expanding yearly; each test year is scored before that year is used for training; 7-day embargo; 1-bar purge",
+  "folds_years": [
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "models": {
+    "patchtst": {
+      "folds": [
+        {
+          "test_year": 2023,
+          "net_sharpe": 2.4905560477127,
+          "max_drawdown": -0.24382653067532511,
+          "btc_max_drawdown": -0.21178464606181446,
+          "bars": 2190,
+          "start": "2023-01-01",
+          "end": "2023-12-31"
+        },
+        {
+          "test_year": 2024,
+          "net_sharpe": 1.7061867450887198,
+          "max_drawdown": -0.22939059286752117,
+          "btc_max_drawdown": -0.3007184762910984,
+          "bars": 2196,
+          "start": "2024-01-01",
+          "end": "2024-12-31"
+        },
+        {
+          "test_year": 2025,
+          "net_sharpe": -0.035333864364651336,
+          "max_drawdown": -0.3165325513353181,
+          "btc_max_drawdown": -0.3446440813072934,
+          "bars": 2190,
+          "start": "2025-01-01",
+          "end": "2025-12-31"
+        },
+        {
+          "test_year": 2026,
+          "net_sharpe": -0.9262692759203299,
+          "max_drawdown": -0.37607045368033554,
+          "btc_max_drawdown": -0.40074637916637557,
+          "bars": 1903,
+          "start": "2026-01-01",
+          "end": "2026-11-14"
+        }
+      ],
+      "net_sharpe": 0.9111845916487665,
+      "max_drawdown": -0.5107508394895484,
+      "btc_max_drawdown": -0.5359531555010846,
+      "seed_sharpes": [
+        0.8147525112683272,
+        0.9111845916487665
+      ],
+      "cost_stress": {
+        "10bps": {
+          "per_side_bps": 10.0,
+          "net_sharpe": 0.9111845916487665,
+          "max_drawdown": -0.5107508394895484
+        },
+        "20bps": {
+          "per_side_bps": 20.0,
+          "net_sharpe": 0.9099368121799672,
+          "max_drawdown": -0.5108258815735225
+        },
+        "30bps": {
+          "per_side_bps": 30.0,
+          "net_sharpe": 0.9086884216125979,
+          "max_drawdown": -0.5109009236574964
+        }
+      },
+      "checkpoint_note": "Exported weights are the model after the last expanding fold. That fit does not include the last test year.",
+      "dsr": {
+        "sharpe_annual": 0.9111845916487665,
+        "sharpe_per_period": 0.019470823038542376,
+        "skew": 0.07473773084963736,
+        "kurtosis": 12.973889929850698,
+        "n_obs": 8479,
+        "n_trials": 4,
+        "dsr": 0.7705903446709845
+      },
+      "gate": {
+        "passed": true,
+        "positive_net_sharpe": true,
+        "drawdown_better_than_btc": true,
+        "multi_seed_stable": true,
+        "net_sharpe": 0.9111845916487665,
+        "strategy_max_dd": -0.5107508394895484,
+        "btc_max_dd": -0.5359531555010846,
+        "seed_sharpes": [
+          0.8147525112683272,
+          0.9111845916487665
+        ],
+        "reasons": []
+      },
+      "files": {
+        "onnx": "crypto/checkpoints/patchtst.onnx",
+        "safetensors": "crypto/checkpoints/patchtst.safetensors"
+      },
+      "promoted": true,
+      "leave_one_coin_out": {
+        "BTC": {
+          "net_sharpe": -1.039915127715001,
+          "test_year": 2026,
+          "sma_asset": "ETH",
+          "epochs": 1,
+          "note": "retrained on the last fold only"
+        },
+        "ETH": {
+          "net_sharpe": -0.9905805880393126,
+          "test_year": 2026,
+          "sma_asset": "BTC",
+          "epochs": 1,
+          "note": "retrained on the last fold only"
+        },
+        "SOL": {
+          "net_sharpe": -0.9999430138162853,
+          "test_year": 2026,
+          "sma_asset": "BTC",
+          "epochs": 1,
+          "note": "retrained on the last fold only"
+        },
+        "XRP": {
+          "net_sharpe": -0.8339554719036898,
+          "test_year": 2026,
+          "sma_asset": "BTC",
+          "epochs": 1,
+          "note": "retrained on the last fold only"
+        }
+      }
+    },
+    "tcn": {
+      "folds": [
+        {
+          "test_year": 2023,
+          "net_sharpe": 2.335003491617277,
+          "max_drawdown": -0.22690855932010967,
+          "btc_max_drawdown": -0.21178464606181446,
+          "bars": 2190,
+          "start": "2023-01-01",
+          "end": "2023-12-31"
+        },
+        {
+          "test_year": 2024,
+          "net_sharpe": 1.73215719179855,
+          "max_drawdown": -0.23601040165322185,
+          "btc_max_drawdown": -0.3007184762910984,
+          "bars": 2196,
+          "start": "2024-01-01",
+          "end": "2024-12-31"
+        },
+        {
+          "test_year": 2025,
+          "net_sharpe": -0.03662367183950352,
+          "max_drawdown": -0.33219646021488336,
+          "btc_max_drawdown": -0.3446440813072934,
+          "bars": 2190,
+          "start": "2025-01-01",
+          "end": "2025-12-31"
+        },
+        {
+          "test_year": 2026,
+          "net_sharpe": -1.044005919046579,
+          "max_drawdown": -0.44779033660446965,
+          "btc_max_drawdown": -0.40074637916637557,
+          "bars": 1903,
+          "start": "2026-01-01",
+          "end": "2026-11-14"
+        }
+      ],
+      "net_sharpe": 0.7512619801983814,
+      "max_drawdown": -0.5634492846271297,
+      "btc_max_drawdown": -0.5359531555010846,
+      "seed_sharpes": [
+        0.7512619801983814,
+        0.7147040825381143
+      ],
+      "cost_stress": {
+        "10bps": {
+          "per_side_bps": 10.0,
+          "net_sharpe": 0.7512619801983814,
+          "max_drawdown": -0.5634492846271297
+        },
+        "20bps": {
+          "per_side_bps": 20.0,
+          "net_sharpe": 0.7499630632865382,
+          "max_drawdown": -0.5638116408672131
+        },
+        "30bps": {
+          "per_side_bps": 30.0,
+          "net_sharpe": 0.7486635232338046,
+          "max_drawdown": -0.5641737503637949
+        }
+      },
+      "checkpoint_note": "Exported weights are the model after the last expanding fold. That fit does not include the last test year.",
+      "dsr": {
+        "sharpe_annual": 0.7512619801983814,
+        "sharpe_per_period": 0.016053485985270188,
+        "skew": -0.10332595829561113,
+        "kurtosis": 10.875483554229334,
+        "n_obs": 8479,
+        "n_trials": 4,
+        "dsr": 0.6647751222721778
+      },
+      "gate": {
+        "passed": false,
+        "positive_net_sharpe": true,
+        "drawdown_better_than_btc": false,
+        "multi_seed_stable": true,
+        "net_sharpe": 0.7512619801983814,
+        "strategy_max_dd": -0.5634492846271297,
+        "btc_max_dd": -0.5359531555010846,
+        "seed_sharpes": [
+          0.7512619801983814,
+          0.7147040825381143
+        ],
+        "reasons": [
+          "max drawdown -0.5634492846271297 is not better than BTC buy-and-hold -0.5359531555010846"
+        ]
+      },
+      "files": {
+        "onnx": "crypto/checkpoints/tcn.onnx",
+        "safetensors": "crypto/checkpoints/tcn.safetensors"
+      },
+      "promoted": false,
+      "leave_one_coin_out": {
+        "BTC": {
+          "net_sharpe": -0.9898970728787279,
+          "test_year": 2026,
+          "sma_asset": "ETH",
+          "epochs": 1,
+          "note": "retrained on the last fold only"
+        },
+        "ETH": {
+          "net_sharpe": -1.0749144510416024,
+          "test_year": 2026,
+          "sma_asset": "BTC",
+          "epochs": 1,
+          "note": "retrained on the last fold only"
+        },
+        "SOL": {
+          "net_sharpe": -0.9302272133704358,
+          "test_year": 2026,
+          "sma_asset": "BTC",
+          "epochs": 1,
+          "note": "retrained on the last fold only"
+        },
+        "XRP": {
+          "net_sharpe": -0.8339152646790734,
+          "test_year": 2026,
+          "sma_asset": "BTC",
+          "epochs": 1,
+          "note": "retrained on the last fold only"
+        }
+      }
+    }
+  },
+  "gate_note": "A gate passes only when net Sharpe > 0, max drawdown is better than BTC buy-and-hold, and every seed Sharpe is positive.",
+  "pbo": 0.0
+}

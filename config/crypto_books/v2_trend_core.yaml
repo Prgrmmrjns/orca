@@ -1,0 +1,8 @@
+id: v2_trend_core
+title: V2 trend core
+workspace: orca-v2-trend-core
+kind: trend
+mode: paper
+capital_eur: 1000
+bar: 1d
+universe: [BTC, ETH, SOL, XRP]

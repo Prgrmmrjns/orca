@@ -1,0 +1,72 @@
+name: crypto-engine
+
+# Paper marks and fills on the UTC 4h close. Public Kraken data only.
+# If schedules stay at zero: Settings → Actions → Read and write; Run workflow once.
+on:
+  schedule:
+    - cron: "0 */4 * * *"
+  workflow_dispatch:
+  repository_dispatch:
+    types: [orca-crypto-tick, orca-crypto-engine]
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/crypto-engine.yml"
+      - "config/crypto_books/**"
+      - "crypto/**"
+      - "strategy/news_overrides.json"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: crypto-engine
+  cancel-in-progress: false
+
+jobs:
+  engine:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas numpy pyyaml requests onnxruntime
+
+      - name: Run paper crypto engine
+        env:
+          ORCA_MODE: paper
+        run: |
+          set +e
+          for i in 1 2 3; do
+            python -m crypto engine --apply && exit 0
+            echo "engine attempt $i failed; retrying..."
+            sleep $((i * 15))
+          done
+          echo "engine failed after retries (non-fatal)"
+          exit 0
+
+      - name: Commit crypto ledgers if changed
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "orca-crypto-bot"
+          git config user.email "orca-bot@users.noreply.github.com"
+          git add state/crypto/ logs/crypto_metrics.jsonl || true
+          if git diff --cached --quiet; then
+            echo "no ledger changes"
+          else
+            git commit -m "crypto: paper multi-book mark/fill $(date -u +%Y-%m-%dT%H:%MZ)"
+            git pull --rebase --autostash origin main || true
+            git push origin HEAD:main
+          fi
