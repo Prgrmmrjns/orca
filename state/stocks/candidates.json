@@ -1,6 +1,6 @@
 {
   "mode": "paper",
-  "as_of": "2026-11-16T15:29:26Z",
+  "as_of": "2026-11-16T18:23:52Z",
   "as_of_et": "2026-11-16 10:29 ET",
   "forward_test_start": "2026-11-10",
   "spy_above_ma50": false,
@@ -28,7 +28,7 @@
     "gap_filtered_guidance": "Config: long guidance_raise with gap \u22655% \u00b7 5% \u00b7 max 8 \u00b7 hold 5d \u00b7 no stop \u00b7 next_open (config/strategies/gap_filtered_guidance.yaml). Box test +4.4%.",
     "wide_capacity": "Config: quality longs \u00b7 5% \u00b7 max 15 \u00b7 hold 2d \u00b7 no stop \u00b7 next_open (config/strategies/wide_capacity.yaml). Box test +2.1%.",
     "bigmove_unified_v1": "Fade offering / PR-pop / M&A gap-downs and selective gap-down fades across pre/regular/after hours. Alert-only mega-cap shocks. No earnings/guidance chase. 5% \u00b7 max 20 \u00b7 hold 5d \u00b7 0.5%/fill + 0.5% ext slippage \u00b7 config/strategies/bigmove_unified_v1.yaml.",
-    "bigmove_eu_v1": "EU liquid large/mid caps: fade \u226510% gap-downs (earnings / other-PR / no-news) on Xetra/Euronext primary hours (09:00\u201317:30 Berlin). Gap-up shorts dropped after EU event study. Alert-only mega-cap shocks. No earnings/guidance chase. 5% \u00b7 max 20 \u00b7 hold 5d \u00b7 0.5%/fill (+0.5% outside primary) \u00b7 config/strategies/bigmove_eu_v1.yaml."
+    "bigmove_eu_v1": "EU liquid large/mid caps: fade large gap-downs after earnings/PR/no-news on primary hours (09:00\u201317:30 Berlin). Alert-only mega-cap shocks. No earnings/ guidance chase. No gap-up shorts (unprofitable on EU event study).\n"
   },
   "candidates": [
     {
@@ -4582,5 +4582,6 @@
       "suggested_hold": null
     }
   ],
-  "news_merged_at": "2026-11-16T16:57:33Z"
+  "news_merged_at": "2026-11-16T16:57:33Z",
+  "stoxx_above_ma50": true
 }
