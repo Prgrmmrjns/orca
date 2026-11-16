@@ -1,11 +1,11 @@
 {
   "mode": "paper",
-  "as_of": "2026-11-15T20:21:28Z",
-  "as_of_et": "2026-11-15 15:21 ET",
+  "as_of": "2026-11-16T00:20:26Z",
+  "as_of_et": "2026-11-15 19:20 ET",
   "rolling_hours": 72,
   "n_items": 400,
-  "n_actionable": 24,
-  "n_with_ticker": 125,
+  "n_actionable": 26,
+  "n_with_ticker": 124,
   "sources": [
     "prnewswire",
     "prnewswire_financial",
@@ -19,6 +19,239 @@
   "note": "Paper news feed. Keyword tagging is heuristic. Shorts have no borrow model. RSS/EDGAR can lag minutes\u2013hours.",
   "items": [
     {
+      "id": "9bfc7917b70410e8",
+      "source": "prnewswire",
+      "title": "Hanwha Power unterzeichnet schl\u00fcsselfertigen FSRU-Umbauvertrag mit Energos Infrastructure",
+      "summary": "Sichert sich nach dem ersten Auftrag im Jahr 2025 den zweiten schl\u00fcsselfertigen FSRU-Umbauvertrag \u00dcberwacht das gesamte Projekt, von der Planung und Beschaffung bis hin zur Installation und Inbetriebnahme Der Vertrag beinhaltet die Option, einen weiteren LNG-Tanker in eine FSRU umzubauen...",
+      "url": "https://www.prnewswire.com/news-releases/hanwha-power-unterzeichnet-schlusselfertigen-fsru-umbauvertrag-mit-energos-infrastructure-302938515.html",
+      "published_at": "2026-11-16T00:00:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-16T00:20:23Z"
+    },
+    {
+      "id": "4b49565c02d9159b",
+      "source": "prnewswire",
+      "title": "Hanwha Power Signs Turnkey FSRU Conversion Contract with Energos Infrastructure",
+      "summary": "Secures second turnkey FSRU conversion contract, following its first award in 2025 Oversees the entire project, from engineering and procurement to installation and commissioning Contract includes an option to convert one additional LNG carrier into an FSRU SEOUL, South Korea, Nov. 15,...",
+      "url": "https://www.prnewswire.com/news-releases/hanwha-power-signs-turnkey-fsru-conversion-contract-with-energos-infrastructure-302938497.html",
+      "published_at": "2026-11-16T00:00:00Z",
+      "tickers": [],
+      "event_type": "big_contract",
+      "direction": "bullish",
+      "news_side": "long",
+      "actionable": true,
+      "scanned_at": "2026-11-16T00:20:23Z"
+    },
+    {
+      "id": "73dc4c106eec6aa4",
+      "source": "prnewswire",
+      "title": "Hanwha Power signe un contrat cl\u00e9 en main de conversion d'une unit\u00e9 flottante de stockage et de regaz\u00e9ification (FSRU) avec Energos Infrastructure",
+      "summary": "Obtention d'un deuxi\u00e8me contrat cl\u00e9 en main de conversion d'unit\u00e9s flottantes de stockage et de regaz\u00e9ification (FSRU), apr\u00e8s un premier contrat en 2025 Supervision de l'ensemble du projet, de l'ing\u00e9nierie et de l'approvisionnement \u00e0 l'installation et \u00e0 la mise en service Le contrat...",
+      "url": "https://www.prnewswire.com/news-releases/hanwha-power-signe-un-contrat-cle-en-main-de-conversion-dune-unite-flottante-de-stockage-et-de-regazeification-fsru-avec-energos-infrastructure-302938512.html",
+      "published_at": "2026-11-16T00:00:00Z",
+      "tickers": [
+        "FSRU"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-16T00:20:23Z"
+    },
+    {
+      "id": "51913e85c32be9a5",
+      "source": "prnewswire",
+      "title": "Hanwha Power firma un contrato llave en mano con Energos Infrastructure",
+      "summary": "- Hanwha Power firma un contrato llave en mano para la conversi\u00f3n de una unidad flotante de almacenamiento y regasificaci\u00f3n (FSRU) con Energos Infrastructure Consigue su segundo contrato llave en mano para la conversi\u00f3n de una FSRU, tras el primero adjudicado en el a\u00f1o 2025. Supervisa...",
+      "url": "https://www.prnewswire.com/news-releases/hanwha-power-firma-un-contrato-llave-en-mano-con-energos-infrastructure-302938518.html",
+      "published_at": "2026-11-16T00:00:00Z",
+      "tickers": [
+        "FSRU"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-16T00:20:23Z"
+    },
+    {
+      "id": "ec40d0ee3426e7e3",
+      "source": "prnewswire",
+      "title": "Hanwha Power Signs Turnkey FSRU Conversion Contract with Energos Infrastructure",
+      "summary": "Secures second turnkey FSRU conversion contract, following its first award in 2025 Oversees the entire project, from engineering and procurement to installation and commissioning Contract includes an option to convert one additional LNG carrier into an FSRU SEOUL, South Korea, Nov. 16,...",
+      "url": "https://www.prnewswire.com/news-releases/hanwha-power-signs-turnkey-fsru-conversion-contract-with-energos-infrastructure-302938517.html",
+      "published_at": "2026-11-16T00:00:00Z",
+      "tickers": [],
+      "event_type": "big_contract",
+      "direction": "bullish",
+      "news_side": "long",
+      "actionable": true,
+      "scanned_at": "2026-11-16T00:20:23Z"
+    },
+    {
+      "id": "68191d409fce24df",
+      "source": "prnewswire",
+      "title": "Innovent Announces Positive CHMP Opinion, Recommending Zybrivo\u00ae (sintilimab) for First-Line Treatment of Non-squamous Non-Small Cell Lung Cancer",
+      "summary": "The opinion from the Committee for Medicinal Products for Human Use (CHMP) of the European Medicines Agency (EMA) is Innovent's first European regulatory milestone; if approved, Zybrivo would expand first-line treatment options for eligible patients with lung cancer in Europe PALO ALTO,...",
+      "url": "https://www.prnewswire.com/news-releases/innovent-announces-positive-chmp-opinion-recommending-zybrivo-sintilimab-for-first-line-treatment-of-non-squamous-non-small-cell-lung-cancer-302939658.html",
+      "published_at": "2026-11-16T00:00:00Z",
+      "tickers": [
+        "CHMP",
+        "EMA"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-16T00:20:23Z"
+    },
+    {
+      "id": "83b9da6f2eb983bb",
+      "source": "prnewswire",
+      "title": "Monster Energy's Kayla Harrison Defeats Amanda Nunes to Retain Women's Bantamweight Championship at UFC 334",
+      "summary": "36-Year-Old from Ohio Defends Championship Title, Earns $100,000 Performance of the Night Bonus NEW YORK, Nov. 15, 2026 /PRNewswire/ -- And still the champion! Monster Energy congratulates MMA athlete Kayla Harrison on defeating Amanda Nunes to defend her Women's Bantamweight Championship...",
+      "url": "https://www.prnewswire.com/news-releases/monster-energys-kayla-harrison-defeats-amanda-nunes-to-retain-womens-bantamweight-championship-at-ufc-334-302939771.html",
+      "published_at": "2026-11-15T23:45:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-16T00:20:23Z"
+    },
+    {
+      "id": "b20c284c2ce0e015",
+      "source": "prnewswire",
+      "title": "Sabidur\u00eda global, futuro compartido: Se celebr\u00f3 en Xiamen el primer Coloquio Mundial sobre Almacenamiento de Energ\u00eda",
+      "summary": "XIAMEN, China, 15 de noviembre de 2026 /PRNewswire/ -- El Coloquio Mundial sobre Almacenamiento de Energ\u00eda inaugural se celebr\u00f3 en Xiamen bajo el tema \"Fronteras en el di\u00e1logo\u2022 Impulsando el almacenamiento del ma\u00f1ana\". Organizado por HiTHIUM y organizado conjuntamente por la Rama de...",
+      "url": "https://www.prnewswire.com/news-releases/sabiduria-global-futuro-compartido-se-celebro-en-xiamen-el-primer-coloquio-mundial-sobre-almacenamiento-de-energia-302939782.html",
+      "published_at": "2026-11-15T21:44:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-16T00:20:23Z"
+    },
+    {
+      "id": "0bfba31902580ba9",
+      "source": "prnewswire",
+      "title": "Globale Weisheit, gemeinsame Zukunft: Erstes globales Energiespeicherkolloquium in Xiamen abgehalten",
+      "summary": "XIAMEN, China, 15. November 2026 /PRNewswire/ -- Das erste Global Energy Storage Colloquium fand in Xiamen unter dem Motto \u201eFrontiers in Dialogue \u2022 Die Energieversorgung der Speicher von morgen.\" statt. Das Kolloquium, das von HiTHIUM veranstaltet und von der Energy Storage Application...",
+      "url": "https://www.prnewswire.com/news-releases/globale-weisheit-gemeinsame-zukunft-erstes-globales-energiespeicherkolloquium-in-xiamen-abgehalten-302939781.html",
+      "published_at": "2026-11-15T21:41:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-16T00:20:23Z"
+    },
+    {
+      "id": "392f9c7d54aabe47",
+      "source": "prnewswire",
+      "title": "IEHP pospone la apertura del Centro de Bienestar Comunitario de San Bernardino.",
+      "summary": "RANCHO CUCAMONGA, California, 15 de noviembre de 2026 /PRNewswire-HISPANIC PR WIRE/ -- Agradecemos el entusiasmo y el apoyo que la comunidad ha mostrado por el Centro de Bienestar Comunitario de IEHP en San Bernardino. Debido a circunstancias imprevistas, las celebraciones de la gran...",
+      "url": "https://www.prnewswire.com/news-releases/iehp-pospone-la-apertura-del-centro-de-bienestar-comunitario-de-san-bernardino--865187218.html",
+      "published_at": "2026-11-15T21:36:00Z",
+      "tickers": [
+        "IEHP"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-16T00:20:23Z"
+    },
+    {
+      "id": "d56defca6182f5e5",
+      "source": "marketwatch",
+      "title": "Budget airlines are going upscale with first-class seats and faster wifi",
+      "summary": "Forget no-frills: Frontier and JetBlue are chasing luxury flyers, and Wall Street is buying in.",
+      "url": "https://www.marketwatch.com/story/budget-airlines-are-going-upscale-with-first-class-seats-and-faster-wifi-999868ab?mod=mw_rss_topstories",
+      "published_at": "2026-11-15T21:31:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-16T00:20:25Z"
+    },
+    {
+      "id": "5a2e59275480ee9d",
+      "source": "prnewswire",
+      "title": "Berry Street Welcomes MyScribe Founder Dr. Wasif Bokhari to Its AI Team and Acquires MyScribe",
+      "summary": "NEW YORK, Nov. 15, 2026 /PRNewswire/ -- Berry Street, the leading metabolic health company transforming nutrition therapy, today announced that Dr. Wasif Bokhari, founder of AI clinical assistant MyScribe, has joined the company as Lead AI Engineer, and that Berry Street has acquired...",
+      "url": "https://www.prnewswire.com/news-releases/berry-street-welcomes-myscribe-founder-dr-wasif-bokhari-to-its-ai-team-and-acquires-myscribe-302939778.html",
+      "published_at": "2026-11-15T21:24:00Z",
+      "tickers": [],
+      "event_type": "mna_deal",
+      "direction": "bullish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-16T00:20:23Z"
+    },
+    {
+      "id": "3613a7d3b4f011c8",
+      "source": "prnewswire",
+      "title": "Global Sarcoma Therapy Now Available in Thailand",
+      "summary": "Approval of YONDELIS\u00ae (trabectedin) by the Thai FDA for patients who have failed prior treatment with anthracyclines and ifosfamide or for those who are unsuited to receive these agents1 YONDELIS provides an additional treatment option for Thai adults diagnosed with advanced soft tissue...",
+      "url": "https://www.prnewswire.com/news-releases/global-sarcoma-therapy-now-available-in-thailand-302938781.html",
+      "published_at": "2026-11-15T21:00:00Z",
+      "tickers": [],
+      "event_type": "fda_approval",
+      "direction": "bullish",
+      "news_side": "long",
+      "actionable": true,
+      "scanned_at": "2026-11-16T00:20:23Z"
+    },
+    {
+      "id": "69835ea9c2206a1b",
+      "source": "prnewswire",
+      "title": "Lei Zhang nombrado TIME100 Climate 2026 Titan por pionero en infraestructura de energ\u00eda limpia en la era de la IA",
+      "summary": "El reconocimiento de TIME subraya el liderazgo de Lei Zhang en la configuraci\u00f3n de los sistemas energ\u00e9ticos para la era de la IA SHANGH\u00c1I, 15 de noviembre de 2026 /PRNewswire/ -- Lei Zhang, fundador y presidente de Envision, ha sido nombrado Tit\u00e1n en la lista TIME100 Climate 2026 por su...",
+      "url": "https://www.prnewswire.com/news-releases/lei-zhang-nombrado-time100-climate-2026-titan-por-pionero-en-infraestructura-de-energia-limpia-en-la-era-de-la-ia-302939770.html",
+      "published_at": "2026-11-15T20:43:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-16T00:20:23Z"
+    },
+    {
+      "id": "e2c82c7011cc562d",
+      "source": "prnewswire",
+      "title": "Lei Zhang f\u00fcr Pionierarbeit an sauberer Energieinfrastruktur im KI-Zeitalter als \u201eTitan\" in die TIME100 Climate 2026 aufgenommen",
+      "summary": "Die Anerkennung durch TIME unterstreicht Lei Zhangs f\u00fchrende Rolle bei der Gestaltung der Energiesysteme f\u00fcr das KI-Zeitalter SHANGHAI, 15. November 2026 /PRNewswire/ -- Lei Zhang, Gr\u00fcnder und Vorsitzender von Envision, wurde f\u00fcr seine Arbeit an der Schnittstelle von sauberer Energie und...",
+      "url": "https://www.prnewswire.com/news-releases/lei-zhang-fur-pionierarbeit-an-sauberer-energieinfrastruktur-im-ki-zeitalter-als-titan-in-die-time100-climate-2026-aufgenommen-302939768.html",
+      "published_at": "2026-11-15T20:35:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-16T00:20:23Z"
+    },
+    {
+      "id": "8ddb36321fb7b0e5",
+      "source": "prnewswire",
+      "title": "Lei Zhang nomm\u00e9e Titan dans TIME100 Climate 2026 pour son r\u00f4le pionnier dans les infrastructures d'\u00e9nergie propre \u00e0 l'\u00e8re de l'IA",
+      "summary": "La reconnaissance de TIME souligne le r\u00f4le de premier plan de Lei Zhang dans la conception des syst\u00e8mes \u00e9nerg\u00e9tiques pour l'\u00e8re de l'IA. SHANGHAI, 15 novembre 2026 /PRNewswire/ -- Lei Zhang, fondateur et pr\u00e9sident d'Envision, a \u00e9t\u00e9 nomm\u00e9 Titan dans la liste TIME100 Climate 2026 pour son...",
+      "url": "https://www.prnewswire.com/news-releases/lei-zhang-nommee-titan-dans-time100-climate-2026-pour-son-role-pionnier-dans-les-infrastructures-denergie-propre-a-lere-de-lia-302939767.html",
+      "published_at": "2026-11-15T20:32:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-16T00:20:23Z"
+    },
+    {
       "id": "e4dce3b96fb43bf8",
       "source": "prnewswire",
       "title": "IDEAYA Biosciences Announces Development Candidate Nomination of IDE101, a Potential First-In-Class Inhibitor Targeting CDKN2A-Deficiency in Solid Tumors",
@@ -30,7 +263,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:25Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "3ef0d335b033e37d",
@@ -44,7 +277,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:27Z"
+      "scanned_at": "2026-11-16T00:20:24Z"
     },
     {
       "id": "69c3613c4fc79c53",
@@ -58,7 +291,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:25Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "17ef9780e3466a0a",
@@ -72,7 +305,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:25Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "1f1b079032d4e923",
@@ -104,7 +337,7 @@
       "direction": "bearish",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:25Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "4d76e38ffaba5bba",
@@ -120,7 +353,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:25Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "c99881ef8b447386",
@@ -136,7 +369,7 @@
       "direction": "bearish",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:26Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "4aef21732855e9bb",
@@ -167,7 +400,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:27Z"
+      "scanned_at": "2026-11-16T00:20:25Z"
     },
     {
       "id": "2da1130c1b650f56",
@@ -239,7 +472,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:27Z"
+      "scanned_at": "2026-11-16T00:20:25Z"
     },
     {
       "id": "f95c3edf899c454a",
@@ -516,7 +749,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:26Z"
+      "scanned_at": "2026-11-16T00:20:24Z"
     },
     {
       "id": "78f394926cafc2f4",
@@ -602,7 +835,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:26Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "2d57c6bd0ef3985f",
@@ -751,7 +984,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T14:52:01Z"
+      "scanned_at": "2026-11-16T00:20:25Z"
     },
     {
       "id": "be6358caa48e1852",
@@ -797,7 +1030,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:26Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "e35edd1a627efb49",
@@ -825,7 +1058,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:27Z"
+      "scanned_at": "2026-11-16T00:20:25Z"
     },
     {
       "id": "d75bec2b43fecb96",
@@ -1037,7 +1270,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:27Z"
+      "scanned_at": "2026-11-16T00:20:25Z"
     },
     {
       "id": "bf644e7f0f8c93c5",
@@ -1085,7 +1318,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:26Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "3bf63055f3d8ddc6",
@@ -1099,7 +1332,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:27Z"
+      "scanned_at": "2026-11-16T00:20:24Z"
     },
     {
       "id": "44892c1ba75abb2e",
@@ -1129,7 +1362,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-14T16:06:02Z"
+      "scanned_at": "2026-11-16T00:20:25Z"
     },
     {
       "id": "5c6b45686197f8c2",
@@ -1189,7 +1422,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:26Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "454bac7cbf1f3099",
@@ -1323,7 +1556,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:26Z"
+      "scanned_at": "2026-11-16T00:20:24Z"
     },
     {
       "id": "bd2aeb7c8c6442c9",
@@ -1365,7 +1598,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:26Z"
+      "scanned_at": "2026-11-16T00:20:24Z"
     },
     {
       "id": "69e914beb2c8edef",
@@ -1379,7 +1612,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:27Z"
+      "scanned_at": "2026-11-16T00:20:24Z"
     },
     {
       "id": "c05645d153e4da3c",
@@ -1407,7 +1640,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:27Z"
+      "scanned_at": "2026-11-16T00:20:25Z"
     },
     {
       "id": "fbe86ec220a02150",
@@ -1555,7 +1788,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:26Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "ddd62e01ae00b08d",
@@ -1923,7 +2156,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:26Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "7093301db28c866d",
@@ -2015,7 +2248,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:26Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "9ab12a1b5d2eddc6",
@@ -2075,7 +2308,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:26Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "973f0fc80d312446",
@@ -2107,7 +2340,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:26Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "b6f97ab8cca0d988",
@@ -2153,7 +2386,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:26Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "0e28831c4ae3cd72",
@@ -2168,7 +2401,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:25Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "fa65e72df64dfe3f",
@@ -2196,7 +2429,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:26Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "d20c87e4d730c495",
@@ -2211,7 +2444,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:25Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "d7b0e34af737a70f",
@@ -2226,7 +2459,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:25Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "8022d5ed4737bb63",
@@ -2241,7 +2474,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:25Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "8bc4c4a6282b2c5c",
@@ -2256,7 +2489,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-15T20:21:25Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "c1afe3e311fe2530",
@@ -2271,7 +2504,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-15T20:21:25Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "68831d56eef55e90",
@@ -2286,7 +2519,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:25Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "ede6743168914110",
@@ -2301,7 +2534,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:25Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "59c2ab01f0b57435",
@@ -2316,7 +2549,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:25Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "ad3879833d7bea53",
@@ -2331,7 +2564,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:25Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "19619a17ec3ab931",
@@ -2346,7 +2579,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:25Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "9e71c7f7d83ceb71",
@@ -2361,7 +2594,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-15T20:21:25Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "0c6e6defb1f8d5a8",
@@ -2376,7 +2609,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:25Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "1109a0ebb3826b56",
@@ -2391,7 +2624,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:25Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "bc5be7b5bef55c4e",
@@ -2406,7 +2639,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:25Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "590cc58e8001fbee",
@@ -2421,7 +2654,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:25Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "9a95371b25f2d26d",
@@ -2436,7 +2669,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:25Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "b2eb73a22cdde2dd",
@@ -2451,7 +2684,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-15T20:21:25Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "2a3c1ff26b443f6b",
@@ -2466,7 +2699,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:25Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "bbda84808136838e",
@@ -2481,7 +2714,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:25Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "9e86d7e87c3bbed7",
@@ -2496,7 +2729,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:25Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "d3133c601aa513dc",
@@ -2511,7 +2744,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:25Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "6dbf30347f4dba87",
@@ -2526,7 +2759,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:25Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "ee0f7bb6c8b4a4cd",
@@ -2541,7 +2774,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-15T20:21:25Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "91853671c64e688f",
@@ -2605,7 +2838,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:25Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "c028a5247a7210e7",
@@ -2620,7 +2853,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:25Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "68408ab09e198486",
@@ -2635,7 +2868,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:25Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "479ccddbddb17350",
@@ -2650,7 +2883,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:25Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "3732dff0d735d792",
@@ -2665,7 +2898,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:25Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "1aa40b7d1b73fdcb",
@@ -2696,7 +2929,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:25Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "709d172a7e4ff485",
@@ -2725,7 +2958,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:25Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "a50685ab445736ea",
@@ -2768,7 +3001,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:25Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "0f2a8dc9745e69b9",
@@ -2783,7 +3016,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:25Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "be276c0d4f1cae41",
@@ -2814,7 +3047,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:25Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "f0896bc769b02012",
@@ -2829,7 +3062,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:25Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "677db1b3c780327e",
@@ -2844,7 +3077,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:25Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "a5e277c31c383672",
@@ -2859,7 +3092,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:25Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "043ad3cac0875e66",
@@ -2874,7 +3107,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:25Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "5787d3562bf68bb7",
@@ -2889,7 +3122,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:25Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "a22ac6952506665b",
@@ -2904,7 +3137,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:25Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "a0772c7a54902a13",
@@ -2962,7 +3195,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:26Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "20a14b1427f01915",
@@ -3006,7 +3239,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:26Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "49174537e3322a23",
@@ -3040,7 +3273,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:26Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "5ca1d6f4c5b8894d",
@@ -3140,7 +3373,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:26Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "7c5d4775cd2eb6b1",
@@ -3173,7 +3406,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:26Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "92552074b57f3eef",
@@ -3189,7 +3422,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:26Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "f8eb5f66676e4ef4",
@@ -3217,7 +3450,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:26Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "b62541c45fd76fa1",
@@ -3233,7 +3466,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:26Z"
+      "scanned_at": "2026-11-16T00:20:23Z"
     },
     {
       "id": "64a9ff4df05df75c",
@@ -4591,7 +4824,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:27Z"
+      "scanned_at": "2026-11-16T00:20:25Z"
     },
     {
       "id": "14fafc43bef8e06f",
@@ -4664,7 +4897,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:27Z"
+      "scanned_at": "2026-11-16T00:20:25Z"
     },
     {
       "id": "e28f44348e4f2d93",
@@ -4970,7 +5203,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-15T20:21:27Z"
+      "scanned_at": "2026-11-16T00:20:24Z"
     },
     {
       "id": "ff4c80411f305bab",
@@ -5929,268 +6162,6 @@
       "eu_category": "other_8k",
       "scanned_at": "2026-11-13T09:36:52Z",
       "region": "EU"
-    },
-    {
-      "id": "5b300a7e3a0fd889",
-      "source": "wso_nachrichten",
-      "title": "RWE: M\u00f6glicher Milliarden-Deal \u2013 was jetzt wichtig wird",
-      "summary": "RWE k\u00f6nnte mit Eon seine Urenco-Anteile an den Bund verkaufen. Was hinter dem m\u00f6glichen Milliarden-Deal steckt und welche Risiken Anleger abw\u00e4gen sollten.",
-      "url": "https://www.wallstreet-online.de/nachricht/21688344-rwe-milliarden-deal",
-      "published_at": "2026-11-13T09:26:35Z",
-      "tickers": [
-        "RWE"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "995544e86e1ceeb5",
-      "source": "wso_nachrichten",
-      "title": "Take-Two Interactive: Was vor GTA VI auf dem Spiel steht",
-      "summary": "Take-Two Interactive steht vor dem GTA-VI-H\u00e4rtetest. Was JPMorgans Top-Pick und die hohe Bewertung f\u00fcr Anleger bedeuten \u2013 und worauf es jetzt wirklich ankommt.",
-      "url": "https://www.wallstreet-online.de/nachricht/21688332-take-two-interactive-gta-vi-spiel",
-      "published_at": "2026-11-13T09:26:35Z",
-      "tickers": [],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "046f9771b819ed1b",
-      "source": "wso_nachrichten",
-      "title": "Waste Management: UBS hebt Ziel an \u2013 was jetzt z\u00e4hlt",
-      "summary": "Waste Management: UBS hebt das Kursziel an, Stifel lobt die Preissetzungsmacht. Erfahren Sie, was Umsatzchancen und Margendruck f\u00fcr Anleger jetzt bedeuten.",
-      "url": "https://www.wallstreet-online.de/nachricht/21688329-waste-management-ubs-hebt-ziel-zaehlt",
-      "published_at": "2026-11-13T09:26:35Z",
-      "tickers": [
-        "UBSG.SW",
-        "SSE.L"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "5b4b6257aeb6683f",
-      "source": "wso_nachrichten",
-      "title": "ELECTRICITE DE FRANCE: Was der Renault-Plan jetzt bedeutet",
-      "summary": "ELECTRICITE DE FRANCE plant mit Renault ein Ladeangebot f\u00fcr 2027. Erfahren Sie, was hinter Vehicle-to-Grid steckt und welche Chancen das Vorhaben bietet.",
-      "url": "https://www.wallstreet-online.de/nachricht/21688323-electricite-de-france-renault-plan-bedeutet",
-      "published_at": "2026-11-13T09:26:35Z",
-      "tickers": [
-        "RNO.PA"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "71e04dce6411bec9",
-      "source": "wso_nachrichten",
-      "title": "Rheinmetall: Milliardenplan wackelt \u2013 worauf es jetzt ankommt",
-      "summary": "Rheinmetall steht nach dem Kursrutsch im Fokus: Was das neutrale Bernstein-Urteil und Zweifel am Milliardenplan f\u00fcr Anleger bedeuten. Jetzt die Lage einordnen.",
-      "url": "https://www.wallstreet-online.de/nachricht/21688320-rheinmetall-milliardenplan-wackelt-worauf-ankommt",
-      "published_at": "2026-11-13T09:26:35Z",
-      "tickers": [],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "0bedc4a9634d4d78",
-      "source": "wso_nachrichten",
-      "title": "Palo Alto Networks: Was hinter dem KeyBanc-Upgrade steckt",
-      "summary": "Palo Alto Networks: KeyBanc stuft die Aktie hoch, Stifel bleibt vor den Zahlen bei Kauf. Erfahren Sie, welche Chancen und Kostenrisiken Anleger jetzt abw\u00e4gen.",
-      "url": "https://www.wallstreet-online.de/nachricht/21688314-palo-alto-networks-keybanc-upgrade-steckt",
-      "published_at": "2026-11-13T09:26:35Z",
-      "tickers": [],
-      "form": "EU_NEWS",
-      "event_type": "analyst",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "a7b6c42cbcefe8be",
-      "source": "wso_nachrichten",
-      "title": "Medios: Hilfstaxe kostet Millionen \u2013 was jetzt z\u00e4hlt",
-      "summary": "Medios steht zwischen Kaufempfehlungen und Margendruck. Erfahren Sie, was die Hilfstaxe f\u00fcr das Gesch\u00e4ft bedeutet und worauf Anleger jetzt achten sollten.",
-      "url": "https://www.wallstreet-online.de/nachricht/21688299-medios-hilfstaxe-kostet-millionen-zaehlt",
-      "published_at": "2026-11-13T09:26:35Z",
-      "tickers": [],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "76663be35091429b",
-      "source": "wso_nachrichten",
-      "title": "Biofrontera AG: Was Anleger beim Australien-Deal pr\u00fcfen m\u00fcssen",
-      "summary": "Biofrontera AG f\u00e4llt trotz Ameluz-Deal f\u00fcr Australien. Ich ordne die Nachricht ein und zeige, welche Chancen und Risiken Anleger jetzt beachten sollten.",
-      "url": "https://www.wallstreet-online.de/nachricht/21688245-biofrontera-ag-anleger-australien-deal-pruefen",
-      "published_at": "2026-11-13T09:26:35Z",
-      "tickers": [
-        "SSE.L"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "f05c26fc9f9d8b47",
-      "source": "yahoo_eu",
-      "title": "Investitionsstopp von Mercedes-Benz: Landeswirtschaftsministerin besorgt",
-      "summary": "Nach dem angek\u00fcndigten Investitionsstopp des Autobauers Mercedes-Benz in Deutschland hat die baden-w\u00fcrttembergische Wirtschaftsministerin Nicole Hoffmeister-Kraut (CDU) sich besorgt \u00fcber die wirtschaftlichen Auswirkungen in ihrem Bundesland gezeigt.Die CDU-Politikerin warnte davor, dass sich potenzielle Werksschlie\u00dfungen und Investitionsstopps auf die gesamte Industrieregion in Baden-W\u00fcrttemberg auswirken k\u00f6nnten.",
-      "url": "https://de.finance.yahoo.com/nachrichten/investitionsstopp-mercedes-benz-landeswirtschaftsministerin-besorgt-092309682.html?.tsrc=rss",
-      "published_at": "2026-11-13T09:23:09Z",
-      "tickers": [
-        "CDU"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T17:39:43Z",
-      "region": "EU"
-    },
-    {
-      "id": "326d89f180cf9179",
-      "source": "prnewswire",
-      "title": "Nagarro releases unaudited Q3 2026 results, posts 2.7% constant currency growth for 9 months ended September 2026",
-      "summary": "MUNICH, Nov. 13, 2026 /PRNewswire/ -- Nagarro, a global AI-native engineering and transformation leader, presented its unaudited financial numbers for 9M 2026 and 3M 2026, and released its quarterly statement for Q3 2026. In 9M 2026, revenue grew to \u20ac755.5 million from \u20ac753.4 million in...",
-      "url": "https://www.prnewswire.com/news-releases/nagarro-releases-unaudited-q3-2026-results-posts-2-7-constant-currency-growth-for-9-months-ended-september-2026--302938829.html",
-      "published_at": "2026-11-13T09:18:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-13T09:23:35Z"
-    },
-    {
-      "id": "02a794ffd575ae1f",
-      "source": "prnewswire_financial",
-      "title": "Nagarro releases unaudited Q3 2026 results, posts 2.7% constant currency growth for 9 months ended September 2026",
-      "summary": "MUNICH, Nov. 13, 2026 /PRNewswire/ -- Nagarro, a global AI-native engineering and transformation leader, presented its unaudited financial numbers for 9M 2026 and 3M 2026, and released its quarterly statement for Q3 2026. In 9M 2026, revenue grew to \u20ac755.5 million from \u20ac753.4 million in...",
-      "url": "https://www.prnewswire.com/news-releases/nagarro-releases-unaudited-q3-2026-results-posts-2-7-constant-currency-growth-for-9-months-ended-september-2026--302938829.html",
-      "published_at": "2026-11-13T09:18:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-13T09:23:35Z"
-    },
-    {
-      "id": "dbcbd2fd4225b268",
-      "source": "prnewswire",
-      "title": "ZINZINO AB (PUBL.): Nomination committee of Zinzino AB (publ) for the Annual General Meeting 2027",
-      "summary": "GOTHENBURG, Sweden, Nov. 13, 2026 /PRNewswire/ -- In accordance with the Nomination Committee Charter adopted at the Annual General Meeting 2026, the members who, together with the Chair of the Board, constitute the Nomination Committee in preparation for the Annual General Meeting 2027...",
-      "url": "https://www.prnewswire.com/news-releases/zinzino-ab-publ-nomination-committee-of-zinzino-ab-publ-for-the-annual-general-meeting-2027-302938826.html",
-      "published_at": "2026-11-13T09:13:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-13T09:23:35Z"
-    },
-    {
-      "id": "bc4c3c1d3df9bebd",
-      "source": "prnewswire",
-      "title": "Nagarro releases unaudited Q3 2026 results, posts 2.7% constant currency growth for 9 months ended September 2026",
-      "summary": "MUNICH, Nov. 13, 2026 /PRNewswire/ -- Nagarro, a global AI-native engineering and transformation leader, presented its unaudited financial numbers for 9M 2026 and 3M 2026, and released its quarterly statement for Q3 2026. In 9M 2026, revenue grew to \u20ac755.5 million from \u20ac753.4 million in...",
-      "url": "https://www.prnewswire.com/news-releases/nagarro-releases-unaudited-q3-2026-results-posts-2-7-constant-currency-growth-for-9-months-ended-september-2026--302938824.html",
-      "published_at": "2026-11-13T09:11:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-13T09:23:35Z"
-    },
-    {
-      "id": "ac4b29b97835de00",
-      "source": "prnewswire_financial",
-      "title": "Nagarro releases unaudited Q3 2026 results, posts 2.7% constant currency growth for 9 months ended September 2026",
-      "summary": "MUNICH, Nov. 13, 2026 /PRNewswire/ -- Nagarro, a global AI-native engineering and transformation leader, presented its unaudited financial numbers for 9M 2026 and 3M 2026, and released its quarterly statement for Q3 2026. In 9M 2026, revenue grew to \u20ac755.5 million from \u20ac753.4 million in...",
-      "url": "https://www.prnewswire.com/news-releases/nagarro-releases-unaudited-q3-2026-results-posts-2-7-constant-currency-growth-for-9-months-ended-september-2026--302938824.html",
-      "published_at": "2026-11-13T09:11:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-13T09:23:35Z"
-    },
-    {
-      "id": "2fe71d4914cea2f9",
-      "source": "marketwatch",
-      "title": "My wife has dementia and may outlive me. How do we prepare for long-term memory care?",
-      "summary": "\u201cShe\u2019s 69 and otherwise healthy as a horse.\u201d",
-      "url": "https://www.marketwatch.com/story/my-wife-has-dementia-and-may-outlive-me-how-do-we-prepare-for-long-term-memory-care-9c23efaa?mod=mw_rss_topstories",
-      "published_at": "2026-11-13T09:09:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-13T09:23:37Z"
-    },
-    {
-      "id": "70b327a396063ee7",
-      "source": "prnewswire",
-      "title": "Appier Doubles Operating Income on Record Revenue and Margins, Raises FY26 Guidance and Dividend Forecast",
-      "summary": "AI-driven efficiency and an outcome-based model keep gross profit growing faster than OPEX, driving margin expansion Highlights and achievements of Q3 FY26 Revenue reached a record JPY 13.9 billion, up 21.8% YoY, with organic growth of 27.1% YoY beating the above-25% guidance. Gross...",
-      "url": "https://www.prnewswire.com/news-releases/appier-doubles-operating-income-on-record-revenue-and-margins-raises-fy26-guidance-and-dividend-forecast-302938822.html",
-      "published_at": "2026-11-13T09:05:00Z",
-      "tickers": [],
-      "event_type": "guidance_raise",
-      "direction": "bullish",
-      "news_side": "long",
-      "actionable": true,
-      "scanned_at": "2026-11-13T09:23:35Z"
     }
   ]
 }
