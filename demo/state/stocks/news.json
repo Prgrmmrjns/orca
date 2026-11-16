@@ -1,11 +1,11 @@
 {
   "mode": "paper",
-  "as_of": "2026-11-16T00:20:26Z",
-  "as_of_et": "2026-11-15 19:20 ET",
+  "as_of": "2026-11-16T06:59:29Z",
+  "as_of_et": "2026-11-16 01:59 ET",
   "rolling_hours": 72,
   "n_items": 400,
   "n_actionable": 26,
-  "n_with_ticker": 124,
+  "n_with_ticker": 123,
   "sources": [
     "prnewswire",
     "prnewswire_financial",
@@ -18,6 +18,411 @@
   "errors": [],
   "note": "Paper news feed. Keyword tagging is heuristic. Shorts have no borrow model. RSS/EDGAR can lag minutes\u2013hours.",
   "items": [
+    {
+      "id": "92fb520cc38b2ba3",
+      "source": "prnewswire",
+      "title": "Evotec Secures $2.9 Million Grant to Advance Early Drug Safety Testing Using Human Stem Cell Technology",
+      "summary": "New three-year grant from the Gates Foundation extends a 2023 project to help global health researchers predict potential fetal development risks posed by novel drug candidates Evotec's human stem cell-based platform enables better-informed decisions regarding which drug candidates to...",
+      "url": "https://www.prnewswire.com/news-releases/evotec-secures-2-9-million-grant-to-advance-early-drug-safety-testing-using-human-stem-cell-technology-302940114.html",
+      "published_at": "2026-11-16T06:57:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-16T06:59:25Z"
+    },
+    {
+      "id": "7870698d71458a9c",
+      "source": "prnewswire",
+      "title": "GIGABYTE ampl\u00eda su gama de soluciones de IA local con el lanzamiento de AI TOP AERO, basado en NVIDIA RTX SPARK\u2122",
+      "summary": "Con IA local y creaci\u00f3n acelerada por RTX en Windows 11, hasta 128 GB de memoria unificada y dise\u00f1o de refrigeraci\u00f3n GIGABYTE en un Personal AI Studio compacto TAIPEI, 16 de noviembre de 2026 /PRNewswire/ -- GIGABYTE anunci\u00f3 hoy el lanzamiento de AI TOP AERO, un ordenador de sobremesa con...",
+      "url": "https://www.prnewswire.com/news-releases/gigabyte-amplia-su-gama-de-soluciones-de-ia-local-con-el-lanzamiento-de-ai-top-aero-basado-en-nvidia-rtx-spark-302940103.html",
+      "published_at": "2026-11-16T06:48:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-16T06:59:25Z"
+    },
+    {
+      "id": "a895a7a176b93247",
+      "source": "prnewswire",
+      "title": "Segway Powersports Secures Class 2 One-Two Finish on SCORE Baja 1000 Debut",
+      "summary": "SAN JOS\u00c9 DEL CABO, Mexico, Nov. 16, 2026 /PRNewswire/ -- Segway Powersports claimed first and second place in Class 2 on its SCORE Baja 1000 debut, with both race-prepared Super Villain UTVs reaching the finish. The result marks a milestone for Segway Powersports, turning its first...",
+      "url": "https://www.prnewswire.com/news-releases/segway-powersports-secures-class-2-one-two-finish-on-score-baja-1000-debut-302940099.html",
+      "published_at": "2026-11-16T06:47:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-16T06:59:25Z"
+    },
+    {
+      "id": "fb81cb6715b92d9f",
+      "source": "prnewswire",
+      "title": "Mercari and Suruga-ya to Establish Joint Venture Mercari Surugaya Inc. in the US",
+      "summary": "Joint venture to combine the knowledge and AI usage of Mercari and Suruga-ya for the purchase, procurement, and sale of Entertainment & Hobbies items in the US to bring Japanese pop culture to fans overseas TOKYO, Nov. 16, 2026 /PRNewswire/ -- Mercari, Inc. (head office: Minato-ku, Tokyo;...",
+      "url": "https://www.prnewswire.com/news-releases/mercari-and-suruga-ya-to-establish-joint-venture-mercari-surugaya-inc-in-the-us-302940079.html",
+      "published_at": "2026-11-16T06:45:00Z",
+      "tickers": [],
+      "event_type": "mna_deal",
+      "direction": "bullish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-16T06:59:25Z"
+    },
+    {
+      "id": "fa5752e5ab832115",
+      "source": "prnewswire",
+      "title": "Le GIGABYTE AI TOP ATOM 64 Go est d\u00e9sormais disponible, \u00e9largissant les possibilit\u00e9s du d\u00e9veloppement d'IA sur ordinateur de bureau",
+      "summary": "TAIPEI, 16 novembre 2026 /PRNewswire/ -- GIGABYTE, la marque technologique leader mondiale, a annonc\u00e9 aujourd'hui la mise sur le march\u00e9 de la version \u00e0 m\u00e9moire unifi\u00e9e de 64 Go du GIGABYTE AI TOP ATOM, qui vient s'ajouter \u00e0 la version 128 Go. Bas\u00e9es sur la plateforme NVIDIA DGX Spark, les...",
+      "url": "https://www.prnewswire.com/news-releases/le-gigabyte-ai-top-atom-64-go-est-desormais-disponible-elargissant-les-possibilites-du-developpement-dia-sur-ordinateur-de-bureau-302940086.html",
+      "published_at": "2026-11-16T06:45:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-16T06:59:25Z"
+    },
+    {
+      "id": "7b697a6fa05fb5f0",
+      "source": "prnewswire",
+      "title": "HKEX Launches Offshore RMB Bond Index",
+      "summary": "First HKEX branded fixed-income index, tracking the performance of Dim Sum bonds issued in Hong Kong Collaboration with Bloomberg Indices supports index administration and commercialisation HONG KONG, Nov. 16, 2026 /PRNewswire/ -- Hong Kong Exchanges and Clearing Limited (HKEX) is today...",
+      "url": "https://www.prnewswire.com/news-releases/hkex-launches-offshore-rmb-bond-index-302940078.html",
+      "published_at": "2026-11-16T06:33:00Z",
+      "tickers": [
+        "HKEX"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-16T06:59:25Z"
+    },
+    {
+      "id": "5d2d879312292b4a",
+      "source": "prnewswire_financial",
+      "title": "HKEX Launches Offshore RMB Bond Index",
+      "summary": "First HKEX branded fixed-income index, tracking the performance of Dim Sum bonds issued in Hong Kong Collaboration with Bloomberg Indices supports index administration and commercialisation HONG KONG, Nov. 16, 2026 /PRNewswire/ -- Hong Kong Exchanges and Clearing Limited (HKEX) is today...",
+      "url": "https://www.prnewswire.com/news-releases/hkex-launches-offshore-rmb-bond-index-302940078.html",
+      "published_at": "2026-11-16T06:33:00Z",
+      "tickers": [
+        "HKEX"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-16T06:59:26Z"
+    },
+    {
+      "id": "92453f12d59b25d5",
+      "source": "prnewswire",
+      "title": "Formation of the Nomination Committee in Sivers Semiconductors AB ahead of the 2027 Annual General Meeting",
+      "summary": "KISTA, Sweden, Nov. 16, 2026 /PRNewswire/ -- The Nomination Committee of Sivers Semiconductors AB (the \"Company\") shall consist of one member appointed by each of the three largest shareholders in terms of voting rights and the Chairman of the Board of Directors, based on shareholder...",
+      "url": "https://www.prnewswire.com/news-releases/formation-of-the-nomination-committee-in-sivers-semiconductors-ab-ahead-of-the-2027-annual-general-meeting-302940077.html",
+      "published_at": "2026-11-16T06:32:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-16T06:59:25Z"
+    },
+    {
+      "id": "636f05d1e68beb40",
+      "source": "prnewswire",
+      "title": "DoGo's Grid-Forming ESS Delivers Round-the-Clock Power to 2,000 Households on Remote Indonesian Island",
+      "summary": "JAKARTA, Indonesia, Nov. 16, 2026 /PRNewswire/ -- DoGo Power's Smart grid-forming energy storage system (ESS) and energy management system (EMS) have officially gone live on Pagerungan Kecil Island (P Island), a remote isle off southern Indonesia. The 1MW PV + 2MW/4MWh ESS project brings...",
+      "url": "https://www.prnewswire.com/news-releases/dogos-grid-forming-ess-delivers-round-the-clock-power-to-2-000-households-on-remote-indonesian-island-302940075.html",
+      "published_at": "2026-11-16T06:29:00Z",
+      "tickers": [
+        "ESS",
+        "EMS"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-16T06:59:25Z"
+    },
+    {
+      "id": "cbdf7e3bc25047c4",
+      "source": "prnewswire",
+      "title": "EFICYENT participar\u00e1 junto a bancos y empresas fintech en el Singapore FinTech Festival 2026",
+      "summary": "DUBAI, EAU, 16 de noviembre de 2026 /PRNewswire/ -- EFICYENT, una plataforma de pagos transfronterizos, participar\u00e1 en el Singapore FinTech Festival (SFF) 2026, uno de los encuentros m\u00e1s grandes del mundo que re\u00fane al ecosistema financiero y tecnol\u00f3gico global. El evento tendr\u00e1 lugar en...",
+      "url": "https://www.prnewswire.com/news-releases/eficyent-participara-junto-a-bancos-y-empresas-fintech-en-el-singapore-fintech-festival-2026-302940063.html",
+      "published_at": "2026-11-16T06:23:00Z",
+      "tickers": [
+        "SFF"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-16T06:59:25Z"
+    },
+    {
+      "id": "c5b4a720f35f1977",
+      "source": "prnewswire_financial",
+      "title": "EFICYENT participar\u00e1 junto a bancos y empresas fintech en el Singapore FinTech Festival 2026",
+      "summary": "DUBAI, EAU, 16 de noviembre de 2026 /PRNewswire/ -- EFICYENT, una plataforma de pagos transfronterizos, participar\u00e1 en el Singapore FinTech Festival (SFF) 2026, uno de los encuentros m\u00e1s grandes del mundo que re\u00fane al ecosistema financiero y tecnol\u00f3gico global. El evento tendr\u00e1 lugar en...",
+      "url": "https://www.prnewswire.com/news-releases/eficyent-participara-junto-a-bancos-y-empresas-fintech-en-el-singapore-fintech-festival-2026-302940063.html",
+      "published_at": "2026-11-16T06:23:00Z",
+      "tickers": [
+        "SFF"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-16T06:59:26Z"
+    },
+    {
+      "id": "ce8f3059b4e3bd5e",
+      "source": "prnewswire",
+      "title": "Akeso's Gumokimab (IL-17A) Receives NMPA Approval for Active Ankylosing Spondylitis",
+      "summary": "HONG KONG, Nov. 16, 2026 /PRNewswire/ -- Akeso, Inc. (9926.HK) announced that the National Medical Products Administration (NMPA) of China has approved the supplemental New Drug Application (sNDA) for gumokimab, its self-developed IL-17A monoclonal antibody, for the treatment of active...",
+      "url": "https://www.prnewswire.com/news-releases/akesos-gumokimab-il-17a-receives-nmpa-approval-for-active-ankylosing-spondylitis-302940052.html",
+      "published_at": "2026-11-16T06:16:00Z",
+      "tickers": [
+        "NMPA"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-16T06:59:25Z"
+    },
+    {
+      "id": "675e083e5b744c94",
+      "source": "prnewswire",
+      "title": "HONGQI EHS4 feiert Weltpremiere in Venedig: Orientalische Eleganz erreicht Europa",
+      "summary": "VENEDIG, Italien, 16. November 2026 /PRNewswire/ -- HONGQI, eine der f\u00fchrenden Automobilmarken Chinas, wird ihren brandneuen vollelektrischen SUV, HONGQI EHS4, auf dem europ\u00e4ischen Markt einf\u00fchren. Mit seiner Weltpremiere am 16. November 2026 in Venedig, Italien, markiert der EHS4 einen...",
+      "url": "https://www.prnewswire.com/news-releases/hongqi-ehs4-feiert-weltpremiere-in-venedig-orientalische-eleganz-erreicht-europa-302940043.html",
+      "published_at": "2026-11-16T06:09:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-16T06:59:25Z"
+    },
+    {
+      "id": "1f0d9948cc89262a",
+      "source": "prnewswire",
+      "title": "Le HONGQI EHS4 sera pr\u00e9sent\u00e9 en avant-premi\u00e8re mondiale \u00e0 Venise : l'\u00e9l\u00e9gance orientale s'invite en Europe",
+      "summary": "VENISE, Italie, 16 novembre 2026 /PRNewswire/ -- HONGQI, l'une des principales marques automobiles chinoises, va lancer sur le march\u00e9 europ\u00e9en son tout nouveau SUV 100 % \u00e9lectrique, le HONGQI EHS4. Pr\u00e9sent\u00e9 en avant-premi\u00e8re mondiale \u00e0 Venise, en Italie, le 16 novembre 2026, l'EHS4 marque...",
+      "url": "https://www.prnewswire.com/news-releases/le-hongqi-ehs4-sera-presente-en-avant-premiere-mondiale-a-venise--lelegance-orientale-sinvite-en-europe-302940042.html",
+      "published_at": "2026-11-16T06:07:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-16T06:59:25Z"
+    },
+    {
+      "id": "f352698b08b8afb2",
+      "source": "prnewswire",
+      "title": "Phoenix Contact Training Team Sets New Guinness World Record in Wiring",
+      "summary": "BLOMBERG, Germany, Nov. 16, 2026 /PRNewswire/ -- Ten first-year dual-track students at Phoenix Contact set a new Guinness World Record on November 4, 2026. As the sponsor day at HSG Blomberg-Lippe, the team used Push-X 500 terminal block connection technology to wire 500 terminal blocks...",
+      "url": "https://www.prnewswire.com/news-releases/phoenix-contact-training-team-sets-new-guinness-world-record-in-wiring-302936194.html",
+      "published_at": "2026-11-16T06:00:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-16T06:59:25Z"
+    },
+    {
+      "id": "1b30214a311c3eea",
+      "source": "prnewswire",
+      "title": "Turning Climate Warnings into Energy Action: Tuya Smart Showcases Its AI Energy Solutions at COP31",
+      "summary": "ANTALYA, T\u00fcrkiye, Nov. 16, 2026 /PRNewswire/ -- During the 31st United Nations Climate Change Conference (COP31), Tuya Smart (NYSE: TUYA; HKEX: 2391), a global AI cloud platform service provider, was invited to participate in the COP31 Blue Zone side event titled \"From Early Warning to...",
+      "url": "https://www.prnewswire.com/news-releases/turning-climate-warnings-into-energy-action-tuya-smart-showcases-its-ai-energy-solutions-at-cop31-302940021.html",
+      "published_at": "2026-11-16T05:49:00Z",
+      "tickers": [
+        "TUYA"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-16T06:59:25Z"
+    },
+    {
+      "id": "ad3325714b043205",
+      "source": "prnewswire",
+      "title": "Turning Climate Warnings into Energy Action: Tuya Smart Showcases Its AI Energy Solutions at COP31",
+      "summary": "ANTALYA, T\u00fcrkiye, Nov. 16, 2026 /PRNewswire/ -- During the 31st United Nations Climate Change Conference (COP31), Tuya Smart (NYSE: TUYA; HKEX: 2391), a global AI cloud platform service provider, was invited to participate in the COP31 Blue Zone side event titled \"From Early Warning to...",
+      "url": "https://www.prnewswire.com/news-releases/turning-climate-warnings-into-energy-action-tuya-smart-showcases-its-ai-energy-solutions-at-cop31-302940006.html",
+      "published_at": "2026-11-16T05:34:00Z",
+      "tickers": [
+        "TUYA"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-16T06:59:25Z"
+    },
+    {
+      "id": "f380057d0daf5b01",
+      "source": "prnewswire",
+      "title": "Biel Crystal Stands as a Primary UTG Supplier for iPhone Duo",
+      "summary": "HONG KONG, Nov. 16, 2026 /PRNewswire/ -- The launch of Apple's first foldable iPhone, the iPhone Duo, has brought ultra-thin flexible glass (UTG) into the industry spotlight. Leveraging extensive expertise in back-end precision finishing and large-scale delivery capabilities, Biel Crystal...",
+      "url": "https://www.prnewswire.com/news-releases/biel-crystal-stands-as-a-primary-utg-supplier-for-iphone-duo-302940005.html",
+      "published_at": "2026-11-16T05:32:00Z",
+      "tickers": [
+        "UTG"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-16T06:59:25Z"
+    },
+    {
+      "id": "66d54fa00724b534",
+      "source": "prnewswire",
+      "title": "From the Makers of SOB+R\u00ae Comes SOBER CAFFEINE\u2122: A Clean Caffeine Capsule Formulated with Taurine for Mood and Energy",
+      "summary": "Designed as a convenient, zero-sugar alternative to traditional energy drinks, SOBER CAFFEINE\u2122 includes 200mg of Caffeine with Taurine and L-theanine for energy and focus. TORRINGTON, Conn., Nov. 16, 2026 /PRNewswire/ -- Sobriety Supplements LLC, the Connecticut-based company behind the...",
+      "url": "https://www.prnewswire.com/news-releases/from-the-makers-of-sobr-comes-sober-caffeine-a-clean-caffeine-capsule-formulated-with-taurine-for-mood-and-energy-302940003.html",
+      "published_at": "2026-11-16T05:31:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-16T06:59:25Z"
+    },
+    {
+      "id": "bbbf3ac51287825a",
+      "source": "prnewswire",
+      "title": "NABEP selects Sulzer to rebuild Petrocede\u00f1o tower destroyed in 2025 incident",
+      "summary": "The Swiss leading engineering company will manufacture and install a new tower at the Orinoco Belt facility, a key step toward restoring Venezuela's capacity to process extra-heavy crude. The rehabilitation project aims to support the development and reliability of the country's essential...",
+      "url": "https://www.prnewswire.com/news-releases/nabep-selects-sulzer-to-rebuild-petrocedeno-tower-destroyed-in-2025-incident-302939808.html",
+      "published_at": "2026-11-16T05:30:00Z",
+      "tickers": [
+        "NABEP"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-16T06:59:25Z"
+    },
+    {
+      "id": "97951f12037ea78e",
+      "source": "prnewswire",
+      "title": "HONA Investors Have Opportunity to Lead Honeywell Aerospace Inc. Securities Fraud Lawsuit with SBS Law",
+      "summary": "LOS ANGELES, Nov. 16, 2026 /PRNewswire/ -- Schall, Brown & Schwartz LLP (\"SBS\"), a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Honeywell Aerospace Inc. (\"Honeywell Aerospace\" or \"the Company\") (NASDAQ: HONA) for violations of \u00a7\u00a710(b)...",
+      "url": "https://www.prnewswire.com/news-releases/hona-investors-have-opportunity-to-lead-honeywell-aerospace-inc-securities-fraud-lawsuit-with-sbs-law-302939867.html",
+      "published_at": "2026-11-16T05:20:00Z",
+      "tickers": [
+        "HONA"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-16T06:59:25Z"
+    },
+    {
+      "id": "09ef73fba7d06d55",
+      "source": "prnewswire",
+      "title": "Better Home & Finance Holding Company Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - BETR",
+      "summary": "NEW YORK, Nov. 16, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Better Home & Finance Holding Company (\"Better\" or \"the Company\") (NASDAQ: BETR) for violations of \u00a7\u00a710(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5...",
+      "url": "https://www.prnewswire.com/news-releases/better-home--finance-holding-company-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--betr-302939864.html",
+      "published_at": "2026-11-16T05:17:00Z",
+      "tickers": [
+        "BETR"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-16T06:59:25Z"
+    },
+    {
+      "id": "c7853a760caee9fa",
+      "source": "prnewswire_financial",
+      "title": "Liderando el camino: Celebrando a los l\u00edderes de la salud de San Diego",
+      "summary": "Blue Shield Promise reconoce a personas y organizaciones por sus destacadas contribuciones y por brindar atenci\u00f3n compasiva y de alta calidad en el condado de San Diego. SAN DIEGO, 16 de noviembre de 2026 /PRNewswire-HISPANIC PR WIRE/ -- Blue Shield of California Promise Health Plan...",
+      "url": "https://www.prnewswire.com/news-releases/liderando-el-camino-celebrando-a-los-lideres-de-la-salud-de-san-diego-860966218.html",
+      "published_at": "2026-11-16T05:05:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-16T06:59:26Z"
+    },
+    {
+      "id": "eb5bafaa6e20634e",
+      "source": "cnbc_finance",
+      "title": "China\u2019s slowdown deepens in October as industrial output, retail sales, investment miss estimates",
+      "summary": "A deepening reliance on external demand leaves China more exposed to shocks abroad as domestic momentum fades, analysts say.",
+      "url": "https://www.cnbc.com/2026/11/16/china-retail-sales-october-industrial-output-investment.html",
+      "published_at": "2026-11-16T03:53:59Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-16T06:59:27Z"
+    },
+    {
+      "id": "0667ade72b4f47eb",
+      "source": "marketwatch",
+      "title": "A big chunk of your 401(k) is likely invested in Nvidia",
+      "summary": "The scandal at the computer-chip giant is exactly what\u2019s wrong with the S&amp;P 500.",
+      "url": "https://www.marketwatch.com/story/the-scandal-at-nvidia-is-exactly-whats-wrong-with-the-s-p-500-7307457e?mod=mw_rss_topstories",
+      "published_at": "2026-11-16T03:11:00Z",
+      "tickers": [
+        "A"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-16T06:59:28Z"
+    },
+    {
+      "id": "f78dd435cb896a8b",
+      "source": "prnewswire_financial",
+      "title": "Thunes Expands Real-Time Payouts to Bhutan, Unlocking the Nation's Remittance Market",
+      "summary": "Thunes' Direct Global Network enables instant, 24/7 payments to all bank accounts in Bhutan, empowering Members to support the nation's rapidly expanding remittance corridor. SINGAPORE and THIMPHU, Bhutan, Nov. 16, 2026 /PRNewswire/ -- Thunes, the Smart Superhighway to move money around...",
+      "url": "https://www.prnewswire.com/news-releases/thunes-expands-real-time-payouts-to-bhutan-unlocking-the-nations-remittance-market-302939095.html",
+      "published_at": "2026-11-16T01:00:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-16T06:59:26Z"
+    },
+    {
+      "id": "119ce1b71b62cd03",
+      "source": "prnewswire_financial",
+      "title": "Bloomberg Indices and HKEX Launch Co-branded Offshore RMB Bond Index Family to Support Growing Investor Demand in the Dim Sum Bond Market",
+      "summary": "New index suite helps meet growing demand for index-based investment products in offshore RMB bonds HONG KONG, Nov. 15, 2026 /PRNewswire/ -- Bloomberg Index Services Limited (\"BISL\") today announced the launch of a new family of offshore RMB bond indices in collaboration with HKEX FICC...",
+      "url": "https://www.prnewswire.com/news-releases/bloomberg-indices-and-hkex-launch-co-branded-offshore-rmb-bond-index-family-to-support-growing-investor-demand-in-the-dim-sum-bond-market-302939821.html",
+      "published_at": "2026-11-16T01:00:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-16T06:59:26Z"
+    },
     {
       "id": "9bfc7917b70410e8",
       "source": "prnewswire",
@@ -179,7 +584,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:25Z"
+      "scanned_at": "2026-11-16T06:59:28Z"
     },
     {
       "id": "5a2e59275480ee9d",
@@ -277,7 +682,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:24Z"
+      "scanned_at": "2026-11-16T06:59:27Z"
     },
     {
       "id": "69c3613c4fc79c53",
@@ -369,7 +774,7 @@
       "direction": "bearish",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:23Z"
+      "scanned_at": "2026-11-16T06:59:26Z"
     },
     {
       "id": "4aef21732855e9bb",
@@ -400,7 +805,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:25Z"
+      "scanned_at": "2026-11-16T06:59:28Z"
     },
     {
       "id": "2da1130c1b650f56",
@@ -472,7 +877,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:25Z"
+      "scanned_at": "2026-11-16T06:59:28Z"
     },
     {
       "id": "f95c3edf899c454a",
@@ -749,7 +1154,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:24Z"
+      "scanned_at": "2026-11-16T06:59:26Z"
     },
     {
       "id": "78f394926cafc2f4",
@@ -835,7 +1240,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:23Z"
+      "scanned_at": "2026-11-16T06:59:26Z"
     },
     {
       "id": "2d57c6bd0ef3985f",
@@ -984,7 +1389,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:25Z"
+      "scanned_at": "2026-11-16T06:59:28Z"
     },
     {
       "id": "be6358caa48e1852",
@@ -1030,7 +1435,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:23Z"
+      "scanned_at": "2026-11-16T06:59:26Z"
     },
     {
       "id": "e35edd1a627efb49",
@@ -1058,7 +1463,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:25Z"
+      "scanned_at": "2026-11-16T06:59:28Z"
     },
     {
       "id": "d75bec2b43fecb96",
@@ -1270,7 +1675,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:25Z"
+      "scanned_at": "2026-11-16T06:59:28Z"
     },
     {
       "id": "bf644e7f0f8c93c5",
@@ -1318,7 +1723,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:23Z"
+      "scanned_at": "2026-11-16T06:59:26Z"
     },
     {
       "id": "3bf63055f3d8ddc6",
@@ -1332,7 +1737,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:24Z"
+      "scanned_at": "2026-11-16T06:59:27Z"
     },
     {
       "id": "44892c1ba75abb2e",
@@ -1362,7 +1767,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:25Z"
+      "scanned_at": "2026-11-16T06:59:28Z"
     },
     {
       "id": "5c6b45686197f8c2",
@@ -1422,7 +1827,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:23Z"
+      "scanned_at": "2026-11-16T06:59:26Z"
     },
     {
       "id": "454bac7cbf1f3099",
@@ -1556,7 +1961,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:24Z"
+      "scanned_at": "2026-11-16T06:59:26Z"
     },
     {
       "id": "bd2aeb7c8c6442c9",
@@ -1598,7 +2003,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:24Z"
+      "scanned_at": "2026-11-16T06:59:26Z"
     },
     {
       "id": "69e914beb2c8edef",
@@ -1612,7 +2017,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:24Z"
+      "scanned_at": "2026-11-16T06:59:27Z"
     },
     {
       "id": "c05645d153e4da3c",
@@ -1640,7 +2045,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:25Z"
+      "scanned_at": "2026-11-16T06:59:28Z"
     },
     {
       "id": "fbe86ec220a02150",
@@ -1788,7 +2193,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:23Z"
+      "scanned_at": "2026-11-16T06:59:26Z"
     },
     {
       "id": "ddd62e01ae00b08d",
@@ -2156,7 +2561,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:23Z"
+      "scanned_at": "2026-11-16T06:59:26Z"
     },
     {
       "id": "7093301db28c866d",
@@ -2248,7 +2653,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:23Z"
+      "scanned_at": "2026-11-16T06:59:26Z"
     },
     {
       "id": "9ab12a1b5d2eddc6",
@@ -2308,7 +2713,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:23Z"
+      "scanned_at": "2026-11-16T06:59:26Z"
     },
     {
       "id": "973f0fc80d312446",
@@ -2340,7 +2745,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:23Z"
+      "scanned_at": "2026-11-16T06:59:26Z"
     },
     {
       "id": "b6f97ab8cca0d988",
@@ -2386,7 +2791,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:23Z"
+      "scanned_at": "2026-11-16T06:59:26Z"
     },
     {
       "id": "0e28831c4ae3cd72",
@@ -2401,7 +2806,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:23Z"
+      "scanned_at": "2026-11-16T06:59:25Z"
     },
     {
       "id": "fa65e72df64dfe3f",
@@ -2429,7 +2834,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:23Z"
+      "scanned_at": "2026-11-16T06:59:26Z"
     },
     {
       "id": "d20c87e4d730c495",
@@ -2444,7 +2849,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:23Z"
+      "scanned_at": "2026-11-16T06:59:25Z"
     },
     {
       "id": "d7b0e34af737a70f",
@@ -2459,7 +2864,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:23Z"
+      "scanned_at": "2026-11-16T06:59:25Z"
     },
     {
       "id": "8022d5ed4737bb63",
@@ -2474,7 +2879,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:23Z"
+      "scanned_at": "2026-11-16T06:59:25Z"
     },
     {
       "id": "8bc4c4a6282b2c5c",
@@ -2489,7 +2894,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-16T00:20:23Z"
+      "scanned_at": "2026-11-16T06:59:25Z"
     },
     {
       "id": "c1afe3e311fe2530",
@@ -2504,7 +2909,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-16T00:20:23Z"
+      "scanned_at": "2026-11-16T06:59:25Z"
     },
     {
       "id": "68831d56eef55e90",
@@ -2519,7 +2924,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:23Z"
+      "scanned_at": "2026-11-16T06:59:25Z"
     },
     {
       "id": "ede6743168914110",
@@ -2534,7 +2939,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:23Z"
+      "scanned_at": "2026-11-16T06:59:25Z"
     },
     {
       "id": "59c2ab01f0b57435",
@@ -2549,7 +2954,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:23Z"
+      "scanned_at": "2026-11-16T06:59:25Z"
     },
     {
       "id": "ad3879833d7bea53",
@@ -2564,7 +2969,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:23Z"
+      "scanned_at": "2026-11-16T06:59:25Z"
     },
     {
       "id": "19619a17ec3ab931",
@@ -2579,7 +2984,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:23Z"
+      "scanned_at": "2026-11-16T06:59:25Z"
     },
     {
       "id": "9e71c7f7d83ceb71",
@@ -2594,7 +2999,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-16T00:20:23Z"
+      "scanned_at": "2026-11-16T06:59:25Z"
     },
     {
       "id": "0c6e6defb1f8d5a8",
@@ -2609,7 +3014,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:23Z"
+      "scanned_at": "2026-11-16T06:59:25Z"
     },
     {
       "id": "1109a0ebb3826b56",
@@ -2624,7 +3029,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:23Z"
+      "scanned_at": "2026-11-16T06:59:25Z"
     },
     {
       "id": "bc5be7b5bef55c4e",
@@ -2639,7 +3044,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:23Z"
+      "scanned_at": "2026-11-16T06:59:25Z"
     },
     {
       "id": "590cc58e8001fbee",
@@ -2654,7 +3059,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:23Z"
+      "scanned_at": "2026-11-16T06:59:25Z"
     },
     {
       "id": "9a95371b25f2d26d",
@@ -2669,7 +3074,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:23Z"
+      "scanned_at": "2026-11-16T06:59:25Z"
     },
     {
       "id": "b2eb73a22cdde2dd",
@@ -2684,7 +3089,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-16T00:20:23Z"
+      "scanned_at": "2026-11-16T06:59:25Z"
     },
     {
       "id": "2a3c1ff26b443f6b",
@@ -2699,7 +3104,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:23Z"
+      "scanned_at": "2026-11-16T06:59:25Z"
     },
     {
       "id": "bbda84808136838e",
@@ -2714,7 +3119,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:23Z"
+      "scanned_at": "2026-11-16T06:59:25Z"
     },
     {
       "id": "9e86d7e87c3bbed7",
@@ -2729,7 +3134,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:23Z"
+      "scanned_at": "2026-11-16T06:59:25Z"
     },
     {
       "id": "d3133c601aa513dc",
@@ -2744,7 +3149,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:23Z"
+      "scanned_at": "2026-11-16T06:59:25Z"
     },
     {
       "id": "6dbf30347f4dba87",
@@ -2759,7 +3164,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:23Z"
+      "scanned_at": "2026-11-16T06:59:25Z"
     },
     {
       "id": "ee0f7bb6c8b4a4cd",
@@ -2774,7 +3179,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-16T00:20:23Z"
+      "scanned_at": "2026-11-16T06:59:25Z"
     },
     {
       "id": "91853671c64e688f",
@@ -2838,7 +3243,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:23Z"
+      "scanned_at": "2026-11-16T06:59:25Z"
     },
     {
       "id": "c028a5247a7210e7",
@@ -2853,7 +3258,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:23Z"
+      "scanned_at": "2026-11-16T06:59:25Z"
     },
     {
       "id": "68408ab09e198486",
@@ -2868,7 +3273,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:23Z"
+      "scanned_at": "2026-11-16T06:59:25Z"
     },
     {
       "id": "479ccddbddb17350",
@@ -2883,7 +3288,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:23Z"
+      "scanned_at": "2026-11-16T06:59:25Z"
     },
     {
       "id": "3732dff0d735d792",
@@ -2898,7 +3303,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:23Z"
+      "scanned_at": "2026-11-16T06:59:25Z"
     },
     {
       "id": "1aa40b7d1b73fdcb",
@@ -2929,7 +3334,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:23Z"
+      "scanned_at": "2026-11-16T06:59:25Z"
     },
     {
       "id": "709d172a7e4ff485",
@@ -2958,7 +3363,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:23Z"
+      "scanned_at": "2026-11-16T06:59:25Z"
     },
     {
       "id": "a50685ab445736ea",
@@ -3001,7 +3406,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:23Z"
+      "scanned_at": "2026-11-16T06:59:25Z"
     },
     {
       "id": "0f2a8dc9745e69b9",
@@ -3016,7 +3421,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:23Z"
+      "scanned_at": "2026-11-16T06:59:25Z"
     },
     {
       "id": "be276c0d4f1cae41",
@@ -3047,7 +3452,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:23Z"
+      "scanned_at": "2026-11-16T06:59:25Z"
     },
     {
       "id": "f0896bc769b02012",
@@ -3062,7 +3467,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:23Z"
+      "scanned_at": "2026-11-16T06:59:25Z"
     },
     {
       "id": "677db1b3c780327e",
@@ -3077,7 +3482,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:23Z"
+      "scanned_at": "2026-11-16T06:59:25Z"
     },
     {
       "id": "a5e277c31c383672",
@@ -3092,7 +3497,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:23Z"
+      "scanned_at": "2026-11-16T06:59:25Z"
     },
     {
       "id": "043ad3cac0875e66",
@@ -3107,7 +3512,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:23Z"
+      "scanned_at": "2026-11-16T06:59:25Z"
     },
     {
       "id": "5787d3562bf68bb7",
@@ -3122,7 +3527,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:23Z"
+      "scanned_at": "2026-11-16T06:59:25Z"
     },
     {
       "id": "a22ac6952506665b",
@@ -3137,7 +3542,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:23Z"
+      "scanned_at": "2026-11-16T06:59:25Z"
     },
     {
       "id": "a0772c7a54902a13",
@@ -3195,7 +3600,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:23Z"
+      "scanned_at": "2026-11-16T06:59:26Z"
     },
     {
       "id": "20a14b1427f01915",
@@ -3239,7 +3644,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:23Z"
+      "scanned_at": "2026-11-16T06:59:26Z"
     },
     {
       "id": "49174537e3322a23",
@@ -3273,7 +3678,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:23Z"
+      "scanned_at": "2026-11-16T06:59:26Z"
     },
     {
       "id": "5ca1d6f4c5b8894d",
@@ -4897,7 +5302,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:25Z"
+      "scanned_at": "2026-11-16T06:59:28Z"
     },
     {
       "id": "e28f44348e4f2d93",
@@ -5203,7 +5608,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-16T00:20:24Z"
+      "scanned_at": "2026-11-16T06:59:27Z"
     },
     {
       "id": "ff4c80411f305bab",
@@ -5673,494 +6078,6 @@
       "actionable": false,
       "eu_category": "other_8k",
       "scanned_at": "2026-11-13T17:39:43Z",
-      "region": "EU"
-    },
-    {
-      "id": "bfa0d35b40e2b1fd",
-      "source": "eqs_google",
-      "title": "Intel Aktie: BofA-Analyst warnt vor KI-R\u00fcckstand - droht die n\u00e4chste Entt\u00e4uschung? - AktienCheck.de",
-      "summary": "Intel Aktie: BofA-Analyst warnt vor KI-R\u00fcckstand - droht die n\u00e4chste Entt\u00e4uschung? &nbsp;&nbsp; AktienCheck.de",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbG94OFBnejV0NHBGMmtEQWcxZ3FJNjQyVTNLUGlKOUV2QzNlMHo0d0wwRklneS0zdGk5bGluYlJpcjBxSVF6RHVPa2xFQ3hiR25VZnQ3dmUyRXZhVEtPbngyZEExVEk3MEpHYTlpSEgzMDRMZUZrUzdLYXJEWU44LTdreVVLcjVIdmF6elJwUU5md0NlTXJPVmVIQmwyWWs?oc=5",
-      "published_at": "2026-11-13T10:54:23Z",
-      "tickers": [],
-      "form": "EU_NEWS",
-      "event_type": "analyst",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "eu_category": "analyst",
-      "scanned_at": "2026-11-13T17:39:39Z",
-      "region": "EU"
-    },
-    {
-      "id": "546465e11d114e98",
-      "source": "yahoo_eu",
-      "title": "AKTIEN IM FOKUS: Versicherer ziehen weiter an - Kurse im Bereich der Rekordh\u00f6hen",
-      "summary": "Im europaweit freundlichen Sektor der Versicherer haben am Freitag die Papiere der Munich Re an ihren starken Vortag angekn\u00fcpft. Sie gewannen zuletzt 1,5 Prozent und blieben auf Kurs zu ihrem Rekordhoch von fast 616 Euro von Ende April 2025. Am Vortag hatten Quartalszahlen des R\u00fcckversicherers den Kurs bereits angetrieben. Trotz deutlich h\u00f6herer Sch\u00e4den durch Naturkatastrophen waren die versicherten Gro\u00dfsch\u00e4den im dritten Quartal unter den Erwartungen geblieben.",
-      "url": "https://de.finance.yahoo.com/nachrichten/aktien-fokus-versicherer-ziehen-kurse-103940521.html?.tsrc=rss",
-      "published_at": "2026-11-13T10:39:40Z",
-      "tickers": [
-        "MUV2.DE"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "eu_category": "earnings_nosurprise",
-      "scanned_at": "2026-11-13T17:39:46Z",
-      "region": "EU"
-    },
-    {
-      "id": "8702af516c82d710",
-      "source": "yahoo_eu",
-      "title": "Mercedes stoppt neue Investitionen in Deutschland \u2013 das steckt wirklich hinter dem radikalen Schlag",
-      "summary": "Mercedes streicht Investitionen in Deutschland. Grund: niedrige Produktivit\u00e4t, hohe Arbeitskosten. Doch dainter steckt ein Arbeitskampf.",
-      "url": "https://www.businessinsider.de/wirtschaft/mercedes-stoppt-investitionen-in-deutschland-das-steckt-hinter-dem-radikalen-schlag/?.tsrc=rss",
-      "published_at": "2026-11-13T10:24:47Z",
-      "tickers": [
-        "VOW3.DE",
-        "MBG.DE"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T17:39:44Z",
-      "region": "EU"
-    },
-    {
-      "id": "f0aa5e74425dfd32",
-      "source": "yahoo_eu",
-      "title": "Deutschland will 4 Milliarden in diesen Atomkonzern investieren \u2013 warum das vor allem milit\u00e4risch brisant ist",
-      "summary": "Deutschland plant, Anteile am Atomtechnik-Konzern Urenco zu kaufen, um sich Mitspracherecht im Nuklearsektor zu sichern.",
-      "url": "https://www.businessinsider.de/wirtschaft/deutschland-will-4-milliarden-in-diesen-atomkonzern-investieren-das-steckt-dahinter/?.tsrc=rss",
-      "published_at": "2026-11-13T10:04:09Z",
-      "tickers": [
-        "RWE.DE"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T17:39:42Z",
-      "region": "EU"
-    },
-    {
-      "id": "e033b5e5353c8620",
-      "source": "yahoo_eu",
-      "title": "Devisen: Pfund tritt auf der Stelle \u2013 Hawkishe Fed st\u00fctzt den US-Dollar",
-      "summary": "Investing.com - Das britische Pfund zeigte sich am Freitag kaum ver\u00e4ndert, w\u00e4hrend der Euro leichte Kursgewinne verbuchte. Nach einer Woche mit unerwartet hoher US-Inflation und aggressiveren Zinserwartungen an die Federal Reserve notierte der US-Dollar weiterhin nahe seinen Jahresh\u00f6chstst\u00e4nden.",
-      "url": "https://de.finance.yahoo.com/nachrichten/devisen-pfund-tritt-stelle-hawkishe-093809645.html?.tsrc=rss",
-      "published_at": "2026-11-13T09:38:09Z",
-      "tickers": [
-        "INGA.AS"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T17:39:41Z",
-      "region": "EU"
-    },
-    {
-      "id": "315841720aa0dbd7",
-      "source": "wso_nachrichten",
-      "title": "Videoausblick: Die Nvidia-Lawine startet: Bitcoin-Absturz, Microsoft-Ausfall, Trump!",
-      "summary": "Denn die neue Nvidia-F\u00fchrung wird nun den Geldhahn zudrehen und ihre KI-Beteiligungen verkaufen, wenn das best\u00e4tigt wird, was alle Indizien zeigen: Huang hat faktisch China mit Hochleistungs-Chips unterst\u00fctzt!",
-      "url": "https://www.wallstreet-online.de/nachricht/21688467-videoausblick-nvidia-lawine-startet-bitcoin-absturz-microsoft-ausfall-trump",
-      "published_at": "2026-11-13T09:35:00Z",
-      "tickers": [],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "2ed80763cb9c42e1",
-      "source": "wso_nachrichten",
-      "title": "Chartanalyse: Procter & Gamble: Aktie auf Jahreshoch \u2013 n\u00e4chste H\u00fcrden im Blick",
-      "summary": "Procter & Gamble meldet sich an der B\u00f6rse zur\u00fcck: Nach einem tiefen R\u00fcckschlag steht die Aktie auf Jahreshoch und klar \u00fcber der 200-Tage-Linie. Doch auf dem Weg zu alten H\u00f6chstst\u00e4nden warten wichtige charttechnische H\u00fcrden.",
-      "url": "https://www.wallstreet-online.de/nachricht/21688470-chartanalyse-procter-gamble-aktie-jahreshoch-huerden-blick",
-      "published_at": "2026-11-13T09:33:41Z",
-      "tickers": [],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "93d0336e1eae41bc",
-      "source": "wso_nachrichten",
-      "title": "OSRAM: Es werde Licht - doch es bleibt dunkel",
-      "summary": "Das dr\u00fcckt heute auf den Aktienkurs: OSRAM hat im dritten Quartal 2026 weniger umgesetzt und operativ verdient. Der Umsatz sank zwischen Juli und September um 3 % gegen\u00fcberdem Vorjahr auf 829 Mio. Euro. Der um Sondereffekte bereinigte Betriebsgewinn vor Abschreibungen und Amortisationen (Ebitda) sank um 19 % auf 135 Mio.. Damit verschlechterte sich die bereinigte operative Marge von 19,5 % auf 16,3",
-      "url": "https://www.wallstreet-online.de/nachricht/21688479-osram-licht-bleibt-dunkel",
-      "published_at": "2026-11-13T09:33:00Z",
-      "tickers": [
-        "OSRAM"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "17683cc393c44bc6",
-      "source": "wso_nachrichten",
-      "title": "440 Kilo Uran \u2013 wo sind sie?: \u00d6lpreis f\u00e4llt \u2013 w\u00e4hrend im Iran eine nukleare Zeitbombe tickt!",
-      "summary": "Tanker unter Beschuss, \u00d6lanlagen attackiert \u2013 trotzdem f\u00e4llt der \u00d6lpreis. Jetzt sorgt ein vertraulicher Bericht \u00fcber Irans Atomprogramm f\u00fcr neuen Z\u00fcndstoff. Die darin genannten Zahlen haben es in sich.",
-      "url": "https://www.wallstreet-online.de/nachricht/21687804-440-kilo-uran-sie-oelpreis-faellt-iran-nukleare-zeitbombe-tickt",
-      "published_at": "2026-11-13T09:33:00Z",
-      "tickers": [],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "9776c999b37dcf43",
-      "source": "wso_nachrichten",
-      "title": "Hugo Boss AG: Frasers greift zur Axt; strategische Unsicherheit nimmt zu. HALTEN",
-      "summary": "Frasers Group gestaltet die F\u00fchrungsebene von HUGO BOSS in bemerkenswertem Tempo um.",
-      "url": "https://www.wallstreet-online.de/nachricht/21688464-hugo-boss-ag-frasers-greift-axt-strategische-unsicherheit-zu-halten",
-      "published_at": "2026-11-13T09:31:00Z",
-      "tickers": [],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "d256a234dca8367c",
-      "source": "wso_nachrichten",
-      "title": "TE-exklusiv: Deutschland schafft sich im Automobilbau selbst ab",
-      "summary": "Regierung und Medien bejubeln stets, wie sehr die Zulassungszahlen von Elektrofahrzeugen steigen. Die wahren Folgen f\u00fcr die deutsche Automobilindustrie verschweigen sie dabei gerne. Bestenfalls gibt es Kritik an der preiswerteren Konkurrenz aus Asien. Doch wie Goethes Zauberlehrling haben die Regierenden, egal ob Schwarz-Rot oder Rot-Gelb-Gr\u00fcn, die Geister des Untergangs einer deutschen Vorzeigeindustrie",
-      "url": "https://www.wallstreet-online.de/nachricht/21688476-te-exklusiv-deutschland-schafft-automobilbau",
-      "published_at": "2026-11-13T09:30:57Z",
-      "tickers": [
-        "TE"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "1376a1b64a7dc9a2",
-      "source": "wso_nachrichten",
-      "title": "Stratec SE: Q3: Starke Cashgenerierung st\u00fctzt h\u00f6here Bewertung. HALTEN",
-      "summary": "STRATEC hat mit den 9M-Zahlen eine verbesserte Profitabilit\u00e4t vorgelegt.",
-      "url": "https://www.wallstreet-online.de/nachricht/21688233-stratec-se-q3-starke-cashgenerierung-stuetzt-hoehere-bewertung-halten",
-      "published_at": "2026-11-13T09:30:00Z",
-      "tickers": [
-        "SSE.L"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "0940ac814f43e1d7",
-      "source": "wso_nachrichten",
-      "title": "Kaplan Fox & Kilsheimer LLP Announces a Securities Fraud Class Action Against Coastal Financial Corporation (CCB) With a Lead Plaintiff Deadline of December 1, 2026",
-      "summary": "New York, New York--(Newsfile Corp. - November 13, 2026) - Kaplan Fox & Kilsheimer LLP announces that a class action lawsuit has been filed against Coastal Financial Corporation (\"Coastal Financial\" or the \"Company\") (NASDAQ: CCB) on behalf of investors that purchased or otherwise acquired Coastal Financial common stock between October 28, 2024 and July 29, 2026 (the \"Class Period\"). CLICK",
-      "url": "https://www.wallstreet-online.de/nachricht/21688158-kaplan-fox-kilsheimer-llp-announces-a-securities-fraud-class-action-against-coastal-financial-corporation-ccb-with-a-lead-plaintiff-deadline-of-december-1-2026",
-      "published_at": "2026-11-13T09:30:00Z",
-      "tickers": [
-        "CCB"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "shareholder_alert",
-      "direction": "bearish",
-      "news_side": null,
-      "actionable": false,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "d8b3ce3555462855",
-      "source": "wso_nachrichten",
-      "title": "HEUTE LIVE ab 14 Uhr: 3 Trading-Profis zeigen Futures-Strategien & gef\u00e4hrliche Trading-Fallen!",
-      "summary": "Futures-Trading, Trading-Psychologie und schwierige Marktphasen: Drei bekannte Trading-Experten, drei unterschiedliche Perspektiven und jede Menge Praxiswissen. Heute Nachmittag dreht sich beim Live-Seminar aus M\u00fcnchen alles um die Herausforderungen, vor denen aktive Trader t\u00e4glich stehen. Statt theoretischer Erfolgsversprechen erwarten Sie konkrete Handelsans\u00e4tze, praxisnahe Chartanalysen",
-      "url": "https://www.wallstreet-online.de/nachricht/21688155-live-14-uhr-3-trading-profis-zeigen-futures-strategien-gefaehrliche-trading-fallen",
-      "published_at": "2026-11-13T09:30:00Z",
-      "tickers": [
-        "HEUTE"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "865dbe3731d6ed0d",
-      "source": "wso_nachrichten",
-      "title": "R\u00fccksetzer: GFT Technologies: Kursrutsch l\u00e4sst SDAX-Verlust weit hinter sich",
-      "summary": "Die Aktie von GFT Technologies bricht um 9,20 % auf 26,40 Euro ein.",
-      "url": "https://www.wallstreet-online.de/nachricht/21688152-ruecksetzer-gft-technologies-kursrutsch-laesst-sdax-verlust-weit",
-      "published_at": "2026-11-13T09:30:00Z",
-      "tickers": [],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "e2f7045da23e4f99",
-      "source": "wso_nachrichten",
-      "title": "Evonik: Jefferies stuft ab \u2013 was Anleger nicht \u00fcbersehen d\u00fcrfen",
-      "summary": "Evonik nach dem Jefferies-Downgrade: Was das Hold-Votum bedeutet, welche Rolle neue Lipide und KI spielen und worauf Anleger jetzt besonders achten sollten.",
-      "url": "https://www.wallstreet-online.de/nachricht/21688449-evonik-jefferies-stuft-anleger-uebersehen",
-      "published_at": "2026-11-13T09:26:36Z",
-      "tickers": [],
-      "form": "EU_NEWS",
-      "event_type": "analyst",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "2d107c72165d8ecf",
-      "source": "wso_nachrichten",
-      "title": "Rise Gold Corp: Bohrstart \u2013 worauf Anleger jetzt achten",
-      "summary": "Rise Gold Corp startet Bohrungen am Idaho-Maryland-Projekt. Erfahren Sie, worauf es bei Gold und Wolfram ankommt und welche Projektrisiken Anleger pr\u00fcfen sollten.",
-      "url": "https://www.wallstreet-online.de/nachricht/21688419-rise-gold-corp-bohrstart-worauf-anleger-achten",
-      "published_at": "2026-11-13T09:26:36Z",
-      "tickers": [],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "b62b04d40424e131",
-      "source": "wso_nachrichten",
-      "title": "PetMed Express: Verlustschock \u2013 kann der Umbau noch helfen?",
-      "summary": "PetMed Express rutscht tiefer in die Verlustzone, der Umsatz bricht ein. Was der Sanierungsplan bringt und welche Risiken Anleger im Blick behalten sollten.",
-      "url": "https://www.wallstreet-online.de/nachricht/21688293-petmed-express-verlustschock-umbau-helfen",
-      "published_at": "2026-11-13T09:26:36Z",
-      "tickers": [
-        "INGA.AS"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "a3f746bc6ae6b4bb",
-      "source": "wso_nachrichten",
-      "title": "SEA LTD ADR: Milliardenr\u00fcckkauf \u2013 warum der Kurs f\u00e4llt",
-      "summary": "SEA LTD ADR steigert den Quartalsgewinn und plant weitere Aktienr\u00fcckk\u00e4ufe. Was KI-Kosten und Wettbewerb f\u00fcr Anleger bedeuten und worauf es jetzt ankommt.",
-      "url": "https://www.wallstreet-online.de/nachricht/21688248-sea-ltd-adr-milliardenrueckkauf-kurs-faellt",
-      "published_at": "2026-11-13T09:26:36Z",
-      "tickers": [
-        "SEA"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "ffd3926328da0317",
-      "source": "wso_nachrichten",
-      "title": "CANCOM senkt Prognose: Was Anleger jetzt pr\u00fcfen sollten",
-      "summary": "CANCOM senkt die Umsatzprognose, doch das EBITDA steigt und Jefferies bleibt bei Buy. Erfahren Sie, worauf Anleger nach den Quartalszahlen jetzt achten sollten.",
-      "url": "https://www.wallstreet-online.de/nachricht/21688182-cancom-prognose-anleger-pruefen",
-      "published_at": "2026-11-13T09:26:36Z",
-      "tickers": [],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "eu_category": "earnings_nosurprise",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "8661bc84835f1c4d",
-      "source": "wso_nachrichten",
-      "title": "Coca-Cola: Was Anleger zum Putin-Bericht wissen sollten",
-      "summary": "Coca-Cola steht am 52-Wochen-Hoch, zugleich sorgt ein Putin-Bericht f\u00fcr Fragen. Lesen Sie, welche Chancen und Risiken Anleger jetzt im Blick behalten sollten.",
-      "url": "https://www.wallstreet-online.de/nachricht/21688455-coca-cola-anleger-putin-bericht-wissen",
-      "published_at": "2026-11-13T09:26:35Z",
-      "tickers": [
-        "SSE.L"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "3fb452a9aeb3cfa9",
-      "source": "wso_nachrichten",
-      "title": "AST SpaceMobile: Was der eigene Raketenplan bedeutet",
-      "summary": "AST SpaceMobile setzt auf eigene Raketen. Doch der Geldverbrauch bleibt im Fokus. Lesen Sie, welche Chancen und Risiken Anleger jetzt im Blick behalten sollten.",
-      "url": "https://www.wallstreet-online.de/nachricht/21688431-ast-spacemobile-eigene-raketenplan-bedeutet",
-      "published_at": "2026-11-13T09:26:35Z",
-      "tickers": [
-        "AST"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "45dffdd28b351a71",
-      "source": "wso_nachrichten",
-      "title": "Vistra: Kursziel gesenkt \u2013 was Anleger jetzt pr\u00fcfen sollten",
-      "summary": "Vistra im Fokus: Scotiabank senkt das Kursziel wegen Texas-Risiken. Erfahren Sie, was Cashflow-Pl\u00e4ne und die Stromnachfrage f\u00fcr Anleger jetzt bedeuten.",
-      "url": "https://www.wallstreet-online.de/nachricht/21688425-vistra-kursziel-gesenkt-anleger-pruefen",
-      "published_at": "2026-11-13T09:26:35Z",
-      "tickers": [],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "06315c4c279c3ac4",
-      "source": "wso_nachrichten",
-      "title": "Fair Isaac: RBC stuft ab \u2013 worauf Anleger jetzt achten",
-      "summary": "Fair Isaac: Analysten senken Kursziele, RBC stuft die Aktie ab. Was Hypothekenrisiken und die neue Preisstrategie f\u00fcr Anleger bedeuten, lesen Sie hier.",
-      "url": "https://www.wallstreet-online.de/nachricht/21688404-fair-isaac-rbc-stuft-worauf-anleger-achten",
-      "published_at": "2026-11-13T09:26:35Z",
-      "tickers": [],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "75768d28a2225e8f",
-      "source": "wso_nachrichten",
-      "title": "POET Technologies: Was der CFO-Wechsel jetzt bedeutet",
-      "summary": "POET Technologies tauscht den Finanzchef aus. Nach dem Kurssturz ordne ich die Nachrichten ein und zeige, worauf Anleger bei der Aktie jetzt achten sollten.",
-      "url": "https://www.wallstreet-online.de/nachricht/21688371-poet-technologies-cfo-wechsel-bedeutet",
-      "published_at": "2026-11-13T09:26:35Z",
-      "tickers": [
-        "POET"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "cd3f18641971798a",
-      "source": "wso_nachrichten",
-      "title": "Lynas Rare Earths: Monatsstopp \u2013 reichen die Vorr\u00e4te?",
-      "summary": "Lynas Rare Earths plant einen Monat Wartung in Malaysia. Erfahren Sie, wie Lagerbest\u00e4nde Auftr\u00e4ge sichern sollen und was Anleger bei der Produktion beachten.",
-      "url": "https://www.wallstreet-online.de/nachricht/21688362-lynas-rare-earths-monatsstopp-reichen-vorraete",
-      "published_at": "2026-11-13T09:26:35Z",
-      "tickers": [],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "7f3918de522ba114",
-      "source": "wso_nachrichten",
-      "title": "Novavax: Prognose erh\u00f6ht \u2013 was Anleger jetzt pr\u00fcfen sollten",
-      "summary": "Novavax \u00fcbertrifft die Quartalserwartungen und hebt die Prognose an. Was Umsatzrahmen und Liquidit\u00e4tsziel f\u00fcr Anleger bedeuten, zeigt Ihnen jetzt unsere Analyse.",
-      "url": "https://www.wallstreet-online.de/nachricht/21688359-novavax-prognose-erhoeht-anleger-pruefen",
-      "published_at": "2026-11-13T09:26:35Z",
-      "tickers": [],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:52Z",
       "region": "EU"
     }
   ]
