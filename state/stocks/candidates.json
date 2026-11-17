@@ -1,6 +1,6 @@
 {
   "mode": "paper",
-  "as_of": "2026-11-17T17:02:51Z",
+  "as_of": "2026-11-17T17:35:03Z",
   "as_of_et": "2026-11-17 12:02 ET",
   "forward_test_start": "2026-11-10",
   "spy_above_ma50": false,
@@ -29,7 +29,7 @@
     "gap_filtered_guidance": "Config: long guidance_raise with gap \u22655% \u00b7 5% \u00b7 max 8 \u00b7 hold 5d \u00b7 no stop \u00b7 next_open (config/strategies/gap_filtered_guidance.yaml). Box test +4.4%.",
     "wide_capacity": "Config: quality longs \u00b7 5% \u00b7 max 15 \u00b7 hold 2d \u00b7 no stop \u00b7 next_open (config/strategies/wide_capacity.yaml). Box test +2.1%.",
     "bigmove_unified_v1": "Fade offering / PR-pop / M&A gap-downs and selective gap-down fades across pre/regular/after hours. Alert-only mega-cap shocks. No earnings/guidance chase. 5% \u00b7 max 20 \u00b7 hold 5d \u00b7 0.5%/fill + 0.5% ext slippage \u00b7 config/strategies/bigmove_unified_v1.yaml.",
-    "bigmove_eu_v1": "EU liquid large/mid caps: fade \u226510% gap-downs (earnings / other-PR / no-news) on Xetra/Euronext primary hours (09:00\u201317:30 Berlin). Gap-up shorts dropped after EU event study. Alert-only mega-cap shocks. No earnings/guidance chase. 5% \u00b7 max 20 \u00b7 hold 5d \u00b7 0.5%/fill (+0.5% outside primary) \u00b7 config/strategies/bigmove_eu_v1.yaml."
+    "bigmove_eu_v1": "EU liquid large/mid caps: fade large gap-downs after earnings/PR/no-news on primary hours (09:00\u201317:30 Berlin). Alert-only mega-cap shocks. No earnings/ guidance chase. No gap-up shorts (unprofitable on EU event study).\n"
   },
   "candidates": [
     {
@@ -10396,6 +10396,69 @@
       "rule_tags": [],
       "suggested_side": null,
       "suggested_hold": null
+    },
+    {
+      "ticker": "SAP.DE",
+      "name": "SAP.DE",
+      "cal_date": "2026-11-17",
+      "gap_pct": -5.6701,
+      "last": 201.3000030517578,
+      "prev_close": 213.39999389648438,
+      "rel_vol": 0.969,
+      "adv20_usd": 415930419.8765076,
+      "avg_dollar_volume": 415930419.8765076,
+      "spy_above_ma50": true,
+      "session": "closed",
+      "headline": "Welche Vorteile deutsche Aktien bei niedrigeren \u00d6lpreisen haben",
+      "news_event_type": "other_8k",
+      "news_direction": "bearish",
+      "news_side": null,
+      "news_actionable": true,
+      "news_source": "yahoo_eu",
+      "news_id": "1e62074e2ca08226",
+      "filing_url": "https://de.finance.yahoo.com/nachrichten/welche-vorteile-deutsche-aktien-niedrigeren-060000909.html?.tsrc=rss",
+      "rule_tags": [
+        "bigmove_eu",
+        "other_8k",
+        "bigmove_eu_v1"
+      ],
+      "source": "bigmove_eu_move_trigger",
+      "suggested_side": null,
+      "suggested_hold": 5,
+      "region": "EU",
+      "as_of": "2026-11-17T17:34:44Z"
+    },
+    {
+      "ticker": "DBK.DE",
+      "name": "DBK.DE",
+      "cal_date": "2026-11-17",
+      "gap_pct": -5.9244,
+      "last": 30.96500015258789,
+      "prev_close": 32.915000915527344,
+      "rel_vol": 1.197,
+      "adv20_usd": 166554863.41202527,
+      "avg_dollar_volume": 166554863.41202527,
+      "spy_above_ma50": true,
+      "session": "closed",
+      "headline": "ANALYSE-FLASH: Deutsche Bank Research bel\u00e4sst Deutsche Telekom auf 'Buy'",
+      "news_event_type": "analyst",
+      "news_direction": "bearish",
+      "news_side": null,
+      "news_actionable": true,
+      "news_source": "yahoo_eu",
+      "news_id": "9eb448b1a299b6ef",
+      "filing_url": "https://de.finance.yahoo.com/nachrichten/analyse-flash-deutsche-bank-research-130502051.html?.tsrc=rss",
+      "rule_tags": [
+        "bigmove_eu",
+        "analyst",
+        "bigmove_eu_v1"
+      ],
+      "source": "bigmove_eu_move_trigger",
+      "suggested_side": null,
+      "suggested_hold": 5,
+      "region": "EU",
+      "as_of": "2026-11-17T17:34:49Z"
     }
-  ]
+  ],
+  "stoxx_above_ma50": true
 }
