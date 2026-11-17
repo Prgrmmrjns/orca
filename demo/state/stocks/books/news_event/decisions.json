@@ -262,7 +262,23 @@
       "agent": "rule:news_event",
       "prefer_open": false,
       "decided_at": "2026-11-16T22:46:54Z",
-      "status": "pending"
+      "status": "filled",
+      "fill": {
+        "time": "2026-11-17T21:35:15Z",
+        "ticker": "PINE",
+        "side": "buy",
+        "price_usd": 16.49,
+        "shares": 3.317872,
+        "notional_eur": 49.72,
+        "cost_eur": 0.2486,
+        "cost_pct": 0.005,
+        "session": "open",
+        "quote_fx": 1.1003520488739014,
+        "reason": "[news_event/bullish_news_long] event=mna_deal surprise=None gap=None guidance=none headline=PINE TREE JOINT VENTURE ACQUIRES $108 MILLION SHOPPING CENTER IN TULSA, OKLAHOMA \u2192 long 2d",
+        "note": "filled at regular-session open",
+        "decision_id": "news_event-PINE-2026-11-16T22:46:54Z-2681cc",
+        "book_id": "news_event"
+      }
     },
     {
       "id": "news_event-SPGI-2026-11-17T02:55:39Z-4b7632",
@@ -294,7 +310,23 @@
       "agent": "rule:news_event",
       "prefer_open": false,
       "decided_at": "2026-11-17T02:55:39Z",
-      "status": "pending"
+      "status": "filled",
+      "fill": {
+        "time": "2026-11-17T21:35:16Z",
+        "ticker": "SPGI",
+        "side": "sell_short",
+        "price_usd": 464.269989,
+        "shares": 0.117733,
+        "notional_eur": 49.68,
+        "cost_eur": 0.2484,
+        "cost_pct": 0.005,
+        "session": "open",
+        "quote_fx": 1.1003520488739014,
+        "reason": "[news_event/bearish_news_short] event=dilution surprise=None gap=None guidance=none headline=S&P Global Announces Pricing of Public Offering of $750,000,000 Senior Notes due \u2192 short 2d",
+        "note": "filled at regular-session open",
+        "decision_id": "news_event-SPGI-2026-11-17T02:55:39Z-4b7632",
+        "book_id": "news_event"
+      }
     },
     {
       "id": "news_event-S-2026-11-17T02:55:40Z-f0eede",
@@ -326,7 +358,23 @@
       "agent": "rule:news_event",
       "prefer_open": false,
       "decided_at": "2026-11-17T02:55:40Z",
-      "status": "pending"
+      "status": "filled",
+      "fill": {
+        "time": "2026-11-17T21:35:16Z",
+        "ticker": "S",
+        "side": "sell_short",
+        "price_usd": 21.700001,
+        "shares": 2.521505,
+        "notional_eur": 49.73,
+        "cost_eur": 0.2486,
+        "cost_pct": 0.005,
+        "session": "open",
+        "quote_fx": 1.1003520488739014,
+        "reason": "[news_event/bearish_news_short] event=dilution surprise=None gap=None guidance=none headline=S&P Global Announces Pricing of Public Offering of $750,000,000 Senior Notes due \u2192 short 2d",
+        "note": "filled at regular-session open",
+        "decision_id": "news_event-S-2026-11-17T02:55:40Z-f0eede",
+        "book_id": "news_event"
+      }
     }
   ],
   "updated_at": "2026-11-17T02:55:40Z"

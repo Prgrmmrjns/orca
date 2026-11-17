@@ -10,62 +10,9 @@
   "start_date": "2026-11-10",
   "start_capital_eur": 1000.0,
   "eur_usd_start": 1.1222084760665894,
-  "cash_eur": 839.8174262393579,
-  "equity_eur": 994.17,
-  "positions": {
-    "DCTH": {
-      "ticker": "DCTH",
-      "side": "long",
-      "shares": 4.134087,
-      "entry_usd": 21.58,
-      "entry_eur": 19.34647,
-      "entry_notional_eur": 79.98,
-      "entry_cost_eur": 0.3999,
-      "size": 0.08,
-      "entry_day": "2026-11-10",
-      "entry_time": "2026-11-10T16:50:44Z",
-      "exit_day": "2026-11-17",
-      "hold_days": 5,
-      "stop_loss": null,
-      "take_profit": null,
-      "reason": "EPS beat to +$0.17 vs -$0.08 est, raised FY26 rev $104-108M\u2192$115-117M, gap +24% \u2192 long 5d",
-      "confidence": 0.85,
-      "rule_tags": [],
-      "decision_id": "DCTH-2026-11-10T13:53:37Z-3a6d90",
-      "book_id": "agent",
-      "mark_usd": 19.8700008392334,
-      "mark_eur": 17.9665,
-      "unrealized_pnl_pct": -7.924,
-      "trail_extreme": 22.510000228881836,
-      "quote_fx": 1.1059499979019165
-    },
-    "LINC": {
-      "ticker": "LINC",
-      "side": "long",
-      "shares": 3.829021,
-      "entry_usd": 23.290001,
-      "entry_eur": 20.879486,
-      "entry_notional_eur": 79.95,
-      "entry_cost_eur": 0.3997,
-      "size": 0.08,
-      "entry_day": "2026-11-10",
-      "entry_time": "2026-11-10T16:50:44Z",
-      "exit_day": "2026-11-17",
-      "hold_days": 5,
-      "stop_loss": null,
-      "take_profit": null,
-      "reason": "EPS +23% beat ($0.15 vs $0.12), raised FY26 rev $590-600M\u2192$600-605M, gap +14% \u2192 long 5d",
-      "confidence": 0.75,
-      "rule_tags": [],
-      "decision_id": "LINC-2026-11-10T13:53:37Z-740f17",
-      "book_id": "agent",
-      "mark_usd": 23.1299991607666,
-      "mark_eur": 20.9141,
-      "unrealized_pnl_pct": -0.687,
-      "trail_extreme": 24.540000915527344,
-      "quote_fx": 1.1059499979019165
-    }
-  },
+  "cash_eur": 991.7138112871808,
+  "equity_eur": 991.71,
+  "positions": {},
   "pending": [],
   "closed_trades": [
     {
@@ -115,6 +62,58 @@
       "decision_id": "FRMM-2026-11-12T13:46:28Z-a6dd4d",
       "book_id": "agent",
       "closed_at": "2026-11-16T22:46:49Z"
+    },
+    {
+      "ticker": "DCTH",
+      "side": "long",
+      "entry_day": "2026-11-10",
+      "exit_day": "2026-11-17",
+      "entry_usd": 21.58,
+      "exit_usd": 19.370001,
+      "shares": 4.134087,
+      "hold_days": 5,
+      "exit_reason": "time_exit",
+      "entry_session": null,
+      "exit_session": "after",
+      "session": "after",
+      "entry_cost_eur": 0.3999,
+      "exit_cost_eur": 0.362,
+      "entry_cost_pct": 0.005,
+      "exit_cost_pct": 0.005,
+      "pnl_eur": -9.02,
+      "pnl_pct_net": -11.241,
+      "reason": "EPS beat to +$0.17 vs -$0.08 est, raised FY26 rev $104-108M\u2192$115-117M, gap +24% \u2192 long 5d",
+      "rule_tags": [],
+      "rule_name": null,
+      "decision_id": "DCTH-2026-11-10T13:53:37Z-3a6d90",
+      "book_id": "agent",
+      "closed_at": "2026-11-17T21:35:09Z"
+    },
+    {
+      "ticker": "LINC",
+      "side": "long",
+      "entry_day": "2026-11-10",
+      "exit_day": "2026-11-17",
+      "entry_usd": 23.290001,
+      "exit_usd": 23.18,
+      "shares": 3.829021,
+      "hold_days": 5,
+      "exit_reason": "time_exit",
+      "entry_session": null,
+      "exit_session": "after",
+      "session": "after",
+      "entry_cost_eur": 0.3997,
+      "exit_cost_eur": 0.4013,
+      "entry_cost_pct": 0.005,
+      "exit_cost_pct": 0.005,
+      "pnl_eur": -1.18,
+      "pnl_pct_net": -1.4723,
+      "reason": "EPS +23% beat ($0.15 vs $0.12), raised FY26 rev $590-600M\u2192$600-605M, gap +14% \u2192 long 5d",
+      "rule_tags": [],
+      "rule_name": null,
+      "decision_id": "LINC-2026-11-10T13:53:37Z-740f17",
+      "book_id": "agent",
+      "closed_at": "2026-11-17T21:35:10Z"
     }
   ],
   "equity_history": [
@@ -152,6 +151,13 @@
       "spy_eur": 1004.39,
       "cash_eur": 839.82,
       "n_open": 2
+    },
+    {
+      "day": "2026-11-17",
+      "equity_eur": 991.71,
+      "spy_eur": 996.12,
+      "cash_eur": 991.71,
+      "n_open": 0
     }
   ],
   "spy_history": [
@@ -184,6 +190,12 @@
       "spy_eur": 1004.39,
       "spy_usd": 739.95,
       "eur_usd": 1.10249
+    },
+    {
+      "day": "2026-11-17",
+      "spy_eur": 996.12,
+      "spy_usd": 732.44,
+      "eur_usd": 1.10035
     }
   ],
   "cost_pct": 0.005,
@@ -193,7 +205,7 @@
   "default_hold_days": 5,
   "stop_loss": null,
   "max_open": 8,
-  "last_run": "2026-11-17T03:55:37Z",
-  "last_reason": "engine[agent]: auto=0 ingested=0 fills=0 closed=0 open=2 session=closed",
-  "eur_usd": 1.1009578704833984
+  "last_run": "2026-11-17T21:35:10Z",
+  "last_reason": "engine[agent]: auto=0 ingested=0 fills=0 closed=2 open=0 session=after",
+  "eur_usd": 1.1003520488739014
 }

@@ -94,7 +94,23 @@
       "agent": "rule:wide_capacity",
       "prefer_open": true,
       "decided_at": "2026-11-16T22:47:02Z",
-      "status": "pending"
+      "status": "filled",
+      "fill": {
+        "time": "2026-11-17T21:35:23Z",
+        "ticker": "PINE",
+        "side": "buy",
+        "price_usd": 16.49,
+        "shares": 3.336422,
+        "notional_eur": 50.0,
+        "cost_eur": 0.25,
+        "cost_pct": 0.005,
+        "session": "open",
+        "quote_fx": 1.1003520488739014,
+        "reason": "[wide_capacity/quality_longs] event=mna_deal surprise=None gap=None guidance=none headline=PINE TREE JOINT VENTURE ACQUIRES $108 MILLION SHOPPING CENTER IN TULSA, OKLAHOMA \u2192 long 2d",
+        "note": "filled at regular-session open",
+        "decision_id": "wide_capacity-PINE-2026-11-16T22:47:02Z-52935e",
+        "book_id": "wide_capacity"
+      }
     }
   ],
   "updated_at": "2026-11-16T22:47:02Z"

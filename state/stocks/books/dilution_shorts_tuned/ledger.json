@@ -10,21 +10,31 @@
   "start_date": "2026-11-10",
   "start_capital_eur": 1000.0,
   "eur_usd_start": 1.1168192625045776,
-  "cash_eur": 999.129222029224,
-  "equity_eur": 999.13,
-  "positions": {},
-  "pending": [
-    {
-      "id": "dilution_shorts_tuned-SPGI-2026-11-17T02:55:46Z-ccb284",
+  "cash_eur": 1098.5938995292242,
+  "equity_eur": 1001.18,
+  "positions": {
+    "SPGI": {
       "ticker": "SPGI",
       "side": "short",
+      "shares": 0.1184,
+      "entry_usd": 464.269989,
+      "entry_eur": 421.92859,
+      "quote_fx": 1.1003520488739014,
+      "entry_notional_eur": 49.96,
+      "entry_cost_eur": 0.2498,
+      "entry_cost_pct": 0.005,
       "size": 0.05,
+      "entry_day": "2026-11-17",
+      "entry_time": "2026-11-17T21:35:18Z",
+      "entry_session": "open",
+      "session": "open",
+      "exit_day": "2026-11-20",
       "hold_days": 3,
       "stop_loss": null,
       "take_profit": null,
       "trailing_stop": null,
       "exit_at_close": false,
-      "delay_minutes": 0,
+      "trail_extreme": 451.69000244140625,
       "rule_name": "dilution",
       "reason": "[dilution_shorts_tuned/dilution] event=dilution surprise=None gap=None guidance=none headline=S&P Global Announces Pricing of Public Offering of $750,000,000 Senior Notes due \u2192 short 3d",
       "confidence": 1.0,
@@ -35,22 +45,34 @@
         "dilution",
         "news_short"
       ],
-      "prefer_open": true,
-      "decided_at": "2026-11-17T02:55:46Z",
-      "status": "pending",
-      "book_id": "dilution_shorts_tuned"
+      "decision_id": "dilution_shorts_tuned-SPGI-2026-11-17T02:55:46Z-ccb284",
+      "book_id": "dilution_shorts_tuned",
+      "mark_usd": 452.3500061035156,
+      "mark_eur": 411.0957,
+      "unrealized_pnl_pct": 2.6351
     },
-    {
-      "id": "dilution_shorts_tuned-S-2026-11-17T02:55:46Z-d92334",
+    "S": {
       "ticker": "S",
       "side": "short",
+      "shares": 2.535779,
+      "entry_usd": 21.700001,
+      "entry_eur": 19.720962,
+      "quote_fx": 1.1003520488739014,
+      "entry_notional_eur": 50.01,
+      "entry_cost_eur": 0.25,
+      "entry_cost_pct": 0.005,
       "size": 0.05,
+      "entry_day": "2026-11-17",
+      "entry_time": "2026-11-17T21:35:19Z",
+      "entry_session": "open",
+      "session": "open",
+      "exit_day": "2026-11-20",
       "hold_days": 3,
       "stop_loss": null,
       "take_profit": null,
       "trailing_stop": null,
       "exit_at_close": false,
-      "delay_minutes": 0,
+      "trail_extreme": 20.540000915527344,
       "rule_name": "dilution",
       "reason": "[dilution_shorts_tuned/dilution] event=dilution surprise=None gap=None guidance=none headline=S&P Global Announces Pricing of Public Offering of $750,000,000 Senior Notes due \u2192 short 3d",
       "confidence": 1.0,
@@ -61,12 +83,14 @@
         "dilution",
         "news_short"
       ],
-      "prefer_open": true,
-      "decided_at": "2026-11-17T02:55:46Z",
-      "status": "pending",
-      "book_id": "dilution_shorts_tuned"
+      "decision_id": "dilution_shorts_tuned-S-2026-11-17T02:55:46Z-d92334",
+      "book_id": "dilution_shorts_tuned",
+      "mark_usd": 21.149999618530273,
+      "mark_eur": 19.2211,
+      "unrealized_pnl_pct": 2.6005
     }
-  ],
+  },
+  "pending": [],
   "closed_trades": [
     {
       "ticker": "BRRKU",
@@ -136,6 +160,13 @@
       "spy_eur": 1004.39,
       "cash_eur": 999.13,
       "n_open": 0
+    },
+    {
+      "day": "2026-11-17",
+      "equity_eur": 1001.18,
+      "spy_eur": 996.12,
+      "cash_eur": 1098.59,
+      "n_open": 2
     }
   ],
   "spy_history": [
@@ -168,6 +199,12 @@
       "spy_eur": 1004.39,
       "spy_usd": 739.95,
       "eur_usd": 1.10249
+    },
+    {
+      "day": "2026-11-17",
+      "spy_eur": 996.12,
+      "spy_usd": 732.44,
+      "eur_usd": 1.10035
     }
   ],
   "cost_pct": 0.005,
@@ -178,8 +215,8 @@
   "stop_loss": null,
   "prefer_open": true,
   "max_open": 8,
-  "last_run": "2026-11-17T03:55:48Z",
-  "last_reason": "engine[dilution_shorts_tuned]: auto=0 ingested=0 fills=0 closed=0 open=0 session=closed",
+  "last_run": "2026-11-17T21:35:19Z",
+  "last_reason": "engine[dilution_shorts_tuned]: auto=0 ingested=0 fills=2 closed=0 open=2 session=after",
   "max_per_ticker": 1,
   "max_gross_exposure_pct": 0.4,
   "allow_shorts": true,
@@ -187,7 +224,7 @@
   "sizing": "fixed",
   "score_ref": 10.0,
   "strategy_config_path": "config/strategies/dilution_shorts_tuned.yaml",
-  "eur_usd": 1.101078987121582,
+  "eur_usd": 1.1003520488739014,
   "extended_hours_extra_slippage_pct": 0.0,
   "allow_extended_hours": false
 }

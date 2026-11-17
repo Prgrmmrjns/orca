@@ -95,7 +95,23 @@
       "agent": "rule:dilution_shorts_tuned",
       "prefer_open": true,
       "decided_at": "2026-11-17T02:55:46Z",
-      "status": "pending"
+      "status": "filled",
+      "fill": {
+        "time": "2026-11-17T21:35:18Z",
+        "ticker": "SPGI",
+        "side": "sell_short",
+        "price_usd": 464.269989,
+        "shares": 0.1184,
+        "notional_eur": 49.96,
+        "cost_eur": 0.2498,
+        "cost_pct": 0.005,
+        "session": "open",
+        "quote_fx": 1.1003520488739014,
+        "reason": "[dilution_shorts_tuned/dilution] event=dilution surprise=None gap=None guidance=none headline=S&P Global Announces Pricing of Public Offering of $750,000,000 Senior Notes due \u2192 short 3d",
+        "note": "filled at regular-session open",
+        "decision_id": "dilution_shorts_tuned-SPGI-2026-11-17T02:55:46Z-ccb284",
+        "book_id": "dilution_shorts_tuned"
+      }
     },
     {
       "id": "dilution_shorts_tuned-S-2026-11-17T02:55:46Z-d92334",
@@ -127,7 +143,23 @@
       "agent": "rule:dilution_shorts_tuned",
       "prefer_open": true,
       "decided_at": "2026-11-17T02:55:46Z",
-      "status": "pending"
+      "status": "filled",
+      "fill": {
+        "time": "2026-11-17T21:35:19Z",
+        "ticker": "S",
+        "side": "sell_short",
+        "price_usd": 21.700001,
+        "shares": 2.535779,
+        "notional_eur": 50.01,
+        "cost_eur": 0.25,
+        "cost_pct": 0.005,
+        "session": "open",
+        "quote_fx": 1.1003520488739014,
+        "reason": "[dilution_shorts_tuned/dilution] event=dilution surprise=None gap=None guidance=none headline=S&P Global Announces Pricing of Public Offering of $750,000,000 Senior Notes due \u2192 short 3d",
+        "note": "filled at regular-session open",
+        "decision_id": "dilution_shorts_tuned-S-2026-11-17T02:55:46Z-d92334",
+        "book_id": "dilution_shorts_tuned"
+      }
     }
   ],
   "updated_at": "2026-11-17T02:55:46Z"
