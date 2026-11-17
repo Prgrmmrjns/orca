@@ -1,11 +1,11 @@
 {
   "mode": "paper",
-  "as_of": "2026-11-17T08:04:22Z",
-  "as_of_et": "2026-11-16 19:46 ET",
+  "as_of": "2026-11-17T08:36:07Z",
+  "as_of_et": "2026-11-17 03:36 ET",
   "rolling_hours": 72,
-  "n_items": 300,
+  "n_items": 344,
   "n_actionable": 23,
-  "n_with_ticker": 125,
+  "n_with_ticker": 104,
   "sources": [
     "prnewswire",
     "prnewswire_financial",
@@ -13,13 +13,551 @@
     "cnbc_finance",
     "marketwatch",
     "marketwatch_realtime",
-    "edgar_8k",
-    "edgar_424b",
-    "edgar_sc_to"
+    "edgar_8k"
   ],
   "errors": [],
   "note": "Paper news feed. Keyword tagging is heuristic. Shorts have no borrow model. RSS/EDGAR can lag minutes\u2013hours.",
   "items": [
+    {
+      "id": "f1b02e3940337b4f",
+      "source": "prnewswire",
+      "title": "MINISO Group Announces 2026 September Quarter and Nine-Month Unaudited Financial Results",
+      "summary": "Group Revenue Grew by 19.3% YoY for 9M26 MINISO Chinese Mainland Delivered Robust YoY Revenue Growth of 27.4% for 9M26, with Mid-single-digit SSSG(1) MINISO North America Delivered 29.1% YoY Revenue Growth for 9M26, with Low-single-digit SSSG(1) Adjusted Operating Profit(2) Excluding...",
+      "url": "https://www.prnewswire.com/news-releases/miniso-group-announces-2026-september-quarter-and-nine-month-unaudited-financial-results-302941766.html",
+      "published_at": "2026-11-17T08:32:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-17T08:36:03Z"
+    },
+    {
+      "id": "49e8193000d07001",
+      "source": "prnewswire",
+      "title": "TENA Men launches \"Start Your Comeback\"",
+      "summary": "PHILADELPHIA, Nov. 17, 2026 /PRNewswire/ -- According to research from TENA, one in four men over 40 who experience drips and dribbles say leaks cause them to quietly withdraw from pastimes they enjoy. The toll adds up, with 95% of those affected saying it costs them more than three weeks...",
+      "url": "https://www.prnewswire.com/news-releases/tena-men-launches-start-your-comeback-302940791.html",
+      "published_at": "2026-11-17T08:30:00Z",
+      "tickers": [
+        "TENA"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-17T08:36:03Z"
+    },
+    {
+      "id": "6c1d9cfd5c755fa2",
+      "source": "prnewswire",
+      "title": "HUYA Inc. Reports Third Quarter 2026 Unaudited Financial Results",
+      "summary": "GUANGZHOU, China, Nov. 17, 2026 /PRNewswire/ -- HUYA Inc. (\"Huya\" or the \"Company\") (NYSE: HUYA), a leading game-related entertainment and services provider, today announced its unaudited financial results for the third quarter ended September 30, 2026. Third Quarter 2026 Highlights Total...",
+      "url": "https://www.prnewswire.com/news-releases/huya-inc-reports-third-quarter-2026-unaudited-financial-results-302941694.html",
+      "published_at": "2026-11-17T08:30:00Z",
+      "tickers": [
+        "HUYA"
+      ],
+      "event_type": "earnings",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-17T08:36:03Z"
+    },
+    {
+      "id": "7571746a1c4a5f26",
+      "source": "prnewswire",
+      "title": "The New Fashion System: Global Fashion Summit returns to Copenhagen to help define the industry's future",
+      "summary": "COPENHAGEN, Denmark, 17 November 2026 /PRNewswire/ -- Global Fashion Agenda (GFA) has revealed the theme for Global Fashion Summit: Copenhagen Edition 2027: `The New Fashion System: Business, but not as usual'. Under the esteemed patronage of Her Majesty the Queen of Denmark, the leading...",
+      "url": "https://www.prnewswire.com/news-releases/the-new-fashion-system-global-fashion-summit-returns-to-copenhagen-to-help-define-the-industrys-future-302941819.html",
+      "published_at": "2026-11-17T08:28:00Z",
+      "tickers": [
+        "GFA"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-17T08:36:03Z"
+    },
+    {
+      "id": "1446a0ecb1281fea",
+      "source": "prnewswire",
+      "title": "The New Fashion System: Global Fashion Summit returns to Copenhagen to help define the industry's future",
+      "summary": "COPENHAGEN, Denmark, 17 November 2026 /PRNewswire/ -- Global Fashion Agenda (GFA) has revealed the theme for Global Fashion Summit: Copenhagen Edition 2027: `The New Fashion System: Business, but not as usual'. Under the esteemed patronage of Her Majesty the Queen of Denmark, the leading...",
+      "url": "https://www.prnewswire.com/news-releases/the-new-fashion-system-global-fashion-summit-returns-to-copenhagen-to-help-define-the-industrys-future-302941811.html",
+      "published_at": "2026-11-17T08:23:00Z",
+      "tickers": [
+        "GFA"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-17T08:36:03Z"
+    },
+    {
+      "id": "db7dd87f6b8d8399",
+      "source": "prnewswire",
+      "title": "Tryngolza\u2122 (olezarsen) approved in the EU for severe hypertriglyceridaemia (sHTG)",
+      "summary": "Tryngolza is now the first and only RNA-targeted therapy indicated in the EU for sHTG \u2265880 mg/dL (\u226510 mmol/L) EC decision is based on Phase 3 CORE and CORE2 results, demonstrating a statistically significant mean reduction of up to 73% in triglyceride levels at 6 months and a significant...",
+      "url": "https://www.prnewswire.com/news-releases/tryngolza-olezarsen-approved-in-the-eu-for-severe-hypertriglyceridaemia-shtg-302941809.html",
+      "published_at": "2026-11-17T08:22:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-17T08:36:03Z"
+    },
+    {
+      "id": "ac2679271cde776e",
+      "source": "prnewswire",
+      "title": "Global Times: China's hosting of APEC Economic Leaders' Meeting 'symbolically important,' demonstrates commitment to reform and opening-up: former Singaporean foreign minister",
+      "summary": "BEIJING, Nov. 17, 2026 /PRNewswire/ -- Hosting of the APEC Economic Leaders' Meeting in Shenzhen is \"symbolically important,\" as it will demonstrate China's commitment to reform and opening-up while drawing international attention to the Guangdong-Hong Kong-Macao Greater Bay Area and Hong...",
+      "url": "https://www.prnewswire.com/news-releases/global-times-chinas-hosting-of-apec-economic-leaders-meeting-symbolically-important-demonstrates-commitment-to-reform-and-opening-up-former-singaporean-foreign-minister-302941801.html",
+      "published_at": "2026-11-17T08:14:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-17T08:36:03Z"
+    },
+    {
+      "id": "97f448c3089d32fc",
+      "source": "prnewswire",
+      "title": "Why sustainable packaging choices rarely have a simple answer",
+      "summary": "MALM\u00d6, Sweden, Nov. 17, 2026 /PRNewswire/ -- Discussions around sustainable packaging often focus on the choice between single-use and reusable solutions. But assessing the actual environmental impact requires a broader perspective. As a supplier of both reusable and resource-efficient...",
+      "url": "https://www.prnewswire.com/news-releases/why-sustainable-packaging-choices-rarely-have-a-simple-answer-302941797.html",
+      "published_at": "2026-11-17T08:11:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-17T08:36:03Z"
+    },
+    {
+      "id": "82b0d92cbab08b81",
+      "source": "prnewswire",
+      "title": "Three Ontario hospitals unite pathology and radiology on Sectra One Cloud to improve cancer care",
+      "summary": "LINK\u00d6PING, Sweden and MISSISSAUGA, ON, Nov. 17, 2026 /PRNewswire/ -- International medical imaging IT and cybersecurity company Sectra (STO: SECT-B) announces that three ENHANCE Ontario member hospitals in Canada will extend their enterprise imaging service from Sectra with digital...",
+      "url": "https://www.prnewswire.com/news-releases/three-ontario-hospitals-unite-pathology-and-radiology-on-sectra-one-cloud-to-improve-cancer-care-302941794.html",
+      "published_at": "2026-11-17T08:10:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-17T08:36:03Z"
+    },
+    {
+      "id": "fbd9dba32878c89d",
+      "source": "prnewswire",
+      "title": "A 10-ft box, a whole microgrid: DoGo Power brings grid-forming BESS to Madrid",
+      "summary": "MADRID, Nov. 17, 2026 /PRNewswire/ -- For developers, EPCs and C&amp;I owners in Spain, the practical limit on project speed is increasingly the connection itself: capacity at the node, terms of access, and how far a site can support the grid rather than only draw from it. At GENERA 2026...",
+      "url": "https://www.prnewswire.com/news-releases/a-10-ft-box-a-whole-microgrid-dogo-power-brings-grid-forming-bess-to-madrid-302941786.html",
+      "published_at": "2026-11-17T08:06:00Z",
+      "tickers": [
+        "A"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-17T08:36:03Z"
+    },
+    {
+      "id": "276ed3483cbcce7e",
+      "source": "prnewswire",
+      "title": "hyve Helps Consumers Protect Holiday Deliveries From Porch Pirates",
+      "summary": "As the busiest online shopping season of the year gets underway, the smart home package locker helps keep holiday gifts and everyday deliveries safe from theft. LOS ANGELES, Nov. 17, 2026 /PRNewswire/ -- With online shopping and home deliveries surging during the holiday season, packages...",
+      "url": "https://www.prnewswire.com/news-releases/hyve-helps-consumers-protect-holiday-deliveries-from-porch-pirates-302938778.html",
+      "published_at": "2026-11-17T08:02:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-17T08:36:03Z"
+    },
+    {
+      "id": "8ffbb9bbc9d220dc",
+      "source": "prnewswire",
+      "title": "Amflow Launches Its First City E-Bikes: The Amflow UE Series",
+      "summary": "Latest Model Takes Amflow Into A Brand-New Bike Category SHENZHEN, China, Nov. 17, 2026 /PRNewswire/ -- Amflow, the innovation-driven bike brand that pursues the ultimate fusion of technology and mechanics, today announces the Amflow UE Series - its first commuter e-bike model. Entering...",
+      "url": "https://www.prnewswire.com/news-releases/amflow-launches-its-first-city-e-bikes-the-amflow-ue-series-302940480.html",
+      "published_at": "2026-11-17T08:01:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-17T08:36:03Z"
+    },
+    {
+      "id": "17911c30c62847aa",
+      "source": "prnewswire",
+      "title": "Amflow Launches Its First City E-Bikes: The Amflow UE Series",
+      "summary": "Latest Model Takes Amflow Into A Brand-New Bike Category SHENZHEN, China, Nov. 17, 2026 /PRNewswire/ -- Amflow, the innovation-driven bike brand that pursues the ultimate fusion of technology and mechanics, today announces the Amflow UE Series - its first commuter e-bike model. Entering...",
+      "url": "https://www.prnewswire.com/news-releases/amflow-launches-its-first-city-e-bikes-the-amflow-ue-series-302940452.html",
+      "published_at": "2026-11-17T08:01:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-17T08:36:03Z"
+    },
+    {
+      "id": "53e99c4c80909c18",
+      "source": "prnewswire",
+      "title": "Amflow lance ses premiers v\u00e9los \u00e9lectriques urbains : la gamme Amflow UE",
+      "summary": "Avec son dernier mod\u00e8le, Amflow fait son entr\u00e9e dans une toute nouvelle cat\u00e9gorie de v\u00e9los. SHENZHEN, Chine, 17 novembre 2026 /PRNewswire/ -- Amflow, la marque de v\u00e9los ax\u00e9e sur l'innovation qui recherche la fusion ultime entre technologie et m\u00e9canique, annonce aujourd'hui la gamme Amflow...",
+      "url": "https://www.prnewswire.com/news-releases/amflow-lance-ses-premiers-velos-electriques-urbains--la-gamme-amflow-ue-302941541.html",
+      "published_at": "2026-11-17T08:01:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-17T08:36:03Z"
+    },
+    {
+      "id": "d437887a2b670ed7",
+      "source": "prnewswire",
+      "title": "Amflow stellt seine ersten City-E-Bikes vor: die Amflow UE-Serie",
+      "summary": "Mit der neuen Serie erschlie\u00dft Amflow eine weitere Fahrradkategorie SHENZHEN, China, 17. November 2026 /PRNewswire/ -- Amflow, die innovationsgetriebene Fahrradmarke mit dem Anspruch, Technologie und Mechanik perfekt zu verbinden, stellt heute die Amflow UE-Serie vor \u2013 ihre ersten...",
+      "url": "https://www.prnewswire.com/news-releases/amflow-stellt-seine-ersten-city-e-bikes-vor-die-amflow-ue-serie-302941526.html",
+      "published_at": "2026-11-17T08:01:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-17T08:36:03Z"
+    },
+    {
+      "id": "6ea139545ac572a7",
+      "source": "prnewswire",
+      "title": "Amflow lancia le sue prime city e-bike: Amflow serie UE",
+      "summary": "Il modello pi\u00f9 recente porta Amflow in una categoria di biciclette completamente nuova SHENZHEN, Cina, 17 novembre 2026 /PRNewswire/ -- Amflow, il brand di biciclette orientato all'innovazione che persegue la massima fusione tra tecnologia e meccanica, annuncia oggi Amflow serie UE, il...",
+      "url": "https://www.prnewswire.com/news-releases/amflow-lancia-le-sue-prime-city-e-bike-amflow-serie-ue-302941553.html",
+      "published_at": "2026-11-17T08:01:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-17T08:36:03Z"
+    },
+    {
+      "id": "11a7ecd9e3274f88",
+      "source": "prnewswire",
+      "title": "Amflow lanza sus primeras bicicletas el\u00e9ctricas urbanas: La serie Amflow UE",
+      "summary": "El \u00faltimo modelo lleva a Amflow a una categor\u00eda de bicicletas completamente nueva SHENZHEN, China, 17 de noviembre de 2026 /PRNewswire/ -- Amflow, la marca de bicicletas impulsada por la innovaci\u00f3n, que tiene como objetivo lograr la m\u00e1xima fusi\u00f3n de tecnolog\u00eda y mec\u00e1nica, anuncia hoy el...",
+      "url": "https://www.prnewswire.com/news-releases/amflow-lanza-sus-primeras-bicicletas-electricas-urbanas-la-serie-amflow-ue-302941532.html",
+      "published_at": "2026-11-17T08:01:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-17T08:36:03Z"
+    },
+    {
+      "id": "ec007971cb50aef3",
+      "source": "prnewswire",
+      "title": "DUETTI SICHERT SICH 665 MILLIONEN DOLLAR AN NEUEN FINANZIERUNGSMITTELN, UM INVESTITIONEN IN UNABH\u00c4NGIGE MUSIKKATALOGE ZU BESCHLEUNIGEN",
+      "summary": "Duetti hat seit seiner Gr\u00fcndung im Jahr 2022 nun \u00fcber 1,3 Milliarden US-Dollar eingeworben, darunter drei Asset-Backed-Securitizations in den letzten zwei Jahren. NEW YORK, 17. November 2026 /PRNewswire/ -- Duetti Inc. (\u201eDuetti\" oder das \u201eUnternehmen\"), das Musikunternehmen, das mit...",
+      "url": "https://www.prnewswire.com/news-releases/duetti-sichert-sich-665-millionen-dollar-an-neuen-finanzierungsmitteln-um-investitionen-in-unabhangige-musikkataloge-zu-beschleunigen-302941104.html",
+      "published_at": "2026-11-17T08:00:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-17T08:36:03Z"
+    },
+    {
+      "id": "efe0921bc9a35fc7",
+      "source": "prnewswire",
+      "title": "Why Is Venice Sinking? Climate Scientist Marco Marani Explains the Growing Threat of Rising Seas",
+      "summary": "A Planet Classroom Net Zero Speaks podcast, produced in association with the Protect Our Planet (POP) Movement and distributed by VoiceAmerica, explores why rising seas and sinking land threaten coastal communities worldwide. NEW YORK, Nov. 17, 2026 /PRNewswire/ -- Venice is fighting a...",
+      "url": "https://www.prnewswire.com/news-releases/why-is-venice-sinking-climate-scientist-marco-marani-explains-the-growing-threat-of-rising-seas-302926478.html",
+      "published_at": "2026-11-17T08:00:00Z",
+      "tickers": [
+        "POP"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-17T08:36:03Z"
+    },
+    {
+      "id": "7a1fc483bf3988ec",
+      "source": "prnewswire",
+      "title": "Durabook lance des solutions de contr\u00f4le au sol durcies sous Windows, con\u00e7ues autour de la mission et des op\u00e9rateurs",
+      "summary": "Des contr\u00f4leurs configurables sur base tablette et ordinateur portable allient fiabilit\u00e9 durcie, compatibilit\u00e9 WinTAK et prise en charge de Linux pour les op\u00e9rations sans pilote a\u00e9riennes, terrestres et maritimes. TAIPEI, 17 novembre 2026 /PRNewswire/ -- Durabook, la marque mondiale de...",
+      "url": "https://www.prnewswire.com/news-releases/durabook-lance-des-solutions-de-controle-au-sol-durcies-sous-windows-concues-autour-de-la-mission-et-des-operateurs-302940330.html",
+      "published_at": "2026-11-17T08:00:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-17T08:36:03Z"
+    },
+    {
+      "id": "26b9c221ae79745f",
+      "source": "prnewswire_financial",
+      "title": "DUETTI SECURES $665M IN NEW FUNDING TO ACCELERATE INVESTMENT INTO INDEPENDENT MUSIC CATALOGS",
+      "summary": "Duetti has now raised over $1.3 billion since inception in 2022, including three asset-backed securitizations in two years NEW YORK , Nov. 17, 2026 /PRNewswire/ -- Duetti Inc. (\"Duetti\" or the \"Company\"), the music company that partners with independent artists, songwriters, and producers...",
+      "url": "https://www.prnewswire.com/news-releases/duetti-secures-665m-in-new-funding-to-accelerate-investment-into-independent-music-catalogs-302940391.html",
+      "published_at": "2026-11-17T08:00:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-17T08:36:04Z"
+    },
+    {
+      "id": "abcedb240dbe58d0",
+      "source": "prnewswire_financial",
+      "title": "DUETTI OBTENT 665 MILLIONS DE DOLLARS DE NOUVEAUX FINANCEMENTS POUR ACC\u00c9LER SES INVESTISSEMENTS DANS LES CATALOGUES MUSICAUX IND\u00c9PENDANTS",
+      "summary": "Depuis sa cr\u00e9ation en 2022, Duetti a lev\u00e9 plus de 1,3 milliard de dollars, dont trois titrisations d'actifs en deux ans. NEW YORK, 17 novembre 2026 /PRNewswire/ -- Duetti Inc. (\u00ab Duetti \u00bb ou la \u00ab Soci\u00e9t\u00e9 \u00bb), la soci\u00e9t\u00e9 musicale qui s'associe \u00e0 des artistes, auteurs-compositeurs et...",
+      "url": "https://www.prnewswire.com/news-releases/duetti-obtent-665-millions-de-dollars-de-nouveaux-financements-pour-acceler-ses-investissements-dans-les-catalogues-musicaux-independants-302941111.html",
+      "published_at": "2026-11-17T08:00:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-17T08:36:04Z"
+    },
+    {
+      "id": "0c4042c303dfaf5f",
+      "source": "prnewswire_financial",
+      "title": "Duetti obtiene 665 millones de d\u00f3lares en nueva financiaci\u00f3n",
+      "summary": "-Duetti obtiene 665 millones de d\u00f3lares en nueva financiaci\u00f3n para acelerar la inversi\u00f3n en cat\u00e1logos de m\u00fasica independiente Desde su creaci\u00f3n en 2022, Duetti ha recaudado m\u00e1s de 1.300 millones de d\u00f3lares, cifra que incluye tres titulizaciones respaldadas por activos realizadas en un...",
+      "url": "https://www.prnewswire.com/news-releases/duetti-obtiene-665-millones-de-dolares-en-nueva-financiacion-302941098.html",
+      "published_at": "2026-11-17T08:00:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-17T08:36:04Z"
+    },
+    {
+      "id": "d86f62d31bc71964",
+      "source": "prnewswire_financial",
+      "title": "DUETTI SICHERT SICH 665 MILLIONEN DOLLAR AN NEUEN FINANZIERUNGSMITTELN, UM INVESTITIONEN IN UNABH\u00c4NGIGE MUSIKKATALOGE ZU BESCHLEUNIGEN",
+      "summary": "Duetti hat seit seiner Gr\u00fcndung im Jahr 2022 nun \u00fcber 1,3 Milliarden US-Dollar eingeworben, darunter drei Asset-Backed-Securitizations in den letzten zwei Jahren. NEW YORK, 17. November 2026 /PRNewswire/ -- Duetti Inc. (\u201eDuetti\" oder das \u201eUnternehmen\"), das Musikunternehmen, das mit...",
+      "url": "https://www.prnewswire.com/news-releases/duetti-sichert-sich-665-millionen-dollar-an-neuen-finanzierungsmitteln-um-investitionen-in-unabhangige-musikkataloge-zu-beschleunigen-302941104.html",
+      "published_at": "2026-11-17T08:00:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-17T08:36:04Z"
+    },
+    {
+      "id": "b11feeb1c17b56c5",
+      "source": "prnewswire_financial",
+      "title": "DUETTI SECURES $665M IN NEW FUNDING TO ACCELERATE INVESTMENT INTO INDEPENDENT MUSIC CATALOGS",
+      "summary": "Duetti has now raised over $1.3 billion since inception in 2022, including three asset-backed securitizations in two years NEW YORK , Nov. 17, 2026 /PRNewswire/ -- Duetti Inc. (\"Duetti\" or the \"Company\"), the music company that partners with independent artists, songwriters, and producers...",
+      "url": "https://www.prnewswire.com/news-releases/duetti-secures-665m-in-new-funding-to-accelerate-investment-into-independent-music-catalogs-302940398.html",
+      "published_at": "2026-11-17T08:00:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-17T08:36:04Z"
+    },
+    {
+      "id": "243bfccb12c734f2",
+      "source": "prnewswire_financial",
+      "title": "CPP Investments and Ontario Teachers' to join Nordic Capital as owners of Cary Group to support its continued international expansion and long-term development",
+      "summary": "The new joint ownership will aim to accelerate growth through strategic acquisitions, operational excellence and digitalisation The transaction builds on Cary Group's significant transformation and international growth under Nordic Capital's ownership since 2018 STOCKHOLM, Nov. 17, 2026...",
+      "url": "https://www.prnewswire.com/news-releases/cpp-investments-and-ontario-teachers-to-join-nordic-capital-as-owners-of-cary-group-to-support-its-continued-international-expansion-and-long-term-development-302941764.html",
+      "published_at": "2026-11-17T07:50:00Z",
+      "tickers": [
+        "CPP"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-17T08:36:04Z"
+    },
+    {
+      "id": "dfa4e4a95325fd12",
+      "source": "prnewswire_financial",
+      "title": "17th Caixin Summit Opens in Beijing Under the Theme \"Challenges Abound, Growth Answers\"",
+      "summary": "BEIJING, Nov. 17, 2026 /PRNewswire/ -- The 17th Caixin Summit, hosted by Caixin Media, opened in Beijing on November 12 under the theme \"Challenges Abound, Growth Answers.\" The summit brought together guests from government, business and academia to explore viable paths for addressing...",
+      "url": "https://www.prnewswire.com/news-releases/17th-caixin-summit-opens-in-beijing-under-the-theme-challenges-abound-growth-answers-302941735.html",
+      "published_at": "2026-11-17T07:35:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-17T08:36:04Z"
+    },
+    {
+      "id": "c2648048d510043c",
+      "source": "prnewswire_financial",
+      "title": "91% of Capital Markets Respondents Want AI to Deliver Greater Accuracy and Fewer Errors",
+      "summary": "AI is becoming part of daily operation, but most use cases remain human led, putting controlled delegation, trust, and accountability in focus NEW YORK, Nov. 17, 2026 /PRNewswire/ -- Broadridge (NYSE: BR), a global Fintech leader, in collaboration with The ValueExchange, the International...",
+      "url": "https://www.prnewswire.com/news-releases/91-of-capital-markets-respondents-want-ai-to-deliver-greater-accuracy-and-fewer-errors-302941361.html",
+      "published_at": "2026-11-17T07:00:00Z",
+      "tickers": [
+        "BR"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-17T08:36:04Z"
+    },
+    {
+      "id": "e37c59135fb2525f",
+      "source": "prnewswire_financial",
+      "title": "CASI at COP31 Called for Measures to Enhance Bankability of Sustainable Projects via Capacity-building",
+      "summary": "ANTALYA, T\u00fcrkiye, Nov. 17, 2026 /PRNewswire/ -- On November 14, the Capacity-building Alliance of Sustainable Investment (CASI) and its partners held a series of capacity-building events to enhance the bankability of sustainable projects at COP31, themed Dialogue, Consensus and Action, in...",
+      "url": "https://www.prnewswire.com/news-releases/casi-at-cop31-called-for-measures-to-enhance-bankability-of-sustainable-projects-via-capacity-building-302941579.html",
+      "published_at": "2026-11-17T06:11:00Z",
+      "tickers": [
+        "CASI"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-17T08:36:04Z"
+    },
+    {
+      "id": "23644e18feca37b6",
+      "source": "prnewswire_financial",
+      "title": "Bank Leumi Delivers Strong Third Quarter 2026 Results with High Growth in Loan Portfolio and an Efficiency Ratio Among the Best Globally; Net Income Reached NIS $3B ($979M), ROE of 16.9% and Dividend Distribution of NIS 1.5 ($490M)",
+      "summary": "Leumi's leadership in technology and AI continues to deliver tangible results: efficiency ratio improved from 27% in Q3 2025 to 26% in Q3 2026, the best in Israel and among the best globally Strong growth in the loan portfolio, up 12.7% year-to-date to NIS 586.1 billion ($191 billion),...",
+      "url": "https://www.prnewswire.com/news-releases/bank-leumi-delivers-strong-third-quarter-2026-results-with-high-growth-in-loan-portfolio-and-an-efficiency-ratio-among-the-best-globally-net-income-reached-nis-3b-979m-roe-of-16-9-and-dividend-distribution-of-nis-1-5-490m-302941547.html",
+      "published_at": "2026-11-17T05:45:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-17T08:36:04Z"
+    },
+    {
+      "id": "be330baae4767e23",
+      "source": "cnbc_business",
+      "title": "Here's what to expect when Disney reports earnings before the bell",
+      "summary": "Investors will be looking for more insight into CEO Josh D'Amaro's strategy following a series of company-wide layoffs.",
+      "url": "https://www.cnbc.com/2026/11/17/disney-dis-earnings-q-2026.html",
+      "published_at": "2026-11-17T05:01:01Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-17T08:36:05Z"
+    },
+    {
+      "id": "bebb2a39459aadd8",
+      "source": "prnewswire_financial",
+      "title": "Horizon Capital, soci\u00e9t\u00e9 bas\u00e9e \u00e0 Kiev, atteint 200 millions \u20ac lors de la deuxi\u00e8me cl\u00f4ture de Catalyst Fund",
+      "summary": "D\u00e9montre une dynamique notable dans l'attraction de capitaux pour renforcer la r\u00e9silience et le redressement \u00e9conomiques de l'Ukraine Le fonds privil\u00e9gie les secteurs de la reconstruction, notamment l'\u00e9nergie, les infrastructures num\u00e9riques et la construction Les deux tiers de l'objectif...",
+      "url": "https://www.prnewswire.com/news-releases/horizon-capital-societe-basee-a-kiev-atteint-200-millions--lors-de-la-deuxieme-cloture-de-catalyst-fund-302941377.html",
+      "published_at": "2026-11-17T03:56:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-17T08:36:04Z"
+    },
+    {
+      "id": "3bb40e3ac9871c4a",
+      "source": "prnewswire_financial",
+      "title": "Das in Kiew ans\u00e4ssige Unternehmen Horizon Capital erreicht beim zweiten Closing des Catalyst-Fonds ein Volumen von 200 Millionen Euro",
+      "summary": "Dies zeugt von einer deutlichen Dynamik bei der Bereitstellung von Kapital zur St\u00e4rkung der wirtschaftlichen Widerstandsf\u00e4higkeit und zur F\u00f6rderung des Wiederaufbaus der Ukraine Der Fonds priorisiert Wiederaufbausektoren, darunter Energie, digitale Infrastruktur und Bauwesen Bislang...",
+      "url": "https://www.prnewswire.com/news-releases/das-in-kiew-ansassige-unternehmen-horizon-capital-erreicht-beim-zweiten-closing-des-catalyst-fonds-ein-volumen-von-200-millionen-euro-302941374.html",
+      "published_at": "2026-11-17T03:54:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-17T08:36:04Z"
+    },
+    {
+      "id": "2b2d4ad67cec33d3",
+      "source": "prnewswire_financial",
+      "title": "Health Net Providing Special Assistance to Members and Providers Affected by MP18 Fire in Humboldt",
+      "summary": "SACRAMENTO, Calif., Nov. 16, 2026 /PRNewswire/ -- Following Gov. Newsom's declaration of a State of Emergency in Humboldt County, Health Net, one of California's most experienced Medi-Cal managed care health plans and company of Centene Corporation (NYSE: CNC), is taking immediate action...",
+      "url": "https://www.prnewswire.com/news-releases/health-net-providing-special-assistance-to-members-and-providers-affected-by-mp18-fire-in-humboldt-302941317.html",
+      "published_at": "2026-11-17T03:06:00Z",
+      "tickers": [
+        "CNC"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-17T08:36:04Z"
+    },
+    {
+      "id": "5c4c48a6eb7743eb",
+      "source": "marketwatch",
+      "title": "I\u2019m in my 40s. Should I accept a lower pension in exchange for naming my husband or child as a beneficiary?",
+      "summary": "\u201cIf I die before my husband, he will receive a lifetime pension equal to 50%\u201366% of my monthly benefit.\u201d",
+      "url": "https://www.marketwatch.com/story/im-in-my-40s-should-i-accept-a-lower-pension-in-exchange-for-naming-my-husband-or-child-as-a-beneficiary-b2352059?mod=mw_rss_topstories",
+      "published_at": "2026-11-17T02:30:00Z",
+      "tickers": [
+        "I"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-17T08:36:06Z"
+    },
+    {
+      "id": "daa4526ea494e650",
+      "source": "prnewswire_financial",
+      "title": "Entrepreneur Universe Bright Group Reports Third Quarter 2026 Financial Results",
+      "summary": "XI'AN, China, Nov. 16, 2026 /PRNewswire/ -- Entrepreneur Universe Bright Group (\"EUBG\" or the \"Company\"), a Nevada corporation, reported its unaudited financial results for the three and nine months ended September 30, 2026. For more information, please refer to the Company's Quarterly...",
+      "url": "https://www.prnewswire.com/news-releases/entrepreneur-universe-bright-group-reports-third-quarter-2026-financial-results-302941252.html",
+      "published_at": "2026-11-17T02:00:00Z",
+      "tickers": [],
+      "event_type": "earnings",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-17T08:36:04Z"
+    },
+    {
+      "id": "9202475cfa3bf648",
+      "source": "prnewswire_financial",
+      "title": "Grupo Supervielle Reports 3Q26 Results",
+      "summary": "Return to loan growth, with net loans up 1.3% QoQ in real terms and accelerating to 3.7% MoM in September NPL ratio improved to 5.4%, approximately 200 bps below industry, with net cost of risk down 100 bps to 4.6% \u2060Lower cost to serve, with personnel expenses excluding severance down 14%...",
+      "url": "https://www.prnewswire.com/news-releases/grupo-supervielle-reports-3q26-results-302941254.html",
+      "published_at": "2026-11-17T01:28:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-17T08:36:04Z"
+    },
     {
       "id": "1ed6b7a70ad7a146",
       "source": "prnewswire",
@@ -156,7 +694,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-17T00:46:55Z"
+      "scanned_at": "2026-11-17T08:36:04Z"
     },
     {
       "id": "db0b279d18630c4b",
@@ -274,7 +812,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-17T00:46:55Z"
+      "scanned_at": "2026-11-17T08:36:04Z"
     },
     {
       "id": "2d7e4f96f239292c",
@@ -316,7 +854,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-17T00:46:56Z"
+      "scanned_at": "2026-11-17T08:36:05Z"
     },
     {
       "id": "2a90ff5316f51f86",
@@ -374,7 +912,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-17T00:46:55Z"
+      "scanned_at": "2026-11-17T08:36:04Z"
     },
     {
       "id": "9d5b0d75874d429b",
@@ -388,7 +926,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-17T00:46:57Z"
+      "scanned_at": "2026-11-17T08:36:06Z"
     },
     {
       "id": "eb2954d51ba38041",
@@ -402,7 +940,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-17T00:46:55Z"
+      "scanned_at": "2026-11-17T08:36:04Z"
     },
     {
       "id": "0052bb67271a23cd",
@@ -419,7 +957,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-17T00:46:55Z"
+      "scanned_at": "2026-11-17T08:36:04Z"
     },
     {
       "id": "1ef5cf8f908cc467",
@@ -447,7 +985,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-17T00:46:57Z"
+      "scanned_at": "2026-11-17T08:36:06Z"
     },
     {
       "id": "ff0c8e1e51fb14ef",
@@ -461,7 +999,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-17T00:46:57Z"
+      "scanned_at": "2026-11-17T08:36:06Z"
     },
     {
       "id": "6d6646eec1837309",
@@ -475,7 +1013,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-17T00:46:56Z"
+      "scanned_at": "2026-11-17T08:36:05Z"
     },
     {
       "id": "bef5672e291eb3a8",
@@ -489,7 +1027,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-17T00:46:57Z"
+      "scanned_at": "2026-11-17T08:36:06Z"
     },
     {
       "id": "b742ee85bded7add",
@@ -540,7 +1078,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-17T00:46:57Z"
+      "scanned_at": "2026-11-17T08:36:06Z"
     },
     {
       "id": "4165fe336c0315fb",
@@ -554,7 +1092,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-17T00:46:57Z"
+      "scanned_at": "2026-11-17T08:36:06Z"
     },
     {
       "id": "47d51b299cb8fcf1",
@@ -569,7 +1107,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-17T00:46:54Z"
+      "scanned_at": "2026-11-17T08:36:03Z"
     },
     {
       "id": "10140c2d94bb0215",
@@ -583,7 +1121,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-17T00:46:57Z"
+      "scanned_at": "2026-11-17T08:36:06Z"
     },
     {
       "id": "8d950bad9e7175f1",
@@ -598,7 +1136,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-17T00:46:54Z"
+      "scanned_at": "2026-11-17T08:36:03Z"
     },
     {
       "id": "d8aa74fab282d782",
@@ -613,7 +1151,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-17T00:46:54Z"
+      "scanned_at": "2026-11-17T08:36:03Z"
     },
     {
       "id": "53b4d536691e5f9d",
@@ -628,7 +1166,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-17T00:46:54Z"
+      "scanned_at": "2026-11-17T08:36:03Z"
     },
     {
       "id": "6354a040eed5b2cd",
@@ -643,7 +1181,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-17T00:46:54Z"
+      "scanned_at": "2026-11-17T08:36:03Z"
     },
     {
       "id": "1074174eafad5266",
@@ -658,7 +1196,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-17T00:46:54Z"
+      "scanned_at": "2026-11-17T08:36:03Z"
     },
     {
       "id": "2f04c7a9e9d7f4e0",
@@ -672,7 +1210,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-17T00:46:57Z"
+      "scanned_at": "2026-11-17T08:36:06Z"
     },
     {
       "id": "7f0e7db5552e7530",
@@ -687,7 +1225,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-17T00:46:54Z"
+      "scanned_at": "2026-11-17T08:36:03Z"
     },
     {
       "id": "f8f11123f02b40ed",
@@ -702,7 +1240,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-17T00:46:54Z"
+      "scanned_at": "2026-11-17T08:36:03Z"
     },
     {
       "id": "4f8b8d8d4770ee5a",
@@ -717,7 +1255,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-17T00:46:54Z"
+      "scanned_at": "2026-11-17T08:36:03Z"
     },
     {
       "id": "a365e4ad01fc889b",
@@ -732,7 +1270,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-17T00:46:54Z"
+      "scanned_at": "2026-11-17T08:36:03Z"
     },
     {
       "id": "021360a7a190001b",
@@ -748,7 +1286,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-17T00:46:56Z"
+      "scanned_at": "2026-11-17T08:36:05Z"
     },
     {
       "id": "5806be8235eaef51",
@@ -763,7 +1301,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-17T00:46:54Z"
+      "scanned_at": "2026-11-17T08:36:03Z"
     },
     {
       "id": "2ed127e7cea9f69d",
@@ -778,7 +1316,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-17T00:46:54Z"
+      "scanned_at": "2026-11-17T08:36:03Z"
     },
     {
       "id": "5ca78dc6652bcae6",
@@ -793,7 +1331,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-17T00:46:54Z"
+      "scanned_at": "2026-11-17T08:36:03Z"
     },
     {
       "id": "9dbcedef3050d553",
@@ -807,7 +1345,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-17T00:46:56Z"
+      "scanned_at": "2026-11-17T08:36:05Z"
     },
     {
       "id": "2f4f875f460fbdd0",
@@ -821,7 +1359,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-17T00:46:56Z"
+      "scanned_at": "2026-11-17T08:36:05Z"
     },
     {
       "id": "3824b124ddfcec8b",
@@ -836,7 +1374,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-17T00:46:54Z"
+      "scanned_at": "2026-11-17T08:36:03Z"
     },
     {
       "id": "38a765b56d8931b7",
@@ -851,7 +1389,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-17T00:46:54Z"
+      "scanned_at": "2026-11-17T08:36:03Z"
     },
     {
       "id": "9afc15e0d0acfdbf",
@@ -866,7 +1404,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-17T00:46:54Z"
+      "scanned_at": "2026-11-17T08:36:03Z"
     },
     {
       "id": "f9f07fdc561f72aa",
@@ -881,7 +1419,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-17T00:46:54Z"
+      "scanned_at": "2026-11-17T08:36:03Z"
     },
     {
       "id": "601fd0b474947898",
@@ -896,7 +1434,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-17T00:46:54Z"
+      "scanned_at": "2026-11-17T08:36:03Z"
     },
     {
       "id": "58929bf506454874",
@@ -911,7 +1449,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-17T00:46:54Z"
+      "scanned_at": "2026-11-17T08:36:03Z"
     },
     {
       "id": "008b9db8ba37e6b3",
@@ -926,7 +1464,21 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-17T00:46:54Z"
+      "scanned_at": "2026-11-17T08:36:03Z"
+    },
+    {
+      "id": "0594e6f98ddb13b5",
+      "source": "marketwatch",
+      "title": "\u2018It leaves me with a sour taste\u2019: My elderly mother gave our cousin $800 for a car repair. Should I be worried?",
+      "summary": "\u201cI know older people can easily feel patronized, and I don\u2019t want that to happen.\u201d",
+      "url": "https://www.marketwatch.com/story/it-leaves-me-with-a-sour-taste-my-elderly-mother-gave-our-cousin-800-for-a-car-repair-should-i-be-worried-88dbd188?mod=mw_rss_topstories",
+      "published_at": "2026-11-16T22:08:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-17T08:36:06Z"
     },
     {
       "id": "8b422fc591db2762",
@@ -941,7 +1493,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-17T00:46:54Z"
+      "scanned_at": "2026-11-17T08:36:03Z"
     },
     {
       "id": "fb33780368c8aebc",
@@ -956,7 +1508,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-17T00:46:54Z"
+      "scanned_at": "2026-11-17T08:36:03Z"
     },
     {
       "id": "fbc900f55abfe936",
@@ -1015,7 +1567,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-17T00:46:54Z"
+      "scanned_at": "2026-11-17T08:36:03Z"
     },
     {
       "id": "112f47bf8a649a26",
@@ -1030,7 +1582,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-17T00:46:54Z"
+      "scanned_at": "2026-11-17T08:36:03Z"
     },
     {
       "id": "330cf345985be9af",
@@ -1045,7 +1597,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-17T00:46:54Z"
+      "scanned_at": "2026-11-17T08:36:03Z"
     },
     {
       "id": "e8f628ded099341f",
@@ -1060,7 +1612,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-17T00:46:54Z"
+      "scanned_at": "2026-11-17T08:36:03Z"
     },
     {
       "id": "5e480beebd95ada7",
@@ -1122,7 +1674,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-17T00:46:54Z"
+      "scanned_at": "2026-11-17T08:36:03Z"
     },
     {
       "id": "be672155e7eae0b8",
@@ -1151,7 +1703,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-17T00:46:54Z"
+      "scanned_at": "2026-11-17T08:36:03Z"
     },
     {
       "id": "f56062f9e4e80133",
@@ -1166,7 +1718,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-17T00:46:54Z"
+      "scanned_at": "2026-11-17T08:36:03Z"
     },
     {
       "id": "16d57f12097d9602",
@@ -1181,7 +1733,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-17T00:46:54Z"
+      "scanned_at": "2026-11-17T08:36:03Z"
     },
     {
       "id": "405b444282b82b86",
@@ -1196,7 +1748,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-17T00:46:54Z"
+      "scanned_at": "2026-11-17T08:36:03Z"
     },
     {
       "id": "1cd09a055b4ed82a",
@@ -1211,7 +1763,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-17T00:46:54Z"
+      "scanned_at": "2026-11-17T08:36:03Z"
     },
     {
       "id": "b156af934beaa125",
@@ -1243,7 +1795,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-17T00:46:54Z"
+      "scanned_at": "2026-11-17T08:36:03Z"
     },
     {
       "id": "3bcd0e22fd42398a",
@@ -1258,7 +1810,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-17T00:46:54Z"
+      "scanned_at": "2026-11-17T08:36:03Z"
     },
     {
       "id": "5a7a691d0c4bdc38",
@@ -1273,7 +1825,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-17T00:46:54Z"
+      "scanned_at": "2026-11-17T08:36:03Z"
     },
     {
       "id": "b2832579015e84dd",
@@ -1288,7 +1840,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-17T00:46:54Z"
+      "scanned_at": "2026-11-17T08:36:03Z"
     },
     {
       "id": "235f647a7e358674",
@@ -1317,7 +1869,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-17T00:46:54Z"
+      "scanned_at": "2026-11-17T08:36:03Z"
     },
     {
       "id": "3c7c2a1dec46ccb3",
@@ -1332,7 +1884,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-17T00:46:54Z"
+      "scanned_at": "2026-11-17T08:36:03Z"
     },
     {
       "id": "98f28011c11f4351",
@@ -1347,7 +1899,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-17T00:46:54Z"
+      "scanned_at": "2026-11-17T08:36:03Z"
     },
     {
       "id": "c1a3c478a84de46f",
@@ -1362,7 +1914,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-17T00:46:54Z"
+      "scanned_at": "2026-11-17T08:36:03Z"
     },
     {
       "id": "1909e1f4dd46040e",
@@ -1434,7 +1986,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-17T00:46:56Z"
+      "scanned_at": "2026-11-17T08:36:05Z"
     },
     {
       "id": "75f20d3cd59e39db",
@@ -1448,7 +2000,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-17T00:46:56Z"
+      "scanned_at": "2026-11-17T08:36:05Z"
     },
     {
       "id": "5900ab85d9240dc9",
@@ -2045,6 +2597,34 @@
       "eu_category": "other_8k",
       "scanned_at": "2026-11-16T18:23:24Z",
       "region": "EU"
+    },
+    {
+      "id": "5a41ca582d5cb4e2",
+      "source": "cnbc_business",
+      "title": "Eric Trump-backed robot soldier startup can't pay staff after founder borrowed $4.6 million from company to buy home",
+      "summary": "Eric Trump-backed robot startup Foundation Future Industries has run low on cash and missed payroll, as CEO Sankaet Pathak faces scrutiny over a $4.6 million company loan.",
+      "url": "https://www.cnbc.com/2026/11/14/foundation-payroll-ceo-loan.html",
+      "published_at": "2026-11-16T17:14:13Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-17T08:36:05Z"
+    },
+    {
+      "id": "69e914beb2c8edef",
+      "source": "cnbc_finance",
+      "title": "Eric Trump-backed robot soldier startup can't pay staff after founder borrowed $4.6 million from company to buy home",
+      "summary": "Eric Trump-backed robot startup Foundation Future Industries has run low on cash and missed payroll, as CEO Sankaet Pathak faces scrutiny over a $4.6 million company loan.",
+      "url": "https://www.cnbc.com/2026/11/14/foundation-payroll-ceo-loan.html",
+      "published_at": "2026-11-16T17:14:13Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-17T08:36:05Z"
     },
     {
       "id": "46b6e1c6fd5ea638",
@@ -2689,7 +3269,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-17T00:46:56Z"
+      "scanned_at": "2026-11-17T08:36:05Z"
     },
     {
       "id": "65dbd9fb3f33b411",
@@ -3091,7 +3671,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-17T00:46:56Z"
+      "scanned_at": "2026-11-17T08:36:05Z"
     },
     {
       "id": "559c6d927fcd5c75",
@@ -3938,6 +4518,20 @@
       "region": "EU"
     },
     {
+      "id": "3ef0d335b033e37d",
+      "source": "cnbc_finance",
+      "title": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has ties to the chipmaker",
+      "summary": "Jensen Huang\u2019s resignation as Nvidia CEO has brought renewed scrutiny to Commerce Secretary Howard Lutnick and his family's financial ties to the chipmaker.",
+      "url": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
+      "published_at": "2026-11-16T12:14:46Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-17T08:36:05Z"
+    },
+    {
       "id": "28f1c7bbb0b8781b",
       "source": "eqs_google",
       "title": "SpaceX-Aktie: Nach dem Starship-Fang bleibt Pivotal-Analyst Jeffrey Wlodarczak bei \u201eBuy\u201c \u2013 Kursziel 260 Dollar - AktienCheck.de",
@@ -3953,6 +4547,20 @@
       "eu_category": "analyst",
       "scanned_at": "2026-11-16T18:23:25Z",
       "region": "EU"
+    },
+    {
+      "id": "3bf63055f3d8ddc6",
+      "source": "cnbc_finance",
+      "title": "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts",
+      "summary": "ETF experts say Nvidia\u2019s leadership turmoil and Democratic control of Congress could shift AI demand to the benefit of other Big Tech stocks, rival chipmakers.",
+      "url": "https://www.cnbc.com/2026/11/14/nvidia-ai-trade-data-centers-congress.html",
+      "published_at": "2026-11-16T12:13:23Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-17T08:36:05Z"
     },
     {
       "id": "bfcc4b014db496c7",
@@ -4036,7 +4644,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-17T00:46:56Z"
+      "scanned_at": "2026-11-17T08:36:05Z"
     },
     {
       "id": "2304096cc0436bbe",
@@ -4453,7 +5061,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-17T00:46:56Z"
+      "scanned_at": "2026-11-17T08:36:05Z"
     },
     {
       "id": "0667ade72b4f47eb",
@@ -4731,6 +5339,34 @@
       "news_side": null,
       "actionable": false,
       "scanned_at": "2026-11-16T00:20:23Z"
+    },
+    {
+      "id": "eb5a7cec36bd3e66",
+      "source": "cnbc_business",
+      "title": "Rivian, Lucid, Scout CEOs aren\u2019t counting on Democrats to restore EV federal support after midterm wins",
+      "summary": "EV makers have had to contend with flip-flopping regulatory support from Washington over the years.",
+      "url": "https://www.cnbc.com/2026/11/15/rivian-lucid-scout-arent-counting-on-dems-to-restore-ev-incentives.html",
+      "published_at": "2026-11-15T13:00:02Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-17T08:36:05Z"
+    },
+    {
+      "id": "dea65ce1e07fec13",
+      "source": "cnbc_business",
+      "title": "Retailers are turning to entertainment to win shoppers\u2019 attention",
+      "summary": "Retailers are increasingly investing in and building out entertainment studios as the race for audience attention speeds up.",
+      "url": "https://www.cnbc.com/2026/11/14/retailers-invest-entertainment.html",
+      "published_at": "2026-11-14T13:00:01Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-17T08:36:05Z"
     }
   ]
 }
