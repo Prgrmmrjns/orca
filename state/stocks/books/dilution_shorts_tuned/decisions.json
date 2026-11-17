@@ -64,7 +64,71 @@
         "book_id": "dilution_shorts_tuned",
         "closed_at": "2026-11-16T22:46:58Z"
       }
+    },
+    {
+      "id": "dilution_shorts_tuned-SPGI-2026-11-17T02:55:46Z-ccb284",
+      "book_id": "dilution_shorts_tuned",
+      "ticker": "SPGI",
+      "side": "short",
+      "size": 0.05,
+      "hold": 3,
+      "reason": "[dilution_shorts_tuned/dilution] event=dilution surprise=None gap=None guidance=none headline=S&P Global Announces Pricing of Public Offering of $750,000,000 Senior Notes due \u2192 short 3d",
+      "confidence": 1.0,
+      "stop_loss": null,
+      "take_profit": null,
+      "trailing_stop": null,
+      "exit_at_close": false,
+      "delay_minutes": 0,
+      "rule_name": "dilution",
+      "rule_tags": [
+        "dilution_shorts_tuned",
+        "dilution",
+        "news_event",
+        "dilution",
+        "news_short"
+      ],
+      "surprise_pct": null,
+      "gap_pct": null,
+      "guidance": "none",
+      "news_event_type": "dilution",
+      "news_id": "0052bb67271a23cd",
+      "agent": "rule:dilution_shorts_tuned",
+      "prefer_open": true,
+      "decided_at": "2026-11-17T02:55:46Z",
+      "status": "pending"
+    },
+    {
+      "id": "dilution_shorts_tuned-S-2026-11-17T02:55:46Z-d92334",
+      "book_id": "dilution_shorts_tuned",
+      "ticker": "S",
+      "side": "short",
+      "size": 0.05,
+      "hold": 3,
+      "reason": "[dilution_shorts_tuned/dilution] event=dilution surprise=None gap=None guidance=none headline=S&P Global Announces Pricing of Public Offering of $750,000,000 Senior Notes due \u2192 short 3d",
+      "confidence": 1.0,
+      "stop_loss": null,
+      "take_profit": null,
+      "trailing_stop": null,
+      "exit_at_close": false,
+      "delay_minutes": 0,
+      "rule_name": "dilution",
+      "rule_tags": [
+        "dilution_shorts_tuned",
+        "dilution",
+        "news_event",
+        "dilution",
+        "news_short"
+      ],
+      "surprise_pct": null,
+      "gap_pct": null,
+      "guidance": "none",
+      "news_event_type": "dilution",
+      "news_id": "0052bb67271a23cd",
+      "agent": "rule:dilution_shorts_tuned",
+      "prefer_open": true,
+      "decided_at": "2026-11-17T02:55:46Z",
+      "status": "pending"
     }
   ],
-  "updated_at": "2026-11-11T00:40:49Z"
+  "updated_at": "2026-11-17T02:55:46Z"
 }

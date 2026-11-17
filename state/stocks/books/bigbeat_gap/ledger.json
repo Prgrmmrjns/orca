@@ -47,7 +47,7 @@
     {
       "day": "2026-11-16",
       "equity_eur": 1000.0,
-      "spy_eur": 1006.78,
+      "spy_eur": 1004.39,
       "cash_eur": 1000.0,
       "n_open": 0
     }
@@ -79,9 +79,9 @@
     },
     {
       "day": "2026-11-16",
-      "spy_eur": 1006.78,
+      "spy_eur": 1004.39,
       "spy_usd": 739.95,
-      "eur_usd": 1.09987
+      "eur_usd": 1.10249
     }
   ],
   "cost_pct": 0.005,
@@ -91,7 +91,7 @@
   "default_hold_days": 3,
   "stop_loss": null,
   "max_open": 8,
-  "last_run": "2026-11-16T22:46:49Z",
-  "last_reason": "engine[bigbeat_gap]: auto=0 ingested=0 fills=0 closed=0 open=0 session=after",
-  "eur_usd": 1.0998680591583252
+  "last_run": "2026-11-17T02:55:33Z",
+  "last_reason": "engine[bigbeat_gap]: auto=0 ingested=0 fills=0 closed=0 open=0 session=closed",
+  "eur_usd": 1.1003520488739014
 }
