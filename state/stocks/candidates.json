@@ -1,6 +1,6 @@
 {
   "mode": "paper",
-  "as_of": "2026-11-18T06:58:07Z",
+  "as_of": "2026-11-18T07:31:10Z",
   "as_of_et": "2026-11-18 01:58 ET",
   "forward_test_start": "2026-11-10",
   "spy_above_ma50": false,
@@ -28,7 +28,7 @@
     "guidance_raise_score": "Config: long guidance_raise \u00b7 score-scaled size (|EPS| or |gap| vs 10%, 0.25x\u20132x) \u00b7 max 8 \u00b7 hold 2d \u00b7 no stop \u00b7 next_open (config/strategies/guidance_raise_score.yaml). Box test +4.5%.",
     "gap_filtered_guidance": "Config: long guidance_raise with gap \u22655% \u00b7 5% \u00b7 max 8 \u00b7 hold 5d \u00b7 no stop \u00b7 next_open (config/strategies/gap_filtered_guidance.yaml). Box test +4.4%.",
     "wide_capacity": "Config: quality longs \u00b7 5% \u00b7 max 15 \u00b7 hold 2d \u00b7 no stop \u00b7 next_open (config/strategies/wide_capacity.yaml). Box test +2.1%.",
-    "bigmove_unified_v1": "Fade offering / PR-pop / M&A gap-downs and selective gap-down fades across pre/regular/after hours. Alert-only mega-cap shocks. No earnings/guidance chase. 5% \u00b7 max 20 \u00b7 hold 5d \u00b7 0.5%/fill + 0.5% ext slippage \u00b7 config/strategies/bigmove_unified_v1.yaml.",
+    "bigmove_unified_v1": "Fade offering / PR-pop / M&A gap-downs and selective gap-down fades across pre/regular/after hours. Alert-only mega-cap shocks. No earnings/guidance chase.\n",
     "bigmove_eu_v1": "EU liquid large/mid caps: fade \u226510% gap-downs (earnings / other-PR / no-news) on Xetra/Euronext primary hours (09:00\u201317:30 Berlin). Gap-up shorts dropped after EU event study. Alert-only mega-cap shocks. No earnings/guidance chase. 5% \u00b7 max 20 \u00b7 hold 5d \u00b7 0.5%/fill (+0.5% outside primary) \u00b7 config/strategies/bigmove_eu_v1.yaml."
   },
   "candidates": [
@@ -5431,6 +5431,36 @@
       "rule_tags": [],
       "suggested_side": null,
       "suggested_hold": null
+    },
+    {
+      "ticker": "ALHC",
+      "name": "ALHC",
+      "cal_date": "2026-11-18",
+      "gap_pct": -5.0486,
+      "last": 7.2353,
+      "prev_close": 7.619999885559082,
+      "rel_vol": null,
+      "adv20_usd": 40480544.266922474,
+      "avg_dollar_volume": 40480544.266922474,
+      "spy_above_ma50": false,
+      "session": "closed",
+      "headline": "ALHC Investors Have Opportunity to Join Alignment Healthcare, Inc. Fraud Investigation with the Schall Law Firm",
+      "news_event_type": "other_8k",
+      "news_direction": "bearish",
+      "news_side": null,
+      "news_actionable": true,
+      "news_source": "prnewswire",
+      "news_id": "dcdbaa5ec998d496",
+      "filing_url": "https://www.prnewswire.com/news-releases/alhc-investors-have-opportunity-to-join-alignment-healthcare-inc-fraud-investigation-with-the-schall-law-firm-302941107.html",
+      "rule_tags": [
+        "bigmove",
+        "other_8k",
+        "bigmove_unified_v1"
+      ],
+      "source": "bigmove_move_trigger",
+      "suggested_side": null,
+      "suggested_hold": 5,
+      "as_of": "2026-11-18T07:30:59Z"
     }
   ]
 }
