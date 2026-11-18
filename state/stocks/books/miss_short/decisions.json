@@ -470,7 +470,97 @@
         "decision_id": "miss_short-ADRX-2026-11-14T00:53:21Z-0c12d4",
         "book_id": "miss_short"
       }
+    },
+    {
+      "id": "miss_short-IPST-2026-11-18T02:26:29Z-ef6efa",
+      "book_id": "miss_short",
+      "ticker": "IPST",
+      "side": "short",
+      "size": 0.05,
+      "hold": 2,
+      "reason": "[miss_short/miss_short] event=['miss_short'] surprise=-79625.0 gap=-6.7306 guidance=unknown headline= \u2192 short 2d",
+      "confidence": 1.0,
+      "stop_loss": 0.08,
+      "take_profit": null,
+      "trailing_stop": null,
+      "exit_at_close": false,
+      "delay_minutes": 0,
+      "rule_name": "miss_short",
+      "rule_tags": [
+        "miss_short",
+        "miss_short",
+        "miss_short"
+      ],
+      "surprise_pct": -79625.0,
+      "gap_pct": -6.7306,
+      "guidance": "unknown",
+      "news_event_type": null,
+      "news_id": null,
+      "agent": "rule:miss_short",
+      "prefer_open": true,
+      "decided_at": "2026-11-18T02:26:29Z",
+      "status": "pending"
+    },
+    {
+      "id": "miss_short-DUOT-2026-11-18T02:26:29Z-e6028d",
+      "book_id": "miss_short",
+      "ticker": "DUOT",
+      "side": "short",
+      "size": 0.05,
+      "hold": 2,
+      "reason": "[miss_short/miss_short] event=['miss_short'] surprise=-2500.0 gap=-9.833 guidance=none headline= \u2192 short 2d",
+      "confidence": 1.0,
+      "stop_loss": 0.08,
+      "take_profit": null,
+      "trailing_stop": null,
+      "exit_at_close": false,
+      "delay_minutes": 0,
+      "rule_name": "miss_short",
+      "rule_tags": [
+        "miss_short",
+        "miss_short",
+        "miss_short"
+      ],
+      "surprise_pct": -2500.0,
+      "gap_pct": -9.833,
+      "guidance": "none",
+      "news_event_type": null,
+      "news_id": null,
+      "agent": "rule:miss_short",
+      "prefer_open": true,
+      "decided_at": "2026-11-18T02:26:29Z",
+      "status": "pending"
+    },
+    {
+      "id": "miss_short-VJET-2026-11-18T02:26:29Z-972038",
+      "book_id": "miss_short",
+      "ticker": "VJET",
+      "side": "short",
+      "size": 0.05,
+      "hold": 2,
+      "reason": "[miss_short/miss_short] event=['miss_short'] surprise=-1016.67 gap=-6.9075 guidance=unknown headline= \u2192 short 2d",
+      "confidence": 1.0,
+      "stop_loss": 0.08,
+      "take_profit": null,
+      "trailing_stop": null,
+      "exit_at_close": false,
+      "delay_minutes": 0,
+      "rule_name": "miss_short",
+      "rule_tags": [
+        "miss_short",
+        "miss_short",
+        "miss_short"
+      ],
+      "surprise_pct": -1016.67,
+      "gap_pct": -6.9075,
+      "guidance": "unknown",
+      "news_event_type": null,
+      "news_id": null,
+      "agent": "rule:miss_short",
+      "prefer_open": true,
+      "decided_at": "2026-11-18T02:26:29Z",
+      "status": "pending"
     }
   ],
-  "updated_at": "2026-11-14T00:53:21Z"
+  "updated_at": "2026-11-18T02:26:29Z"
 }
