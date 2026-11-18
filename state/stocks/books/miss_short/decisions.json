@@ -453,22 +453,36 @@
       "agent": "rule:miss_short",
       "prefer_open": true,
       "decided_at": "2026-11-14T00:53:21Z",
-      "status": "filled",
+      "status": "closed",
       "fill": {
-        "time": "2026-11-16T22:46:51Z",
         "ticker": "ADRX",
-        "side": "sell_short",
-        "price_usd": 14.22,
+        "side": "short",
+        "entry_day": "2026-11-16",
+        "exit_day": "2026-11-18",
+        "entry_usd": 14.22,
+        "exit_usd": 12.82,
         "shares": 3.946724,
-        "notional_eur": 51.03,
-        "cost_eur": 0.2551,
-        "cost_pct": 0.005,
-        "session": "open",
-        "quote_fx": 1.0998680591583252,
+        "hold_days": 2,
+        "exit_reason": "time_exit",
+        "entry_session": "open",
+        "exit_session": "after",
+        "session": "after",
+        "entry_cost_eur": 0.2551,
+        "exit_cost_eur": 0.23,
+        "entry_cost_pct": 0.005,
+        "exit_cost_pct": 0.005,
+        "pnl_eur": 4.54,
+        "pnl_pct_net": 9.9204,
         "reason": "[miss_short/miss_short] event=['miss_short'] surprise=-335.0 gap=-5.9711 guidance=unknown headline= \u2192 short 2d",
-        "note": "filled at regular-session open",
+        "rule_tags": [
+          "miss_short",
+          "miss_short",
+          "miss_short"
+        ],
+        "rule_name": "miss_short",
         "decision_id": "miss_short-ADRX-2026-11-14T00:53:21Z-0c12d4",
-        "book_id": "miss_short"
+        "book_id": "miss_short",
+        "closed_at": "2026-11-18T21:11:22Z"
       }
     },
     {
@@ -499,7 +513,23 @@
       "agent": "rule:miss_short",
       "prefer_open": true,
       "decided_at": "2026-11-18T02:26:29Z",
-      "status": "pending"
+      "status": "filled",
+      "fill": {
+        "time": "2026-11-18T21:11:21Z",
+        "ticker": "IPST",
+        "side": "sell_short",
+        "price_usd": 1.92,
+        "shares": 29.65331,
+        "notional_eur": 51.86,
+        "cost_eur": 0.2593,
+        "cost_pct": 0.005,
+        "session": "open",
+        "quote_fx": 1.0978153944015503,
+        "reason": "[miss_short/miss_short] event=['miss_short'] surprise=-79625.0 gap=-6.7306 guidance=unknown headline= \u2192 short 2d",
+        "note": "filled at regular-session open",
+        "decision_id": "miss_short-IPST-2026-11-18T02:26:29Z-ef6efa",
+        "book_id": "miss_short"
+      }
     },
     {
       "id": "miss_short-DUOT-2026-11-18T02:26:29Z-e6028d",
@@ -529,7 +559,23 @@
       "agent": "rule:miss_short",
       "prefer_open": true,
       "decided_at": "2026-11-18T02:26:29Z",
-      "status": "pending"
+      "status": "filled",
+      "fill": {
+        "time": "2026-11-18T21:11:21Z",
+        "ticker": "DUOT",
+        "side": "sell_short",
+        "price_usd": 3.48,
+        "shares": 16.467073,
+        "notional_eur": 52.2,
+        "cost_eur": 0.261,
+        "cost_pct": 0.005,
+        "session": "open",
+        "quote_fx": 1.0978153944015503,
+        "reason": "[miss_short/miss_short] event=['miss_short'] surprise=-2500.0 gap=-9.833 guidance=none headline= \u2192 short 2d",
+        "note": "filled at regular-session open",
+        "decision_id": "miss_short-DUOT-2026-11-18T02:26:29Z-e6028d",
+        "book_id": "miss_short"
+      }
     },
     {
       "id": "miss_short-VJET-2026-11-18T02:26:29Z-972038",
@@ -559,7 +605,23 @@
       "agent": "rule:miss_short",
       "prefer_open": true,
       "decided_at": "2026-11-18T02:26:29Z",
-      "status": "pending"
+      "status": "filled",
+      "fill": {
+        "time": "2026-11-18T21:11:22Z",
+        "ticker": "VJET",
+        "side": "sell_short",
+        "price_usd": 0.4213,
+        "shares": 136.045205,
+        "notional_eur": 52.21,
+        "cost_eur": 0.261,
+        "cost_pct": 0.005,
+        "session": "open",
+        "quote_fx": 1.0978153944015503,
+        "reason": "[miss_short/miss_short] event=['miss_short'] surprise=-1016.67 gap=-6.9075 guidance=unknown headline= \u2192 short 2d",
+        "note": "filled at regular-session open",
+        "decision_id": "miss_short-VJET-2026-11-18T02:26:29Z-972038",
+        "book_id": "miss_short"
+      }
     }
   ],
   "updated_at": "2026-11-18T02:26:29Z"
