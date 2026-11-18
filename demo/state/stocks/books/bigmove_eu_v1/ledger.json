@@ -63,6 +63,13 @@
       "spy_eur": 996.61,
       "cash_eur": 1000.0,
       "n_open": 0
+    },
+    {
+      "day": "2026-11-18",
+      "equity_eur": 1000.0,
+      "spy_eur": 995.88,
+      "cash_eur": 1000.0,
+      "n_open": 0
     }
   ],
   "spy_history": [
@@ -101,6 +108,12 @@
       "spy_eur": 996.61,
       "spy_usd": 732.44,
       "eur_usd": 1.09982
+    },
+    {
+      "day": "2026-11-18",
+      "spy_eur": 995.88,
+      "spy_usd": 730.25,
+      "eur_usd": 1.09733
     }
   ],
   "cost_pct": 0.005,
@@ -111,7 +124,7 @@
   "stop_loss": null,
   "prefer_open": false,
   "max_open": 20,
-  "last_run": "2026-11-18T02:55:45Z",
+  "last_run": "2026-11-18T17:12:04Z",
   "last_reason": "engine[bigmove_eu_v1]: auto=0 ingested=0 fills=0 closed=0 open=0 session=closed",
   "extended_hours_extra_slippage_pct": 0.005,
   "allow_extended_hours": false,
@@ -122,5 +135,5 @@
   "sizing": "fixed",
   "score_ref": 10.0,
   "strategy_config_path": "config/strategies/bigmove_eu_v1.yaml",
-  "eur_usd": 1.0995051860809326
+  "eur_usd": 1.0973334312438965
 }
