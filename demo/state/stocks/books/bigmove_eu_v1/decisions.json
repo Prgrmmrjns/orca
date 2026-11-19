@@ -31,7 +31,23 @@
       "agent": "rule:bigmove_eu_v1",
       "prefer_open": false,
       "decided_at": "2026-11-18T02:26:39Z",
-      "status": "pending"
+      "status": "filled",
+      "fill": {
+        "time": "2026-11-19T01:52:45Z",
+        "ticker": "OMER",
+        "side": "buy",
+        "price_usd": null,
+        "shares": null,
+        "notional_eur": 50.0,
+        "cost_eur": 0.25,
+        "cost_pct": 0.005,
+        "session": "open",
+        "quote_fx": 1.0974539518356323,
+        "reason": "[bigmove_eu_v1/capitulation_fade_long] event=no_news_found surprise=None gap=-16.0384 guidance=None headline=OMER move -16.0% no news found \u2192 long 5d",
+        "note": "filled at regular-session open",
+        "decision_id": "bigmove_eu_v1-OMER-2026-11-18T02:26:39Z-d1282f",
+        "book_id": "bigmove_eu_v1"
+      }
     }
   ],
   "updated_at": "2026-11-18T02:26:40Z"

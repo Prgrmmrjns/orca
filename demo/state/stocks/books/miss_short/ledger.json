@@ -11,7 +11,7 @@
   "start_capital_eur": 1000.0,
   "eur_usd_start": 1.1222084760665894,
   "cash_eur": 1192.4837363235292,
-  "equity_eur": 1044.36,
+  "equity_eur": 1044.17,
   "positions": {
     "IPST": {
       "ticker": "IPST",
@@ -45,7 +45,7 @@
       ],
       "decision_id": "miss_short-IPST-2026-11-18T02:26:29Z-ef6efa",
       "book_id": "miss_short",
-      "mark_usd": 1.659999966621399,
+      "mark_usd": 1.66,
       "mark_eur": 1.5121,
       "unrealized_pnl_pct": 15.6627
     },
@@ -81,7 +81,7 @@
       ],
       "decision_id": "miss_short-DUOT-2026-11-18T02:26:29Z-e6028d",
       "book_id": "miss_short",
-      "mark_usd": 3.450000047683716,
+      "mark_usd": 3.45,
       "mark_eur": 3.1426,
       "unrealized_pnl_pct": 0.8696
     },
@@ -117,9 +117,9 @@
       ],
       "decision_id": "miss_short-VJET-2026-11-18T02:26:29Z-972038",
       "book_id": "miss_short",
-      "mark_usd": 0.41589999198913574,
-      "mark_eur": 0.3788,
-      "unrealized_pnl_pct": 1.2984
+      "mark_usd": 0.4174,
+      "mark_eur": 0.3802,
+      "unrealized_pnl_pct": 0.9344
     }
   },
   "pending": [],
@@ -412,8 +412,8 @@
     },
     {
       "day": "2026-11-18",
-      "equity_eur": 1044.36,
-      "spy_eur": 995.44,
+      "equity_eur": 1044.17,
+      "spy_eur": 996.61,
       "cash_eur": 1192.48,
       "n_open": 3
     }
@@ -454,12 +454,6 @@
       "spy_eur": 996.61,
       "spy_usd": 732.44,
       "eur_usd": 1.09982
-    },
-    {
-      "day": "2026-11-18",
-      "spy_eur": 995.44,
-      "spy_usd": 730.25,
-      "eur_usd": 1.09782
     }
   ],
   "cost_pct": 0.005,
@@ -469,7 +463,7 @@
   "default_hold_days": 2,
   "stop_loss": 0.08,
   "max_open": 4,
-  "last_run": "2026-11-18T21:11:23Z",
-  "last_reason": "engine[miss_short]: auto=0 ingested=0 fills=3 closed=1 open=3 session=after",
-  "eur_usd": 1.0978153944015503
+  "last_run": "2026-11-19T01:52:34Z",
+  "last_reason": "engine[miss_short]: auto=0 ingested=0 fills=0 closed=0 open=3 session=closed",
+  "eur_usd": 1.0974539518356323
 }
