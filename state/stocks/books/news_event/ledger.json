@@ -10,85 +10,9 @@
   "start_date": "2026-11-10",
   "start_capital_eur": 1000.0,
   "eur_usd_start": 1.1154489517211914,
-  "cash_eur": 989.4041093445263,
-  "equity_eur": 991.31,
-  "positions": {
-    "PINE": {
-      "ticker": "PINE",
-      "side": "long",
-      "shares": 3.317872,
-      "entry_usd": 16.49,
-      "entry_eur": 14.986113,
-      "quote_fx": 1.1003520488739014,
-      "entry_notional_eur": 49.72,
-      "entry_cost_eur": 0.2486,
-      "entry_cost_pct": 0.005,
-      "size": 0.05,
-      "entry_day": "2026-11-17",
-      "entry_time": "2026-11-17T21:35:15Z",
-      "entry_session": "open",
-      "session": "open",
-      "exit_day": "2026-11-19",
-      "hold_days": 2,
-      "stop_loss": 0.08,
-      "take_profit": null,
-      "trailing_stop": null,
-      "exit_at_close": false,
-      "trail_extreme": 16.579999923706055,
-      "rule_name": "bullish_news_long",
-      "reason": "[news_event/bullish_news_long] event=mna_deal surprise=None gap=None guidance=none headline=PINE TREE JOINT VENTURE ACQUIRES $108 MILLION SHOPPING CENTER IN TULSA, OKLAHOMA \u2192 long 2d",
-      "confidence": 1.0,
-      "rule_tags": [
-        "news_event",
-        "bullish_news_long",
-        "news_event",
-        "mna_deal"
-      ],
-      "decision_id": "news_event-PINE-2026-11-16T22:46:54Z-2681cc",
-      "book_id": "news_event",
-      "mark_usd": 16.469999313354492,
-      "mark_eur": 14.9679,
-      "unrealized_pnl_pct": -0.1213
-    },
-    "SPGI": {
-      "ticker": "SPGI",
-      "side": "short",
-      "shares": 0.117733,
-      "entry_usd": 464.269989,
-      "entry_eur": 421.92859,
-      "quote_fx": 1.1003520488739014,
-      "entry_notional_eur": 49.68,
-      "entry_cost_eur": 0.2484,
-      "entry_cost_pct": 0.005,
-      "size": 0.05,
-      "entry_day": "2026-11-17",
-      "entry_time": "2026-11-17T21:35:16Z",
-      "entry_session": "open",
-      "session": "open",
-      "exit_day": "2026-11-19",
-      "hold_days": 2,
-      "stop_loss": 0.08,
-      "take_profit": null,
-      "trailing_stop": null,
-      "exit_at_close": false,
-      "trail_extreme": 441.239990234375,
-      "rule_name": "bearish_news_short",
-      "reason": "[news_event/bearish_news_short] event=dilution surprise=None gap=None guidance=none headline=S&P Global Announces Pricing of Public Offering of $750,000,000 Senior Notes due \u2192 short 2d",
-      "confidence": 1.0,
-      "rule_tags": [
-        "news_event",
-        "bearish_news_short",
-        "news_event",
-        "dilution",
-        "news_short"
-      ],
-      "decision_id": "news_event-SPGI-2026-11-17T02:55:39Z-4b7632",
-      "book_id": "news_event",
-      "mark_usd": 446.3800048828125,
-      "mark_eur": 405.6702,
-      "unrealized_pnl_pct": 4.0078
-    }
-  },
+  "cash_eur": 990.826841104417,
+  "equity_eur": 990.83,
+  "positions": {},
   "pending": [
     {
       "id": "news_event-WHO-2026-11-16T22:46:53Z-018695",
@@ -139,6 +63,31 @@
       ],
       "prefer_open": false,
       "decided_at": "2026-11-16T22:46:54Z",
+      "status": "pending",
+      "book_id": "news_event"
+    },
+    {
+      "id": "news_event-BYPG-2026-11-19T21:14:42Z-380490",
+      "ticker": "BYPG",
+      "side": "long",
+      "size": 0.05,
+      "hold_days": 2,
+      "stop_loss": 0.08,
+      "take_profit": null,
+      "trailing_stop": null,
+      "exit_at_close": false,
+      "delay_minutes": 0,
+      "rule_name": "bullish_news_long",
+      "reason": "[news_event/bullish_news_long] event=mna_deal surprise=None gap=None guidance=none headline=BYPG Forms Strategic Partnership with GCM Grosvenor to Scale High-Power Manufact \u2192 long 2d",
+      "confidence": 1.0,
+      "rule_tags": [
+        "news_event",
+        "bullish_news_long",
+        "news_event",
+        "mna_deal"
+      ],
+      "prefer_open": false,
+      "decided_at": "2026-11-19T21:14:42Z",
       "status": "pending",
       "book_id": "news_event"
     }
@@ -257,6 +206,69 @@
       "decision_id": "news_event-S-2026-11-17T02:55:40Z-f0eede",
       "book_id": "news_event",
       "closed_at": "2026-11-18T21:11:26Z"
+    },
+    {
+      "ticker": "PINE",
+      "side": "long",
+      "entry_day": "2026-11-17",
+      "exit_day": "2026-11-19",
+      "entry_usd": 16.49,
+      "exit_usd": 16.34,
+      "shares": 3.317872,
+      "hold_days": 2,
+      "exit_reason": "time_exit",
+      "entry_session": "open",
+      "exit_session": "after",
+      "session": "after",
+      "entry_cost_eur": 0.2486,
+      "exit_cost_eur": 0.2463,
+      "entry_cost_pct": 0.005,
+      "exit_cost_pct": 0.005,
+      "pnl_eur": -0.95,
+      "pnl_pct_net": -1.9096,
+      "reason": "[news_event/bullish_news_long] event=mna_deal surprise=None gap=None guidance=none headline=PINE TREE JOINT VENTURE ACQUIRES $108 MILLION SHOPPING CENTER IN TULSA, OKLAHOMA \u2192 long 2d",
+      "rule_tags": [
+        "news_event",
+        "bullish_news_long",
+        "news_event",
+        "mna_deal"
+      ],
+      "rule_name": "bullish_news_long",
+      "decision_id": "news_event-PINE-2026-11-16T22:46:54Z-2681cc",
+      "book_id": "news_event",
+      "closed_at": "2026-11-19T21:14:45Z"
+    },
+    {
+      "ticker": "SPGI",
+      "side": "short",
+      "entry_day": "2026-11-17",
+      "exit_day": "2026-11-19",
+      "entry_usd": 464.269989,
+      "exit_usd": 442.670013,
+      "shares": 0.117733,
+      "hold_days": 2,
+      "exit_reason": "time_exit",
+      "entry_session": "open",
+      "exit_session": "after",
+      "session": "after",
+      "entry_cost_eur": 0.2484,
+      "exit_cost_eur": 0.2368,
+      "entry_cost_pct": 0.005,
+      "exit_cost_pct": 0.005,
+      "pnl_eur": 1.83,
+      "pnl_pct_net": 3.8795,
+      "reason": "[news_event/bearish_news_short] event=dilution surprise=None gap=None guidance=none headline=S&P Global Announces Pricing of Public Offering of $750,000,000 Senior Notes due \u2192 short 2d",
+      "rule_tags": [
+        "news_event",
+        "bearish_news_short",
+        "news_event",
+        "dilution",
+        "news_short"
+      ],
+      "rule_name": "bearish_news_short",
+      "decision_id": "news_event-SPGI-2026-11-17T02:55:39Z-4b7632",
+      "book_id": "news_event",
+      "closed_at": "2026-11-19T21:14:45Z"
     }
   ],
   "equity_history": [
@@ -308,6 +320,13 @@
       "spy_eur": 994.04,
       "cash_eur": 989.4,
       "n_open": 2
+    },
+    {
+      "day": "2026-11-19",
+      "equity_eur": 990.83,
+      "spy_eur": 976.05,
+      "cash_eur": 990.83,
+      "n_open": 0
     }
   ],
   "spy_history": [
@@ -352,6 +371,12 @@
       "spy_eur": 994.04,
       "spy_usd": 730.2,
       "eur_usd": 1.09929
+    },
+    {
+      "day": "2026-11-19",
+      "spy_eur": 976.05,
+      "spy_usd": 715.87,
+      "eur_usd": 1.09757
     }
   ],
   "cost_pct": 0.005,
@@ -362,9 +387,9 @@
   "stop_loss": 0.08,
   "prefer_open": false,
   "max_open": 6,
-  "last_run": "2026-11-19T02:37:24Z",
-  "last_reason": "engine[news_event]: auto=0 ingested=0 fills=0 closed=0 open=2 session=closed",
-  "eur_usd": 1.0970927476882935,
+  "last_run": "2026-11-19T21:16:16Z",
+  "last_reason": "engine[news_event]: auto=0 ingested=0 fills=0 closed=0 open=0 session=after",
+  "eur_usd": 1.0975743532180786,
   "false_positives": [
     {
       "ticker": "NVDA",

@@ -11,7 +11,7 @@
   "start_capital_eur": 1000.0,
   "eur_usd_start": 1.1168192625045776,
   "cash_eur": 949.75,
-  "equity_eur": 999.69,
+  "equity_eur": 999.39,
   "positions": {
     "PINE": {
       "ticker": "PINE",
@@ -46,9 +46,9 @@
       ],
       "decision_id": "quality_longs_tuned-PINE-2026-11-16T22:46:59Z-bb8040",
       "book_id": "quality_longs_tuned",
-      "mark_usd": 16.469999313354492,
-      "mark_eur": 14.9679,
-      "unrealized_pnl_pct": -0.1213
+      "mark_usd": 16.3700008392334,
+      "mark_eur": 14.8771,
+      "unrealized_pnl_pct": -0.7277
     }
   },
   "pending": [
@@ -103,6 +103,31 @@
       "decided_at": "2026-11-16T22:46:59Z",
       "status": "pending",
       "book_id": "quality_longs_tuned"
+    },
+    {
+      "id": "quality_longs_tuned-BYPG-2026-11-19T21:14:50Z-c2b069",
+      "ticker": "BYPG",
+      "side": "long",
+      "size": 0.05,
+      "hold_days": 5,
+      "stop_loss": null,
+      "take_profit": null,
+      "trailing_stop": null,
+      "exit_at_close": false,
+      "delay_minutes": 0,
+      "rule_name": "quality_longs",
+      "reason": "[quality_longs_tuned/quality_longs] event=mna_deal surprise=None gap=None guidance=none headline=BYPG Forms Strategic Partnership with GCM Grosvenor to Scale High-Power Manufact \u2192 long 5d",
+      "confidence": 1.0,
+      "rule_tags": [
+        "quality_longs_tuned",
+        "quality_longs",
+        "news_event",
+        "mna_deal"
+      ],
+      "prefer_open": true,
+      "decided_at": "2026-11-19T21:14:50Z",
+      "status": "pending",
+      "book_id": "quality_longs_tuned"
     }
   ],
   "closed_trades": [],
@@ -155,6 +180,13 @@
       "spy_eur": 994.04,
       "cash_eur": 949.75,
       "n_open": 1
+    },
+    {
+      "day": "2026-11-19",
+      "equity_eur": 999.39,
+      "spy_eur": 976.05,
+      "cash_eur": 949.75,
+      "n_open": 1
     }
   ],
   "spy_history": [
@@ -199,6 +231,12 @@
       "spy_eur": 994.04,
       "spy_usd": 730.2,
       "eur_usd": 1.09929
+    },
+    {
+      "day": "2026-11-19",
+      "spy_eur": 976.05,
+      "spy_usd": 715.87,
+      "eur_usd": 1.09757
     }
   ],
   "cost_pct": 0.005,
@@ -209,8 +247,8 @@
   "stop_loss": null,
   "prefer_open": true,
   "max_open": 15,
-  "last_run": "2026-11-19T02:37:27Z",
-  "last_reason": "engine[quality_longs_tuned]: auto=0 ingested=0 fills=0 closed=0 open=1 session=closed",
+  "last_run": "2026-11-19T21:16:22Z",
+  "last_reason": "engine[quality_longs_tuned]: auto=0 ingested=0 fills=0 closed=0 open=1 session=after",
   "max_per_ticker": 1,
   "max_gross_exposure_pct": 0.75,
   "allow_shorts": false,
@@ -218,7 +256,7 @@
   "sizing": "fixed",
   "score_ref": 10.0,
   "strategy_config_path": "config/strategies/quality_longs_tuned.yaml",
-  "eur_usd": 1.0970927476882935,
+  "eur_usd": 1.0975743532180786,
   "extended_hours_extra_slippage_pct": 0.0,
   "allow_extended_hours": false
 }

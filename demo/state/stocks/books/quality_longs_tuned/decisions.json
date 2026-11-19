@@ -111,7 +111,38 @@
         "decision_id": "quality_longs_tuned-PINE-2026-11-16T22:46:59Z-bb8040",
         "book_id": "quality_longs_tuned"
       }
+    },
+    {
+      "id": "quality_longs_tuned-BYPG-2026-11-19T21:14:50Z-c2b069",
+      "book_id": "quality_longs_tuned",
+      "ticker": "BYPG",
+      "side": "long",
+      "size": 0.05,
+      "hold": 5,
+      "reason": "[quality_longs_tuned/quality_longs] event=mna_deal surprise=None gap=None guidance=none headline=BYPG Forms Strategic Partnership with GCM Grosvenor to Scale High-Power Manufact \u2192 long 5d",
+      "confidence": 1.0,
+      "stop_loss": null,
+      "take_profit": null,
+      "trailing_stop": null,
+      "exit_at_close": false,
+      "delay_minutes": 0,
+      "rule_name": "quality_longs",
+      "rule_tags": [
+        "quality_longs_tuned",
+        "quality_longs",
+        "news_event",
+        "mna_deal"
+      ],
+      "surprise_pct": null,
+      "gap_pct": null,
+      "guidance": "none",
+      "news_event_type": "mna_deal",
+      "news_id": "2833c28b51b77ba3",
+      "agent": "rule:quality_longs_tuned",
+      "prefer_open": true,
+      "decided_at": "2026-11-19T21:14:50Z",
+      "status": "pending"
     }
   ],
-  "updated_at": "2026-11-16T22:46:59Z"
+  "updated_at": "2026-11-19T21:14:50Z"
 }
