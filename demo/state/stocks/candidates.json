@@ -12,8 +12,8 @@
   },
   "calendar_error": "",
   "n_calendar": 170,
-  "n_candidates": 170,
-  "n_tagged": 0,
+  "n_candidates": 172,
+  "n_tagged": 2,
   "errors": [],
   "rules": {
     "agent": "Discretionary agentic book. Cursor agent decides via stocks.decide from shared candidates. Baseline \u2014 not auto-traded by the engine.",
@@ -32,6 +32,66 @@
     "bigmove_eu_v1": "EU liquid large/mid caps: fade \u226510% gap-downs (earnings / other-PR / no-news) on Xetra/Euronext primary hours (09:00\u201317:30 Berlin). Gap-up shorts dropped after EU event study. Alert-only mega-cap shocks. No earnings/guidance chase. 5% \u00b7 max 20 \u00b7 hold 5d \u00b7 0.5%/fill (+0.5% outside primary) \u00b7 config/strategies/bigmove_eu_v1.yaml."
   },
   "candidates": [
+    {
+      "ticker": "JOYY",
+      "name": "JOYY",
+      "source": "news",
+      "cal_date": "2026-11-19",
+      "report_date": "2026-11-19",
+      "timing": "news",
+      "surprise_pct": null,
+      "gap_pct": null,
+      "guidance": "none",
+      "headline": "JOYY Reports Third Quarter 2026 Financial Results: Total revenues record consistent increases, driven by sustained growth of three core businesses",
+      "excerpt": "SINGAPORE, Nov. 18, 2026 /PRNewswire/ -- JOYY Inc. (NASDAQ: JOYY) (\"JOYY\" or the \"Company\"), a leading global technology company, today announced its unaudited financial results for the third quarter ended September 30, 2026. In the third quarter, JOYY maintained solid growth momentum....",
+      "filing_url": "",
+      "exhibit_url": "https://www.prnewswire.com/news-releases/joyy-reports-third-quarter-2026-financial-results-total-revenues-record-consistent-increases-driven-by-sustained-growth-of-three-core-businesses-302944743.html",
+      "news_id": "16531d4d59fa7d47",
+      "news_source": "prnewswire",
+      "news_event_type": "earnings",
+      "news_direction": "neutral",
+      "news_side": null,
+      "news_actionable": false,
+      "news_published_at": "2026-11-19T03:50:00Z",
+      "rule_tags": [
+        "news_event",
+        "earnings"
+      ],
+      "suggested_side": null,
+      "suggested_hold": null,
+      "spy_above_ma50": null,
+      "scanned_at": "2026-11-19T13:51:00Z"
+    },
+    {
+      "ticker": "BYPG",
+      "name": "BYPG",
+      "source": "news",
+      "cal_date": "2026-11-19",
+      "report_date": "2026-11-19",
+      "timing": "news",
+      "surprise_pct": null,
+      "gap_pct": null,
+      "guidance": "none",
+      "headline": "BYPG Forms Strategic Partnership with GCM Grosvenor to Scale High-Power Manufacturing Real Estate Strategy",
+      "excerpt": "Strategic partnership will target high-powered manufacturing assets with up to $480 Million in investment capacity AUSTIN, Texas, Nov. 19, 2026 /PRNewswire/ -- Blue Yonder Property Group (\"BYPG\"), a thematic real estate investment firm focused on high-power manufacturing assets, today...",
+      "filing_url": "",
+      "exhibit_url": "https://www.prnewswire.com/news-releases/bypg-forms-strategic-partnership-with-gcm-grosvenor-to-scale-high-power-manufacturing-real-estate-strategy-302942820.html",
+      "news_id": "2833c28b51b77ba3",
+      "news_source": "prnewswire_financial",
+      "news_event_type": "mna_deal",
+      "news_direction": "bullish",
+      "news_side": null,
+      "news_actionable": false,
+      "news_published_at": "2026-11-19T13:37:00Z",
+      "rule_tags": [
+        "news_event",
+        "mna_deal"
+      ],
+      "suggested_side": null,
+      "suggested_hold": null,
+      "spy_above_ma50": null,
+      "scanned_at": "2026-11-19T13:51:00Z"
+    },
     {
       "ticker": "KLIC",
       "name": "Kulicke and Soffa Industries, Inc.",
@@ -4622,5 +4682,6 @@
       "suggested_side": null,
       "suggested_hold": null
     }
-  ]
+  ],
+  "news_merged_at": "2026-11-19T13:51:00Z"
 }
