@@ -1,6 +1,1188 @@
 {
   "items": [
     {
+      "id": "98e5d79a1f82e786",
+      "source": "wso_nachrichten",
+      "title": "West High Yield (W.H.Y.) Resources Ltd. Announces Stock Option Grant",
+      "summary": "Calgary, Alberta--(Newsfile Corp. - November 19, 2026) - West High Yield (W.H.Y.) Resources Ltd. (TSXV: WHY) (FSE: W0H) (the \"Company\" or \"West High Yield\") is pleased to announce that its board of directors approved and authorized the grant and issuance of a total of 550,000 stock options (each an \"Option\" and collectively, the \"Options\") effective November 19, 2026. The Options were issued",
+      "url": "https://www.wallstreet-online.de/nachricht/21720351-west-high-yield-w-h-y-resources-ltd-announces-stock-option-grant",
+      "published_at": "2026-11-19T17:16:00Z",
+      "tickers": [
+        "TTE.PA"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-19T17:19:07Z",
+      "region": "EU"
+    },
+    {
+      "id": "7a571ca2e8e23253",
+      "source": "wso_nachrichten",
+      "title": "NVIDIA: +103 % Umsatz \u2013 warum st\u00fcrzt die KI-Aktie trotzdem ab?",
+      "summary": "NVIDIA: +103 % Umsatz \u2013 warum st\u00fcrzt die KI-Aktie trotzdem ab? 115,8 Milliarden Dollar Umsatz, 65,3 Milliarden Dollar Nettogewinn und ein Ausblick, der die Erwartungen der Wall Street \u00fcbertrifft: NVIDIA hat erneut beeindruckende Quartalszahlen vorgelegt. Besonders dynamisch entwickelt sich das Rechenzentrumsgesch\u00e4ft, dessen Umsatz",
+      "url": "https://app.newstool.de/t/d3xhpoLdPjvVXBqi8YgXwJ/?as=k8qCmx4sbzadkhEYWkisNc",
+      "published_at": "2026-11-19T17:15:00Z",
+      "tickers": [
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "earnings",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "earnings_nosurprise",
+      "scanned_at": "2026-11-19T17:19:07Z",
+      "region": "EU"
+    },
+    {
+      "id": "1024975debc92717",
+      "source": "wso_nachrichten",
+      "title": "Aktien Wien Schluss: ATX verliert nach Erholungsversuch",
+      "summary": "WIEN (dpa-AFX) - Die Wiener B\u00f6rse hat am Donnerstag einen Erholungsversuch gestartet aber kurz vor dem Sitzungsende ins Minus gedreht. Der Leitindex ATX gab 0,24 Prozent auf 6.379,10 Punkte ab, nachdem er im Verlauf bereits mehr als ein Prozent gewonnen hatte. Damit absolvierte der ATX bereits seinen sechsten Verlusttag in Folge. An den europ\u00e4ischen Leitb\u00f6rsen gab es ebenfalls erneute Kursabschl\u00e4ge.",
+      "url": "https://www.wallstreet-online.de/nachricht/21720339-aktien-wien-schluss-atx-verliert-erholungsversuch",
+      "published_at": "2026-11-19T17:13:58Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-19T17:19:07Z",
+      "region": "EU"
+    },
+    {
+      "id": "e5775a0d597f7f3e",
+      "source": "wso_nachrichten",
+      "title": "ROUNDUP/Aktien Frankfurt Schluss: Verluste - US-B\u00f6rsen belasten trotz Anthropic",
+      "summary": "FRANKFURT (dpa-AFX) - Der deutsche Aktienmarkt ist trotz der Euphorie um den Rekord-B\u00f6rsengang von Anthropic am Donnerstag abgerutscht. Der Dax drehte im sp\u00e4ten Handel mit nachgebenden US-B\u00f6rsen ins Minus auf den tiefsten Stand seit mehr als drei Wochen und schloss 1,06 Prozent tiefer bei 25.463,81 Punkten. Von seinem Rekordhoch bei 27.001 Z\u00e4hlern vor genau einer Woche war der Dax zuletzt um",
+      "url": "https://www.wallstreet-online.de/nachricht/21720336-roundup-aktien-frankfurt-schluss-verluste-us-boersen-belasten-trotz-anthropic",
+      "published_at": "2026-11-19T17:11:51Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-19T17:19:07Z",
+      "region": "EU"
+    },
+    {
+      "id": "c0029159bbb7dabd",
+      "source": "wso_nachrichten",
+      "title": "Plug Power-Aktie: Bereit f\u00fcr die n\u00e4chsten -20%?",
+      "summary": "Die Plug Power-Aktie setzt ihren dramatischen Abw\u00e4rtstrend ungebremst fort. Bereits Anfang November hatte ich unter der Headline \u201eHier drohen weitere R\u00fccksetzer\u201c vor einem Absturz in Richtung der psychologisch wichtigen 1-US$-Marke gewarnt. Tats\u00e4chlich wurde das damals favorisierte Abw\u00e4rtsziel bei 1,08 US$ inzwischen erreicht und mit dem j\u00fcngsten Wochentief bei 1,00 US$ sogar unterschritten. Vom",
+      "url": "https://www.wallstreet-online.de/nachricht/21720327-plug-power-aktie-bereit-naechsten-20",
+      "published_at": "2026-11-19T17:07:19Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-19T17:19:07Z",
+      "region": "EU"
+    },
+    {
+      "id": "5107d0320f3f66b6",
+      "source": "wso_nachrichten",
+      "title": "Ukraine-Unterst\u00fctzer sagen Kiew weitere Unterst\u00fctzung zu",
+      "summary": "BERLIN (dpa-AFX) - Bundeskanzler Friedrich Merz (CDU) hat nach dem Gipfel der Ukraine-Unterst\u00fctzer in Berlin dem von Russland angegriffenen Land weitere Unterst\u00fctzung zugesagt. \"So lange es n\u00f6tig ist, werden wir Kiew unterst\u00fctzen\", sagte er im Kanzleramt. Er appellierte an den russischen Pr\u00e4sidenten Wladimir Putin, den Krieg zu beenden. \"Wir wollen einen Frieden f\u00fcr die Ukraine, der gerecht",
+      "url": "https://www.wallstreet-online.de/nachricht/21720318-ukraine-unterstuetzer-kiew-unterstuetzung",
+      "published_at": "2026-11-19T17:07:00Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-19T17:19:07Z",
+      "region": "EU"
+    },
+    {
+      "id": "9e3d19c9eaf74ff3",
+      "source": "wso_nachrichten",
+      "title": "TENAX THERAPEUTICS, INC. SECURITIES FRAUD NOTICE: Berger Montague Informs Tenax Therapeutics, Inc. (TENX) Investors of a Securities Fraud Lawsuit",
+      "summary": "Philadelphia, Pennsylvania--(Newsfile Corp. - November 19, 2026) - Berger Montague, a leading national plaintiffs' law firm, announces a class action lawsuit against Tenax Therapeutics, Inc. (NASDAQ: TENX) (\"Tenax\" or the \"Company\") on behalf of investors who purchased or otherwise acquired Tenax securities during the period from November 13, 2023 through August 7, 2026 (the \"Class Period\"). The",
+      "url": "https://www.wallstreet-online.de/nachricht/21720330-tenax-therapeutics-inc-securities-fraud-notice-berger-montague-informs-tenax-therapeutics-inc-tenx-investors-of-a-securities-fraud-lawsuit",
+      "published_at": "2026-11-19T17:06:00Z",
+      "tickers": [
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "lawsuit",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-19T17:19:07Z",
+      "region": "EU"
+    },
+    {
+      "id": "1133c2113ca2e59d",
+      "source": "wso_nachrichten",
+      "title": "EQS-PVR: K+S Aktiengesellschaft: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
+      "summary": "EQS Voting Rights Announcement: K+S Aktiengesellschaft K+S Aktiengesellschaft: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution 19.11.2026 / 18:05 CET/CEST Dissemination of a Voting Rights Announcement transmitted by EQS News - a service of EQS Group. The",
+      "url": "https://www.wallstreet-online.de/nachricht/21720324-eqs-pvr-k-s-aktiengesellschaft-release-according-to-article-40-section-1-of-the-wphg-the-german-securities-trading-act-with-the-objective-of-europe-wide-distribution",
+      "published_at": "2026-11-19T17:05:01Z",
+      "tickers": [
+        "INGA.AS",
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-19T17:19:07Z",
+      "region": "EU"
+    },
+    {
+      "id": "5cc385eb096cd80d",
+      "source": "wso_nachrichten",
+      "title": "Hyundai Motor Unveils The all-new ELANTRA, Bringing Dynamic Confidence to the Compact Sedan",
+      "summary": "The all-new ELANTRA, Hyundai Motor's eighth-generation compact sedan, is unveiled at the LA Auto Show on November 19, 2026 Hyundai Motor redefines the compact sedan with the all-new ELANTRA, blending segment-leading style and space, hybrid performance enhanced by 'intelligent efficiency' and Pleos Connect's software experience The all-new ELANTRA adopts Hyundai Motor's 'Art of",
+      "url": "https://www.wallstreet-online.de/nachricht/21720321-hyundai-motor-unveils-the-all-new-elantra-bringing-dynamic-confidence-to-the-compact-sedan",
+      "published_at": "2026-11-19T17:05:00Z",
+      "tickers": [
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-19T17:19:07Z",
+      "region": "EU"
+    },
+    {
+      "id": "5c4686dfdd93af2e",
+      "source": "wso_nachrichten",
+      "title": "IPO/ROUNDUP: Anthropic startet mit deutlichem Kursplus an der B\u00f6rse",
+      "summary": "NEW YORK (dpa-AFX) - Die KI-Firma Anthropic ist bei ihrem Rekord-B\u00f6rsengang mit einem deutlichen Kursplus in den Handel gestartet. Der erste Kurs lag mit 111,50 US-Dollar um \u00fcber ein Drittel \u00fcber dem Ausgabepreis. Der B\u00f6rsenwert von Anthropic lag damit bei zwei Billionen Dollar. Bei dem Aktienverkauf vor Handelsbeginn wurden insgesamt 107,3 Milliarden Dollar erl\u00f6st. Damit \u00fcberholte Anthropic",
+      "url": "https://www.wallstreet-online.de/nachricht/21720297-ipo-roundup-anthropic-deutlichem-kursplus-boerse",
+      "published_at": "2026-11-19T17:04:49Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-19T17:19:07Z",
+      "region": "EU"
+    },
+    {
+      "id": "5bbb408440d15fa2",
+      "source": "wso_nachrichten",
+      "title": "AMD-Aktie st\u00fcrzt um elf Prozent ab: Leerverk\u00e4ufer erhebt brisante Vorw\u00fcrfe \u2013 droht jetzt der n\u00e4chste Schock?",
+      "summary": "Leerverk\u00e4ufer nimmt AMD ins Visier Hinter den Anschuldigungen steckt Hunterbrook Capital. Der Leerverk\u00e4ufer behauptet, dass der chinesische Serverhersteller IEIT Systems trotz bestehender US-Sanktionen weiterhin aktualisierte AMD-Firmware verwendet. Das Unternehmen steht seit M\u00e4rz 2025 auf einer amerikanischen Sanktionsliste. Laut Hunterbrook Jetzt den vollst\u00e4ndigen Artikel lesen",
+      "url": "https://www.wallstreet-online.de/nachricht/21720348-amd-aktie-stuerzt-elf-prozent-ab-leerverkaeufer-erhebt-brisante-vorwuerfe-droht-schock",
+      "published_at": "2026-11-19T17:02:00Z",
+      "tickers": [
+        "RWE.DE"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-19T17:19:07Z",
+      "region": "EU"
+    },
+    {
+      "id": "f17c590041686156",
+      "source": "wso_nachrichten",
+      "title": "Holding(s) in Company",
+      "summary": "Irish Residential Properties REIT plc (IRES) Holding(s) in Company 19-Nov-2026 / 17:01 GMT/BST Standard Form TR-1 Standard form for notification of major holdings NOTIFICATION",
+      "url": "https://www.wallstreet-online.de/nachricht/21720306-holding-s-company",
+      "published_at": "2026-11-19T17:01:33Z",
+      "tickers": [
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-19T17:19:07Z",
+      "region": "EU"
+    },
+    {
+      "id": "1997134a82e622f2",
+      "source": "wso_nachrichten",
+      "title": "Betrug bleibt weltweit verbreitet: Fast zwei von drei Erwachsenen weltweit berichten von Betrugsf\u00e4llen, 9 % haben Geld verloren",
+      "summary": "Global Anti-Scam Alliance und Outseer ver\u00f6ffentlichen den \u201eGlobal State of Scams 2026\u201c &nbsp; DEN HAAG, NL / ACCESS Newswire / 19. November 2026 / Die Global Anti-Scam Alliance (GASA) hat heute in Zusammenarbeit mit Outseer den Bericht \u201eGlobal State of Scams 2026\u201c ver\u00f6ffentlicht. Basierend auf einer Umfrage unter 58.900 Erwachsenen in 42 M\u00e4rkten untersucht der",
+      "url": "https://www.wallstreet-online.de/nachricht/21720300-betrug-bleibt-weltweit-verbreitet-erwachsenen-weltweit-betrugsfaellen-9-geld-verloren",
+      "published_at": "2026-11-19T17:01:00Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-19T17:19:07Z",
+      "region": "EU"
+    },
+    {
+      "id": "f532d798aa50848e",
+      "source": "wso_nachrichten",
+      "title": "WDH/IPO: Anthropic startet mit deutlichem Kursplus an der B\u00f6rse",
+      "summary": "(Dopplung behoben) NEW YORK (dpa-AFX) - Die KI-Firma Anthropic ist bei ihrem Rekord-B\u00f6rsengang mit einem deutlichen Kursplus in den Handel gestartet. Der erste Kurs lag mit 111,50 US-Dollar um \u00fcber ein Drittel \u00fcber dem Ausgabepreis./so/DP/jha",
+      "url": "https://www.wallstreet-online.de/nachricht/21720246-wdh-ipo-anthropic-deutlichem-kursplus-boerse",
+      "published_at": "2026-11-19T17:00:49Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-19T17:19:07Z",
+      "region": "EU"
+    },
+    {
+      "id": "58725de6dbe213a7",
+      "source": "wso_nachrichten",
+      "title": "EQS-DD: tonies SE: Notification and public disclosure of transactions by persons discharging managerial responsibilities and persons closely associated with them",
+      "summary": "tonies SE: Notification and public disclosure of transactions by persons discharging managerial responsibilities and persons closely associated with them 19.11.2026 / 18:00 CET/CEST The issuer is solely responsible for the content of this announcement. Details of the person",
+      "url": "https://www.wallstreet-online.de/nachricht/21720309-eqs-dd-tonies-se-notification-and-public-disclosure-of-transactions-by-persons-discharging-managerial-responsibilities-and-persons-closely-associated-with-them",
+      "published_at": "2026-11-19T17:00:37Z",
+      "tickers": [
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-19T17:19:07Z",
+      "region": "EU"
+    },
+    {
+      "id": "604d011510e961ff",
+      "source": "wso_nachrichten",
+      "title": "Holding(s) in Company",
+      "summary": "Irish Residential Properties REIT plc (IRES) Holding(s) in Company 19-Nov-2026 / 17:00 GMT/BST Standard Form TR-1 Standard form for notification of major holdings NOTIFICATION",
+      "url": "https://www.wallstreet-online.de/nachricht/21720303-holding-s-company",
+      "published_at": "2026-11-19T17:00:23Z",
+      "tickers": [
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-19T17:19:07Z",
+      "region": "EU"
+    },
+    {
+      "id": "260d6f2e9c380a47",
+      "source": "wso_nachrichten",
+      "title": "EQS-PVR: AUTO1 Group SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
+      "summary": "EQS Voting Rights Announcement: AUTO1 Group SE AUTO1 Group SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution 19.11.2026 / 18:00 CET/CEST Dissemination of a Voting Rights Announcement transmitted by EQS News - a service of EQS Group. The issuer is solely",
+      "url": "https://www.wallstreet-online.de/nachricht/21720312-eqs-pvr-auto1-group-se-release-according-to-article-40-section-1-of-the-wphg-the-german-securities-trading-act-with-the-objective-of-europe-wide-distribution",
+      "published_at": "2026-11-19T17:00:01Z",
+      "tickers": [
+        "INGA.AS",
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-19T17:19:07Z",
+      "region": "EU"
+    },
+    {
+      "id": "da693846c092b1f6",
+      "source": "wso_nachrichten",
+      "title": "Bronstein, Gewirtz & Grossman LLC Urges Coastal Financial Corporation Investors to Act: Class Action Filed Alleging Investor Harm",
+      "summary": "New York, New York--(Newsfile Corp. - November 19, 2026) - Bronstein, Gewirtz & Grossman, LLC, a nationally recognized investor-rights law firm, announces that a class action lawsuit has been filed against Coastal Financial Corporation (NASDAQ: CCB) and certain of its officers. This lawsuit seeks to recover damages against Defendants for alleged violations of the federal securities laws on behalf",
+      "url": "https://www.wallstreet-online.de/nachricht/21720291-bronstein-gewirtz-grossman-llc-urges-coastal-financial-corporation-investors-to-act-class-action-filed-alleging-investor-harm",
+      "published_at": "2026-11-19T17:00:00Z",
+      "tickers": [
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-19T17:19:07Z",
+      "region": "EU"
+    },
+    {
+      "id": "2c2afbe9942a00bf",
+      "source": "wso_nachrichten",
+      "title": "SHAREHOLDER ALERT: Bronstein Gewirtz & Grossman, LLC Announces Class Action Against UP Fintech Holding Limited (TIGR) - Investors Who Suffered Losses Are Encouraged to Contact the Firm",
+      "summary": "Lead Plaintiff Deadline: December 28, 2026. Investors who purchased (NASDAQ: TIGR) securities between April 22, 2024 and June 2, 2026 may be eligible to recover losses. New York, New York--(Newsfile Corp. - November 19, 2026) - This lawsuit seeks to recover damages against Defendants for alleged violations of the federal securities laws on behalf of all persons and entities that purchased or",
+      "url": "https://www.wallstreet-online.de/nachricht/21720288-shareholder-alert-bronstein-gewirtz-grossman-llc-announces-class-action-against-up-fintech-holding-limited-tigr-investors-who-suffered-losses-are-encouraged-to-contact-the-firm",
+      "published_at": "2026-11-19T17:00:00Z",
+      "tickers": [
+        "INGA.AS",
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-19T17:19:07Z",
+      "region": "EU"
+    },
+    {
+      "id": "3410f60269298192",
+      "source": "wso_nachrichten",
+      "title": "Bronstein, Gewirtz & Grossman LLC Urges Alphabet Inc. Investors to Act: Class Action Filed Alleging Investor Harm",
+      "summary": "New York, New York--(Newsfile Corp. - November 19, 2026) - Bronstein, Gewirtz & Grossman, LLC, a nationally recognized investor-rights law firm, announces that a class action lawsuit has been filed against Alphabet Inc. (NASDAQ: GOOG) and certain of its officers. This lawsuit seeks to recover damages against Defendants for alleged violations of the federal securities laws on behalf of all persons",
+      "url": "https://www.wallstreet-online.de/nachricht/21720285-bronstein-gewirtz-grossman-llc-urges-alphabet-inc-investors-to-act-class-action-filed-alleging-investor-harm",
+      "published_at": "2026-11-19T17:00:00Z",
+      "tickers": [
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-19T17:19:07Z",
+      "region": "EU"
+    },
+    {
+      "id": "54b980c204f7f051",
+      "source": "wso_nachrichten",
+      "title": "SHAREHOLDER ALERT: Bronstein Gewirtz & Grossman, LLC Announces Class Action Against CVRx, Inc. (CVRX) - Investors Who Suffered Losses Are Encouraged to Contact the Firm",
+      "summary": "Lead Plaintiff Deadline: January 8, 2027. Investors who purchased (NASDAQ: CVRX) securities between July 25, 2023 and August 6, 2026 may be eligible to recover losses. New York, New York--(Newsfile Corp. - November 19, 2026) - This lawsuit seeks to recover damages against Defendants for alleged violations of the federal securities laws on behalf of all persons and entities that purchased or otherwise",
+      "url": "https://www.wallstreet-online.de/nachricht/21720282-shareholder-alert-bronstein-gewirtz-grossman-llc-announces-class-action-against-cvrx-inc-cvrx-investors-who-suffered-losses-are-encouraged-to-contact-the-firm",
+      "published_at": "2026-11-19T17:00:00Z",
+      "tickers": [
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-19T17:19:07Z",
+      "region": "EU"
+    },
+    {
+      "id": "6ed6d44a0aeb3275",
+      "source": "wso_nachrichten",
+      "title": "SHAREHOLDER ALERT: Bronstein Gewirtz & Grossman, LLC Announces Class Action Against Tenax Therapeutics, Inc. (TENX) - Investors Who Suffered Losses Are Encouraged to Contact the Firm",
+      "summary": "Lead Plaintiff Deadline: December 28, 2026. Investors who purchased (NASDAQ: TENX) securities between November 13, 2023 and August 7, 2026 may be eligible to recover losses. New York, New York--(Newsfile Corp. - November 19, 2026) - This lawsuit seeks to recover damages against Defendants for alleged violations of the federal securities laws on behalf of all persons and entities that purchased",
+      "url": "https://www.wallstreet-online.de/nachricht/21720279-shareholder-alert-bronstein-gewirtz-grossman-llc-announces-class-action-against-tenax-therapeutics-inc-tenx-investors-who-suffered-losses-are-encouraged-to-contact-the-firm",
+      "published_at": "2026-11-19T17:00:00Z",
+      "tickers": [
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-19T17:19:07Z",
+      "region": "EU"
+    },
+    {
+      "id": "02334662e333931c",
+      "source": "wso_nachrichten",
+      "title": "SHAREHOLDER ALERT: Bronstein Gewirtz & Grossman, LLC Announces Class Action Against Build-A-Bear Workshop, Inc. (BBW) - Investors Who Suffered Losses Are Encouraged to Contact the Firm",
+      "summary": "Lead Plaintiff Deadline: January 19, 2026. Investors who purchased (NYSE: BBW) securities between March 28, 2026 and August 26, 2026 may be eligible to recover losses. New York, New York--(Newsfile Corp. - November 19, 2026) - This lawsuit seeks to recover damages against Defendants for alleged violations of the federal securities laws on behalf of all persons and entities that purchased or otherwise",
+      "url": "https://www.wallstreet-online.de/nachricht/21720276-shareholder-alert-bronstein-gewirtz-grossman-llc-announces-class-action-against-build-a-bear-workshop-inc-bbw-investors-who-suffered-losses-are-encouraged-to-contact-the-firm",
+      "published_at": "2026-11-19T17:00:00Z",
+      "tickers": [
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-19T17:19:07Z",
+      "region": "EU"
+    },
+    {
+      "id": "97b4f10047d6b539",
+      "source": "wso_nachrichten",
+      "title": "SHAREHOLDER ALERT: Bronstein Gewirtz & Grossman, LLC Announces Class Action Against Triller Group Inc. (ILLR) - Investors Who Suffered Losses Are Encouraged to Contact the Firm",
+      "summary": "New York, New York--(Newsfile Corp. - November 19, 2026) - Lead Plaintiff Deadline: December 14, 2026. Investors who purchased (OTC Pink: ILLR) securities between October 16, 2024 and December 29, 2026 may be eligible to recover losses. This lawsuit seeks to recover damages against Defendants for alleged violations of the federal securities laws on behalf of all persons and entities that purchased",
+      "url": "https://www.wallstreet-online.de/nachricht/21720273-shareholder-alert-bronstein-gewirtz-grossman-llc-announces-class-action-against-triller-group-inc-illr-investors-who-suffered-losses-are-encouraged-to-contact-the-firm",
+      "published_at": "2026-11-19T17:00:00Z",
+      "tickers": [
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-19T17:19:07Z",
+      "region": "EU"
+    },
+    {
+      "id": "dfa6c4f268ada441",
+      "source": "wso_nachrichten",
+      "title": "Das bewegt die Anleger: PDD Holdings Incorporation (A) (A) ADR dreht ins Plus: 11,77 % Kursgewinn",
+      "summary": "PDD Holdings Incorporation (A) (A) ADR zieht um 11,77 % an und l\u00e4sst damit auch die ebenfalls steigenden Wettbewerber JD.com und Alibaba deutlich hinter sich.",
+      "url": "https://www.wallstreet-online.de/nachricht/21720267-bewegt-anleger-pdd-holdings-incorporation-a-a-adr-dreht-plus-11-77-kursgewinn",
+      "published_at": "2026-11-19T17:00:00Z",
+      "tickers": [
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-19T17:19:07Z",
+      "region": "EU"
+    },
+    {
+      "id": "a2f777fb4f592501",
+      "source": "wso_nachrichten",
+      "title": "EQS-DD: GEA Group AG: Klaus Stojentin, buy",
+      "summary": "Notification and public disclosure of transactions by persons discharging managerial responsibilities and persons closely associated with them 19.11.2026 / 17:58 CET/CEST The issuer is solely responsible for the content of this announcement. 1. Details of the person discharging managerial responsibilities / person closely associated",
+      "url": "https://www.wallstreet-online.de/nachricht/21720264-eqs-dd-gea-group-ag-klaus-stojentin-buy",
+      "published_at": "2026-11-19T16:59:03Z",
+      "tickers": [
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-19T17:19:07Z",
+      "region": "EU"
+    },
+    {
+      "id": "6a23e52e8ee2ec4f",
+      "source": "wso_nachrichten",
+      "title": "EQS-DD: GEA Group AG: Klaus Stojentin, Kauf",
+      "summary": "Meldung und \u00f6ffentliche Bekanntgabe der Gesch\u00e4fte von Personen, die F\u00fchrungsaufgaben wahrnehmen, sowie in enger Beziehung zu ihnen stehenden Personen 19.11.2026 / 17:58 CET/CEST F\u00fcr den Inhalt der Mitteilung ist der Emittent / Herausgeber verantwortlich. 1. Angaben zu den Personen, die F\u00fchrungsaufgaben wahrnehmen, sowie zu den in enger",
+      "url": "https://www.wallstreet-online.de/nachricht/21720261-eqs-dd-gea-group-ag-klaus-stojentin-kauf",
+      "published_at": "2026-11-19T16:59:02Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-19T17:19:07Z",
+      "region": "EU"
+    },
+    {
+      "id": "c218df4e12ec6149",
+      "source": "wso_nachrichten",
+      "title": "Das ist erst der Anfang: Banken, Flugh\u00e4fen, Geheimdienste \u2013 den USA droht ein technologisches Desaster",
+      "summary": "Die renommierte Cybersicherheitsexpertin Nicole Perlroth warnt vor einer \u00c4ra beispielloser technologischer Instabilit\u00e4t. Ausgerechnet k\u00fcnstliche Intelligenz k\u00f6nnte das Problem massiv versch\u00e4rfen.",
+      "url": "https://www.wallstreet-online.de/nachricht/21718626-anfang-banken-flughaefen-geheimdienste-usa-droht-technologisches-desaster",
+      "published_at": "2026-11-19T16:59:00Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-19T17:19:07Z",
+      "region": "EU"
+    },
+    {
+      "id": "05222647d0b6e578",
+      "source": "wso_nachrichten",
+      "title": "Monatelange Sperrung der Bahnstrecke Rostock - Neustrelitz",
+      "summary": "ROSTOCK (dpa-AFX) - Bahnreisende in Mecklenburg-Vorpommern m\u00fcssen sich auch im kommenden Jahr auf teils erhebliche Einschr\u00e4nkungen einstellen. So entf\u00e4llt der Zugverkehr zwischen Rostock Hauptbahnhof und Neustrelitz Hauptbahnhof vom 6. Februar bis zum 9. Juli 2027 vollst\u00e4ndig, wie das Bahnunternehmen Odeg mitteilte. Es werde ein Bus-Ersatzverkehr eingerichtet. Grund f\u00fcr die Sperrung seien",
+      "url": "https://www.wallstreet-online.de/nachricht/21720249-monatelange-sperrung-bahnstrecke-rostock-neustrelitz",
+      "published_at": "2026-11-19T16:58:21Z",
+      "tickers": [
+        "INGA.AS",
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-19T17:19:07Z",
+      "region": "EU"
+    },
+    {
+      "id": "8a89853c2655d85a",
+      "source": "wso_nachrichten",
+      "title": "Aktien Europa Schluss: Kurse rutschen vor Anthropic-IPO ins Minus",
+      "summary": "PARIS/LONDON/Z\u00dcRICH (dpa-AFX) - Europas wichtigste Aktienm\u00e4rkte haben am Donnerstag letztlich ihren Abw\u00e4rtstrend fortgesetzt. Im Sog der schw\u00e4chelnden US-B\u00f6rsen rutschte der EuroStoxx 50 ins Minus und schloss 0,66 Prozent tiefer bei 6.113,86 Punkten. F\u00fcr den Z\u00fcricher SMI ging es um weitere 1,10 Prozent auf 14.721,84 Z\u00e4hler bergab. Ihn belasteten die Kursverluste einiger defensiver Schwergewichte",
+      "url": "https://www.wallstreet-online.de/nachricht/21720252-aktien-europa-schluss-kurse-rutschen-anthropic-ipo-minus",
+      "published_at": "2026-11-19T16:58:20Z",
+      "tickers": [
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-19T17:19:07Z",
+      "region": "EU"
+    },
+    {
+      "id": "5d72f573da3d52bd",
+      "source": "yahoo_eu",
+      "title": "Rimini Street und American Digital erweitern Partnerschaft, um SAP-Lizenznehmern mehr Kontrolle \u00fcber die Cloud-Modernisierung zu geben",
+      "summary": "LAS VEGAS, November 19, 2026--Rimini Street, Inc. (Nasdaq: RMNI), das \u201eSoftware Support and Agentic AI ERP Company\u2122\" und f\u00fchrender Drittanbieter von Supportleistungen f\u00fcr Oracle-, SAP- und VMware-Software, gab heute eine erweiterte strategische Partnerschaft mit American Digital Corporation bekannt, um Lizenznehmern von SAP eine risiko\u00e4rmere, flexiblere M\u00f6glichkeit der Cloud-Modernisierung zu bieten.",
+      "url": "https://de.finance.yahoo.com/nachrichten/rimini-street-american-digital-erweitern-164300112.html?.tsrc=rss",
+      "published_at": "2026-11-19T16:43:00Z",
+      "tickers": [
+        "SAP.DE",
+        "RWE.DE"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-19T17:19:10Z",
+      "region": "EU"
+    },
+    {
+      "id": "ab4820aec38377cd",
+      "source": "yahoo_eu",
+      "title": "ANALYSE-FLASH: Jefferies bel\u00e4sst Evonik auf 'Hold' - Ziel 21 Euro",
+      "summary": "Das Analysehaus Jefferies hat die Einstufung f\u00fcr Evonik nach eingestellten \u00dcbernahmebem\u00fchungen von BASF auf \"Hold\" mit einem Kursziel von 21 Euro belassen. Laut BASF habe der Vorstand von Evonik nicht konstruktiv agiert, obwohl BASF signalisiert habe, nach zwei abgelehnten Kaufofferten eine weitere Erh\u00f6hung in Erw\u00e4gung zu ziehen, schrieb Priyanka Patel in einer am Donnerstag vorliegenden Studie. Sie sieht nun Abw\u00e4rtspotenzial f\u00fcr die Evonik-Aktie./edh/he",
+      "url": "https://de.finance.yahoo.com/nachrichten/analyse-flash-jefferies-bel%C3%A4sst-evonik-163500194.html?.tsrc=rss",
+      "published_at": "2026-11-19T16:35:00Z",
+      "tickers": [
+        "BAS.DE",
+        "INGA.AS",
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "analyst",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "analyst",
+      "scanned_at": "2026-11-19T17:19:11Z",
+      "region": "EU"
+    },
+    {
+      "id": "da4887e928c466ae",
+      "source": "yahoo_eu",
+      "title": "ANALYSE-FLASH: Jefferies bel\u00e4sst BASF auf 'Underperform' - Ziel 44 Euro",
+      "summary": "Das Analysehaus Jefferies hat die Einstufung f\u00fcr BASF nach eingestellten \u00dcbernahmebem\u00fchungen um Evonik auf \"Underperform\" mit einem Kursziel von 44 Euro belassen. Laut BASF habe der Vorstand von Evonik nicht konstruktiv agiert, obwohl BASF signalisiert habe, nach zwei abgelehnten Kaufofferten eine weitere Erh\u00f6hung in Erw\u00e4gung zu ziehen, schrieb Priyanka Patel in einer am Donnerstag vorliegenden Studie. F\u00fcr BASF h\u00e4tte die \u00dcbernahme strategische Vorteile bieten k\u00f6nnen, die starke Eu",
+      "url": "https://de.finance.yahoo.com/nachrichten/analyse-flash-jefferies-bel%C3%A4sst-basf-163459693.html?.tsrc=rss",
+      "published_at": "2026-11-19T16:34:59Z",
+      "tickers": [
+        "BAS.DE",
+        "INGA.AS",
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "mna",
+      "direction": "bullish",
+      "news_side": "long",
+      "actionable": true,
+      "eu_category": "mna",
+      "scanned_at": "2026-11-19T17:19:11Z",
+      "region": "EU"
+    },
+    {
+      "id": "635698e8a3578959",
+      "source": "yahoo_eu",
+      "title": "AKTIEN IM FOKUS 2: Evonik bricht ein - BASF sagt \u00dcbernahme ab",
+      "summary": "(neu: Details und Kommentare)",
+      "url": "https://de.finance.yahoo.com/nachrichten/aktien-fokus-2-evonik-bricht-163027829.html?.tsrc=rss",
+      "published_at": "2026-11-19T16:30:27Z",
+      "tickers": [
+        "BAS.DE"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "mna",
+      "direction": "bullish",
+      "news_side": "long",
+      "actionable": true,
+      "eu_category": "mna",
+      "scanned_at": "2026-11-19T17:19:11Z",
+      "region": "EU"
+    },
+    {
+      "id": "cd53e1fdc86b8fca",
+      "source": "yahoo_eu",
+      "title": "ROUNDUP 2: VW fordert Nullrunden und Einschnitte bei 35-Stunden-Woche",
+      "summary": "(neu: Reaktion IG Metall und Betriebsrat)",
+      "url": "https://de.finance.yahoo.com/nachrichten/roundup-2-vw-fordert-nullrunden-162425596.html?.tsrc=rss",
+      "published_at": "2026-11-19T16:24:25Z",
+      "tickers": [
+        "VOW3.DE"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-19T17:19:11Z",
+      "region": "EU"
+    },
+    {
+      "id": "0b5d3c306d391e83",
+      "source": "yahoo_eu",
+      "title": "Vor Tarifverhandlungen: Volkswagen fordert Abkehr von 35-Stunden-Woche",
+      "summary": "Mehr Arbeitsstunden f\u00fcr weniger Geld: Vor Beginn der Tarifgespr\u00e4che am 24.Am 24.",
+      "url": "https://de.finance.yahoo.com/nachrichten/volkswagen-fordert-abkehr-35-stunden-152027173.html?.tsrc=rss",
+      "published_at": "2026-11-19T16:22:59Z",
+      "tickers": [
+        "VOW3.DE",
+        "ENI.MI"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-19T17:19:11Z",
+      "region": "EU"
+    },
+    {
+      "id": "4daa6490e0dc3240",
+      "source": "yahoo_eu",
+      "title": "ROUNDUP 2: BASF beendet \u00dcbernahmepoker um Evonik - Zuvor zwei Angebote",
+      "summary": "(neu: Branche und mehr Details)",
+      "url": "https://de.finance.yahoo.com/nachrichten/roundup-2-basf-beendet-%C3%BCbernahmepoker-155715843.html?.tsrc=rss",
+      "published_at": "2026-11-19T15:57:15Z",
+      "tickers": [
+        "BAS.DE"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-19T17:19:11Z",
+      "region": "EU"
+    },
+    {
+      "id": "065384464b54885a",
+      "source": "yahoo_eu",
+      "title": "BASF beendet \u00dcbernahmepoker um Evonik - Zuvor zwei Angebote",
+      "summary": "Der Ludwigshafener Chemieriese warb lange um den Essener Spezialchemiekonzern. Warum das Bem\u00fchen nun offiziell ein Ende hat.",
+      "url": "https://de.finance.yahoo.com/nachrichten/basf-beenden-bem%C3%BChungen-um-%C3%BCbernahme-141743205.html?.tsrc=rss",
+      "published_at": "2026-11-19T15:46:38Z",
+      "tickers": [
+        "BAS.DE",
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-19T17:19:11Z",
+      "region": "EU"
+    },
+    {
+      "id": "dee4ccd495821949",
+      "source": "yahoo_eu",
+      "title": "Arbeitnehmer: 'Volkswagen steht vor einer Zerrei\u00dfprobe'",
+      "summary": "Die Arbeitnehmerseite hat die VW -Forderungen f\u00fcr die anstehenden Tarifverhandlungen scharf verurteilt. \"Der VW-Vorstand f\u00e4llt seinen Besch\u00e4ftigten mit dem Messer in den R\u00fccken\", teilte IG-Metall-Bezirksleiter Thorsten Gr\u00f6ger mit. \"Niemand sollte sich etwas vormachen: Volkswagen steht vor einer Zerrei\u00dfprobe, \u00fcber deren Ausma\u00df sich die Arbeitgeberseite offenbar noch immer nicht im Klaren ist\".",
+      "url": "https://de.finance.yahoo.com/nachrichten/arbeitnehmer-volkswagen-steht-zerrei%C3%9Fprobe-152943926.html?.tsrc=rss",
+      "published_at": "2026-11-19T15:29:43Z",
+      "tickers": [
+        "VOW3.DE",
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-19T17:19:11Z",
+      "region": "EU"
+    },
+    {
+      "id": "4a1f797d63f80158",
+      "source": "yahoo_eu",
+      "title": "BASF gibt Evonik-\u00dcbernahme auf, Evonik-Aktie erlebt Rekordabsturz",
+      "summary": "BASF gibt seinen \u00dcbernahmeversuch von Evonik auf, nachdem der Essener Chemiekonzern zwei Angebote zur\u00fcckgewiesen hat. Damit ist ein m\u00f6glicher Zusammenschluss zweier der gr\u00f6\u00dften deutschen Chemieunternehmen vom Tisch.",
+      "url": "https://de.finance.yahoo.com/nachrichten/basf-gibt-evonik-%C3%BCbernahme-evonik-150521309.html?.tsrc=rss",
+      "published_at": "2026-11-19T15:05:21Z",
+      "tickers": [
+        "BAS.DE",
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "mna",
+      "direction": "bullish",
+      "news_side": "long",
+      "actionable": true,
+      "eu_category": "mna",
+      "scanned_at": "2026-11-19T17:19:11Z",
+      "region": "EU"
+    },
+    {
+      "id": "fa51b60fc3bd8223",
+      "source": "yahoo_eu",
+      "title": "ROUNDUP: VW fordert Nullrunden und Einschnitte bei 35-Stunden-Woche",
+      "summary": "Mit kr\u00e4ftigen Einschnitten beim Geld und der Arbeitszeit will Volkswagen in der anstehenden Tarifrunde die Kosten des Autobauers in den Griff bekommen. Dazu soll die IG Metall einer Nullrunde bei den Entgelten in den Jahren 2027 und 2028 zustimmen, wie das Unternehmen in einem langen Forderungskatalog verlangt. Au\u00dferdem soll die Arbeitszeit von derzeit 35 Stunden in der Woche ohne Entgeltausgleich \"nach Bedarf an die betriebliche Auslastung angepasst werden k\u00f6nnen\".",
+      "url": "https://de.finance.yahoo.com/nachrichten/roundup-vw-fordert-nullrunden-einschnitte-145901753.html?.tsrc=rss",
+      "published_at": "2026-11-19T14:59:01Z",
+      "tickers": [
+        "VOW3.DE",
+        "GSK.L",
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-19T17:19:11Z",
+      "region": "EU"
+    },
+    {
+      "id": "91371769dee5ad02",
+      "source": "yahoo_eu",
+      "title": "VW will Extra-Verg\u00fctung und Zulage streichen",
+      "summary": "Den Besch\u00e4ftigten von Volkswagen drohen herbe Einbu\u00dfen auf dem Konto: Neben Nullrunden f\u00fcr 2027 und 2028 fordert das Unternehmen in den anstehenden Tarifverhandlungen, zwei tarifliche Leistungen zu streichen. Das geht aus einer Mitteilung des Autobauers hervor. Konkret geht es um die tarifliche Zusatzverg\u00fctung in H\u00f6he von 27,5 Prozent des durchschnittlichen Monatsverdienstes, die die Mitarbeiter auch in sechs freie Tage umwandeln k\u00f6nnen. Au\u00dferdem soll - ginge es nach dem Unternehm",
+      "url": "https://de.finance.yahoo.com/nachrichten/vw-will-extra-verg%C3%BCtung-zulage-145147052.html?.tsrc=rss",
+      "published_at": "2026-11-19T14:51:47Z",
+      "tickers": [
+        "VOW3.DE",
+        "INGA.AS",
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-19T17:19:11Z",
+      "region": "EU"
+    },
+    {
+      "id": "8acf5e584b297b7a",
+      "source": "yahoo_eu",
+      "title": "AKTIEN IM FOKUS: Evonik bricht ein - BASF saht \u00dcbernahme ab",
+      "summary": "Die Aktien von Evonik sind am Donnerstag nach eingestellten \u00dcbernahmebem\u00fchungen von BASF eingebrochen. Am Nachmittag fielen die Papiere des Spezialchemiekonzerns um bis zu 23 Prozent auf den tiefsten Stand seit fast vier Monaten. Zuletzt notierten sie gut 17 Prozent im Minus bei 18,01 Euro. Die Titel von BASF reagierten kurzzeitig mit einem Kurssprung, kamen aber rasch zur\u00fcck und notierten zuletzt 0,3 Prozent h\u00f6her.",
+      "url": "https://de.finance.yahoo.com/nachrichten/aktien-fokus-evonik-bricht-basf-144512962.html?.tsrc=rss",
+      "published_at": "2026-11-19T14:45:12Z",
+      "tickers": [
+        "RO.SW",
+        "BAS.DE",
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "mna",
+      "direction": "bullish",
+      "news_side": "long",
+      "actionable": true,
+      "eu_category": "mna",
+      "scanned_at": "2026-11-19T17:19:11Z",
+      "region": "EU"
+    },
+    {
+      "id": "18f043bc1dce0c8f",
+      "source": "yahoo_eu",
+      "title": "ROUNDUP: BASF: Beenden Bem\u00fchungen um \u00dcbernahme von Evonik",
+      "summary": "Die BASF stellt ihre Bem\u00fchungen um eine \u00dcbernahme des Spezialchemiekonzerns Evonik ein. Der Dax -Konzern in Ludwigshafen begr\u00fcndete dies unter anderem damit, dass zuvor zwei unverbindliche Barangebote von Evonik-Seite abgelehnt worden seien.",
+      "url": "https://de.finance.yahoo.com/nachrichten/roundup-basf-beenden-bem%C3%BChungen-um-144026345.html?.tsrc=rss",
+      "published_at": "2026-11-19T14:40:26Z",
+      "tickers": [
+        "BAS.DE"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "mna",
+      "direction": "bullish",
+      "news_side": "long",
+      "actionable": true,
+      "eu_category": "mna",
+      "scanned_at": "2026-11-19T17:19:11Z",
+      "region": "EU"
+    },
+    {
+      "id": "be06410590d12d87",
+      "source": "eqs_google",
+      "title": "DATRON AG: Aufsichtsrat erweitert den Vorstand und bestellt Thorsten Rechner zum Vorstand Finanzen | Ad-hoc - EQS News",
+      "summary": "DATRON AG: Aufsichtsrat erweitert den Vorstand und bestellt Thorsten Rechner zum Vorstand Finanzen | Ad-hoc &nbsp;&nbsp; EQS News",
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQSG9YM09RQ2xSZDNuRUJkSEJpbC1rcTJyajJfSHk2MHlqME40MG9ScDdpQXpsNjNLSGtfblF5YTVWZF96UEZWVUhONms2aVFNRVNZQWc1QnNLRDFhTEE5RmVUZXEyMEM0bnlhaWFoTDRMWkZjSXU4V19Xd3FOOWpCSnY2aFhPSElnLS1HREVzQ2JiVjJDc3llcXkxaUY4UGxKYjh4ZWg0LVR1cDFHcTVxZndzeTlfQkd6OWV6MHFKVlF2NVpIUzJuRmhfX29qeHZ2elFPdVowSHZLWlJmRkhWbmhHc2hNS2FhQUFFV2g2Wkw0eVAzMkV3YXY3eHR3THNrVUgySg?oc=5",
+      "published_at": "2026-11-19T14:06:00Z",
+      "tickers": [
+        "RWE.DE"
+      ],
+      "form": "EU_ADHOC",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-19T17:19:04Z",
+      "region": "EU"
+    },
+    {
+      "id": "b5d3fb9cde9ea263",
+      "source": "eqs_google",
+      "title": "Kontron Aktie: MWB senkt Kursziel, beh\u00e4lt Kaufempfehlung - ad-hoc-news.de",
+      "summary": "Kontron Aktie: MWB senkt Kursziel, beh\u00e4lt Kaufempfehlung &nbsp;&nbsp; ad-hoc-news.de",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPXzJvWVRHYTh1N3dxczhocndIMkd2cGNVazFfVHk2MGxBbzVseTB6YjJUNjNTZWRnODdlbk1LTXdaRnRIZHcwS2ZPWFBaV3AtNjNyVW11RC1LaHFMelZ1ZDNRZEZtZkEwSF8tUVRQemJlX2x4Q3pvZ01weGdZdW8yV1JfbU43TFlNWEN3QlBMUHEyV1hPNERxMEgtbmtCeVMxRDcyR3RrcTZCNzJlRGhXTWNLZDR2UXplWFRGYzIwVWtqaGY4WkE?oc=5",
+      "published_at": "2026-11-19T13:01:36Z",
+      "tickers": [
+        "NEWS.DE"
+      ],
+      "form": "EU_ADHOC",
+      "event_type": "analyst",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "analyst",
+      "scanned_at": "2026-11-19T17:19:05Z",
+      "region": "EU"
+    },
+    {
+      "id": "08c3746f3a684fd3",
+      "source": "yahoo_eu",
+      "title": "Deutsche Telekom beteiligt sich an Mistral AI",
+      "summary": "Die Deutsche Telekom steigt beim gr\u00f6\u00dften europ\u00e4ischen KI-Unternehmen Mistral AI ein. Die Konzerntochter T.Capital Tech Fund habe bei einer neuen Finanzierungsrunde 100 Millionen Euro in das franz\u00f6sische Start-up investiert. Das teilte die Telekom auf Nachfrage mit und sprach von einem ersten Schritt zu einer strategischen Partnerschaft. Zuerst hatte der \"Spiegel\" dar\u00fcber berichtet.",
+      "url": "https://de.finance.yahoo.com/nachrichten/deutsche-telekom-beteiligt-mistral-ai-122221193.html?.tsrc=rss",
+      "published_at": "2026-11-19T12:22:21Z",
+      "tickers": [
+        "DTE.DE"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-19T17:19:13Z",
+      "region": "EU"
+    },
+    {
+      "id": "fa955915558d1953",
+      "source": "yahoo_eu",
+      "title": "UBS will Hunderte Stellen nach Indien verlagern, sagen Insider",
+      "summary": "Die UBS will dem Vernehmen nach Hunderte Stellen aus ihren konzernweiten Funktionen von Europa nach Indien verlagern. Ziel der Schweizer Gro\u00dfbank sei, die Abl\u00e4ufe zu straffen und die Kosten zu senken, sagten mit den Pl\u00e4nen vertraute Personen.",
+      "url": "https://de.finance.yahoo.com/nachrichten/ubs-will-hunderte-stellen-indien-115810477.html?.tsrc=rss",
+      "published_at": "2026-11-19T11:58:10Z",
+      "tickers": [
+        "UBSG.SW"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-19T17:19:13Z",
+      "region": "EU"
+    },
+    {
+      "id": "3da7ae1964a09122",
+      "source": "yahoo_eu",
+      "title": "AKTIEN IM FOKUS: Henkel und Lanxess schwach nach Kepler-Abstufungen",
+      "summary": "Die Aktien von Henkel und Lanxess haben am Donnerstag mit klaren Kursverlusten auf Abstufungen durch das Analysehaus Kepler Cheuvreux reagiert. Die Papiere des Konsumg\u00fcterkonzerns Henkel b\u00fc\u00dften zuletzt 1,9 Prozent auf 86,20 Euro ein und waren damit zweitschw\u00e4chster Wert im Dax . F\u00fcr die Titel des Spezialchemiekonzerns Lanxess ging es am MDax -Ende um 2,9 Prozent auf 12,19 Euro nach unten.",
+      "url": "https://de.finance.yahoo.com/nachrichten/aktien-fokus-henkel-lanxess-schwach-110441250.html?.tsrc=rss",
+      "published_at": "2026-11-19T11:04:41Z",
+      "tickers": [
+        "HEN3.DE",
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-19T17:19:18Z",
+      "region": "EU"
+    },
+    {
+      "id": "37b09bb6c5de108a",
+      "source": "yahoo_eu",
+      "title": "Strategische Investition in KI aus Europa: Telekom steigt bei Mistral ein",
+      "summary": "Es soll um die Versorgung deutscher Unternehmen und Beh\u00f6rden mit \"vertrauensw\u00fcrdiger KI aus Europa\" gehen: Die Deutsche Telekom hat ihren Einstieg beim auf K\u00fcnstliche Intelligenz (KI) spezialisieren Unternehmen Mistral aus Frankreich angek\u00fcndigt.Mistrals Finanzvorstand Johan Bergqvist hob hervor, dass Deutschland das \"industrielle R\u00fcckgrat Europas\" sei - und KI \"mittlerweile von zentraler Bedeutung f\u00fcr die industrielle Wettbewerbsf\u00e4higkeit\".",
+      "url": "https://de.finance.yahoo.com/nachrichten/strategische-investition-ki-europa-telekom-105253974.html?.tsrc=rss",
+      "published_at": "2026-11-19T10:52:53Z",
+      "tickers": [
+        "DTE.DE",
+        "RWE.DE"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-19T17:19:13Z",
+      "region": "EU"
+    },
+    {
+      "id": "7957dc66f4e2a8c0",
+      "source": "yahoo_eu",
+      "title": "ANALYSE-FLASH: Bernstein bel\u00e4sst Siemens auf 'Outperform' - Ziel 330 Euro",
+      "summary": "Das US-Analysehaus Bernstein Research hat die Einstufung f\u00fcr Siemens mit einem Kursziel von 330 Euro auf \"Outperform\" belassen. Im Gesch\u00e4ftsjahr 2027 b\u00f6ten sich mehrere Chancen f\u00fcr Aufw\u00e4rtskorrekturen, schrieb Alasdair Leslie am Mittwoch. Er hob hervor, dass das Thema Industrial KI Bedeutung gewinnt f\u00fcr das Segment Digital Industries (DI). Damit gemeint sind KI-L\u00f6sungen f\u00fcr den Einsatz in Produktion, Fertigung, Logistik von Unternehmen. Die derzeitigen Ziele f\u00fcr das Gesch\u00e4ftsjahr",
+      "url": "https://de.finance.yahoo.com/nachrichten/analyse-flash-bernstein-bel%C3%A4sst-siemens-093503461.html?.tsrc=rss",
+      "published_at": "2026-11-19T09:35:03Z",
+      "tickers": [
+        "SIE.DE",
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "analyst",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "analyst",
+      "scanned_at": "2026-11-19T17:19:13Z",
+      "region": "EU"
+    },
+    {
+      "id": "376a1ad31458478f",
+      "source": "eqs_google",
+      "title": "Mit den Black Friday Deals von Waterdrop Filter lohnt sich ein Upgrade auf Premium-Wasserfilter - ad-hoc-news.de",
+      "summary": "Mit den Black Friday Deals von Waterdrop Filter lohnt sich ein Upgrade auf Premium-Wasserfilter &nbsp;&nbsp; ad-hoc-news.de",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPQkh3STd1ZDF0Zmx4X00xZEFNZWhRS0hRSXhiV1pDWEkwSFlRU1RBZmVQRGJVX1BBX2ZKRGFPc0hDbXhfQlhOOHBGTWk0N2dsdTdnalE3bE9HN21icjRaOVdhREFVV0NIMC1iNFRnSFNLYVh5ekhYVnhpdkNYaVpCS0NteEh2QVBjQ0N5b0JDb1hiZlBHSU5mR3VXTVdiSnZ3OGhVWTRoZHJxZ2dPTkJzR1ZweVhFYndTa3psalE1b2oxQmZaQVp4TVIyMEZpSTAwZFpSOUVnSnpERk1Dc1JqbVdXZzg1eWpmWEE2bGlrWQ?oc=5",
+      "published_at": "2026-11-19T09:05:22Z",
+      "tickers": [
+        "SSE.L",
+        "NEWS.DE"
+      ],
+      "form": "EU_ADHOC",
+      "event_type": "analyst",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "analyst",
+      "scanned_at": "2026-11-19T17:19:05Z",
+      "region": "EU"
+    },
+    {
+      "id": "cf8fc2730a873e3e",
+      "source": "eqs_google",
+      "title": "Original-Research: The Platform Group SE & Co. KGaA (von First Berlin Equity Research GmbH): Under Review - TradingView",
+      "summary": "Original-Research: The Platform Group SE & Co. KGaA (von First Berlin Equity Research GmbH): Under Review &nbsp;&nbsp; TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNc3ppYVZRS25tWXlGbUtjRkswaEZzVUE5REY3d0ZPWWJDMXRCVUVEVVdaOVlOOFNldHFVYUtPNHQwZWF4ODFvUVA4d1FqejZaYnEtZnpjMVk2Z0FTQjNoMFA1T3hHVnNSU1lGR0NTbDdITDhqcnFzYlRDcFBpUWlPWkdOTW5Cd2RDNDBHNmwyTGVpZ0syRk8xNmIxdk56OWUxem9waTZMMlNHYVd1eldHWjNyOXVUajFrRlpiM25rTEt4SlhUQXh0X3lRR0tKNWpQelUzeDFXY0pWU19xTlZuQ1hfTlBteEU?oc=5",
+      "published_at": "2026-11-19T09:04:04Z",
+      "tickers": [
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-19T17:19:05Z",
+      "region": "EU"
+    },
+    {
+      "id": "40be32d2f5dcefce",
+      "source": "yahoo_eu",
+      "title": "UBS werde sich Schweizer Regeln \u2018einfach anpassen\u2019, sagt Algebris",
+      "summary": "Die UBS wird sich letztlich mit den h\u00f6heren Kapitalanforderungen arrangieren, die die Schweiz f\u00fcr die Gro\u00dfbank plant, erwartet Sebastiano Pirro, Investmentchef bei Algebris Investments.",
+      "url": "https://de.finance.yahoo.com/nachrichten/ubs-schweizer-regeln-einfach-anpassen-084450590.html?.tsrc=rss",
+      "published_at": "2026-11-19T08:44:50Z",
+      "tickers": [
+        "UBSG.SW",
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-19T17:19:13Z",
+      "region": "EU"
+    },
+    {
+      "id": "a972803aeb76267d",
+      "source": "eqs_google",
+      "title": "Peabody Energy: Analyst senkt Kursziel um fast 30 Prozent - aktien.news",
+      "summary": "Peabody Energy: Analyst senkt Kursziel um fast 30 Prozent &nbsp;&nbsp; aktien.news",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNaVVnNmVJVF9TV0NicHlHbjFYa0RVRFB6MWFlUEUyRjhoYzJ4c01NTl9WNGlCNnBXaVNsNUJjbGNvZU1hM1RwTVNDM01pYTgzc0dDT1ZZWWNQYmlTU0RGMnc5OGpuN3h6NGU0UkZ6TFNEOXEtSlVnNkpBc3BiX0tmaDN6cEtkU1U?oc=5",
+      "published_at": "2026-11-19T08:34:13Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "analyst",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "analyst",
+      "scanned_at": "2026-11-19T17:19:06Z",
+      "region": "EU"
+    },
+    {
+      "id": "e5f2e107d1067ca3",
+      "source": "yahoo_eu",
+      "title": "ANALYSE-FLASH: Jefferies hebt Ziel f\u00fcr Allianz auf 470 Euro - 'Hold'",
+      "summary": "Das Analysehaus Jefferies hat das Kursziel f\u00fcr Allianz von 440 auf 470 Euro angehoben, aber die Einstufung auf \"Hold\" belassen. Bei Anlegern in Kontinentaleuropa gelte die Allianz-Aktie als Portfolio-Stabilisator, schrieb Philip Kett am Mittwoch mit Blick auf ihren kontinuierlichen Bewertungsanstieg. Sie sei verl\u00e4sslich, entt\u00e4usche nicht. \"Das Fehlen von Kurstreibern ist der Kurstreiber\", so Kett./rob/ag/ck",
+      "url": "https://de.finance.yahoo.com/nachrichten/analyse-flash-jefferies-hebt-ziel-075002401.html?.tsrc=rss",
+      "published_at": "2026-11-19T07:50:02Z",
+      "tickers": [
+        "ALV.DE",
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "analyst",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "analyst",
+      "scanned_at": "2026-11-19T17:19:16Z",
+      "region": "EU"
+    },
+    {
+      "id": "4f72d7d61849b37f",
+      "source": "eqs_google",
+      "title": "Swiss Life Asset Management AG: Swiss Life REF (CH) ESG Swiss Properties: Gesch\u00e4ftsjahr 2025/2026 mit Steigerung bei der Anlagerendite | Ad-hoc - EQS News",
+      "summary": "Swiss Life Asset Management AG: Swiss Life REF (CH) ESG Swiss Properties: Gesch\u00e4ftsjahr 2025/2026 mit Steigerung bei der Anlagerendite | Ad-hoc &nbsp;&nbsp; EQS News",
+      "url": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxQR21aTjF0TEZZSDZKWnpOQmhzU0tTUF9rZHNPLXlaSzN4RkNVLUllU3FzazM3TWJmU0ZreHNmd1gwZnBGVmxsWHdPREpJd3AzZXFPdTlxcm0xRGdXajhVNXNBMEVkWUlXZ29XRDVjSEZnSWdBY3ZIaFVXeVFRa1hCVC1MZmhSNklaRHdSekZNeFlsWEpqSmtDZTMyTmxoTnlfRE9vR2h3dm5vWjVndTVLdmtENHRtYjMyVmdKSkRoSFRXWm44QnpCQVZWQ3VGNDZJUTJkWlJLWFRrMjNIbl9BTkJfbThFRWlXTV9rYjlWY1ExT2NJelMtMkRwLUJwSmx5bC12cWx0bGJtb1kxdkRmQlg4TW9xZW1pdk43SVFLZ0ZqMGV4RHh6UjJwV1hoTlFQZFNUby1TMG5SbGlLcnVzYTJVOHliOEplSFVrSVQ5THFpTnlxSElGY3JSWUE?oc=5",
+      "published_at": "2026-11-19T06:00:00Z",
+      "tickers": [
+        "SSE.L"
+      ],
+      "form": "EU_ADHOC",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-19T17:19:04Z",
+      "region": "EU"
+    },
+    {
+      "id": "3b6ba9246dbf0664",
+      "source": "eqs_google",
+      "title": "Swiss Life Asset Management AG: Swiss Life REF (CH) ESG Diversified Commercial Switzerland: Solide operative Entwicklung im ersten Halbjahr nach Lancierung | Ad-hoc - EQS News",
+      "summary": "Swiss Life Asset Management AG: Swiss Life REF (CH) ESG Diversified Commercial Switzerland: Solide operative Entwicklung im ersten Halbjahr nach Lancierung | Ad-hoc &nbsp;&nbsp; EQS News",
+      "url": "https://news.google.com/rss/articles/CBMi9wJBVV95cUxNVlVRaDVEQ2VCVHFTTTNzVXBNSjVoQkFkOXZ6R2V1a2tYZVdFcE1idmZZVXZkNGZ1X3B2aElZMGNkLVlDcy1sdzRfeEhnbThQd2lDaHJ3MmxVem9fRl9JYWNNaDFRSnZZazljNmZxZGVpN0o4WV91QUlRdTZvTzJlcHR3dFlTdVZuT2p0dVpycHBlVnlRX3ZzVGhoMmVqSlJEMkZQd1E5WnoyaUNtelppbGFJYlFCS2pmSkhTd0hiWVlMUEVrMHU3Y0xMTXgzVGR5bFgzUkJxYjVMRVhkbkRld0FLMFkxaFF4czkzU2ZqRWlzdzE2SF9fc3ZGMGhKTGU2Ty1TT0hKTnJMdkJISUJwMkZBZFJzTmpRb1FKMld4MWFFaUwwcjRIUlU3LXVLcGRNSEpHdm9wUHhQUlBFU0FIVnp2Y2lrVzEyQlBBM1h3Sl9Xd1p5ZE5HeW5NUFYzWG9GUEJPZWhDeFFnRXh4M29XSE9UN1pPYUk?oc=5",
+      "published_at": "2026-11-19T06:00:00Z",
+      "tickers": [
+        "SSE.L"
+      ],
+      "form": "EU_ADHOC",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-19T17:19:04Z",
+      "region": "EU"
+    },
+    {
+      "id": "85a865bcea3e0dde",
+      "source": "eqs_google",
+      "title": "BLKB schafft neuen Gesch\u00e4ftsbereich Risk Management \u2013 \u00c4nderung in der Gesch\u00e4ftsleitung | Ad-hoc - EQS News",
+      "summary": "BLKB schafft neuen Gesch\u00e4ftsbereich Risk Management \u2013 \u00c4nderung in der Gesch\u00e4ftsleitung | Ad-hoc &nbsp;&nbsp; EQS News",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQdlE5SXBZblcydDZUX0ZXTUp4bFNJcFN2VlNJNmFkOEFvbmxJOVo2UFNsOGhETEJFRG1tOUV4Y2JYY2FySEhOdmZqMmtXOXExYTFXcE8ybGNWR1N5MTlvUjlFa0VGTEhtYzNucENoM3hHUG40RUJtTENscHoyVlJlT0VJZ2VlcVpmWXBGZ1MxNEdpNk1kaTBLanlndUdnc1AySmFfV05rRUZ0azlJQlpyUzVmTVY0a1kxLU9OUXRCaDZGR0oxMWVrSXZ6dTUyUTF0Vk9DVVdMNDdjWExVNTJMS2R4LVA4d2xlVmVkX2JrbEVLY2c?oc=5",
+      "published_at": "2026-11-19T05:57:00Z",
+      "tickers": [],
+      "form": "EU_ADHOC",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-19T17:19:04Z",
+      "region": "EU"
+    },
+    {
+      "id": "ae0416ab865cb0a6",
+      "source": "eqs_google",
+      "title": "Geely Aktie: Aktion\u00e4re billigen Deals mit Mutterkonzern - ad-hoc-news.de",
+      "summary": "Geely Aktie: Aktion\u00e4re billigen Deals mit Mutterkonzern &nbsp;&nbsp; ad-hoc-news.de",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWmlDQU8xY2J4RFhHbEk4M2tVdHhnTnp1NkFUc2xfZnNVZ1pvLXF0QXU5N3c0c2ZfMWhqOGQ5ZG8zcWs0ZEtoRXhjZlJzVnZZaW5jVjhHRUdGX1Z5Z0w0Q1RxMWxXalNYMkpSRjBpbmUzbWVjamZfQzM2OU9DX2lNdzI4c2szWDdwXzN4dDIyUG5UTFJ3SEM5Vk1VZ3VTbXEtX2Vqbk5YT1ktdFBuU3VTT2w2c1JVcDlHQnZMbmVOOFVweU1FMXc?oc=5",
+      "published_at": "2026-11-19T05:48:32Z",
+      "tickers": [
+        "NEWS.DE"
+      ],
+      "form": "EU_ADHOC",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-19T17:19:05Z",
+      "region": "EU"
+    },
+    {
+      "id": "7f51d1923d3a2210",
+      "source": "yahoo_eu",
+      "title": "Allianz: KI-bedingte Sch\u00e4den wachsen rasant",
+      "summary": "Die durch K\u00fcnstliche Intelligenz mittelbar und unmittelbar verursachten Sch\u00e4den steigen nach Einsch\u00e4tzung der Allianz-Versicherung rasant. Zudem geht die Technologie f\u00fcr Unternehmen mit weiteren Risiken von Hackerangriffen bis Haftungsklagen einher, wie die Fachleute des Firmenversicherers Allianz Commercial in einem Report schreiben. KI birgt demnach \"systemische Risiken\": Kleine Fehler k\u00f6nnen gro\u00dfe Sch\u00e4den verursachen.",
+      "url": "https://de.finance.yahoo.com/nachrichten/allianz-ki-bedingte-sch%C3%A4den-wachsen-051516459.html?.tsrc=rss",
+      "published_at": "2026-11-19T05:15:16Z",
+      "tickers": [
+        "ALV.DE",
+        "INGA.AS",
+        "GSK.L",
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-19T17:19:16Z",
+      "region": "EU"
+    },
+    {
+      "id": "6bae7d54cef33252",
+      "source": "eqs_google",
+      "title": "Medios AG: Medios AG beschlie\u00dft Aktienr\u00fcckkaufprogramm | Ad-hoc - EQS News",
+      "summary": "Medios AG: Medios AG beschlie\u00dft Aktienr\u00fcckkaufprogramm | Ad-hoc &nbsp;&nbsp; EQS News",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNM055OGI5QkNQQnRSeE9LOWZqZk8xNHZHeFVHd05RT0ZCdW14dVRDb05VT2FjbHE0NWFDbU5sdTdMRUQzaG5iOXZNeEF3TXRlUWJnMENzaUNRT21NVU9TRzAtRUx5TEVvWGViNjZpZUh3M3E4blhOUVpUaGdqNDhFV1pnSmJYN2V3X2UzMTM5ZTFKRzVrX3BoVFIxdktoNHZWZm9HZEJYVnU3MzZqOHRscEUwcTRkTFU3WXJTQl9VUENYXzNVY2VUeExoMnJLS2hJ?oc=5",
+      "published_at": "2026-11-18T17:33:00Z",
+      "tickers": [],
+      "form": "EU_ADHOC",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-19T17:19:04Z",
+      "region": "EU"
+    },
+    {
       "id": "97639824611c8370",
       "source": "wso_nachrichten",
       "title": "Nvidia-Aktie: Das Imperium zerf\u00e4llt?",
@@ -557,6 +1739,23 @@
       "region": "EU"
     },
     {
+      "id": "e96af96144f9cf32",
+      "source": "eqs_google",
+      "title": "XPeng Aktie: Freedom Broker sieht \u00fcber 100% Kurspotenzial - warum das Kursziel trotzdem f\u00e4llt - AktienCheck.de",
+      "summary": "XPeng Aktie: Freedom Broker sieht \u00fcber 100% Kurspotenzial - warum das Kursziel trotzdem f\u00e4llt &nbsp;&nbsp; AktienCheck.de",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPT3FIMkVJLWM4LWpLdzM2LTU1dnFDbVhHZUFpczBpcGFocWhfNWpxQkNXTjdwNHRJQ2hKX0xVTm90SlpGWXJuQmNWZ0lnN0pLb0RRV2ZnNGJFRDZHSDRWUTV1QjFjcnpFU0tTTmZ5NUVERVBjZzRGZ3lzLW9mSVpZdEJvelRVREwzQ2RIdEFiN196UDlXRW1CTmJ4akVJbThXazBDWlE2dGYzUQ?oc=5",
+      "published_at": "2026-11-18T16:26:12Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "analyst",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "analyst",
+      "scanned_at": "2026-11-19T17:19:06Z",
+      "region": "EU"
+    },
+    {
       "id": "23ab56f07c648103",
       "source": "yahoo_eu",
       "title": "AKTIE IM FOKUS 2: Zalando steigen an Dax-Spitze - Gro\u00dfaktion\u00e4r Povlsen kauft",
@@ -572,7 +1771,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-18T17:11:29Z",
+      "scanned_at": "2026-11-19T17:19:10Z",
       "region": "EU"
     },
     {
@@ -591,7 +1790,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-18T17:11:29Z",
+      "scanned_at": "2026-11-19T17:19:10Z",
       "region": "EU"
     },
     {
@@ -614,6 +1813,25 @@
       "region": "EU"
     },
     {
+      "id": "342bab37eeb832dd",
+      "source": "eqs_google",
+      "title": "Deutsche B\u00f6rse AG Aktie: MPCM-Analyst streicht Kaufempfehlung - ist die Kursrally ausgereizt? - AktienCheck.de",
+      "summary": "Deutsche B\u00f6rse AG Aktie: MPCM-Analyst streicht Kaufempfehlung - ist die Kursrally ausgereizt? &nbsp;&nbsp; AktienCheck.de",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcDJBdjdaR2o1blAwcTJNQ2VmVFQ4dG52OFM5V3BLMTZNQlZGR09KV0xqelRaRktHX0xJaGp2RUNkM0FTTHlPUko0Vncyb3NGUDFjbUR6bUFqRTZLUDFCWHBMb0dYSGJKcmxySWdXZnlXWmljalhPdnFYTUoxQmxYZ2NfTXVuOWFBNEVzT2xLYV9scTBHV1N3VXYya0gxZzJUb2RmWnpDbGE1UWdWcXVB?oc=5",
+      "published_at": "2026-11-18T12:57:09Z",
+      "tickers": [
+        "DB1.DE"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "analyst",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "analyst",
+      "scanned_at": "2026-11-19T17:19:06Z",
+      "region": "EU"
+    },
+    {
       "id": "7dcfa457d02cac06",
       "source": "yahoo_eu",
       "title": "VW-Chef Blume will schnelle L\u00f6sungen f\u00fcr bedrohte Werke",
@@ -629,7 +1847,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-18T17:11:31Z",
+      "scanned_at": "2026-11-19T17:19:11Z",
       "region": "EU"
     },
     {
@@ -670,7 +1888,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-18T17:11:29Z",
+      "scanned_at": "2026-11-19T17:19:12Z",
       "region": "EU"
     },
     {
@@ -695,6 +1913,61 @@
       "region": "EU"
     },
     {
+      "id": "84f7150b64cdc37b",
+      "source": "yahoo_eu",
+      "title": "540 Euro Zulage gegen 64,50 Euro Dividende: Altersvorsorgedepot oder Allianz-Aktie f\u00fcr die Rente?",
+      "summary": "540 Euro Zulage im Altersvorsorgedepot oder 64,50 Euro Dividende der Allianz-Aktie? Die Rechnung mit 1.800 Euro Jahresbeitrag, Steuern, Kosten und meiner Bewertung. Der Artikel 540 Euro Zulage gegen 64,50 Euro Dividende: Altersvorsorgedepot oder Allianz-Aktie f\u00fcr die Rente? ist zuerst erschienen auf Aktienwelt360.",
+      "url": "https://www.aktienwelt360.de/2026/11/18/540-euro-zulage-gegen-6450-euro-dividende-altersvorsorgedepot-oder-allianz-aktie-fuer-die-rente/?.tsrc=rss",
+      "published_at": "2026-11-18T07:02:54Z",
+      "tickers": [
+        "ALV.DE"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-19T17:19:16Z",
+      "region": "EU"
+    },
+    {
+      "id": "4c5022b47d1e4b6c",
+      "source": "eqs_google",
+      "title": "Alphabet-Aktie: UBS-Analyst Karl Keirstead \u00fcbernimmt mit \u201eNeutral\u201c \u2013 Kursziel sinkt auf 320 Dollar - AktienCheck.de",
+      "summary": "Alphabet-Aktie: UBS-Analyst Karl Keirstead \u00fcbernimmt mit \u201eNeutral\u201c \u2013 Kursziel sinkt auf 320 Dollar &nbsp;&nbsp; AktienCheck.de",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRWl6SnVrUjkzQjFxdjlnUDNOUDd6VEJzZzk1M3pNWmdTdEE1djFDN3FXQzBmTWxRMzNJdVVMb1lmbHFsYWRhS3psN0dRZENyeFpvd0xzV09pRnBGT2pxZFVKZU5lNmNUd3Z6ai1fLWNFVFNSZXQ1MkNDd01oQk8yQnNmUXgxUk5XWTRBWWZxclFucXNTelVtREVxaHpheHVNTjRrSnVhQ0xVdG94ZGUzMENR?oc=5",
+      "published_at": "2026-11-18T04:29:44Z",
+      "tickers": [
+        "UBSG.SW"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "analyst",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "analyst",
+      "scanned_at": "2026-11-19T17:19:06Z",
+      "region": "EU"
+    },
+    {
+      "id": "0975232266ffc4d2",
+      "source": "eqs_google",
+      "title": "Oracle-Aktie: Bernstein h\u00e4lt am Kursziel fest \u2013 Ziel fast dreimal so hoch wie der Kurs - AktienCheck.de",
+      "summary": "Oracle-Aktie: Bernstein h\u00e4lt am Kursziel fest \u2013 Ziel fast dreimal so hoch wie der Kurs &nbsp;&nbsp; AktienCheck.de",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPOVk4eWNndUIycTB4a0s4RkNzTDJVaTk0OXdWcW40QzFVS2tCQ3gzaWRHOXlDNjVPREJ6MDY4WmlQYXVnZG5oRjRBY0R2cHNfNW1zdVJVbnQ3ZVNLSVVybW43UWhfM2pVaFYwS09LaXA4aXpaMU9GNHZ5b19xSGtCZUJwMzJKR29lazk1NG9fTDAzd2lldFF4UUZIMW8xQjB4YTNTMmROYm5vM1ZCSmY0?oc=5",
+      "published_at": "2026-11-17T21:10:35Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "analyst",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "analyst",
+      "scanned_at": "2026-11-19T17:19:06Z",
+      "region": "EU"
+    },
+    {
       "id": "6dd72b5b9be09b48",
       "source": "yahoo_eu",
       "title": "GSK erh\u00e4lt FDA-Zulassung f\u00fcr Lungenkrebsmedikament Nelkarmi",
@@ -711,7 +1984,24 @@
       "news_side": "long",
       "actionable": true,
       "eu_category": "mna",
-      "scanned_at": "2026-11-18T17:11:28Z",
+      "scanned_at": "2026-11-19T17:19:12Z",
+      "region": "EU"
+    },
+    {
+      "id": "1fc62b22297c1496",
+      "source": "eqs_google",
+      "title": "Enanta-Aktie: H.C. Wainwright sieht Kursziel mehr als doppelt so hoch - AktienCheck.de",
+      "summary": "Enanta-Aktie: H.C. Wainwright sieht Kursziel mehr als doppelt so hoch &nbsp;&nbsp; AktienCheck.de",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVXplWUstOWV4WjJfZS1VX0xWLTZnRWNnSXlBR0pJc0Z2aU9ieUhxSVpXNXVwNFEzSjFxMC1Hb3dxaW5jUkFNSkhkc2RYNXRmX1pOcGdQUEhUZUpISWh2MTdPSXExajBRZkdMc283RUZuR1VOUlBkN1luUjE0UVdDdXZKc3ZEQjJZSEJLSHlpVm1Ha2xfb2lSY2o5aTFlQQ?oc=5",
+      "published_at": "2026-11-17T18:43:38Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "analyst",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "analyst",
+      "scanned_at": "2026-11-19T17:19:06Z",
       "region": "EU"
     },
     {
@@ -728,7 +2018,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-18T17:11:24Z",
+      "scanned_at": "2026-11-19T17:19:04Z",
       "region": "EU"
     },
     {
@@ -1352,6 +2642,26 @@
       "region": "EU"
     },
     {
+      "id": "0a31b1af385fdced",
+      "source": "eqs_google",
+      "title": "Fresenius Aktie: Barclays-Analyst sieht neue Chancen f\u00fcr den Gesundheitskonzern - AktienCheck.de",
+      "summary": "Fresenius Aktie: Barclays-Analyst sieht neue Chancen f\u00fcr den Gesundheitskonzern &nbsp;&nbsp; AktienCheck.de",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQQjN6NTF3Yko4X2ZGcDRUcmZBVkhSR21rTzhmRHd5TFhZWlNXOGNwelNGQkRPQzRnR0swQTJ3OGIxem5uZDFXSWxlMk9oLTN0TW8wbDM0Z0k4NzNWZmdLdHRsOHR0d3cyaDg1b0RRaHNVaGVrUTJqbzBRYm5YSUt1QldFVE5scjhwcWQ2QkY5UGM2aUwzM0xJWVBNZEV4VGlsWXBJQmRINzhaYldETFZn?oc=5",
+      "published_at": "2026-11-17T15:55:18Z",
+      "tickers": [
+        "BARC.L",
+        "ENI.MI"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "analyst",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "analyst",
+      "scanned_at": "2026-11-19T17:19:06Z",
+      "region": "EU"
+    },
+    {
       "id": "470fc6011d5a7566",
       "source": "yahoo_eu",
       "title": "AKTIE IM FOKUS: Evonik an MDax-Spitze - Kreise: BASF bereitet besseres Gebot vor",
@@ -1389,6 +2699,42 @@
       "region": "EU"
     },
     {
+      "id": "85965c4fb7337a5b",
+      "source": "eqs_google",
+      "title": "Beiersdorf-Aktie: MPCM-Analyst Christoph Dolleschal stuft auf \u201eHold\u201c ab \u2013 Kursziel halbiert auf 85 Euro - AktienCheck.de",
+      "summary": "Beiersdorf-Aktie: MPCM-Analyst Christoph Dolleschal stuft auf \u201eHold\u201c ab \u2013 Kursziel halbiert auf 85 Euro &nbsp;&nbsp; AktienCheck.de",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONzNjYlA0dWlQMFVjdkFYZ0ttcGhHUS0yTW9oU2FLNFZMR3lLTnR1TGg1bVU5REs3b09rX0xrc1ZpQzNlOXlDVEJ1bGQyWDRvRHhBczVvT3hKYUFlbV9RVHF6ZFRPTTRCV0lHekZ5aklINzNuaExSRGE3WUhEQVRsRmFsa25MVjRna21yZkc2WmN6U2tYRnRMUm9Dd1o3WG5KcDl6TEhqUVowMzV5?oc=5",
+      "published_at": "2026-11-17T14:13:47Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "analyst",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "analyst",
+      "scanned_at": "2026-11-19T17:19:06Z",
+      "region": "EU"
+    },
+    {
+      "id": "53f2c235f42c3c32",
+      "source": "eqs_google",
+      "title": "Alphabet-Aktie: UBS-Analyst Karl Keirstead \u00fcbernimmt mit \u201eNeutral\u201c \u2013 Kursziel sinkt auf 320 Dollar - AktienCheck.de",
+      "summary": "Alphabet-Aktie: UBS-Analyst Karl Keirstead \u00fcbernimmt mit \u201eNeutral\u201c \u2013 Kursziel sinkt auf 320 Dollar &nbsp;&nbsp; AktienCheck.de",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOazJlVHN4c191Vm14UVRfZFlYaWEzbkhSeDVCci01Z3psV3I1ZVhhS1EzMjk5dEdTT3R5RmM0Ri04Mnc1MHozTXd5Tkw4QW5IT19MYjJWVVdxNm45VVFIZnJ5TktYVnp5VnVkMUFqYW90TjlWX2l4cnhPc3FKTG5rUE9ldmRmQnkwV01USFpWWEVzb1lxendkcVdYQno0NFI0a1pGUGlIOVhVUjZsRDZz?oc=5",
+      "published_at": "2026-11-17T14:01:23Z",
+      "tickers": [
+        "UBSG.SW"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "analyst",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "analyst",
+      "scanned_at": "2026-11-19T17:19:06Z",
+      "region": "EU"
+    },
+    {
       "id": "989011fcd583ab98",
       "source": "eqs_google",
       "title": "Walmart-Aktie: Stifel-Analyst Michael Montani startet mit \u201eBuy\u201c \u2013 Kursziel 145 Dollar - AktienCheck.de",
@@ -1402,7 +2748,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-17T17:34:30Z",
+      "scanned_at": "2026-11-19T17:19:06Z",
       "region": "EU"
     },
     {
@@ -1421,7 +2767,26 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-17T17:34:30Z",
+      "scanned_at": "2026-11-19T17:19:06Z",
+      "region": "EU"
+    },
+    {
+      "id": "a0999670fdb7e1e2",
+      "source": "eqs_google",
+      "title": "Cellectis-Aktie: Barclays bleibt beim Abw\u00e4rtsvotum \u2013 trotz Kursziel \u00fcber dem Kurs - AktienCheck.de",
+      "summary": "Cellectis-Aktie: Barclays bleibt beim Abw\u00e4rtsvotum \u2013 trotz Kursziel \u00fcber dem Kurs &nbsp;&nbsp; AktienCheck.de",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdVYwempFUVhEU0dLX1lXRzFJbGVhOFVDUWhHRE9Fbm1ORTMxU2pkZExNeFRrdktmLUx3QUIyX1ZiYm9PZnFOczNsLXU3MnM1U2ROOGNRNkVyVGJyNTJJLWNtbk1QQVZBbjNWYklvNkRzbmJocUxoN21FVWFlSHBpY0Y5WjFYaWt3bnJib2V6VzdLT3dMSDFoLWJReEx4SUxRU3JJbnRKdTJpTlEwc0tHXw?oc=5",
+      "published_at": "2026-11-17T12:15:19Z",
+      "tickers": [
+        "BARC.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "analyst",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "analyst",
+      "scanned_at": "2026-11-19T17:19:06Z",
       "region": "EU"
     },
     {
@@ -1442,6 +2807,23 @@
       "region": "EU"
     },
     {
+      "id": "a12d62ac10b51647",
+      "source": "eqs_google",
+      "title": "Nucor-Aktie: Morgan Stanleys Favorit unter den US-Stahlwerten \u2013 Kursziel steigt auf 310 Dollar - AktienCheck.de",
+      "summary": "Nucor-Aktie: Morgan Stanleys Favorit unter den US-Stahlwerten \u2013 Kursziel steigt auf 310 Dollar &nbsp;&nbsp; AktienCheck.de",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPRmNnZ1NqUV9oeTBPNHNpOUtLdWRrZ0tLcUtMa2RScGxlS01id3N4VlFuVy1ON3hLOFl4V1VGZTUwVGlGUUtLQzhIM0xEQU9jdkdBZGxfb3BjajNDRFFIMUpGWF9MVkEwaGRzWGk1MFlvOHlYVC1NdzRxcVRMc0NsdlQ4N19wSHo0dHg1dzVUdTVWVW1kMnlGSy1KbDhwMG5hbVIzWE9kbXd6WkVYbG1LMA?oc=5",
+      "published_at": "2026-11-17T11:49:42Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "analyst",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "analyst",
+      "scanned_at": "2026-11-19T17:19:06Z",
+      "region": "EU"
+    },
+    {
       "id": "1c546ce1bb6d5a6d",
       "source": "eqs_google",
       "title": "Comfort-Systems-Aktie: Morgan Stanley startet mit Kaufempfehlung \u2013 Kursziel 1.410 Dollar - AktienCheck.de",
@@ -1455,7 +2837,43 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-17T17:34:30Z",
+      "scanned_at": "2026-11-19T17:19:06Z",
+      "region": "EU"
+    },
+    {
+      "id": "4e3b06cc0fe013d6",
+      "source": "yahoo_eu",
+      "title": "Roche Diagnostics stellt Prototyp eines Endotrophin-Forschungstests bei Nordic Bioscience zur Verf\u00fcgung.",
+      "summary": "Nordic Bioscience freut sich bekannt zu geben, dass Roche Diagnostics seinen Endotrophin (ETP) Forschungsprototypentest auf seinen cobas\u00ae e801 Analyzern im CLIA-Labor von Nordic Bioscience zur Verf\u00fcgung stellt.",
+      "url": "https://de.finance.yahoo.com/nachrichten/roche-diagnostics-stellt-prototyp-endotrophin-114800158.html?.tsrc=rss",
+      "published_at": "2026-11-17T11:48:00Z",
+      "tickers": [
+        "RO.SW"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-19T17:19:11Z",
+      "region": "EU"
+    },
+    {
+      "id": "34c235b0c9a81c54",
+      "source": "eqs_google",
+      "title": "Cisco-Aktie: DZ Bank wechselt nach Rekordquartal ins Kauflager \u2013 Kursziel 125 Dollar - AktienCheck.de",
+      "summary": "Cisco-Aktie: DZ Bank wechselt nach Rekordquartal ins Kauflager \u2013 Kursziel 125 Dollar &nbsp;&nbsp; AktienCheck.de",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxONzIwY2RjanZHb3AxR015XzFJRlhYTW15RWVJX3laUFB6VGJ1Q01KNzNqZ1ZOZVZuRGltQkIyY29qMXNzdGF0WXE1RFVsTWxzSTdCR2JKemxpLWVsTUlPVXdEWXhtVVVhOEtHUzRneGY1cHpubzRLNUxDQW5jSHdfdE5pTEE0bHNDNVY1Y0RUZnBydVlhSmNQTzlxOExtY1JsMjQ4cHRBSWM?oc=5",
+      "published_at": "2026-11-17T11:46:31Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "analyst",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "analyst",
+      "scanned_at": "2026-11-19T17:19:06Z",
       "region": "EU"
     },
     {
@@ -1472,7 +2890,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-17T17:34:30Z",
+      "scanned_at": "2026-11-19T17:19:06Z",
       "region": "EU"
     },
     {
@@ -1506,7 +2924,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-17T17:34:30Z",
+      "scanned_at": "2026-11-19T17:19:06Z",
       "region": "EU"
     },
     {
@@ -1542,7 +2960,27 @@
       "news_side": "short",
       "actionable": true,
       "eu_category": "offering",
-      "scanned_at": "2026-11-17T17:34:30Z",
+      "scanned_at": "2026-11-19T17:19:05Z",
+      "region": "EU"
+    },
+    {
+      "id": "44d40aec320f8696",
+      "source": "eqs_google",
+      "title": "Lumexa-Imaging-Aktie: Zur\u00fcck in der Gewinnzone \u2013 Barclays erh\u00f6ht das Kursziel deutlich - AktienCheck.de",
+      "summary": "Lumexa-Imaging-Aktie: Zur\u00fcck in der Gewinnzone \u2013 Barclays erh\u00f6ht das Kursziel deutlich &nbsp;&nbsp; AktienCheck.de",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQNFJVWGQ4X2hUVmh3bERqTmc3QjFDZGpmOWVscXVPTmZpRTB1Q1lOZlEzdk5QbjYxb1VPWUpPeEJHdlAtRE1XOWhvb3V0X25EMUJfbGhaMnY5QW1Kb1lvUWdMYzREeWpDem9IT0dvQlljQUVvakc2Z2dxNWhnamNlU3dvQ2hUSkhQRkNVSjM2LTBJTXdlTGlvenc4UjN0NUFYa20zcVFPbEV5U2s?oc=5",
+      "published_at": "2026-11-17T11:21:07Z",
+      "tickers": [
+        "BARC.L",
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "analyst",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "analyst",
+      "scanned_at": "2026-11-19T17:19:06Z",
       "region": "EU"
     },
     {
@@ -1576,7 +3014,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-17T17:34:30Z",
+      "scanned_at": "2026-11-19T17:19:06Z",
       "region": "EU"
     },
     {
@@ -1598,7 +3036,43 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-18T17:11:30Z",
+      "scanned_at": "2026-11-19T17:19:16Z",
+      "region": "EU"
+    },
+    {
+      "id": "86eb9ba167ac8a86",
+      "source": "eqs_google",
+      "title": "Nordex-Aktie: Starkes Quartal, aber RBC r\u00e4t ab \u2013 Kursziel liegt elf Prozent unter dem Kurs - AktienCheck.de",
+      "summary": "Nordex-Aktie: Starkes Quartal, aber RBC r\u00e4t ab \u2013 Kursziel liegt elf Prozent unter dem Kurs &nbsp;&nbsp; AktienCheck.de",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMGdqaE44ZkhBaVFVczlTNDJLX3RELTJac203OHVfZDBFZ2ZFY2I0M2QxblFMdjVucVRDYlM0dV9NN3o4TlBwckxEOEJyMndrWGhJaUVRWUotQkYyUmFaX3hNTEJqSi1DVlNobFlJcHNwUGtmUUFNQUdTeV9vT2lPVlVXTERvRWY1MkgybXFpUEpMa1ZyMy1iYmNpS05IbERkY1pkYklzT0hKNTBpQlE?oc=5",
+      "published_at": "2026-11-17T09:59:33Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "analyst",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "analyst",
+      "scanned_at": "2026-11-19T17:19:06Z",
+      "region": "EU"
+    },
+    {
+      "id": "e310cc7757bdb7a9",
+      "source": "eqs_google",
+      "title": "AXA Aktie: Kursziel 52 EUR trotz hoher Katastrophensch\u00e4den! Analyst sieht Vorteile gegen\u00fcber teureren Rivalen! - AktienCheck.de",
+      "summary": "AXA Aktie: Kursziel 52 EUR trotz hoher Katastrophensch\u00e4den! Analyst sieht Vorteile gegen\u00fcber teureren Rivalen! &nbsp;&nbsp; AktienCheck.de",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZkVhbDdCSE5MWDVwME9BRk5DSmpJWnFESEZ5R29HU2d0YUNTaXhtdDZfQUV1d0hXenpFSW1Tenp3S0F1V2lKRkZUT2RvVTJZZ1RLT2t3R211c3VIeVRtSnRoNDhqaWxfcFF2M2ZnTGxRSFhVMmhxY1BxaE5QNFdSTlNWUmhiMDdaeEV6WXRaV3N3QlBCRmgxSEhJOW4wNjdjYUVSRGxB?oc=5",
+      "published_at": "2026-11-17T08:57:15Z",
+      "tickers": [
+        "CS.PA"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "analyst",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "analyst",
+      "scanned_at": "2026-11-19T17:19:06Z",
       "region": "EU"
     },
     {
@@ -1691,6 +3165,25 @@
       "region": "EU"
     },
     {
+      "id": "fc2e8555b891338a",
+      "source": "eqs_google",
+      "title": "Spotify-Aktie: Jefferies erh\u00f6ht Kursziel wegen KI-Remixing auf 710 - aktien.news",
+      "summary": "Spotify-Aktie: Jefferies erh\u00f6ht Kursziel wegen KI-Remixing auf 710 &nbsp;&nbsp; aktien.news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNV2MycE81ZmhQNlhlczFZYmRrcHhhRjhReS1xaGozVHBGR3ZKY0ctNS1TQTd4eFpET0RSNk1tVkpSSzZ5RDUzWFBKR0xZaUgzZk5rN1ExWkFwMjZON0xvUC1sR2JNbXpwS0N2enlGaUMzQnJud1N6QjNhM1BEVVJpa1NIbkFrT1pYLUp6NXVjNGFic3c?oc=5",
+      "published_at": "2026-11-17T08:32:14Z",
+      "tickers": [
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "analyst",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "analyst",
+      "scanned_at": "2026-11-19T17:19:06Z",
+      "region": "EU"
+    },
+    {
       "id": "c2363ec641acda32",
       "source": "eqs_google",
       "title": "EQS-Adhoc: The Platform Group SE & Co. KGaA plans Extraordinary General Meeting: 10:1 Capital Reduction and Capital Increase - finanzen.ch",
@@ -1727,7 +3220,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-18T17:11:31Z",
+      "scanned_at": "2026-11-19T17:19:11Z",
       "region": "EU"
     },
     {
@@ -2341,7 +3834,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-18T17:11:24Z",
+      "scanned_at": "2026-11-19T17:19:04Z",
       "region": "EU"
     },
     {
@@ -3048,7 +4541,7 @@
       "news_side": "short",
       "actionable": true,
       "eu_category": "offering",
-      "scanned_at": "2026-11-17T17:34:30Z",
+      "scanned_at": "2026-11-19T17:19:05Z",
       "region": "EU"
     },
     {
@@ -3086,7 +4579,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-17T17:34:29Z",
+      "scanned_at": "2026-11-19T17:19:04Z",
       "region": "EU"
     },
     {
@@ -3208,7 +4701,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-18T17:11:28Z",
+      "scanned_at": "2026-11-19T17:19:13Z",
       "region": "EU"
     },
     {
@@ -3265,7 +4758,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-18T17:11:31Z",
+      "scanned_at": "2026-11-19T17:19:11Z",
       "region": "EU"
     },
     {
@@ -3274,7 +4767,7 @@
       "title": "Insider-Trades: Directors' Dealings \u2013 Die wichtigsten Transaktionen - KW 46/26 - Wallstreet Online",
       "summary": "Insider-Trades: Directors' Dealings \u2013 Die wichtigsten Transaktionen - KW 46/26 &nbsp;&nbsp; Wallstreet Online",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQeWhKM1E3cXJYSnBOSk1jVUo5azc5MVRlQUZ5VU5Lanc3YUpyUkVlQXNWa1c3a3cyTGY4ZElKaENDeUFwVEpyRGVGcklzVW9FTDAzOGQyRXBuNjV5UHFKeG5wWjhsalpfcndzRDdTZm1MaUdmZDREdUVWa3FmME9SQmgtYlNpNTlfU2pfcHU2T3dkckJ5cXo2NHJiYXBQeWw4enJxNzhjT2JBOGNpOXFwOEJsZjZMaTA2SEM0Nw?oc=5",
-      "published_at": "2026-11-15T10:03:00Z",
+      "published_at": "2026-11-15T10:00:00Z",
       "tickers": [
         "INGA.AS"
       ],
@@ -3284,7 +4777,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-18T17:11:24Z",
+      "scanned_at": "2026-11-19T17:19:05Z",
       "region": "EU"
     },
     {
@@ -3345,7 +4838,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-18T17:11:30Z",
+      "scanned_at": "2026-11-19T17:19:16Z",
       "region": "EU"
     },
     {
@@ -3385,7 +4878,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-18T17:11:28Z",
+      "scanned_at": "2026-11-19T17:19:13Z",
       "region": "EU"
     },
     {
@@ -4005,6 +5498,25 @@
       "region": "EU"
     },
     {
+      "id": "7cecac515fa94305",
+      "source": "eqs_google",
+      "title": "CHAPTERS Group AG: Capital Increase from Authorized Capital Resolved - TradingView",
+      "summary": "CHAPTERS Group AG: Capital Increase from Authorized Capital Resolved &nbsp;&nbsp; TradingView",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNVVZYdWR2MXpXTDcxVXFjU0oyY2VhUTQwQkJISTl4NV85MmphdE5BSU1XekM5ZjZKcHFDUWM2cE0zeEtkQUFvUnRMS29jcnZ0WHEyM2QtcWVtejZxSFNVTHFheFczRWFDaXpWZ05aUVRzd0oxQmNpcWlhSDRtaVVKci1UU3lUMFpOdURzWW4xLWRYdGtTbVZScXB5dnA5bC0yVEthSldGOGgwQUI5dmJOaFVQRk8zQTBMR3lZTA?oc=5",
+      "published_at": "2026-11-13T17:04:23Z",
+      "tickers": [
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "offering",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "eu_category": "offering",
+      "scanned_at": "2026-11-19T17:19:05Z",
+      "region": "EU"
+    },
+    {
       "id": "33bee548df414a2b",
       "source": "eqs_google",
       "title": "CHAPTERS Group AG: Durchf\u00fchrung einer Barkapitalerh\u00f6hung aus genehmigtem Kapital beschlossen | Ad-hoc - EQS News",
@@ -4040,7 +5552,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-18T17:11:30Z",
+      "scanned_at": "2026-11-19T17:19:16Z",
       "region": "EU"
     },
     {
@@ -4154,7 +5666,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "earnings_nosurprise",
-      "scanned_at": "2026-11-18T17:11:29Z",
+      "scanned_at": "2026-11-19T17:19:12Z",
       "region": "EU"
     },
     {
@@ -4196,7 +5708,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-18T17:11:30Z",
+      "scanned_at": "2026-11-19T17:19:14Z",
       "region": "EU"
     },
     {
@@ -4215,7 +5727,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-18T17:11:30Z",
+      "scanned_at": "2026-11-19T17:19:16Z",
       "region": "EU"
     },
     {
@@ -4234,7 +5746,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-18T17:11:27Z",
+      "scanned_at": "2026-11-19T17:19:08Z",
       "region": "EU"
     },
     {
@@ -5092,7 +6604,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-18T17:11:30Z",
+      "scanned_at": "2026-11-19T17:19:16Z",
       "region": "EU"
     },
     {
@@ -5202,7 +6714,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-18T17:11:24Z",
+      "scanned_at": "2026-11-19T17:19:04Z",
       "region": "EU"
     },
     {
@@ -5293,7 +6805,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-18T17:11:28Z",
+      "scanned_at": "2026-11-19T17:19:13Z",
       "region": "EU"
     },
     {
@@ -5312,7 +6824,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-18T17:11:29Z",
+      "scanned_at": "2026-11-19T17:19:12Z",
       "region": "EU"
     },
     {
@@ -5386,7 +6898,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-18T17:11:28Z",
+      "scanned_at": "2026-11-19T17:19:13Z",
       "region": "EU"
     },
     {
@@ -5423,7 +6935,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-18T17:11:30Z",
+      "scanned_at": "2026-11-19T17:19:16Z",
       "region": "EU"
     },
     {
@@ -5442,7 +6954,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "earnings_nosurprise",
-      "scanned_at": "2026-11-18T17:11:28Z",
+      "scanned_at": "2026-11-19T17:19:13Z",
       "region": "EU"
     },
     {
@@ -5462,7 +6974,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-18T17:11:30Z",
+      "scanned_at": "2026-11-19T17:19:14Z",
       "region": "EU"
     },
     {
@@ -5503,7 +7015,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-18T17:11:28Z",
+      "scanned_at": "2026-11-19T17:19:13Z",
       "region": "EU"
     },
     {
@@ -5523,7 +7035,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-18T17:11:28Z",
+      "scanned_at": "2026-11-19T17:19:13Z",
       "region": "EU"
     },
     {
@@ -5544,7 +7056,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-18T17:11:30Z",
+      "scanned_at": "2026-11-19T17:19:16Z",
       "region": "EU"
     },
     {
@@ -5583,7 +7095,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-18T17:11:30Z",
+      "scanned_at": "2026-11-19T17:19:14Z",
       "region": "EU"
     },
     {
@@ -5641,7 +7153,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-18T17:11:29Z",
+      "scanned_at": "2026-11-19T17:19:12Z",
       "region": "EU"
     },
     {
@@ -5680,7 +7192,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-18T17:11:30Z",
+      "scanned_at": "2026-11-19T17:19:14Z",
       "region": "EU"
     },
     {
@@ -5710,7 +7222,7 @@
       "url": "https://de.finance.yahoo.com/nachrichten/wochenvorschau-termine-25-novem-2026-050509830.html?.tsrc=rss",
       "published_at": "2026-11-12T05:05:09Z",
       "tickers": [
-        "ALV.DE"
+        "MRK.DE"
       ],
       "form": "EU_NEWS",
       "event_type": "other",
@@ -5718,7 +7230,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-18T17:11:30Z",
+      "scanned_at": "2026-11-19T17:19:14Z",
       "region": "EU"
     },
     {
@@ -5816,7 +7328,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-18T17:11:30Z",
+      "scanned_at": "2026-11-19T17:19:16Z",
       "region": "EU"
     },
     {
@@ -5855,7 +7367,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-13T17:39:39Z",
+      "scanned_at": "2026-11-19T17:19:06Z",
       "region": "EU"
     },
     {
@@ -5933,1583 +7445,12 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-18T17:11:29Z",
-      "region": "EU"
-    },
-    {
-      "id": "f1ca7bff5fb3da23",
-      "source": "eqs_google",
-      "title": "Elmos Semiconductor Aktie: MPCM senkt Kursziel - Solide Profitabilit\u00e4t st\u00fctzt die Kaufempfehlung! - AktienCheck.de",
-      "summary": "Elmos Semiconductor Aktie: MPCM senkt Kursziel - Solide Profitabilit\u00e4t st\u00fctzt die Kaufempfehlung! &nbsp;&nbsp; AktienCheck.de",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUVBSVWNGLXRvR2Q2TW9OdFhhc2J4dkJ5SlFFcmFTaGhzTHlNZUNHM1piT0pNVVdQNTh6WmQwaTlkLVVEalFBNHVoLUs5N282VHVGZHJISDVySFMyZjVtMVV0cjJFd1dHYU00LWlPb3diZUJnRW4td3VXYjZQdjVFMnFJc183R2RZZTIycnN4WW9XY051WENpak1TcFhsRDU2WEwyWlpnTWkxaVNLT3o1Ng?oc=5",
-      "published_at": "2026-11-11T12:55:17Z",
-      "tickers": [],
-      "form": "EU_NEWS",
-      "event_type": "analyst",
-      "direction": "bearish",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "9643129d414869d9",
-      "source": "yahoo_eu",
-      "title": "Mercedes-Chef dringt auf Reformen f\u00fcr Industriestandort Deutschland",
-      "summary": "In der Debatte um h\u00f6here Produktivit\u00e4t und niedrigere Arbeitskosten in Deutschland strebt Mercedes-Benz -Chef Ola K\u00e4llenius tiefgreifende Ver\u00e4nderungen an. Derzeit laufen dazu Gespr\u00e4che mit den Betriebsr\u00e4ten des Konzerns. Au\u00dferdem finden Tarifverhandlungen in der Metall- und Elektroindustrie statt, an die auch Mercedes-Benz gebunden ist. \"Wir wollen keinen faulen Kompromiss\", sagte K\u00e4llenius auf einer Veranstaltung der \"S\u00fcddeutschen Zeitung\" in Berlin. Das bringe nichts. \"Wir wolle",
-      "url": "https://de.finance.yahoo.com/nachrichten/mercedes-chef-dringt-reformen-f%C3%BCr-120108066.html?.tsrc=rss",
-      "published_at": "2026-11-11T12:01:08Z",
-      "tickers": [
-        "MBG.DE",
-        "INGA.AS",
-        "ENI.MI",
-        "BATS.L",
-        "SSE.L"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:56Z",
-      "region": "EU"
-    },
-    {
-      "id": "40d74907c214ff67",
-      "source": "yahoo_eu",
-      "title": "ROUNDUP 2/Dank Energiehandel: RWE \u00fcberrascht positiv - Aktie im Plus",
-      "summary": "(neu: weitere Details, Kurs nach Handelsbeginn und Analystenstimmen erg\u00e4nzt)",
-      "url": "https://de.finance.yahoo.com/nachrichten/roundup-2-dank-energiehandel-rwe-095725399.html?.tsrc=rss",
-      "published_at": "2026-11-11T09:57:25Z",
-      "tickers": [
-        "RWE.DE"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-18T17:11:30Z",
-      "region": "EU"
-    },
-    {
-      "id": "5f727586bf2a710f",
-      "source": "yahoo_eu",
-      "title": "Euro f\u00e4llt auf 1,1142 US-Dollar: US-Inflation schiebt Dollar Richtung Jahreshoch",
-      "summary": "Investing.com - Der dritte hei\u00dfe Inflationsmonat in Folge, dazu ein Fed-Gouverneur, der sogar eine Anhebung um 50 Basispunkte ins Spiel bringt: F\u00fcr Euro und britisches Pfund ist das am Mittwoch ein schwieriges Umfeld. Beide W\u00e4hrungen geben nach, w\u00e4hrend der US-Dollar auf seine Jahresh\u00f6chstst\u00e4nde zusteuert. Die Bewegungen fallen bislang moderat aus \u2013 Devisenstrategen trauen dem Greenback aber noch mehr zu.",
-      "url": "https://de.finance.yahoo.com/nachrichten/euro-f%C3%A4llt-1-1142-us-095209923.html?.tsrc=rss",
-      "published_at": "2026-11-11T09:52:09Z",
-      "tickers": [
-        "INGA.AS",
-        "SSE.L"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-18T17:11:27Z",
-      "region": "EU"
-    },
-    {
-      "id": "aad0af3bfb6de43a",
-      "source": "yahoo_eu",
-      "title": "AKTIEN IM FOKUS 2: Eon und RWE uneinheitlich nach Zahlen und Ausblick",
-      "summary": "(Neu: Aktuelle Kursentwicklung, weitere Details und Reaktionen.)",
-      "url": "https://de.finance.yahoo.com/nachrichten/aktien-fokus-2-eon-rwe-093100464.html?.tsrc=rss",
-      "published_at": "2026-11-11T09:31:00Z",
-      "tickers": [
-        "RWE.DE",
-        "EOAN.DE"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "earnings",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "earnings_nosurprise",
-      "scanned_at": "2026-11-18T17:11:30Z",
-      "region": "EU"
-    },
-    {
-      "id": "f9d0126b64698ba6",
-      "source": "yahoo_eu",
-      "title": "Schon +31 %: KI h\u00e4lt diesen Chemiewert, den BASF kaufen will",
-      "summary": "Investing.com \u2013 Der \u00dcbernahmepoker um Evonik geht weiter \u2013 und heute gibt es einen D\u00e4mpfer: Jefferies stuft die Aktie von \u201eKaufen\u201c auf \u201eHalten\u201c ab. Ausgerechnet Jefferies: Mit dessen Kaufempfehlung hatte die KI im Juni unter anderem die Aufnahme begr\u00fcndet. Die KI h\u00e4lt Evonik seit dem 1. Juni in ihrer Strategie \u201eAlpha Germany Select\u201c: Einstieg bei 16,82 \u20ac, heute steht die Aktie auf Tradegate bei 20,76 \u20ac. Das ist ein Kursplus von 23,4 % \u2013 mit der Dividende sind es 31,2 %.\u00b9",
-      "url": "https://de.finance.yahoo.com/nachrichten/schon-31-ki-h%C3%A4lt-diesen-083315150.html?.tsrc=rss",
-      "published_at": "2026-11-11T08:33:15Z",
-      "tickers": [
-        "BAS.DE",
-        "INGA.AS",
-        "SSE.L"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-18T17:11:29Z",
-      "region": "EU"
-    },
-    {
-      "id": "45cf7d30b2820e94",
-      "source": "yahoo_eu",
-      "title": "ANALYSE-FLASH: Jefferies senkt Ziel f\u00fcr Infineon auf 74 Euro - 'Buy'",
-      "summary": "Das Analysehaus Jefferies hat das Kursziel f\u00fcr Infineon von 96 auf 74 Euro gesenkt, aber die Einstufung auf \"Buy\" belassen. Der Ausblick des Halbleiterkonzerns d\u00fcrfte sich als konservativ erweisen, schrieb Janardan Menon in einer am Mittwoch vorliegenden Studie. Das neue Kursziel reflektiere die j\u00fcngste Abwertung des Sektors./rob/edh/mis",
-      "url": "https://de.finance.yahoo.com/nachrichten/analyse-flash-jefferies-senkt-ziel-082003207.html?.tsrc=rss",
-      "published_at": "2026-11-11T08:20:03Z",
-      "tickers": [
-        "IFX.DE",
-        "RWE.DE",
-        "EOAN.DE",
-        "SSE.L"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "analyst",
-      "direction": "bearish",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "analyst",
-      "scanned_at": "2026-11-16T18:23:32Z",
-      "region": "EU"
-    },
-    {
-      "id": "d007b836d55e91fd",
-      "source": "yahoo_eu",
-      "title": "ROUNDUP/Dank Energiehandel: RWE \u00fcberrascht positiv - Sieht Ziele am oberen Ende",
-      "summary": "Das starke Abschneiden beim Handel mit Energie hat sich bei RWE im dritten Quartal fortgesetzt und wird den Energiekonzern auch auf Jahressicht insgesamt anschieben. Die Ergebnisse 2026 d\u00fcrften sich im oberen Bereich der genannten Bandbreiten bewegen, teilte der Dax -Konzern am Mittwoch in Essen mit. Die Aktie legte vorb\u00f6rslich leicht zu.",
-      "url": "https://de.finance.yahoo.com/nachrichten/roundup-dank-energiehandel-rwe-%C3%BCberrascht-080344670.html?.tsrc=rss",
-      "published_at": "2026-11-11T08:03:44Z",
-      "tickers": [
-        "RWE.DE",
-        "SSE.L"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-18T17:11:30Z",
-      "region": "EU"
-    },
-    {
-      "id": "34299d8504d2a103",
-      "source": "yahoo_eu",
-      "title": "AKTIEN IM FOKUS: Eon und RWE vorb\u00f6rslich im Plus nach Zahlen und Ausblick",
-      "summary": "Die Aktien der Energiekonzerne Eon und RWE haben am Mittwoch im vorb\u00f6rslichen Handel mit mehr oder weniger klaren Kursanstiegen auf die Bekanntgabe ihrer j\u00fcngsten Gesch\u00e4ftsentwicklungen reagiert. Die Eon-Papiere legten auf der Handelsplattform Tradegate zum Xetra-Schlusskurs vom Vortag zuletzt um 0,2 Prozent auf 19,18 Euro zu. Die RWE-Anteilsscheine gewannen 1,0 Prozent auf 58,74 Euro.",
-      "url": "https://de.finance.yahoo.com/nachrichten/aktien-fokus-eon-rwe-vorb%C3%B6rslich-074637499.html?.tsrc=rss",
-      "published_at": "2026-11-11T07:46:37Z",
-      "tickers": [
-        "RWE.DE",
-        "EOAN.DE",
-        "ENI.MI"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "earnings",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "earnings_nosurprise",
-      "scanned_at": "2026-11-18T17:11:30Z",
-      "region": "EU"
-    },
-    {
-      "id": "fe5d96974c7e0506",
-      "source": "yahoo_eu",
-      "title": "Allianz oder M\u00fcnchener R\u00fcck? Welche Aktie f\u00fcr 2027 besser aufgestellt ist!",
-      "summary": "Allianz oder M\u00fcnchener R\u00fcck? Beide locken mit starken Gewinnen und Dividenden. Doch nur eine Aktie bietet f\u00fcr 2027 mehr Potenzial! Der Artikel Allianz oder M\u00fcnchener R\u00fcck? Welche Aktie f\u00fcr 2027 besser aufgestellt ist! ist zuerst erschienen auf Aktienwelt360.",
-      "url": "https://www.aktienwelt360.de/2026/11/11/allianz-oder-muenchener-rueck-welche-aktie-fuer-2027-besser-aufgestellt-ist/?.tsrc=rss",
-      "published_at": "2026-11-11T07:45:57Z",
-      "tickers": [
-        "MUV2.DE",
-        "ALV.DE",
-        "SSE.L"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-18T17:11:29Z",
-      "region": "EU"
-    },
-    {
-      "id": "6434eb82d9d3bd35",
-      "source": "eqs_google",
-      "title": "United Internet stock: EUR 24.69, up 0.53% premarket - ad-hoc-news.de",
-      "summary": "United Internet stock: EUR 24.69, up 0.53% premarket &nbsp;&nbsp; ad-hoc-news.de",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNYkU2M0VTSGQwNENFSzQ3MktsZGVDVUxDU0tXVjdKTEF2NWRWNFpVcUNwZmZ4Vm9XaFF2VXZfY1RfeGlFR1ZCbjJHUWNDVVlRQko4dW80TlQ1aFdUSEZtbGdrcWVlV05XUkxkcjdRV0JZbnNwMEFRMlhBdjJ4X0tOVVV4emJQY1ZfOUlzaFVfTjh1TVB5WEJDTUMyLVhoVks5dTNwd3FQd0ZJdkU?oc=5",
-      "published_at": "2026-11-11T07:24:44Z",
-      "tickers": [
-        "NEWS.DE"
-      ],
-      "form": "EU_ADHOC",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T17:39:38Z",
-      "region": "EU"
-    },
-    {
-      "id": "60b54753479ad020",
-      "source": "eqs_google",
-      "title": "SAP-Aktie: JPMorgan erh\u00f6ht Kursziel um 100 \u20ac \u2013 jetzt +31%? - sharedeals.de",
-      "summary": "SAP-Aktie: JPMorgan erh\u00f6ht Kursziel um 100 \u20ac \u2013 jetzt +31%? &nbsp;&nbsp; sharedeals.de",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbVY4R09rd2JFUktwWjJubGw0cGtnZnpmRzVPSE5xOTJQeDEwWXNjRF9JeFcxNGZQcmZmQlpEWlB1Tk5Pb2lsV3MtQlMwaU41RnN5bzllMG4xQVQwOTh2aWowOGhqM2tEbHJNTXg5SWl5QllVbS1COEV3dFl1NDhXbVJ2YU95YzA?oc=5",
-      "published_at": "2026-11-11T06:37:52Z",
-      "tickers": [
-        "SAP.DE"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "analyst",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "analyst",
-      "scanned_at": "2026-11-13T17:39:39Z",
-      "region": "EU"
-    },
-    {
-      "id": "9074825e8388c627",
-      "source": "eqs_google",
-      "title": "Celestica Aktie: Bernstein kappt Kursziel, bleibt bei Outperform - B\u00f6rse Express",
-      "summary": "Celestica Aktie: Bernstein kappt Kursziel, bleibt bei Outperform &nbsp;&nbsp; B\u00f6rse Express",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQaFhSUElCR3JnRGw5dmNEaW9fdHhybG9QcDF0ZmdYS3J0eDJxLS1feEtVSVh6Uk41dngtUHlpdzJmLUotVTNhYkZtUDVIXzVYZlBlYnVTeThoZzVGSjl1OEZpM1RfVGp4SFpKWGZfNW1RalJHZ3J3VkhLVnlhOVpqaG9EZUhXZHM1a2NDeEwyN1RyQS00SWF5SUtoWWg2N0M1NjRiVmZFMnBYdU5GODRFVWZselE?oc=5",
-      "published_at": "2026-11-11T06:30:18Z",
-      "tickers": [],
-      "form": "EU_NEWS",
-      "event_type": "analyst",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "6b6aa9baccaeec31",
-      "source": "eqs_google",
-      "title": "Hellofresh Aktie: Analyst Reid vermisst Umsatzwachstum - B\u00f6rse Express",
-      "summary": "Hellofresh Aktie: Analyst Reid vermisst Umsatzwachstum &nbsp;&nbsp; B\u00f6rse Express",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQT3dBY0p6V1FIMk81eWt1V2F0alVtMXhiYTVwOGdhTEp3WmVTOEllRzZnZHkzS1lJbktrdkdvRm5iNDhNbXpnMFhXdmpwLVc4NDNJV3BLeU9wcVh1MDlidnhYRVNWMVV2Z3Z5UF9nVkFMR0JNVTBIMkEzZ2ZBS0sycHI3bEdxZzRQSkxaSUo5cWtoZ1UtUXo0Sk80aXYxWTg1Q2NiUFY4UDE?oc=5",
-      "published_at": "2026-11-11T06:09:07Z",
-      "tickers": [],
-      "form": "EU_NEWS",
-      "event_type": "analyst",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "065de7cc9e1286a4",
-      "source": "yahoo_eu",
-      "title": "Starker Energiehandel auch im dritten Quartal: RWE schl\u00e4gt Erwartungen",
-      "summary": "Das starke Abschneiden beim Handel mit Energie hat sich bei RWE im dritten Quartal fortgesetzt und wird den Energiekonzern auch auf Jahressicht insgesamt anschieben. Die Ergebnisse 2026 d\u00fcrften sich im oberen Bereich der genannten Bandbreiten bewegen, teilte der Dax -Konzern am Mittwoch in Essen mit. In den ersten neun Monaten \u00fcbertraf RWE die Erwartungen der vom Unternehmen befragten Analysten in dem Gesch\u00e4ftsbereich. In der Folge fiel auch das bereinigte Ergebnis vo",
-      "url": "https://de.finance.yahoo.com/nachrichten/starker-energiehandel-dritten-quartal-rwe-060515400.html?.tsrc=rss",
-      "published_at": "2026-11-11T06:05:15Z",
-      "tickers": [
-        "RWE.DE",
-        "SSE.L"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-18T17:11:30Z",
-      "region": "EU"
-    },
-    {
-      "id": "5aa0ef485fe84957",
-      "source": "yahoo_eu",
-      "title": "Infineon erwartet anhaltenden KI-Rechenzentrumsboom trotz Widerstand",
-      "summary": "Infineon erwartet stark steigende Nachfrage nach Chips f\u00fcr KI-Infrastruktur und setzt auf weiteres Wachstum \u2013 trotz Sorgen um Umwelt und Kosten neuer Rechenzentren.View on euronews",
-      "url": "https://de.euronews.com/2026/11/10/infineon-erwartet-anhaltenden-ki-rechenzentrumsboom-trotz-widerstand?.tsrc=rss",
-      "published_at": "2026-11-11T05:56:12Z",
-      "tickers": [
-        "IFX.DE",
-        "EOAN.DE"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-16T18:23:32Z",
-      "region": "EU"
-    },
-    {
-      "id": "d30a7e3914fe772d",
-      "source": "yahoo_eu",
-      "title": "Die 220-Millionen-Dollar-Absage des Emirates-Chef \u2013\u00a0darum will er keine neuen Frachter von Airbus oder Boeing kaufen",
-      "summary": "Emirates-Chef Tim Clark lehnt den Kauf neuer Airbus-Frachtflugzeuge ab und setzt auf Umbauten. Das kommt die Airline sehr viel g\u00fcnstiger.",
-      "url": "https://www.businessinsider.de/wirtschaft/emirates-chef-erteilt-220-millionen-absage-das-fordert-er-jetzt-von-airbus-und-boeing/?.tsrc=rss",
-      "published_at": "2026-11-10T20:47:26Z",
-      "tickers": [
-        "AIR.PA",
-        "INGA.AS"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T17:39:48Z",
-      "region": "EU"
-    },
-    {
-      "id": "d57a69c91534d07e",
-      "source": "yahoo_eu",
-      "title": "Merck KGaA erh\u00e4lt US-Marktzulassung f\u00fcr Pimjetmi",
-      "summary": "Der Pharma- und Chemiekonzern Merck KGaA hat in den USA eine Marktzulassung f\u00fcr Pimjetmi erhalten. Die zust\u00e4ndige Beh\u00f6rde FDA habe das Medikament als neue, einmal t\u00e4glich verabreichte, orale, systemische Behandlung f\u00fcr definierte Patienten mit symptomatischem tenosynovialen Riesenzelltumor (TGCT) genehmigt, teilte das Unternehmen am Dienstagabend mit. Die Phase-3-Studie MANEUVER habe f\u00fcr Pimjetmi fr\u00fch einsetzendes und anhaltendes Tumoransprechen mit klinisch bedeutsamen Verbesseru",
-      "url": "https://de.finance.yahoo.com/nachrichten/merck-kgaa-erh%C3%A4lt-us-marktzulassung-183120583.html?.tsrc=rss",
-      "published_at": "2026-11-10T18:31:20Z",
-      "tickers": [
-        "MRK.DE",
-        "SSE.L"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-18T17:11:30Z",
-      "region": "EU"
-    },
-    {
-      "id": "5b0a39d2b042ee1f",
-      "source": "yahoo_eu",
-      "title": "ANALYSE-FLASH: Bernstein bel\u00e4sst Adidas auf 'Outperform' - Ziel 245 Euro",
-      "summary": "Das US-Analysehaus Bernstein Research hat die Einstufung f\u00fcr Adidas mit einem Kursziel von 245 Euro auf \"Outperform\" belassen. Die Nachfrage in China bleibe mau, schrieb Aneesha Sherman am Dienstag anl\u00e4sslich des deutlichen R\u00fcckgangs der Einzelhandelsums\u00e4tze im Oktober bei Pou Sheng, Partner von Adidas und Nike. Damit sei der Erholungstrend seit August gebrochen und klar, dass es noch keine strukturelle Besserung gebe./ag/la",
-      "url": "https://de.finance.yahoo.com/nachrichten/analyse-flash-bernstein-bel%C3%A4sst-adidas-143503500.html?.tsrc=rss",
-      "published_at": "2026-11-10T14:35:03Z",
-      "tickers": [
-        "ADS.DE",
-        "RO.SW",
-        "SSE.L"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "analyst",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "analyst",
-      "scanned_at": "2026-11-13T17:39:49Z",
-      "region": "EU"
-    },
-    {
-      "id": "1e5445c93181bbd9",
-      "source": "eqs_google",
-      "title": "Infineon Aktie: Analyst lobt Ausblick f\u00fcr 2027 - 96 EUR Kursziel best\u00e4tigt - AktienCheck.de",
-      "summary": "Infineon Aktie: Analyst lobt Ausblick f\u00fcr 2027 - 96 EUR Kursziel best\u00e4tigt &nbsp;&nbsp; AktienCheck.de",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTE1iaFY1amVQQUxWdGlrdjYxZno2bFFoSVk2LV93TE56elVFczluNnBsVVcxMEFKWFV2U1lhN1RyelNNZkM2clFIOGEyQmVLdGZEczJxN2JQWEZnTlhrTzlXUmQ0QWhrMTUwTDRxWWJhZWxCN2ttdXBPS2RxLURVWDBXTFJfcnoxZ0NjdkdyYXdzT290LUhOWFR4cHo2SGN0dDFVMzJMQQ?oc=5",
-      "published_at": "2026-11-10T14:17:10Z",
-      "tickers": [
-        "IFX.DE",
-        "EOAN.DE"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "analyst",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "9066adb74486c5d4",
-      "source": "yahoo_eu",
-      "title": "Bau von Rechenzentren: M\u00fcnchener Chip-Hersteller Infineon meldet Rekordquartal",
-      "summary": "Der M\u00fcnchener Halbleiterhersteller Infineon profitiert stark vom weltweiten Ausbau von Rechenzentren.Hanebeck zeigte sich \u00fcberzeugt, dass der starke Ausbau von Rechenzentren weltweit anhalten werde.",
-      "url": "https://de.finance.yahoo.com/nachrichten/bau-rechenzentren-m%C3%BCnchener-chip-hersteller-104236367.html?.tsrc=rss",
-      "published_at": "2026-11-10T10:42:36Z",
-      "tickers": [
-        "IFX.DE",
-        "EOAN.DE"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-16T18:23:32Z",
-      "region": "EU"
-    },
-    {
-      "id": "a22f90dab88e3fe2",
-      "source": "yahoo_eu",
-      "title": "ROUNDUP: Infineon verdient dank KI-Boom deutlich mehr - Wachstum soll anziehen",
-      "summary": "Der Chiphersteller Infineon erwartet nach einem Umsatz- und Gewinnsprung ein deutlich anziehendes Wachstum im neuen Gesch\u00e4ftsjahr. Dabei profitiert das Unternehmen weiter von der milliardenschweren Nachfrage nach Stromchips f\u00fcr KI-Rechenzentren. Aber auch das Automobilgesch\u00e4ft erholt sich zunehmend.",
-      "url": "https://de.finance.yahoo.com/nachrichten/roundup-infineon-verdient-dank-ki-101426240.html?.tsrc=rss",
-      "published_at": "2026-11-10T10:14:26Z",
-      "tickers": [
-        "IFX.DE",
-        "EOAN.DE"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-16T18:23:32Z",
-      "region": "EU"
-    },
-    {
-      "id": "fbb2971fa7b8772c",
-      "source": "yahoo_eu",
-      "title": "ROUNDUP: Henkel erwartet deutlich steigende Materialpreise - Aktie gewinnt",
-      "summary": "Der Konsumg\u00fcterhersteller Henkel rechnet im laufenden Jahr mit h\u00f6heren Materialkosten. Die Preise von direkt ben\u00f6tigten Materialien d\u00fcrften im Gesamtjahr um rund zehn Prozent steigen, teilte der Dax-Konzern mit seinen endg\u00fcltigen Quartalszahlen am Dienstag in D\u00fcsseldorf mit. Bisher hatte Vorstandschef Carsten Knobel mit einem Anstieg im hohen einstelligen Prozentbereich gerechnet. Wie stark sich dies auf die Verkaufspreise auswirkt, blieb zun\u00e4chst offen.",
-      "url": "https://de.finance.yahoo.com/nachrichten/roundup-henkel-erwartet-deutlich-steigende-095447797.html?.tsrc=rss",
-      "published_at": "2026-11-10T09:54:47Z",
-      "tickers": [
-        "HEN3.DE",
-        "SSE.L"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "earnings",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "earnings_nosurprise",
-      "scanned_at": "2026-11-18T17:11:31Z",
-      "region": "EU"
-    },
-    {
-      "id": "17d6b9f2772dcbc5",
-      "source": "yahoo_eu",
-      "title": "ANALYSE-FLASH: JPMorgan bel\u00e4sst Infineon auf 'Overweight'",
-      "summary": "Die US-Bank JPMorgan hat Infineon nach Zahlen zum vierten Gesch\u00e4ftsquartal 2025/26 mit einem Kursziel von 96 Euro auf \"Overweight\" belassen. Die Prognose f\u00fcr Umsatz und Segmentergebnismarge 2026/27 entspr\u00e4chen weitgehend den Markterwartungen oder l\u00e4gen sogar leicht dar\u00fcber, schrieb Sandeep Deshpande am Dienstagmorgen. Der Analyst erinnerte daran, dass Infineon mit seinen Prognosen eher vorsichtig sei. Daher ist er optimistisch. \"Das Schlimmste ist \u00fcberstanden, die Nachrichten ware",
-      "url": "https://de.finance.yahoo.com/nachrichten/analyse-flash-jpmorgan-bel%C3%A4sst-infineon-093504114.html?.tsrc=rss",
-      "published_at": "2026-11-10T09:35:04Z",
-      "tickers": [
-        "IFX.DE",
-        "RWE.DE",
-        "EOAN.DE",
-        "SSE.L"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "analyst",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "analyst",
-      "scanned_at": "2026-11-16T18:23:32Z",
-      "region": "EU"
-    },
-    {
-      "id": "c3705191a0b7f03f",
-      "source": "yahoo_eu",
-      "title": "AKTIE IM FOKUS: Henkel setzen nach finalen Zahlen Kursrally fort",
-      "summary": "Die Vorz\u00fcge von Henkel setzen am Dienstag nach finalen Quartalszahlen ihren starken Lauf fort.",
-      "url": "https://de.finance.yahoo.com/nachrichten/aktie-fokus-henkel-setzen-finalen-090337140.html?.tsrc=rss",
-      "published_at": "2026-11-10T09:03:37Z",
-      "tickers": [
-        "HEN3.DE"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "earnings",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "earnings_nosurprise",
-      "scanned_at": "2026-11-18T17:11:31Z",
-      "region": "EU"
-    },
-    {
-      "id": "5450e1f61dfa982f",
-      "source": "yahoo_eu",
-      "title": "Henkel erwartet deutlich steigende Materialpreise",
-      "summary": "Im dritten Quartal legt Henkel beim Umsatz deutlich zu, vor allem h\u00f6here Preise treiben das Plus. Der Konzern sieht sich jedoch mit steigenden Kosten konfrontiert.",
-      "url": "https://de.finance.yahoo.com/nachrichten/henkel-erwartet-deutlich-steigende-materialpreise-085719403.html?.tsrc=rss",
-      "published_at": "2026-11-10T08:57:19Z",
-      "tickers": [
-        "HEN3.DE"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-18T17:11:31Z",
-      "region": "EU"
-    },
-    {
-      "id": "f00bd08632b3cb4c",
-      "source": "yahoo_eu",
-      "title": "Renault-Aktie auf Achtwochenhoch: Jefferies stuft auf \u201eBuy\u201c hoch, Kursziel 34 Euro",
-      "summary": "Investing.com - W\u00e4hrend Europas Autobauer mit chinesischer Konkurrenz und steigenden Kosten ringen, traut Jefferies Renault mehr Gegenwehr zu als vielen Rivalen: Das Analysehaus stufte den franz\u00f6sischen Hersteller am Dienstag von \u201eHold\u201c auf \u201eBuy\u201c hoch, die Aktie zog daraufhin an. Deutlich zur\u00fcckhaltender f\u00e4llt das Urteil \u00fcber den deutschen Konkurrenten Mercedes-Benz aus.",
-      "url": "https://de.finance.yahoo.com/nachrichten/renault-aktie-achtwochenhoch-jefferies-stuft-081146279.html?.tsrc=rss",
-      "published_at": "2026-11-10T08:11:46Z",
-      "tickers": [
-        "MBG.DE",
-        "RNO.PA",
-        "INGA.AS"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "analyst",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "analyst",
-      "scanned_at": "2026-11-17T17:34:36Z",
-      "region": "EU"
-    },
-    {
-      "id": "98c1dce2c7256816",
-      "source": "yahoo_eu",
-      "title": "ANALYSE-FLASH: JPMorgan nimmt BAT mit 'Overweight' auf - Ziel 5300 Pence",
-      "summary": "Die US-Bank JPMorgan hat die Bewertung von British American Tobacco (BAT) beim Kursziel von 5300 Pence mit \"Overweight\" wieder aufgenommen. Die neuen Produktkategorien (NGP) mit rauchfreien Alternativen heizten das Wachstum der Tabakbranche an, schrieb Edward Hockin am Montag. Sie leisteten einen immer bedeutenderen Gewinnbeitrag f\u00fcr die Konzerne. Bei British American Tobacco sieht Hockin aktuell die attraktivste Kombination aus Wachstum und Bewertung./ag/tih",
-      "url": "https://de.finance.yahoo.com/nachrichten/analyse-flash-jpmorgan-nimmt-bat-074958548.html?.tsrc=rss",
-      "published_at": "2026-11-10T07:49:58Z",
-      "tickers": [
-        "RWE.DE",
-        "BATS.L"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "analyst",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "analyst",
-      "scanned_at": "2026-11-17T17:34:35Z",
-      "region": "EU"
-    },
-    {
-      "id": "6fdbb343c3a3381f",
-      "source": "yahoo_eu",
-      "title": "AKTIE IM FOKUS: Infineon setzen Rally nach Zahlen und Ausblick fort",
-      "summary": "Die Aktien von Infineon haben am Dienstag im vorb\u00f6rslichen Handel mit einem weiteren Kurssprung auf die Bekanntgabe der j\u00fcngsten Gesch\u00e4ftsentwicklung des Halbleiterkonzerns reagiert. Auf der Handelsplattform Tradegate stiegen die Papiere zum Xetra-Schlusskurs vom Vortag zuletzt um 6,7 Prozent auf 51,88 Euro. Tags zuvor hatten sie bereits im Zuge einer deutlichen Erholung der KI- und Halbleiterwerte um 6,3 Prozent zugelegt.",
-      "url": "https://de.finance.yahoo.com/nachrichten/aktie-fokus-infineon-setzen-rally-074747870.html?.tsrc=rss",
-      "published_at": "2026-11-10T07:47:47Z",
-      "tickers": [
-        "IFX.DE",
-        "RWE.DE",
-        "EOAN.DE"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "earnings",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "earnings_nosurprise",
-      "scanned_at": "2026-11-16T18:23:32Z",
-      "region": "EU"
-    },
-    {
-      "id": "59c21156c1de2c8a",
-      "source": "yahoo_eu",
-      "title": "Infineon mit Rekordquartal: KI h\u00e4lt die Aktie weiter, schon +24 %",
-      "summary": "Investing.com \u2013 Ein Rekordquartal und ein kr\u00e4ftiger Ausblick: Infineon hat heute fr\u00fch seine Zahlen f\u00fcr das Gesch\u00e4ftsjahr 2026 vorgelegt und erwartet f\u00fcr das neue Jahr mehr als 20 % Umsatzwachstum \u2013 getrieben vor allem von Chips f\u00fcr die Stromversorgung von KI-Rechenzentren. Die Anleger greifen zu: Auf Tradegate legt die Aktie am Morgen um 5,4 % auf 51,23 \u20ac zu. Die KI h\u00e4lt Infineon seit dem 1. Februar in ihrer Strategie \u201eAlpha Germany Select\u201c: Einstieg bei 41,29 \u20ac, jetzt steht die Aktie bei 51,23",
-      "url": "https://de.finance.yahoo.com/nachrichten/infineon-rekordquartal-ki-h%C3%A4lt-aktie-072929103.html?.tsrc=rss",
-      "published_at": "2026-11-10T07:29:29Z",
-      "tickers": [
-        "IFX.DE",
-        "EOAN.DE",
-        "INGA.AS"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "earnings",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "earnings_nosurprise",
-      "scanned_at": "2026-11-16T18:23:32Z",
-      "region": "EU"
-    },
-    {
-      "id": "3a2535d0b7f34288",
-      "source": "yahoo_eu",
-      "title": "Infineon hebt Umsatzprognose f\u00fcr Rechenzentren wegen KI-Wachstum an",
-      "summary": "Infineon hat seine Umsatzprognose f\u00fcr Rechenzentren f\u00fcr 2027 nach oben korrigiert. Damit signalisiert der deutsche Chiphersteller Zuversicht, dass das Gesch\u00e4ft das Wachstum antreiben wird, w\u00e4hrend unter Investoren die Sorgen \u00fcber den Boom bei k\u00fcnstlicher Intelligenz zunehmen.",
-      "url": "https://de.finance.yahoo.com/nachrichten/infineon-hebt-umsatzprognose-f%C3%BCr-rechenzentren-072430227.html?.tsrc=rss",
-      "published_at": "2026-11-10T07:24:30Z",
-      "tickers": [
-        "IFX.DE",
-        "EOAN.DE"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-16T18:23:32Z",
-      "region": "EU"
-    },
-    {
-      "id": "5a46a6c9320847d6",
-      "source": "yahoo_eu",
-      "title": "Deutsche Telekom: 1.000 Euro heute investiert \u2013 das bringt die Aktie inkl. Dividende 2027!",
-      "summary": "Die Telekom liefert starke Zahlen, lockt mit Dividende und Milliardenr\u00fcckk\u00e4ufen. Doch wie viel Kurspotenzial bleibt Anlegern bis 2027? Der Artikel Deutsche Telekom: 1.000 Euro heute investiert \u2013 das bringt die Aktie inkl. Dividende 2027! ist zuerst erschienen auf Aktienwelt360.",
-      "url": "https://www.aktienwelt360.de/2026/11/10/deutsche-telekom-1-000-euro-heute-investiert-das-bringt-die-aktie-inkl-dividende-2027/?.tsrc=rss",
-      "published_at": "2026-11-10T07:15:02Z",
-      "tickers": [
-        "DTE.DE",
-        "INGA.AS"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-18T17:11:28Z",
-      "region": "EU"
-    },
-    {
-      "id": "14756f722c282710",
-      "source": "yahoo_eu",
-      "title": "Henkel erwartet h\u00f6here Materialpreise und Umbaukosten",
-      "summary": "Der Konsumg\u00fcterhersteller Henkel rechnet im laufenden Jahr mit h\u00f6heren Kosten f\u00fcr Material und Konzernumbau. Die Preise von direkt ben\u00f6tigten Materialien d\u00fcrften im Gesamtjahr um rund zehn Prozent steigen, teilte der Dax-Konzern mit seinen endg\u00fcltigen Quartalszahlen am Dienstag in D\u00fcsseldorf mit. Bisher hatte Vorstandschef Carsten Knobel mit einem Anstieg im hohen einstelligen Prozentbereich gerechnet. Zudem d\u00fcrften die Restrukturierungskosten nach seiner Einsch\u00e4tz",
-      "url": "https://de.finance.yahoo.com/nachrichten/henkel-erwartet-h%C3%B6here-materialpreise-umbaukosten-071350620.html?.tsrc=rss",
-      "published_at": "2026-11-10T07:13:50Z",
-      "tickers": [
-        "HEN3.DE",
-        "GSK.L",
-        "SSE.L"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "earnings",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "earnings_nosurprise",
-      "scanned_at": "2026-11-18T17:11:31Z",
-      "region": "EU"
-    },
-    {
-      "id": "ce32519162247fef",
-      "source": "eqs_google",
-      "title": "LEM HOLDING SA Ad hoc announcement pursuant to Art. 53 LR 10 November 2026 - EQS News",
-      "summary": "LEM HOLDING SA Ad hoc announcement pursuant to Art. 53 LR 10 November 2026 &nbsp;&nbsp; EQS News",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZGx2QmlZb3l1LXdobFRKWVA0S2c4LThSR2pLaHBmYzVPd0lucElVQVYyR240dGdHNHkwMFRib1FmN3dMOHVFbjZ4RE1VRmcwRWl1V0t4NmxnS3dGRjZubGFkYWx4akNJR3p0VzQ0dXNscVZMR3gzem54QWhtZ0VlWEU4V2tiOTVvMHpBT1JkRF9TSWpzMURaSkl3ZVR4b3JRcWVzYXp2TjJBR19IcEdCeGhDNGRweEJsTENhMlpJaVY0Ti1jdEhPblNGNEgzQzI0TTBF?oc=5",
-      "published_at": "2026-11-10T06:43:01Z",
-      "tickers": [
-        "INGA.AS"
-      ],
-      "form": "EU_ADHOC",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-18T17:11:24Z",
-      "region": "EU"
-    },
-    {
-      "id": "8c80f06b19295a7a",
-      "source": "yahoo_eu",
-      "title": "ANALYSE-FLASH: Jefferies senkt Mercedes-Benz auf 'Hold' - Ziel auf 44 Euro",
-      "summary": "Das Analysehaus Jefferies hat das Kursziel f\u00fcr Mercedes-Benz von 46 auf 44 Euro gesenkt und die Aktien von \"Buy\" auf \"Hold\" abgestuft. Wie BMW br\u00e4uchten auch die Stuttgarter eine tiefgreifende Renovierung ihres Gesch\u00e4ftsmodells, schrieb Philippe Houchois in seiner am Dienstag vorliegenden Neubewertung im Nachgang des Quartalsberichts. Er monierte insbesondere, dass sie sich mit ihrem Liquidit\u00e4tsprofil kaum noch abheben. \u00dcber den verbleibenden Rest des noch laufenden Aktienr\u00fcckkauf",
-      "url": "https://de.finance.yahoo.com/nachrichten/analyse-flash-jefferies-senkt-mercedes-063502150.html?.tsrc=rss",
-      "published_at": "2026-11-10T06:35:02Z",
-      "tickers": [
-        "MBG.DE",
-        "BMW.DE"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "analyst",
-      "direction": "bearish",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:56Z",
-      "region": "EU"
-    },
-    {
-      "id": "3f820a04ecf72ef3",
-      "source": "yahoo_eu",
-      "title": "ANALYSE-FLASH: Jefferies hebt Renault auf 'Buy' - Ziel hoch auf 34 Euro",
-      "summary": "Das Analysehaus Jefferies hat das Kursziel f\u00fcr Renault von 30 auf 34 Euro angehoben und die Aktien von \"Hold\" auf \"Buy\" hochgestuft. F\u00fcr 2027 gebe es mehr gute Argumente f\u00fcr die Franzosen als f\u00fcr viele Konkurrenten, schrieb Philippe Houchois in seiner am Dienstag vorliegenden Neubewertung. Er erinnerte daran, dass sie keine direkte China-Abh\u00e4ngigkeit besitzen, protektionistische Ma\u00dfnahmen in der EU helfen d\u00fcrften, sich das E-Auto-Gesch\u00e4ftsmix bessere und dem gemeinsam mit dem chin",
-      "url": "https://de.finance.yahoo.com/nachrichten/analyse-flash-jefferies-hebt-renault-063501086.html?.tsrc=rss",
-      "published_at": "2026-11-10T06:35:01Z",
-      "tickers": [
-        "RNO.PA",
-        "SSE.L"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "analyst",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "analyst",
-      "scanned_at": "2026-11-17T17:34:36Z",
-      "region": "EU"
-    },
-    {
-      "id": "c15e7d173bae8899",
-      "source": "yahoo_eu",
-      "title": "Fehlende Teile: BMW l\u00e4sst Schichten ausfallen",
-      "summary": "Der Autobauer BMW hat Probleme mit fehlenden Teilen. \"Aufgrund kurzfristiger Engp\u00e4sse in der externen Teileversorgung kam beziehungsweise kommt es derzeit zu Schichtausf\u00e4llen in einzelnen BMW Group Werken\", sagte ein Sprecher auf Nachfrage.",
-      "url": "https://de.finance.yahoo.com/nachrichten/fehlende-teile-bmw-l%C3%A4sst-schichten-045545020.html?.tsrc=rss",
-      "published_at": "2026-11-10T04:55:45Z",
-      "tickers": [
-        "BMW.DE",
-        "SSE.L"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-17T17:34:35Z",
-      "region": "EU"
-    },
-    {
-      "id": "e1960ba64197afef",
-      "source": "eqs_google",
-      "title": "fox e-mobility AG: Testierter Jahresfinanzbericht 2025 - Kursnotierung wird, morgen Dienstag, 10.11.2026, and der B\u00f6rse D\u00fcsseldorf wieder aufgenommen | Ad-hoc - EQS News",
-      "summary": "fox e-mobility AG: Testierter Jahresfinanzbericht 2025 - Kursnotierung wird, morgen Dienstag, 10.11.2026, and der B\u00f6rse D\u00fcsseldorf wieder aufgenommen | Ad-hoc &nbsp;&nbsp; EQS News",
-      "url": "https://news.google.com/rss/articles/CBMi7wJBVV95cUxOZUJvZlB3b29PaF9mZWdxdUtMNC0zN3dlMnhtNlZsZkFvMnVNdTFJR0lDVUY2MjNkUUwwaGZWWnBxb0JvWkxPa3YxU1BRcUd5QlBZYUFzUkRfNzdpcHhrVFVLbFpreHl5OVJmeUcteV8yUl9sN24tRUdzR2ZCMUJTb0ljdjJSZGRaRi1zSE1ubEluQXRsZTlkMEJzNDc1U2RKNXR4MWFRbWp2VEU5dXVxZFZ3TWI3RWJKbVY1Y0RLU2xmTkRDTFNWaG1ONk5sZDhzYnZLOVRjMUc3cGstVGRPaXE4RVhTWE16Y2lhdUZMakVqRk1oUkRWeG4tOV84Q3NNTE9NTFhrM3hTcHhKOXBGVGNiZ2djaWRCUHUzcC0wOEQ2d0Z6WDFnSTYzVTVoYTJFOUZIWHRoV1lrUzVvdzhraHhPV1ZTaVlvTUpnWl9Xb1NWVFc0LTRLQmxRNGNOYjdDTzdQS2hEUjJTQU1mdC1F?oc=5",
-      "published_at": "2026-11-09T18:00:00Z",
-      "tickers": [
-        "SSE.L"
-      ],
-      "form": "EU_ADHOC",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T17:39:37Z",
-      "region": "EU"
-    },
-    {
-      "id": "9c38b460d3f38af8",
-      "source": "eqs_google",
-      "title": "CEWE Stiftung & Co. KGaA: CEWE konkretisiert Ergebnisprognose 2026 um Transaktionskosten f\u00fcr Kodak Moments Akquisition und erg\u00e4nzt 25,2 Mio. Euro Nachsteuergewinn aus KOD-Verkauf | Ad-hoc - EQS News",
-      "summary": "CEWE Stiftung & Co. KGaA: CEWE konkretisiert Ergebnisprognose 2026 um Transaktionskosten f\u00fcr Kodak Moments Akquisition und erg\u00e4nzt 25,2 Mio. Euro Nachsteuergewinn aus KOD-Verkauf | Ad-hoc &nbsp;&nbsp; EQS News",
-      "url": "https://news.google.com/rss/articles/CBMilwNBVV95cUxPa25yMW83NE5qOERXVF8tRW5QNFJjNHRUVUYzTnFtaFBiNmxOeWpabTlFeG5WazF2OWxYRXBQcU9menR0a3phV0lnMDRNSkYySEg4RjJSb19LaEtSb3dJRm92eTRXZEVKWG1IcVl1ZFUydFAzUTdmekI1d19pRzZYYUkxOWNNTlZkQzhuMzdjeGtEeHpVVGJfaktHVEFkLVkzZFZ3RW16RU5XVnVpVzB3M1FxU0FQbXVkTTEtaGFfQzE4cEZ6ekdDR0xrVzd0Sl9iU1gxWktTdGJiZ2hwSk4ybEo4bm5oa1paWGM4cXh0amtnWjRPQ3FEZ3RFbFc3VFhreWt6eW9JQWZ0T0JCdF9zelpsLXFLbnNKbF9wME5WMlRRZjctU1BxRXNtZjI0aF81Q0lhR3Z3N0MtQmRyVUJmX3d3cXgyaGYybE5jSUx0OUVFUTExU1RveEVlSW5OUk9KSDI1QzJoX2dIdXRscjRHZldDQlh6bVdFS0JmOHdFdnA5SVpaVnY1dlhXaFB3TkJuc241RHh5Yw?oc=5",
-      "published_at": "2026-11-09T15:33:00Z",
-      "tickers": [],
-      "form": "EU_ADHOC",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:50Z",
-      "region": "EU"
-    },
-    {
-      "id": "9301d2ef7b7c4906",
-      "source": "yahoo_eu",
-      "title": "Kreise: Weiterhin keine Verhandlungen zwischen BASF und Evonik",
-      "summary": "Der Chemiekonzern Evonik verhandelt weiterhin nicht mit BASF \u00fcber dessen \u00dcbernahmepl\u00e4ne. Dies erfuhr die Deutsche Presse-Agentur aus Kreisen der beteiligten Unternehmen. Demnach hatte es am Wochenende einen Austausch auf der Ebene der Vorstands- und Finanzchefs gegeben. Dabei h\u00e4tten beide Unternehmen ihre Positionen erl\u00e4utert. Danach sei man wieder auseinandergegangen. Offiziell \u00e4u\u00dferten sich die Unternehmen zu dem Treffen nicht.",
-      "url": "https://de.finance.yahoo.com/nachrichten/kreise-weiterhin-keine-verhandlungen-zwischen-151359230.html?.tsrc=rss",
-      "published_at": "2026-11-09T15:13:59Z",
-      "tickers": [
-        "BAS.DE",
-        "SSE.L"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-17T17:34:34Z",
-      "region": "EU"
-    },
-    {
-      "id": "7430c91d58ce45ec",
-      "source": "eqs_google",
-      "title": "Ernst Russ AG: Anhebung der Prognose f\u00fcr das Gesch\u00e4ftsjahr 2026 | Ad-hoc - EQS News",
-      "summary": "Ernst Russ AG: Anhebung der Prognose f\u00fcr das Gesch\u00e4ftsjahr 2026 | Ad-hoc &nbsp;&nbsp; EQS News",
-      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPejBJcDJ4RXlhdS1xZG53VFJZdGNBR1NmWWpGWEg5dUF3TkdDNVRadVBsaHBVOVF0VHhBVGZiMlE0ZldzaWxQOHVQX0M3QnZWTkdab2l3Y25JS0FqUi1fYm8yeFlydndzSmgyUUV0SmY1ZGczLWlUNDJLWGctSVZUb1BWVFRSRkNLSHZJem9keDl4NWpEODNBQTBUZkFJd0pBTUtMMWdBelNETzIyOGoxLThwUmFpcHYzTXFmYXJwai1YakdKWjgzbUl6MTRjeV9pRVY4czR2V1A4N3hvX2tneWF5MERMX0FxZ3VrOEhfcHVuSHRPZmNYRjRDTUZuamNGRGJn?oc=5",
-      "published_at": "2026-11-09T13:44:00Z",
-      "tickers": [],
-      "form": "EU_ADHOC",
-      "event_type": "guidance_cut",
-      "direction": "bearish",
-      "news_side": "short",
-      "actionable": false,
-      "eu_category": "earnings_chase",
-      "scanned_at": "2026-11-13T17:39:37Z",
-      "region": "EU"
-    },
-    {
-      "id": "82076ea945523440",
-      "source": "yahoo_eu",
-      "title": "ROUNDUP/Kreise: ABB und Softbank erw\u00e4gen Abspaltung des Robotik-China-Gesch\u00e4fts",
-      "summary": "Der Schweizer Elektrokonzern ABB erw\u00e4gt laut Kreisen die Ausgliederung des China-Gesch\u00e4fts seiner Robotik-Sparte. Ein geplanter Verkauf des Bereichs an den japanischen Mischkonzern Softbank war in der vergangenen Woche durch die chinesischen Beh\u00f6rden gestoppt worden. Die ABB-Aktie erholte sich am Montag in Z\u00fcrich leicht von den Verlusten vor dem Wochenende.",
-      "url": "https://de.finance.yahoo.com/nachrichten/roundup-kreise-abb-softbank-erw%C3%A4gen-133711166.html?.tsrc=rss",
-      "published_at": "2026-11-09T13:37:11Z",
-      "tickers": [
-        "ABBN.SW"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-18T17:11:31Z",
-      "region": "EU"
-    },
-    {
-      "id": "4794fc3266cec8c5",
-      "source": "yahoo_eu",
-      "title": "Telekom verdoppelt KI-Rechenleistung in M\u00fcnchen",
-      "summary": "Die Deutsche Telekom baut angesichts einer anhaltend hohen Nachfrage ihre KI-Fabrik in M\u00fcnchen deutlich aus. Wie der Konzern bekanntgab, wird die Kapazit\u00e4t des erst im Februar in Betrieb genommenen Rechenzentrums im Tucherpark quasi verdoppelt.",
-      "url": "https://de.finance.yahoo.com/nachrichten/telekom-verdoppelt-ki-rechenleistung-m%C3%BCnchen-105841938.html?.tsrc=rss",
-      "published_at": "2026-11-09T10:58:41Z",
-      "tickers": [
-        "DTE.DE"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-18T17:11:28Z",
-      "region": "EU"
-    },
-    {
-      "id": "7f2a536ffed09196",
-      "source": "yahoo_eu",
-      "title": "Nachfrage nach KI: Deutsche Telekom baut M\u00fcnchner Rechenzentrum aus",
-      "summary": "Aufgrund der hohen Nachfrage nach Rechenleistung f\u00fcr K\u00fcnstliche Intelligenz (KI) baut die Deutsche Telekom ihre erst im Februar er\u00f6ffnete \"KI-Fabrik\" in M\u00fcnchen bereits aus.Auch eigene KI-Modelle k\u00f6nnten in der KI-Fabrik trainiert werden.",
-      "url": "https://de.finance.yahoo.com/nachrichten/nachfrage-ki-deutsche-telekom-baut-101119987.html?.tsrc=rss",
-      "published_at": "2026-11-09T10:11:19Z",
-      "tickers": [
-        "DTE.DE"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-18T17:11:28Z",
-      "region": "EU"
-    },
-    {
-      "id": "b1a1b1f981422d1b",
-      "source": "yahoo_eu",
-      "title": "BMW will mehr Batteriezellen aus Europa und den USA kaufen",
-      "summary": "BMW will mehr Batteriezellen aus Europa und den USA kaufen. Dort sollen die Bauteile f\u00fcr die neuen Batterien der sechsten Generation in Fabriken der beiden s\u00fcdkoreanischen Konzerne Samsung und LG hergestellt werden, wie die M\u00fcnchner mitteilen. Die Lieferung sollen Ende des Jahrzehnts beginnen. BMW will dadurch Transportwege verk\u00fcrzen und die Versorgungssicherheit st\u00e4rken. Aktuell kommen Batteriezellen f\u00fcr die Autoindustrie sehr oft aus China.",
-      "url": "https://de.finance.yahoo.com/nachrichten/bmw-will-mehr-batteriezellen-europa-073959349.html?.tsrc=rss",
-      "published_at": "2026-11-09T07:39:59Z",
-      "tickers": [
-        "BMW.DE",
-        "BATS.L"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-17T17:34:35Z",
-      "region": "EU"
-    },
-    {
-      "id": "57b63a3ecb202178",
-      "source": "yahoo_eu",
-      "title": "ANALYSE-FLASH: JPMorgan hebt SAP auf 'Overweight' - Ziel auf 275 Euro",
-      "summary": "Die US-Bank JPMorgan hat das Kursziel f\u00fcr SAP um 100 Euro auf 275 Euro erh\u00f6ht und die Aktien von \"Neutral\" auf \"Overweight\" hochgestuft. Das Thema KI gehe in den Unternehmen aus der Pilotphase in die produktive Nutzung \u00fcber, schrieb Toby Ogg am Freitagabend. Es nehme Einzug in die zentralen Systeme - wie die SAP-Software. Gleichzeitig mache das eigene KI-Angebot der Walldorfer Fortschritte. Ogg geht von einer schnellen Amortisierung aus. Die SAP-Aktien st\u00fcnden nach der Erholung se",
-      "url": "https://de.finance.yahoo.com/nachrichten/analyse-flash-jpmorgan-hebt-sap-062003650.html?.tsrc=rss",
-      "published_at": "2026-11-09T06:20:03Z",
-      "tickers": [
-        "SAP.DE",
-        "RWE.DE"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "analyst",
-      "direction": "bearish",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "analyst",
-      "scanned_at": "2026-11-18T17:11:32Z",
-      "region": "EU"
-    },
-    {
-      "id": "fe35ba113d048133",
-      "source": "yahoo_eu",
-      "title": "UBS-Chef warnt vor einer Verlangsamung beim Ausbau von KI, w\u00e4hrend der Bau von Rechenzentren einen Rekord erreicht",
-      "summary": "Der Bau von US-Rechenzentren erreichte im September mit 96,5 Milliarden USD einen Rekordwert, w\u00e4hrend UBS-CEO Ermotti mittelfristige Risiken betonte.",
-      "url": "https://de.beincrypto.com/us-rechenzentrum-bau-rekord-ubs-warnung/?.tsrc=rss",
-      "published_at": "2026-11-09T04:21:40Z",
-      "tickers": [
-        "UBSG.SW"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-18T17:11:29Z",
-      "region": "EU"
-    },
-    {
-      "id": "b0cae7c1c9aaf45a",
-      "source": "yahoo_eu",
-      "title": "Kreise: ABB und Softbank erw\u00e4gen f\u00fcr Robotik Abspaltung des China-Gesch\u00e4fts",
-      "summary": "ABB erw\u00e4gt laut Kreisen die Ausgliederung des China-Gesch\u00e4fts der Robotik-Sparte. Ein geplanter Verkauf des Bereichs an die japanische Softbank ist in der vergangenen Woche durch die chinesischen Beh\u00f6rden gestoppt worden.",
-      "url": "https://de.finance.yahoo.com/nachrichten/kreise-abb-softbank-erw%C3%A4gen-f%C3%BCr-165840454.html?.tsrc=rss",
-      "published_at": "2026-11-08T16:58:40Z",
-      "tickers": [
-        "ABBN.SW"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-18T17:11:31Z",
-      "region": "EU"
-    },
-    {
-      "id": "775a7cac41cfae10",
-      "source": "eqs_google",
-      "title": "Insider-Trades: Directors' Dealings \u2013 Die wichtigsten Transaktionen - KW 45/26 - Wallstreet Online",
-      "summary": "Insider-Trades: Directors' Dealings \u2013 Die wichtigsten Transaktionen - KW 45/26 &nbsp;&nbsp; Wallstreet Online",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxObVNqNUdEN2tlc29odmlJSmpjS2F2ODdTTE1UX282TmFGVnYybEdvVTRZY2NqZmhZeFJKQ3ZkS254NVRsZ2VsTm1LTHZpNzdoV3dqdzIwTjAxZ0duRWJIajJ5cEJGZnhkVjBSbDZ5OGxpcEdCWldabjZaLUFpZGxTOWJEZ3BEc1dwUWJRcEtyMjVGUTNvSFpGLTVkaUtVM1lCMlNFanRjR3hYbVk2dzFRVmxuRkpOZ0tWQmd1VQ?oc=5",
-      "published_at": "2026-11-08T08:00:00Z",
-      "tickers": [
-        "INGA.AS"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-18T17:11:24Z",
-      "region": "EU"
-    },
-    {
-      "id": "c1c6e26a98131062",
-      "source": "yahoo_eu",
-      "title": "Telekom-Chef \u00fcber Musks Mobilfunkpl\u00e4ne: \u201eWenn er das Geld hat, soll er es versuchen\u201c",
-      "summary": "Telekom-Chef Tim H\u00f6ttges sieht hohe H\u00fcrden f\u00fcr Starlink Mobile: SpaceX brauche mindestens 200 Milliarden Euro. Trotzdem nimmt er Elon Musks Pl\u00e4ne ernst.",
-      "url": "https://www.businessinsider.de/wirtschaft/telekom-chef-ueber-musks-mobilfunkplaene-wenn-er-das-geld-hat-soll-er-es-versuchen/?.tsrc=rss",
-      "published_at": "2026-11-07T13:21:55Z",
-      "tickers": [
-        "DTE.DE"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-18T17:11:28Z",
-      "region": "EU"
-    },
-    {
-      "id": "561268850f9508c1",
-      "source": "eqs_google",
-      "title": "ABO Energy GmbH & Co. KGaA suspends the interest payment on the bond 2024/2029 due on 8 November 2026. | Ad-hoc - EQS News",
-      "summary": "ABO Energy GmbH & Co. KGaA suspends the interest payment on the bond 2024/2029 due on 8 November 2026. | Ad-hoc &nbsp;&nbsp; EQS News",
-      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQQVVrMVg5c0xqSlRyTUpyNkJfcjR6d1JYVURoTWdXOUhIaXZIUzM3SncxQlhkNjlkaEx0M20yLWowVHhISkNyME1QTlJyQW5nR1c0VHoyMHVpYjZubUVHekEwRTVNNWd1dzVqY0E3Y0RXMlhfa2JBOWFiNDlscFlDcndkQVIxdWZoeEloZjNfZ296RC1yampseTRBQlMwekdhTzJxQUNxUGVpT2V4NnhTNXYyVlJPUWtFQXBGb0psYU1XbVBnNTZhSlhfaTZFazUtYVRIaVlWVEtZREE5aVQtVEUwVnlFNFNab2VvWUpYLVk5U3FHb2taT0lxOEs0WWl1b3pZT2V3?oc=5",
-      "published_at": "2026-11-07T06:20:14Z",
-      "tickers": [],
-      "form": "EU_ADHOC",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:50Z",
-      "region": "EU"
-    },
-    {
-      "id": "1bd27720a3746d8f",
-      "source": "yahoo_eu",
-      "title": "Experian wurde im IDC MarketScape 2026 f\u00fcr weltweite Decision-Intelligence-Plattformen als f\u00fchrendes Unternehmen ausgezeichnet",
-      "summary": "COSTA MESA, Kalifornien, November 06, 2026--Experian gab heute bekannt, dass das Unternehmen im IDC MarketScape: Worldwide Decision Intelligence Platforms 2026 Vendor Assessment (Doc #US54118426, September 2026) als \u201eLeader\" ausgezeichnet wurde. In dieser Studie werden Anbieter bewertet, die Unternehmen dabei unterst\u00fctzen, immer komplexere Entscheidungen zu konzipieren, zu entwickeln und zu koordinieren.",
-      "url": "https://de.finance.yahoo.com/nachrichten/experian-wurde-idc-marketscape-2026-231200087.html?.tsrc=rss",
-      "published_at": "2026-11-06T23:12:00Z",
-      "tickers": [
-        "EXPN.L",
-        "SSE.L"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:28Z",
-      "region": "EU"
-    },
-    {
-      "id": "b7e63c6a6bc5abfc",
-      "source": "eqs_google",
-      "title": "ABO Energy GmbH & Co. KGaA setzt die am 8.November 2026 f\u00e4llige Zinszahlung auf die Anleihe 2024/2029 aus. | Ad-hoc - EQS News",
-      "summary": "ABO Energy GmbH & Co. KGaA setzt die am 8.November 2026 f\u00e4llige Zinszahlung auf die Anleihe 2024/2029 aus. | Ad-hoc &nbsp;&nbsp; EQS News",
-      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNN3RDMjY1X2NxcVo4a3duMmJmemNHY3p4OW9mSTVuclE2V2ZLMVh1Qm85VUtKcTZmUEZTaDZZNzhwUVlvbEw1THVkVXBZeVJZRVFfNlNEMjJ6LWZGNHRxSE9QUFRxVFFqaVNRODR3VUhIOGJrYmZUTFFwaEZBTkN5UTB4NmdWNkFvU2ljVmlGOGxKT2FZSUxsU051N3B6SFNabUZqS19HajZvUU9SQjZhMkFIck5rNlZaek5SNFZsUi04cmJYZkhLSm9xeHViTUx6U0RyU2Q1TEtXNFRFSkdiSi02SldNWFVfSzJVZUFlX0V2TFdtV2oyblRCazRnaTUzUU9nZEtwbEZNc0NNd0YzZQ?oc=5",
-      "published_at": "2026-11-06T21:06:02Z",
-      "tickers": [],
-      "form": "EU_ADHOC",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:50Z",
-      "region": "EU"
-    },
-    {
-      "id": "519f8d8590d87613",
-      "source": "yahoo_eu",
-      "title": "Neuer Dokumentarfilm von Experian RECLAIM zeigt, wie der Zugang zu Finanzdienstleistungen und Innovationen weltweit Chancen er\u00f6ffnet",
-      "summary": "LONDON, November 06, 2026--Jahrelang tr\u00e4umte Almir davon, seine Enkelin in den USA kennenzulernen. Doch offene Schulden hielten ihn davon ab. Im tausende Kilometer entfernten Arizona sah sich Elizabeth nach einer gesundheitlichen Krise mit steigenden Arztkosten konfrontiert. In London arbeitete Rochelle daran, die Kontrolle \u00fcber ihre Finanzen zur\u00fcckzugewinnen, w\u00e4hrend sie sich um Familienangeh\u00f6rige k\u00fcmmerte. Ihre Geschichten und andere Beispiele stehen im Mittelpunkt von RECLAIM: Stories of Pass",
-      "url": "https://de.finance.yahoo.com/nachrichten/neuer-dokumentarfilm-experian-reclaim-zeigt-144100626.html?.tsrc=rss",
-      "published_at": "2026-11-06T14:41:00Z",
-      "tickers": [
-        "EXPN.L",
-        "RO.SW"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:28Z",
-      "region": "EU"
-    },
-    {
-      "id": "f6cb7eb8ea27a05d",
-      "source": "eqs_google",
-      "title": "Lampetia AG: Verkauf der Lampetia Investments Engineering Ltd geplant | Ad-hoc - EQS News",
-      "summary": "Lampetia AG: Verkauf der Lampetia Investments Engineering Ltd geplant | Ad-hoc &nbsp;&nbsp; EQS News",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOclZzU3I0dGcyY3llU3FmVmVWTEVuTFpaSDF1OFR0c0k0MXQ3MUpYR29aY3BoRlAwZUdRTEpGZmpDa0xEVlVfQmpZeWtkRkJqVloyYkppODVIbXppTGQ5T1R1OFc5bWtRQklfdWhPbVhmdFcyLWFIbmVwNUNSeXd1MEY3TDFkMzFNbWxka1otaVo0RTBudHBEdjUtNGZVVUtOTDg4ZTZwN2FRN0R3dVBtSFU2VFR0R3VwdXJOc0VnWm9pQm5KUXRSaWxLcUlJWkd3WTFUU3NFWkVmTEd2WFE?oc=5",
-      "published_at": "2026-11-06T14:10:00Z",
-      "tickers": [
-        "INGA.AS"
-      ],
-      "form": "EU_ADHOC",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T17:39:37Z",
-      "region": "EU"
-    },
-    {
-      "id": "397cede00e7a3774",
-      "source": "yahoo_eu",
-      "title": "ROUNDUP: Freenet k\u00fcndigt Aktienr\u00fcckkauf an - Aktie kaum bewegt",
-      "summary": "Der Mobilfunkanbieter Freenet l\u00e4sst seine Anteilseigner an dem durch den Verkauf von Ceconomy-Aktien ausgel\u00f6sten Geldsegen teilhaben. Bis zum Ende des kommenden Gesch\u00e4ftsjahrs sollen f\u00fcr bis zu 75 Millionen Euro eigene Papiere zur\u00fcckgekauft werden, teilte das Unternehmen am Donnerstagabend in B\u00fcdelsdorf mit. Die so erworbenen eigenen Aktien sollen eingezogen werden, was den Gewinn je Anteilschein rechnerisch erh\u00f6ht. Die Aktie legte am Freitag zun\u00e4chst zu, gab den Gr",
-      "url": "https://de.finance.yahoo.com/nachrichten/roundup-freenet-k%C3%BCndigt-aktienr%C3%BCckkauf-aktie-140148195.html?.tsrc=rss",
-      "published_at": "2026-11-06T14:01:48Z",
-      "tickers": [
-        "TEF.MC",
-        "INGA.AS"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-17T17:34:36Z",
-      "region": "EU"
-    },
-    {
-      "id": "bc2ab4567da33c67",
-      "source": "yahoo_eu",
-      "title": "Singapore Airlines investiert Milliarden: So luxuri\u00f6s sollen die neuen Sitze in der Business Class sein",
-      "summary": "Singapore Airlines arbeitet mit BMW Designworks und Recaro, um ihre Langstreckenflotte mit neuen Business-Class Sitzen auszustatten.",
-      "url": "https://www.businessinsider.de/wirtschaft/neue-sitze-in-der-business-class-diesen-luxus-bietet-singapore-airlines/?.tsrc=rss",
-      "published_at": "2026-11-06T11:21:15Z",
-      "tickers": [
-        "AIR.DE",
-        "BMW.DE",
-        "INGA.AS"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T17:39:48Z",
-      "region": "EU"
-    },
-    {
-      "id": "29459e2f1f907bc2",
-      "source": "yahoo_eu",
-      "title": "ANALYSE-FLASH: JPMorgan senkt Munich Re auf 'Neutral' - Ziel bleibt 590 Euro",
-      "summary": "Die US-Bank JPMorgan hat die Aktien der Munich Re nach der j\u00fcngsten Rally bei unver\u00e4ndertem Kursziel von 590 Euro von \"Overweight\" auf \"Neutral\" abgestuft. Die R\u00fcckversicherer h\u00e4tten mit Blick auf die Eigenkapitalrenditen die st\u00e4rkste Phase der vergangenen drei\u00dfig Jahre erlebt, schrieb Kamran Hossain am Donnerstag. Der weitere Weg werde schwieriger. Er rechnet in der Erneuerungsrunde 2027 mit weiterem Preisdruck. Nach ihrem starken Lauf erscheine die Gesamtrendite der R\u00fcckversiche",
-      "url": "https://de.finance.yahoo.com/nachrichten/analyse-flash-jpmorgan-senkt-munich-063501606.html?.tsrc=rss",
-      "published_at": "2026-11-06T06:35:01Z",
-      "tickers": [
-        "MUV2.DE",
-        "RWE.DE"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "analyst",
-      "direction": "bearish",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "analyst",
-      "scanned_at": "2026-11-18T17:11:29Z",
-      "region": "EU"
-    },
-    {
-      "id": "037a3321841218fb",
-      "source": "yahoo_eu",
-      "title": "IG Metall ruft Zehntausende in Bayern zu Warnstreik auf",
-      "summary": "Die IG Metall hat zehntausende Besch\u00e4ftigte in Bayern zu Warnstreiks aufgerufen. Betroffen sind nach Angaben der Gewerkschaft 105 Betriebe. Allein im Raum N\u00fcrnberg sollen die Besch\u00e4ftigten in mehr als 30 Betrieben ihre Arbeit um 11 Uhr niederlegen.",
-      "url": "https://de.finance.yahoo.com/nachrichten/ig-metall-ruft-zehntausende-bayern-050757312.html?.tsrc=rss",
-      "published_at": "2026-11-06T05:07:57Z",
-      "tickers": [
-        "BMW.DE",
-        "BAYN.DE"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-17T17:34:35Z",
-      "region": "EU"
-    },
-    {
-      "id": "1e643f298fc20ae0",
-      "source": "yahoo_eu",
-      "title": "TAGESVORSCHAU: Termine am 6. November 2026",
-      "summary": "Wirtschafts- und Finanztermine am Freitag, den 6. November",
-      "url": "https://de.finance.yahoo.com/nachrichten/tagesvorschau-termine-6-novem-2026-050507209.html?.tsrc=rss",
-      "published_at": "2026-11-06T05:05:07Z",
-      "tickers": [
-        "AIR.DE"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T17:39:48Z",
-      "region": "EU"
-    },
-    {
-      "id": "5a672a173d696833",
-      "source": "yahoo_eu",
-      "title": "WOCHENVORSCHAU: Termine bis 19. November 2026",
-      "summary": "Wirtschafts- und Finanztermine bis Donnerstag, den 19. November",
-      "url": "https://de.finance.yahoo.com/nachrichten/wochenvorschau-termine-19-novem-2026-050506158.html?.tsrc=rss",
-      "published_at": "2026-11-06T05:05:06Z",
-      "tickers": [
-        "AIR.DE"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T17:39:48Z",
-      "region": "EU"
-    },
-    {
-      "id": "28dd9ee1a7c7e630",
-      "source": "eqs_google",
-      "title": "freenet AG beschlie\u00dft Aktienr\u00fcckkaufprogramm f\u00fcr bis zu 75 Mio. EUR | Ad-hoc - EQS News",
-      "summary": "freenet AG beschlie\u00dft Aktienr\u00fcckkaufprogramm f\u00fcr bis zu 75 Mio. EUR | Ad-hoc &nbsp;&nbsp; EQS News",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVllpSHhhQ2tJWGt4LTlUSmVKUk5KM0ZiUVd0OUVpQnJxTUZSOC12NUhkQ3JIdlZ2Rm5HRGdWRjJfRXJKdDlUYXI3T1dZdjFLaGgzc2JvRU1zaWVWMkJqMVRONTBHN1lHUUFiR3ZPdkRxOUtUV2h1U3JrVjhUSktwVFJWYW1iSWhFZ1dNdUZlTXFFS3o1RFRZb1pvejI3RGdTa1BERlQ2dlpWUTVDTnpYN3ZYRnFYMm1yeFliM2Y5RDVOT0ljeFhJU0ktRUJ2VDZpOE9MRlRRRE11b1Q5WXNwMllqRQ?oc=5",
-      "published_at": "2026-11-05T19:37:00Z",
-      "tickers": [],
-      "form": "EU_ADHOC",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-18T17:11:24Z",
-      "region": "EU"
-    },
-    {
-      "id": "9d3a297eb32a82cc",
-      "source": "yahoo_eu",
-      "title": "ANALYSE-FLASH: Bernstein nimmt Renault mit 'Outperform' wieder auf",
-      "summary": "Das US-Analysehaus Bernstein Research hat Renault mit \"Outperform\" und einem Kursziel von 36 Euro in die Bewertung wieder aufgenommen. Harry Martin bezeichnete in einer am Donnerstag vorliegenden Branchenstudie den Autobauer als bevorzugte M\u00f6glichkeit, um seinen Ansatz zu verfolgen, der Volumenmarken gegen\u00fcber Premiummarken den Vorzug gibt. Renault mache operativ starke Fortschritte, die sich im Bewertungsniveau nicht widerspiegelten./tih/he",
-      "url": "https://de.finance.yahoo.com/nachrichten/analyse-flash-bernstein-nimmt-renault-185002965.html?.tsrc=rss",
-      "published_at": "2026-11-05T18:50:02Z",
-      "tickers": [
-        "RNO.PA"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "analyst",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "analyst",
-      "scanned_at": "2026-11-17T17:34:36Z",
-      "region": "EU"
-    },
-    {
-      "id": "824f43e11aefb245",
-      "source": "yahoo_eu",
-      "title": "Deutsche Telekom legt kr\u00e4ftig zu",
-      "summary": "Die Deutsche Telekom w\u00e4chst im dritten Quartal st\u00e4rker als erwartet und hebt ihre Jahresprognose erneut an. An der B\u00f6rse kommt eine Nachricht trotzdem schlecht an.",
-      "url": "https://de.finance.yahoo.com/nachrichten/deutsche-telekom-legt-kr%C3%A4ftig-150819286.html?.tsrc=rss",
-      "published_at": "2026-11-05T15:08:19Z",
-      "tickers": [
-        "DTE.DE"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-18T17:11:28Z",
-      "region": "EU"
-    },
-    {
-      "id": "4348f3a33f2ac53a",
-      "source": "yahoo_eu",
-      "title": "Evonik-Interimschef bekr\u00e4ftigt Ablehnung von BASF-Angebot",
-      "summary": "Der Chemiekonzern Evonik lehnt das \u00dcbernahmeangebot von BASF ab. Das bekr\u00e4ftigte der Interims-Vorstandsvorsitzende Claus Rettig im Gespr\u00e4ch mit der \"Frankfurter Allgemeinen Zeitung\" (\"FAZ\"/Freitag). \"Wer sagt denn, dass Gr\u00f6\u00dfe allein besser ist? Wir sehen in anderen Branchen, dass der Trend zur Fokussierung geht\", sagte Rettig.",
-      "url": "https://de.finance.yahoo.com/nachrichten/evonik-interimschef-bekr%C3%A4ftigt-ablehnung-basf-145856629.html?.tsrc=rss",
-      "published_at": "2026-11-05T14:58:56Z",
-      "tickers": [
-        "BAS.DE",
-        "SSE.L"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-17T17:34:34Z",
-      "region": "EU"
-    },
-    {
-      "id": "123039207d3de6de",
-      "source": "yahoo_eu",
-      "title": "ALTA Performance Materials unterzeichnet Vertrag zur \u00dcbernahme der BASF-Gesch\u00e4ftseinheit Palatal",
-      "summary": "ALTA Performance Materials gab heute bekannt, dass das Unternehmen mit BASF einen Vertrag zur \u00dcbernahme des Palatal-Gesch\u00e4fts in Chile unterzeichnet hat. Der Vertrag stellt einen wichtigen Schritt in der Strategie von ALTA Performance Materials dar, seine Pr\u00e4senz in S\u00fcdamerika zu st\u00e4rken und bestehende Produktionskapazit\u00e4ten, technisches Know-how sowie Kundenbeziehungen zu b\u00fcndeln, um den Anforderungen der Verbundwerkstoffbranche gerecht zu werden.",
-      "url": "https://de.finance.yahoo.com/nachrichten/alta-performance-materials-unterzeichnet-vertrag-133000991.html?.tsrc=rss",
-      "published_at": "2026-11-05T13:30:00Z",
-      "tickers": [
-        "BAS.DE"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "mna",
-      "direction": "bullish",
-      "news_side": "long",
-      "actionable": true,
-      "eu_category": "mna",
-      "scanned_at": "2026-11-17T17:34:34Z",
-      "region": "EU"
-    },
-    {
-      "id": "9eb448b1a299b6ef",
-      "source": "yahoo_eu",
-      "title": "ANALYSE-FLASH: Deutsche Bank Research bel\u00e4sst Deutsche Telekom auf 'Buy'",
-      "summary": "Deutsche Bank Research hat die Einstufung f\u00fcr Deutsche Telekom nach Zahlen auf \"Buy\" mit einem Kursziel von 40 Euro belassen. Das dritte Quartal sei ex US-Gesch\u00e4ft erfreulich verlaufen, schrieb Robert Grindle in einer am Donnerstag vorliegenden Studie. Ex USA liege der freie Barmittelzufluss (FCF) nun \u00fcber dem Jahresziel. Er lobte vor allem die starken Leistungskennzahlen f\u00fcr den Heimatmarkt Deutschland und f\u00fcr Europa./ck/stk",
-      "url": "https://de.finance.yahoo.com/nachrichten/analyse-flash-deutsche-bank-research-130502051.html?.tsrc=rss",
-      "published_at": "2026-11-05T13:05:02Z",
-      "tickers": [
-        "DTE.DE",
-        "DBK.DE",
-        "GSK.L",
-        "SSE.L"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "analyst",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "analyst",
-      "scanned_at": "2026-11-18T17:11:28Z",
-      "region": "EU"
-    },
-    {
-      "id": "da86fcfae3ea7c76",
-      "source": "yahoo_eu",
-      "title": "ROUNDUP: KI-Boom kommt bei DHL an - Express-Gesch\u00e4ft punktet",
-      "summary": "Der weltweite Ausbau von Rechenzentren im Zuge des KI-Booms sorgt bei DHL f\u00fcr R\u00fcckenwind. W\u00e4hrend die f\u00fcr Datenzentren erforderlichen G\u00fcter \u00fcblicherweise eher als klassische Luftfracht versendet werden, entscheiden sich viele Kunden momentan wegen hoher Investitionssummen und enger Zeitpl\u00e4ne h\u00e4ufig f\u00fcr den schnelleren Expressversand. Dies ist f\u00fcr DHL sehr lukrativ. Der \u00dcberschuss sei im dritten Quartal gestiegen, teilte der Dax-Konzern am Donnerstag mit und best\u00e4tig",
-      "url": "https://de.finance.yahoo.com/nachrichten/roundup-ki-boom-kommt-dhl-111354451.html?.tsrc=rss",
-      "published_at": "2026-11-05T11:13:54Z",
-      "tickers": [
-        "DHL.DE",
-        "RWE.DE"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:33Z",
-      "region": "EU"
-    },
-    {
-      "id": "de0d1a25f486a08c",
-      "source": "yahoo_eu",
-      "title": "ROUNDUP: Deutsche Telekom legt kr\u00e4ftig zu - H\u00f6he des Aktienr\u00fcckkaufs entt\u00e4uscht",
-      "summary": "Die Deutsche Telekom ist im abgelaufenen Quartal vor allem dank der US-Tochter T-Mobile US stark gewachsen. Umsatz und Gewinn legten st\u00e4rker als von Experten erwartet zu. Die Prognose wurde abermals leicht erh\u00f6ht. Zudem soll die Dividende um zehn Prozent steigen. Au\u00dferdem beabsichtigt das Unternehmen, auch im kommenden Jahr eigene Anteile zur\u00fcckzukaufen. Das Volumen des angek\u00fcndigten Aktienr\u00fcckkaufs von bis zu zwei Milliarden Euro wurde aber mit Entt\u00e4uschung aufgeno",
-      "url": "https://de.finance.yahoo.com/nachrichten/roundup-deutsche-telekom-legt-kr%C3%A4ftig-105038579.html?.tsrc=rss",
-      "published_at": "2026-11-05T10:50:38Z",
-      "tickers": [
-        "DTE.DE",
-        "SSE.L"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-18T17:11:28Z",
-      "region": "EU"
-    },
-    {
-      "id": "9cb561e5e2d85587",
-      "source": "yahoo_eu",
-      "title": "ANALYSE-FLASH: RBC bel\u00e4sst DHL Group auf 'Outperform' - Ziel 67 Euro",
-      "summary": "Die kanadische Bank RBC hat die Einstufung f\u00fcr DHL Group nach Quartalszahlen auf \"Outperform\" mit einem Kursziel von 67 Euro belassen. Die Kennziffern des Logistikkonzerns seien stark und ermutigend ausgefallen, schrieb Ruairi Cullinane in einer am Donnerstag vorliegenden ersten Reaktion./rob/edh/ck",
-      "url": "https://de.finance.yahoo.com/nachrichten/analyse-flash-rbc-bel%C3%A4sst-dhl-105002681.html?.tsrc=rss",
-      "published_at": "2026-11-05T10:50:02Z",
-      "tickers": [
-        "DHL.DE",
-        "SSE.L"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "analyst",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:33Z",
-      "region": "EU"
-    },
-    {
-      "id": "82cc48c2c7d22e3d",
-      "source": "yahoo_eu",
-      "title": "Dividende +10 %: Die KI setzt auf diese DAX-Aktie",
-      "summary": "Investing.com \u2013 Mehr Gewinn, mehr Dividende: Die Deutsche Telekom will ihre Aussch\u00fcttung um 10 % auf 1,10 \u20ac je Aktie anheben \u2013 auf den aktuellen Kurs gerechnet sind das rund 4,2 %. Die KI hatte den Konzern schon zum 1. Oktober in ihre neue Strategie \u201eDividenden Leaders Deutschland\u201c aufgenommen \u2013 Einstieg bei 26,07 \u20ac. Heute gibt die Aktie trotzdem um 1,7 % auf 26,31 \u20ac nach: Der geplante Aktienr\u00fcckkauf f\u00e4llt kleiner aus als erhofft.\u00b9",
-      "url": "https://de.finance.yahoo.com/nachrichten/dividende-10-ki-setzt-diese-094325609.html?.tsrc=rss",
-      "published_at": "2026-11-05T09:43:25Z",
-      "tickers": [
-        "DTE.DE",
-        "INGA.AS"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-18T17:11:28Z",
-      "region": "EU"
-    },
-    {
-      "id": "7adfcd71abf3d31a",
-      "source": "yahoo_eu",
-      "title": "Deutschlandgesch\u00e4ft wird zum Sorgenkind f\u00fcr DHL",
-      "summary": "Im Digitalzeitalter schreiben die Menschen immer weniger Briefe, das bekommt die Post zu sp\u00fcren. Zum Gl\u00fcck werden mehr Pakete verschickt. Doch auch im Paketbereich bekam die Post einen D\u00e4mpfer.",
-      "url": "https://de.finance.yahoo.com/nachrichten/deutschlandgesch%C3%A4ft-sorgenkind-f%C3%BCr-dhl-091323833.html?.tsrc=rss",
-      "published_at": "2026-11-05T09:13:23Z",
-      "tickers": [
-        "DHL.DE",
-        "ENI.MI"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:33Z",
-      "region": "EU"
-    },
-    {
-      "id": "304f598af060c927",
-      "source": "yahoo_eu",
-      "title": "BP verkauft Aker-BP-Anteile f\u00fcr 1,06 Milliarden US-Dollar und baut Schulden ab",
-      "summary": "Investing.com - BP trennt sich von einem Teil seiner Beteiligung am norwegischen \u00d6l- und Gaskonzern Aker BP: Die Abgabe von 5 % der Anteile sp\u00fclt rund 1,06 Milliarden US-Dollar in die Kasse, wie der britische Energiekonzern am Donnerstag mitteilte.",
-      "url": "https://de.finance.yahoo.com/nachrichten/bp-verkauft-aker-bp-anteile-084805834.html?.tsrc=rss",
-      "published_at": "2026-11-05T08:48:05Z",
-      "tickers": [
-        "RWE.DE",
-        "INGA.AS",
-        "SSE.L",
-        "BP.L"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-18T17:11:32Z",
-      "region": "EU"
-    },
-    {
-      "id": "e81a47893021136c",
-      "source": "yahoo_eu",
-      "title": "ABB-Verkauf der Robotiksparte an Softbank durch China blockiert",
-      "summary": "Der geplante Verkauf der Robotiksparte von ABB an den japanischen Technologiekonzern Softbank ist ins Stocken geraten. Die chinesischen Beh\u00f6rden haben die \u00dcbernahme des Gesch\u00e4fts in China untersagt, wie der Schweizer Technologiekonzern am Donnerstag mitteilte. Damit steht die milliardenschwere Transaktion auf der Kippe.",
-      "url": "https://de.finance.yahoo.com/nachrichten/abb-verkauf-robotiksparte-softbank-china-065515552.html?.tsrc=rss",
-      "published_at": "2026-11-05T06:55:15Z",
-      "tickers": [
-        "ABBN.SW"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "mna",
-      "direction": "bullish",
-      "news_side": "long",
-      "actionable": true,
-      "eu_category": "mna",
-      "scanned_at": "2026-11-18T17:11:31Z",
-      "region": "EU"
-    },
-    {
-      "id": "5a5b14fe10a9b305",
-      "source": "yahoo_eu",
-      "title": "UBS streicht laut Insidern rund 200 Jobs in London - auch im Wealth Management",
-      "summary": "W\u00e4hrend sich die Integration der Credit Suisse ihrem Ende n\u00e4hert, hat die UBS in den vergangenen Wochen rund 200 Stellen in London gestrichen.",
-      "url": "https://de.finance.yahoo.com/nachrichten/ubs-streicht-laut-insidern-rund-061614283.html?.tsrc=rss",
-      "published_at": "2026-11-05T06:16:14Z",
-      "tickers": [
-        "UBSG.SW",
-        "SSE.L"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-18T17:11:29Z",
-      "region": "EU"
-    },
-    {
-      "id": "2e47faf89f39a0bf",
-      "source": "yahoo_eu",
-      "title": "DHL macht mehr Gewinn - Vorl\u00e4ufige Zahlen best\u00e4tigt",
-      "summary": "Der Logisitikkonzern DHL hat im dritten Quartal etwas mehr verdient als ein Jahr zuvor. In den drei Monaten bis Ende September entfiel auf die Aktion\u00e4re ein Gewinn von 907 Millionen Euro und damit 8 Prozent mehr als im Vorjahreszeitraum, teilte der Dax -Konzern am Donnerstag in Bonn mit. Vom Unternehmen befragte Analysten hatten durchschnittlich aber mit mehr gerechnet.",
-      "url": "https://de.finance.yahoo.com/nachrichten/dhl-macht-mehr-gewinn-vorl%C3%A4ufige-060516630.html?.tsrc=rss",
-      "published_at": "2026-11-05T06:05:16Z",
-      "tickers": [
-        "DHL.DE"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:33Z",
-      "region": "EU"
-    },
-    {
-      "id": "729efe11f5df0d50",
-      "source": "eqs_google",
-      "title": "AEVIS VICTORIA SA: Anhaltendes Umsatzwachstum im dritten Quartal 2026 | Ad-hoc - EQS News",
-      "summary": "AEVIS VICTORIA SA: Anhaltendes Umsatzwachstum im dritten Quartal 2026 | Ad-hoc &nbsp;&nbsp; EQS News",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQcVMzRng2UUl4YWFPczAwNnJlZlFOME1lRWFmVHJlY3pHTmtyaGQzQVZRaGMtc3R2OFVGeVgtNUMzai1pX2NZSHN6UkZxTzFMQW9XTjFTT050MUJYWjVfN2VIai1NZkxFR3padW0xa2ZYc3pyNFpMRVg0RmZvQzNQZ3RHWmhqbXBFYjZTTG9pOWRfcTJ1TWZ0MDVrWk1NbEhKWEljX19NdXgyWnVBNHc3NGZNWVRKNzlRSmpEeVl6WGJhbVBJYUFmUC1LLW9pQ3ZZM1ZYREtFbkFDWHhpbmw4SHpB?oc=5",
-      "published_at": "2026-11-05T06:00:00Z",
-      "tickers": [],
-      "form": "EU_ADHOC",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T17:39:37Z",
-      "region": "EU"
-    },
-    {
-      "id": "7c7817f286c0f719",
-      "source": "yahoo_eu",
-      "title": "FT: China blockiert 5,4 Milliarden Dollar schwere \u00dcbernahme der ABB-Robotiksparte durch Softbank",
-      "summary": "Investing.com \u2013 Chinesische Aufsichtsbeh\u00f6rden haben der SoftBank Group Corp. (TYO:9984) mitgeteilt, dass sie die 5,4 Milliarden US-Dollar schwere \u00dcbernahme der Robotiksparte von ABB Ltd (SIX:ABBN) untersagen werden. Dies berichtete die Financial Times am Donnerstag unter Berufung auf mehrere mit der Angelegenheit vertraute Personen.",
-      "url": "https://de.finance.yahoo.com/nachrichten/ft-china-blockiert-5-4-034551405.html?.tsrc=rss",
-      "published_at": "2026-11-05T03:45:51Z",
-      "tickers": [
-        "INGA.AS",
-        "ABBN.SW"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "mna",
-      "direction": "bullish",
-      "news_side": "long",
-      "actionable": true,
-      "eu_category": "mna",
-      "scanned_at": "2026-11-18T17:11:31Z",
-      "region": "EU"
-    },
-    {
-      "id": "7c1ec6cd2e38bede",
-      "source": "yahoo_eu",
-      "title": "Kreise: Kompromiss in UBS-Eigenmittelfrage will Bewertungsmethode \u00e4ndern",
-      "summary": "Im Ringen um die k\u00fcnftigen Eigenkapitalvorschriften f\u00fcr die UBS hat laut der Nachrichtenagentur Bloomberg ein Mitglied des Nationalrats einen neuen Vorschlag auf den Tisch gebracht. Dieser sehe vor, dass die Gro\u00dfbank ihre Tochtergesellschaften deutlich konservativer bewerten w\u00fcrde als bisher. Die Anwendung einer \"alternativen\" Bewertungsmethode k\u00f6nnte den k\u00fcnftigen Eigenmittelbedarf f\u00fcr die UBS verringern, schreibt Bloomberg am Mittwoch unter Berufung auf mit der Sache vertraute P",
-      "url": "https://de.finance.yahoo.com/nachrichten/kreise-kompromiss-ubs-eigenmittelfrage-will-161219978.html?.tsrc=rss",
-      "published_at": "2026-11-04T16:12:19Z",
-      "tickers": [
-        "INGA.AS",
-        "UBSG.SW"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-18T17:11:29Z",
-      "region": "EU"
-    },
-    {
-      "id": "86af077a9daa8fa9",
-      "source": "yahoo_eu",
-      "title": "UBS-Kapitalauflagen: Neuer Vorsto\u00df soll Belastungen f\u00fcr Schweizer Bank abmildern",
-      "summary": "In der Debatte \u00fcber die k\u00fcnftigen Kapitalanforderungen f\u00fcr die UBS zeichnet sich im Schweizer Parlament ein neuer Kompromissvorschlag ab. Es ist der j\u00fcngste Versuch, die Forderungen der Regierung abzumildern. Die Bank hatte wiederholt erkl\u00e4rt, diese w\u00fcrden ihre Wettbewerbsf\u00e4higkeit beeintr\u00e4chtigen.",
-      "url": "https://de.finance.yahoo.com/nachrichten/ubs-kapitalauflagen-neuer-vorsto%C3%9F-belastungen-145813820.html?.tsrc=rss",
-      "published_at": "2026-11-04T14:58:13Z",
-      "tickers": [
-        "UBSG.SW",
-        "BATS.L"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-18T17:11:29Z",
+      "scanned_at": "2026-11-19T17:19:10Z",
       "region": "EU"
     }
   ],
   "region": "EU",
-  "as_of": "2026-11-18T17:11:32Z",
+  "as_of": "2026-11-19T17:19:18Z",
   "n_items": 400,
   "sources": [
     "eqs_google",
