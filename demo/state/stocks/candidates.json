@@ -12,8 +12,8 @@
   },
   "calendar_error": "",
   "n_calendar": 173,
-  "n_candidates": 173,
-  "n_tagged": 0,
+  "n_candidates": 175,
+  "n_tagged": 2,
   "errors": [],
   "rules": {
     "agent": "Discretionary agentic book. Cursor agent decides via stocks.decide from shared candidates. Baseline \u2014 not auto-traded by the engine.",
@@ -32,6 +32,66 @@
     "bigmove_eu_v1": "EU liquid large/mid caps: fade \u226510% gap-downs (earnings / other-PR / no-news) on Xetra/Euronext primary hours (09:00\u201317:30 Berlin). Gap-up shorts dropped after EU event study. Alert-only mega-cap shocks. No earnings/guidance chase. 5% \u00b7 max 20 \u00b7 hold 5d \u00b7 0.5%/fill (+0.5% outside primary) \u00b7 config/strategies/bigmove_eu_v1.yaml."
   },
   "candidates": [
+    {
+      "ticker": "ZTO",
+      "name": "ZTO",
+      "source": "news",
+      "cal_date": "2026-11-17",
+      "report_date": "2026-11-17",
+      "timing": "news",
+      "surprise_pct": null,
+      "gap_pct": null,
+      "guidance": "none",
+      "headline": "ZTO Reports Third Quarter 2026 Unaudited Financial Results",
+      "excerpt": "10.2 Billion Parcels Expanded Market Share to 20.1% Adjusted Net Income Increased to RMB2.6 Billion SHANGHAI, Nov. 17, 2026 /PRNewswire/ -- ZTO Express (Cayman) Inc. (NYSE: ZTO and SEHK: 2057), a leading and fast-growing express delivery company in China (\"ZTO\" or the \"Company\"), today...",
+      "filing_url": "",
+      "exhibit_url": "https://www.prnewswire.com/news-releases/zto-reports-third-quarter-2026-unaudited-financial-results-302942325.html",
+      "news_id": "3f3bfbc2d0fb68f6",
+      "news_source": "prnewswire_financial",
+      "news_event_type": "earnings",
+      "news_direction": "neutral",
+      "news_side": null,
+      "news_actionable": false,
+      "news_published_at": "2026-11-17T22:00:00Z",
+      "rule_tags": [
+        "news_event",
+        "earnings"
+      ],
+      "suggested_side": null,
+      "suggested_hold": null,
+      "spy_above_ma50": null,
+      "scanned_at": "2026-11-19T04:30:33Z"
+    },
+    {
+      "ticker": "JOYY",
+      "name": "JOYY",
+      "source": "news",
+      "cal_date": "2026-11-19",
+      "report_date": "2026-11-19",
+      "timing": "news",
+      "surprise_pct": null,
+      "gap_pct": null,
+      "guidance": "none",
+      "headline": "JOYY Reports Third Quarter 2026 Financial Results: Total revenues record consistent increases, driven by sustained growth of three core businesses",
+      "excerpt": "SINGAPORE, Nov. 18, 2026 /PRNewswire/ -- JOYY Inc. (NASDAQ: JOYY) (\"JOYY\" or the \"Company\"), a leading global technology company, today announced its unaudited financial results for the third quarter ended September 30, 2026. In the third quarter, JOYY maintained solid growth momentum....",
+      "filing_url": "",
+      "exhibit_url": "https://www.prnewswire.com/news-releases/joyy-reports-third-quarter-2026-financial-results-total-revenues-record-consistent-increases-driven-by-sustained-growth-of-three-core-businesses-302944743.html",
+      "news_id": "16531d4d59fa7d47",
+      "news_source": "prnewswire",
+      "news_event_type": "earnings",
+      "news_direction": "neutral",
+      "news_side": null,
+      "news_actionable": false,
+      "news_published_at": "2026-11-19T03:50:00Z",
+      "rule_tags": [
+        "news_event",
+        "earnings"
+      ],
+      "suggested_side": null,
+      "suggested_hold": null,
+      "spy_above_ma50": null,
+      "scanned_at": "2026-11-19T04:30:33Z"
+    },
     {
       "ticker": "ONEW",
       "name": "OneWater Marine Inc.",
@@ -4703,5 +4763,6 @@
       "suggested_side": null,
       "suggested_hold": null
     }
-  ]
+  ],
+  "news_merged_at": "2026-11-19T04:30:33Z"
 }
