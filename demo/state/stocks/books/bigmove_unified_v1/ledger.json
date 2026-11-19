@@ -47,7 +47,7 @@
       ],
       "decision_id": "bigmove_unified_v1-SPGI-2026-11-17T23:58:09Z-eab8c8",
       "book_id": "bigmove_unified_v1",
-      "mark_usd": 446.38,
+      "mark_usd": 446.3800048828125,
       "mark_eur": 405.938,
       "unrealized_pnl_pct": 0.9252
     },
@@ -85,7 +85,7 @@
       ],
       "decision_id": "bigmove_unified_v1-OMER-2026-11-17T23:58:09Z-c167f9",
       "book_id": "bigmove_unified_v1",
-      "mark_usd": 14.55,
+      "mark_usd": 14.550000190734863,
       "mark_eur": 13.2318,
       "unrealized_pnl_pct": 3.0453
     }
@@ -117,7 +117,7 @@
     {
       "day": "2026-11-18",
       "equity_eur": 1000.98,
-      "spy_eur": 996.61,
+      "spy_eur": 994.04,
       "cash_eur": 999.04,
       "n_open": 2
     }
@@ -158,6 +158,12 @@
       "spy_eur": 996.61,
       "spy_usd": 732.44,
       "eur_usd": 1.09982
+    },
+    {
+      "day": "2026-11-18",
+      "spy_eur": 994.04,
+      "spy_usd": 730.2,
+      "eur_usd": 1.09929
     }
   ],
   "cost_pct": 0.005,
@@ -168,7 +174,7 @@
   "stop_loss": null,
   "prefer_open": false,
   "max_open": 20,
-  "last_run": "2026-11-19T01:52:44Z",
+  "last_run": "2026-11-19T02:37:29Z",
   "last_reason": "engine[bigmove_unified_v1]: auto=0 ingested=0 fills=0 closed=0 open=2 session=closed",
   "extended_hours_extra_slippage_pct": 0.005,
   "allow_extended_hours": true,
@@ -179,5 +185,5 @@
   "sizing": "fixed",
   "score_ref": 10.0,
   "strategy_config_path": "config/strategies/bigmove_unified_v1.yaml",
-  "eur_usd": 1.0974539518356323
+  "eur_usd": 1.0970927476882935
 }
