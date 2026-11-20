@@ -11,7 +11,7 @@
   "start_capital_eur": 1000.0,
   "eur_usd_start": 1.1063170433044434,
   "cash_eur": 948.56161,
-  "equity_eur": 999.55,
+  "equity_eur": 993.59,
   "positions": {
     "SPGI": {
       "ticker": "SPGI",
@@ -34,7 +34,7 @@
       "take_profit": null,
       "trailing_stop": null,
       "exit_at_close": false,
-      "trail_extreme": 439.3450012207031,
+      "trail_extreme": 438.3900146484375,
       "rule_name": "offering_gapdown_short",
       "reason": "[bigmove_unified_v1/offering_gapdown_short] event=offering surprise=None gap=-4.47 guidance=None headline=S&P Global Announces Pricing of Public Offering of $750,000,000 Senior Notes due \u2192 short 5d",
       "confidence": 1.0,
@@ -47,9 +47,9 @@
       ],
       "decision_id": "bigmove_unified_v1-SPGI-2026-11-17T23:58:09Z-eab8c8",
       "book_id": "bigmove_unified_v1",
-      "mark_usd": 442.6600036621094,
-      "mark_eur": 402.555,
-      "unrealized_pnl_pct": 1.7734
+      "mark_usd": 438.55999755859375,
+      "mark_eur": 398.8264,
+      "unrealized_pnl_pct": 2.7248
     },
     "OMER": {
       "ticker": "OMER",
@@ -85,9 +85,9 @@
       ],
       "decision_id": "bigmove_unified_v1-OMER-2026-11-17T23:58:09Z-c167f9",
       "book_id": "bigmove_unified_v1",
-      "mark_usd": 14.010000228881836,
-      "mark_eur": 12.7407,
-      "unrealized_pnl_pct": -0.779
+      "mark_usd": 13.229999542236328,
+      "mark_eur": 12.0314,
+      "unrealized_pnl_pct": -6.3031
     },
     "SNEX": {
       "ticker": "SNEX",
@@ -123,9 +123,9 @@
       ],
       "decision_id": "bigmove_unified_v1-SNEX-2026-11-19T23:47:23Z-be8464",
       "book_id": "bigmove_unified_v1",
-      "mark_usd": 39.45000076293945,
-      "mark_eur": 35.9508,
-      "unrealized_pnl_pct": 1.1279
+      "mark_usd": 36.599998474121094,
+      "mark_eur": 33.3536,
+      "unrealized_pnl_pct": -6.1779
     }
   },
   "pending": [],
@@ -168,8 +168,8 @@
     },
     {
       "day": "2026-11-20",
-      "equity_eur": 999.55,
-      "spy_eur": 976.39,
+      "equity_eur": 993.59,
+      "spy_eur": 938.05,
       "cash_eur": 948.56,
       "n_open": 3
     }
@@ -222,6 +222,12 @@
       "spy_eur": 976.39,
       "spy_usd": 715.87,
       "eur_usd": 1.0972
+    },
+    {
+      "day": "2026-11-20",
+      "spy_eur": 938.05,
+      "spy_usd": 687.6199,
+      "eur_usd": 1.09697
     }
   ],
   "cost_pct": 0.005,
@@ -232,8 +238,8 @@
   "stop_loss": null,
   "prefer_open": false,
   "max_open": 20,
-  "last_run": "2026-11-20T07:19:33Z",
-  "last_reason": "engine[bigmove_unified_v1]: auto=0 ingested=0 fills=0 closed=0 open=3 session=closed",
+  "last_run": "2026-11-20T20:59:46Z",
+  "last_reason": "engine[bigmove_unified_v1]: auto=0 ingested=0 fills=0 closed=0 open=3 session=open",
   "extended_hours_extra_slippage_pct": 0.005,
   "allow_extended_hours": true,
   "max_per_ticker": 1,
@@ -243,5 +249,5 @@
   "sizing": "fixed",
   "score_ref": 10.0,
   "strategy_config_path": "config/strategies/bigmove_unified_v1.yaml",
-  "eur_usd": 1.098659634590149
+  "eur_usd": 1.0969723463058472
 }

@@ -172,8 +172,72 @@
       "agent": "rule:quality_longs_tuned",
       "prefer_open": true,
       "decided_at": "2026-11-20T01:47:11Z",
-      "status": "pending"
+      "status": "filled",
+      "fill": {
+        "time": "2026-11-20T20:58:14Z",
+        "ticker": "MBIN",
+        "side": "buy",
+        "price_usd": 49.849998,
+        "shares": 1.099119,
+        "notional_eur": 49.96,
+        "cost_eur": 0.2498,
+        "cost_pct": 0.005,
+        "session": "open",
+        "quote_fx": 1.0967316627502441,
+        "reason": "[quality_longs_tuned/quality_longs] event=mna_deal surprise=None gap=None guidance=none headline=Merchants Capital to Acquire Remaining Interest in VIUM Capital, Expanding Its S \u2192 long 5d",
+        "note": "filled at regular-session open (rule book)",
+        "decision_id": "quality_longs_tuned-MBIN-2026-11-20T01:47:11Z-15c57a",
+        "book_id": "quality_longs_tuned"
+      }
+    },
+    {
+      "id": "quality_longs_tuned-HSBC-2026-11-20T20:58:12Z-99e85e",
+      "book_id": "quality_longs_tuned",
+      "ticker": "HSBC",
+      "side": "long",
+      "size": 0.05,
+      "hold": 5,
+      "reason": "[quality_longs_tuned/quality_longs] event=acquisition_target surprise=None gap=None guidance=none headline=HSBC HOLDINGS PLC ANNOUNCES RESULTS OF ITS TENDER OFFER FOR ONE SERIES OF SECURI \u2192 long 5d",
+      "confidence": 1.0,
+      "stop_loss": null,
+      "take_profit": null,
+      "trailing_stop": null,
+      "exit_at_close": false,
+      "delay_minutes": 0,
+      "rule_name": "quality_longs",
+      "rule_tags": [
+        "quality_longs_tuned",
+        "quality_longs",
+        "news_event",
+        "acquisition_target",
+        "news_long"
+      ],
+      "surprise_pct": null,
+      "gap_pct": null,
+      "guidance": "none",
+      "news_event_type": "acquisition_target",
+      "news_id": "8a8e43ba465b024a",
+      "agent": "rule:quality_longs_tuned",
+      "prefer_open": true,
+      "decided_at": "2026-11-20T20:58:12Z",
+      "status": "filled",
+      "fill": {
+        "time": "2026-11-20T20:58:14Z",
+        "ticker": "HSBC",
+        "side": "buy",
+        "price_usd": 81.970001,
+        "shares": 0.667659,
+        "notional_eur": 49.9,
+        "cost_eur": 0.2495,
+        "cost_pct": 0.005,
+        "session": "open",
+        "quote_fx": 1.0967316627502441,
+        "reason": "[quality_longs_tuned/quality_longs] event=acquisition_target surprise=None gap=None guidance=none headline=HSBC HOLDINGS PLC ANNOUNCES RESULTS OF ITS TENDER OFFER FOR ONE SERIES OF SECURI \u2192 long 5d",
+        "note": "filled at regular-session open (rule book)",
+        "decision_id": "quality_longs_tuned-HSBC-2026-11-20T20:58:12Z-99e85e",
+        "book_id": "quality_longs_tuned"
+      }
     }
   ],
-  "updated_at": "2026-11-20T01:47:11Z"
+  "updated_at": "2026-11-20T20:58:12Z"
 }
