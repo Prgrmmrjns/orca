@@ -453,7 +453,38 @@
       "prefer_open": false,
       "decided_at": "2026-11-19T21:14:42Z",
       "status": "pending"
+    },
+    {
+      "id": "news_event-MBIN-2026-11-20T01:47:04Z-1d6af1",
+      "book_id": "news_event",
+      "ticker": "MBIN",
+      "side": "long",
+      "size": 0.05,
+      "hold": 2,
+      "reason": "[news_event/bullish_news_long] event=mna_deal surprise=None gap=None guidance=none headline=Merchants Capital to Acquire Remaining Interest in VIUM Capital, Expanding Its S \u2192 long 2d",
+      "confidence": 1.0,
+      "stop_loss": 0.08,
+      "take_profit": null,
+      "trailing_stop": null,
+      "exit_at_close": false,
+      "delay_minutes": 0,
+      "rule_name": "bullish_news_long",
+      "rule_tags": [
+        "news_event",
+        "bullish_news_long",
+        "news_event",
+        "mna_deal"
+      ],
+      "surprise_pct": null,
+      "gap_pct": null,
+      "guidance": "none",
+      "news_event_type": "mna_deal",
+      "news_id": "9e696b6219efa4bb",
+      "agent": "rule:news_event",
+      "prefer_open": false,
+      "decided_at": "2026-11-20T01:47:04Z",
+      "status": "pending"
     }
   ],
-  "updated_at": "2026-11-19T21:14:42Z"
+  "updated_at": "2026-11-20T01:47:04Z"
 }

@@ -622,7 +622,37 @@
         "decision_id": "miss_short-VJET-2026-11-18T02:26:29Z-972038",
         "book_id": "miss_short"
       }
+    },
+    {
+      "id": "miss_short-CCIF-2026-11-20T01:46:59Z-8868e3",
+      "book_id": "miss_short",
+      "ticker": "CCIF",
+      "side": "short",
+      "size": 0.05,
+      "hold": 2,
+      "reason": "[miss_short/miss_short] event=['miss_short'] surprise=-28.57 gap=-11.7241 guidance=unknown headline= \u2192 short 2d",
+      "confidence": 1.0,
+      "stop_loss": 0.08,
+      "take_profit": null,
+      "trailing_stop": null,
+      "exit_at_close": false,
+      "delay_minutes": 0,
+      "rule_name": "miss_short",
+      "rule_tags": [
+        "miss_short",
+        "miss_short",
+        "miss_short"
+      ],
+      "surprise_pct": -28.57,
+      "gap_pct": -11.7241,
+      "guidance": "unknown",
+      "news_event_type": null,
+      "news_id": null,
+      "agent": "rule:miss_short",
+      "prefer_open": true,
+      "decided_at": "2026-11-20T01:46:59Z",
+      "status": "pending"
     }
   ],
-  "updated_at": "2026-11-18T02:26:29Z"
+  "updated_at": "2026-11-20T01:46:59Z"
 }

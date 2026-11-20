@@ -47,7 +47,7 @@
       ],
       "decision_id": "dilution_shorts_tuned-SPGI-2026-11-17T02:55:46Z-ccb284",
       "book_id": "dilution_shorts_tuned",
-      "mark_usd": 442.6600036621094,
+      "mark_usd": 442.66,
       "mark_eur": 402.2894,
       "unrealized_pnl_pct": 4.8818
     },
@@ -85,7 +85,7 @@
       ],
       "decision_id": "dilution_shorts_tuned-S-2026-11-17T02:55:46Z-d92334",
       "book_id": "dilution_shorts_tuned",
-      "mark_usd": 24.010000228881836,
+      "mark_usd": 24.01,
       "mark_eur": 21.8203,
       "unrealized_pnl_pct": -9.621
     }
@@ -178,7 +178,7 @@
     {
       "day": "2026-11-19",
       "equity_eur": 995.63,
-      "spy_eur": 976.05,
+      "spy_eur": 994.04,
       "cash_eur": 1098.59,
       "n_open": 2
     }
@@ -225,12 +225,6 @@
       "spy_eur": 994.04,
       "spy_usd": 730.2,
       "eur_usd": 1.09929
-    },
-    {
-      "day": "2026-11-19",
-      "spy_eur": 976.05,
-      "spy_usd": 715.87,
-      "eur_usd": 1.09757
     }
   ],
   "cost_pct": 0.005,
@@ -241,8 +235,8 @@
   "stop_loss": null,
   "prefer_open": true,
   "max_open": 8,
-  "last_run": "2026-11-19T21:16:21Z",
-  "last_reason": "engine[dilution_shorts_tuned]: auto=0 ingested=0 fills=0 closed=0 open=2 session=after",
+  "last_run": "2026-11-20T01:48:40Z",
+  "last_reason": "engine[dilution_shorts_tuned]: auto=0 ingested=0 fills=0 closed=0 open=2 session=closed",
   "max_per_ticker": 1,
   "max_gross_exposure_pct": 0.4,
   "allow_shorts": true,
@@ -250,7 +244,7 @@
   "sizing": "fixed",
   "score_ref": 10.0,
   "strategy_config_path": "config/strategies/dilution_shorts_tuned.yaml",
-  "eur_usd": 1.0975743532180786,
+  "eur_usd": 1.0968520641326904,
   "extended_hours_extra_slippage_pct": 0.0,
   "allow_extended_hours": false
 }
