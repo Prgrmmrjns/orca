@@ -1,6 +1,6 @@
 {
   "mode": "paper",
-  "as_of": "2026-11-20T10:22:32Z",
+  "as_of": "2026-11-20T16:56:11Z",
   "as_of_et": "2026-11-20 05:22 ET",
   "forward_test_start": "2026-11-10",
   "spy_above_ma50": false,
@@ -28,7 +28,7 @@
     "gap_filtered_guidance": "Config: long guidance_raise with gap \u22655% \u00b7 5% \u00b7 max 8 \u00b7 hold 5d \u00b7 no stop \u00b7 next_open (config/strategies/gap_filtered_guidance.yaml). Box test +4.4%.",
     "wide_capacity": "Config: quality longs \u00b7 5% \u00b7 max 15 \u00b7 hold 2d \u00b7 no stop \u00b7 next_open (config/strategies/wide_capacity.yaml). Box test +2.1%.",
     "bigmove_unified_v1": "Fade offering / PR-pop / M&A gap-downs and selective gap-down fades across pre/regular/after hours. Alert-only mega-cap shocks. No earnings/guidance chase. 5% \u00b7 max 20 \u00b7 hold 5d \u00b7 0.5%/fill + 0.5% ext slippage \u00b7 config/strategies/bigmove_unified_v1.yaml.",
-    "bigmove_eu_v1": "EU liquid large/mid caps: fade \u226510% gap-downs (earnings / other-PR / no-news) on Xetra/Euronext primary hours (09:00\u201317:30 Berlin). Gap-up shorts dropped after EU event study. Alert-only mega-cap shocks. No earnings/guidance chase. 5% \u00b7 max 20 \u00b7 hold 5d \u00b7 0.5%/fill (+0.5% outside primary) \u00b7 config/strategies/bigmove_eu_v1.yaml."
+    "bigmove_eu_v1": "EU liquid large/mid caps: fade large gap-downs after earnings/PR/no-news on primary hours (09:00\u201317:30 Berlin). Alert-only mega-cap shocks. No earnings/ guidance chase. No gap-up shorts (unprofitable on EU event study).\n"
   },
   "candidates": [
     {
@@ -2998,7 +2998,101 @@
       "rule_tags": [],
       "suggested_side": null,
       "suggested_hold": null
+    },
+    {
+      "ticker": "IFX.DE",
+      "name": "IFX.DE",
+      "cal_date": "2026-11-20",
+      "gap_pct": -7.6806,
+      "last": 45.55500030517578,
+      "prev_close": 49.345001220703125,
+      "rel_vol": 1.006,
+      "adv20_usd": 244962356.30706388,
+      "avg_dollar_volume": 244962356.30706388,
+      "spy_above_ma50": false,
+      "session": "closed",
+      "headline": "Der B\u00f6rsen-Tag: DAX verliert \u00fcber 2 Prozent \u2013 Infineon und Jenoptik brechen ein",
+      "news_event_type": "other_8k",
+      "news_direction": "bearish",
+      "news_side": null,
+      "news_actionable": true,
+      "news_source": "wso_nachrichten",
+      "news_id": "ee001992e8c17846",
+      "filing_url": "https://www.wallstreet-online.de/nachricht/21725997-boersen-tag-dax-verliert-2-prozent-infineon-jenoptik-brechen",
+      "rule_tags": [
+        "bigmove_eu",
+        "other_8k",
+        "bigmove_eu_v1"
+      ],
+      "source": "bigmove_eu_move_trigger",
+      "suggested_side": null,
+      "suggested_hold": 5,
+      "region": "EU",
+      "as_of": "2026-11-20T16:55:36Z"
+    },
+    {
+      "ticker": "ABBN.SW",
+      "name": "ABBN.SW",
+      "cal_date": "2026-11-20",
+      "gap_pct": -4.3389,
+      "last": 65.26000213623047,
+      "prev_close": 68.22000122070312,
+      "rel_vol": 0.62,
+      "adv20_usd": 247640201.89578757,
+      "avg_dollar_volume": 247640201.89578757,
+      "spy_above_ma50": false,
+      "session": "closed",
+      "headline": "Bitcoin Group SE: Abberufung des Vorstandsmitgliedes Moritz Eckert | Ad-hoc - EQS News",
+      "news_event_type": "other_8k",
+      "news_direction": "bearish",
+      "news_side": null,
+      "news_actionable": true,
+      "news_source": "eqs_google",
+      "news_id": "3f12738b03143318",
+      "filing_url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNamtFT3JtUUtPRmxpVWJjck8tVW82Q0xRM00tajVaeEEtaWZ5TU9FOF9SY0ptWGlQMGNrYWJEQnM4Nm9YYU1Ed2o4WEJzX3BENHltYUpEcmR0bE9kMTdmenZpT2pSYjVIMU9jZDk2aE9hZGtJbVJsQzFMWVZqWU5Dcm9pVEZsa2J6b2RuY004dDlKbXJnVGNZNGlNOXFPd20tUjBFSGVxTS1LWVlOMmZzODdSYUtqWDlIWjVtRXByZHF6dVZ3Umd4WXR4dWRtYXNfOHRsdFVoSTNiYUZHSXhIS25leUhKdkhyNnhKbEdDQU9TcTZSRUJUbFJpcW4wT0EtMk92ZA?oc=5",
+      "rule_tags": [
+        "bigmove_eu",
+        "other_8k",
+        "bigmove_eu_v1"
+      ],
+      "source": "bigmove_eu_move_trigger",
+      "suggested_side": null,
+      "suggested_hold": 5,
+      "region": "EU",
+      "as_of": "2026-11-20T16:55:41Z"
+    },
+    {
+      "ticker": "SIE.DE",
+      "name": "SIE.DE",
+      "cal_date": "2026-11-20",
+      "gap_pct": -4.5148,
+      "last": 254.85000610351562,
+      "prev_close": 266.8999938964844,
+      "rel_vol": 0.744,
+      "adv20_usd": 297611878.3781387,
+      "avg_dollar_volume": 297611878.3781387,
+      "spy_above_ma50": false,
+      "session": "closed",
+      "headline": "ANALYSE-FLASH: Bernstein bel\u00e4sst Siemens auf 'Outperform' - Ziel 330 Euro",
+      "news_event_type": "analyst",
+      "news_direction": "bearish",
+      "news_side": null,
+      "news_actionable": true,
+      "news_source": "yahoo_eu",
+      "news_id": "7957dc66f4e2a8c0",
+      "filing_url": "https://de.finance.yahoo.com/nachrichten/analyse-flash-bernstein-bel%C3%A4sst-siemens-093503461.html?.tsrc=rss",
+      "rule_tags": [
+        "bigmove_eu",
+        "analyst",
+        "bigmove_eu_v1"
+      ],
+      "source": "bigmove_eu_move_trigger",
+      "suggested_side": null,
+      "suggested_hold": 5,
+      "region": "EU",
+      "as_of": "2026-11-20T16:55:46Z"
     }
   ],
-  "news_merged_at": "2026-11-20T12:10:13Z"
+  "news_merged_at": "2026-11-20T12:10:13Z",
+  "stoxx_above_ma50": false
 }
