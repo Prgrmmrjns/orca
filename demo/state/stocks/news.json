@@ -1,11 +1,11 @@
 {
   "mode": "paper",
-  "as_of": "2026-11-20T00:06:04Z",
-  "as_of_et": "2026-11-19 17:06 ET",
+  "as_of": "2026-11-20T03:33:20Z",
+  "as_of_et": "2026-11-19 22:33 ET",
   "rolling_hours": 72,
-  "n_items": 300,
-  "n_actionable": 31,
-  "n_with_ticker": 130,
+  "n_items": 377,
+  "n_actionable": 39,
+  "n_with_ticker": 123,
   "sources": [
     "prnewswire",
     "prnewswire_financial",
@@ -13,13 +13,852 @@
     "cnbc_finance",
     "marketwatch",
     "marketwatch_realtime",
-    "edgar_8k",
-    "edgar_424b",
-    "edgar_sc_to"
+    "edgar_8k"
   ],
   "errors": [],
   "note": "Paper news feed. Keyword tagging is heuristic. Shorts have no borrow model. RSS/EDGAR can lag minutes\u2013hours.",
   "items": [
+    {
+      "id": "cccbb6d336acee50",
+      "source": "prnewswire",
+      "title": "SmallRig se asocia con el Festival Internacional de Cine Documental de Macao para crear un nuevo galard\u00f3n",
+      "summary": "- SmallRig se asocia con el Festival Internacional de Cine Documental de Macao para crear un nuevo galard\u00f3n dedicado a la narrativa basada en historias de la vida real MACAO, 20 de noviembre de 2026 /PRNewswire/ -- En la noche de clausura del noveno Festival Internacional de Cine...",
+      "url": "https://www.prnewswire.com/news-releases/smallrig-se-asocia-con-el-festival-internacional-de-cine-documental-de-macao-para-crear-un-nuevo-galardon-302946412.html",
+      "published_at": "2026-11-20T03:24:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:16Z"
+    },
+    {
+      "id": "95731691ff2cef0e",
+      "source": "prnewswire",
+      "title": "SmallRig kooperiert mit dem Internationalen Dokumentarfilmfestival von Macao zu einem neuen Preis f\u00fcr authentisches Storytelling",
+      "summary": "MACAO, 20. November 2026 /PRNewswire/ -- Am Abschlussabend des 9. Internationalen Dokumentarfilmfestivals von Macao (MOIDF) am 8. November gewann From Dawn to Dawn den allerersten SmallRig Real Image Special Award. From Dawn to Dawn, unter der Regie von Xisi Sofia Ye Chen, verbringt seine...",
+      "url": "https://www.prnewswire.com/news-releases/smallrig-kooperiert-mit-dem-internationalen-dokumentarfilmfestival-von-macao-zu-einem-neuen-preis-fur-authentisches-storytelling-302946410.html",
+      "published_at": "2026-11-20T03:23:00Z",
+      "tickers": [
+        "MOIDF"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:16Z"
+    },
+    {
+      "id": "87a9cb2e54bb2a29",
+      "source": "prnewswire",
+      "title": "CCTV4: What sustains a millennium-old cultural lineage? Enduring Chinese Academies is coming soon",
+      "summary": "BEIJING, Nov. 19, 2026 /PRNewswire/ -- The cultural lineage of Huaxia has been passed on like an unbroken thread for thousands of years. Nestled amid mountains and rivers and standing the test of time, ancient academies serve as living carriers of the Chinese pursuit of scholarship, moral...",
+      "url": "https://www.prnewswire.com/news-releases/cctv4-what-sustains-a-millennium-old-cultural-lineage-enduring-chinese-academies-is-coming-soon-302946409.html",
+      "published_at": "2026-11-20T03:22:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:16Z"
+    },
+    {
+      "id": "a6874eecc45750f7",
+      "source": "prnewswire",
+      "title": "Bybit Adds Anthropic (ANT) to Its Stock Trading Offering Following Public Listing",
+      "summary": "DUBAI, UAE, Nov. 19, 2026 /PRNewswire/ -- Bybit, the New Financial Platform trusted by more than 80 million users worldwide, today announced that Anthropic (ANT) is now available through Bybit Stocks, expanding its selection of U.S.-listed stocks available to eligible users. Following...",
+      "url": "https://www.prnewswire.com/news-releases/bybit-adds-anthropic-ant-to-its-stock-trading-offering-following-public-listing-302946403.html",
+      "published_at": "2026-11-20T03:17:00Z",
+      "tickers": [
+        "ANT"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:16Z"
+    },
+    {
+      "id": "089d91e6ac0f2412",
+      "source": "prnewswire_financial",
+      "title": "Bybit Adds Anthropic (ANT) to Its Stock Trading Offering Following Public Listing",
+      "summary": "DUBAI, UAE, Nov. 19, 2026 /PRNewswire/ -- Bybit, the New Financial Platform trusted by more than 80 million users worldwide, today announced that Anthropic (ANT) is now available through Bybit Stocks, expanding its selection of U.S.-listed stocks available to eligible users. Following...",
+      "url": "https://www.prnewswire.com/news-releases/bybit-adds-anthropic-ant-to-its-stock-trading-offering-following-public-listing-302946403.html",
+      "published_at": "2026-11-20T03:17:00Z",
+      "tickers": [
+        "ANT"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:16Z"
+    },
+    {
+      "id": "423455bac41bc6af",
+      "source": "prnewswire",
+      "title": "Le progr\u00e8s num\u00e9rique de l'Afrique s'acc\u00e9l\u00e8re, mais un \u00e9cart d'utilisation de 64 % r\u00e9v\u00e8le le prochain d\u00e9fi pour les d\u00e9cideurs politiques",
+      "summary": "L'indice GSMA Digital Africa 2026 r\u00e9v\u00e8le que sept nouveaux pays rejoignent le groupe leader du continent en mati\u00e8re de d\u00e9veloppement num\u00e9rique et de politiques favorables \u00e0 la transformation num\u00e9rique LE CAP, Afrique du Sud, 20 novembre 2026 /PRNewswire/ -- L'Afrique r\u00e9alise des progr\u00e8s...",
+      "url": "https://www.prnewswire.com/news-releases/le-progres-numerique-de-lafrique-saccelere-mais-un-ecart-dutilisation-de-64--revele-le-prochain-defi-pour-les-decideurs-politiques-302946401.html",
+      "published_at": "2026-11-20T03:15:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:16Z"
+    },
+    {
+      "id": "8b145d1d5d28a09e",
+      "source": "prnewswire",
+      "title": "IDEMIA Secure Transactions sorgt f\u00fcr sichere 5G-Konnektivit\u00e4t im Gesundheitswesen sowie bei kritischen \u00f6ffentlichen Diensten in der schwedischen Region V\u00e4stra G\u00f6taland",
+      "summary": "Die Region V\u00e4stra G\u00f6taland baut Schwedens gr\u00f6\u00dftes privates 5G-Netz auf und hat IDEMIA Secure Transactions f\u00fcr die Bereitstellung sowie die Verwaltung der SIM- und eSIM-Konnektivit\u00e4t ausgew\u00e4hlt. Die L\u00f6sung soll die Vernetzung von bis zu mehreren Hunderttausend Ger\u00e4ten im Gesundheitswesen,...",
+      "url": "https://www.prnewswire.com/news-releases/idemia-secure-transactions-sorgt-fur-sichere-5g-konnektivitat-im-gesundheitswesen-sowie-bei-kritischen-offentlichen-diensten-in-der-schwedischen-region-vastra-gotaland-302946393.html",
+      "published_at": "2026-11-20T03:11:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:16Z"
+    },
+    {
+      "id": "f6d767177d6af62d",
+      "source": "prnewswire",
+      "title": "AV Access Unveils iDock B12 8K KVM Docking Station for High-Refresh Gaming and Dual-Computer Workstations",
+      "summary": "The iDock B12 delivers smooth 4K@165Hz gaming with VRR, 2.5GbE networking, and 11-in-1 connectivity for dual-PC setups. SPOKANE, Wash., Nov. 19, 2026 /PRNewswire/ -- AV Access, a leading provider of Pro AV and AV over IP solutions, has introduced the iDock B12, an 8K dual-monitor KVM...",
+      "url": "https://www.prnewswire.com/news-releases/av-access-unveils-idock-b12-8k-kvm-docking-station-for-high-refresh-gaming-and-dual-computer-workstations-302946392.html",
+      "published_at": "2026-11-20T03:09:00Z",
+      "tickers": [
+        "AV"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:16Z"
+    },
+    {
+      "id": "3c4ee42649fec155",
+      "source": "prnewswire",
+      "title": "Ampace Highlights AIDC Battery Safety and Semi-Solid-State Technology for AI Data Centres",
+      "summary": "At Data Centre World Paris, Ampace showcased its PU200 UPS battery system, built with semi-solid-state cells. Recent large-scale fire testing of the PU100 provides evidence of the company's approach to system safety. PARIS, Nov. 20, 2026 /PRNewswire/ -- At Data Centre World Paris 2026,...",
+      "url": "https://www.prnewswire.com/news-releases/ampace-highlights-aidc-battery-safety-and-semi-solid-state-technology-for-ai-data-centres-302946389.html",
+      "published_at": "2026-11-20T03:06:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:16Z"
+    },
+    {
+      "id": "edda3878b1c204ad",
+      "source": "prnewswire",
+      "title": "FF EAI Robotics Ecosystem (FFR) Appoints Carolyn Kissane as Independent Director, Joining Jason E. Dodier and other Board Members to Bring Critical Expertise to Advance Physical AI Education, Industry Partnerships and Scalable Commercialization",
+      "summary": "Carolyn Kissane, Associate Dean of NYU's Center for Global Affairs, brings expertise in higher education and academic-industry collaboration to help advance FFR's robotics education ecosystem, talent development, and developer engagement. Independent Director Jason E. Dodier brings...",
+      "url": "https://www.prnewswire.com/news-releases/ff-eai-robotics-ecosystem-ffr-appoints-carolyn-kissane-as-independent-director-joining-jason-e-dodier-and-other-board-members-to-bring-critical-expertise-to-advance-physical-ai-education-industry-partnerships-and-scalable-com-302946383.html",
+      "published_at": "2026-11-20T02:59:00Z",
+      "tickers": [
+        "FFR",
+        "FF"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:16Z"
+    },
+    {
+      "id": "7dd738326790a962",
+      "source": "prnewswire",
+      "title": "Xinhua Silk Road: Yunnan Tin Group impulsa la innovaci\u00f3n para modernizar su industria",
+      "summary": "PEK\u00cdN, 20 de noviembre de 2026 /PRNewswire/ -- En el taller de producci\u00f3n de Yunnan Tin New Materials Co., Ltd., la pasta de soldadura, las bolas de soldadura y el alambre de soldadura salen de las l\u00edneas de producci\u00f3n con direcci\u00f3n a las empresas de empaquetado de semiconductores de todo...",
+      "url": "https://www.prnewswire.com/news-releases/xinhua-silk-road-yunnan-tin-group-impulsa-la-innovacion-para-modernizar-su-industria-302946378.html",
+      "published_at": "2026-11-20T02:56:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:16Z"
+    },
+    {
+      "id": "3bb63402ebc7696c",
+      "source": "prnewswire",
+      "title": "Xinhua Silk Road: Yunnan Tin Group f\u00f6rdert Innovation zur Modernisierung der Industrie",
+      "summary": "PEKING, 20. November 2026 /PRNewswire/ -- In der Produktionshalle von Yunnan Tin New Materials Co., Ltd. laufen Lotpasten, Lotkugeln und L\u00f6tdr\u00e4hte vom Band, die an Unternehmen im Bereich der Halbleitergeh\u00e4usetechnik weltweit geliefert werden. Im Zeitalter der k\u00fcnstlichen Intelligenz (KI)...",
+      "url": "https://www.prnewswire.com/news-releases/xinhua-silk-road-yunnan-tin-group-fordert-innovation-zur-modernisierung-der-industrie-302946374.html",
+      "published_at": "2026-11-20T02:53:00Z",
+      "tickers": [
+        "KI"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:16Z"
+    },
+    {
+      "id": "f4314f68c0cc0927",
+      "source": "prnewswire",
+      "title": "Industry Leaders Across APAC and MEASA Gather in Singapore to Celebrate Frost & Sullivan's 65th Anniversary at Recognition Banquet",
+      "summary": "Recognizing organizations demonstrating outstanding best practices, innovation, leadership, and transformational growth across regional and global markets. SAN ANTONIO, Nov. 19, 2026 /PRNewswire/ -- Frost & Sullivan the Transformational Growth Company, celebrated its 65th anniversary...",
+      "url": "https://www.prnewswire.com/news-releases/industry-leaders-across-apac-and-measa-gather-in-singapore-to-celebrate-frost--sullivans-65th-anniversary-at-recognition-banquet-302946242.html",
+      "published_at": "2026-11-20T02:30:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:16Z"
+    },
+    {
+      "id": "b53edca25bacb767",
+      "source": "prnewswire",
+      "title": "Sinopec organiza un evento paralelo en el Pabell\u00f3n de China de la COP31",
+      "summary": "- Sinopec organiza un evento paralelo en el Pabell\u00f3n de China de la COP31 y publica perspectivas sobre energ\u00eda y combustibles verdes ANTALYA, Turqu\u00eda, 20 de noviembre de 2026 /PRNewswire/ -- China Petroleum & Chemical Corporation (HKG: 0386, \"Sinopec\" o \"la compa\u00f1\u00eda\") ha llevado a cabo la...",
+      "url": "https://www.prnewswire.com/news-releases/sinopec-organiza-un-evento-paralelo-en-el-pabellon-de-china-de-la-cop31-302946348.html",
+      "published_at": "2026-11-20T02:20:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:16Z"
+    },
+    {
+      "id": "a9e3e276331eb73d",
+      "source": "prnewswire",
+      "title": "Sinopec organise un \u00e9v\u00e9nement parall\u00e8le au PAVILLON DE LA CHINE de la COP31 et publie ses perspectives sur l'\u00e9nergie et les carburants verts",
+      "summary": "ANTALYA, Turquie, 20 novembre 2026 /PRNewswire/ -- China Petroleum & Chemical Corporation (HKG : 0386, \u00ab Sinopec \u00bb ou \u00ab la Soci\u00e9t\u00e9 \u00bb) a organis\u00e9 un \u00e9v\u00e9nement parall\u00e8le intitul\u00e9 \u00ab Green Fuel Industry Outlook and the Energy Transition Under China's Carbon Peaking and Carbon Neutrality Goals...",
+      "url": "https://www.prnewswire.com/news-releases/sinopec-organise-un-evenement-parallele-au-pavillon-de-la-chine-de-la-cop31-et-publie-ses-perspectives-sur-lenergie-et-les-carburants-verts-302946340.html",
+      "published_at": "2026-11-20T02:12:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:16Z"
+    },
+    {
+      "id": "a5a5939ed10c3d57",
+      "source": "prnewswire",
+      "title": "Boston Scientific announces pricing of $3.0 billion and \u20ac4.25 billion offerings of senior notes",
+      "summary": "MARLBOROUGH, Mass., Nov. 19, 2026 /PRNewswire/ -- Boston Scientific Corporation (the \"Company\") (NYSE: BSX) announced today that it has priced a public offering of $3,000,000,000 aggregate principal amount of U.S. dollar-denominated notes (the \"USD Offering\"), consisting of $1,000,000,000...",
+      "url": "https://www.prnewswire.com/news-releases/boston-scientific-announces-pricing-of-3-0-billion-and-4-25-billion-offerings-of-senior-notes-302946308.html",
+      "published_at": "2026-11-20T01:45:00Z",
+      "tickers": [
+        "BSX"
+      ],
+      "event_type": "dilution",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "scanned_at": "2026-11-20T03:33:16Z"
+    },
+    {
+      "id": "a653c49abc9b777d",
+      "source": "prnewswire",
+      "title": "NetEase Investigation Notice: SueWallSt Notifies Investors of Pending Investigation Into NetEase (NTES)",
+      "summary": "NetEase (NTES) shareholders fell after third-quarter 2026 earnings per share and revenue both came in below Wall Street consensus. SueWallSt notifies investors of a pending investigation into on behalf of investors who lost money. NEW YORK, Nov. 19, 2026 /PRNewswire/ -- NetEase, Inc....",
+      "url": "https://www.prnewswire.com/news-releases/netease-investigation-notice-suewallst-notifies-investors-of-pending-investigation-into-netease-ntes-302946204.html",
+      "published_at": "2026-11-20T01:42:00Z",
+      "tickers": [
+        "NTES"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:16Z"
+    },
+    {
+      "id": "4f90f9e369356b6d",
+      "source": "prnewswire",
+      "title": "StoneX Group Inc. Investigation Notice: SueWallSt Notifies Investors of Pending Investigation Into StoneX Group Inc. (SNEX)",
+      "summary": "StoneX beat revenue estimates and posted record full-year results, but SNEX shares sold off when quarterly diluted EPS of $0.66 came in $0.15 short of consensus expectations. SueWallSt notifies investors of a pending investigation into on behalf of shareholders who lost money in the...",
+      "url": "https://www.prnewswire.com/news-releases/stonex-group-inc-investigation-notice-suewallst-notifies-investors-of-pending-investigation-into-stonex-group-inc-snex-302946203.html",
+      "published_at": "2026-11-20T01:42:00Z",
+      "tickers": [
+        "SNEX"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:16Z"
+    },
+    {
+      "id": "592f2e56bcefeba9",
+      "source": "prnewswire",
+      "title": "Global-E Online Investigation Notice: SueWallSt Notifies Investors of Pending Investigation Into Global-E Online Ltd. (GLBE)",
+      "summary": "Global-E Online shares declined as Modest Revenue Beat and Limited Guidance Increase Fell Short of Investor Expectations. SueWallSt is reviewing the Company's disclosures on tariffs and U.S. de minimis rule changes on behalf of investors who lost money. NEW YORK, Nov. 19, 2026...",
+      "url": "https://www.prnewswire.com/news-releases/global-e-online-investigation-notice-suewallst-notifies-investors-of-pending-investigation-into-global-e-online-ltd-glbe-302946197.html",
+      "published_at": "2026-11-20T01:42:00Z",
+      "tickers": [
+        "GLBE"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:16Z"
+    },
+    {
+      "id": "a5f83ebb79be8025",
+      "source": "prnewswire",
+      "title": "CATL Opens T\u00fcrkiye's First NING SERVICE Experience Center in Istanbul",
+      "summary": "ISTANBUL, T\u00fcrkiye, Nov. 20, 2026 /PRNewswire/ -- CATL today announced the official launch of its first NING SERVICE Experience Center in T\u00fcrkiye. The facility serves as the country's first dedicated battery depot repair center and integrated sales-and-service hub, marking a further step...",
+      "url": "https://www.prnewswire.com/news-releases/catl-opens-turkiyes-first-ning-service-experience-center-in-istanbul-302946301.html",
+      "published_at": "2026-11-20T01:33:00Z",
+      "tickers": [
+        "CATL"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:16Z"
+    },
+    {
+      "id": "ea50c0ab5f0325da",
+      "source": "prnewswire",
+      "title": "CCTV4\uff1aDocumentary 'OUR HOME, OUR YANGTZE' to Premiere Soon",
+      "summary": "BEIJING, Nov. 20, 2026 /PRNewswire/ -- Across four episodes, Our Home, Our Yangtze tells a decade of change along the Yangtze River Economic Belt through four unusual narrators: a fish, a single kilowatt-hour of electricity, a microchip and a shipping container. Their stories explore...",
+      "url": "https://www.prnewswire.com/news-releases/cctv4documentary-our-home-our-yangtze-to-premiere-soon-302946299.html",
+      "published_at": "2026-11-20T01:32:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:16Z"
+    },
+    {
+      "id": "2007b5d08b5d816d",
+      "source": "marketwatch",
+      "title": "I\u2019m terrified of a market crash. Should I put $400,000 of my $1 million retirement savings into an annuity?",
+      "summary": "\u201cWe have a house worth $450,000. Our combined annual income is $125,000.\u201d",
+      "url": "https://www.marketwatch.com/story/were-in-our-50s-and-terrified-of-a-market-crash-should-we-put-400-000-of-our-1-million-retirement-savings-into-an-annuity-1943f240?mod=mw_rss_topstories",
+      "published_at": "2026-11-20T01:30:00Z",
+      "tickers": [
+        "I"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:19Z"
+    },
+    {
+      "id": "196a7061743d67b7",
+      "source": "marketwatch",
+      "title": "My wife is bankrolling her family\u2019s trips to New York and it\u2019s draining our savings. Should I ask her to stop?",
+      "summary": "\u201cHotel rooms can cost as much as $400 per night.\u201d",
+      "url": "https://www.marketwatch.com/story/my-wife-pays-thousands-of-dollars-for-her-family-to-visit-from-argentina-how-can-i-convince-her-to-stop-9381351c?mod=mw_rss_topstories",
+      "published_at": "2026-11-20T01:22:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:19Z"
+    },
+    {
+      "id": "199c45e25e4c0512",
+      "source": "prnewswire_financial",
+      "title": "Contralora Malia M. Cohen: Las Perspectivas Fiscales de la LAO Subrayan la Necesidad de Disciplina Presupuestaria y de Reservas m\u00e1s S\u00f3lidas",
+      "summary": "SACRAMENTO, Calif., 19 de noviembre de 2026 /PRNewswire-HISPANIC PR WIRE/ -- La contralora de California, Malia M. Cohen, emiti\u00f3 la siguiente declaraci\u00f3n en respuesta a la Perspectiva Fiscal para 2027\u201328 de la Legislative Analyst's Office (LAO, por sus siglas en ingl\u00e9s), la cual proyecta...",
+      "url": "https://www.prnewswire.com/news-releases/contralora-malia-m-cohen-las-perspectivas-fiscales-de-la-lao-subrayan-la-necesidad-de-disciplina-presupuestaria-y-de-reservas-mas-solidas-872338695.html",
+      "published_at": "2026-11-20T00:36:00Z",
+      "tickers": [],
+      "event_type": "analyst",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:16Z"
+    },
+    {
+      "id": "472536dd0e7c9065",
+      "source": "prnewswire_financial",
+      "title": "Controller Malia M. Cohen: LAO Fiscal Outlook Underscores Need for Budget Discipline and Stronger Reserves",
+      "summary": "SACRAMENTO, Calif., Nov. 19, 2026 /PRNewswire-HISPANIC PR WIRE/ -- California State Controller Malia M. Cohen issued the following statement in response to the Legislative Analyst's Office (LAO) 2027\u201328 Fiscal Outlook, which projects a $2 billion budget deficit in the upcoming fiscal year...",
+      "url": "https://www.prnewswire.com/news-releases/controller-malia-m-cohen-lao-fiscal-outlook-underscores-need-for-budget-discipline-and-stronger-reserves-852604383.html",
+      "published_at": "2026-11-20T00:20:00Z",
+      "tickers": [
+        "LAO"
+      ],
+      "event_type": "analyst",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:16Z"
+    },
+    {
+      "id": "5abc795a90efceb4",
+      "source": "prnewswire_financial",
+      "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of Applied Aerospace & Defense, Inc. - AADX",
+      "summary": "NEW YORK, Nov. 19, 2026 /PRNewswire/ -- Pomerantz LLP is investigating claims on behalf of investors of Applied Aerospace & Defense, Inc. (\"Applied\" or the \"Company\") (NYSE: AADX). Such investors are advised to contact Danielle Peyton at newaction@pomlaw.com or 646-581-9980, ext. 7980....",
+      "url": "https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-of-investors-of-applied-aerospace--defense-inc---aadx-302946196.html",
+      "published_at": "2026-11-19T23:57:00Z",
+      "tickers": [
+        "AADX"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:16Z"
+    },
+    {
+      "id": "60b91b1e704c90d6",
+      "source": "marketwatch",
+      "title": "After Anthropic\u2019s \u2018bittersweet\u2019 IPO, here\u2019s what lies ahead",
+      "summary": "Retail investors showed up, but Anthropic has so far failed to provide a broad lift to the technology sector.",
+      "url": "https://www.marketwatch.com/story/after-anthropics-bittersweet-ipo-heres-what-lies-ahead-8c32fdb7?mod=mw_rss_topstories",
+      "published_at": "2026-11-19T23:56:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:19Z"
+    },
+    {
+      "id": "1899a6e8c7b8cff6",
+      "source": "prnewswire_financial",
+      "title": "/C O R R E C T I O N - Chargeflow/",
+      "summary": "In the news release, 80% of Merchants Use AI for Chargebacks, but Only 11% Have Automated, Chargeflow and Juniper Research Finds, issued 17-Nov-2026 by Chargeflow over PR Newswire, we are advised by the company that changes have been made. The complete, corrected release follows, with...",
+      "url": "https://www.prnewswire.com/news-releases/80-of-merchants-use-ai-for-chargebacks-but-only-11-have-automated-chargeflow-and-juniper-research-finds-302942396.html",
+      "published_at": "2026-11-19T23:21:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:16Z"
+    },
+    {
+      "id": "79915549cf7160c3",
+      "source": "prnewswire_financial",
+      "title": "TDH Holdings, Inc. Reports First Half 2026 Financial Results",
+      "summary": "BEIJING, Nov. 19, 2026 /PRNewswire/ -- TDH Holdings, Inc. (NASDAQ: PETZ) (\"TDH\" or the \"Company\"), a PRC-based company that is an owner, operator and manager of commercial real estate properties, announced today its financial results for the six months ended June 30, 2026. First Half 2026...",
+      "url": "https://www.prnewswire.com/news-releases/tdh-holdings-inc-reports-first-half-2026-financial-results-302946223.html",
+      "published_at": "2026-11-19T23:15:00Z",
+      "tickers": [
+        "PETZ",
+        "TDH"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:16Z"
+    },
+    {
+      "id": "ed5ca2a6780808fe",
+      "source": "marketwatch",
+      "title": "These were the only stocks that rose amid the stock market\u2019s wipeout Thursday",
+      "summary": "All 11 sectors of the S&amp;P 500 declined \u2014 10 of them by more than 1% \u2014 but cybersecurity stocks bucked the weakness.",
+      "url": "https://www.marketwatch.com/story/these-were-the-only-stocks-that-rose-amid-the-stock-markets-wipeout-thursday-1eaf32ba?mod=mw_rss_topstories",
+      "published_at": "2026-11-19T23:11:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:19Z"
+    },
+    {
+      "id": "d4d9a143a81c7630",
+      "source": "prnewswire_financial",
+      "title": "MFB Bancorp, Inc. Announces Commencement of Stock Offering",
+      "summary": "CHICAGO, Nov. 19, 2026 /PRNewswire/ -- Mutual Federal Bancorp, Inc. (\"Mutual Federal Bancorp\") (OTC: \"MFDB\"), the mid-tier holding company for Mutual Federal Bank (the \"Bank\"), announced today that MFB Bancorp, Inc. (\"MFB Bancorp\"), a newly formed Delaware company and the proposed...",
+      "url": "https://www.prnewswire.com/news-releases/mfb-bancorp-inc-announces-commencement-of-stock-offering-302946216.html",
+      "published_at": "2026-11-19T22:53:00Z",
+      "tickers": [
+        "MFB"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:16Z"
+    },
+    {
+      "id": "04fae79107524cce",
+      "source": "marketwatch",
+      "title": "Intuit\u2019s downbeat outlook deepens Wall Street\u2019s anxiety about software companies",
+      "summary": "TurboTax maker Intuit gives investors a fresh reason to worry about legacy software companies.",
+      "url": "https://www.marketwatch.com/story/intuits-downbeat-outlook-deepens-wall-streets-anxiety-about-software-companies-15b878e5?mod=mw_rss_topstories",
+      "published_at": "2026-11-19T22:53:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:19Z"
+    },
+    {
+      "id": "4759a7e42a70d3b5",
+      "source": "edgar_8k",
+      "title": "8-K - Passage BIO, Inc. (0001787297) (Filer)",
+      "summary": "Filed: 2026-11-19 AccNo: 0001140361-26-044947 Size: 1 MB Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1787297/000114036126044947/0001140361-26-044947-index.htm",
+      "published_at": "2026-11-19T22:31:07Z",
+      "tickers": [],
+      "company": "Passage BIO, Inc.",
+      "event_type": "fraud_probe",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "scanned_at": "2026-11-20T03:33:16Z"
+    },
+    {
+      "id": "0ecc1a34ef08d21e",
+      "source": "edgar_8k",
+      "title": "8-K - Arrive AI Inc. (0001818274) (Filer)",
+      "summary": "Filed: 2026-11-19 AccNo: 0001493152-26-053323 Size: 11 MB Item 1.01: Entry into a Material Definitive Agreement Item 3.02: Unregistered Sales of Equity Securities Item 3.03: Material Modifications to Rights of Security Holders Item 5.03: Amendments to Articles of Incorporation or Bylaws; Change in Fiscal Year Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1818274/000149315226053323/0001493152-26-053323-index.htm",
+      "published_at": "2026-11-19T22:30:40Z",
+      "tickers": [],
+      "company": "Arrive AI Inc.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:16Z"
+    },
+    {
+      "id": "be8169645d2d838f",
+      "source": "edgar_8k",
+      "title": "8-K - EQUITY BANCSHARES INC (0001227500) (Filer)",
+      "summary": "Filed: 2026-11-19 AccNo: 0001193125-26-468835 Size: 165 KB Item 8.01: Other Events",
+      "url": "https://www.sec.gov/Archives/edgar/data/1227500/000119312526468835/0001193125-26-468835-index.htm",
+      "published_at": "2026-11-19T22:27:18Z",
+      "tickers": [],
+      "company": "EQUITY BANCSHARES INC",
+      "event_type": "fraud_probe",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "scanned_at": "2026-11-20T03:33:16Z"
+    },
+    {
+      "id": "54b9a3e1304a6c66",
+      "source": "edgar_8k",
+      "title": "8-K - INTUIT INC. (0000896878) (Filer)",
+      "summary": "Filed: 2026-11-19 AccNo: 0001193125-26-468834 Size: 833 KB Item 1.01: Entry into a Material Definitive Agreement Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/896878/000119312526468834/0001193125-26-468834-index.htm",
+      "published_at": "2026-11-19T22:26:43Z",
+      "tickers": [],
+      "company": "INTUIT INC.",
+      "event_type": "fraud_probe",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "scanned_at": "2026-11-20T03:33:16Z"
+    },
+    {
+      "id": "2d1728889f3b0293",
+      "source": "edgar_8k",
+      "title": "8-K - Granite Ridge Resources, Inc. (0001928446) (Filer)",
+      "summary": "Filed: 2026-11-19 AccNo: 0001928446-26-000070 Size: 155 KB Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1928446/000192844626000070/0001928446-26-000070-index.htm",
+      "published_at": "2026-11-19T22:25:25Z",
+      "tickers": [],
+      "company": "Granite Ridge Resources, Inc.",
+      "event_type": "fraud_probe",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "scanned_at": "2026-11-20T03:33:16Z"
+    },
+    {
+      "id": "c631aee2c11223ca",
+      "source": "edgar_8k",
+      "title": "8-K - CALERES INC (0000014707) (Filer)",
+      "summary": "Filed: 2026-11-19 AccNo: 0001104659-26-130237 Size: 166 KB Item 2.02: Results of Operations and Financial Condition Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/14707/000110465926130237/0001104659-26-130237-index.htm",
+      "published_at": "2026-11-19T22:24:08Z",
+      "tickers": [],
+      "company": "CALERES INC",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:16Z"
+    },
+    {
+      "id": "1b45c0997fa3fe1a",
+      "source": "edgar_8k",
+      "title": "8-K - INSIGHT ENTERPRISES INC (0000932696) (Filer)",
+      "summary": "Filed: 2026-11-19 AccNo: 0000932696-26-000089 Size: 54 MB Item 1.01: Entry into a Material Definitive Agreement Item 2.03: Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant Item 3.02: Unregistered Sales of Equity Securities Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/932696/000093269626000089/0000932696-26-000089-index.htm",
+      "published_at": "2026-11-19T22:23:58Z",
+      "tickers": [],
+      "company": "INSIGHT ENTERPRISES INC",
+      "event_type": "fraud_probe",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "scanned_at": "2026-11-20T03:33:16Z"
+    },
+    {
+      "id": "9fbeab6da9bfca38",
+      "source": "edgar_8k",
+      "title": "8-K - GeoVax Labs, Inc. (0000832489) (Filer)",
+      "summary": "Filed: 2026-11-19 AccNo: 0001437749-26-037764 Size: 281 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/832489/000143774926037764/0001437749-26-037764-index.htm",
+      "published_at": "2026-11-19T22:23:48Z",
+      "tickers": [],
+      "company": "GeoVax Labs, Inc.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:16Z"
+    },
+    {
+      "id": "62d3ec60333a0c7d",
+      "source": "edgar_8k",
+      "title": "8-K - LKQ CORP (0001065696) (Filer)",
+      "summary": "Filed: 2026-11-19 AccNo: 0001065696-26-000063 Size: 173 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
+      "url": "https://www.sec.gov/Archives/edgar/data/1065696/000106569626000063/0001065696-26-000063-index.htm",
+      "published_at": "2026-11-19T22:23:01Z",
+      "tickers": [],
+      "company": "LKQ CORP",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:16Z"
+    },
+    {
+      "id": "e3bbe91d5019522f",
+      "source": "edgar_8k",
+      "title": "8-K - AMAZE HOLDINGS, INC. (0001880343) (Filer)",
+      "summary": "Filed: 2026-11-19 AccNo: 0001493152-26-053313 Size: 189 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
+      "url": "https://www.sec.gov/Archives/edgar/data/1880343/000149315226053313/0001493152-26-053313-index.htm",
+      "published_at": "2026-11-19T22:22:24Z",
+      "tickers": [],
+      "company": "AMAZE HOLDINGS, INC.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:16Z"
+    },
+    {
+      "id": "cd0e5c0ebb8e2986",
+      "source": "edgar_8k",
+      "title": "8-K - Inflection Point Acquisition Corp. VI (0002102041) (Filer)",
+      "summary": "Filed: 2026-11-19 AccNo: 0001213900-26-122300 Size: 314 KB Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/2102041/000121390026122300/0001213900-26-122300-index.htm",
+      "published_at": "2026-11-19T22:21:59Z",
+      "tickers": [],
+      "company": "Inflection Point Acquisition Corp. VI",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:16Z"
+    },
+    {
+      "id": "2db643e937b378a8",
+      "source": "edgar_8k",
+      "title": "8-K - Stewards, Inc. (0001795851) (Filer)",
+      "summary": "Filed: 2026-11-19 AccNo: 0001663577-26-000356 Size: 305 KB Item 1.02: Termination of a Material Definitive Agreement Item 2.03: Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant Item 3.02: Unregistered Sales of Equity Securities Item 3.03: Material Modifications to Rights of Security Holders Item 5.03: Amendments to Articles of Incorporation or Bylaws; Change in Fiscal Year Item 5.07: Submission of Matters to a Vote of Security Hold",
+      "url": "https://www.sec.gov/Archives/edgar/data/1795851/000166357726000356/0001663577-26-000356-index.htm",
+      "published_at": "2026-11-19T22:20:39Z",
+      "tickers": [],
+      "company": "Stewards, Inc.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:16Z"
+    },
+    {
+      "id": "66db4acb2d3c956c",
+      "source": "edgar_8k",
+      "title": "8-K - Ellington Credit Co (0001560672) (Filer)",
+      "summary": "Filed: 2026-11-19 AccNo: 0001628280-26-075131 Size: 377 KB Item 2.02: Results of Operations and Financial Condition Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1560672/000162828026075131/0001628280-26-075131-index.htm",
+      "published_at": "2026-11-19T22:16:09Z",
+      "tickers": [],
+      "company": "Ellington Credit Co",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:16Z"
+    },
+    {
+      "id": "effbeda1df056c11",
+      "source": "edgar_8k",
+      "title": "8-K - AETERNUM RESOURCES, INC. (0000764630) (Filer)",
+      "summary": "Filed: 2026-11-19 AccNo: 0001493152-26-053307 Size: 430 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/764630/000149315226053307/0001493152-26-053307-index.htm",
+      "published_at": "2026-11-19T22:15:26Z",
+      "tickers": [],
+      "company": "AETERNUM RESOURCES, INC.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:16Z"
+    },
+    {
+      "id": "d2ebdb2ddb2940a5",
+      "source": "edgar_8k",
+      "title": "8-K - Ellington Credit Co (0001560672) (Filer)",
+      "summary": "Filed: 2026-11-19 AccNo: 0001628280-26-075129 Size: 179 KB Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1560672/000162828026075129/0001628280-26-075129-index.htm",
+      "published_at": "2026-11-19T22:15:09Z",
+      "tickers": [],
+      "company": "Ellington Credit Co",
+      "event_type": "fraud_probe",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "scanned_at": "2026-11-20T03:33:16Z"
+    },
+    {
+      "id": "3392d7c28aff28bc",
+      "source": "edgar_8k",
+      "title": "8-K - Home Federal Bancorp, Inc. of Louisiana (0001500375) (Filer)",
+      "summary": "Filed: 2026-11-19 AccNo: 0000927089-26-000195 Size: 274 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1500375/000092708926000195/0000927089-26-000195-index.htm",
+      "published_at": "2026-11-19T22:14:13Z",
+      "tickers": [],
+      "company": "Home Federal Bancorp, Inc. of Louisiana",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:16Z"
+    },
+    {
+      "id": "772b10aa41a8944c",
+      "source": "edgar_8k",
+      "title": "8-K - GEOSPACE TECHNOLOGIES CORP (0001001115) (Filer)",
+      "summary": "Filed: 2026-11-19 AccNo: 0001437749-26-037760 Size: 647 KB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1001115/000143774926037760/0001437749-26-037760-index.htm",
+      "published_at": "2026-11-19T22:13:47Z",
+      "tickers": [],
+      "company": "GEOSPACE TECHNOLOGIES CORP",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:16Z"
+    },
+    {
+      "id": "bde40f847ed3bc69",
+      "source": "edgar_8k",
+      "title": "8-K - CVB FINANCIAL CORP (0000354647) (Filer)",
+      "summary": "Filed: 2026-11-19 AccNo: 0001193125-26-468781 Size: 187 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/354647/000119312526468781/0001193125-26-468781-index.htm",
+      "published_at": "2026-11-19T22:12:47Z",
+      "tickers": [],
+      "company": "CVB FINANCIAL CORP",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:16Z"
+    },
+    {
+      "id": "6a61763a58f06292",
+      "source": "marketwatch",
+      "title": "Anthropic\u2019s stock surges in its debut \u2014 and the rest of the market dives anyway",
+      "summary": "All four major U.S. stock indexes are now on pace for their worst week since President Trump\u2019s \u201cliberation day\u201d tariffs of April 2025",
+      "url": "https://www.marketwatch.com/story/anthropics-stock-surges-in-its-debut-and-the-rest-of-the-market-dives-anyway-19671218?mod=mw_rss_topstories",
+      "published_at": "2026-11-19T22:12:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:19Z"
+    },
+    {
+      "id": "8ce81b474e6af02b",
+      "source": "edgar_8k",
+      "title": "8-K - Sandisk Corp (0002023554) (Filer)",
+      "summary": "Filed: 2026-11-19 AccNo: 0001628280-26-075127 Size: 165 KB Item 5.03: Amendments to Articles of Incorporation or Bylaws; Change in Fiscal Year Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026075127/0001628280-26-075127-index.htm",
+      "published_at": "2026-11-19T22:10:51Z",
+      "tickers": [],
+      "company": "Sandisk Corp",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:16Z"
+    },
+    {
+      "id": "275ee538e8a0649d",
+      "source": "edgar_8k",
+      "title": "8-K - Co-Diagnostics, Inc. (0001692415) (Filer)",
+      "summary": "Filed: 2026-11-19 AccNo: 0001493152-26-053304 Size: 250 KB Item 3.03: Material Modifications to Rights of Security Holders Item 5.03: Amendments to Articles of Incorporation or Bylaws; Change in Fiscal Year Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1692415/000149315226053304/0001493152-26-053304-index.htm",
+      "published_at": "2026-11-19T22:10:22Z",
+      "tickers": [],
+      "company": "Co-Diagnostics, Inc.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:16Z"
+    },
+    {
+      "id": "ab7861f84c286636",
+      "source": "edgar_8k",
+      "title": "8-K - Home Federal Bancorp, Inc. of Louisiana (0001500375) (Filer)",
+      "summary": "Filed: 2026-11-19 AccNo: 0000927089-26-000194 Size: 177 KB Item 5.07: Submission of Matters to a Vote of Security Holders Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1500375/000092708926000194/0000927089-26-000194-index.htm",
+      "published_at": "2026-11-19T22:09:46Z",
+      "tickers": [],
+      "company": "Home Federal Bancorp, Inc. of Louisiana",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:16Z"
+    },
+    {
+      "id": "4d0e9a3f666077f4",
+      "source": "edgar_8k",
+      "title": "8-K - Onar Holding Corp (0001682265) (Filer)",
+      "summary": "Filed: 2026-11-19 AccNo: 0001477932-26-007191 Size: 206 KB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1682265/000147793226007191/0001477932-26-007191-index.htm",
+      "published_at": "2026-11-19T22:07:50Z",
+      "tickers": [],
+      "company": "Onar Holding Corp",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:16Z"
+    },
+    {
+      "id": "cf5d0e67a69cd309",
+      "source": "edgar_8k",
+      "title": "8-K - Amalgamated Financial Corp. (0001823608) (Filer)",
+      "summary": "Filed: 2026-11-19 AccNo: 0001823608-26-000219 Size: 6 MB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1823608/000182360826000219/0001823608-26-000219-index.htm",
+      "published_at": "2026-11-19T22:06:51Z",
+      "tickers": [],
+      "company": "Amalgamated Financial Corp.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:16Z"
+    },
     {
       "id": "b1d1c401afb911e7",
       "source": "prnewswire",
@@ -47,7 +886,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-19T22:06:51Z"
+      "scanned_at": "2026-11-20T03:33:16Z"
     },
     {
       "id": "9609ff3aa072502a",
@@ -62,7 +901,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-19T22:06:51Z"
+      "scanned_at": "2026-11-20T03:33:16Z"
     },
     {
       "id": "6035fe3880d669f1",
@@ -77,7 +916,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-19T22:06:51Z"
+      "scanned_at": "2026-11-20T03:33:16Z"
     },
     {
       "id": "3f5a3bfdda9644a4",
@@ -149,7 +988,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-19T22:06:52Z"
+      "scanned_at": "2026-11-20T03:33:16Z"
     },
     {
       "id": "731c84050883f272",
@@ -164,7 +1003,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-19T22:06:51Z"
+      "scanned_at": "2026-11-20T03:33:16Z"
     },
     {
       "id": "28d13a7a5b2cab07",
@@ -179,7 +1018,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-19T22:06:51Z"
+      "scanned_at": "2026-11-20T03:33:16Z"
     },
     {
       "id": "66b7b8eb6adf2e08",
@@ -194,7 +1033,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-19T22:06:51Z"
+      "scanned_at": "2026-11-20T03:33:16Z"
     },
     {
       "id": "9418c5f7a5fa4e14",
@@ -209,7 +1048,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-19T22:06:51Z"
+      "scanned_at": "2026-11-20T03:33:16Z"
     },
     {
       "id": "237667163aa8afd1",
@@ -224,7 +1063,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-19T22:06:51Z"
+      "scanned_at": "2026-11-20T03:33:16Z"
     },
     {
       "id": "859b6a58474b0c83",
@@ -239,7 +1078,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-19T22:06:51Z"
+      "scanned_at": "2026-11-20T03:33:16Z"
     },
     {
       "id": "b5351a0e92fc6259",
@@ -287,7 +1126,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-19T22:06:51Z"
+      "scanned_at": "2026-11-20T03:33:16Z"
     },
     {
       "id": "2665817b5298aa35",
@@ -316,7 +1155,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-19T22:06:51Z"
+      "scanned_at": "2026-11-20T03:33:16Z"
     },
     {
       "id": "c06dcc903933d995",
@@ -358,7 +1197,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-19T22:06:54Z"
+      "scanned_at": "2026-11-20T03:33:19Z"
     },
     {
       "id": "c5b36c0e12493612",
@@ -403,7 +1242,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-19T22:06:51Z"
+      "scanned_at": "2026-11-20T03:33:16Z"
     },
     {
       "id": "b7cbf317fc5caafb",
@@ -418,7 +1257,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-19T22:06:51Z"
+      "scanned_at": "2026-11-20T03:33:16Z"
     },
     {
       "id": "ff75d2f1f6c33b0a",
@@ -447,7 +1286,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-19T22:06:51Z"
+      "scanned_at": "2026-11-20T03:33:16Z"
     },
     {
       "id": "e81ec121c5fa67a8",
@@ -479,7 +1318,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-19T22:06:52Z"
+      "scanned_at": "2026-11-20T03:33:16Z"
     },
     {
       "id": "13a0e4c1f06ce4cf",
@@ -494,7 +1333,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-19T22:06:51Z"
+      "scanned_at": "2026-11-20T03:33:16Z"
     },
     {
       "id": "04e661446ef7817c",
@@ -509,7 +1348,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-19T22:06:51Z"
+      "scanned_at": "2026-11-20T03:33:16Z"
     },
     {
       "id": "d083a654b65e981f",
@@ -524,7 +1363,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-19T22:06:51Z"
+      "scanned_at": "2026-11-20T03:33:16Z"
     },
     {
       "id": "36b6cb7dc1849d1f",
@@ -553,7 +1392,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-19T22:06:54Z"
+      "scanned_at": "2026-11-20T03:33:19Z"
     },
     {
       "id": "38a1eb1ca90449e1",
@@ -898,7 +1737,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-19T22:06:52Z"
+      "scanned_at": "2026-11-20T03:33:16Z"
     },
     {
       "id": "2d26081ef7df7102",
@@ -914,7 +1753,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-19T22:06:52Z"
+      "scanned_at": "2026-11-20T03:33:16Z"
     },
     {
       "id": "f54415557c4b2aac",
@@ -1017,7 +1856,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-19T22:06:52Z"
+      "scanned_at": "2026-11-20T03:33:16Z"
     },
     {
       "id": "0df56607a4b778df",
@@ -1031,7 +1870,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-19T22:06:54Z"
+      "scanned_at": "2026-11-20T03:33:19Z"
     },
     {
       "id": "780ba6e3b504d6ab",
@@ -1045,7 +1884,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-19T22:06:53Z"
+      "scanned_at": "2026-11-20T03:33:17Z"
     },
     {
       "id": "d97374e3f3c89787",
@@ -1073,7 +1912,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-19T22:06:52Z"
+      "scanned_at": "2026-11-20T03:33:16Z"
     },
     {
       "id": "26ccb0dfdb649790",
@@ -1089,7 +1928,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-19T22:06:52Z"
+      "scanned_at": "2026-11-20T03:33:16Z"
     },
     {
       "id": "bd6371e42d544b86",
@@ -1105,7 +1944,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-19T22:06:52Z"
+      "scanned_at": "2026-11-20T03:33:16Z"
     },
     {
       "id": "585189fd8303e795",
@@ -1135,7 +1974,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-19T22:06:52Z"
+      "scanned_at": "2026-11-20T03:33:16Z"
     },
     {
       "id": "1c9ec7d79dc7c1d5",
@@ -1149,7 +1988,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-19T22:06:52Z"
+      "scanned_at": "2026-11-20T03:33:16Z"
     },
     {
       "id": "d410e0a49ac676f4",
@@ -1179,7 +2018,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-19T22:06:52Z"
+      "scanned_at": "2026-11-20T03:33:16Z"
     },
     {
       "id": "9e696b6219efa4bb",
@@ -1195,7 +2034,7 @@
       "direction": "bullish",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-19T22:06:52Z"
+      "scanned_at": "2026-11-20T03:33:16Z"
     },
     {
       "id": "6ab117e2efb5bb09",
@@ -1212,7 +2051,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-19T22:06:52Z"
+      "scanned_at": "2026-11-20T03:33:16Z"
     },
     {
       "id": "26f5329359e83e48",
@@ -1302,7 +2141,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-19T22:06:54Z"
+      "scanned_at": "2026-11-20T03:33:19Z"
     },
     {
       "id": "909e1157bd6f5ce7",
@@ -2902,7 +3741,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-19T22:06:53Z"
+      "scanned_at": "2026-11-20T03:33:17Z"
     },
     {
       "id": "32310501856c669f",
@@ -3680,7 +4519,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-19T22:06:53Z"
+      "scanned_at": "2026-11-20T03:33:18Z"
     },
     {
       "id": "40be32d2f5dcefce",
@@ -4716,6 +5555,308 @@
       "news_side": null,
       "actionable": false,
       "scanned_at": "2026-11-19T04:30:29Z"
+    },
+    {
+      "id": "23770a82645485c0",
+      "source": "cnbc_finance",
+      "title": "I watched Trump, Xi and Putin gather in China. Here are my top takeaways",
+      "summary": "U.S. President Donald Trump, Chinese President Xi Jinping and Russian President Vladimir Putin are expected to hold a rare trilateral meeting on Thursday.",
+      "url": "https://www.cnbc.com/2026/11/18/trump-xi-putin-apec-shenzhen-china.html",
+      "published_at": "2026-11-18T19:47:05Z",
+      "tickers": [
+        "I"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:18Z"
+    },
+    {
+      "id": "e4ae7901911f6791",
+      "source": "cnbc_finance",
+      "title": "Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show",
+      "summary": "The Federal Reserve on Wednesday released minutes from its October policy meeting at which it voted to hold its benchmark interest rate in a range between 3.75%-4%.",
+      "url": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html",
+      "published_at": "2026-11-18T19:41:59Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:18Z"
+    },
+    {
+      "id": "68e9fe58743921e0",
+      "source": "cnbc_business",
+      "title": "Lowe's posts strong online sales, raises outlook despite slow housing market",
+      "summary": "Lowe's said it saw strength in online sales during its quarter that contributed to a guidance raise for the full year.",
+      "url": "https://www.cnbc.com/2026/11/18/lowes-low-q3-2026-earnings.html",
+      "published_at": "2026-11-18T18:27:52Z",
+      "tickers": [],
+      "event_type": "guidance_raise",
+      "direction": "bullish",
+      "news_side": "long",
+      "actionable": true,
+      "scanned_at": "2026-11-20T03:33:17Z"
+    },
+    {
+      "id": "394caf620c2feb1f",
+      "source": "cnbc_business",
+      "title": "Investigators make progress in hunt for cause of FAA ground stop",
+      "summary": "Engineers and analysts are still searching for the root cause of the issue, which led to a four-hour ground stop on Friday.",
+      "url": "https://www.cnbc.com/2026/11/18/faa-ground-stop-router-investigation.html",
+      "published_at": "2026-11-18T18:13:25Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:17Z"
+    },
+    {
+      "id": "3d82b344187be32c",
+      "source": "cnbc_business",
+      "title": "Target shares rise 7% as retailer posts best sales growth in five years, hikes guidance",
+      "summary": "Target beat third-quarter sales expectations and raised its guidance as it continues a turnaround effort.",
+      "url": "https://www.cnbc.com/2026/11/18/target-tgt-q3-2026-earnings.html",
+      "published_at": "2026-11-18T17:56:50Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:17Z"
+    },
+    {
+      "id": "445f7970520f5ed4",
+      "source": "cnbc_business",
+      "title": "Ford starts U.S. battery cell production using Chinese tech amid geopolitical tensions",
+      "summary": "Ford has started U.S. production and shipments of battery cells for its next-generation EVs using technologies licensed by Chinese battery giant CATL.",
+      "url": "https://www.cnbc.com/2026/11/18/ford-us-battery-cells-catl-tech.html",
+      "published_at": "2026-11-18T17:02:53Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:17Z"
+    },
+    {
+      "id": "12a89c1c4da0611f",
+      "source": "cnbc_finance",
+      "title": "Tech outages are causing people to panic-buy. Costco is benefiting, Mizuho says",
+      "summary": "Shoppers are spending more at Costco as tech outages turn into a race to get emergency goods.",
+      "url": "https://www.cnbc.com/2026/11/18/tech-outage-costco-panic-buying.html",
+      "published_at": "2026-11-18T16:33:14Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:18Z"
+    },
+    {
+      "id": "7876614443919191",
+      "source": "cnbc_finance",
+      "title": "Fed\u2019s Waller says central bank may need to \u2018shock people\u2019 with half-point rate hike",
+      "summary": "Continued inflation above the Fed's 2% target is pushing central bank officials into a more aggressive stance.",
+      "url": "https://www.cnbc.com/2026/11/18/federal-reserve-governor-christopher-waller.html",
+      "published_at": "2026-11-18T15:13:39Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:18Z"
+    },
+    {
+      "id": "4707d8625352763b",
+      "source": "cnbc_business",
+      "title": "Hims & Hers launches new peptide treatments \u2014 while admitting there's more to learn about efficacy",
+      "summary": "The telehealth company will now offer compounded forms of sermorelin, glutathione, NAD+, vitamin B-12 and L-carnitine, none of which are approved by the FDA.",
+      "url": "https://www.cnbc.com/2026/11/18/hims-hers-peptides-plus-treatments.html",
+      "published_at": "2026-11-18T14:02:52Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:17Z"
+    },
+    {
+      "id": "210ca42eaceff4c9",
+      "source": "cnbc_business",
+      "title": "Booking Holdings creates new enterprise division as AI reshapes travel planning",
+      "summary": "The future for online travel agencies increasingly relies on scaling business-to-business travel platforms.",
+      "url": "https://www.cnbc.com/2026/11/18/booking-holdings-enterprise.html",
+      "published_at": "2026-11-18T12:55:01Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:17Z"
+    },
+    {
+      "id": "37d9b85b86f8570e",
+      "source": "cnbc_finance",
+      "title": "Putin says EU is losing industry, falling behind competition, ahead of meeting with Trump and Xi",
+      "summary": "Putin used the speech to emphasize Russia's economic resilience despite U.S. sanctions, and played up opportunities for APEC members in the country.",
+      "url": "https://www.cnbc.com/2026/11/18/putin-apec-eu-trump-xi-meeting.html",
+      "published_at": "2026-11-18T08:29:35Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:18Z"
+    },
+    {
+      "id": "11a367c2362c9b5d",
+      "source": "cnbc_finance",
+      "title": "JPMorgan is working on AI agent transactions that don\u2019t involve humans",
+      "summary": "JPMorgan and Hyundai Card are looking to expand the use of AI agents in financial transactions.",
+      "url": "https://www.cnbc.com/2026/11/18/jpmorgan-hyundai-card-ai-agents-payments.html",
+      "published_at": "2026-11-18T06:18:11Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:18Z"
+    },
+    {
+      "id": "a0a88e97e320fed3",
+      "source": "cnbc_finance",
+      "title": "Three things to watch as Trump, Xi and Putin meet in China",
+      "summary": "U.S. President Donald Trump, Chinese President Xi Jinping and Russian President Vladimir Putin are set to meet in Shenzhen alongside an APEC leaders' meeting.",
+      "url": "https://www.cnbc.com/2026/11/18/apec-trump-xi-putin-shenzhen.html",
+      "published_at": "2026-11-18T06:04:39Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:18Z"
+    },
+    {
+      "id": "951a97e9e2264de2",
+      "source": "cnbc_business",
+      "title": "Nike lays out financial goals ahead of first investor day in 9 years",
+      "summary": "Nike is hosting an investor day at its Oregon headquarters as the company tries to prove to investors that its turnaround is working.",
+      "url": "https://www.cnbc.com/2026/11/17/nike-investor-day-elliott-hill.html",
+      "published_at": "2026-11-17T22:17:44Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:17Z"
+    },
+    {
+      "id": "a9fd8f4d6ec20d29",
+      "source": "cnbc_business",
+      "title": "U.S. officially loses measles elimination status amid ongoing outbreaks",
+      "summary": "The director of PAHO made the final call that measles is endemic \u2014 or always present \u2014 in the U.S. following 12 months of continuous transmission.",
+      "url": "https://www.cnbc.com/2026/11/17/us-measles-elimination-status.html",
+      "published_at": "2026-11-17T22:02:05Z",
+      "tickers": [
+        "U"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:17Z"
+    },
+    {
+      "id": "6136098e91336647",
+      "source": "cnbc_business",
+      "title": "FAA pauses installation of new routers after ground stop",
+      "summary": "Problems with the overwhelmed technology led the agency to issue a rare nationwide ground stop on Friday.",
+      "url": "https://www.cnbc.com/2026/11/17/faa-ground-stop-routers.html",
+      "published_at": "2026-11-17T20:53:24Z",
+      "tickers": [
+        "FAA"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:17Z"
+    },
+    {
+      "id": "98bcd35864340b81",
+      "source": "cnbc_business",
+      "title": "Home Depot names Richard McPhail as new CEO, beats earnings expectations",
+      "summary": "Home Depot named Richard McPhail as its new CEO effective next week.",
+      "url": "https://www.cnbc.com/2026/11/17/home-depot-hd-q3-earnings-2026.html",
+      "published_at": "2026-11-17T20:01:12Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:17Z"
+    },
+    {
+      "id": "14e9643c88760356",
+      "source": "cnbc_business",
+      "title": "Disney beats fourth-quarter estimates, targets $3 billion in savings through cost-cutting efforts",
+      "summary": "Investors will be looking for more insight into CEO Josh D'Amaro's strategy following several rounds of layoffs.",
+      "url": "https://www.cnbc.com/2026/11/17/disney-dis-earnings-q-2026.html",
+      "published_at": "2026-11-17T16:40:25Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:17Z"
+    },
+    {
+      "id": "4a7cf6339236247b",
+      "source": "cnbc_business",
+      "title": "Republicans outspent Democrats for first time in over a decade in record 2026 midterm election political ad blitz",
+      "summary": "Republicans slightly outspent Democrats for the first time as Democrats swept national and state elections.",
+      "url": "https://www.cnbc.com/2026/11/17/2026-election-political-ad-spending.html",
+      "published_at": "2026-11-17T14:00:02Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:17Z"
+    },
+    {
+      "id": "c6910cd6ccff8537",
+      "source": "cnbc_business",
+      "title": "United Airlines resolves system outage that affected departing flights",
+      "summary": "The airline said there was no impact on flights in progress and there was no indication the outage was a cyberattack.",
+      "url": "https://www.cnbc.com/2026/11/16/united-airlines-outage-faa.html",
+      "published_at": "2026-11-17T13:57:47Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:17Z"
+    },
+    {
+      "id": "735eceb6a5495ff8",
+      "source": "cnbc_finance",
+      "title": "U.S. companies from Nvidia to Apple face a growing China dilemma",
+      "summary": "The stakes have just gotten higher for businesses navigating the U.S. and China markets.",
+      "url": "https://www.cnbc.com/2026/11/17/us-tech-firms-china-ties-political-pressure.html",
+      "published_at": "2026-11-17T08:52:45Z",
+      "tickers": [
+        "U"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-20T03:33:18Z"
     }
   ]
 }
