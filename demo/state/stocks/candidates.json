@@ -11,8 +11,8 @@
   },
   "calendar_error": "",
   "n_calendar": 82,
-  "n_candidates": 82,
-  "n_tagged": 2,
+  "n_candidates": 85,
+  "n_tagged": 5,
   "errors": [],
   "rules": {
     "agent": "Discretionary agentic book. Cursor agent decides via stocks.decide from shared candidates. Baseline \u2014 not auto-traded by the engine.",
@@ -88,6 +88,98 @@
       ],
       "suggested_side": "short",
       "suggested_hold": 2
+    },
+    {
+      "ticker": "BSX",
+      "name": "BSX",
+      "source": "news",
+      "cal_date": "2026-11-20",
+      "report_date": "2026-11-20",
+      "timing": "news",
+      "surprise_pct": null,
+      "gap_pct": null,
+      "guidance": "none",
+      "headline": "Boston Scientific announces pricing of $3.0 billion and \u20ac4.25 billion offerings of senior notes",
+      "excerpt": "MARLBOROUGH, Mass., Nov. 19, 2026 /PRNewswire/ -- Boston Scientific Corporation (the \"Company\") (NYSE: BSX) announced today that it has priced a public offering of $3,000,000,000 aggregate principal amount of U.S. dollar-denominated notes (the \"USD Offering\"), consisting of $1,000,000,000...",
+      "filing_url": "",
+      "exhibit_url": "https://www.prnewswire.com/news-releases/boston-scientific-announces-pricing-of-3-0-billion-and-4-25-billion-offerings-of-senior-notes-302946308.html",
+      "news_id": "a5a5939ed10c3d57",
+      "news_source": "prnewswire",
+      "news_event_type": "dilution",
+      "news_direction": "bearish",
+      "news_side": "short",
+      "news_actionable": true,
+      "news_published_at": "2026-11-20T01:45:00Z",
+      "rule_tags": [
+        "news_event",
+        "dilution",
+        "news_short"
+      ],
+      "suggested_side": "short",
+      "suggested_hold": 2,
+      "spy_above_ma50": null,
+      "scanned_at": "2026-11-21T01:44:09Z"
+    },
+    {
+      "ticker": "HSBC",
+      "name": "HSBC",
+      "source": "news",
+      "cal_date": "2026-11-20",
+      "report_date": "2026-11-20",
+      "timing": "news",
+      "surprise_pct": null,
+      "gap_pct": null,
+      "guidance": "none",
+      "headline": "HSBC HOLDINGS PLC ANNOUNCES RESULTS OF ITS TENDER OFFER FOR ONE SERIES OF SECURITIES",
+      "excerpt": "LONDON, Nov. 20, 2026 /PRNewswire/ -- HSBC Holdings plc (the 'Company', 'we' or 'us') today announces the results of its offer to purchase (the 'Offer') for cash up to $1,500,000,000 aggregate principal amount (the 'Maximum Tender Amount') of the outstanding $3,000,000,000 6.000%...",
+      "filing_url": "",
+      "exhibit_url": "https://www.prnewswire.com/news-releases/hsbc-holdings-plc-announces-results-of-its-tender-offer-for-one-series-of-securities-302946837.html",
+      "news_id": "8a8e43ba465b024a",
+      "news_source": "prnewswire_financial",
+      "news_event_type": "acquisition_target",
+      "news_direction": "bullish",
+      "news_side": "long",
+      "news_actionable": true,
+      "news_published_at": "2026-11-20T11:00:00Z",
+      "rule_tags": [
+        "news_event",
+        "acquisition_target",
+        "news_long"
+      ],
+      "suggested_side": "long",
+      "suggested_hold": 2,
+      "spy_above_ma50": null,
+      "scanned_at": "2026-11-21T01:44:09Z"
+    },
+    {
+      "ticker": "NSSF",
+      "name": "NSSF",
+      "source": "news",
+      "cal_date": "2026-11-21",
+      "report_date": "2026-11-21",
+      "timing": "news",
+      "surprise_pct": null,
+      "gap_pct": null,
+      "guidance": "none",
+      "headline": "NSSF Challenges Maryland's Unconstitutional Ban on Popular Striker-Fired Handguns",
+      "excerpt": "WASHINGTON, Nov. 20, 2026 /PRNewswire/ -- NSSF\u00ae, The Firearm Industry Trade Association, filed a lawsuit challenging Maryland's ban on popular cruciform-trigger handguns. Maryland Gov. Wes Moore signed S.B. 334 prohibiting the sale of these commonly owned firearms in the state earlier...",
+      "filing_url": "",
+      "exhibit_url": "https://www.prnewswire.com/news-releases/nssf-challenges-marylands-unconstitutional-ban-on-popular-striker-fired-handguns-302947434.html",
+      "news_id": "23f4fe12d4c1d08a",
+      "news_source": "prnewswire",
+      "news_event_type": "lawsuit",
+      "news_direction": "bearish",
+      "news_side": null,
+      "news_actionable": false,
+      "news_published_at": "2026-11-21T00:26:00Z",
+      "rule_tags": [
+        "news_event",
+        "lawsuit"
+      ],
+      "suggested_side": null,
+      "suggested_hold": null,
+      "spy_above_ma50": null,
+      "scanned_at": "2026-11-21T01:44:09Z"
     },
     {
       "ticker": "NTIC",
@@ -2249,5 +2341,6 @@
       "suggested_side": null,
       "suggested_hold": null
     }
-  ]
+  ],
+  "news_merged_at": "2026-11-21T01:44:09Z"
 }
