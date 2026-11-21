@@ -1,11 +1,11 @@
 {
   "mode": "paper",
-  "as_of": "2026-11-21T16:44:37Z",
-  "as_of_et": "2026-11-21 11:44 ET",
+  "as_of": "2026-11-21T21:56:37Z",
+  "as_of_et": "2026-11-21 16:56 ET",
   "rolling_hours": 72,
-  "n_items": 348,
-  "n_actionable": 36,
-  "n_with_ticker": 81,
+  "n_items": 367,
+  "n_actionable": 35,
+  "n_with_ticker": 89,
   "sources": [
     "prnewswire",
     "prnewswire_financial",
@@ -19,6 +19,379 @@
   "note": "Paper news feed. Keyword tagging is heuristic. Shorts have no borrow model. RSS/EDGAR can lag minutes\u2013hours.",
   "items": [
     {
+      "id": "1c020e7c2795f82c",
+      "source": "prnewswire",
+      "title": "Toyota mejora la Sienna 2027 con actualizaciones integrales en el tren motriz y la seguridad",
+      "summary": "La Sienna 2027 actualiza sus sistemas de tren motriz, seguridad y tecnolog\u00eda para ofrecer m\u00e1s valor en su paquete ideal para familias Toyota presenta su sistema h\u00edbrido de sexta generaci\u00f3n con nuevos motores el\u00e9ctricos de alta eficiencia, bater\u00eda de iones de litio y motor recalibrado. La...",
+      "url": "https://www.prnewswire.com/news-releases/toyota-mejora-la-sienna-2027-con-actualizaciones-integrales-en-el-tren-motriz-y-la-seguridad-846008234.html",
+      "published_at": "2026-11-21T20:59:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-21T21:56:34Z"
+    },
+    {
+      "id": "3a1f6631e4630dba",
+      "source": "prnewswire",
+      "title": "Huawei svela le capacit\u00e0 di scalabilit\u00e0 dell'IA finanziaria al FinTech Festival 2026 di Singapore",
+      "summary": "Grazie allinfrastruttura basata sull'IA ibrida aperta e a tre fabbriche intelligenti, Huawei aiuta le istituzioni finanziarie globali a creare vantaggi competitivi differenziati SINGAPORE, 21 novembre 2026 /PRNewswire/ -- Al SFF 2026, Huawei ha condiviso informazioni utili su...",
+      "url": "https://www.prnewswire.com/news-releases/huawei-svela-le-capacita-di-scalabilita-dellia-finanziaria-al-fintech-festival-2026-di-singapore-302947587.html",
+      "published_at": "2026-11-21T20:30:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-21T21:56:34Z"
+    },
+    {
+      "id": "33715446edc1f757",
+      "source": "prnewswire_financial",
+      "title": "Huawei svela le capacit\u00e0 di scalabilit\u00e0 dell'IA finanziaria al FinTech Festival 2026 di Singapore",
+      "summary": "Grazie allinfrastruttura basata sull'IA ibrida aperta e a tre fabbriche intelligenti, Huawei aiuta le istituzioni finanziarie globali a creare vantaggi competitivi differenziati SINGAPORE, 21 novembre 2026 /PRNewswire/ -- Al SFF 2026, Huawei ha condiviso informazioni utili su...",
+      "url": "https://www.prnewswire.com/news-releases/huawei-svela-le-capacita-di-scalabilita-dellia-finanziaria-al-fintech-festival-2026-di-singapore-302947587.html",
+      "published_at": "2026-11-21T20:30:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-21T21:56:34Z"
+    },
+    {
+      "id": "51e8581d140f6a98",
+      "source": "marketwatch",
+      "title": "\u2018It\u2019s downright dirty\u2019: My brother moved in with our ailing mother and closed her bank account. What can I do?",
+      "summary": "\u201cIt is devastating when the people you should be able to trust become the very people you have to protect yourself from.\u201d",
+      "url": "https://www.marketwatch.com/story/it-is-heartbreaking-exhausting-and-downright-dirty-my-brother-took-over-our-ailing-mothers-life-and-finances-what-can-i-do-b4d48817?mod=mw_rss_topstories",
+      "published_at": "2026-11-21T20:15:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-21T21:56:36Z"
+    },
+    {
+      "id": "5d7f3cb9dd2c52ae",
+      "source": "prnewswire",
+      "title": "Tercer a\u00f1o consecutivo de SDMC en la cumbre de TV de Google, presentando IA f\u00edsica para el hogar",
+      "summary": "BANGKOK, 21 de noviembre de 2026 /PRNewswire/ -- En la cumbre de televisi\u00f3n de Google de 2026, celebrada en Bangkok, SDMC (00901.HK) particip\u00f3 nuevamente como ponente invitada por tercer a\u00f1o consecutivo, impulsando su estrategia AI Home bajo el lema \"Construyendo el futuro de la IA f\u00edsica...",
+      "url": "https://www.prnewswire.com/news-releases/tercer-ano-consecutivo-de-sdmc-en-la-cumbre-de-tv-de-google-presentando-ia-fisica-para-el-hogar-302947585.html",
+      "published_at": "2026-11-21T19:56:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-21T21:56:34Z"
+    },
+    {
+      "id": "a361654b0aba86dc",
+      "source": "prnewswire",
+      "title": "SDMC se ji\u017e pot\u0159et\u00ed z\u00fa\u010dastnila konference Google TV Summit, kde p\u0159edstavila fyzickou AI v dom\u00e1c\u00edm prost\u0159ed\u00ed",
+      "summary": "BANGKOK, 21. listopadu 2026 /PRNewswire/ -- Na konferenci Google TV Summit 2026 v Bangkoku se spole\u010dnost SDMC (00901.HK) ji\u017e pot\u0159et\u00ed v \u0159ad\u011b z\u00fa\u010dastnila jako pozvan\u00fd \u0159e\u010dn\u00edk a p\u0159edstavila svou strategii AI pro dom\u00e1cnost na t\u00e9ma \u201eBudov\u00e1n\u00ed budoucnosti dom\u00e1c\u00ed fyzick\u00e9 um\u011bl\u00e9 inteligence s...",
+      "url": "https://www.prnewswire.com/news-releases/sdmc-se-ji-poteti-zuastnila-konference-google-tv-summit-kde-pedstavila-fyzickou-ai-v-domacim-prostedi-302947584.html",
+      "published_at": "2026-11-21T19:53:00Z",
+      "tickers": [
+        "SDMC"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-21T21:56:34Z"
+    },
+    {
+      "id": "71d97504b6a80077",
+      "source": "marketwatch",
+      "title": "\u2018I\u2019ve been a stay-at-home mom\u2019: I\u2019m 50 and have a chronic illness. My husband lost his job. Should he raid his 401(k)?",
+      "summary": "\u201cOur financial and healthcare situation has become increasingly concerning.\u201d",
+      "url": "https://www.marketwatch.com/story/ive-been-a-stay-at-home-mom-im-50-and-have-a-chronic-illness-my-husband-lost-his-job-should-he-raid-his-401-k-63e59123?mod=mw_rss_topstories",
+      "published_at": "2026-11-21T19:45:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-21T21:56:36Z"
+    },
+    {
+      "id": "6e2181446a578f1d",
+      "source": "marketwatch",
+      "title": "\u2018Buyers are out for blood\u2019: With home sales at a record low, buyers are calling the shots",
+      "summary": "The few buyers left in the market braving record-high home prices and 7% mortgage rates are starting to call the shots, real-estate agents say.",
+      "url": "https://www.marketwatch.com/story/buyers-are-out-for-blood-as-housing-market-finally-hits-rock-bottom-fa5093a6?mod=mw_rss_topstories",
+      "published_at": "2026-11-21T19:45:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-21T21:56:36Z"
+    },
+    {
+      "id": "2d47b1d14df5b388",
+      "source": "prnewswire",
+      "title": "SDMC sa tret\u00ed rok po sebe z\u00fa\u010dast\u0148uje na summite Google TV Summit a predstavuje fyzick\u00fa umel\u00fa inteligenciu pre dom\u00e1cnos\u0165",
+      "summary": "BANGKOK, 21. novembra 2026 /PRNewswire/ -- Na summite Google TV Summit 2026 v Bangkoku sa spolo\u010dnos\u0165 SDMC (00901.HK) vr\u00e1tila ako pozvan\u00fd re\u010dn\u00edk u\u017e tret\u00ed rok po sebe a predstavila svoju strat\u00e9giu pre dom\u00e1cnos\u0165 s umelou inteligenciou pod t\u00e9mou \u201eBudovanie bud\u00facnosti fyzickej umelej...",
+      "url": "https://www.prnewswire.com/news-releases/sdmc-sa-treti-rok-po-sebe-zuastuje-na-summite-google-tv-summit-a-predstavuje-fyzicku-umelu-inteligenciu-pre-domacnos-302947582.html",
+      "published_at": "2026-11-21T19:27:00Z",
+      "tickers": [
+        "SDMC"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-21T21:56:34Z"
+    },
+    {
+      "id": "bef5672e291eb3a8",
+      "source": "marketwatch",
+      "title": "My husband is happily retired at 64 and thinks I should keep working. Is he being fair?",
+      "summary": "\u201cI\u2019m exhausted. My alarm goes off at 6 a.m., and I have a 50-minute commute.\u201d",
+      "url": "https://www.marketwatch.com/story/my-husband-is-happily-retired-at-64-and-thinks-i-should-keep-working-is-he-being-fair-325c5f38?mod=mw_rss_topstories",
+      "published_at": "2026-11-21T19:23:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-21T21:56:36Z"
+    },
+    {
+      "id": "124ce42b800d5619",
+      "source": "prnewswire",
+      "title": "How to Go 2x Long Anthropic (ANT): Leverage Shares by Themes Explains ANUU, the 2x Leveraged Anthropic ETF Launching Monday",
+      "summary": "Following Anthropic's $83-per-share IPO pricing and Nasdaq trading debut at $111.50-per-share on November 19, 2026, Leverage Shares by Themes outlines how investors can gain long exposure to Anthropic stock (ANT), and where its planned 2X Long Anthropic ETF (ANUU) fits into the investment...",
+      "url": "https://www.prnewswire.com/news-releases/how-to-go-2x-long-anthropic-ant-leverage-shares-by-themes-explains-anuu-the-2x-leveraged-anthropic-etf-launching-monday-302947477.html",
+      "published_at": "2026-11-21T19:00:00Z",
+      "tickers": [
+        "ANT",
+        "ANUU"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-21T21:56:34Z"
+    },
+    {
+      "id": "9d56891a5d12d928",
+      "source": "prnewswire_financial",
+      "title": "How to Go 2x Long Anthropic (ANT): Leverage Shares by Themes Explains ANUU, the 2x Leveraged Anthropic ETF Launching Monday",
+      "summary": "Following Anthropic's $83-per-share IPO pricing and Nasdaq trading debut at $111.50-per-share on November 19, 2026, Leverage Shares by Themes outlines how investors can gain long exposure to Anthropic stock (ANT), and where its planned 2X Long Anthropic ETF (ANUU) fits into the investment...",
+      "url": "https://www.prnewswire.com/news-releases/how-to-go-2x-long-anthropic-ant-leverage-shares-by-themes-explains-anuu-the-2x-leveraged-anthropic-etf-launching-monday-302947477.html",
+      "published_at": "2026-11-21T19:00:00Z",
+      "tickers": [
+        "ANT",
+        "ANUU"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-21T21:56:34Z"
+    },
+    {
+      "id": "1f581bcde1b1b482",
+      "source": "prnewswire",
+      "title": "TOP-REAL untersucht, ob digitales Monitoring die Fr\u00fcherkennung von Toxizit\u00e4ten unterst\u00fctzen und die Kontinuit\u00e4t einer der wirksamsten Behandlungen f\u00fcr HER2-positiven metastasierten Brustkrebs gew\u00e4hrleisten kann.",
+      "summary": "Die internationale wissenschaftliche Studie, die von Solti aus Spanien in Zusammenarbeit mit Unicancer in Frankreich und WSG in Deutschland geleitet wurde, hat auf der ESMO AI & Digital Oncology 2026 ein Konzept vorgestellt, das digitale Tools zur \u00dcberwachung von Symptomen und...",
+      "url": "https://www.prnewswire.com/news-releases/top-real-untersucht-ob-digitales-monitoring-die-fruherkennung-von-toxizitaten-unterstutzen-und-die-kontinuitat-einer-der-wirksamsten-behandlungen-fur-her2-positiven-metastasierten-brustkrebs-gewahrleisten-kann-302947580.html",
+      "published_at": "2026-11-21T18:53:00Z",
+      "tickers": [
+        "TOP"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-21T21:56:34Z"
+    },
+    {
+      "id": "4577d356460af45d",
+      "source": "prnewswire",
+      "title": "SDMC \u0442\u0440\u0435\u0442\u0438\u0439 \u0433\u043e\u0434 \u043f\u043e\u0434\u0440\u044f\u0434 \u0443\u0447\u0430\u0441\u0442\u0432\u0443\u0435\u0442 \u0432 \u043e\u0440\u0433\u0430\u043d\u0438\u0437\u0443\u0435\u043c\u043e\u043c Google \u0442\u0435\u043b\u0435\u0432\u0438\u0437\u0438\u043e\u043d\u043d\u043e\u043c \u0441\u0430\u043c\u043c\u0438\u0442\u0435 TV Summit, \u0434\u0435\u043c\u043e\u043d\u0441\u0442\u0440\u0438\u0440\u0443\u044f \u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0418\u0418 \u0434\u043b\u044f \u0434\u043e\u043c\u0430",
+      "summary": "\u0411\u0410\u041d\u0413\u041a\u041e\u041a, 21 \u043d\u043e\u044f\u0431\u0440\u044f 2026 \u0433. /PRNewswire/ -- \u041a\u043e\u043c\u043f\u0430\u043d\u0438\u044f SDMC (00901.HK) \u0443\u0447\u0430\u0441\u0442\u0432\u0443\u0435\u0442 \u0432 \u0442\u0435\u043b\u0435\u0432\u0438\u0437\u0438\u043e\u043d\u043d\u043e\u043c \u0441\u0430\u043c\u043c\u0438\u0442\u0435 Google 2026 \u0432 \u0411\u0430\u043d\u0433\u043a\u043e\u043a\u0435 \u0443\u0436\u0435 \u0442\u0440\u0435\u0442\u0438\u0439 \u0433\u043e\u0434 \u043f\u043e\u0434\u0440\u044f\u0434, \u043e\u0434\u043d\u0430\u043a\u043e \u0432 \u044d\u0442\u043e\u043c \u0433\u043e\u0434\u0443 \u0443\u0436\u0435 \u0432 \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0435 \u043f\u0440\u0438\u0433\u043b\u0430\u0448\u0435\u043d\u043d\u043e\u0433\u043e \u0441\u043f\u0438\u043a\u0435\u0440\u0430, \u043f\u0440\u043e\u0434\u0432\u0438\u0433\u0430\u044f \u0441\u0432\u043e\u044e \u0441\u0442\u0440\u0430\u0442\u0435\u0433\u0438\u044e AI Home \u043f\u043e\u0434 \u0434\u0435\u0432\u0438\u0437\u043e\u043c \u00abBuilding the Future of Home Physical...",
+      "url": "https://www.prnewswire.com/news-releases/sdmc-------google---tv-summit------302947578.html",
+      "published_at": "2026-11-21T18:47:00Z",
+      "tickers": [
+        "SDMC"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-21T21:56:34Z"
+    },
+    {
+      "id": "3d5a29405c873e61",
+      "source": "prnewswire",
+      "title": "Pour la troisi\u00e8me ann\u00e9e cons\u00e9cutive, SDMC participe au TV Summit de Google pour pr\u00e9senter son IA physique domestique",
+      "summary": "BANGKOK, 21 novembre 2026 /PRNewswire/ -- Lors du Google TV Summit 2026 qui s'est tenu \u00e0 Bangkok, SDMC (00901.HK) est intervenue en tant qu'invit\u00e9e pour la troisi\u00e8me ann\u00e9e cons\u00e9cutive, pr\u00e9sentant sa strat\u00e9gie \u00ab AI Home \u00bb sous le th\u00e8me \u00ab Construire l'avenir de l'IA physique \u00e0 domicile avec...",
+      "url": "https://www.prnewswire.com/news-releases/pour-la-troisieme-annee-consecutive-sdmc-participe-au-tv-summit-de-google-pour-presenter-son-ia-physique-domestique-302947577.html",
+      "published_at": "2026-11-21T18:44:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-21T21:56:34Z"
+    },
+    {
+      "id": "f9981442be442908",
+      "source": "marketwatch",
+      "title": "America is definitely rich enough to fix Social Security and Medicare. Here\u2019s how.",
+      "summary": "This one, simple, low-pain tax solves all the problems.",
+      "url": "https://www.marketwatch.com/story/america-is-definitely-rich-enough-to-fix-social-security-and-medicare-heres-how-30678aa5?mod=mw_rss_topstories",
+      "published_at": "2026-11-21T18:20:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-21T21:56:36Z"
+    },
+    {
+      "id": "af5b099a95c77b29",
+      "source": "prnewswire",
+      "title": "Managed IT Expert Lionel Fermin Explains When a Business Needs a Fractional CIO",
+      "summary": "Lionel Fermin examines when growing businesses may need technology leadership for planning, security, spending, and long-term technology decisions. HOBBS, N.M., Nov. 21, 2026 /PRNewswire/ -- When does a business need a Fractional CIO? A HelloNation article featuring insights from Managed...",
+      "url": "https://www.prnewswire.com/news-releases/managed-it-expert-lionel-fermin-explains-when-a-business-needs-a-fractional-cio-302947167.html",
+      "published_at": "2026-11-21T18:00:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-21T21:56:34Z"
+    },
+    {
+      "id": "829c8ec8c7354cb5",
+      "source": "prnewswire",
+      "title": "Optometry Expert Dr. Harlan Snyder Explains Understanding Dry Eye Beyond Artificial Tears",
+      "summary": "Dr. Harlan Snyder explains why persistent dry eye symptoms often require more than over-the-counter eye drops to protect long-term eye health. ALHAMBRA, Calif., Nov. 21, 2026 /PRNewswire/ -- What causes dry eye that won't go away? A new HelloNation article provides the answer by...",
+      "url": "https://www.prnewswire.com/news-releases/optometry-expert-dr-harlan-snyder-explains-understanding-dry-eye-beyond-artificial-tears-302947163.html",
+      "published_at": "2026-11-21T18:00:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-21T21:56:34Z"
+    },
+    {
+      "id": "9fab9b63e90de448",
+      "source": "prnewswire",
+      "title": "D-Wave Quantum Inc. (QBTS) Class Action Lawsuit: Investors Face December 15, 2026, Deadline - Kessler Topaz Meltzer & Check, LLP",
+      "summary": "Did you buy QBTS securities between February 26, 2026 and August 25, 2026? Affected QBTS Investor Summary Who: D-Wave Quantum Inc. (NASDAQ: QBTS) What: Securities fraud class action lawsuits filed Class Period: Februry 26, 2026 through August 25, 2026 Deadline to Seek Lead Plaintiff...",
+      "url": "https://www.prnewswire.com/news-releases/d-wave-quantum-inc-qbts-class-action-lawsuit-investors-face-december-15-2026-deadline---kessler-topaz-meltzer--check-llp-302947354.html",
+      "published_at": "2026-11-21T17:21:00Z",
+      "tickers": [
+        "QBTS",
+        "D"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-21T21:56:34Z"
+    },
+    {
+      "id": "f5e5e50078811dd9",
+      "source": "prnewswire",
+      "title": "GIGABYTE Partners with Newegg to Host \"AORUS VS40\" Esports Event for GIGABYTE's 40th Anniversary",
+      "summary": "CITY OF INDUSTRY, Calif., Nov. 21, 2026 /PRNewswire/ -- Celebrating 40 years of GIGABYTE, GIGABYTE has partnered with Newegg to host AORUS VS40, a free community gaming celebration taking place on Saturday, November 21, 2026, from 11 a.m. to 4 p.m. PST at the Newegg Gamer Zone in Diamond...",
+      "url": "https://www.prnewswire.com/news-releases/gigabyte-partners-with-newegg-to-host-aorus-vs40-esports-event-for-gigabytes-40th-anniversary-302945363.html",
+      "published_at": "2026-11-21T17:05:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-21T21:56:34Z"
+    },
+    {
+      "id": "4701babc4ad3167b",
+      "source": "prnewswire",
+      "title": "ModuleMD Continues to Strengthen Its Position in Allergy EHR Innovation with a New Generation of AI-Powered Technology",
+      "summary": "Following strong client interest in its new WISE Touch AI experience, ModuleMD showcases its expanding technology ecosystem at ACAAI 2026, bringing clinical intelligence, automated workflows and specialty-focused innovation together for allergy practices. PHOENIX, Nov. 21, 2026...",
+      "url": "https://www.prnewswire.com/news-releases/modulemd-continues-to-strengthen-its-position-in-allergy-ehr-innovation-with-a-new-generation-of-ai-powered-technology-302945885.html",
+      "published_at": "2026-11-21T17:00:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-21T21:56:34Z"
+    },
+    {
+      "id": "836cb962439aebcf",
+      "source": "marketwatch",
+      "title": "Is Social Security a Ponzi scheme? No. Don\u2019t get carried away with 1930s-era prophecies of doom.",
+      "summary": "Wisconsin Republican Sen. Ron Johnson called Social Security a \u201cscam\u201d and urged lawmakers to shut it down.",
+      "url": "https://www.marketwatch.com/story/the-thought-of-living-to-100-terrifies-me-is-social-security-a-giant-ponzi-scheme-84a64e7e?mod=mw_rss_topstories",
+      "published_at": "2026-11-21T16:50:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-21T21:56:36Z"
+    },
+    {
+      "id": "8f4dccfa7251e4f7",
+      "source": "marketwatch",
+      "title": "\u2018I\u2019m sick of flying\u2019: I paid for priority boarding, but the overhead bins were full. Was I duped?",
+      "summary": "\u201cMaybe next time I\u2019ll try the other approach: I\u2019ll board whenever I feel like it and drop my suitcase in the first open slot I see.\u201d",
+      "url": "https://www.marketwatch.com/story/im-sick-of-flying-i-paid-for-priority-boarding-but-the-overhead-bins-were-full-was-i-duped-0badcc80?mod=mw_rss_topstories",
+      "published_at": "2026-11-21T16:50:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-21T21:56:36Z"
+    },
+    {
+      "id": "2703bfb1f56c65d0",
+      "source": "prnewswire",
+      "title": "L'ADFW 2026 d\u00e9voile son programme le plus ambitieux jamais con\u00e7u en collaboration avec ses partenaires, avec L'IMAD en t\u00eate d'affiche",
+      "summary": "ABOU DABI, \u00c9mirats arabes unis, 21 novembre 2026 /PRNewswire/ -- Sous le haut patronage de Son Altesse le cheikh Khaled bin Mohamed bin Zayed Al Nahyan, prince h\u00e9ritier d'Abou Dabi et pr\u00e9sident du Conseil ex\u00e9cutif, la Semaine financi\u00e8re d'Abou Dabi (ADFW), organis\u00e9e par le centre...",
+      "url": "https://www.prnewswire.com/news-releases/ladfw-2026-devoile-son-programme-le-plus-ambitieux-jamais-concu-en-collaboration-avec-ses-partenaires-avec-limad-en-tete-daffiche-302947558.html",
+      "published_at": "2026-11-21T16:45:00Z",
+      "tickers": [
+        "ADFW",
+        "L"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-21T21:56:34Z"
+    },
+    {
+      "id": "4c7e02059d7324d6",
+      "source": "prnewswire_financial",
+      "title": "L'ADFW 2026 d\u00e9voile son programme le plus ambitieux jamais con\u00e7u en collaboration avec ses partenaires, avec L'IMAD en t\u00eate d'affiche",
+      "summary": "ABOU DABI, \u00c9mirats arabes unis, 21 novembre 2026 /PRNewswire/ -- Sous le haut patronage de Son Altesse le cheikh Khaled bin Mohamed bin Zayed Al Nahyan, prince h\u00e9ritier d'Abou Dabi et pr\u00e9sident du Conseil ex\u00e9cutif, la Semaine financi\u00e8re d'Abou Dabi (ADFW), organis\u00e9e par le centre...",
+      "url": "https://www.prnewswire.com/news-releases/ladfw-2026-devoile-son-programme-le-plus-ambitieux-jamais-concu-en-collaboration-avec-ses-partenaires-avec-limad-en-tete-daffiche-302947558.html",
+      "published_at": "2026-11-21T16:45:00Z",
+      "tickers": [
+        "ADFW",
+        "L"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-21T21:56:34Z"
+    },
+    {
       "id": "eb4024a6d99f2051",
       "source": "prnewswire",
       "title": "OBSBOT presenta Tail 2 ADV y Tail Air 2, para equipos de producci\u00f3n profesional y creadores",
@@ -30,7 +403,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "5cf5ae7459cfa462",
@@ -44,7 +417,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "f96c10caaaf47546",
@@ -58,7 +431,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "4e1680264c5ba12c",
@@ -72,7 +445,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "9c530ba40657c3e3",
@@ -102,7 +475,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "53c805b8cf499b5a",
@@ -146,7 +519,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:36Z"
+      "scanned_at": "2026-11-21T21:56:36Z"
     },
     {
       "id": "bbd527bbec6d7e59",
@@ -202,7 +575,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:36Z"
+      "scanned_at": "2026-11-21T21:56:36Z"
     },
     {
       "id": "8cd2b595f5ea04cc",
@@ -272,7 +645,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:35Z"
+      "scanned_at": "2026-11-21T21:56:35Z"
     },
     {
       "id": "224e89c41b043f66",
@@ -300,7 +673,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:36Z"
+      "scanned_at": "2026-11-21T21:56:36Z"
     },
     {
       "id": "316913223aa41079",
@@ -530,7 +903,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "7fd0e20fed620f7a",
@@ -558,7 +931,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "7e81787e79b3b0e5",
@@ -734,7 +1107,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "0eb65bbdb1456c3a",
@@ -792,7 +1165,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "965978f417c49f8b",
@@ -971,7 +1344,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "2f7aac5950c12fd8",
@@ -986,7 +1359,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "94005bfc26383425",
@@ -1001,7 +1374,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "55de0e9833061ffb",
@@ -1016,7 +1389,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "0b3daed594c32d85",
@@ -1031,7 +1404,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "453b0e71b8226d95",
@@ -1046,7 +1419,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "95fb57808976ce21",
@@ -1061,7 +1434,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "77c66243c707f0b0",
@@ -1076,7 +1449,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "8854c298b7f40639",
@@ -1091,7 +1464,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "d7b33606c7251480",
@@ -1106,7 +1479,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "045e4b9acc1aa4d9",
@@ -1121,7 +1494,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "6b564ec27bb3143b",
@@ -1136,7 +1509,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "fa22d0fad1207515",
@@ -1151,7 +1524,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "3da8d74e5ec12389",
@@ -1166,7 +1539,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "3e9dd565dd79f4b8",
@@ -1181,7 +1554,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "32fd6ec348c3c735",
@@ -1196,7 +1569,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "01d860e1c4c6ccfb",
@@ -1211,7 +1584,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "07d2bb83e5596033",
@@ -1226,7 +1599,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "5012a277faf4f9e7",
@@ -1241,7 +1614,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "b0ce434acf3205dc",
@@ -1257,7 +1630,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "76c8a9fb51970f02",
@@ -1272,7 +1645,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "422037e038934f6c",
@@ -1287,7 +1660,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "9011093551c49962",
@@ -1302,7 +1675,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "97645af0220284f4",
@@ -1317,7 +1690,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "057b192fcdc6f8f0",
@@ -1332,7 +1705,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "fda89629e3580c54",
@@ -1347,7 +1720,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "1359119805db1e72",
@@ -1362,7 +1735,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "09340cbd36c774d4",
@@ -1377,7 +1750,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "3d607a72755649b6",
@@ -1392,7 +1765,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "0701444aacc809c9",
@@ -1421,7 +1794,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "35b289716c866256",
@@ -1436,7 +1809,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "f6480cb520bdf077",
@@ -1451,7 +1824,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "0285482c87d8a179",
@@ -1466,7 +1839,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "87284d75f3919dc3",
@@ -1481,7 +1854,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "79a2c62e5046b538",
@@ -1496,7 +1869,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "3f43429465a368c6",
@@ -1511,7 +1884,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "dbcdcc7cd2a60ce1",
@@ -1526,7 +1899,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "8a544a232a8f7309",
@@ -1541,7 +1914,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "e1f241e2231ee9ad",
@@ -1556,7 +1929,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "671c6ea45104189c",
@@ -1571,7 +1944,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "34194e2e1468ec8e",
@@ -1586,7 +1959,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "bae20678b31737c0",
@@ -1614,7 +1987,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:36Z"
+      "scanned_at": "2026-11-21T21:56:36Z"
     },
     {
       "id": "4d5cffc54a53bf41",
@@ -1645,7 +2018,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "8573d1ddf062589a",
@@ -1662,7 +2035,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "71c869d3ce5f7aec",
@@ -1692,7 +2065,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "17a3b20338c5d46d",
@@ -1706,7 +2079,7 @@
       "direction": "bullish",
       "news_side": "long",
       "actionable": true,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "d16e760dd0984130",
@@ -1720,7 +2093,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:35Z"
+      "scanned_at": "2026-11-21T21:56:35Z"
     },
     {
       "id": "82c2e82591a52530",
@@ -1734,7 +2107,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "7bf581f447278ce0",
@@ -1762,7 +2135,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "4615fa80f934da91",
@@ -1776,7 +2149,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "5c4c48a6eb7743eb",
@@ -1854,7 +2227,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "1fe012ab5cd2918e",
@@ -1914,7 +2287,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "000ba144755bb24d",
@@ -1942,7 +2315,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "9a914e92dee16f05",
@@ -1970,7 +2343,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "5ecbe5e3c4791474",
@@ -2112,7 +2485,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:34Z"
+      "scanned_at": "2026-11-21T21:56:34Z"
     },
     {
       "id": "a8e1e57df437b882",
@@ -2126,7 +2499,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:36Z"
+      "scanned_at": "2026-11-21T21:56:36Z"
     },
     {
       "id": "6bee634094a998c9",
@@ -3483,7 +3856,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:35Z"
+      "scanned_at": "2026-11-21T21:56:35Z"
     },
     {
       "id": "440c37ae2943688b",
@@ -3497,7 +3870,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:36Z"
+      "scanned_at": "2026-11-21T21:56:36Z"
     },
     {
       "id": "531add824ed8b391",
@@ -3614,7 +3987,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:36Z"
+      "scanned_at": "2026-11-21T21:56:36Z"
     },
     {
       "id": "82ef6a99900642db",
@@ -3784,7 +4157,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:36Z"
+      "scanned_at": "2026-11-21T21:56:36Z"
     },
     {
       "id": "1f3f9cac38044eb0",
@@ -3886,7 +4259,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:35Z"
+      "scanned_at": "2026-11-21T21:56:35Z"
     },
     {
       "id": "2f906186f55786cd",
@@ -3900,7 +4273,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:35Z"
+      "scanned_at": "2026-11-21T21:56:35Z"
     },
     {
       "id": "6c15289187b31f27",
@@ -5183,7 +5556,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:35Z"
+      "scanned_at": "2026-11-21T21:56:35Z"
     },
     {
       "id": "7f15fb2766adfd0f",
@@ -5197,93 +5570,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-21T16:44:36Z"
-    },
-    {
-      "id": "23770a82645485c0",
-      "source": "cnbc_finance",
-      "title": "I watched Trump, Xi and Putin gather in China. Here are my top takeaways",
-      "summary": "U.S. President Donald Trump, Chinese President Xi Jinping and Russian President Vladimir Putin are expected to hold a rare trilateral meeting on Thursday.",
-      "url": "https://www.cnbc.com/2026/11/18/trump-xi-putin-apec-shenzhen-china.html",
-      "published_at": "2026-11-18T19:47:05Z",
-      "tickers": [
-        "I"
-      ],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-21T16:44:36Z"
-    },
-    {
-      "id": "e4ae7901911f6791",
-      "source": "cnbc_finance",
-      "title": "Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show",
-      "summary": "The Federal Reserve on Wednesday released minutes from its October policy meeting at which it voted to hold its benchmark interest rate in a range between 3.75%-4%.",
-      "url": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html",
-      "published_at": "2026-11-18T19:41:59Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-21T16:44:36Z"
-    },
-    {
-      "id": "68e9fe58743921e0",
-      "source": "cnbc_business",
-      "title": "Lowe's posts strong online sales, raises outlook despite slow housing market",
-      "summary": "Lowe's said it saw strength in online sales during its quarter that contributed to a guidance raise for the full year.",
-      "url": "https://www.cnbc.com/2026/11/18/lowes-low-q3-2026-earnings.html",
-      "published_at": "2026-11-18T18:27:52Z",
-      "tickers": [],
-      "event_type": "guidance_raise",
-      "direction": "bullish",
-      "news_side": "long",
-      "actionable": true,
-      "scanned_at": "2026-11-21T16:44:35Z"
-    },
-    {
-      "id": "394caf620c2feb1f",
-      "source": "cnbc_business",
-      "title": "Investigators make progress in hunt for cause of FAA ground stop",
-      "summary": "Engineers and analysts are still searching for the root cause of the issue, which led to a four-hour ground stop on Friday.",
-      "url": "https://www.cnbc.com/2026/11/18/faa-ground-stop-router-investigation.html",
-      "published_at": "2026-11-18T18:13:25Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-21T16:44:35Z"
-    },
-    {
-      "id": "3d82b344187be32c",
-      "source": "cnbc_business",
-      "title": "Target shares rise 7% as retailer posts best sales growth in five years, hikes guidance",
-      "summary": "Target beat third-quarter sales expectations and raised its guidance as it continues a turnaround effort.",
-      "url": "https://www.cnbc.com/2026/11/18/target-tgt-q3-2026-earnings.html",
-      "published_at": "2026-11-18T17:56:50Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-21T16:44:35Z"
-    },
-    {
-      "id": "445f7970520f5ed4",
-      "source": "cnbc_business",
-      "title": "Ford starts U.S. battery cell production using Chinese tech amid geopolitical tensions",
-      "summary": "Ford has started U.S. production and shipments of battery cells for its next-generation EVs using technologies licensed by Chinese battery giant CATL.",
-      "url": "https://www.cnbc.com/2026/11/18/ford-us-battery-cells-catl-tech.html",
-      "published_at": "2026-11-18T17:02:53Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-21T16:44:35Z"
+      "scanned_at": "2026-11-21T21:56:36Z"
     }
   ]
 }
