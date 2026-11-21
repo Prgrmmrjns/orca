@@ -11,7 +11,7 @@
   "start_capital_eur": 1000.0,
   "eur_usd_start": 1.1168192625045776,
   "cash_eur": 898.7007126793911,
-  "equity_eur": 996.49,
+  "equity_eur": 996.52,
   "positions": {
     "MBIN": {
       "ticker": "MBIN",
@@ -46,9 +46,9 @@
       ],
       "decision_id": "wide_capacity-MBIN-2026-11-20T01:47:17Z-705cd7",
       "book_id": "wide_capacity",
-      "mark_usd": 49.029998779296875,
-      "mark_eur": 44.7056,
-      "unrealized_pnl_pct": -1.6449
+      "mark_usd": 49.01,
+      "mark_eur": 44.6873,
+      "unrealized_pnl_pct": -1.6851
     },
     "HSBC": {
       "ticker": "HSBC",
@@ -84,9 +84,9 @@
       ],
       "decision_id": "wide_capacity-HSBC-2026-11-20T20:58:17Z-e5a515",
       "book_id": "wide_capacity",
-      "mark_usd": 79.94000244140625,
-      "mark_eur": 72.8893,
-      "unrealized_pnl_pct": -2.4765
+      "mark_usd": 80.02,
+      "mark_eur": 72.9622,
+      "unrealized_pnl_pct": -2.3789
     }
   },
   "pending": [
@@ -260,8 +260,8 @@
     },
     {
       "day": "2026-11-20",
-      "equity_eur": 996.49,
-      "spy_eur": 937.74,
+      "equity_eur": 996.52,
+      "spy_eur": 976.39,
       "cash_eur": 898.7,
       "n_open": 2
     }
@@ -314,12 +314,6 @@
       "spy_eur": 976.39,
       "spy_usd": 715.87,
       "eur_usd": 1.0972
-    },
-    {
-      "day": "2026-11-20",
-      "spy_eur": 937.74,
-      "spy_usd": 687.39,
-      "eur_usd": 1.09697
     }
   ],
   "cost_pct": 0.005,
@@ -330,8 +324,8 @@
   "stop_loss": null,
   "prefer_open": true,
   "max_open": 15,
-  "last_run": "2026-11-20T20:59:43Z",
-  "last_reason": "engine[wide_capacity]: auto=0 ingested=0 fills=0 closed=0 open=2 session=open",
+  "last_run": "2026-11-21T01:32:10Z",
+  "last_reason": "engine[wide_capacity]: auto=0 ingested=0 fills=0 closed=0 open=2 session=closed",
   "max_per_ticker": 1,
   "max_gross_exposure_pct": 0.75,
   "allow_shorts": false,
