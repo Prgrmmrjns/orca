@@ -1,0 +1,51 @@
+name: crypto-paper
+
+# Orca crypto v3 paper book: mark hourly, rebalance once per completed UTC day.
+# Only runs once this file is on the default branch. Paper only: public Kraken data, no keys.
+on:
+  schedule:
+    - cron: "4 0 * * *"      # right after the daily close (signal + fills)
+    - cron: "34 1-23 * * *"  # hourly mark-to-market (also retries a missed rebalance)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: crypto-paper
+  cancel-in-progress: false
+
+jobs:
+  tick:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Install deps
+        run: pip install numpy pandas requests
+      - name: Tick
+        env:
+          ORCA_MODE: paper
+        run: |
+          for i in 1 2 3; do
+            python -m crypto.live tick && exit 0
+            echo "tick attempt $i failed; retrying..."; sleep $((i * 20))
+          done
+          exit 1
+      - name: Commit state
+        run: |
+          git config user.name "orca-crypto-bot"
+          git config user.email "orca-bot@users.noreply.github.com"
+          git add state/crypto/
+          if git diff --cached --quiet; then echo "no change"; else
+            git commit -m "crypto: paper tick $(date -u +%Y-%m-%dT%H:%MZ)"
+            git pull --rebase --autostash origin main || true
+            git push origin HEAD:main
+          fi

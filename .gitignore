@@ -25,3 +25,5 @@ research/closes.csv
 stocks/data/cache/
 stocks/data/raw/
 *.parquet
+# crypto research cache (re-download with python -m crypto.fetch_binance)
+crypto/data_cache/

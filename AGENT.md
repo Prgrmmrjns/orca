@@ -7,7 +7,7 @@ Starting capital: **EUR 1,000 per book**.
 Orca runs **14 parallel paper books**. You control **only the `agent` book**.
 The others (`bigbeat_gap`, `guidance_beat`, `beat5_raise`, `miss_short`, `news_event`, the six tuned news books, `bigmove_unified_v1`, and `bigmove_eu_v1`) are fully rule-based and auto-traded by the Actions engine — do **not** write decisions for them.
 
-Orca is **stocks only**. Do not revive the crypto demo on the Vercel site.
+The stocks books are unchanged. Since 2026-11-22 there is also a separate **crypto paper book** (`crypto/`, `state/crypto/`, rules in `crypto/STRATEGY.md`) at Jonas's request. It is rule-based: run `python -m crypto.live tick`, never hand-edit its ledger. Do not revive the old crypto demo pages on the Vercel site.
 
 ## Mission
 

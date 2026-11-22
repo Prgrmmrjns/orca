@@ -1,0 +1,19 @@
+{
+ "strategy": "orca_crypto_v3",
+ "mode": "paper",
+ "currency": "EUR",
+ "start": "2026-11-22T16:13:01Z",
+ "start_equity": 1000.0,
+ "cash": 1000.0,
+ "positions": {},
+ "last_signal_date": "2026-11-21",
+ "trades": [],
+ "history": [
+  {
+   "ts": "2026-11-22T16:13:50Z",
+   "equity": 1000.0,
+   "cash": 1000.0,
+   "positions": {}
+  }
+ ]
+}

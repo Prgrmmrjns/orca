@@ -1,0 +1,189 @@
+{
+ "period": [
+  "2021-01-01",
+  "2026-10-30"
+ ],
+ "cost_per_side": 0.001,
+ "params": {
+  "universe_n": 20,
+  "min_history": 120,
+  "gate_sma": 100,
+  "top_k": 5,
+  "mom_lookbacks": [
+   7,
+   14,
+   30
+  ],
+  "mom_abs": 14,
+  "horizon": 7,
+  "vol_target": 0.5,
+  "band": 0.03,
+  "w_mom": 0.5,
+  "w_ml": 0.5
+ },
+ "ml_rank_ic_by_year": {
+  "2021": 0.08,
+  "2022": 0.07,
+  "2023": 0.067,
+  "2024": 0.038,
+  "2025": 0.111,
+  "2026": 0.068
+ },
+ "results": {
+  "orca_v3": {
+   "full": {
+    "cagr": 50.0,
+    "sharpe": 1.44,
+    "mdd": -34.2,
+    "vol": 31.6
+   },
+   "since_2024": {
+    "cagr": 28.9,
+    "sharpe": 0.93,
+    "mdd": -24.1,
+    "vol": 33.1
+   },
+   "last_12m": {
+    "cagr": 26.8,
+    "sharpe": 1.04,
+    "mdd": -17.9,
+    "vol": 26.2
+   },
+   "by_year": {
+    "2021": 275.9,
+    "2022": -15.2,
+    "2023": 62.6,
+    "2024": 71.4,
+    "2025": -5.5,
+    "2026": 26.8
+   },
+   "turnover_per_year": 61.1,
+   "monthly_win_rate": 0.44,
+   "worst_month": -14.4,
+   "best_month": 57.5,
+   "time_invested": 0.53,
+   "eur_1000_becomes": 10649
+  },
+  "orca_v3_cost_0.30pct": {
+   "full": {
+    "cagr": 32.8,
+    "sharpe": 1.06,
+    "mdd": -44.4,
+    "vol": 31.5
+   },
+   "since_2024": {
+    "cagr": 12.6,
+    "sharpe": 0.52,
+    "mdd": -31.5,
+    "vol": 33.1
+   },
+   "last_12m": {
+    "cagr": 16.7,
+    "sharpe": 0.72,
+    "mdd": -19.5,
+    "vol": 26.1
+   },
+   "by_year": {
+    "2021": 239.9,
+    "2022": -17.3,
+    "2023": 32.8,
+    "2024": 46.1,
+    "2025": -17.8,
+    "2026": 16.7
+   },
+   "turnover_per_year": 61.1
+  },
+  "orca_v3_trade_1day_late": {
+   "full": {
+    "cagr": 38.9,
+    "sharpe": 1.2,
+    "mdd": -30.6,
+    "vol": 31.5
+   },
+   "since_2024": {
+    "cagr": 12.6,
+    "sharpe": 0.53,
+    "mdd": -30.6,
+    "vol": 32.6
+   },
+   "last_12m": {
+    "cagr": 22.0,
+    "sharpe": 0.9,
+    "mdd": -15.6,
+    "vol": 25.7
+   },
+   "by_year": {
+    "2021": 250.5,
+    "2022": -17.1,
+    "2023": 66.7,
+    "2024": 36.0,
+    "2025": -15.6,
+    "2026": 22.0
+   },
+   "turnover_per_year": 61.0
+  },
+  "btc_buy_hold": {
+   "full": {
+    "cagr": 18.4,
+    "sharpe": 0.58,
+    "mdd": -76.6,
+    "vol": 56.8
+   },
+   "since_2024": {
+    "cagr": 23.8,
+    "sharpe": 0.69,
+    "mdd": -53.0,
+    "vol": 46.8
+   },
+   "last_12m": {
+    "cagr": -28.6,
+    "sharpe": -0.55,
+    "mdd": -47.0,
+    "vol": 43.9
+   },
+   "by_year": {
+    "2021": 59.8,
+    "2022": -64.2,
+    "2023": 155.6,
+    "2024": 121.3,
+    "2025": -6.3,
+    "2026": -11.7
+   },
+   "turnover_per_year": 0.0
+  },
+  "equal_weight_top20": {
+   "full": {
+    "cagr": 17.4,
+    "sharpe": 0.6,
+    "mdd": -82.4,
+    "vol": 78.1
+   },
+   "since_2024": {
+    "cagr": -6.5,
+    "sharpe": 0.25,
+    "mdd": -73.9,
+    "vol": 68.5
+   },
+   "last_12m": {
+    "cagr": -31.4,
+    "sharpe": -0.32,
+    "mdd": -55.2,
+    "vol": 60.6
+   },
+   "by_year": {
+    "2021": 522.2,
+    "2022": -77.5,
+    "2023": 120.4,
+    "2024": 63.7,
+    "2025": -47.4,
+    "2026": -3.8
+   },
+   "turnover_per_year": 6.9
+  }
+ },
+ "caveats": [
+  "universe = coins listed on Binance AND Kraken today (survivorship bias; dead coins like LUNA/FTT absent)",
+  "2021 return is dominated by the alt bull market and will not repeat on demand",
+  "rule set chosen on this same history; only the ML forecasts are strictly walk-forward"
+ ]
+}

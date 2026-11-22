@@ -4,6 +4,10 @@
 
 > **Safety:** `mode: paper` only. No broker API, no real orders, no keys with trade/withdraw rights. `ORCA_MODE` must stay `paper`.
 
+## Crypto paper book (since 2026-11-22)
+
+Separate €1,000 Kraken paper book: BTC-trend-gated momentum + ML blend, long only, daily. Rules, backtest and caveats in [`crypto/STRATEGY.md`](crypto/STRATEGY.md); state in `state/crypto/`. Run `python -m crypto.live tick`.
+
 ## Books
 
 | Book | Trader | Rule |

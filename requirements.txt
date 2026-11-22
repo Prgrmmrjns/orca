@@ -19,3 +19,6 @@ lxml>=5.0
 beautifulsoup4>=4.12
 html5lib>=1.1
 pyarrow>=14.0
+
+# Crypto paper strategy v3 (lightgbm only for research/retraining; live needs numpy/pandas/requests)
+lightgbm>=4.0
