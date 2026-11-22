@@ -1,11 +1,11 @@
 {
   "mode": "paper",
-  "as_of": "2026-11-22T02:08:26Z",
-  "as_of_et": "2026-11-21 21:08 ET",
+  "as_of": "2026-11-22T09:56:44Z",
+  "as_of_et": "2026-11-22 04:56 ET",
   "rolling_hours": 72,
-  "n_items": 373,
+  "n_items": 392,
   "n_actionable": 35,
-  "n_with_ticker": 91,
+  "n_with_ticker": 101,
   "sources": [
     "prnewswire",
     "prnewswire_financial",
@@ -18,6 +18,308 @@
   "errors": [],
   "note": "Paper news feed. Keyword tagging is heuristic. Shorts have no borrow model. RSS/EDGAR can lag minutes\u2013hours.",
   "items": [
+    {
+      "id": "5438908eebc19042",
+      "source": "prnewswire",
+      "title": "Ajman Government Media Office hosts Foreign Affairs Undersecretary at THE SIGNAL with a clear message: 'The UAE does not seek the signal - it creates it'",
+      "summary": "AJMAN, UAE, Nov. 22, 2026 /PRNewswire/ -- H.E. Omar Obaid Alhesan Alshamsi, Undersecretary of the Ministry of Foreign Affairs, affirmed that diplomacy and media share a fundamental mission rooted in dialogue, understanding, and building bridges between nations and peoples. Both, he noted,...",
+      "url": "https://www.prnewswire.com/news-releases/ajman-government-media-office-hosts-foreign-affairs-undersecretary-at-the-signal-with-a-clear-message-the-uae-does-not-seek-the-signal--it-creates-it-302947647.html",
+      "published_at": "2026-11-22T08:40:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-22T09:56:40Z"
+    },
+    {
+      "id": "ed0d75c6d722f527",
+      "source": "prnewswire",
+      "title": "DataBeyond Showcases AI Sorting Solutions for Circular Supply Chains at COP31",
+      "summary": "ANTALYA, T\u00fcrkiye, Nov. 20, 2026 /PRNewswire/ -- Hangzhou DataBeyond Technology Co., Ltd. (DataBeyond), a provider of intelligent waste-sorting equipment and solutions, presented applications of artificial intelligence (AI) and robotics in resource recovery at a China Pavilion side event...",
+      "url": "https://www.prnewswire.com/news-releases/databeyond-showcases-ai-sorting-solutions-for-circular-supply-chains-at-cop31-302947646.html",
+      "published_at": "2026-11-22T08:21:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-22T09:56:40Z"
+    },
+    {
+      "id": "37631c8b9b9373ba",
+      "source": "prnewswire",
+      "title": "Un abogado de Brayton Purcell aparece en un art\u00edculo de opini\u00f3n del San Francisco Chronicle que respalda la prohibici\u00f3n de la piedra artificial en California e insta a otros estados a seguir su ejemplo.",
+      "summary": "James Nevin, socio de Brayton Purcell LLP, advierte que los casos de silicosis por piedra artificial podr\u00edan estar considerablemente subnotificados en todo el pa\u00eds, mientras California avanza hacia la prohibici\u00f3n de la piedra artificial con alto contenido de s\u00edlice. NOVATO, California, 22...",
+      "url": "https://www.prnewswire.com/news-releases/un-abogado-de-brayton-purcell-aparece-en-un-articulo-de-opinion-del-san-francisco-chronicle-que-respalda-la-prohibicion-de-la-piedra-artificial-en-california-e-insta-a-otros-estados-a-seguir-su-ejemplo--872571774.html",
+      "published_at": "2026-11-22T08:07:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-22T09:56:40Z"
+    },
+    {
+      "id": "f661f2239bd1c678",
+      "source": "prnewswire",
+      "title": "Education Cannot Wait annonce un investissement de 52 millions de dollars pour permettre \u00e0 300 000 enfants de continuer \u00e0 apprendre au Liban, au Myanmar et au Soudan du Sud",
+      "summary": "Environ 10 % des fonds sont mis de c\u00f4t\u00e9 pour la prochaine intervention d'urgence, et l'essentiel du financement est affect\u00e9 \u00e0 des organisations locales qui connaissent bien ces communaut\u00e9s. GEN\u00c8VE, 22 novembre 2026 /PRNewswire/ -- Plus de 300 000 enfants dont la vie a \u00e9t\u00e9 boulevers\u00e9e par...",
+      "url": "https://www.prnewswire.com/news-releases/education-cannot-wait-annonce-un-investissement-de-52-millions-de-dollars-pour-permettre-a-300-000-enfants-de-continuer-a-apprendre-au-liban-au-myanmar-et-au-soudan-du-sud-302947634.html",
+      "published_at": "2026-11-22T07:12:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-22T09:56:40Z"
+    },
+    {
+      "id": "f19d0652fb93ebdd",
+      "source": "prnewswire",
+      "title": "Education Cannot Wait anuncia 52 millones de d\u00f3lares para que 300.000 ni\u00f1os sigan aprendiendo",
+      "summary": "- Education Cannot Wait anuncia 52 millones de d\u00f3lares para que 300.000 ni\u00f1os sigan aprendiendo en el L\u00edbano, Myanmar y Sud\u00e1n del Sur Alrededor del 10 % de los fondos se reserva para hacer frente a futuras crisis, y la mayor parte de la financiaci\u00f3n se destina a organizaciones locales que...",
+      "url": "https://www.prnewswire.com/news-releases/education-cannot-wait-anuncia-52-millones-de-dolares-para-que-300-000-ninos-sigan-aprendiendo-302947633.html",
+      "published_at": "2026-11-22T07:08:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-22T09:56:40Z"
+    },
+    {
+      "id": "8cf9bd7b1938ea7f",
+      "source": "prnewswire",
+      "title": "L'Or\u00e9al Paris rinde homenaje a las mujeres que marcan la diferencia en su gala anual Mujeres de Valor.",
+      "summary": "Las 10 l\u00edderes de organizaciones sin fines de lucro fueron homenajeados por su labor y determinaci\u00f3n en la transformaci\u00f3n de las comunidades, junto con embajadores de L'Or\u00e9al Paris y amigos de la marca. NUEVA YORK, 22 de noviembre de 2026 /PRNewswire-HISPANIC PR WIRE/ -- Anoche, L'Or\u00e9al...",
+      "url": "https://www.prnewswire.com/news-releases/l-oreal-paris-rinde-homenaje-a-las-mujeres-que-marcan-la-diferencia-en-su-gala-anual-mujeres-de-valor--801130100.html",
+      "published_at": "2026-11-22T06:49:00Z",
+      "tickers": [
+        "L"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-22T09:56:40Z"
+    },
+    {
+      "id": "85207b519cc6a6f4",
+      "source": "prnewswire",
+      "title": "\u0421\u0430\u043c\u043c\u0438\u0442 \u0433\u0435\u043d\u0435\u0440\u0430\u043b\u044c\u043d\u044b\u0445 \u0434\u0438\u0440\u0435\u043a\u0442\u043e\u0440\u043e\u0432 \u0410\u0422\u042d\u0421 2026 \u0433\u043e\u0434\u0430 \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u0437\u0430\u0432\u0435\u0440\u0448\u0438\u043b\u0441\u044f \u0432 \u0428\u044d\u043d\u044c\u0447\u0436\u044d\u043d\u0435",
+      "summary": "\u0428\u042d\u041d\u042c\u0427\u0416\u042d\u041d\u042c, \u041a\u0438\u0442\u0430\u0439, 22 \u043d\u043e\u044f\u0431\u0440\u044f 2026 \u0433. /PRNewswire/ -- 18 \u043d\u043e\u044f\u0431\u0440\u044f \u0432 \u041c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u043e\u043c \u043a\u043e\u043d\u0444\u0435\u0440\u0435\u043d\u0446-\u0446\u0435\u043d\u0442\u0440\u0435 \u0426\u044f\u043d\u044c\u0445\u0430\u0439 \u0432 \u0428\u044d\u043d\u044c\u0447\u0436\u044d\u043d\u0435 \u0437\u0430\u0432\u0435\u0440\u0448\u0438\u043b\u0441\u044f \u0421\u0430\u043c\u043c\u0438\u0442 \u0433\u0435\u043d\u0435\u0440\u0430\u043b\u044c\u043d\u044b\u0445 \u0434\u0438\u0440\u0435\u043a\u0442\u043e\u0440\u043e\u0432 \u0410\u0422\u042d\u0421 2026 \u0433\u043e\u0434\u0430. \u0421\u0430\u043c\u043c\u0438\u0442, \u043e\u0440\u0433\u0430\u043d\u0438\u0437\u043e\u0432\u0430\u043d\u043d\u044b\u0439 \u041a\u0438\u0442\u0430\u0439\u0441\u043a\u0438\u043c \u0441\u043e\u0432\u0435\u0442\u043e\u043c \u043f\u043e \u0441\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044e \u043c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u043e\u0439 \u0442\u043e\u0440\u0433\u043e\u0432\u043b\u0435 (CCPIT), \u043f\u0440\u043e\u0445\u043e\u0434\u0438\u043b \u0441 17 \u043f\u043e 18 \u043d\u043e\u044f\u0431\u0440\u044f \u0432...",
+      "url": "https://www.prnewswire.com/news-releases/----2026------302947621.html",
+      "published_at": "2026-11-22T06:09:00Z",
+      "tickers": [
+        "CCPIT"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-22T09:56:40Z"
+    },
+    {
+      "id": "a671cf05082af8f0",
+      "source": "prnewswire",
+      "title": "Summit gener\u00e1ln\u00edch \u0159editel\u016f APEC 2026 v \u0160en-\u010denu \u00fasp\u011b\u0161n\u011b skon\u010dil",
+      "summary": "\u0160EN-\u010cEN, \u010c\u00edna, 22. listopadu 2026 /PRNewswire/ -- Summit gener\u00e1ln\u00edch \u0159editel\u016f APEC 2026 skon\u010dil 18. listopadu v Mezin\u00e1rodn\u00edm kongresov\u00e9m centru \u010cchien-chaj v \u0160en-\u010denu. Summit, jeho\u017e hostitelem byla \u010c\u00ednsk\u00e1 rada pro podporu mezin\u00e1rodn\u00edho obchodu (CCPIT), se konal ve dnech 17. a\u017e 18....",
+      "url": "https://www.prnewswire.com/news-releases/summit-generalnich-editel-apec-2026-v-en-enu-uspn-skonil-302947620.html",
+      "published_at": "2026-11-22T06:05:00Z",
+      "tickers": [
+        "CCPIT"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-22T09:56:40Z"
+    },
+    {
+      "id": "ee079f6ed89687cb",
+      "source": "prnewswire",
+      "title": "Samit gener\u00e1lnych riadite\u013eov APEC 2026 v Shenzhene sa \u00faspe\u0161ne ukon\u010dil",
+      "summary": "SHENZHEN, \u010c\u00edna, 22. novembra 2026 /PRNewswire/ -- Samit gener\u00e1lnych riadite\u013eov APEC 2026 sa skon\u010dil 18. novembra v medzin\u00e1rodnom kongresovom centre Qianhai v Shenzhene. Samit, ktor\u00fd usporiadala \u010c\u00ednska rada pre podporu medzin\u00e1rodn\u00e9ho obchodu (CCPIT), sa konal od 17. do 18. novembra ako...",
+      "url": "https://www.prnewswire.com/news-releases/samit-generalnych-riaditeov-apec-2026-v-shenzhene-sa-uspene-ukonil-302947617.html",
+      "published_at": "2026-11-22T05:35:00Z",
+      "tickers": [
+        "CCPIT"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-22T09:56:40Z"
+    },
+    {
+      "id": "c69dabe8e9db7c0c",
+      "source": "prnewswire",
+      "title": "La APEC CEO Summit 2026 concluye con \u00e9xito en Shenzhen",
+      "summary": "SHENZHEN, China, 22 de noviembre de 2026 /PRNewswire/ -- La APEC CEO Summit 2026 concluy\u00f3 el 18 de noviembre en el Centro Internacional de Convenciones de Qianhai, en Shenzhen. Organizada por el Consejo de China para el Fomento del Comercio Internacional (CCPIT), la cumbre se celebr\u00f3 del...",
+      "url": "https://www.prnewswire.com/news-releases/la-apec-ceo-summit-2026-concluye-con-exito-en-shenzhen-302947616.html",
+      "published_at": "2026-11-22T05:31:00Z",
+      "tickers": [
+        "CCPIT"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-22T09:56:40Z"
+    },
+    {
+      "id": "991cf8c25dc9d5ea",
+      "source": "prnewswire",
+      "title": "Le sommet des PDG de l'APEC 2026 s'est conclu avec succ\u00e8s \u00e0 Shenzhen.",
+      "summary": "SHENZHEN, Chine, 22 novembre 2026 /PRNewswire/ -- Le Sommet des PDG de l'APEC 2026 s'est conclu le 18 novembre au Centre international des congr\u00e8s Qianhai \u00e0 Shenzhen. Organis\u00e9 par le Conseil chinois pour la promotion du commerce international (CCPIT), le sommet s'est d\u00e9roul\u00e9 du 17 au 18...",
+      "url": "https://www.prnewswire.com/news-releases/le-sommet-des-pdg-de-lapec-2026-sest-conclu-avec-succes-a-shenzhen-302947615.html",
+      "published_at": "2026-11-22T05:26:00Z",
+      "tickers": [
+        "CCPIT"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-22T09:56:40Z"
+    },
+    {
+      "id": "c215e2e5b6d49a9d",
+      "source": "prnewswire",
+      "title": "Kuang-\u010dou Nan-\u0161a: strategick\u00fd pil\u00ed\u0159 GBA pro obchod v asijsko-pacifick\u00e9m regionu",
+      "summary": "KUANG-\u010cOU (Kanton), \u010c\u00edna, 22. listopadu 2026 /PRNewswire/ -- Toto je zpravodajsk\u00fd p\u0159\u00edsp\u011bvek z Jihu. O\u010dek\u00e1v\u00e1 se, \u017ee 33. zased\u00e1n\u00ed vedouc\u00edch ekonomick\u00fdch p\u0159edstavitel\u016f Asijsko-pacifick\u00e9ho hospod\u00e1\u0159sk\u00e9ho spole\u010denstv\u00ed (APEC) v \u0160en-\u010denu p\u0159inese oblasti Velk\u00e9ho z\u00e1livu Kuang-\u010dou-Hongkong-Macao...",
+      "url": "https://www.prnewswire.com/news-releases/kuang-ou-nan-a-strategicky-pili-gba-pro-obchod-v-asijsko-pacifickem-regionu-302947614.html",
+      "published_at": "2026-11-22T05:18:00Z",
+      "tickers": [
+        "APEC"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-22T09:56:40Z"
+    },
+    {
+      "id": "ada5030d0429f834",
+      "source": "prnewswire",
+      "title": "NatGasHub.com Ranked Number 182 Fastest-Growing Company in North America on the 2026 Deloitte Technology Fast 500\u2122",
+      "summary": "Attributes 391% Revenue Growth to widespread adoption of its natural gas multi-pipeline software platform. HOUSTON, Nov. 22, 2026 /PRNewswire/ -- NatGasHub.com today announced that it ranked number 182 on the Deloitte Technology Fast 500\u2122, a ranking of the 500 fastest-growing tech...",
+      "url": "https://www.prnewswire.com/news-releases/natgashubcom-ranked-number-182-fastest-growing-company-in-north-america-on-the-2026-deloitte-technology-fast-500-302947613.html",
+      "published_at": "2026-11-22T05:08:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-22T09:56:40Z"
+    },
+    {
+      "id": "120273314d2ffeb8",
+      "source": "prnewswire",
+      "title": "Guangzhou Nansha: Strategick\u00fd obrat GBA v obchode \u00e1zijsko-tichomorsk\u00e9ho regi\u00f3nu",
+      "summary": "GUANGZHOU, \u010c\u00edna, 22. novembra 2026 /PRNewswire/ -- Toto je spravodajsk\u00e1 spr\u00e1va z platformy South. O\u010dak\u00e1va sa, \u017ee 33. stretnutie ekonomick\u00fdch l\u00eddrov \u00c1zijsko-tichomorskej hospod\u00e1rskej spolupr\u00e1ce (APEC) v Shenzhene prinesie nov\u00e9 pr\u00edle\u017eitosti pre oblas\u0165 Ve\u013ek\u00e9ho z\u00e1livu (GBA) provincie...",
+      "url": "https://www.prnewswire.com/news-releases/guangzhou-nansha-strategicky-obrat-gba-v-obchode-azijsko-tichomorskeho-regionu-302947611.html",
+      "published_at": "2026-11-22T04:59:00Z",
+      "tickers": [
+        "APEC",
+        "GBA"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-22T09:56:40Z"
+    },
+    {
+      "id": "814add6fc6e33419",
+      "source": "prnewswire",
+      "title": "Le district de Nansha : pivot strat\u00e9gique de la GBA pour le commerce Asie-Pacifique",
+      "summary": "GUANGZHOU, Chine, 22 novembre 2026 /PRNewswire/ -- Un reportage diffus\u00e9 par South. La 33e r\u00e9union des dirigeants \u00e9conomiques de la Coop\u00e9ration \u00e9conomique Asie-Pacifique (APEC) \u00e0 Shenzhen devrait offrir de nouvelles opportunit\u00e9s \u00e0 la r\u00e9gion de la Grande Baie Guangdong-Hong Kong-Macao (GBA)...",
+      "url": "https://www.prnewswire.com/news-releases/le-district-de-nansha--pivot-strategique-de-la-gba-pour-le-commerce-asie-pacifique-302947610.html",
+      "published_at": "2026-11-22T04:56:00Z",
+      "tickers": [
+        "APEC",
+        "GBA"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-22T09:56:40Z"
+    },
+    {
+      "id": "af382f6a34a77f01",
+      "source": "prnewswire",
+      "title": "\u041d\u0430\u043d\u044c\u0448\u0430 \u0432 \u0413\u0443\u0430\u043d\u0447\u0436\u043e\u0443 -- \u0441\u0442\u0440\u0430\u0442\u0435\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0446\u0435\u043d\u0442\u0440 GBA \u0434\u043b\u044f \u0442\u043e\u0440\u0433\u043e\u0432\u043b\u0438 \u0432 \u0410\u0437\u0438\u0430\u0442\u0441\u043a\u043e-\u0422\u0438\u0445\u043e\u043e\u043a\u0435\u0430\u043d\u0441\u043a\u043e\u043c \u0440\u0435\u0433\u0438\u043e\u043d\u0435",
+      "summary": "\u0413\u0423\u0410\u041d\u0427\u0416\u041e\u0423, \u041a\u0438\u0442\u0430\u0439, 22 \u043d\u043e\u044f\u0431\u0440\u044f 2026 \u0433. /PRNewswire/ -- \u042d\u0442\u043e \u043d\u043e\u0432\u043e\u0441\u0442\u043d\u043e\u0439 \u0440\u0435\u043f\u043e\u0440\u0442\u0430\u0436 South. \u041e\u0436\u0438\u0434\u0430\u0435\u0442\u0441\u044f, \u0447\u0442\u043e 33-\u044f \u0432\u0441\u0442\u0440\u0435\u0447\u0430 \u044d\u043a\u043e\u043d\u043e\u043c\u0438\u0447\u0435\u0441\u043a\u0438\u0445 \u043b\u0438\u0434\u0435\u0440\u043e\u0432 \u0410\u0437\u0438\u0430\u0442\u0441\u043a\u043e-\u0422\u0438\u0445\u043e\u043e\u043a\u0435\u0430\u043d\u0441\u043a\u043e\u0433\u043e \u044d\u043a\u043e\u043d\u043e\u043c\u0438\u0447\u0435\u0441\u043a\u043e\u0433\u043e \u0441\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u0447\u0435\u0441\u0442\u0432\u0430 (\u0410\u0422\u042d\u0421) \u0432 \u0428\u044d\u043d\u044c\u0447\u0436\u044d\u043d\u0435 \u043f\u0440\u0438\u043d\u0435\u0441\u0435\u0442 \u043d\u043e\u0432\u044b\u0435 \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u0438 \u0434\u043b\u044f \u0440\u0435\u0433\u0438\u043e\u043d\u0430 \u0411\u043e\u043b\u044c\u0448\u043e\u0433\u043e \u0437\u0430\u043b\u0438\u0432\u0430 \u0413\u0443\u0430\u043d\u0434\u0443\u043d-\u0413\u043e\u043d\u043a\u043e\u043d\u0433-\u041c\u0430\u043a\u0430\u043e (GBA) \u0438...",
+      "url": "https://www.prnewswire.com/news-releases/------gba-------302947609.html",
+      "published_at": "2026-11-22T04:54:00Z",
+      "tickers": [
+        "GBA"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-22T09:56:40Z"
+    },
+    {
+      "id": "729870215b348319",
+      "source": "prnewswire",
+      "title": "Die Sailun Group nimmt an der COP31 teil und pr\u00e4sentiert umweltfreundliche Praktiken, vorangetrieben durch technologische Innovationen",
+      "summary": "ANTALYA, T\u00fcrkei, 22. November 2026 /PRNewswire/ -- Die 31. Konferenz der Vertragsparteien des Rahmen\u00fcbereinkommens der Vereinten Nationen \u00fcber Klima\u00e4nderungen (COP31) fand vom 9. bis 20. November in Antalya, T\u00fcrkei, statt. Als Vertreter der gr\u00fcnen Transformation der Gummi- und...",
+      "url": "https://www.prnewswire.com/news-releases/die-sailun-group-nimmt-an-der-cop31-teil-und-prasentiert-umweltfreundliche-praktiken-vorangetrieben-durch-technologische-innovationen-302947608.html",
+      "published_at": "2026-11-22T04:39:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-22T09:56:40Z"
+    },
+    {
+      "id": "f300fe948944c698",
+      "source": "prnewswire",
+      "title": "RingConn pr\u00e4sentiert \u201eThe One Ring\", einen limitierten Smartring der 3. Generation, inspiriert von der \u201eHerr der Ringe\"-Filmtrilogie",
+      "summary": "Ein Smartring in limitierter Auflage bringt die ikonische Trilogie in den Alltag und l\u00e4dt die Nutzer ein, mit dem RingConn Gen 3 Smart Ring ihre eigene Reise der Selbstentdeckung und des Gesundheitsbewusstseins zu beginnen. NEW YORK, 22. November 2026 /PRNewswire/ -- RingConn, eine Marke...",
+      "url": "https://www.prnewswire.com/news-releases/ringconn-prasentiert-the-one-ring-einen-limitierten-smartring-der-3-generation-inspiriert-von-der-herr-der-ringe-filmtrilogie-302947605.html",
+      "published_at": "2026-11-22T04:09:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-22T09:56:40Z"
+    },
+    {
+      "id": "86985b64d76cafeb",
+      "source": "prnewswire",
+      "title": "RingConn d\u00e9voile l'Anneau Unique, un anneau connect\u00e9 de 3\u1d49 g\u00e9n\u00e9ration en \u00e9dition limit\u00e9e inspir\u00e9 de la trilogie cin\u00e9matographique du Seigneur des Anneaux.",
+      "summary": "Un anneau connect\u00e9 en \u00e9dition limit\u00e9e fait entrer la trilogie embl\u00e9matique dans la vie quotidienne, invitant les utilisateurs \u00e0 entamer leur propre voyage de d\u00e9couverte de soi et de sensibilisation \u00e0 la sant\u00e9 avec l'anneau connect\u00e9 de 3\u1d49 g\u00e9n\u00e9ration de RingConn. NEW YORK, 22 novembre 2026...",
+      "url": "https://www.prnewswire.com/news-releases/ringconn-devoile-lanneau-unique-un-anneau-connecte-de-3-generation-en-edition-limitee-inspire-de-la-trilogie-cinematographique-du-seigneur-des-anneaux-302947603.html",
+      "published_at": "2026-11-22T03:48:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-22T09:56:40Z"
+    },
+    {
+      "id": "8cfb0976ec9f7388",
+      "source": "prnewswire",
+      "title": "Ontworpen voor extreme robuustheid: ATEN introduceert zijn eerste industri\u00eble KVM-over-IP-extender en wint de Good Design Award 2026",
+      "summary": "Ontworpen voor veeleisende maritieme omgevingen, met internationale maritieme certificeringen, een beschermende conformal coating en bestendigheid tegen zoutnevel. TAIPEI, 22 november 2026 /PRNewswire/ -- ATEN International, wereldwijd marktleider op het gebied van intelligente...",
+      "url": "https://www.prnewswire.com/news-releases/ontworpen-voor-extreme-robuustheid-aten-introduceert-zijn-eerste-industriele-kvm-over-ip-extender-en-wint-de-good-design-award-2026-302947600.html",
+      "published_at": "2026-11-22T03:24:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-22T09:56:40Z"
+    },
     {
       "id": "859664cded68e86b",
       "source": "prnewswire",
@@ -146,7 +448,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:23Z"
+      "scanned_at": "2026-11-22T09:56:41Z"
     },
     {
       "id": "51e8581d140f6a98",
@@ -160,7 +462,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:25Z"
+      "scanned_at": "2026-11-22T09:56:43Z"
     },
     {
       "id": "5d7f3cb9dd2c52ae",
@@ -204,7 +506,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:25Z"
+      "scanned_at": "2026-11-22T09:56:43Z"
     },
     {
       "id": "6e2181446a578f1d",
@@ -218,7 +520,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:25Z"
+      "scanned_at": "2026-11-22T09:56:43Z"
     },
     {
       "id": "2d47b1d14df5b388",
@@ -248,7 +550,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:25Z"
+      "scanned_at": "2026-11-22T09:56:43Z"
     },
     {
       "id": "124ce42b800d5619",
@@ -282,7 +584,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:23Z"
+      "scanned_at": "2026-11-22T09:56:41Z"
     },
     {
       "id": "1f581bcde1b1b482",
@@ -342,7 +644,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:25Z"
+      "scanned_at": "2026-11-22T09:56:43Z"
     },
     {
       "id": "af5b099a95c77b29",
@@ -429,7 +731,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:25Z"
+      "scanned_at": "2026-11-22T09:56:43Z"
     },
     {
       "id": "8f4dccfa7251e4f7",
@@ -443,7 +745,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:25Z"
+      "scanned_at": "2026-11-22T09:56:43Z"
     },
     {
       "id": "2703bfb1f56c65d0",
@@ -477,7 +779,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:23Z"
+      "scanned_at": "2026-11-22T09:56:41Z"
     },
     {
       "id": "eb4024a6d99f2051",
@@ -663,7 +965,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:25Z"
+      "scanned_at": "2026-11-22T09:56:43Z"
     },
     {
       "id": "8cd2b595f5ea04cc",
@@ -733,7 +1035,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:23Z"
+      "scanned_at": "2026-11-22T09:56:42Z"
     },
     {
       "id": "224e89c41b043f66",
@@ -761,7 +1063,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:24Z"
+      "scanned_at": "2026-11-22T09:56:42Z"
     },
     {
       "id": "316913223aa41079",
@@ -991,7 +1293,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:23Z"
+      "scanned_at": "2026-11-22T09:56:41Z"
     },
     {
       "id": "7fd0e20fed620f7a",
@@ -1019,7 +1321,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:23Z"
+      "scanned_at": "2026-11-22T09:56:41Z"
     },
     {
       "id": "7e81787e79b3b0e5",
@@ -1195,7 +1497,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:23Z"
+      "scanned_at": "2026-11-22T09:56:41Z"
     },
     {
       "id": "0eb65bbdb1456c3a",
@@ -1253,7 +1555,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:23Z"
+      "scanned_at": "2026-11-22T09:56:41Z"
     },
     {
       "id": "965978f417c49f8b",
@@ -1432,7 +1734,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:22Z"
+      "scanned_at": "2026-11-22T09:56:40Z"
     },
     {
       "id": "2f7aac5950c12fd8",
@@ -1447,7 +1749,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:22Z"
+      "scanned_at": "2026-11-22T09:56:40Z"
     },
     {
       "id": "94005bfc26383425",
@@ -1462,7 +1764,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:22Z"
+      "scanned_at": "2026-11-22T09:56:40Z"
     },
     {
       "id": "55de0e9833061ffb",
@@ -1477,7 +1779,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:22Z"
+      "scanned_at": "2026-11-22T09:56:40Z"
     },
     {
       "id": "0b3daed594c32d85",
@@ -1492,7 +1794,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-22T02:08:22Z"
+      "scanned_at": "2026-11-22T09:56:40Z"
     },
     {
       "id": "453b0e71b8226d95",
@@ -1507,7 +1809,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:22Z"
+      "scanned_at": "2026-11-22T09:56:40Z"
     },
     {
       "id": "95fb57808976ce21",
@@ -1522,7 +1824,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-22T02:08:22Z"
+      "scanned_at": "2026-11-22T09:56:40Z"
     },
     {
       "id": "77c66243c707f0b0",
@@ -1537,7 +1839,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:22Z"
+      "scanned_at": "2026-11-22T09:56:40Z"
     },
     {
       "id": "8854c298b7f40639",
@@ -1552,7 +1854,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:22Z"
+      "scanned_at": "2026-11-22T09:56:40Z"
     },
     {
       "id": "d7b33606c7251480",
@@ -1567,7 +1869,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:22Z"
+      "scanned_at": "2026-11-22T09:56:40Z"
     },
     {
       "id": "045e4b9acc1aa4d9",
@@ -1582,7 +1884,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:22Z"
+      "scanned_at": "2026-11-22T09:56:40Z"
     },
     {
       "id": "6b564ec27bb3143b",
@@ -1597,7 +1899,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-22T02:08:22Z"
+      "scanned_at": "2026-11-22T09:56:40Z"
     },
     {
       "id": "fa22d0fad1207515",
@@ -1612,7 +1914,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-22T02:08:22Z"
+      "scanned_at": "2026-11-22T09:56:40Z"
     },
     {
       "id": "3da8d74e5ec12389",
@@ -1627,7 +1929,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:22Z"
+      "scanned_at": "2026-11-22T09:56:40Z"
     },
     {
       "id": "3e9dd565dd79f4b8",
@@ -1642,7 +1944,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-22T02:08:22Z"
+      "scanned_at": "2026-11-22T09:56:40Z"
     },
     {
       "id": "32fd6ec348c3c735",
@@ -1657,7 +1959,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:22Z"
+      "scanned_at": "2026-11-22T09:56:40Z"
     },
     {
       "id": "01d860e1c4c6ccfb",
@@ -1672,7 +1974,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:22Z"
+      "scanned_at": "2026-11-22T09:56:40Z"
     },
     {
       "id": "07d2bb83e5596033",
@@ -1687,7 +1989,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:22Z"
+      "scanned_at": "2026-11-22T09:56:40Z"
     },
     {
       "id": "5012a277faf4f9e7",
@@ -1702,7 +2004,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:22Z"
+      "scanned_at": "2026-11-22T09:56:40Z"
     },
     {
       "id": "b0ce434acf3205dc",
@@ -1718,7 +2020,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:23Z"
+      "scanned_at": "2026-11-22T09:56:41Z"
     },
     {
       "id": "76c8a9fb51970f02",
@@ -1733,7 +2035,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-22T02:08:22Z"
+      "scanned_at": "2026-11-22T09:56:40Z"
     },
     {
       "id": "422037e038934f6c",
@@ -1748,7 +2050,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:22Z"
+      "scanned_at": "2026-11-22T09:56:40Z"
     },
     {
       "id": "9011093551c49962",
@@ -1763,7 +2065,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:22Z"
+      "scanned_at": "2026-11-22T09:56:40Z"
     },
     {
       "id": "97645af0220284f4",
@@ -1778,7 +2080,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:22Z"
+      "scanned_at": "2026-11-22T09:56:40Z"
     },
     {
       "id": "057b192fcdc6f8f0",
@@ -1793,7 +2095,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:22Z"
+      "scanned_at": "2026-11-22T09:56:40Z"
     },
     {
       "id": "fda89629e3580c54",
@@ -1808,7 +2110,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:22Z"
+      "scanned_at": "2026-11-22T09:56:40Z"
     },
     {
       "id": "1359119805db1e72",
@@ -1823,7 +2125,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:22Z"
+      "scanned_at": "2026-11-22T09:56:40Z"
     },
     {
       "id": "09340cbd36c774d4",
@@ -1838,7 +2140,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-22T02:08:22Z"
+      "scanned_at": "2026-11-22T09:56:40Z"
     },
     {
       "id": "3d607a72755649b6",
@@ -1853,7 +2155,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-22T02:08:22Z"
+      "scanned_at": "2026-11-22T09:56:40Z"
     },
     {
       "id": "0701444aacc809c9",
@@ -1882,7 +2184,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-22T02:08:22Z"
+      "scanned_at": "2026-11-22T09:56:40Z"
     },
     {
       "id": "35b289716c866256",
@@ -1897,7 +2199,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:22Z"
+      "scanned_at": "2026-11-22T09:56:40Z"
     },
     {
       "id": "f6480cb520bdf077",
@@ -1912,7 +2214,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:22Z"
+      "scanned_at": "2026-11-22T09:56:40Z"
     },
     {
       "id": "0285482c87d8a179",
@@ -1927,7 +2229,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:22Z"
+      "scanned_at": "2026-11-22T09:56:40Z"
     },
     {
       "id": "87284d75f3919dc3",
@@ -1942,7 +2244,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:22Z"
+      "scanned_at": "2026-11-22T09:56:40Z"
     },
     {
       "id": "79a2c62e5046b538",
@@ -1957,7 +2259,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:22Z"
+      "scanned_at": "2026-11-22T09:56:40Z"
     },
     {
       "id": "3f43429465a368c6",
@@ -1972,7 +2274,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:22Z"
+      "scanned_at": "2026-11-22T09:56:40Z"
     },
     {
       "id": "dbcdcc7cd2a60ce1",
@@ -1987,7 +2289,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-22T02:08:22Z"
+      "scanned_at": "2026-11-22T09:56:40Z"
     },
     {
       "id": "8a544a232a8f7309",
@@ -2002,7 +2304,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-22T02:08:22Z"
+      "scanned_at": "2026-11-22T09:56:40Z"
     },
     {
       "id": "e1f241e2231ee9ad",
@@ -2017,7 +2319,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:22Z"
+      "scanned_at": "2026-11-22T09:56:40Z"
     },
     {
       "id": "671c6ea45104189c",
@@ -2032,7 +2334,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:22Z"
+      "scanned_at": "2026-11-22T09:56:40Z"
     },
     {
       "id": "34194e2e1468ec8e",
@@ -2047,7 +2349,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:22Z"
+      "scanned_at": "2026-11-22T09:56:40Z"
     },
     {
       "id": "bae20678b31737c0",
@@ -2106,7 +2408,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:23Z"
+      "scanned_at": "2026-11-22T09:56:41Z"
     },
     {
       "id": "8573d1ddf062589a",
@@ -2123,7 +2425,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:23Z"
+      "scanned_at": "2026-11-22T09:56:41Z"
     },
     {
       "id": "71c869d3ce5f7aec",
@@ -2153,7 +2455,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:23Z"
+      "scanned_at": "2026-11-22T09:56:41Z"
     },
     {
       "id": "17a3b20338c5d46d",
@@ -2167,7 +2469,7 @@
       "direction": "bullish",
       "news_side": "long",
       "actionable": true,
-      "scanned_at": "2026-11-22T02:08:23Z"
+      "scanned_at": "2026-11-22T09:56:41Z"
     },
     {
       "id": "d16e760dd0984130",
@@ -2181,7 +2483,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:23Z"
+      "scanned_at": "2026-11-22T09:56:42Z"
     },
     {
       "id": "82c2e82591a52530",
@@ -2195,7 +2497,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:23Z"
+      "scanned_at": "2026-11-22T09:56:41Z"
     },
     {
       "id": "7bf581f447278ce0",
@@ -2223,7 +2525,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:23Z"
+      "scanned_at": "2026-11-22T09:56:41Z"
     },
     {
       "id": "4615fa80f934da91",
@@ -2237,7 +2539,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:23Z"
+      "scanned_at": "2026-11-22T09:56:41Z"
     },
     {
       "id": "5c4c48a6eb7743eb",
@@ -2253,7 +2555,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:25Z"
+      "scanned_at": "2026-11-22T09:56:43Z"
     },
     {
       "id": "caa2cdd99114b04f",
@@ -2315,7 +2617,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:23Z"
+      "scanned_at": "2026-11-22T09:56:41Z"
     },
     {
       "id": "1fe012ab5cd2918e",
@@ -2375,7 +2677,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:23Z"
+      "scanned_at": "2026-11-22T09:56:41Z"
     },
     {
       "id": "000ba144755bb24d",
@@ -2403,7 +2705,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:23Z"
+      "scanned_at": "2026-11-22T09:56:41Z"
     },
     {
       "id": "9a914e92dee16f05",
@@ -2431,7 +2733,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:23Z"
+      "scanned_at": "2026-11-22T09:56:41Z"
     },
     {
       "id": "5ecbe5e3c4791474",
@@ -2573,7 +2875,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:23Z"
+      "scanned_at": "2026-11-22T09:56:41Z"
     },
     {
       "id": "a8e1e57df437b882",
@@ -2587,7 +2889,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:24Z"
+      "scanned_at": "2026-11-22T09:56:42Z"
     },
     {
       "id": "6bee634094a998c9",
@@ -3944,7 +4246,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:23Z"
+      "scanned_at": "2026-11-22T09:56:42Z"
     },
     {
       "id": "440c37ae2943688b",
@@ -3958,7 +4260,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:24Z"
+      "scanned_at": "2026-11-22T09:56:42Z"
     },
     {
       "id": "531add824ed8b391",
@@ -4075,7 +4377,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:24Z"
+      "scanned_at": "2026-11-22T09:56:42Z"
     },
     {
       "id": "82ef6a99900642db",
@@ -4245,7 +4547,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:24Z"
+      "scanned_at": "2026-11-22T09:56:42Z"
     },
     {
       "id": "1f3f9cac38044eb0",
@@ -4347,7 +4649,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:23Z"
+      "scanned_at": "2026-11-22T09:56:42Z"
     },
     {
       "id": "2f906186f55786cd",
@@ -4361,7 +4663,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:23Z"
+      "scanned_at": "2026-11-22T09:56:42Z"
     },
     {
       "id": "6c15289187b31f27",
@@ -5615,7 +5917,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:25Z"
+      "scanned_at": "2026-11-22T09:56:43Z"
     },
     {
       "id": "e990fd27bbe88b47",
@@ -5644,21 +5946,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T02:08:23Z"
-    },
-    {
-      "id": "7f15fb2766adfd0f",
-      "source": "cnbc_finance",
-      "title": "Trump praises \u2018great relationship\u2019 with Putin after meeting, as Ukraine war takes center stage",
-      "summary": "U.S. President Donald Trump met individually on Thursday with Russian President Vladimir Putin, as well as Chinese President Xi Jinping.",
-      "url": "https://www.cnbc.com/2026/11/19/trump-xi-putin-china-apec-.html",
-      "published_at": "2026-11-19T09:02:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-22T02:08:24Z"
+      "scanned_at": "2026-11-22T09:56:42Z"
     }
   ]
 }
