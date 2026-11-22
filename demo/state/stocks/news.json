@@ -1,11 +1,11 @@
 {
   "mode": "paper",
-  "as_of": "2026-11-22T17:46:53Z",
-  "as_of_et": "2026-11-22 12:46 ET",
+  "as_of": "2026-11-22T22:52:09Z",
+  "as_of_et": "2026-11-22 17:52 ET",
   "rolling_hours": 72,
   "n_items": 400,
-  "n_actionable": 34,
-  "n_with_ticker": 100,
+  "n_actionable": 32,
+  "n_with_ticker": 101,
   "sources": [
     "prnewswire",
     "prnewswire_financial",
@@ -19,6 +19,200 @@
   "note": "Paper news feed. Keyword tagging is heuristic. Shorts have no borrow model. RSS/EDGAR can lag minutes\u2013hours.",
   "items": [
     {
+      "id": "bbc325280805130f",
+      "source": "prnewswire",
+      "title": "Ascenda Powers Australia's Largest Banking Loyalty Program, CommBank Yello",
+      "summary": "Australia's largest bank elevates banking loyalty with a broadened rewards program powered by Ascenda's global content network and AI-driven marketing and personalisation. SYDNEY, Nov. 22, 2026 /PRNewswire/ -- Ascenda, the global loyalty network that drives growth for the world's leading...",
+      "url": "https://www.prnewswire.com/news-releases/ascenda-powers-australias-largest-banking-loyalty-program-commbank-yello-302947368.html",
+      "published_at": "2026-11-22T22:00:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-22T22:52:06Z"
+    },
+    {
+      "id": "958bd11759fc0804",
+      "source": "prnewswire",
+      "title": "/C O R R E C T I O N - Hopper/",
+      "summary": "In the news release, Travel Deal Tuesday returns December 1st for its 10th year of travel savings, issued 10-Nov-2026 by Hopper over PR Newswire, we are advised by the company that changes have been made. The complete, corrected release follows, with additional details at the end: Travel...",
+      "url": "https://www.prnewswire.com/news-releases/travel-deal-tuesday-returns-december-1st-for-its-10th-year-of-travel-savings-302947692.html",
+      "published_at": "2026-11-22T21:58:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-22T22:52:06Z"
+    },
+    {
+      "id": "f894e710380297fc",
+      "source": "marketwatch",
+      "title": "Ron Johnson\u2019s Social Security gaffe buried important news",
+      "summary": "The Wisconsin Republican\u2019s remarks overshadowed what might have been a useful Senate committee hearing about fixing Social Security.",
+      "url": "https://www.marketwatch.com/story/ron-johnsons-social-security-gaffe-buried-important-news-b96e0ce8?mod=mw_rss_topstories",
+      "published_at": "2026-11-22T21:28:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-22T22:52:08Z"
+    },
+    {
+      "id": "14650ebd79ee75f0",
+      "source": "marketwatch",
+      "title": "Social Security should be shut down, this Republican senator says",
+      "summary": "The program\u2019s trust funds are forecast to run out of money in the next six years.",
+      "url": "https://www.marketwatch.com/story/social-security-should-be-shut-down-this-republican-senator-says-8f7fef81?mod=mw_rss_topstories",
+      "published_at": "2026-11-22T20:26:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-22T22:52:08Z"
+    },
+    {
+      "id": "fb52b8e01fa5ddef",
+      "source": "prnewswire",
+      "title": "Luca Mining Provides Clarification Regarding Media-Reported Statements Related to the Campo Morado Mine",
+      "summary": "VANCOUVER, BC, Nov. 22, 2026 /PRNewswire/ -- Luca Mining Corp. (\"Luca\" or the \"Company\") (TSXV: LUCA) (OTCQX: LUCMF) (Frankfurt: Z68) wishes to clarify recent reports published by various Mexican media outlets stating that the Company's Campo Morado Mine, located in Arcelia, Guerrero...",
+      "url": "https://www.prnewswire.com/news-releases/luca-mining-provides-clarification-regarding-media-reported-statements-related-to-the-campo-morado-mine-302947688.html",
+      "published_at": "2026-11-22T20:10:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-22T22:52:06Z"
+    },
+    {
+      "id": "f56a20801e888498",
+      "source": "prnewswire",
+      "title": "TTW Reveals Top 50 Best Countries in the World to Travel in 2027",
+      "summary": "NEW YORK, Nov. 22, 2026 /PRNewswire/ -- TTW has released its editorial selection of the top 50 best countries to travel in the world in 2027, placing Australia first and highlighting ten leading entries in this announcement. The United Kingdom, France, the United States, Brazil, Portugal,...",
+      "url": "https://www.prnewswire.com/news-releases/ttw-reveals-top-50-best-countries-in-the-world-to-travel-in-2027-302947681.html",
+      "published_at": "2026-11-22T19:31:00Z",
+      "tickers": [
+        "TTW"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-22T22:52:06Z"
+    },
+    {
+      "id": "56275002e499abb0",
+      "source": "marketwatch",
+      "title": "Medicare beneficiaries could skip the nursing home for cheaper care at home under new bill",
+      "summary": "The plan would free up hospital and nursing-home beds \u2014 and lower costs.",
+      "url": "https://www.marketwatch.com/story/medicare-beneficiaries-could-skip-the-nursing-home-for-cheaper-care-at-home-under-new-bill-e289c8d0?mod=mw_rss_topstories",
+      "published_at": "2026-11-22T19:24:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-22T22:52:08Z"
+    },
+    {
+      "id": "5c9b4b4a5e79e53b",
+      "source": "prnewswire",
+      "title": "Specialised Therapeutics and DKSH Partner to Expand Access to Cancer Medicines in Vietnam",
+      "summary": "SINGAPORE, Nov. 22, 2026 /PRNewswire/ -- Singapore-based independent biopharmaceutical company Specialised Therapeutics (ST) and DKSH have signed an exclusive strategic partnership to bring innovative oncology therapies to patients across Vietnam. According to 2022 GLOBOCAN estimates from...",
+      "url": "https://www.prnewswire.com/news-releases/specialised-therapeutics-and-dksh-partner-to-expand-access-to-cancer-medicines-in-vietnam-302946416.html",
+      "published_at": "2026-11-22T19:00:00Z",
+      "tickers": [
+        "ST"
+      ],
+      "event_type": "mna_deal",
+      "direction": "bullish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-22T22:52:06Z"
+    },
+    {
+      "id": "f278b536b63a4914",
+      "source": "prnewswire",
+      "title": "How to Short Anthropic (ANT): Leverage Shares by Themes Explains ANDD and ANSS Inverse Anthropic ETFs, Short Selling and Put Options",
+      "summary": "With Anthropic now trading on Nasdaq (ticker: ANT), Leverage Shares by Themes outlines three ways investors can take a bearish view on Anthropic stock, including planned 2X Short (ANDD) and 1X Short (ANSS) Anthropic ETFs. GREENWICH, Conn., Nov. 22, 2026 /PRNewswire/ -- Leverage Shares by...",
+      "url": "https://www.prnewswire.com/news-releases/how-to-short-anthropic-ant-leverage-shares-by-themes-explains-andd-and-anss-inverse-anthropic-etfs-short-selling-and-put-options-302947480.html",
+      "published_at": "2026-11-22T19:00:00Z",
+      "tickers": [
+        "ANT",
+        "ANDD",
+        "ANSS"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-22T22:52:06Z"
+    },
+    {
+      "id": "1ce9cec15922ad15",
+      "source": "prnewswire_financial",
+      "title": "How to Short Anthropic (ANT): Leverage Shares by Themes Explains ANDD and ANSS Inverse Anthropic ETFs, Short Selling and Put Options",
+      "summary": "With Anthropic now trading on Nasdaq (ticker: ANT), Leverage Shares by Themes outlines three ways investors can take a bearish view on Anthropic stock, including planned 2X Short (ANDD) and 1X Short (ANSS) Anthropic ETFs. GREENWICH, Conn., Nov. 22, 2026 /PRNewswire/ -- Leverage Shares by...",
+      "url": "https://www.prnewswire.com/news-releases/how-to-short-anthropic-ant-leverage-shares-by-themes-explains-andd-and-anss-inverse-anthropic-etfs-short-selling-and-put-options-302947480.html",
+      "published_at": "2026-11-22T19:00:00Z",
+      "tickers": [
+        "ANT",
+        "ANDD",
+        "ANSS"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-22T22:52:06Z"
+    },
+    {
+      "id": "277d12d278d7087f",
+      "source": "cnbc_business",
+      "title": "Employees at Eric Trump-backed robot startup lose health benefits as company's cash crunch deepens",
+      "summary": "Foundation is pursuing an emergency bridge loan and has been in talks with VC firms as it waits for a $150 million investment from South Korea's Base Group.",
+      "url": "https://www.cnbc.com/2026/11/22/foundation-future-industries-health-benefits-payroll-base-group.html",
+      "published_at": "2026-11-22T18:55:05Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-22T22:52:07Z"
+    },
+    {
+      "id": "e6c2e9dcac6976cd",
+      "source": "cnbc_finance",
+      "title": "Employees at Eric Trump-backed robot startup lose health benefits as company's cash crunch deepens",
+      "summary": "Foundation is pursuing an emergency bridge loan and has been in talks with VC firms as it waits for a $150 million investment from South Korea's Base Group.",
+      "url": "https://www.cnbc.com/2026/11/22/foundation-future-industries-health-benefits-payroll-base-group.html",
+      "published_at": "2026-11-22T18:55:05Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-22T22:52:08Z"
+    },
+    {
+      "id": "5b5a3a0de589c3b8",
+      "source": "marketwatch",
+      "title": "These little-known investments could be among the best bargains in a crash",
+      "summary": "If this stock market turmoil turns into a full-blown crash, look for low-risk investment bargains among closed-end funds.",
+      "url": "https://www.marketwatch.com/story/these-little-known-investments-could-be-among-the-best-bargains-in-a-crash-78a379b4?mod=mw_rss_topstories",
+      "published_at": "2026-11-22T18:23:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-22T22:52:08Z"
+    },
+    {
       "id": "a5adfc632270e19e",
       "source": "marketwatch",
       "title": "Private equity has been buying up hospice centers \u2014 with striking consequences",
@@ -30,7 +224,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:51Z"
+      "scanned_at": "2026-11-22T22:52:08Z"
     },
     {
       "id": "97d015941004e140",
@@ -44,7 +238,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "b47549aee09ef11d",
@@ -60,7 +254,7 @@
       "direction": "bearish",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "fb6d14f400f90e16",
@@ -76,7 +270,7 @@
       "direction": "bearish",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "e7b520c51bba5b67",
@@ -92,7 +286,7 @@
       "direction": "bearish",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "c6aa1b3fc96ae627",
@@ -108,7 +302,7 @@
       "direction": "bearish",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "61a149d6c25f075a",
@@ -122,7 +316,23 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:51Z"
+      "scanned_at": "2026-11-22T22:52:08Z"
+    },
+    {
+      "id": "2007b5d08b5d816d",
+      "source": "marketwatch",
+      "title": "I\u2019m terrified of a market crash. Should I put $400,000 of my $1 million retirement savings into an annuity?",
+      "summary": "\u201cWe have a house worth $450,000. Our combined annual income is $125,000.\u201d",
+      "url": "https://www.marketwatch.com/story/were-in-our-50s-and-terrified-of-a-market-crash-should-we-put-400-000-of-our-1-million-retirement-savings-into-an-annuity-1943f240?mod=mw_rss_topstories",
+      "published_at": "2026-11-22T16:32:00Z",
+      "tickers": [
+        "I"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-22T22:52:08Z"
     },
     {
       "id": "d410e0a49ac676f4",
@@ -136,7 +346,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:51Z"
+      "scanned_at": "2026-11-22T22:52:08Z"
     },
     {
       "id": "9c60d3f02aac1fea",
@@ -150,7 +360,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "1c5262f07d38de06",
@@ -164,7 +374,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:51Z"
+      "scanned_at": "2026-11-22T22:52:08Z"
     },
     {
       "id": "7f737cbc8020be0f",
@@ -178,7 +388,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "da32f444c75feb8f",
@@ -192,7 +402,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "9004d554820f4857",
@@ -220,7 +430,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:50Z"
+      "scanned_at": "2026-11-22T22:52:07Z"
     },
     {
       "id": "a0ca67ea7b789a4c",
@@ -248,7 +458,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "466a9e12e0376433",
@@ -262,7 +472,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "841375aa59d0ed27",
@@ -276,7 +486,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "5438908eebc19042",
@@ -290,7 +500,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "ed0d75c6d722f527",
@@ -304,7 +514,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "37631c8b9b9373ba",
@@ -318,7 +528,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "f661f2239bd1c678",
@@ -332,7 +542,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "f19d0652fb93ebdd",
@@ -346,7 +556,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "8cf9bd7b1938ea7f",
@@ -708,7 +918,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "51e8581d140f6a98",
@@ -844,7 +1054,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "1f581bcde1b1b482",
@@ -1039,7 +1249,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "eb4024a6d99f2051",
@@ -1225,7 +1435,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:51Z"
+      "scanned_at": "2026-11-22T22:52:08Z"
     },
     {
       "id": "8cd2b595f5ea04cc",
@@ -1295,7 +1505,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:50Z"
+      "scanned_at": "2026-11-22T22:52:07Z"
     },
     {
       "id": "224e89c41b043f66",
@@ -1323,7 +1533,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:51Z"
+      "scanned_at": "2026-11-22T22:52:08Z"
     },
     {
       "id": "316913223aa41079",
@@ -1553,7 +1763,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "7fd0e20fed620f7a",
@@ -1581,7 +1791,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "7e81787e79b3b0e5",
@@ -1757,7 +1967,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "0eb65bbdb1456c3a",
@@ -1815,7 +2025,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "965978f417c49f8b",
@@ -1994,7 +2204,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "2f7aac5950c12fd8",
@@ -2009,7 +2219,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "94005bfc26383425",
@@ -2024,7 +2234,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "55de0e9833061ffb",
@@ -2039,7 +2249,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "0b3daed594c32d85",
@@ -2054,7 +2264,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "453b0e71b8226d95",
@@ -2069,7 +2279,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "95fb57808976ce21",
@@ -2084,7 +2294,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "77c66243c707f0b0",
@@ -2099,7 +2309,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "8854c298b7f40639",
@@ -2114,7 +2324,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "d7b33606c7251480",
@@ -2129,7 +2339,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "045e4b9acc1aa4d9",
@@ -2144,7 +2354,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "6b564ec27bb3143b",
@@ -2159,7 +2369,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "fa22d0fad1207515",
@@ -2174,7 +2384,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "3da8d74e5ec12389",
@@ -2189,7 +2399,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "3e9dd565dd79f4b8",
@@ -2204,7 +2414,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "32fd6ec348c3c735",
@@ -2219,7 +2429,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "01d860e1c4c6ccfb",
@@ -2234,7 +2444,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "07d2bb83e5596033",
@@ -2249,7 +2459,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "5012a277faf4f9e7",
@@ -2264,7 +2474,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "b0ce434acf3205dc",
@@ -2280,7 +2490,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "76c8a9fb51970f02",
@@ -2295,7 +2505,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "422037e038934f6c",
@@ -2310,7 +2520,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "9011093551c49962",
@@ -2325,7 +2535,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "97645af0220284f4",
@@ -2340,7 +2550,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "057b192fcdc6f8f0",
@@ -2355,7 +2565,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "fda89629e3580c54",
@@ -2370,7 +2580,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "1359119805db1e72",
@@ -2385,7 +2595,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "09340cbd36c774d4",
@@ -2400,7 +2610,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "3d607a72755649b6",
@@ -2415,7 +2625,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "0701444aacc809c9",
@@ -2444,7 +2654,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "35b289716c866256",
@@ -2459,7 +2669,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "f6480cb520bdf077",
@@ -2474,7 +2684,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "0285482c87d8a179",
@@ -2489,7 +2699,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "87284d75f3919dc3",
@@ -2504,7 +2714,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "79a2c62e5046b538",
@@ -2519,7 +2729,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "3f43429465a368c6",
@@ -2534,7 +2744,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "dbcdcc7cd2a60ce1",
@@ -2549,7 +2759,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "8a544a232a8f7309",
@@ -2564,7 +2774,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "e1f241e2231ee9ad",
@@ -2579,7 +2789,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "671c6ea45104189c",
@@ -2594,7 +2804,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "34194e2e1468ec8e",
@@ -2609,7 +2819,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "bae20678b31737c0",
@@ -2668,7 +2878,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "8573d1ddf062589a",
@@ -2685,7 +2895,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "71c869d3ce5f7aec",
@@ -2715,7 +2925,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "17a3b20338c5d46d",
@@ -2729,7 +2939,7 @@
       "direction": "bullish",
       "news_side": "long",
       "actionable": true,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "d16e760dd0984130",
@@ -2743,7 +2953,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:50Z"
+      "scanned_at": "2026-11-22T22:52:07Z"
     },
     {
       "id": "82c2e82591a52530",
@@ -2757,7 +2967,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "7bf581f447278ce0",
@@ -2785,7 +2995,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "4615fa80f934da91",
@@ -2799,7 +3009,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "5c4c48a6eb7743eb",
@@ -2877,7 +3087,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "1fe012ab5cd2918e",
@@ -2937,7 +3147,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:49Z"
+      "scanned_at": "2026-11-22T22:52:06Z"
     },
     {
       "id": "000ba144755bb24d",
@@ -3149,7 +3359,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:51Z"
+      "scanned_at": "2026-11-22T22:52:08Z"
     },
     {
       "id": "6bee634094a998c9",
@@ -4506,7 +4716,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:50Z"
+      "scanned_at": "2026-11-22T22:52:07Z"
     },
     {
       "id": "440c37ae2943688b",
@@ -4520,7 +4730,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:51Z"
+      "scanned_at": "2026-11-22T22:52:08Z"
     },
     {
       "id": "531add824ed8b391",
@@ -4637,7 +4847,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:51Z"
+      "scanned_at": "2026-11-22T22:52:08Z"
     },
     {
       "id": "82ef6a99900642db",
@@ -4807,7 +5017,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:51Z"
+      "scanned_at": "2026-11-22T22:52:08Z"
     },
     {
       "id": "1f3f9cac38044eb0",
@@ -4909,7 +5119,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:50Z"
+      "scanned_at": "2026-11-22T22:52:07Z"
     },
     {
       "id": "2f906186f55786cd",
@@ -4923,7 +5133,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-22T17:46:50Z"
+      "scanned_at": "2026-11-22T22:52:07Z"
     },
     {
       "id": "6c15289187b31f27",
@@ -5844,216 +6054,6 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-20T03:33:16Z"
-    },
-    {
-      "id": "f6d767177d6af62d",
-      "source": "prnewswire",
-      "title": "AV Access Unveils iDock B12 8K KVM Docking Station for High-Refresh Gaming and Dual-Computer Workstations",
-      "summary": "The iDock B12 delivers smooth 4K@165Hz gaming with VRR, 2.5GbE networking, and 11-in-1 connectivity for dual-PC setups. SPOKANE, Wash., Nov. 19, 2026 /PRNewswire/ -- AV Access, a leading provider of Pro AV and AV over IP solutions, has introduced the iDock B12, an 8K dual-monitor KVM...",
-      "url": "https://www.prnewswire.com/news-releases/av-access-unveils-idock-b12-8k-kvm-docking-station-for-high-refresh-gaming-and-dual-computer-workstations-302946392.html",
-      "published_at": "2026-11-20T03:09:00Z",
-      "tickers": [
-        "AV"
-      ],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-20T03:33:16Z"
-    },
-    {
-      "id": "3c4ee42649fec155",
-      "source": "prnewswire",
-      "title": "Ampace Highlights AIDC Battery Safety and Semi-Solid-State Technology for AI Data Centres",
-      "summary": "At Data Centre World Paris, Ampace showcased its PU200 UPS battery system, built with semi-solid-state cells. Recent large-scale fire testing of the PU100 provides evidence of the company's approach to system safety. PARIS, Nov. 20, 2026 /PRNewswire/ -- At Data Centre World Paris 2026,...",
-      "url": "https://www.prnewswire.com/news-releases/ampace-highlights-aidc-battery-safety-and-semi-solid-state-technology-for-ai-data-centres-302946389.html",
-      "published_at": "2026-11-20T03:06:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-20T03:33:16Z"
-    },
-    {
-      "id": "edda3878b1c204ad",
-      "source": "prnewswire",
-      "title": "FF EAI Robotics Ecosystem (FFR) Appoints Carolyn Kissane as Independent Director, Joining Jason E. Dodier and other Board Members to Bring Critical Expertise to Advance Physical AI Education, Industry Partnerships and Scalable Commercialization",
-      "summary": "Carolyn Kissane, Associate Dean of NYU's Center for Global Affairs, brings expertise in higher education and academic-industry collaboration to help advance FFR's robotics education ecosystem, talent development, and developer engagement. Independent Director Jason E. Dodier brings...",
-      "url": "https://www.prnewswire.com/news-releases/ff-eai-robotics-ecosystem-ffr-appoints-carolyn-kissane-as-independent-director-joining-jason-e-dodier-and-other-board-members-to-bring-critical-expertise-to-advance-physical-ai-education-industry-partnerships-and-scalable-com-302946383.html",
-      "published_at": "2026-11-20T02:59:00Z",
-      "tickers": [
-        "FFR",
-        "FF"
-      ],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-20T03:33:16Z"
-    },
-    {
-      "id": "7dd738326790a962",
-      "source": "prnewswire",
-      "title": "Xinhua Silk Road: Yunnan Tin Group impulsa la innovaci\u00f3n para modernizar su industria",
-      "summary": "PEK\u00cdN, 20 de noviembre de 2026 /PRNewswire/ -- En el taller de producci\u00f3n de Yunnan Tin New Materials Co., Ltd., la pasta de soldadura, las bolas de soldadura y el alambre de soldadura salen de las l\u00edneas de producci\u00f3n con direcci\u00f3n a las empresas de empaquetado de semiconductores de todo...",
-      "url": "https://www.prnewswire.com/news-releases/xinhua-silk-road-yunnan-tin-group-impulsa-la-innovacion-para-modernizar-su-industria-302946378.html",
-      "published_at": "2026-11-20T02:56:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-20T03:33:16Z"
-    },
-    {
-      "id": "d69b18e9f290b231",
-      "source": "edgar_8k",
-      "title": "8-K - CEL SCI CORP (0000725363) (Filer)",
-      "summary": "Filed: 2026-11-20 AccNo: 0001654954-26-010013 Size: 188 KB Item 8.01: Other Events",
-      "url": "https://www.sec.gov/Archives/edgar/data/725363/000165495426010013/0001654954-26-010013-index.htm",
-      "published_at": "2026-11-20T02:55:08Z",
-      "tickers": [],
-      "company": "CEL SCI CORP",
-      "event_type": "fraud_probe",
-      "direction": "bearish",
-      "news_side": "short",
-      "actionable": true,
-      "scanned_at": "2026-11-20T12:10:10Z"
-    },
-    {
-      "id": "3bb63402ebc7696c",
-      "source": "prnewswire",
-      "title": "Xinhua Silk Road: Yunnan Tin Group f\u00f6rdert Innovation zur Modernisierung der Industrie",
-      "summary": "PEKING, 20. November 2026 /PRNewswire/ -- In der Produktionshalle von Yunnan Tin New Materials Co., Ltd. laufen Lotpasten, Lotkugeln und L\u00f6tdr\u00e4hte vom Band, die an Unternehmen im Bereich der Halbleitergeh\u00e4usetechnik weltweit geliefert werden. Im Zeitalter der k\u00fcnstlichen Intelligenz (KI)...",
-      "url": "https://www.prnewswire.com/news-releases/xinhua-silk-road-yunnan-tin-group-fordert-innovation-zur-modernisierung-der-industrie-302946374.html",
-      "published_at": "2026-11-20T02:53:00Z",
-      "tickers": [
-        "KI"
-      ],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-20T03:33:16Z"
-    },
-    {
-      "id": "f4314f68c0cc0927",
-      "source": "prnewswire",
-      "title": "Industry Leaders Across APAC and MEASA Gather in Singapore to Celebrate Frost & Sullivan's 65th Anniversary at Recognition Banquet",
-      "summary": "Recognizing organizations demonstrating outstanding best practices, innovation, leadership, and transformational growth across regional and global markets. SAN ANTONIO, Nov. 19, 2026 /PRNewswire/ -- Frost & Sullivan the Transformational Growth Company, celebrated its 65th anniversary...",
-      "url": "https://www.prnewswire.com/news-releases/industry-leaders-across-apac-and-measa-gather-in-singapore-to-celebrate-frost--sullivans-65th-anniversary-at-recognition-banquet-302946242.html",
-      "published_at": "2026-11-20T02:30:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-20T03:33:16Z"
-    },
-    {
-      "id": "b53edca25bacb767",
-      "source": "prnewswire",
-      "title": "Sinopec organiza un evento paralelo en el Pabell\u00f3n de China de la COP31",
-      "summary": "- Sinopec organiza un evento paralelo en el Pabell\u00f3n de China de la COP31 y publica perspectivas sobre energ\u00eda y combustibles verdes ANTALYA, Turqu\u00eda, 20 de noviembre de 2026 /PRNewswire/ -- China Petroleum & Chemical Corporation (HKG: 0386, \"Sinopec\" o \"la compa\u00f1\u00eda\") ha llevado a cabo la...",
-      "url": "https://www.prnewswire.com/news-releases/sinopec-organiza-un-evento-paralelo-en-el-pabellon-de-china-de-la-cop31-302946348.html",
-      "published_at": "2026-11-20T02:20:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-20T03:33:16Z"
-    },
-    {
-      "id": "a9e3e276331eb73d",
-      "source": "prnewswire",
-      "title": "Sinopec organise un \u00e9v\u00e9nement parall\u00e8le au PAVILLON DE LA CHINE de la COP31 et publie ses perspectives sur l'\u00e9nergie et les carburants verts",
-      "summary": "ANTALYA, Turquie, 20 novembre 2026 /PRNewswire/ -- China Petroleum & Chemical Corporation (HKG : 0386, \u00ab Sinopec \u00bb ou \u00ab la Soci\u00e9t\u00e9 \u00bb) a organis\u00e9 un \u00e9v\u00e9nement parall\u00e8le intitul\u00e9 \u00ab Green Fuel Industry Outlook and the Energy Transition Under China's Carbon Peaking and Carbon Neutrality Goals...",
-      "url": "https://www.prnewswire.com/news-releases/sinopec-organise-un-evenement-parallele-au-pavillon-de-la-chine-de-la-cop31-et-publie-ses-perspectives-sur-lenergie-et-les-carburants-verts-302946340.html",
-      "published_at": "2026-11-20T02:12:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-20T03:33:16Z"
-    },
-    {
-      "id": "7ef2316a9eaef62b",
-      "source": "edgar_8k",
-      "title": "8-K - Appalachian Consumer Rate Relief Funding II LLC (0002145891) (Filer)",
-      "summary": "Filed: 2026-11-20 AccNo: 0001193125-26-468994 Size: 2 MB Item 1.01: Entry into a Material Definitive Agreement Item 9.01: Financial Statements and Exhibits",
-      "url": "https://www.sec.gov/Archives/edgar/data/2145891/000119312526468994/0001193125-26-468994-index.htm",
-      "published_at": "2026-11-20T01:50:38Z",
-      "tickers": [],
-      "company": "Appalachian Consumer Rate Relief Funding II LLC",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-20T12:10:10Z"
-    },
-    {
-      "id": "2e2e429fe4d3416c",
-      "source": "edgar_8k",
-      "title": "8-K - APPALACHIAN POWER CO (0000006879) (Filer)",
-      "summary": "Filed: 2026-11-20 AccNo: 0001193125-26-468994 Size: 2 MB Item 1.01: Entry into a Material Definitive Agreement Item 9.01: Financial Statements and Exhibits",
-      "url": "https://www.sec.gov/Archives/edgar/data/6879/000119312526468994/0001193125-26-468994-index.htm",
-      "published_at": "2026-11-20T01:50:38Z",
-      "tickers": [],
-      "company": "APPALACHIAN POWER CO",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-20T12:10:10Z"
-    },
-    {
-      "id": "cffca4a1e1d92f8d",
-      "source": "edgar_8k",
-      "title": "8-K - Wheeling Consumer Rate Relief Funding LLC (0002145887) (Filer)",
-      "summary": "Filed: 2026-11-20 AccNo: 0001193125-26-468987 Size: 2 MB Item 1.01: Entry into a Material Definitive Agreement Item 9.01: Financial Statements and Exhibits",
-      "url": "https://www.sec.gov/Archives/edgar/data/2145887/000119312526468987/0001193125-26-468987-index.htm",
-      "published_at": "2026-11-20T01:46:32Z",
-      "tickers": [],
-      "company": "Wheeling Consumer Rate Relief Funding LLC",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-20T12:10:10Z"
-    },
-    {
-      "id": "1643fd534368349a",
-      "source": "edgar_8k",
-      "title": "8-K - WHEELING POWER CO (0000106617) (Filer)",
-      "summary": "Filed: 2026-11-20 AccNo: 0001193125-26-468987 Size: 2 MB Item 1.01: Entry into a Material Definitive Agreement Item 9.01: Financial Statements and Exhibits",
-      "url": "https://www.sec.gov/Archives/edgar/data/106617/000119312526468987/0001193125-26-468987-index.htm",
-      "published_at": "2026-11-20T01:46:32Z",
-      "tickers": [],
-      "company": "WHEELING POWER CO",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-20T12:10:10Z"
-    },
-    {
-      "id": "a5a5939ed10c3d57",
-      "source": "prnewswire",
-      "title": "Boston Scientific announces pricing of $3.0 billion and \u20ac4.25 billion offerings of senior notes",
-      "summary": "MARLBOROUGH, Mass., Nov. 19, 2026 /PRNewswire/ -- Boston Scientific Corporation (the \"Company\") (NYSE: BSX) announced today that it has priced a public offering of $3,000,000,000 aggregate principal amount of U.S. dollar-denominated notes (the \"USD Offering\"), consisting of $1,000,000,000...",
-      "url": "https://www.prnewswire.com/news-releases/boston-scientific-announces-pricing-of-3-0-billion-and-4-25-billion-offerings-of-senior-notes-302946308.html",
-      "published_at": "2026-11-20T01:45:00Z",
-      "tickers": [
-        "BSX"
-      ],
-      "event_type": "dilution",
-      "direction": "bearish",
-      "news_side": "short",
-      "actionable": true,
       "scanned_at": "2026-11-20T03:33:16Z"
     }
   ]

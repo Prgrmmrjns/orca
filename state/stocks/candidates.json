@@ -11,8 +11,8 @@
   },
   "calendar_error": "",
   "n_calendar": 82,
-  "n_candidates": 94,
-  "n_tagged": 14,
+  "n_candidates": 95,
+  "n_tagged": 15,
   "errors": [],
   "rules": {
     "agent": "Discretionary agentic book. Cursor agent decides via stocks.decide from shared candidates. Baseline \u2014 not auto-traded by the engine.",
@@ -359,7 +359,7 @@
       "suggested_side": "long",
       "suggested_hold": 2,
       "spy_above_ma50": null,
-      "scanned_at": "2026-11-22T17:46:53Z"
+      "scanned_at": "2026-11-22T22:52:09Z"
     },
     {
       "ticker": "NSSF",
@@ -389,7 +389,7 @@
       "suggested_side": null,
       "suggested_hold": null,
       "spy_above_ma50": null,
-      "scanned_at": "2026-11-22T17:46:53Z"
+      "scanned_at": "2026-11-22T22:52:09Z"
     },
     {
       "ticker": "EG",
@@ -419,7 +419,7 @@
       "suggested_side": null,
       "suggested_hold": null,
       "spy_above_ma50": null,
-      "scanned_at": "2026-11-22T17:46:53Z"
+      "scanned_at": "2026-11-22T22:52:09Z"
     },
     {
       "ticker": "BABA",
@@ -449,7 +449,37 @@
       "suggested_side": null,
       "suggested_hold": null,
       "spy_above_ma50": null,
-      "scanned_at": "2026-11-22T17:46:53Z"
+      "scanned_at": "2026-11-22T22:52:09Z"
+    },
+    {
+      "ticker": "ST",
+      "name": "ST",
+      "source": "news",
+      "cal_date": "2026-11-22",
+      "report_date": "2026-11-22",
+      "timing": "news",
+      "surprise_pct": null,
+      "gap_pct": null,
+      "guidance": "none",
+      "headline": "Specialised Therapeutics and DKSH Partner to Expand Access to Cancer Medicines in Vietnam",
+      "excerpt": "SINGAPORE, Nov. 22, 2026 /PRNewswire/ -- Singapore-based independent biopharmaceutical company Specialised Therapeutics (ST) and DKSH have signed an exclusive strategic partnership to bring innovative oncology therapies to patients across Vietnam. According to 2022 GLOBOCAN estimates from...",
+      "filing_url": "",
+      "exhibit_url": "https://www.prnewswire.com/news-releases/specialised-therapeutics-and-dksh-partner-to-expand-access-to-cancer-medicines-in-vietnam-302946416.html",
+      "news_id": "5c9b4b4a5e79e53b",
+      "news_source": "prnewswire",
+      "news_event_type": "mna_deal",
+      "news_direction": "bullish",
+      "news_side": null,
+      "news_actionable": false,
+      "news_published_at": "2026-11-22T19:00:00Z",
+      "rule_tags": [
+        "news_event",
+        "mna_deal"
+      ],
+      "suggested_side": null,
+      "suggested_hold": null,
+      "spy_above_ma50": null,
+      "scanned_at": "2026-11-22T22:52:09Z"
     },
     {
       "ticker": "NTIC",
@@ -2612,5 +2642,5 @@
       "suggested_hold": null
     }
   ],
-  "news_merged_at": "2026-11-22T17:46:53Z"
+  "news_merged_at": "2026-11-22T22:52:09Z"
 }
