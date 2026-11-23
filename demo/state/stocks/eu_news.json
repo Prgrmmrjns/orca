@@ -1,6 +1,949 @@
 {
   "items": [
     {
+      "id": "54c415bf933f6dae",
+      "source": "wso_nachrichten",
+      "title": "Aktie im Fokus: Springer Nature verliert 4,12 % bei Aktienplatzierung durch Gro\u00dfaktion\u00e4r",
+      "summary": "Springer Nature gibt um 4,12 % nach, w\u00e4hrend der SDAX um 3,00 % zulegt.",
+      "url": "https://www.wallstreet-online.de/nachricht/21737146-aktie-fokus-springer-nature-verliert-4-12-aktienplatzierung-grossaktionaer",
+      "published_at": "2026-11-23T20:00:00Z",
+      "tickers": [
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "offering",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "eu_category": "offering",
+      "scanned_at": "2026-11-23T20:05:51Z",
+      "region": "EU"
+    },
+    {
+      "id": "0afbb4deb0cf1cee",
+      "source": "wso_nachrichten",
+      "title": "Devisen: Euro mit unter 1,09 US-Dollar im US-Handelsverlauf weiter schwach",
+      "summary": "NEW YORK (dpa-AFX) - Der Kurs des Euro hat sich am Montag im US-Handelsverlauf nur minimal erholt. Zuvor hatte die R\u00fcckkehr von Jensen Huang auf den Chefposten des US-Chipherstellers Nvidia dem US-Dollar Auftrieb gegeben und im Umkehrschluss die Gemeinschaftsw\u00e4hrung belastet. Rund eine Stunde vor dem B\u00f6rsenschluss an der Wall Street wurde der Euro zu 1,0897 Dollar gehandelt. Am Morgen hatte",
+      "url": "https://www.wallstreet-online.de/nachricht/21737143-devisen-euro-1-09-us-dollar-us-handelsverlauf-schwach",
+      "published_at": "2026-11-23T19:55:38Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-23T20:05:51Z",
+      "region": "EU"
+    },
+    {
+      "id": "a306c766f02241f5",
+      "source": "wso_nachrichten",
+      "title": "ROUNDUP 4/Nach Trump-Eingreifen: Nvidia holt Firmenchef Huang zur\u00fcck",
+      "summary": "(Neu: Hintergrund, Anh\u00f6rung, Begr\u00fc\u00dfung Huangs, Kongress-Ermittlungen) SANTA CLARA (dpa-AFX) - Auf ein Nvidia -Beben folgt das n\u00e4chste: Der Chip-Riese Nvidia hat in einer \u00fcberraschenden Kehrtwende seinen erst vor zehn Tagen abgetretenen Mitgr\u00fcnder Jensen Huang an die Spitze zur\u00fcckgeholt. Damit fruchtete eine Kampagne von Verb\u00fcndeten des 63-j\u00e4hrigen Firmenpatriarchen und Pr\u00e4sident Donald",
+      "url": "https://www.wallstreet-online.de/nachricht/21737125-roundup-4-nach-trump-eingreifen-nvidia-holt-firmenchef-huang",
+      "published_at": "2026-11-23T19:47:21Z",
+      "tickers": [
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-23T20:05:51Z",
+      "region": "EU"
+    },
+    {
+      "id": "f637ce51904a569e",
+      "source": "wso_nachrichten",
+      "title": "Huthi-Miliz: Tote bei saudischen Luftangriffen im Jemen",
+      "summary": "ADEN (dpa-AFX) - Bei mehreren Luftangriffen Saudi-Arabiens im Jemen sind nach Angaben der pro-iranischen Huthi-Miliz 25 Zivilisten get\u00f6tet oder verletzt worden. Der Feind habe in der Provinz Lahdsch einen Bus und Zivilfahrzeuge angegriffen, berichtete die von der Huthi kontrollierte Nachrichtenagentur Saba unter Berufung auf das Gesundheitsministerium der Miliz. Aus Saudi-Arabien gab es zun\u00e4chst",
+      "url": "https://www.wallstreet-online.de/nachricht/21737113-huthi-miliz-tote-saudischen-luftangriffen-jemen",
+      "published_at": "2026-11-23T19:43:33Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-23T20:05:51Z",
+      "region": "EU"
+    },
+    {
+      "id": "1e61736602d6a83f",
+      "source": "wso_nachrichten",
+      "title": "Adyens Co-Chef und Mitgr\u00fcnder Pieter van der Does geht zum Jahresende",
+      "summary": "AMSTERDAM (dpa-AFX) - Der Mitgr\u00fcnder des niederl\u00e4ndischen Zahlungsdienstleister Adyen , Pieter van der Does, wird zum Jahresende als Co-Chef zur\u00fccktreten. Ingo Uytdehaage, der das Unternehmen seit 2023 gemeinsam mit van der Does leitet, \u00fcbernimmt dann das Ruder allein, wie Adyen am Montag nach B\u00f6rsenschluss mitteilte. \"Nach 20 Jahren ist dies f\u00fcr mich der richtige Zeitpunkt, um mit einem",
+      "url": "https://www.wallstreet-online.de/nachricht/21737110-adyens-co-chef-mitgruender-pieter-van-does-jahresende",
+      "published_at": "2026-11-23T19:43:02Z",
+      "tickers": [
+        "ADYEN.AS",
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-23T20:05:51Z",
+      "region": "EU"
+    },
+    {
+      "id": "13909780c7b688e5",
+      "source": "wso_nachrichten",
+      "title": "Hop-on, Inc. (OTCID: HPNN) Launches Digitalage News Public Beta; AI-Assisted Pipeline Identifies 244,580 News Items for Assessment in 48 Hours",
+      "summary": "Digitalage introduces a new approach to fact-driven journalism, combining large-scale information discovery, deep content analysis, automated verification and expanding capabilities for video, citizen journalism and enterprise media licensing. &hellip;",
+      "url": "https://www.wallstreet-online.de/nachricht/21737116-hop-on-inc-otcid-hpnn-launches-digitalage-news-public-beta-ai-assisted-pipeline-identifies-244-580-news-items-for-assessment-48-hours",
+      "published_at": "2026-11-23T19:40:00Z",
+      "tickers": [
+        "INGA.AS",
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-23T20:05:51Z",
+      "region": "EU"
+    },
+    {
+      "id": "b6c79f6858202d0f",
+      "source": "wso_nachrichten",
+      "title": "Molasses Market Size to Reach $11.8 Billion by 2031 as Feed, Biofuel, and Clean-Label Applications Drive Demand - Mordor Intelligence",
+      "summary": "Growing livestock nutrition requirements, beet-based bioethanol production, and demand for natural sweeteners are expanding molasses applications. HYDERABAD, India, Nov. 23, 2026 /PRNewswire/ -- According to Mordor Intelligence, the molasses market&nbsp;size is projected to grow from $9.4 billion in 2026&nbsp;to reach $11.8 billion by 2031, registering a CAGR of 4.66% during 2026\u20132031.&nbsp;Demand",
+      "url": "https://www.wallstreet-online.de/nachricht/21737098-molasses-market-size-to-reach-11-8-billion-by-2031-as-feed-biofuel-and-clean-label-applications-drive-demand-mordor-intelligence",
+      "published_at": "2026-11-23T19:32:00Z",
+      "tickers": [
+        "INGA.AS",
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-23T20:05:51Z",
+      "region": "EU"
+    },
+    {
+      "id": "d226d95e141fa38b",
+      "source": "wso_nachrichten",
+      "title": "SILVERSEA EXTENDS ITS RIVIERA POOL AND DINING CONCEPT TO SILVER DAWN FOLLOWING DRY DOCK",
+      "summary": "Silver Dawn also debuts a pickleball court, golf putting area, and hitting bay, enhancing the guest experience on board &nbsp;&nbsp; MIAMI, Nov. 23, 2026 /PRNewswire/ -- Silversea, the leading experiential luxury and expedition travel brand, has unveiled a series of enhancements on board Silver Dawn, set to return to service on November 25, 2026, with the addition of Riviera, a new poolside",
+      "url": "https://www.wallstreet-online.de/nachricht/21737095-silversea-extends-its-riviera-pool-and-dining-concept-to-silver-dawn-following-dry-dock",
+      "published_at": "2026-11-23T19:32:00Z",
+      "tickers": [
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-23T20:05:51Z",
+      "region": "EU"
+    },
+    {
+      "id": "65464fed37a19634",
+      "source": "wso_nachrichten",
+      "title": "Huang: Werde beim zweiten Mal besserer Chef sein",
+      "summary": "SANTA CLARA (dpa-AFX) - Der alte und neue Nvidia -Chef Jensen Huang hat sich nach seiner \u00fcberraschenden R\u00fcckkehr an die Firmenspitze von Mitarbeitern im Hauptquartier des Chip-Konzerns feiern lassen. Auf einem vom Wirtschaftssender CNBC gezeigten Video war zu sehen, wie Dutzende Besch\u00e4ftigte Beifall klatschen, zudem sind \"Jensen\"-Rufe zu h\u00f6ren. Huang, der seine typische schwarze Lederjacke",
+      "url": "https://www.wallstreet-online.de/nachricht/21737092-huang-zweiten-besserer-chef",
+      "published_at": "2026-11-23T19:31:24Z",
+      "tickers": [
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-23T20:05:51Z",
+      "region": "EU"
+    },
+    {
+      "id": "35d744be0357acd0",
+      "source": "wso_nachrichten",
+      "title": "Warnung an die Notenbank: Bill Ackman: Fed, ihr macht einen gewaltigen Fehler!",
+      "summary": "Der milliardenschwere Investor Bill Ackman warnt, dass die Federal Reserve bei ihrer Sitzung am 9. Dezember Gefahr laufen w\u00fcrde, \"einen weiteren Fehler\" zu begehen.",
+      "url": "https://www.wallstreet-online.de/nachricht/21735580-warnung-notenbank-bill-ackman-fed-gewaltigen-fehler",
+      "published_at": "2026-11-23T19:30:00Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-23T20:05:51Z",
+      "region": "EU"
+    },
+    {
+      "id": "33d80e1c78f090ac",
+      "source": "wso_nachrichten",
+      "title": "EQS-PVR: Adtran Holdings, Inc.: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
+      "summary": "EQS Voting Rights Announcement: Adtran Holdings, Inc. Adtran Holdings, Inc.: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution 23.11.2026 / 20:24 CET/CEST Dissemination of a Voting Rights Announcement transmitted by EQS News - a service of EQS Group. The",
+      "url": "https://www.wallstreet-online.de/nachricht/21737083-eqs-pvr-adtran-holdings-inc-release-according-to-article-40-section-1-of-the-wphg-the-german-securities-trading-act-with-the-objective-of-europe-wide-distribution",
+      "published_at": "2026-11-23T19:24:41Z",
+      "tickers": [
+        "INGA.AS",
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-23T20:05:51Z",
+      "region": "EU"
+    },
+    {
+      "id": "3f6446276702e4ca",
+      "source": "wso_nachrichten",
+      "title": "Marktgefl\u00fcster: Bananenrepublik: Trump will mit Huang KI-Blase retten - vergeblich!",
+      "summary": "Aber die KI-Blase ist nicht durch den Abgang von Jensen Huang von Nvidia geplatzt: das war der Ausl\u00f6ser, aber nicht der Grund f\u00fcr das Platzen der Blase, so wenig wie die Pleite von Lehman Brothers nur der Ausl\u00f6ser, aber",
+      "url": "https://www.wallstreet-online.de/nachricht/21737062-marktgefluester-bananenrepublik-trump-huang-ki-blase-retten-vergeblich",
+      "published_at": "2026-11-23T19:15:00Z",
+      "tickers": [
+        "ENI.MI"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-23T20:05:51Z",
+      "region": "EU"
+    },
+    {
+      "id": "798dbae7c25e8213",
+      "source": "wso_nachrichten",
+      "title": "BVB mit Guirassy gegen Arsenal? Kovac gibt ein Update",
+      "summary": "LONDON (dpa-AFX) - Borussia Dortmunds Trainer Niko Kovac kann im Champions-League-Spiel beim FC Arsenal wieder auf St\u00fcrmer Serhou Guirassy und Mittelfeldmann Carney Chukwuemeka bauen. Beide waren zuletzt ausgefallen. \"Serhou beziehungsweise Carney haben heute das erste Mal mit der Mannschaft trainiert\", sagte der 55-J\u00e4hrige in London. \"F\u00fcr das morgige Spiel sind sie bereit und auch im Kader.\"",
+      "url": "https://www.wallstreet-online.de/nachricht/21737050-bvb-guirassy-arsenal-kovac-update",
+      "published_at": "2026-11-23T19:08:37Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-23T20:05:51Z",
+      "region": "EU"
+    },
+    {
+      "id": "11e8ebda29720ab3",
+      "source": "wso_nachrichten",
+      "title": "Gossan Resources Announces Increase in Size of Offering",
+      "summary": "Winnipeg, Manitoba--(Newsfile Corp. - November 23, 2026) - Gossan Resources Limited (TSXV: GSS) (FSE: GSR)&nbsp;(XETRA: GSR)&nbsp;(the \"Company\" or \"Gossan\") is pleased to announce an increase in the size of its non-brokered private placement announced on October 13, 2026, from gross proceeds of up to $500,000 to up to $624,600 (the \"Offering\"). The Company intends to use the gross proceeds for",
+      "url": "https://www.wallstreet-online.de/nachricht/21737053-gossan-resources-announces-increase-size-of-offering",
+      "published_at": "2026-11-23T19:06:00Z",
+      "tickers": [
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "offering",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "eu_category": "offering",
+      "scanned_at": "2026-11-23T20:05:51Z",
+      "region": "EU"
+    },
+    {
+      "id": "a6bda99188fde0a8",
+      "source": "wso_nachrichten",
+      "title": "JEFFERIES stuft Adyen auf 'Buy'",
+      "summary": "NEW YORK (dpa-AFX Analyser) - Das Analysehaus Jefferies hat die Einstufung f\u00fcr Adyen auf \"Buy\" mit einem Kursziel von 1077 Euro belassen. Analyst Hannes Leitner verwies in einer am Montag vorliegenden Studie darauf, dass sich Mitgr\u00fcnder und Co-Vorstandschef Pieter van der Does bis Jahresende aus dem operativen Gesch\u00e4ft zur\u00fcckzieht. Da der bisherige andere Co-CEO Ingo Uytdehaage die alleinige Chefposition",
+      "url": "https://www.wallstreet-online.de/nachricht/21737131-jefferies-stuft-adyen-buy",
+      "published_at": "2026-11-23T19:02:51Z",
+      "tickers": [
+        "ADYEN.AS",
+        "INGA.AS",
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "analyst",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "analyst",
+      "scanned_at": "2026-11-23T20:05:51Z",
+      "region": "EU"
+    },
+    {
+      "id": "4780fbff43bdd4d3",
+      "source": "wso_nachrichten",
+      "title": "RBC stuft Nutrien auf 'Outperform'",
+      "summary": "NEW YORK (dpa-AFX Analyser) - Die kanadische Bank RBC hat die Einstufung f\u00fcr Nutrien auf \"Outperform\" mit einem Kursziel von 85 US-Dollar belassen. Analyst Andrew Wong verwies in einer am Montag vorliegenden Studie zu D\u00fcngemittelherstellern auf deren schw\u00e4chelnde Aktienkurse. Er begr\u00fcndete dies mit einer allgemeinen Marktschw\u00e4che, aber auch mit einer verhaltenen saisonalen Nachfrage./ck/mis Ver\u00f6ffentlichung",
+      "url": "https://www.wallstreet-online.de/nachricht/21737128-rbc-stuft-nutrien-outperform",
+      "published_at": "2026-11-23T19:01:53Z",
+      "tickers": [
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "analyst",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "analyst",
+      "scanned_at": "2026-11-23T20:05:51Z",
+      "region": "EU"
+    },
+    {
+      "id": "883cbbe7b0e52e96",
+      "source": "wso_nachrichten",
+      "title": "Aktien New York: Huangs R\u00fcckkehr als Nvidia-Chef sorgt f\u00fcr starke B\u00f6rsenerholung",
+      "summary": "NEW YORK (dpa-AFX) - Die \u00fcberraschende R\u00fcckkehr von Jensen Huang als Vorstandschef von Nvidia hat am Montag Euphorie an den US-B\u00f6rsen ausgel\u00f6st. Vor allem die technologielastige Nasdaq, die seit Bekanntwerden der Aff\u00e4re Huangs mit einer mutma\u00dflichen chinesischen Spionin schwer unter Druck geraten war, erholte sich wieder deutlich. Rund zwei Stunden vor dem B\u00f6rsenschluss ging es f\u00fcr den",
+      "url": "https://www.wallstreet-online.de/nachricht/21737041-aktien-new-york-huangs-rueckkehr-nvidia-chef-sorgt-starke-boersenerholung",
+      "published_at": "2026-11-23T19:01:00Z",
+      "tickers": [
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-23T20:05:51Z",
+      "region": "EU"
+    },
+    {
+      "id": "e4929ac5419e3bd1",
+      "source": "wso_nachrichten",
+      "title": "SMX Is Taking AI From Artificial to Industrial",
+      "summary": "With its new Scientific Intelligence platform, SMX is combining artificial intelligence, molecular technology and industrial expertise to explore a new era of material innovation. NEW YORK CITY, NY / ACCESS Newswire / November 23, 2026 / The &hellip;",
+      "url": "https://www.wallstreet-online.de/nachricht/21737032-smx-is-taking-ai-from-artificial-to-industrial",
+      "published_at": "2026-11-23T19:00:00Z",
+      "tickers": [
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-23T20:05:51Z",
+      "region": "EU"
+    },
+    {
+      "id": "8f479b9becb1f775",
+      "source": "wso_nachrichten",
+      "title": "Aktie im Rampenlicht: SELLAS Life Sciences Group dreht ins Minus und verliert 5,41 %",
+      "summary": "SELLAS Life Sciences Group gibt um 5,41 % nach, bleibt auf Wochensicht aber mit 70,98 % im Plus.",
+      "url": "https://www.wallstreet-online.de/nachricht/21737029-aktie-rampenlicht-sellas-life-sciences-group-dreht-minus-verliert-5-41",
+      "published_at": "2026-11-23T19:00:00Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-23T20:05:51Z",
+      "region": "EU"
+    },
+    {
+      "id": "1fbef657e7168889",
+      "source": "wso_nachrichten",
+      "title": "B\u00f6rsen Update: B\u00f6rsen Update USA - 23.11. - US Tech 100 stark +6,55&nbsp;%",
+      "summary": "Im Verlauf des Handelstages zeigen die amerikanischen Indizes ein sehr freundliches Bild.",
+      "url": "https://www.wallstreet-online.de/nachricht/21737026-boersen-update-boersen-update-usa-23-11-us-tech-100-stark-6-55",
+      "published_at": "2026-11-23T19:00:00Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-23T20:05:51Z",
+      "region": "EU"
+    },
+    {
+      "id": "8a325add68ab4951",
+      "source": "wso_nachrichten",
+      "title": "Experte bleibt bullish: Nach dem Tech-Beben: Warum Acatis-Stratege Ri\u00dfe jetzt zukaufen will",
+      "summary": "Der Ausverkauf bei Technologieaktien nahm vergangenen Woche Fahrt auf. F\u00fcr Stefan Ri\u00dfe, Kapitalmarktstratege bei Acatis Investment, ist das kein Grund zur Flucht.",
+      "url": "https://www.wallstreet-online.de/nachricht/21735784-experte-bleibt-bullish-tech-beben-acatis-stratege-risse-zukaufen",
+      "published_at": "2026-11-23T19:00:00Z",
+      "tickers": [
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-23T20:05:51Z",
+      "region": "EU"
+    },
+    {
+      "id": "8e2e72ea0449e347",
+      "source": "wso_nachrichten",
+      "title": "BBW EQUITY ACTION REMINDER: Faruqi & Faruqi, LLP Reminds Build-A-Bear Workshop (BBW) Investors of Securities Class Action Lawsuit Deadline on January 19, 2027",
+      "summary": "Faruqi & Faruqi, LLP Securities Litigation Partner James (Josh) Wilson Encourages Investors Who Suffered Losses In Build-A-Bear Workshop To Contact Him Directly To Discuss Their Options If you purchased or acquired securities in Build-A-Bear Workshop between May 28, 2026 and August 26, 2026 and would like to discuss your legal rights, call Faruqi & Faruqi partner Josh Wilson directly at 877-247-4292",
+      "url": "https://www.wallstreet-online.de/nachricht/21737035-bbw-equity-action-reminder-faruqi-faruqi-llp-reminds-build-a-bear-workshop-bbw-investors-of-securities-class-action-lawsuit-deadline-on-january-19-2027",
+      "published_at": "2026-11-23T18:57:00Z",
+      "tickers": [
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-23T20:05:51Z",
+      "region": "EU"
+    },
+    {
+      "id": "28cfca550b943627",
+      "source": "wso_nachrichten",
+      "title": "Sirma Group Holding Releases 9-Month 2026 Interim Results",
+      "summary": "Sirma Group gained momentum in the first nine months of 2026, combining double-digit revenue and profit growth with stronger margins and an Australian acquisition.",
+      "url": "https://www.wallstreet-online.de/nachricht/21737011-sirma-group-holding-releases-9-month-2026-interim-results",
+      "published_at": "2026-11-23T18:48:31Z",
+      "tickers": [
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "mna",
+      "direction": "bullish",
+      "news_side": "long",
+      "actionable": true,
+      "eu_category": "mna",
+      "scanned_at": "2026-11-23T20:05:51Z",
+      "region": "EU"
+    },
+    {
+      "id": "f86a1a995782e274",
+      "source": "wso_nachrichten",
+      "title": "Centrotherm Photovoltaics: Gro\u00dfauftrag \u2013 Prognose f\u00fcr 2026 angehoben",
+      "summary": "Ein Gro\u00dfauftrag und fr\u00fchere Projektabnahmen geben centrotherm R\u00fcckenwind: Der Anlagenbauer hebt seine Prognosen f\u00fcr Auftragseingang, Gesamtleistung und EBITDA 2026 an.",
+      "url": "https://www.wallstreet-online.de/nachricht/21737008-centrotherm-photovoltaics-grossauftrag-prognose-2026-angehoben",
+      "published_at": "2026-11-23T18:48:05Z",
+      "tickers": [
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "contract",
+      "direction": "bullish",
+      "news_side": "long",
+      "actionable": true,
+      "eu_category": "contract",
+      "scanned_at": "2026-11-23T20:05:51Z",
+      "region": "EU"
+    },
+    {
+      "id": "8f11d402ebe428e1",
+      "source": "wso_nachrichten",
+      "title": "Instant Group AG: Jedes zehnte Unternehmen geht so an die B\u00f6rse",
+      "summary": "Es muss nicht der klassische IPO sein: Rund jedes zehnte erfasste Unternehmen beim Deutschen Eigenkapitalforum 2026 kam \u00fcber Mantel-, SPAC- oder Reverse-Transaktionen an die B\u00f6rse.",
+      "url": "https://www.wallstreet-online.de/nachricht/21737005-instant-group-ag-zehnte-unternehmen-boerse",
+      "published_at": "2026-11-23T18:47:37Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-23T20:05:51Z",
+      "region": "EU"
+    },
+    {
+      "id": "4a05f8219b9c74a7",
+      "source": "wso_nachrichten",
+      "title": "2G ENERGY Lands Biggest-Ever Contract in Germany",
+      "summary": "A record German order and surging service revenue put 2G Energy in the spotlight, but a demanding fourth quarter lies ahead as management sticks to its growth targets.",
+      "url": "https://www.wallstreet-online.de/nachricht/21737002-2g-energy-lands-biggest-ever-contract-germany",
+      "published_at": "2026-11-23T18:46:59Z",
+      "tickers": [
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-23T20:05:51Z",
+      "region": "EU"
+    },
+    {
+      "id": "4928b83d25242d86",
+      "source": "wso_nachrichten",
+      "title": "2G ENERGY: Mega-Auftrag in Deutschland \u2013 gr\u00f6\u00dfter Deal der Firmengeschichte",
+      "summary": "Rekordauftrag im R\u00fccken, Jahresziele im Blick: 2G Energy legt beim Umsatz kr\u00e4ftig zu. Doch f\u00fcr die best\u00e4tigte Prognose muss der KWK-Spezialist im Schlussquartal deutlich nachlegen.",
+      "url": "https://www.wallstreet-online.de/nachricht/21736999-2g-energy-mega-auftrag-deutschland-groesster-deal-firmengeschichte",
+      "published_at": "2026-11-23T18:46:25Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "contract",
+      "direction": "bullish",
+      "news_side": "long",
+      "actionable": true,
+      "eu_category": "contract",
+      "scanned_at": "2026-11-23T20:05:51Z",
+      "region": "EU"
+    },
+    {
+      "id": "02450e028c766ecd",
+      "source": "wso_nachrichten",
+      "title": "Sirma Group Holding: Neunmonatsbericht 2026 jetzt ver\u00f6ffentlicht",
+      "summary": "Sirma auf Wachstumskurs: Umsatz und Gewinn legen 2026 zweistellig zu. Wiederkehrende Erl\u00f6se und der Einstieg bei Jucari Global st\u00e4rken die Position des IT-Anbieters.",
+      "url": "https://www.wallstreet-online.de/nachricht/21736990-sirma-group-holding-neunmonatsbericht-2026",
+      "published_at": "2026-11-23T18:44:53Z",
+      "tickers": [
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-23T20:05:51Z",
+      "region": "EU"
+    },
+    {
+      "id": "81c5d82ed711c027",
+      "source": "wso_nachrichten",
+      "title": "Alzchem Group: 3. Zwischenmeldung zum Aktienr\u00fcckkauf",
+      "summary": "Alzchem setzt den Aktienr\u00fcckkauf fort: Vom 16. bis 20. November erwarb der Konzern 26.740 eigene Aktien f\u00fcr rund 3,92 Millionen Euro. Damit steigt die Gesamtzahl auf 61.766 St\u00fcck.",
+      "url": "https://www.wallstreet-online.de/nachricht/21736978-alzchem-group-3-zwischenmeldung-aktienrueckkauf",
+      "published_at": "2026-11-23T18:43:56Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-23T20:05:51Z",
+      "region": "EU"
+    },
+    {
+      "id": "615409caba64c2b9",
+      "source": "wso_nachrichten",
+      "title": "NanoRepro legt freiwilligen Konzernabschluss vor: Kosmetikwerke ab 2025",
+      "summary": "NanoRepros erster Konzernabschluss zeigt Licht und Schatten: Paedi Protect kehrt in die Gewinnzone zur\u00fcck, w\u00e4hrend der Aufbau von newkee das Ergebnis belastet.",
+      "url": "https://www.wallstreet-online.de/nachricht/21736975-nanorepro-legt-freiwilligen-konzernabschluss-vor-kosmetikwerke-2025",
+      "published_at": "2026-11-23T18:43:24Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-23T20:05:51Z",
+      "region": "EU"
+    },
+    {
+      "id": "9dfa92027184bb96",
+      "source": "eqs_google",
+      "title": "Beno Holding AG: BENO Holding AG legt Umfang einer ersten Tranche der Kapitalerh\u00f6hung fest | Ad-hoc - EQS News",
+      "summary": "Beno Holding AG: BENO Holding AG legt Umfang einer ersten Tranche der Kapitalerh\u00f6hung fest | Ad-hoc &nbsp;&nbsp; EQS News",
+      "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxObGs0ZGdxLWs4Z1I1ZHF2bW9mdkVvN1dQcE1pM09peF9GLU02V0p2THBoS0dxTVJTamJRbnBvRXBmTXhKUHdIYVFQZ1E5X2pMblR0c1RiU3BkVWdhV1dSRV9ZWGlGalNzb1FsYko5YmJKTHpXVTZzT0xIbjNZb04wV2w1aUhVcVM2cXFEdVJjOWRXd1h4NE90eWY0S0N3Ym9RSmZKRmxhclpDX0piSE4zSkRGczV5V1hqdkp4MTljSFZQLVJFWFFCbHpQNkdyN0pySDhXZXBlc3FITWstT0IwYVRJUVFGTkVfMUliLUFCVGRYVlFIUU9rZm9keXRrTEFCSnI1RkhMcFA3SEtEbS1TZ0RhV0pGajdQX0lOamJoWFhUWThOX3c?oc=5",
+      "published_at": "2026-11-23T17:52:00Z",
+      "tickers": [
+        "INGA.AS"
+      ],
+      "form": "EU_ADHOC",
+      "event_type": "offering",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "eu_category": "offering",
+      "scanned_at": "2026-11-23T20:05:49Z",
+      "region": "EU"
+    },
+    {
+      "id": "32f5885162995f6d",
+      "source": "yahoo_eu",
+      "title": "Roche erh\u00e4lt wichtige US-Zulassung f\u00fcr Hoffnungstr\u00e4ger Giredestrant",
+      "summary": "Der Pharmakonzern Roche hat f\u00fcr seinen Hoffnungstr\u00e4ger Giredestrant (Markenname: Wilserdly) von der US-Gesundheitsbeh\u00f6rde FDA eine wichtige Zulassung erhalten. Die Beh\u00f6rde erteilte die Zulassung des Medikaments zur alleinigen postoperativen Behandlung von erwachsenen Personen mit hormonrezeptorpositivem und HER2-negativem Brustkrebs.",
+      "url": "https://de.finance.yahoo.com/nachrichten/roche-erh%C3%A4lt-wichtige-us-zulassung-171633246.html?.tsrc=rss",
+      "published_at": "2026-11-23T17:16:33Z",
+      "tickers": [
+        "RO.SW"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-23T20:05:56Z",
+      "region": "EU"
+    },
+    {
+      "id": "3319ce0ffaa54858",
+      "source": "eqs_google",
+      "title": "Insider-Trades bei Haier Smart Home, SAP und K+S - Investing.com Deutsch",
+      "summary": "Insider-Trades bei Haier Smart Home, SAP und K+S &nbsp;&nbsp; Investing.com Deutsch",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTGtQVHlSSG00aWo3eC1LN2FKZGxFM0w2cUJ6UE1BNVF2QmhXU05xTVl0RWhoM2ZJdFdFeXVwQWVrQnNRb0podDd3bm1nYlNRc3ZUb09vU05YQktBYy04Zm42bTJhSnBKNWJoc2FvUmlhYXo1TnRUUUdCX3hSN1JjWlpHa08ybGR6NlFBc1ZYTWdJR2l3X1pYeEo3ZjFYTWo1TlQ2NlV0a0NwOHdpV0E?oc=5",
+      "published_at": "2026-11-23T17:03:00Z",
+      "tickers": [
+        "SAP.DE",
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-23T20:05:49Z",
+      "region": "EU"
+    },
+    {
+      "id": "f9f77c140dbc1030",
+      "source": "eqs_google",
+      "title": "Nike Aktie: Cantor Fitzgerald streicht Kursziel zusammen - AktienCheck.de",
+      "summary": "Nike Aktie: Cantor Fitzgerald streicht Kursziel zusammen &nbsp;&nbsp; AktienCheck.de",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPN0J6ZklQQ2ViRUluZTg4ZERFdExOQnFoOEo5ZWdpRzB5S3Bjdmszd1RtbFpOSjQxSUF4NUNLQndOMElzaklsMmdVQUhCWmJMY2REcEZvY1RUc0x0VF9GOFdqNkZ5WElVempaZmxrTUpfcjFjZXVvVUg2Wnp1YnNFSDdMZ2NnVm1GR2lpVG00VQ?oc=5",
+      "published_at": "2026-11-23T16:38:21Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "analyst",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "analyst",
+      "scanned_at": "2026-11-23T20:05:50Z",
+      "region": "EU"
+    },
+    {
+      "id": "8496c57722d4aa9f",
+      "source": "yahoo_eu",
+      "title": "AKTIEN IM FOKUS: KI-Profiteure vorn - 'Huang-R\u00fcckkehr Signal der Stabilit\u00e4t'",
+      "summary": "Nach der R\u00fcckkehr von Jensen Huang auf den Chefsessel des KI-Chipgiganten Nvidia sind am deutschen Aktienmarkt die Profiteure des zuletzt in arge Zweifel gezogenen KI-Booms kr\u00e4ftig gestiegen. Im Dax setzten sich Infineon und Siemens Energy an die Spitze mit Aufschl\u00e4gen von 9 respektive 7,3 Prozent. Papiere von Hochtief kletterten auf Rang 3 um 6 Prozent.",
+      "url": "https://de.finance.yahoo.com/nachrichten/aktien-fokus-ki-profiteure-vorn-143956890.html?.tsrc=rss",
+      "published_at": "2026-11-23T14:39:56Z",
+      "tickers": [
+        "IFX.DE",
+        "SIE.DE",
+        "EOAN.DE",
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-23T20:05:52Z",
+      "region": "EU"
+    },
+    {
+      "id": "7c6104be60663889",
+      "source": "eqs_google",
+      "title": "Global Health Care AG: Neuordnung der milon-Beteiligung \u2013 Hauptvariante mit Bezugsrecht f\u00fcr alle Aktion\u00e4re, Auffangl\u00f6sung mit Verbleib von 40 % \u2013 Berichtigung der GV-Einladung | Ad-hoc - EQS News",
+      "summary": "Global Health Care AG: Neuordnung der milon-Beteiligung \u2013 Hauptvariante mit Bezugsrecht f\u00fcr alle Aktion\u00e4re, Auffangl\u00f6sung mit Verbleib von 40 % \u2013 Berichtigung der GV-Einladung | Ad-hoc &nbsp;&nbsp; EQS News",
+      "url": "https://news.google.com/rss/articles/CBMikANBVV95cUxQb1BxMjQxTlR2bEVYYW5MU1ktWk1va2tSMWF2akphWktMU2NwMjMyLWdfRHNYNVVTZ19uZjB3YTZCc3hob2RSWEI4LU52NW1hTjlWY1NLRUh1YU93Ni1LTHlNU0ozcXh0bVpBeVBLUngyaXdQQVo4LWRvRUlUS0Z4NzRETE1NUmw0SDl2TmJEbWJza1FVWVlnWXF6OEpoTWlJWDY4MzIxQnRjMlJwNDlZYjdNWG9KYml1UEx1WjZVX1hkbGhjSkdTaEtiRlQzMEhfaEJNYkQtUnRscGxpT1E4azNudmVGYTl4MkhPXzFzcENZSWh6QTlwNy1OYkhMR3BjSElNb3o4c1BBbXY2QzhqQzZCUnJCRXhJbmlWbkdjWjdFdEgwbi0xb3FkYXJkaDkwYkJ3WFhrWXlVekRod1pacE8xV0twLVNfQkVlU3p0M2hoZTlkSzZQRGJzSTJjSDMzNTFWZGdLTUY4ZmtlVjRTeVVheG5HWkMtVk1lcXJ4R3oxU0ZLT1FzQkJseE5kUFVZ?oc=5",
+      "published_at": "2026-11-23T13:38:00Z",
+      "tickers": [],
+      "form": "EU_ADHOC",
+      "event_type": "offering",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "eu_category": "offering",
+      "scanned_at": "2026-11-23T20:05:49Z",
+      "region": "EU"
+    },
+    {
+      "id": "80762ee9b479d4ce",
+      "source": "eqs_google",
+      "title": "EQS-News: Enapter AG completes capital increase \u2013 Runshihua Group joins as strategic investor - finanzen.ch",
+      "summary": "EQS-News: Enapter AG completes capital increase \u2013 Runshihua Group joins as strategic investor &nbsp;&nbsp; finanzen.ch",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOZ2RMdGNTSnFQRVdPb0xSRGI5NzQzWVEtWXI0ZUdiUkJXRXBYVEZrZnl5a3gyWUI4dzFmcEFiQUh5QkFLT0J2ZEwwOEY1V3EzUlNlejRtVTBPamFfaHhQaEpMcVdONHlsSEFxZHRtNm1fRDVnM1YyeEIwYjllbFdwa3Z6R3dKQ2hwWU5yMHRnZDNUN2xKd0paX2dKV24waHM0Zm04N1lEYnZiVWdFSE1qYldENVI3TjhIVVlnemRRaVRXZUFlaUpQM21iTGhSUUUzSXVoc1VIeElrbEQ3?oc=5",
+      "published_at": "2026-11-23T11:16:24Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "offering",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "eu_category": "offering",
+      "scanned_at": "2026-11-23T20:05:50Z",
+      "region": "EU"
+    },
+    {
+      "id": "001894569dd815f0",
+      "source": "eqs_google",
+      "title": "United Internet-Aktie: 190 Millionen 1&1-Aktien \u00fcbertragen - ad-hoc-news.de",
+      "summary": "United Internet-Aktie: 190 Millionen 1&1-Aktien \u00fcbertragen &nbsp;&nbsp; ad-hoc-news.de",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT3p2RzgzLWhJUHduTVprODZPSkxiMV95dXc2Qm9YZWlZdmxXMzRsUjA1TXJwWGtyX3NpWVlzUkxMQ1czY3B2T2dKR1dGS2NwMDJ4dGpPVEo5Vll5WEJBNjJTZTJMR3VIRDdKb0laaTJEWW5TUElxbEdlVEZYSDlZaTFZYkJqWFUxTWY5czNja1BSTEM2Sk41TVdWVkw1MlBhUzJHTTdaMktDMFR1RzhJeUptWUpLOW50MDU0ek1R?oc=5",
+      "published_at": "2026-11-23T11:01:58Z",
+      "tickers": [
+        "NEWS.DE"
+      ],
+      "form": "EU_ADHOC",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-23T20:05:49Z",
+      "region": "EU"
+    },
+    {
+      "id": "c2a4225c6b9289cc",
+      "source": "eqs_google",
+      "title": "centrotherm international AG verbucht Gro\u00dfauftrag und hebt seine Prognose f\u00fcr das Gesch\u00e4ftsjahr 2026 an | Ad-hoc - EQS News",
+      "summary": "centrotherm international AG verbucht Gro\u00dfauftrag und hebt seine Prognose f\u00fcr das Gesch\u00e4ftsjahr 2026 an | Ad-hoc &nbsp;&nbsp; EQS News",
+      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQRU1KcjFnc3J6b3FaM01OTktTS0JoMUpTWXQ4VnlVUlc3LVVWQXpRUWo4anRDdHV3LXhJQ1p1dHoxTGstN2kxSERkWXBadTFpNHZhdVVqQnE1bVBIaTdvYUJUYzR4NTIzVlFRWTcyUGp3eXBfRHNGRFhES0lieVhGSGpGWXlaZkVhV3I3dlpEaUxoQ21odVBDSVVnSktVV0VWMU4wTHZmUmVtRnBIOVRzUWpkUHJBTnRQR3FOLVBFanJMc1BJdjNqd0Y1Uk5ETHBFVWdzYjd1SmFYR1g0OFc4bDRVVzdrdlhhMmtPVTNIeDVtRFVnN1NUZEZ0MzVCODRFTl9Ud2RaekVwdHJD?oc=5",
+      "published_at": "2026-11-23T09:34:00Z",
+      "tickers": [],
+      "form": "EU_ADHOC",
+      "event_type": "contract",
+      "direction": "bullish",
+      "news_side": "long",
+      "actionable": true,
+      "eu_category": "contract",
+      "scanned_at": "2026-11-23T20:05:49Z",
+      "region": "EU"
+    },
+    {
+      "id": "3a7bac0b859b86ef",
+      "source": "yahoo_eu",
+      "title": "ANALYSE-FLASH: Deutsche Bank Research hebt Ziel f\u00fcr RWE auf 67 Euro  - 'Buy'",
+      "summary": "Deutsche Bank Research hat das Kursziel f\u00fcr RWE von 65 auf 67 Euro angehoben und die Einstufung auf \"Buy\" belassen. Nach zwei Jahren deutlicher Outperformance des europ\u00e4ischen Versorgersektors erwarte er weitere positive Entwicklungen, schrieb James Brand in seinem am Montag vorliegenden Branchenkommentar. Ein starker Gewinnzyklus habe eingesetzt, und die Konsenssch\u00e4tzungen f\u00fcr die Gewinne einiger integrierter Energieversorger erschienen zu niedrig./rob/edh/ag",
+      "url": "https://de.finance.yahoo.com/nachrichten/analyse-flash-deutsche-bank-research-084901780.html?.tsrc=rss",
+      "published_at": "2026-11-23T08:49:01Z",
+      "tickers": [
+        "DBK.DE",
+        "RWE.DE",
+        "INGA.AS",
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "analyst",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "analyst",
+      "scanned_at": "2026-11-23T20:05:56Z",
+      "region": "EU"
+    },
+    {
+      "id": "a6a8b8cc3074e38c",
+      "source": "yahoo_eu",
+      "title": "AKTIEN IM FOKUS: KI-Werte versuchen Stabilisierung - Kaufempfehlung f\u00fcr Infineon",
+      "summary": "Aktien aus dem deutschen Technologiesektor versuchen am Montag nach den j\u00fcngsten Branchen-Turbulenzen eine Erholung. F\u00fcr den Kurs von Infineon , der am Freitag um fast acht Prozent abgesackt war, ging es im fr\u00fchen Xetra-Handel um 2,6 Prozent nach oben - mitunter auch gest\u00fctzt auf eine Kaufempfehlung des Analysehauses Rothschild & Co Redburn.",
+      "url": "https://de.finance.yahoo.com/nachrichten/aktien-fokus-ki-werte-versuchen-081948011.html?.tsrc=rss",
+      "published_at": "2026-11-23T08:19:48Z",
+      "tickers": [
+        "IFX.DE",
+        "EOAN.DE",
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-23T20:05:52Z",
+      "region": "EU"
+    },
+    {
+      "id": "63aea32071975df9",
+      "source": "yahoo_eu",
+      "title": "ABB will deutsche Firma Ziehl-Abegg f\u00fcr 2,65 Milliarden Dollar kaufen",
+      "summary": "Das Schweizer Technologieunternehmen ABB expandiert in Deutschland. Der deutsche Ventilatoren- und Motorenhersteller Ziehl-Abegg soll f\u00fcr einen Unternehmenswert von 2,65 Milliarden Dollar \u00fcbernommen werden, teilte ABB am Montag in Z\u00fcrich mit. Der Konzern erweitert damit sein Angebot f\u00fcr Heizungs-, L\u00fcftungs- und Klimaanlagen sowie industrielle K\u00fchlsysteme. Die ABB-Aktie legte im vorb\u00f6rslichen Handel gut ein Prozent zu.",
+      "url": "https://de.finance.yahoo.com/nachrichten/abb-will-deutsche-firma-ziehl-074448294.html?.tsrc=rss",
+      "published_at": "2026-11-23T07:44:48Z",
+      "tickers": [
+        "RWE.DE",
+        "ABBN.SW"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-23T20:05:55Z",
+      "region": "EU"
+    },
+    {
+      "id": "2fd935a7b56dfad4",
+      "source": "eqs_google",
+      "title": "Julius Baer Group Ltd. Interim Management Statement f\u00fcr die ersten zehn Monate 2026* - EQS News",
+      "summary": "Julius Baer Group Ltd. Interim Management Statement f\u00fcr die ersten zehn Monate 2026* &nbsp;&nbsp; EQS News",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPT0FMczY1WWZCZ2RTSTU0dWQ5YXIyYUl2UVliMWJsdGxVWUNPRlZBTmF6RkxyMjVaZE9heE03OUFjODR2T3BzZWtPMk5UcjhiOUJYSVdtNWFLX3VnNG5WU0hnT0N2WDVhTnVZQ1VlbEo5MnhVM290eEJhblF0T0FOTFZwMGNYVmFGNU1OQ3g0TTRPMFBJRC1DRG5OOTNXTUh6MXhjSW9GU2JfUVF4RE9BRllIMUZFSy1vdkRtUEhleS1sVU1QUVdvVnVxUktzcXRGVFFjMzFiQVRodFdmRG0yXzN4UTNUZW00UjJ6VDZCM002MXFOcTV0X0FSRVFIVzA?oc=5",
+      "published_at": "2026-11-23T05:59:00Z",
+      "tickers": [
+        "BA.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-23T20:05:49Z",
+      "region": "EU"
+    },
+    {
+      "id": "64818566aafd7c18",
+      "source": "yahoo_eu",
+      "title": "Siemens-Chef: China k\u00f6nnte US-KI-Firmen das Gesch\u00e4ft verderben",
+      "summary": "K\u00fcnstliche Intelligenz ist f\u00fcr Siemens-Chef Roland Busch \"die gr\u00f6\u00dfte Wette in der Geschichte der Menschheit\". Und es ist nicht ausgemacht, dass sie sich f\u00fcr die gro\u00dfen Akteure rechnet - auch wegen der chinesischen Konkurrenz. \"Da wird Geld reingepumpt ohne Ende\", sagte er der Deutschen Presse-Agentur und der Finanz-Nachrichtenagentur dpa-AFX. \"Wir wissen, KI hat einen Wert. Aber was passiert, wenn die chinesischen Modelle, die sehr viel billiger sind, genauso gut werden? Was ist d",
+      "url": "https://de.finance.yahoo.com/nachrichten/siemens-chef-china-k%C3%B6nnte-us-051838313.html?.tsrc=rss",
+      "published_at": "2026-11-23T05:18:38Z",
+      "tickers": [
+        "SIE.DE",
+        "INGA.AS",
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-23T20:05:57Z",
+      "region": "EU"
+    },
+    {
+      "id": "5f61a4e6508fab48",
+      "source": "yahoo_eu",
+      "title": "Siemens-Chef zum KI-Wettkampf: \u00abDas ist jetzt das Endspiel\u00bb",
+      "summary": "Siemens-Chef Roland Busch warnt vor Europas Regulierung und staunt \u00fcber Chinas Innovationstempo. Warum Deutschland dennoch nicht chancenlos ist und was daf\u00fcr passieren muss.",
+      "url": "https://de.finance.yahoo.com/nachrichten/siemens-chef-ki-wettkampf-endspiel-031505742.html?.tsrc=rss",
+      "published_at": "2026-11-23T03:15:05Z",
+      "tickers": [
+        "SIE.DE"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-23T20:05:57Z",
+      "region": "EU"
+    },
+    {
+      "id": "91297bb9631a1f5d",
+      "source": "yahoo_eu",
+      "title": "Wie bei Volkswagen der Streit ums Sparen eskaliert ist",
+      "summary": "Nullrunden, Arbeitszeit, Zulagen: Volkswagen will bei den anstehenden Tarifverhandlungen massiv Einsparungen durchsetzen, die IG Metall h\u00e4lt dagegen. Ein Blick zur\u00fcck zeigt, wie der Streit eskalierte.",
+      "url": "https://de.finance.yahoo.com/nachrichten/volkswagen-streit-ums-sparen-eskaliert-030030450.html?.tsrc=rss",
+      "published_at": "2026-11-23T03:00:30Z",
+      "tickers": [
+        "VOW3.DE"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-23T20:05:54Z",
+      "region": "EU"
+    },
+    {
+      "id": "4dcb3393403c2c9d",
+      "source": "yahoo_eu",
+      "title": "Siemens-Chef Busch sieht sich f\u00fcr weitere gro\u00dfe \u00dcbernahmen ger\u00fcstet",
+      "summary": "Der Technologiekonzern Siemens will sein Wachstum auch durch weitere \u00dcbernahmen vorantreiben. \"Das haben wir in der Vergangenheit gemacht. Und das machen wir auch weiter\", sagte Konzernchef Roland Busch im Gespr\u00e4ch mit der Deutschen Presse-Agentur und der Finanz-Nachrichtenagentur dpa-AFX. Dabei k\u00f6nnen die M\u00fcnchner auch gro\u00dfe Zuk\u00e4ufe stemmen. \"Die Gr\u00f6\u00dfenordnung ist nicht das Thema. Auch wenn es um zehn Milliarden geht\", so Busch. \"Wenn wir ein Zielunternehmen haben, wo wir Synergi",
+      "url": "https://de.finance.yahoo.com/nachrichten/siemens-chef-busch-sieht-f%C3%BCr-025034667.html?.tsrc=rss",
+      "published_at": "2026-11-23T02:50:34Z",
+      "tickers": [
+        "SIE.DE",
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-23T20:05:57Z",
+      "region": "EU"
+    },
+    {
+      "id": "e2a98a30cfa20066",
+      "source": "eqs_google",
+      "title": "Insider-Trades: Directors' Dealings \u2013 Die wichtigsten Transaktionen - KW 47/26 - wallstreetONLINE",
+      "summary": "Insider-Trades: Directors' Dealings \u2013 Die wichtigsten Transaktionen - KW 47/26 &nbsp;&nbsp; wallstreetONLINE",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPYUpFbWNOeDQzNVZtYlFfNk9ZLUlQMUtRMFlUeTN5WTJ5dmltRjBpWDB3c1ZtbWg4LW93QVVMLVpFdkFFb196ejlRc1dIWl9MNlFMVkRJMERtbko3U0ZKSnVVbHJPMDdSOTM1NXpYdl9FRk1ZXzZBeVl6eGhteGpOVlJfM0hieW5XTGJjOThNRFNmOUJmVDZpNTFKci1WUTNMTmR0OEFvNVUxdDhqV1RWaFhwbkZjU2tzUGxjLQ?oc=5",
+      "published_at": "2026-11-22T10:00:00Z",
+      "tickers": [
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-23T20:05:49Z",
+      "region": "EU"
+    },
+    {
+      "id": "da1dd82d6632702e",
+      "source": "yahoo_eu",
+      "title": "UBS warnt vor weiterer Goldschw\u00e4che \u2013 Trendwende bei Zinserwartungen d\u00fcrfte erst sp\u00e4ter einsetzen",
+      "summary": "Investing.com - Gold k\u00f6nnte bis in das erste Quartal 2027 hinein weiter unter Druck geraten. Grund daf\u00fcr sind robuste Daten vom US-Arbeitsmarkt sowie eine \u00fcber den Markterwartungen liegende Inflation, die die Erwartungen weiterer Zinserh\u00f6hungen durch die US-Notenbank Federal Reserve verst\u00e4rkt haben. Dies geht aus einer aktuellen Mitteilung der Strategen von UBS hervor.",
+      "url": "https://de.finance.yahoo.com/nachrichten/ubs-warnt-weiterer-goldschw%C3%A4che-trendwende-182039442.html?.tsrc=rss",
+      "published_at": "2026-11-21T18:20:39Z",
+      "tickers": [
+        "INGA.AS",
+        "UBSG.SW"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-23T20:05:57Z",
+      "region": "EU"
+    },
+    {
+      "id": "641a9fd15e0928f5",
+      "source": "eqs_google",
+      "title": "FRESENIUS AKTIE Insidertrades | Directors Dealings | Insiderhandel | FRE5EN - Finanzen.net",
+      "summary": "FRESENIUS AKTIE Insidertrades | Directors Dealings | Insiderhandel | FRE5EN &nbsp;&nbsp; Finanzen.net",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBBX3JrVi1zbWVEbEpyMUJOM04ydjZ0S2FaT0tvaXBqNmNPcTAxU0lTU011VTlRQWZFY1Zxd0NUNGJ1OVp2NldsejZoaHdyUTBSbzFvSlVEeFFpZ1Ew?oc=5",
+      "published_at": "2026-11-20T21:43:35Z",
+      "tickers": [
+        "INGA.AS",
+        "ENI.MI"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-23T20:05:49Z",
+      "region": "EU"
+    },
+    {
       "id": "ee001992e8c17846",
       "source": "wso_nachrichten",
       "title": "Der B\u00f6rsen-Tag: DAX verliert \u00fcber 2 Prozent \u2013 Infineon und Jenoptik brechen ein",
@@ -569,7 +1512,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-20T16:55:31Z",
+      "scanned_at": "2026-11-23T20:05:54Z",
       "region": "EU"
     },
     {
@@ -588,7 +1531,7 @@
       "news_side": "long",
       "actionable": true,
       "eu_category": "mna",
-      "scanned_at": "2026-11-20T16:55:30Z",
+      "scanned_at": "2026-11-23T20:05:54Z",
       "region": "EU"
     },
     {
@@ -608,7 +1551,7 @@
       "news_side": "long",
       "actionable": true,
       "eu_category": "mna",
-      "scanned_at": "2026-11-20T16:55:30Z",
+      "scanned_at": "2026-11-23T20:05:54Z",
       "region": "EU"
     },
     {
@@ -628,7 +1571,7 @@
       "news_side": "long",
       "actionable": true,
       "eu_category": "mna",
-      "scanned_at": "2026-11-20T16:55:30Z",
+      "scanned_at": "2026-11-23T20:05:54Z",
       "region": "EU"
     },
     {
@@ -648,7 +1591,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-20T16:55:31Z",
+      "scanned_at": "2026-11-23T20:05:54Z",
       "region": "EU"
     },
     {
@@ -671,6 +1614,25 @@
       "region": "EU"
     },
     {
+      "id": "5302091b580dbfc9",
+      "source": "eqs_google",
+      "title": "Bitcoin Group SE: Abberufung des Vorstandsmitgliedes Moritz Eckert | Ad-hoc - EQS News",
+      "summary": "Bitcoin Group SE: Abberufung des Vorstandsmitgliedes Moritz Eckert | Ad-hoc &nbsp;&nbsp; EQS News",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNbVBFZ1RrWUZBRWFhZDdjRWc4Q2lMaVJJTjJXWC1QUGpZM3pjMkt3cUZsLXNxTDdmOExUd21wamwtVWVrdnhhZDRJQU4wY2M1ZDB2MVlpSVZ5bzhOTkhwODM5WW9JNlV4LXVTM01IVUJGdjZjb1VhOE5zNi1pSnoyZTcxTmdKMFRaWjU3UHBrY0taVEVOWUNUQkJrSlpKMERMQWFXQUt3a24tMzlfSFdSbW0xMXpXUkZpek5iazB6ZXlPbFRIUVhCcl90NUx2MzlkM0pvRUg1UUZobzloUnc?oc=5",
+      "published_at": "2026-11-20T08:21:00Z",
+      "tickers": [
+        "ABBN.SW"
+      ],
+      "form": "EU_ADHOC",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-23T20:05:49Z",
+      "region": "EU"
+    },
+    {
       "id": "bacb917abc1e2831",
       "source": "eqs_google",
       "title": "flatexDEGIRO SE startet Aktienr\u00fcckkaufprogramm von bis zu EUR 100 Millionen | Ad-hoc - EQS News",
@@ -685,6 +1647,25 @@
       "actionable": true,
       "eu_category": "other_8k",
       "scanned_at": "2026-11-20T16:55:25Z",
+      "region": "EU"
+    },
+    {
+      "id": "c208f72f76b79221",
+      "source": "yahoo_eu",
+      "title": "Allianz vor Aktiensplit? Was mit der Aktie und Dividende 2027 passieren w\u00fcrde!",
+      "summary": "Allianz-Split 2027? Die Dividende k\u00f6nnte je Aktie halbiert erscheinen. Doch was plant das Management tats\u00e4chlich \u2013 und welche Folgen? Der Artikel Allianz vor Aktiensplit? Was mit der Aktie und Dividende 2027 passieren w\u00fcrde! ist zuerst erschienen auf Aktienwelt360.",
+      "url": "https://www.aktienwelt360.de/2026/11/20/allianz-vor-aktiensplit-was-mit-der-aktie-und-dividende-2027-passieren-wuerde/?.tsrc=rss",
+      "published_at": "2026-11-20T07:15:38Z",
+      "tickers": [
+        "ALV.DE"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-23T20:05:55Z",
       "region": "EU"
     },
     {
@@ -705,7 +1686,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-20T16:55:31Z",
+      "scanned_at": "2026-11-23T20:05:54Z",
       "region": "EU"
     },
     {
@@ -725,7 +1706,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-20T16:55:31Z",
+      "scanned_at": "2026-11-23T20:05:54Z",
       "region": "EU"
     },
     {
@@ -761,7 +1742,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-20T16:55:27Z",
+      "scanned_at": "2026-11-23T20:05:50Z",
       "region": "EU"
     },
     {
@@ -778,7 +1759,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "earnings_nosurprise",
-      "scanned_at": "2026-11-20T16:55:25Z",
+      "scanned_at": "2026-11-23T20:05:49Z",
       "region": "EU"
     },
     {
@@ -1373,7 +2354,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-20T16:55:30Z",
+      "scanned_at": "2026-11-23T20:05:56Z",
       "region": "EU"
     },
     {
@@ -1394,7 +2375,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-20T16:55:30Z",
+      "scanned_at": "2026-11-23T20:05:54Z",
       "region": "EU"
     },
     {
@@ -1415,7 +2396,7 @@
       "news_side": "long",
       "actionable": true,
       "eu_category": "mna",
-      "scanned_at": "2026-11-20T16:55:30Z",
+      "scanned_at": "2026-11-23T20:05:54Z",
       "region": "EU"
     },
     {
@@ -1434,7 +2415,7 @@
       "news_side": "long",
       "actionable": true,
       "eu_category": "mna",
-      "scanned_at": "2026-11-20T16:55:30Z",
+      "scanned_at": "2026-11-23T20:05:54Z",
       "region": "EU"
     },
     {
@@ -1453,7 +2434,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-20T16:55:31Z",
+      "scanned_at": "2026-11-23T20:05:54Z",
       "region": "EU"
     },
     {
@@ -1473,7 +2454,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-20T16:55:31Z",
+      "scanned_at": "2026-11-23T20:05:54Z",
       "region": "EU"
     },
     {
@@ -1492,7 +2473,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-20T16:55:30Z",
+      "scanned_at": "2026-11-23T20:05:54Z",
       "region": "EU"
     },
     {
@@ -1512,7 +2493,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-20T16:55:30Z",
+      "scanned_at": "2026-11-23T20:05:54Z",
       "region": "EU"
     },
     {
@@ -1532,7 +2513,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-20T16:55:31Z",
+      "scanned_at": "2026-11-23T20:05:54Z",
       "region": "EU"
     },
     {
@@ -1691,7 +2672,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-20T16:55:32Z",
+      "scanned_at": "2026-11-23T20:05:57Z",
       "region": "EU"
     },
     {
@@ -1710,7 +2691,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-20T16:55:33Z",
+      "scanned_at": "2026-11-23T20:05:57Z",
       "region": "EU"
     },
     {
@@ -1730,7 +2711,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-20T16:55:33Z",
+      "scanned_at": "2026-11-23T20:05:57Z",
       "region": "EU"
     },
     {
@@ -1750,7 +2731,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-20T16:55:32Z",
+      "scanned_at": "2026-11-23T20:05:57Z",
       "region": "EU"
     },
     {
@@ -1770,7 +2751,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-20T16:55:33Z",
+      "scanned_at": "2026-11-23T20:05:57Z",
       "region": "EU"
     },
     {
@@ -1829,7 +2810,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-20T16:55:33Z",
+      "scanned_at": "2026-11-23T20:05:57Z",
       "region": "EU"
     },
     {
@@ -1866,7 +2847,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-20T16:55:34Z",
+      "scanned_at": "2026-11-23T20:05:55Z",
       "region": "EU"
     },
     {
@@ -1885,7 +2866,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-20T16:55:34Z",
+      "scanned_at": "2026-11-23T20:05:55Z",
       "region": "EU"
     },
     {
@@ -1981,7 +2962,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-20T16:55:34Z",
+      "scanned_at": "2026-11-23T20:05:55Z",
       "region": "EU"
     },
     {
@@ -1998,7 +2979,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-19T17:19:04Z",
+      "scanned_at": "2026-11-23T20:05:49Z",
       "region": "EU"
     },
     {
@@ -2747,7 +3728,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-20T16:55:34Z",
+      "scanned_at": "2026-11-23T20:05:55Z",
       "region": "EU"
     },
     {
@@ -2803,7 +3784,7 @@
       "news_side": "long",
       "actionable": true,
       "eu_category": "mna",
-      "scanned_at": "2026-11-20T16:55:31Z",
+      "scanned_at": "2026-11-23T20:05:55Z",
       "region": "EU"
     },
     {
@@ -2837,7 +3818,26 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-19T17:19:04Z",
+      "scanned_at": "2026-11-23T20:05:49Z",
+      "region": "EU"
+    },
+    {
+      "id": "1655ffde6537ad3c",
+      "source": "eqs_google",
+      "title": "Micron-Aktie f\u00e4llt 2 %: Warum ein Analyst das Kursziel senkte - TradingView",
+      "summary": "Micron-Aktie f\u00e4llt 2 %: Warum ein Analyst das Kursziel senkte &nbsp;&nbsp; TradingView",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE11em1FMFFjbVQ5WXlBWmE5STVzeHBjS2x0VVFtT0lqQzd1YkVmTUNxeUloOWRGNzc4UkNRSGdBb25FbmZVTG13RlFqV3lHYmYxTG16SXpKZmxMa0o0N3h0SUxlaVB6SHR1bllad2ROXzBHa01GWE1aMko0RHJfVU0?oc=5",
+      "published_at": "2026-11-17T17:38:53Z",
+      "tickers": [
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "analyst",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "analyst",
+      "scanned_at": "2026-11-23T20:05:50Z",
       "region": "EU"
     },
     {
@@ -3675,7 +4675,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-20T16:55:32Z",
+      "scanned_at": "2026-11-23T20:05:56Z",
       "region": "EU"
     },
     {
@@ -3783,6 +4783,23 @@
       "region": "EU"
     },
     {
+      "id": "536bfd58af21090a",
+      "source": "eqs_google",
+      "title": "The Platform Group Plans EGM on 10:1 Capital Cut, Capital Increase - wallstreetONLINE",
+      "summary": "The Platform Group Plans EGM on 10:1 Capital Cut, Capital Increase &nbsp;&nbsp; wallstreetONLINE",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQVJjX1k4ZHFFQ2NoWWQwX1g5cEQwWUxoQkdfa2dwX2ZTMUxjS09fa0tnVkdXUkNqdGNZaVZtWUhrYUNUZzVId0xIZU1LLURMWnlGQUs0QW51dWVXOG9TNFlGQmNmMjA4UzZ1bVRNMmJ1ZHFLalVPVlpjcGpoMG1UOE50ZnhaWlNxMlNMTy00bVJSTUFXOFQyQzJmZmNzVV9qMlRXalFhRjVKX243RzJOSDBySEJNa21D?oc=5",
+      "published_at": "2026-11-17T11:26:07Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "offering",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "eu_category": "offering",
+      "scanned_at": "2026-11-23T20:05:50Z",
+      "region": "EU"
+    },
+    {
       "id": "44d40aec320f8696",
       "source": "eqs_google",
       "title": "Lumexa-Imaging-Aktie: Zur\u00fcck in der Gewinnzone \u2013 Barclays erh\u00f6ht das Kursziel deutlich - AktienCheck.de",
@@ -3855,7 +4872,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-20T16:55:34Z",
+      "scanned_at": "2026-11-23T20:05:55Z",
       "region": "EU"
     },
     {
@@ -4038,6 +5055,40 @@
       "actionable": true,
       "eu_category": "offering",
       "scanned_at": "2026-11-20T16:55:26Z",
+      "region": "EU"
+    },
+    {
+      "id": "308ba32a9991b036",
+      "source": "eqs_google",
+      "title": "Ad-hoc-Mitteilung nach Art. 17 MAR: Thomas Saueressig wird Vorstandsvorsitzender der IONOS Group SE | Ad-hoc - EQS News",
+      "summary": "Ad-hoc-Mitteilung nach Art. 17 MAR: Thomas Saueressig wird Vorstandsvorsitzender der IONOS Group SE | Ad-hoc &nbsp;&nbsp; EQS News",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPMnc4VkFTMXRtTHIwQm5maXNVbVBhUHFibTlVNmNvcEpHaC1PSHRQRkV0SjJfckJoRWJZY2FSbGZJRklMSTNlTkZsY1BqRFFYVU9pZ1k1S1N5cjlUV3lQZnJsdE8yeGd6OEpTbmFDamx0QWtKQlJKUkRtTTV4SHRjc3JjN2loT1ladnBkM0RpR1VoUC1JYVBzVmJrTGc4S1c4VldwdExaVXNRMW1oWVB3bmpxWEl1R2c5U2ZCSENIUkE1T0RRM05MdWdGdVhxcFl3bUVkbnprN19FcTM3LTgtLV9FYWY1S3VWT3hZZVA0YmlZcnJqck4zazhhYkxaVzR5UUpNV2x0MnI?oc=5",
+      "published_at": "2026-11-17T08:03:00Z",
+      "tickers": [],
+      "form": "EU_ADHOC",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-23T20:05:49Z",
+      "region": "EU"
+    },
+    {
+      "id": "b351058e184f388b",
+      "source": "eqs_google",
+      "title": "VAT Group AG VAT schliesst \u00dcbernahme von Atonarp ab - EQS News",
+      "summary": "VAT Group AG VAT schliesst \u00dcbernahme von Atonarp ab &nbsp;&nbsp; EQS News",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNZUxmZ0Yxem8xNnN0eU1yaGFuUVJNd0hrVVJxOXU2RmFwYzhTbWVPbGVPQnhhWWhJYTZfcEM0Tnh2cW0tMnpHbjB5eHE0Z2xWaU1qTjluVTlTaWM1V2hSQ2pmc3ZuUC1ZNW9TSDFTeVRiUEFadDFTMlMwN0NRN0VQUlBFWV9STXgtQlI2a0VFeGJDLTJ5YzlMamd1QnFnT1pGNXcxTFpjd213V0RCcGJHN2xldGVPMnljVm4xNTlpWWtqWUhNaDhuSjlNVjZLamU0d25kRjJqRUFWb3JDcWcwcXV3?oc=5",
+      "published_at": "2026-11-17T05:30:00Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "mna",
+      "direction": "bullish",
+      "news_side": "long",
+      "actionable": true,
+      "eu_category": "mna",
+      "scanned_at": "2026-11-23T20:05:49Z",
       "region": "EU"
     },
     {
@@ -5379,7 +6430,7 @@
       "news_side": "short",
       "actionable": true,
       "eu_category": "offering",
-      "scanned_at": "2026-11-20T16:55:26Z",
+      "scanned_at": "2026-11-23T20:05:50Z",
       "region": "EU"
     },
     {
@@ -5539,7 +6590,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-20T16:55:33Z",
+      "scanned_at": "2026-11-23T20:05:57Z",
       "region": "EU"
     },
     {
@@ -5619,6 +6670,25 @@
       "region": "EU"
     },
     {
+      "id": "6b66d3812af4cfbd",
+      "source": "eqs_google",
+      "title": "Insider-Trades: Directors' Dealings \u2013 Die wichtigsten Transaktionen - KW 46/26 - wallstreetONLINE",
+      "summary": "Insider-Trades: Directors' Dealings \u2013 Die wichtigsten Transaktionen - KW 46/26 &nbsp;&nbsp; wallstreetONLINE",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQeWhKM1E3cXJYSnBOSk1jVUo5azc5MVRlQUZ5VU5Lanc3YUpyUkVlQXNWa1c3a3cyTGY4ZElKaENDeUFwVEpyRGVGcklzVW9FTDAzOGQyRXBuNjV5UHFKeG5wWjhsalpfcndzRDdTZm1MaUdmZDREdUVWa3FmME9SQmgtYlNpNTlfU2pfcHU2T3dkckJ5cXo2NHJiYXBQeWw4enJxNzhjT2JBOGNpOXFwOEJsZjZMaTA2SEM0Nw?oc=5",
+      "published_at": "2026-11-15T08:00:00Z",
+      "tickers": [
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-23T20:05:49Z",
+      "region": "EU"
+    },
+    {
       "id": "7f1d33bf21781ab5",
       "source": "yahoo_eu",
       "title": "ROUNDUP: CDU Niedersachsen will mit Lechner zur\u00fcck an die Regierung",
@@ -5676,7 +6746,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-20T16:55:34Z",
+      "scanned_at": "2026-11-23T20:05:55Z",
       "region": "EU"
     },
     {
@@ -5716,7 +6786,7 @@
       "news_side": null,
       "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-20T16:55:33Z",
+      "scanned_at": "2026-11-23T20:05:57Z",
       "region": "EU"
     },
     {
@@ -6351,7 +7421,7 @@
       "news_side": "short",
       "actionable": true,
       "eu_category": "offering",
-      "scanned_at": "2026-11-20T16:55:26Z",
+      "scanned_at": "2026-11-23T20:05:50Z",
       "region": "EU"
     },
     {
@@ -6372,1062 +7442,10 @@
       "eu_category": "other_8k",
       "scanned_at": "2026-11-16T18:23:24Z",
       "region": "EU"
-    },
-    {
-      "id": "e75dae83e35d79d3",
-      "source": "yahoo_eu",
-      "title": "ROUNDUP/Berichte: Bund k\u00f6nnte Eons und RWEs Urenco-Anteil kaufen",
-      "summary": "Die Bundesregierung will sich nach einem Bericht der Tageszeitung \"Die Welt\" aus geostrategischen Gr\u00fcnden am Atomtechnikkonzern Urenco beteiligen. Nach Informationen der Zeitung plant der Bund, ein Drittel des multinationalen Brennelemente-Herstellers mit Sitz in Gro\u00dfbritannien zu \u00fcbernehmen. Bei diesem Drittel soll es sich um den zu gleichen Teilen von den deutschen Energiekonzernen RWE und Eon gehaltenen Anteil handeln. Urenco betreibt auch in Deutschland bei Gronau eine Urananreicherungsanlag",
-      "url": "https://de.finance.yahoo.com/nachrichten/roundup-berichte-bund-k%C3%B6nnte-eons-134943456.html?.tsrc=rss",
-      "published_at": "2026-11-13T13:49:43Z",
-      "tickers": [
-        "RWE.DE",
-        "EOAN.DE"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-20T16:55:30Z",
-      "region": "EU"
-    },
-    {
-      "id": "93319b6eedbbf313",
-      "source": "eqs_google",
-      "title": "tick Trading Software AG erwartet f\u00fcr das Gesch\u00e4ftsjahr 2026/2027 einen r\u00fcckl\u00e4ufigen Jahres\u00fcberschuss von TEUR 600 bis 900 | Ad-hoc - EQS News",
-      "summary": "tick Trading Software AG erwartet f\u00fcr das Gesch\u00e4ftsjahr 2026/2027 einen r\u00fcckl\u00e4ufigen Jahres\u00fcberschuss von TEUR 600 bis 900 | Ad-hoc &nbsp;&nbsp; EQS News",
-      "url": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxNcnZPdWdkY0syS0dHMkVsLXNqaTFuYkdQMXhRbkE5bjFkUnVTU1hUeGJNeGtlRU1ucDRCWVNpMTFaRnl1dHpaNDI1U055QnZUUGpVTk1hUVNzTWRmMkFYNWlzVVN6RDAxejg5QzRsNFNYeG5vb0tNTlhDdWRheGpaYmt6LVpNazJkQl9BcW03VjJEUzFiQU5YVDRpRXFZNXNNbkRlZmlBQ2JObkFWd1dKdjlvejIzOWR1VGhWbGc4SmlibTI0YXBFdW54UnpjNDFsbGl3U2tLQlNiVXA2cUtnLW1vQmxWR2dFbzFNMF8yRnBVSWVqcFFIWGN1ZUFuVDBXYU0zRkxacVlsWEZOYl85TjdZOE04WUNnRG1VM1JNNHI1dnNaY2JTRkNIVWo0bl83MDdUZE1PdjQ1eUZHbEk1M2tDTF80WjV1Y3ctTEwtQmdqU2pBMEJv?oc=5",
-      "published_at": "2026-11-13T13:30:00Z",
-      "tickers": [
-        "INGA.AS"
-      ],
-      "form": "EU_ADHOC",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-16T18:23:24Z",
-      "region": "EU"
-    },
-    {
-      "id": "97684acb52a1102e",
-      "source": "eqs_google",
-      "title": "Jungheinrich Aktie: 15% weniger Kursziel - dennoch immenses Aufw\u00e4rtspotenzial? - AktienCheck.de",
-      "summary": "Jungheinrich Aktie: 15% weniger Kursziel - dennoch immenses Aufw\u00e4rtspotenzial? &nbsp;&nbsp; AktienCheck.de",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRFE0VGR3RGdCbDVSeEs4U2hoOEZncmRSOVJuV3pGNjZUXzVGMkhwaWlHbnFuX0JrekNYcm5xUFEyTUZoQXNMY0VpRE5aaU9xX180NGIwVmVZUHNiOGFWRHN6QWpfbTVaS0M3RHJQekdzSmdqMnRXTG5MUlZ5WmZQYTVsZmJHdVVCdWU4YUVuYklKZklCOEhfajVwbHF2WWtETUpVSDVkaUU?oc=5",
-      "published_at": "2026-11-13T13:07:36Z",
-      "tickers": [
-        "ENI.MI"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "analyst",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "analyst",
-      "scanned_at": "2026-11-13T17:39:39Z",
-      "region": "EU"
-    },
-    {
-      "id": "b894f2f57c020480",
-      "source": "yahoo_eu",
-      "title": "Investitionsstopp bei Mercedes-Benz: IG Metall will \u00fcber \"L\u00f6sungen\" sprechen",
-      "summary": "In den Verhandlungen \u00fcber Kostensenkungen bei Mercedes-Benz hat der Vorstand den Druck deutlich erh\u00f6ht: IG Metall und der Gesamtbetriebsrat des Autobauers betonten nun am Freitag ihre \"L\u00f6sungsbereitschaft\" und forderten \"ernsthafte\" Gespr\u00e4che \u00fcber Wege aus der Krise.Die Arbeitsdirektorin von Mercedes-Benz, Britta Seeger, hatte am Donnerstag unter Verweis auf die \"seit Monaten\" laufenden Gespr\u00e4che mit der Arbeitnehmervertretung \u00fcber Kostensenkungen kritisiert, es zeichne sich leider noch kein L\u00f6s",
-      "url": "https://de.finance.yahoo.com/nachrichten/investitionsstopp-mercedes-benz-ig-metall-095133387.html?.tsrc=rss",
-      "published_at": "2026-11-13T11:34:13Z",
-      "tickers": [
-        "MBG.DE",
-        "RWE.DE"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-17T17:34:35Z",
-      "region": "EU"
-    },
-    {
-      "id": "0a0650f44a483ee5",
-      "source": "yahoo_eu",
-      "title": "WDH: Arbeitnehmer kritisieren Standort-Debatte bei Mercedes",
-      "summary": "(Wiederholung: Im 4. Absatz, erster Satz wurde ein Tippfehler beseitigt: \"Barbara\" (statt: Barabara).)",
-      "url": "https://de.finance.yahoo.com/nachrichten/wdh-arbeitnehmer-kritisieren-standort-debatte-110930070.html?.tsrc=rss",
-      "published_at": "2026-11-13T11:09:30Z",
-      "tickers": [
-        "MBG.DE",
-        "BATS.L"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-17T17:34:35Z",
-      "region": "EU"
-    },
-    {
-      "id": "bfa0d35b40e2b1fd",
-      "source": "eqs_google",
-      "title": "Intel Aktie: BofA-Analyst warnt vor KI-R\u00fcckstand - droht die n\u00e4chste Entt\u00e4uschung? - AktienCheck.de",
-      "summary": "Intel Aktie: BofA-Analyst warnt vor KI-R\u00fcckstand - droht die n\u00e4chste Entt\u00e4uschung? &nbsp;&nbsp; AktienCheck.de",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbG94OFBnejV0NHBGMmtEQWcxZ3FJNjQyVTNLUGlKOUV2QzNlMHo0d0wwRklneS0zdGk5bGluYlJpcjBxSVF6RHVPa2xFQ3hiR25VZnQ3dmUyRXZhVEtPbngyZEExVEk3MEpHYTlpSEgzMDRMZUZrUzdLYXJEWU44LTdreVVLcjVIdmF6elJwUU5md0NlTXJPVmVIQmwyWWs?oc=5",
-      "published_at": "2026-11-13T10:54:23Z",
-      "tickers": [],
-      "form": "EU_NEWS",
-      "event_type": "analyst",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "analyst",
-      "scanned_at": "2026-11-13T17:39:39Z",
-      "region": "EU"
-    },
-    {
-      "id": "546465e11d114e98",
-      "source": "yahoo_eu",
-      "title": "AKTIEN IM FOKUS: Versicherer ziehen weiter an - Kurse im Bereich der Rekordh\u00f6hen",
-      "summary": "Im europaweit freundlichen Sektor der Versicherer haben am Freitag die Papiere der Munich Re an ihren starken Vortag angekn\u00fcpft. Sie gewannen zuletzt 1,5 Prozent und blieben auf Kurs zu ihrem Rekordhoch von fast 616 Euro von Ende April 2025. Am Vortag hatten Quartalszahlen des R\u00fcckversicherers den Kurs bereits angetrieben. Trotz deutlich h\u00f6herer Sch\u00e4den durch Naturkatastrophen waren die versicherten Gro\u00dfsch\u00e4den im dritten Quartal unter den Erwartungen geblieben.",
-      "url": "https://de.finance.yahoo.com/nachrichten/aktien-fokus-versicherer-ziehen-kurse-103940521.html?.tsrc=rss",
-      "published_at": "2026-11-13T10:39:40Z",
-      "tickers": [
-        "MUV2.DE"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "earnings",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "earnings_nosurprise",
-      "scanned_at": "2026-11-20T16:55:35Z",
-      "region": "EU"
-    },
-    {
-      "id": "8702af516c82d710",
-      "source": "yahoo_eu",
-      "title": "Mercedes stoppt neue Investitionen in Deutschland \u2013 das steckt wirklich hinter dem radikalen Schlag",
-      "summary": "Mercedes streicht Investitionen in Deutschland. Grund: niedrige Produktivit\u00e4t, hohe Arbeitskosten. Doch dainter steckt ein Arbeitskampf.",
-      "url": "https://www.businessinsider.de/wirtschaft/mercedes-stoppt-investitionen-in-deutschland-das-steckt-hinter-dem-radikalen-schlag/?.tsrc=rss",
-      "published_at": "2026-11-13T10:24:47Z",
-      "tickers": [
-        "VOW3.DE",
-        "MBG.DE"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-18T17:11:31Z",
-      "region": "EU"
-    },
-    {
-      "id": "cf0fc5c9ded19b37",
-      "source": "yahoo_eu",
-      "title": "Deutsche B\u00f6rse abgestuft: Barclays bevorzugt Euronext mit Kursziel 210 Euro",
-      "summary": "Investing.com \u2013 Zwei B\u00f6rsenbetreiber, zwei gegens\u00e4tzliche Urteile: Barclays hat Euronext von \u201eEqual Weight\u201c auf \u201eOverweight\u201c hochgestuft und das Kursziel von 160 auf 210 Euro angehoben. Das Wachstum im Handel mit Staatsanleihen werde vom Markt bislang untersch\u00e4tzt, argumentieren die Analysten. Beim Frankfurter Konkurrenten f\u00e4llt das Urteil dagegen deutlich zur\u00fcckhaltender aus.",
-      "url": "https://de.finance.yahoo.com/nachrichten/deutsche-b%C3%B6rse-abgestuft-barclays-bevorzugt-100749366.html?.tsrc=rss",
-      "published_at": "2026-11-13T10:07:49Z",
-      "tickers": [
-        "DB1.DE",
-        "BARC.L",
-        "RWE.DE",
-        "INGA.AS"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "analyst",
-      "direction": "bearish",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "analyst",
-      "scanned_at": "2026-11-20T16:55:35Z",
-      "region": "EU"
-    },
-    {
-      "id": "f0aa5e74425dfd32",
-      "source": "yahoo_eu",
-      "title": "Deutschland will 4 Milliarden in diesen Atomkonzern investieren \u2013 warum das vor allem milit\u00e4risch brisant ist",
-      "summary": "Deutschland plant, Anteile am Atomtechnik-Konzern Urenco zu kaufen, um sich Mitspracherecht im Nuklearsektor zu sichern.",
-      "url": "https://www.businessinsider.de/wirtschaft/deutschland-will-4-milliarden-in-diesen-atomkonzern-investieren-das-steckt-dahinter/?.tsrc=rss",
-      "published_at": "2026-11-13T10:04:09Z",
-      "tickers": [
-        "RWE.DE"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-20T16:55:30Z",
-      "region": "EU"
-    },
-    {
-      "id": "e033b5e5353c8620",
-      "source": "yahoo_eu",
-      "title": "Devisen: Pfund tritt auf der Stelle \u2013 Hawkishe Fed st\u00fctzt den US-Dollar",
-      "summary": "Investing.com - Das britische Pfund zeigte sich am Freitag kaum ver\u00e4ndert, w\u00e4hrend der Euro leichte Kursgewinne verbuchte. Nach einer Woche mit unerwartet hoher US-Inflation und aggressiveren Zinserwartungen an die Federal Reserve notierte der US-Dollar weiterhin nahe seinen Jahresh\u00f6chstst\u00e4nden.",
-      "url": "https://de.finance.yahoo.com/nachrichten/devisen-pfund-tritt-stelle-hawkishe-093809645.html?.tsrc=rss",
-      "published_at": "2026-11-13T09:38:09Z",
-      "tickers": [
-        "INGA.AS"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-20T16:55:29Z",
-      "region": "EU"
-    },
-    {
-      "id": "315841720aa0dbd7",
-      "source": "wso_nachrichten",
-      "title": "Videoausblick: Die Nvidia-Lawine startet: Bitcoin-Absturz, Microsoft-Ausfall, Trump!",
-      "summary": "Denn die neue Nvidia-F\u00fchrung wird nun den Geldhahn zudrehen und ihre KI-Beteiligungen verkaufen, wenn das best\u00e4tigt wird, was alle Indizien zeigen: Huang hat faktisch China mit Hochleistungs-Chips unterst\u00fctzt!",
-      "url": "https://www.wallstreet-online.de/nachricht/21688467-videoausblick-nvidia-lawine-startet-bitcoin-absturz-microsoft-ausfall-trump",
-      "published_at": "2026-11-13T09:35:00Z",
-      "tickers": [],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "2ed80763cb9c42e1",
-      "source": "wso_nachrichten",
-      "title": "Chartanalyse: Procter & Gamble: Aktie auf Jahreshoch \u2013 n\u00e4chste H\u00fcrden im Blick",
-      "summary": "Procter & Gamble meldet sich an der B\u00f6rse zur\u00fcck: Nach einem tiefen R\u00fcckschlag steht die Aktie auf Jahreshoch und klar \u00fcber der 200-Tage-Linie. Doch auf dem Weg zu alten H\u00f6chstst\u00e4nden warten wichtige charttechnische H\u00fcrden.",
-      "url": "https://www.wallstreet-online.de/nachricht/21688470-chartanalyse-procter-gamble-aktie-jahreshoch-huerden-blick",
-      "published_at": "2026-11-13T09:33:41Z",
-      "tickers": [],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "93d0336e1eae41bc",
-      "source": "wso_nachrichten",
-      "title": "OSRAM: Es werde Licht - doch es bleibt dunkel",
-      "summary": "Das dr\u00fcckt heute auf den Aktienkurs: OSRAM hat im dritten Quartal 2026 weniger umgesetzt und operativ verdient. Der Umsatz sank zwischen Juli und September um 3 % gegen\u00fcberdem Vorjahr auf 829 Mio. Euro. Der um Sondereffekte bereinigte Betriebsgewinn vor Abschreibungen und Amortisationen (Ebitda) sank um 19 % auf 135 Mio.. Damit verschlechterte sich die bereinigte operative Marge von 19,5 % auf 16,3",
-      "url": "https://www.wallstreet-online.de/nachricht/21688479-osram-licht-bleibt-dunkel",
-      "published_at": "2026-11-13T09:33:00Z",
-      "tickers": [
-        "ENI.MI"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "17683cc393c44bc6",
-      "source": "wso_nachrichten",
-      "title": "440 Kilo Uran \u2013 wo sind sie?: \u00d6lpreis f\u00e4llt \u2013 w\u00e4hrend im Iran eine nukleare Zeitbombe tickt!",
-      "summary": "Tanker unter Beschuss, \u00d6lanlagen attackiert \u2013 trotzdem f\u00e4llt der \u00d6lpreis. Jetzt sorgt ein vertraulicher Bericht \u00fcber Irans Atomprogramm f\u00fcr neuen Z\u00fcndstoff. Die darin genannten Zahlen haben es in sich.",
-      "url": "https://www.wallstreet-online.de/nachricht/21687804-440-kilo-uran-sie-oelpreis-faellt-iran-nukleare-zeitbombe-tickt",
-      "published_at": "2026-11-13T09:33:00Z",
-      "tickers": [],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "9776c999b37dcf43",
-      "source": "wso_nachrichten",
-      "title": "Hugo Boss AG: Frasers greift zur Axt; strategische Unsicherheit nimmt zu. HALTEN",
-      "summary": "Frasers Group gestaltet die F\u00fchrungsebene von HUGO BOSS in bemerkenswertem Tempo um.",
-      "url": "https://www.wallstreet-online.de/nachricht/21688464-hugo-boss-ag-frasers-greift-axt-strategische-unsicherheit-zu-halten",
-      "published_at": "2026-11-13T09:31:00Z",
-      "tickers": [],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "d256a234dca8367c",
-      "source": "wso_nachrichten",
-      "title": "TE-exklusiv: Deutschland schafft sich im Automobilbau selbst ab",
-      "summary": "Regierung und Medien bejubeln stets, wie sehr die Zulassungszahlen von Elektrofahrzeugen steigen. Die wahren Folgen f\u00fcr die deutsche Automobilindustrie verschweigen sie dabei gerne. Bestenfalls gibt es Kritik an der preiswerteren Konkurrenz aus Asien. Doch wie Goethes Zauberlehrling haben die Regierenden, egal ob Schwarz-Rot oder Rot-Gelb-Gr\u00fcn, die Geister des Untergangs einer deutschen Vorzeigeindustrie",
-      "url": "https://www.wallstreet-online.de/nachricht/21688476-te-exklusiv-deutschland-schafft-automobilbau",
-      "published_at": "2026-11-13T09:30:57Z",
-      "tickers": [
-        "INGA.AS"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "1376a1b64a7dc9a2",
-      "source": "wso_nachrichten",
-      "title": "Stratec SE: Q3: Starke Cashgenerierung st\u00fctzt h\u00f6here Bewertung. HALTEN",
-      "summary": "STRATEC hat mit den 9M-Zahlen eine verbesserte Profitabilit\u00e4t vorgelegt.",
-      "url": "https://www.wallstreet-online.de/nachricht/21688233-stratec-se-q3-starke-cashgenerierung-stuetzt-hoehere-bewertung-halten",
-      "published_at": "2026-11-13T09:30:00Z",
-      "tickers": [
-        "SSE.L"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "0940ac814f43e1d7",
-      "source": "wso_nachrichten",
-      "title": "Kaplan Fox & Kilsheimer LLP Announces a Securities Fraud Class Action Against Coastal Financial Corporation (CCB) With a Lead Plaintiff Deadline of December 1, 2026",
-      "summary": "New York, New York--(Newsfile Corp. - November 13, 2026) - Kaplan Fox & Kilsheimer LLP announces that a class action lawsuit has been filed against Coastal Financial Corporation (\"Coastal Financial\" or the \"Company\") (NASDAQ: CCB) on behalf of investors that purchased or otherwise acquired Coastal Financial common stock between October 28, 2024 and July 29, 2026 (the \"Class Period\"). CLICK",
-      "url": "https://www.wallstreet-online.de/nachricht/21688158-kaplan-fox-kilsheimer-llp-announces-a-securities-fraud-class-action-against-coastal-financial-corporation-ccb-with-a-lead-plaintiff-deadline-of-december-1-2026",
-      "published_at": "2026-11-13T09:30:00Z",
-      "tickers": [],
-      "form": "EU_NEWS",
-      "event_type": "shareholder_alert",
-      "direction": "bearish",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "d8b3ce3555462855",
-      "source": "wso_nachrichten",
-      "title": "HEUTE LIVE ab 14 Uhr: 3 Trading-Profis zeigen Futures-Strategien & gef\u00e4hrliche Trading-Fallen!",
-      "summary": "Futures-Trading, Trading-Psychologie und schwierige Marktphasen: Drei bekannte Trading-Experten, drei unterschiedliche Perspektiven und jede Menge Praxiswissen. Heute Nachmittag dreht sich beim Live-Seminar aus M\u00fcnchen alles um die Herausforderungen, vor denen aktive Trader t\u00e4glich stehen. Statt theoretischer Erfolgsversprechen erwarten Sie konkrete Handelsans\u00e4tze, praxisnahe Chartanalysen",
-      "url": "https://www.wallstreet-online.de/nachricht/21688155-live-14-uhr-3-trading-profis-zeigen-futures-strategien-gefaehrliche-trading-fallen",
-      "published_at": "2026-11-13T09:30:00Z",
-      "tickers": [
-        "INGA.AS",
-        "SSE.L"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "865dbe3731d6ed0d",
-      "source": "wso_nachrichten",
-      "title": "R\u00fccksetzer: GFT Technologies: Kursrutsch l\u00e4sst SDAX-Verlust weit hinter sich",
-      "summary": "Die Aktie von GFT Technologies bricht um 9,20 % auf 26,40 Euro ein.",
-      "url": "https://www.wallstreet-online.de/nachricht/21688152-ruecksetzer-gft-technologies-kursrutsch-laesst-sdax-verlust-weit",
-      "published_at": "2026-11-13T09:30:00Z",
-      "tickers": [],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "e2f7045da23e4f99",
-      "source": "wso_nachrichten",
-      "title": "Evonik: Jefferies stuft ab \u2013 was Anleger nicht \u00fcbersehen d\u00fcrfen",
-      "summary": "Evonik nach dem Jefferies-Downgrade: Was das Hold-Votum bedeutet, welche Rolle neue Lipide und KI spielen und worauf Anleger jetzt besonders achten sollten.",
-      "url": "https://www.wallstreet-online.de/nachricht/21688449-evonik-jefferies-stuft-anleger-uebersehen",
-      "published_at": "2026-11-13T09:26:36Z",
-      "tickers": [],
-      "form": "EU_NEWS",
-      "event_type": "analyst",
-      "direction": "bearish",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "2d107c72165d8ecf",
-      "source": "wso_nachrichten",
-      "title": "Rise Gold Corp: Bohrstart \u2013 worauf Anleger jetzt achten",
-      "summary": "Rise Gold Corp startet Bohrungen am Idaho-Maryland-Projekt. Erfahren Sie, worauf es bei Gold und Wolfram ankommt und welche Projektrisiken Anleger pr\u00fcfen sollten.",
-      "url": "https://www.wallstreet-online.de/nachricht/21688419-rise-gold-corp-bohrstart-worauf-anleger-achten",
-      "published_at": "2026-11-13T09:26:36Z",
-      "tickers": [],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "b62b04d40424e131",
-      "source": "wso_nachrichten",
-      "title": "PetMed Express: Verlustschock \u2013 kann der Umbau noch helfen?",
-      "summary": "PetMed Express rutscht tiefer in die Verlustzone, der Umsatz bricht ein. Was der Sanierungsplan bringt und welche Risiken Anleger im Blick behalten sollten.",
-      "url": "https://www.wallstreet-online.de/nachricht/21688293-petmed-express-verlustschock-umbau-helfen",
-      "published_at": "2026-11-13T09:26:36Z",
-      "tickers": [
-        "INGA.AS"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "a3f746bc6ae6b4bb",
-      "source": "wso_nachrichten",
-      "title": "SEA LTD ADR: Milliardenr\u00fcckkauf \u2013 warum der Kurs f\u00e4llt",
-      "summary": "SEA LTD ADR steigert den Quartalsgewinn und plant weitere Aktienr\u00fcckk\u00e4ufe. Was KI-Kosten und Wettbewerb f\u00fcr Anleger bedeuten und worauf es jetzt ankommt.",
-      "url": "https://www.wallstreet-online.de/nachricht/21688248-sea-ltd-adr-milliardenrueckkauf-kurs-faellt",
-      "published_at": "2026-11-13T09:26:36Z",
-      "tickers": [],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "ffd3926328da0317",
-      "source": "wso_nachrichten",
-      "title": "CANCOM senkt Prognose: Was Anleger jetzt pr\u00fcfen sollten",
-      "summary": "CANCOM senkt die Umsatzprognose, doch das EBITDA steigt und Jefferies bleibt bei Buy. Erfahren Sie, worauf Anleger nach den Quartalszahlen jetzt achten sollten.",
-      "url": "https://www.wallstreet-online.de/nachricht/21688182-cancom-prognose-anleger-pruefen",
-      "published_at": "2026-11-13T09:26:36Z",
-      "tickers": [],
-      "form": "EU_NEWS",
-      "event_type": "earnings",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "earnings_nosurprise",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "8661bc84835f1c4d",
-      "source": "wso_nachrichten",
-      "title": "Coca-Cola: Was Anleger zum Putin-Bericht wissen sollten",
-      "summary": "Coca-Cola steht am 52-Wochen-Hoch, zugleich sorgt ein Putin-Bericht f\u00fcr Fragen. Lesen Sie, welche Chancen und Risiken Anleger jetzt im Blick behalten sollten.",
-      "url": "https://www.wallstreet-online.de/nachricht/21688455-coca-cola-anleger-putin-bericht-wissen",
-      "published_at": "2026-11-13T09:26:35Z",
-      "tickers": [
-        "SSE.L"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "3fb452a9aeb3cfa9",
-      "source": "wso_nachrichten",
-      "title": "AST SpaceMobile: Was der eigene Raketenplan bedeutet",
-      "summary": "AST SpaceMobile setzt auf eigene Raketen. Doch der Geldverbrauch bleibt im Fokus. Lesen Sie, welche Chancen und Risiken Anleger jetzt im Blick behalten sollten.",
-      "url": "https://www.wallstreet-online.de/nachricht/21688431-ast-spacemobile-eigene-raketenplan-bedeutet",
-      "published_at": "2026-11-13T09:26:35Z",
-      "tickers": [],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "45dffdd28b351a71",
-      "source": "wso_nachrichten",
-      "title": "Vistra: Kursziel gesenkt \u2013 was Anleger jetzt pr\u00fcfen sollten",
-      "summary": "Vistra im Fokus: Scotiabank senkt das Kursziel wegen Texas-Risiken. Erfahren Sie, was Cashflow-Pl\u00e4ne und die Stromnachfrage f\u00fcr Anleger jetzt bedeuten.",
-      "url": "https://www.wallstreet-online.de/nachricht/21688425-vistra-kursziel-gesenkt-anleger-pruefen",
-      "published_at": "2026-11-13T09:26:35Z",
-      "tickers": [],
-      "form": "EU_NEWS",
-      "event_type": "analyst",
-      "direction": "bearish",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "06315c4c279c3ac4",
-      "source": "wso_nachrichten",
-      "title": "Fair Isaac: RBC stuft ab \u2013 worauf Anleger jetzt achten",
-      "summary": "Fair Isaac: Analysten senken Kursziele, RBC stuft die Aktie ab. Was Hypothekenrisiken und die neue Preisstrategie f\u00fcr Anleger bedeuten, lesen Sie hier.",
-      "url": "https://www.wallstreet-online.de/nachricht/21688404-fair-isaac-rbc-stuft-worauf-anleger-achten",
-      "published_at": "2026-11-13T09:26:35Z",
-      "tickers": [],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "75768d28a2225e8f",
-      "source": "wso_nachrichten",
-      "title": "POET Technologies: Was der CFO-Wechsel jetzt bedeutet",
-      "summary": "POET Technologies tauscht den Finanzchef aus. Nach dem Kurssturz ordne ich die Nachrichten ein und zeige, worauf Anleger bei der Aktie jetzt achten sollten.",
-      "url": "https://www.wallstreet-online.de/nachricht/21688371-poet-technologies-cfo-wechsel-bedeutet",
-      "published_at": "2026-11-13T09:26:35Z",
-      "tickers": [],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "cd3f18641971798a",
-      "source": "wso_nachrichten",
-      "title": "Lynas Rare Earths: Monatsstopp \u2013 reichen die Vorr\u00e4te?",
-      "summary": "Lynas Rare Earths plant einen Monat Wartung in Malaysia. Erfahren Sie, wie Lagerbest\u00e4nde Auftr\u00e4ge sichern sollen und was Anleger bei der Produktion beachten.",
-      "url": "https://www.wallstreet-online.de/nachricht/21688362-lynas-rare-earths-monatsstopp-reichen-vorraete",
-      "published_at": "2026-11-13T09:26:35Z",
-      "tickers": [],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "7f3918de522ba114",
-      "source": "wso_nachrichten",
-      "title": "Novavax: Prognose erh\u00f6ht \u2013 was Anleger jetzt pr\u00fcfen sollten",
-      "summary": "Novavax \u00fcbertrifft die Quartalserwartungen und hebt die Prognose an. Was Umsatzrahmen und Liquidit\u00e4tsziel f\u00fcr Anleger bedeuten, zeigt Ihnen jetzt unsere Analyse.",
-      "url": "https://www.wallstreet-online.de/nachricht/21688359-novavax-prognose-erhoeht-anleger-pruefen",
-      "published_at": "2026-11-13T09:26:35Z",
-      "tickers": [],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "5b300a7e3a0fd889",
-      "source": "wso_nachrichten",
-      "title": "RWE: M\u00f6glicher Milliarden-Deal \u2013 was jetzt wichtig wird",
-      "summary": "RWE k\u00f6nnte mit Eon seine Urenco-Anteile an den Bund verkaufen. Was hinter dem m\u00f6glichen Milliarden-Deal steckt und welche Risiken Anleger abw\u00e4gen sollten.",
-      "url": "https://www.wallstreet-online.de/nachricht/21688344-rwe-milliarden-deal",
-      "published_at": "2026-11-13T09:26:35Z",
-      "tickers": [
-        "RWE.DE",
-        "EOAN.DE"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "995544e86e1ceeb5",
-      "source": "wso_nachrichten",
-      "title": "Take-Two Interactive: Was vor GTA VI auf dem Spiel steht",
-      "summary": "Take-Two Interactive steht vor dem GTA-VI-H\u00e4rtetest. Was JPMorgans Top-Pick und die hohe Bewertung f\u00fcr Anleger bedeuten \u2013 und worauf es jetzt wirklich ankommt.",
-      "url": "https://www.wallstreet-online.de/nachricht/21688332-take-two-interactive-gta-vi-spiel",
-      "published_at": "2026-11-13T09:26:35Z",
-      "tickers": [],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "046f9771b819ed1b",
-      "source": "wso_nachrichten",
-      "title": "Waste Management: UBS hebt Ziel an \u2013 was jetzt z\u00e4hlt",
-      "summary": "Waste Management: UBS hebt das Kursziel an, Stifel lobt die Preissetzungsmacht. Erfahren Sie, was Umsatzchancen und Margendruck f\u00fcr Anleger jetzt bedeuten.",
-      "url": "https://www.wallstreet-online.de/nachricht/21688329-waste-management-ubs-hebt-ziel-zaehlt",
-      "published_at": "2026-11-13T09:26:35Z",
-      "tickers": [
-        "UBSG.SW",
-        "SSE.L"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "analyst",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "5b4b6257aeb6683f",
-      "source": "wso_nachrichten",
-      "title": "ELECTRICITE DE FRANCE: Was der Renault-Plan jetzt bedeutet",
-      "summary": "ELECTRICITE DE FRANCE plant mit Renault ein Ladeangebot f\u00fcr 2027. Erfahren Sie, was hinter Vehicle-to-Grid steckt und welche Chancen das Vorhaben bietet.",
-      "url": "https://www.wallstreet-online.de/nachricht/21688323-electricite-de-france-renault-plan-bedeutet",
-      "published_at": "2026-11-13T09:26:35Z",
-      "tickers": [
-        "RNO.PA"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "71e04dce6411bec9",
-      "source": "wso_nachrichten",
-      "title": "Rheinmetall: Milliardenplan wackelt \u2013 worauf es jetzt ankommt",
-      "summary": "Rheinmetall steht nach dem Kursrutsch im Fokus: Was das neutrale Bernstein-Urteil und Zweifel am Milliardenplan f\u00fcr Anleger bedeuten. Jetzt die Lage einordnen.",
-      "url": "https://www.wallstreet-online.de/nachricht/21688320-rheinmetall-milliardenplan-wackelt-worauf-ankommt",
-      "published_at": "2026-11-13T09:26:35Z",
-      "tickers": [],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "0bedc4a9634d4d78",
-      "source": "wso_nachrichten",
-      "title": "Palo Alto Networks: Was hinter dem KeyBanc-Upgrade steckt",
-      "summary": "Palo Alto Networks: KeyBanc stuft die Aktie hoch, Stifel bleibt vor den Zahlen bei Kauf. Erfahren Sie, welche Chancen und Kostenrisiken Anleger jetzt abw\u00e4gen.",
-      "url": "https://www.wallstreet-online.de/nachricht/21688314-palo-alto-networks-keybanc-upgrade-steckt",
-      "published_at": "2026-11-13T09:26:35Z",
-      "tickers": [],
-      "form": "EU_NEWS",
-      "event_type": "analyst",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "a7b6c42cbcefe8be",
-      "source": "wso_nachrichten",
-      "title": "Medios: Hilfstaxe kostet Millionen \u2013 was jetzt z\u00e4hlt",
-      "summary": "Medios steht zwischen Kaufempfehlungen und Margendruck. Erfahren Sie, was die Hilfstaxe f\u00fcr das Gesch\u00e4ft bedeutet und worauf Anleger jetzt achten sollten.",
-      "url": "https://www.wallstreet-online.de/nachricht/21688299-medios-hilfstaxe-kostet-millionen-zaehlt",
-      "published_at": "2026-11-13T09:26:35Z",
-      "tickers": [],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "76663be35091429b",
-      "source": "wso_nachrichten",
-      "title": "Biofrontera AG: Was Anleger beim Australien-Deal pr\u00fcfen m\u00fcssen",
-      "summary": "Biofrontera AG f\u00e4llt trotz Ameluz-Deal f\u00fcr Australien. Ich ordne die Nachricht ein und zeige, welche Chancen und Risiken Anleger jetzt beachten sollten.",
-      "url": "https://www.wallstreet-online.de/nachricht/21688245-biofrontera-ag-anleger-australien-deal-pruefen",
-      "published_at": "2026-11-13T09:26:35Z",
-      "tickers": [
-        "SSE.L"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:52Z",
-      "region": "EU"
-    },
-    {
-      "id": "f05c26fc9f9d8b47",
-      "source": "yahoo_eu",
-      "title": "Investitionsstopp von Mercedes-Benz: Landeswirtschaftsministerin besorgt",
-      "summary": "Nach dem angek\u00fcndigten Investitionsstopp des Autobauers Mercedes-Benz in Deutschland hat die baden-w\u00fcrttembergische Wirtschaftsministerin Nicole Hoffmeister-Kraut (CDU) sich besorgt \u00fcber die wirtschaftlichen Auswirkungen in ihrem Bundesland gezeigt.Die CDU-Politikerin warnte davor, dass sich potenzielle Werksschlie\u00dfungen und Investitionsstopps auf die gesamte Industrieregion in Baden-W\u00fcrttemberg auswirken k\u00f6nnten.",
-      "url": "https://de.finance.yahoo.com/nachrichten/investitionsstopp-mercedes-benz-landeswirtschaftsministerin-besorgt-092309682.html?.tsrc=rss",
-      "published_at": "2026-11-13T09:23:09Z",
-      "tickers": [
-        "MBG.DE"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-17T17:34:35Z",
-      "region": "EU"
-    },
-    {
-      "id": "d2a458fc6aebf105",
-      "source": "yahoo_eu",
-      "title": "ROUNDUP/Aktien Frankfurt Er\u00f6ffnung: Zur\u00fcckhaltung nach Rekordhoch beim Dax",
-      "summary": "Nach seinem j\u00fcngsten H\u00f6henflug hat der deutsche Aktienmarkt am Freitag eine Atempause eingelegt. Der Dax notierte am Vormittag 0,3 Prozent tiefer bei 26.706 Punkten. Am Vortag war der Leitindex erstmals \u00fcber die runde Marke von 27.000 Punkten geklettert, letztlich aber darunter geblieben. Auf Wochensicht zeichnet sich f\u00fcr den Dax ein Plus von rund dreieinhalb Prozent ab.",
-      "url": "https://de.finance.yahoo.com/nachrichten/roundup-aktien-frankfurt-er%C3%B6ffnung-zur%C3%BCckhaltung-090325944.html?.tsrc=rss",
-      "published_at": "2026-11-13T09:03:25Z",
-      "tickers": [
-        "WIE.VI",
-        "INGA.AS"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:58Z",
-      "region": "EU"
-    },
-    {
-      "id": "fa3e77d4cea7ec18",
-      "source": "yahoo_eu",
-      "title": "AKTIE IM FOKUS 2: CTS Eventim legt doch noch zu - Kapitalmarkttag im Blick",
-      "summary": "(neu: Kurse, Analysten)",
-      "url": "https://de.finance.yahoo.com/nachrichten/aktie-fokus-2-cts-eventim-084816843.html?.tsrc=rss",
-      "published_at": "2026-11-13T08:48:16Z",
-      "tickers": [
-        "WIE.VI"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:58Z",
-      "region": "EU"
-    },
-    {
-      "id": "3952e1656848ddd2",
-      "source": "yahoo_eu",
-      "title": "Arbeitnehmer kritisieren Standort-Debatte bei Mercedes",
-      "summary": "Die IG Metall und der Gesamtbetriebsrat haben den erneuten Vorsto\u00df von Mercedes-Benz zur Wettbewerbsf\u00e4higkeit in Deutschland kritisiert. Der Autobauer hatte am Donnerstag angek\u00fcndigt, alle weiteren Investitionen in die deutschen Standorte zu stoppen und konkret und detailliert zu pr\u00fcfen, welche Standorte man sich in Deutschland noch leisten k\u00f6nne. M\u00f6gliche Werksschlie\u00dfungen r\u00fccken damit n\u00e4her.",
-      "url": "https://de.finance.yahoo.com/nachrichten/arbeitnehmer-kritisieren-standort-debatte-mercedes-083023319.html?.tsrc=rss",
-      "published_at": "2026-11-13T08:30:23Z",
-      "tickers": [
-        "MBG.DE",
-        "BATS.L"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-17T17:34:35Z",
-      "region": "EU"
-    },
-    {
-      "id": "e6248560bb2095b5",
-      "source": "yahoo_eu",
-      "title": "AKTIE IM FOKUS: CTS Eventim rutschen ab nach Quartalszahlen - Schwaches Jahr",
-      "summary": "Auf ein schwaches Veranstaltergesch\u00e4ft d\u00fcrften die Aktien von CTS Eventim am Freitag mit deutlichen Abschl\u00e4gen reagieren. Auf Tradegate rutschte der Kurs im vorb\u00f6rslichen Handel um 6 Prozent ab im Vergleich zum Xetra-Schluss. Das Unternehmen hatte im dritten Quartal wegen Problemen im Veranstaltungsgesch\u00e4ft weniger umgesetzt und verdient.",
-      "url": "https://de.finance.yahoo.com/nachrichten/aktie-fokus-cts-eventim-rutschen-072055401.html?.tsrc=rss",
-      "published_at": "2026-11-13T07:20:55Z",
-      "tickers": [
-        "WIE.VI",
-        "ENI.MI"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "earnings",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "earnings_nosurprise",
-      "scanned_at": "2026-11-13T09:36:58Z",
-      "region": "EU"
-    },
-    {
-      "id": "282f2280ea79f462",
-      "source": "yahoo_eu",
-      "title": "Aktien Frankfurt Ausblick: Leichte Verluste nach Rekorden erwartet",
-      "summary": "Der deutsche Aktienmarkt d\u00fcrfte am Freitag seinen Rekordlauf zun\u00e4chst verdauen. Knapp eine Stunde vor Handelsbeginn signalisierte der X-Dax f\u00fcr den Dax einen R\u00fcckgang um 0,3 Prozent auf 26.692 Punkte. Am Vortag war der Leitindex erstmals \u00fcber die runde Marke von 27.000 Punkten geklettert, letztlich aber darunter geblieben. Auf Wochensicht zeichnet sich f\u00fcr den Dax ein Plus von rund dreieinhalb Prozent ab.",
-      "url": "https://de.finance.yahoo.com/nachrichten/aktien-frankfurt-ausblick-leichte-verluste-071854602.html?.tsrc=rss",
-      "published_at": "2026-11-13T07:18:54Z",
-      "tickers": [
-        "WIE.VI"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "earnings",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "earnings_nosurprise",
-      "scanned_at": "2026-11-13T09:36:58Z",
-      "region": "EU"
-    },
-    {
-      "id": "3c253961050a4cf4",
-      "source": "eqs_google",
-      "title": "Kanton Glarus verabschiedet die neue Eignerstrategie der Glarner Kantonalbank | Ad-hoc - EQS News",
-      "summary": "Kanton Glarus verabschiedet die neue Eignerstrategie der Glarner Kantonalbank | Ad-hoc &nbsp;&nbsp; EQS News",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQdHFDMWpaSjM4LWFtQkR1S1gxZlR1cjM3U0s0bHFBVEFmck1UWjhLTE9ISnhKVmNWNDlsT2xGQldKMEJIbVpGeTl0b0dhWk05ZUhDZlJMZW5tSTNKdzN2ckp2NFRnWktSX285dFNQOGs3Mmg3Ti1XVzhFdlJ4ZWEzck9Xc0JCd2dIc0ktcF95X2NlWHRieUZGR0FLTElYTXBnbmVHZWJlUWVGd2ppcm9fczFMZEV1Y2VXZlJrbEgzY3RyNHdmajdJTnpYUXdGaEg5cm9pT3FzNXJkUmVEcmpXdUcxRVZVcFdYdHc?oc=5",
-      "published_at": "2026-11-13T06:20:00Z",
-      "tickers": [],
-      "form": "EU_ADHOC",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T17:39:37Z",
-      "region": "EU"
-    },
-    {
-      "id": "b9abb701fab09717",
-      "source": "eqs_google",
-      "title": "Ad hoc Matador Secondary Private Equity AG Q3 2026 Portfolio Update: Rekordaussch\u00fcttungen im dritten Quartal 2026 und 9-Monats-Bilanz \u00fcbertrifft Vorjahr | Ad-hoc - EQS News",
-      "summary": "Ad hoc Matador Secondary Private Equity AG Q3 2026 Portfolio Update: Rekordaussch\u00fcttungen im dritten Quartal 2026 und 9-Monats-Bilanz \u00fcbertrifft Vorjahr | Ad-hoc &nbsp;&nbsp; EQS News",
-      "url": "https://news.google.com/rss/articles/CBMi-gJBVV95cUxOX0prS1VTNUhmOGtUV05wZWlkMG5EU3p1a2VJR1lSakgyclRyeXV1S1B2RlgzR2tWOUZRdWhpd1FveW8tRlRFS1hPOUI5dHJxa09maU5RNENLWWhoeExfRnJPbXlzWk5JbVNXcVpCbUtRQzc4WXkzVVQ3WllPUFFYOEhqX2VGc3JDbGwtSHVLVVgxUTVGOEFMc2ptX2NadWowVUVLdUtsZjRvN0xHdG5yRW92bTJGSXFnZmRIaEtXaWpISy0tblhJSmlsSDI3LTdHbXUzMTQwaWZ2SElTM21qX0xZY2tnX21ySERsUjhVVGdMTmJJQl95SXZVaDhHMWZ5b0Q3QTZpaS0tcjMtaVdWa0RKd0VkUEJUYnlULW8zSksyVDVJN2dlYTIyaGprd2poc2NTNzZFNU94Z1lwMng5MTdMNzJpSkFjeHE3RkprUmR6cllWZTBjOEtNNDIzN1RzelFpWWEyQ3NlZ1pjYkVzd0hsNUdzekJqaEE?oc=5",
-      "published_at": "2026-11-13T06:00:00Z",
-      "tickers": [],
-      "form": "EU_ADHOC",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T17:39:37Z",
-      "region": "EU"
-    },
-    {
-      "id": "a1a8ee0f5e388fd9",
-      "source": "yahoo_eu",
-      "title": "Dax-Konzerne steigern Gewinne trotz Autokrise",
-      "summary": "Deutschlands B\u00f6rsenschwergewichte haben das dritte Quartal trotz der Schw\u00e4che der Autoindustrie in Summe mit einem Gewinnplus abgeschlossen. Vor Zinsen und Steuern (EBIT) verdienten die 40 Konzerne im Deutschen Aktienindex (Dax ) in Summe rund 37,7 Milliarden Euro, wie das Beratungsunternehmen EY errechnet hat. Das waren 4,6 Prozent oder rund 1,7 Milliarden Euro mehr als ein Jahr zuvor.",
-      "url": "https://de.finance.yahoo.com/nachrichten/dax-konzerne-steigern-gewinne-trotz-052622363.html?.tsrc=rss",
-      "published_at": "2026-11-13T05:26:22Z",
-      "tickers": [
-        "VOW3.DE",
-        "ENI.MI",
-        "SSE.L"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-18T17:11:31Z",
-      "region": "EU"
-    },
-    {
-      "id": "99d9a51b7c9f7d0c",
-      "source": "yahoo_eu",
-      "title": "Bahn verk\u00fcrzt Reisezeit zwischen Berlin und Wolfsburg",
-      "summary": "Die Deutsche Bahn reagiert auf Proteste und minimiert w\u00e4hrend der Korridorsanierung zwischen Berlin und Hannover die Auswirkungen f\u00fcr die Fahrg\u00e4ste. \"Insbesondere f\u00fcr die Wolfsburg-Pendler schaffen wir zum Fahrplanwechsel eine Verbesserung\", sagte Bahnchefin Evelyn Palla dem \"Tagesspiegel\": \"Wir haben den Umstieg in Braunschweig optimiert. Dadurch verk\u00fcrzen wir die Fahrzeit in Richtung Osten nach Berlin um eine halbe Stunde.\"",
-      "url": "https://de.finance.yahoo.com/nachrichten/bahn-verk%C3%BCrzt-reisezeit-zwischen-berlin-052154330.html?.tsrc=rss",
-      "published_at": "2026-11-13T05:21:54Z",
-      "tickers": [
-        "VOW3.DE",
-        "SSE.L"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-17T17:34:34Z",
-      "region": "EU"
-    },
-    {
-      "id": "b3ee31e17b00faf7",
-      "source": "yahoo_eu",
-      "title": "Autobauer Mercedes stoppt alle neuen Investitionen in deutsche Standorte",
-      "summary": "Der Autobauer Mercedes-Benz stoppt mit Blick auf hohe Kosten und die stockenden Verhandlungen mit der Arbeitnehmerseite alle neuen Investitionen in Deutschland.Ihre Kollegen und sie erwarteten, dass jetzt \"alle Beteiligten ihrer Verantwortung f\u00fcr Mercedes-Benz gerecht werden\", fuhr sie fort.",
-      "url": "https://de.finance.yahoo.com/nachrichten/autobauer-mercedes-stoppt-alle-neuen-175002949.html?.tsrc=rss",
-      "published_at": "2026-11-12T21:20:22Z",
-      "tickers": [
-        "MBG.DE"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-17T17:34:35Z",
-      "region": "EU"
-    },
-    {
-      "id": "d03964bfb8451829",
-      "source": "yahoo_eu",
-      "title": "Werden Werke schlie\u00dfen? Mercedes will nicht mehr in Deutschland investieren",
-      "summary": "Der Stuttgarter Autobauer stoppt vorerst s\u00e4mtliche weiteren Investitionen an seinen deutschen Standorten. Gleichzeitig r\u00fccken m\u00f6gliche Werksschlie\u00dfungen n\u00e4her \u2013 und der Druck auf Besch\u00e4ftigte, Betriebsrat und IG Metall w\u00e4chst. Auch Volkswagen und Audi haben umfangreiche Sparprogramme abgek\u00fcndigt.View on euronews",
-      "url": "https://de.euronews.com/2026/11/12/werden-werke-schliessen-mercedes-will-nicht-mehr-in-deutschland-investieren?.tsrc=rss",
-      "published_at": "2026-11-12T19:20:21Z",
-      "tickers": [
-        "VOW3.DE",
-        "MBG.DE",
-        "SSE.L"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-17T17:34:35Z",
-      "region": "EU"
-    },
-    {
-      "id": "500a882d30988b74",
-      "source": "yahoo_eu",
-      "title": "ANALYSE-FLASH: Jefferies bel\u00e4sst CTS Eventim auf 'Buy' - Ziel 100 Euro",
-      "summary": "Das Analysehaus Jefferies hat die Einstufung f\u00fcr CTS Eventim nach Zahlen zum dritten Quartal auf \"Buy\" mit einem Kursziel von 100 Euro belassen. Der Umsatz des Ticketvermarkters und Event-Veranstalters sei schw\u00e4cher als erwartet, schrieb Henrik Paganetty in einer ersten Einsch\u00e4tzung am Donnerstag. Das bereinigte operative Ergebnis (Ebitda) decke sich mit der Konsenssch\u00e4tzung./rob/bek/he",
-      "url": "https://de.finance.yahoo.com/nachrichten/analyse-flash-jefferies-bel%C3%A4sst-cts-192002864.html?.tsrc=rss",
-      "published_at": "2026-11-12T19:20:02Z",
-      "tickers": [
-        "WIE.VI",
-        "SSE.L"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "analyst",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "analyst",
-      "scanned_at": "2026-11-13T09:36:58Z",
-      "region": "EU"
-    },
-    {
-      "id": "1d409b83c1b037fe",
-      "source": "yahoo_eu",
-      "title": "Medienbericht: Mercedes stoppt alle Investitionen in Deutschland \u2013 Werksschlie\u00dfungen sollen wahrscheinlicher werden",
-      "summary": "Mercedes-Benz stoppt laut einem Medienbericht vorerst alle Investitionen in die deutschen Standorte. Das steckt dahinter.",
-      "url": "https://www.businessinsider.de/wirtschaft/mercedes-stoppt-alle-investitionen-in-deutschland-werksschliessungen-werden-wahrscheinlicher/?.tsrc=rss",
-      "published_at": "2026-11-12T18:06:17Z",
-      "tickers": [
-        "MBG.DE"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-13T09:36:56Z",
-      "region": "EU"
-    },
-    {
-      "id": "d9bc24e094870311",
-      "source": "eqs_google",
-      "title": "Intel Aktie: BofA kappt Kursziel auf 80 Dollar - B\u00f6rse Express",
-      "summary": "Intel Aktie: BofA kappt Kursziel auf 80 Dollar &nbsp;&nbsp; B\u00f6rse Express",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVk80aXAxdF9MU3dwQWZVUFRQRkNUVDdiY1JoUkFBLTNwdzFaUk04bGJsVmpOekRXazQyWUNRSDhYQ0xTcER5WEhGa0Q5SjBvdUlJTHB1RW04S09UckVReWNvbk11WHBBVmVERnpvd3NDYjRIWGNtQnlQWUVXbFhnM0ppTHVsZXhSaVhEM1c3bWJ3M2xZSFlWcE9RUURlQQ?oc=5",
-      "published_at": "2026-11-12T17:41:08Z",
-      "tickers": [],
-      "form": "EU_NEWS",
-      "event_type": "analyst",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "analyst",
-      "scanned_at": "2026-11-13T17:39:39Z",
-      "region": "EU"
-    },
-    {
-      "id": "940ec941d02b61f4",
-      "source": "eqs_google",
-      "title": "HUGO BOSS AG: Daniel Grieder legt Amt als CEO zum 31. Dezember 2026 nieder - David Epstein ab 1. Januar 2027 zum CEO der HUGO BOSS AG bestellt | Ad-hoc - EQS News",
-      "summary": "HUGO BOSS AG: Daniel Grieder legt Amt als CEO zum 31. Dezember 2026 nieder - David Epstein ab 1. Januar 2027 zum CEO der HUGO BOSS AG bestellt | Ad-hoc &nbsp;&nbsp; EQS News",
-      "url": "https://news.google.com/rss/articles/CBMi5AJBVV95cUxNV2MxR1RqTkZDNVYwSlRWTmJFZThZcFFaLUl1bXVSY2ttWmpqWWxLT2NTRWtzaGFHNll3U0VjZTRmMmNuNVk2eXY3N0NZZkpjMUxjWTFTUm8ybjNYOFcwSG9tZm55QVlEaEh1eVE1REoxZUdHTzNfdDg5R1pDX3dhYnc4WG8zU3NiNmFhRnhCcDVQTWNkcFhOTWxnZ0lWTWYyV1BhM0dWUkFBZThGQk1qdDRhWmx2VjFMemdlc2I1LTU0UVdJYXkxNkxzMmhiU05ja0NNenk5Rloxb3FPSnl3ZHNaTmZULUVCX1FUSmF5V0xNTGd1Z1o1QzFDTjNtb2hMSFAwUTAzVjFYUmFyaWZCYVVIRnNXZVVhclUtOE1DNGRsYVpIc3pza25ZV2d4WHA3WVc1YV85Tk5RQm42VmJzeEt4X1ZEa2ZSQ0h2bThUOURQaWNQSDJGNm1fM2Y0TF91TFVpTg?oc=5",
-      "published_at": "2026-11-12T17:14:00Z",
-      "tickers": [],
-      "form": "EU_ADHOC",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": true,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-18T17:11:24Z",
-      "region": "EU"
     }
   ],
   "region": "EU",
-  "as_of": "2026-11-20T16:55:36Z",
+  "as_of": "2026-11-23T20:05:58Z",
   "n_items": 400,
   "sources": [
     "eqs_google",
