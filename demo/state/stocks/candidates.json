@@ -11,8 +11,8 @@
   },
   "calendar_error": "",
   "n_calendar": 82,
-  "n_candidates": 95,
-  "n_tagged": 15,
+  "n_candidates": 96,
+  "n_tagged": 16,
   "errors": [],
   "rules": {
     "agent": "Discretionary agentic book. Cursor agent decides via stocks.decide from shared candidates. Baseline \u2014 not auto-traded by the engine.",
@@ -359,7 +359,7 @@
       "suggested_side": "long",
       "suggested_hold": 2,
       "spy_above_ma50": null,
-      "scanned_at": "2026-11-22T22:52:09Z"
+      "scanned_at": "2026-11-23T03:41:23Z"
     },
     {
       "ticker": "NSSF",
@@ -389,7 +389,7 @@
       "suggested_side": null,
       "suggested_hold": null,
       "spy_above_ma50": null,
-      "scanned_at": "2026-11-22T22:52:09Z"
+      "scanned_at": "2026-11-23T03:41:23Z"
     },
     {
       "ticker": "EG",
@@ -419,7 +419,7 @@
       "suggested_side": null,
       "suggested_hold": null,
       "spy_above_ma50": null,
-      "scanned_at": "2026-11-22T22:52:09Z"
+      "scanned_at": "2026-11-23T03:41:23Z"
     },
     {
       "ticker": "BABA",
@@ -449,7 +449,7 @@
       "suggested_side": null,
       "suggested_hold": null,
       "spy_above_ma50": null,
-      "scanned_at": "2026-11-22T22:52:09Z"
+      "scanned_at": "2026-11-23T03:41:23Z"
     },
     {
       "ticker": "ST",
@@ -479,7 +479,37 @@
       "suggested_side": null,
       "suggested_hold": null,
       "spy_above_ma50": null,
-      "scanned_at": "2026-11-22T22:52:09Z"
+      "scanned_at": "2026-11-23T03:41:23Z"
+    },
+    {
+      "ticker": "ZEPP",
+      "name": "ZEPP",
+      "source": "news",
+      "cal_date": "2026-11-23",
+      "report_date": "2026-11-23",
+      "timing": "news",
+      "surprise_pct": null,
+      "gap_pct": null,
+      "guidance": "none",
+      "headline": "Zepp Health Corporation Reports Third Quarter of 2026 Unaudited Financial Results",
+      "excerpt": "MILPITAS, Calif., Nov. 22, 2026 /PRNewswire/ -- Zepp Health Corporation (NYSE: ZEPP) (\"Zepp\", the \"Company\" or \"we\") today announced its unaudited financial results for the third quarter of 2026. Third Quarter of 2026 Financial and Operating Highlights: Revenue reached US$68.3 million,...",
+      "filing_url": "",
+      "exhibit_url": "https://www.prnewswire.com/news-releases/zepp-health-corporation-reports-third-quarter-of-2026-unaudited-financial-results-302947666.html",
+      "news_id": "dc1ad7758c43b24b",
+      "news_source": "prnewswire",
+      "news_event_type": "earnings",
+      "news_direction": "neutral",
+      "news_side": null,
+      "news_actionable": false,
+      "news_published_at": "2026-11-23T01:00:00Z",
+      "rule_tags": [
+        "news_event",
+        "earnings"
+      ],
+      "suggested_side": null,
+      "suggested_hold": null,
+      "spy_above_ma50": null,
+      "scanned_at": "2026-11-23T03:41:23Z"
     },
     {
       "ticker": "NTIC",
@@ -2642,5 +2672,5 @@
       "suggested_hold": null
     }
   ],
-  "news_merged_at": "2026-11-22T22:52:09Z"
+  "news_merged_at": "2026-11-23T03:41:23Z"
 }
