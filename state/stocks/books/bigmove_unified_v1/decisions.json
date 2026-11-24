@@ -223,7 +223,23 @@
       "agent": "rule:bigmove_unified_v1",
       "prefer_open": false,
       "decided_at": "2026-11-21T03:55:51Z",
-      "status": "pending"
+      "status": "filled",
+      "fill": {
+        "time": "2026-11-24T00:41:12Z",
+        "ticker": "HSBC",
+        "side": "sell_short",
+        "price_usd": 83.31,
+        "shares": 0.65225,
+        "notional_eur": 49.81,
+        "cost_eur": 0.4981,
+        "cost_pct": 0.01,
+        "session": "after",
+        "quote_fx": 1.090869426727295,
+        "reason": "[bigmove_unified_v1/mna_gapdown_short] event=mna surprise=None gap=-4.006 guidance=None headline=HSBC HOLDINGS PLC ANNOUNCES RESULTS OF ITS TENDER OFFER FOR ONE SERIES OF SECURI \u2192 short 5d",
+        "note": "filled at extended-hours quote (after)",
+        "decision_id": "bigmove_unified_v1-HSBC-2026-11-21T03:55:51Z-95302b",
+        "book_id": "bigmove_unified_v1"
+      }
     }
   ],
   "updated_at": "2026-11-21T03:55:51Z"

@@ -11,7 +11,7 @@
   "start_capital_eur": 1000.0,
   "eur_usd_start": 1.1222084760665894,
   "cash_eur": 1172.0280494759602,
-  "equity_eur": 1078.0,
+  "equity_eur": 1078.51,
   "positions": {
     "GRSD": {
       "ticker": "GRSD",
@@ -45,9 +45,9 @@
       ],
       "decision_id": "miss_short-GRSD-2026-11-20T20:58:39Z-2c9594",
       "book_id": "miss_short",
-      "mark_usd": 0.4176,
-      "mark_eur": 0.3807,
-      "unrealized_pnl_pct": 34.0996
+      "mark_usd": 0.39309999346733093,
+      "mark_eur": 0.3583,
+      "unrealized_pnl_pct": 42.4574
     },
     "NTES": {
       "ticker": "NTES",
@@ -81,9 +81,9 @@
       ],
       "decision_id": "miss_short-NTES-2026-11-20T20:58:39Z-08c116",
       "book_id": "miss_short",
-      "mark_usd": 99.85,
-      "mark_eur": 91.0233,
-      "unrealized_pnl_pct": -0.6009
+      "mark_usd": 103.19999694824219,
+      "mark_eur": 94.0771,
+      "unrealized_pnl_pct": -3.8275
     }
   },
   "pending": [],
@@ -514,6 +514,13 @@
       "spy_eur": 976.39,
       "cash_eur": 1172.03,
       "n_open": 2
+    },
+    {
+      "day": "2026-11-23",
+      "equity_eur": 1078.51,
+      "spy_eur": 985.18,
+      "cash_eur": 1172.03,
+      "n_open": 2
     }
   ],
   "spy_history": [
@@ -564,6 +571,18 @@
       "spy_eur": 976.39,
       "spy_usd": 715.87,
       "eur_usd": 1.0972
+    },
+    {
+      "day": "2026-11-20",
+      "spy_eur": 941.04,
+      "spy_usd": 689.81,
+      "eur_usd": 1.09697
+    },
+    {
+      "day": "2026-11-23",
+      "spy_eur": 985.18,
+      "spy_usd": 722.29,
+      "eur_usd": 1.09715
     }
   ],
   "cost_pct": 0.005,
@@ -573,7 +592,7 @@
   "default_hold_days": 2,
   "stop_loss": 0.08,
   "max_open": 4,
-  "last_run": "2026-11-21T02:21:00Z",
-  "last_reason": "engine[miss_short]: auto=0 ingested=0 fills=0 closed=0 open=2 session=closed",
-  "eur_usd": 1.0969723463058472
+  "last_run": "2026-11-24T00:42:12Z",
+  "last_reason": "engine[miss_short]: auto=0 ingested=0 fills=0 closed=0 open=2 session=after",
+  "eur_usd": 1.0909883975982666
 }
