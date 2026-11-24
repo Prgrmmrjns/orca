@@ -1,9 +1,9 @@
 {
   "mode": "paper",
-  "as_of": "2026-11-24T11:10:02Z",
+  "as_of": "2026-11-24T19:28:54Z",
   "as_of_et": "2026-11-24 06:10 ET",
   "rolling_hours": 72,
-  "n_items": 359,
+  "n_items": 400,
   "n_actionable": 42,
   "n_with_ticker": 120,
   "sources": [
@@ -13,11 +13,836 @@
     "cnbc_finance",
     "marketwatch",
     "marketwatch_realtime",
-    "edgar_8k"
+    "edgar_8k",
+    "eqs_google",
+    "wso_nachrichten",
+    "finanzen_net",
+    "yahoo_eu"
   ],
   "errors": [],
   "note": "Paper news feed. Keyword tagging is heuristic. Shorts have no borrow model. RSS/EDGAR can lag minutes\u2013hours.",
   "items": [
+    {
+      "id": "e8fa62cd50f2c6c9",
+      "source": "wso_nachrichten",
+      "title": "Der Blinddarm der Politik: CDU h\u00e4lt Habecks Gr\u00fcnen im Amt",
+      "summary": "Der Gr\u00fcnen-Politiker Klaus M\u00fcller soll Pr\u00e4sident der Bundesnetzagentur bleiben \u2013 auf Vorschlag der CDU. Der Beirat der Beh\u00f6rde hat am 23. November mit gro\u00dfer Mehrheit beschlossen, ihn der Bundesregierung f\u00fcr weitere f\u00fcnf Jahre vorzuschlagen. Formal muss die Bundesregierung ihn noch benennen, anschlie\u00dfend ernennt ihn der Bundespr\u00e4sident. Politisch ist die Entscheidung gefallen. Beiratschef",
+      "url": "https://www.wallstreet-online.de/nachricht/21742843-blinddarm-politik-cdu-haelt-habecks-gruenen-amt",
+      "published_at": "2026-11-24T19:13:51Z",
+      "tickers": [
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-24T19:28:46Z",
+      "region": "EU"
+    },
+    {
+      "id": "26dc2a1781db832c",
+      "source": "wso_nachrichten",
+      "title": "CSE Bulletin: New Listing - Viro Resources Ltd. (VIRO)",
+      "summary": "Toronto, Ontario--(Newsfile Corp. - November 24, 2026) - The common shares of Viro Resources Ltd. have been approved for listing on the CSE. Listing and disclosure documents will be available at www.thecse.com on the listing date. Viro Resources Ltd. is a mineral exploration company focused on the acquisition and advancement of high-quality mineral projects in Canada. The company's strategy",
+      "url": "https://www.wallstreet-online.de/nachricht/21742834-cse-bulletin-new-listing-viro-resources-ltd-viro",
+      "published_at": "2026-11-24T19:10:00Z",
+      "tickers": [
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "mna",
+      "direction": "bullish",
+      "news_side": "long",
+      "actionable": true,
+      "eu_category": "mna",
+      "scanned_at": "2026-11-24T19:28:46Z",
+      "region": "EU"
+    },
+    {
+      "id": "965766cd9774e935",
+      "source": "wso_nachrichten",
+      "title": "Aktien New York: Dow im Plus - R\u00fcckschlag f\u00fcr Techwerte nach Vortagsrally",
+      "summary": "NEW YORK (dpa-AFX) - Auf die Erleichterungsrally in der US-Technologiebranche wegen der R\u00fcckkehr des Nvidia-Chefs ist am Dienstag ein R\u00fcckschlag gefolgt. Die kr\u00e4ftige Erholung zum Wochenstart, von der vor allem Tech-Aktien profitiert hatten, wurde mit Gewinnmitnahmen quittiert. Dem \u00fcberwiegend mit Standard-Werten best\u00fcckten Dow Jones Industrial dagegen gelang schon recht fr\u00fch im Handelsverlauf",
+      "url": "https://www.wallstreet-online.de/nachricht/21742828-aktien-new-york-dow-plus-rueckschlag-techwerte-vortagsrally",
+      "published_at": "2026-11-24T19:08:35Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-24T19:28:46Z",
+      "region": "EU"
+    },
+    {
+      "id": "523ef886e83bc851",
+      "source": "wso_nachrichten",
+      "title": "Cereals Canada ver\u00f6ffentlicht neuen Weizenerntebericht 2026",
+      "summary": "Der Bericht hebt die gute Qualit\u00e4t aller kanadischen Weizensorten hervor. WINNIPEG, MB, 24. November 2026 /PRNewswire/ -- Cereals Canada ver\u00f6ffentlichte heute seinen j\u00e4hrlichen Bericht zur neuen Weizenernte f\u00fcr globale und inl\u00e4ndische Kunden von kanadischem Weizen. Der Bericht enth\u00e4lt Informationen \u00fcber die Mahlleistung, die Mehl-/Grie\u00dfqualit\u00e4t und die Funktionalit\u00e4t der Endprodukte",
+      "url": "https://www.wallstreet-online.de/nachricht/21742831-cereals-canada-weizenerntebericht-2026",
+      "published_at": "2026-11-24T19:05:00Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-24T19:28:46Z",
+      "region": "EU"
+    },
+    {
+      "id": "6dfde1b1c3989bc3",
+      "source": "wso_nachrichten",
+      "title": "TGI Group Publishes Research Report on Global Water Bankruptcy and Groundwater Contamination in Mexico's Yucat\u00e1n Peninsula",
+      "summary": "TGI Group Research Team, led by geologist Samuel A. Epstein, applies UN findings to every inhabited continent and outlines brine-free water technologies in development MIAMI BEACH, FL / ACCESS Newswire / November 24, 2026 / TGI Solar Power Group &hellip;",
+      "url": "https://www.wallstreet-online.de/nachricht/21742819-tgi-group-publishes-research-report-on-global-water-bankruptcy-and-groundwater-contamination-mexico-s-yucat-n-peninsula",
+      "published_at": "2026-11-24T19:05:00Z",
+      "tickers": [
+        "INGA.AS",
+        "ENI.MI"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-24T19:28:46Z",
+      "region": "EU"
+    },
+    {
+      "id": "ec43a89f4e150902",
+      "source": "wso_nachrichten",
+      "title": "Marktgefl\u00fcster: Nach Nvidia-Rally: Ist Anthropic der Schwarze Schwan der KI-Blase?",
+      "summary": "hip-Aktien wie AMD fallen teilweise zweistellig, Aktien wie Sandisk fallen unter das Tief vom Freitag-Abverkauf.",
+      "url": "https://www.wallstreet-online.de/nachricht/21742798-marktgefluester-nvidia-rally-anthropic-schwarze-schwan-ki-blase",
+      "published_at": "2026-11-24T19:02:00Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-24T19:28:46Z",
+      "region": "EU"
+    },
+    {
+      "id": "e8318349af52278a",
+      "source": "wso_nachrichten",
+      "title": "EQS-News: NNS: Results of the Post-Closing Acceptance Period for the cash offer for OCI",
+      "summary": "EQS-News: NNS Holding (Cyprus) Limited / Key word(s): Mergers & Acquisitions NNS: Results of the Post-Closing Acceptance Period for the cash offer for OCI 24.11.2026 / 20:00 CET/CEST The issuer is solely responsible for the content of this announcement. This is a press release by NNS Holding (Cyprus) Limited (\"NNS\").",
+      "url": "https://www.wallstreet-online.de/nachricht/21742816-eqs-news-nns-results-of-the-post-closing-acceptance-period-for-the-cash-offer-for-oci",
+      "published_at": "2026-11-24T19:00:22Z",
+      "tickers": [
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "earnings",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "earnings_nosurprise",
+      "scanned_at": "2026-11-24T19:28:46Z",
+      "region": "EU"
+    },
+    {
+      "id": "8ec1636a3a920c82",
+      "source": "wso_nachrichten",
+      "title": "Cardano News: Wale sto\u00dfen 110 Millionen ADA ab, w\u00e4hrend Leios auf den Hardfork zusteuert",
+      "summary": "Die Cardano News dieser Woche erz\u00e4hlen zwei Geschichten, die kaum zueinander passen. Am Samstag fiel ADA auf ein neues Jahrestief von rund 0,133 Dollar, und seit Freitag haben gro\u00dfe Adressen nach On-Chain-Daten etwa 110 Millionen Token abgegeben. Gleichzeitig erkl\u00e4rt Gr\u00fcnder Charles Hoskinson, das wichtigste technische Upgrade seit dem Start des Netzwerks sei fertig entworfen. Am Dienstag notiert",
+      "url": "https://www.wallstreet-online.de/nachricht/21742810-cardano-news-wale-stossen-110-millionen-ada-ab-leios-hardfork-zusteuert",
+      "published_at": "2026-11-24T19:00:00Z",
+      "tickers": [
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "analyst",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "analyst",
+      "scanned_at": "2026-11-24T19:28:46Z",
+      "region": "EU"
+    },
+    {
+      "id": "bc59a8f4c260055e",
+      "source": "wso_nachrichten",
+      "title": "Auf H\u00f6henflug: Sanofi: Kurssprung auf neues 52-Wochen-Hoch",
+      "summary": "Sanofi springt um 8,62 % nach oben, nachdem die Aktie im Tagesverlauf noch um 2,46 % im Minus lag.",
+      "url": "https://www.wallstreet-online.de/nachricht/21742795-hoehenflug-sanofi-kurssprung-52-wochen-hoch",
+      "published_at": "2026-11-24T19:00:00Z",
+      "tickers": [
+        "SAN.PA",
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-24T19:28:46Z",
+      "region": "EU"
+    },
+    {
+      "id": "68b6ac2a2802bb53",
+      "source": "wso_nachrichten",
+      "title": "B\u00f6rsen Update: B\u00f6rsen Update USA - 24.11. - US Tech 100 schwach -2,09&nbsp;%",
+      "summary": "Im Verlauf des Handelstages zeigen die amerikanischen Indizes ein negatives Bild.",
+      "url": "https://www.wallstreet-online.de/nachricht/21742792-boersen-update-boersen-update-usa-24-11-us-tech-100-schwach-2-09",
+      "published_at": "2026-11-24T19:00:00Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-24T19:28:46Z",
+      "region": "EU"
+    },
+    {
+      "id": "4a41996120c26586",
+      "source": "wso_nachrichten",
+      "title": "Wenn die B\u00f6rsen kollabieren: Legende Steve Eisman: \"Bitcoin ist nichts wert \u2013 ich w\u00fcrde niemals kaufen!\"",
+      "summary": "Steve Eisman h\u00e4lt Bitcoin langfristig f\u00fcr wertlos und schlie\u00dft einen Einstieg kategorisch aus. Der ber\u00fchmte Crash-Investor erkl\u00e4rt, warum die Kryptow\u00e4hrung gerade in Finanzkrisen versagt.",
+      "url": "https://www.wallstreet-online.de/nachricht/21742141-boersen-kollabieren-legende-steve-eisman-bitcoin-wert-kaufen",
+      "published_at": "2026-11-24T18:59:00Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-24T19:28:46Z",
+      "region": "EU"
+    },
+    {
+      "id": "b4c84d0a359954e0",
+      "source": "wso_nachrichten",
+      "title": "TelcoDepot Launches New Website With Online Z-Cloud Phone Plans Priced by Simultaneous Calls",
+      "summary": "The new TelcoDepot.com lists four unlimited-extension Z-Cloud plans side by side, sized by how many outside calls a business handles at once. Yaphank, New York--(Newsfile Corp. - November 24, 2026) - TelcoDepot, a business phone systems provider established in 2009, has launched a new website that publishes plan details and monthly pricing for its Z-Cloud hosted phone service. The four plans,",
+      "url": "https://www.wallstreet-online.de/nachricht/21742801-telcodepot-launches-new-website-with-online-z-cloud-phone-plans-priced-by-simultaneous-calls",
+      "published_at": "2026-11-24T18:58:00Z",
+      "tickers": [
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-24T19:28:46Z",
+      "region": "EU"
+    },
+    {
+      "id": "9fb52eec5fae2f21",
+      "source": "wso_nachrichten",
+      "title": "Zenith Epigenetics Awarded $6.85 Million Grant from CPRIT to Conduct Breakthrough Cancer Immunotherapy Trials",
+      "summary": "Calgary, Alberta--(Newsfile Corp. - November 24, 2026) - Zenith Epigenetics Ltd. (\"Zenith\" or the \"Company\") today announced that it has been awarded a $6.85M grant from Cancer Prevention and Research Institute of Texas (\"CPRIT\") to conduct proof-of-concept immunotherapy trials in solid tumors using a novel immune-priming technology developed in the laboratory of Dr. Prasanna G. Alluri, MD, PhD,",
+      "url": "https://www.wallstreet-online.de/nachricht/21742786-zenith-epigenetics-awarded-6-85-million-grant-from-cprit-to-conduct-breakthrough-cancer-immunotherapy-trials",
+      "published_at": "2026-11-24T18:55:00Z",
+      "tickers": [
+        "INGA.AS",
+        "ENI.MI"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-24T19:28:46Z",
+      "region": "EU"
+    },
+    {
+      "id": "ff2ff842e4bb67f9",
+      "source": "wso_nachrichten",
+      "title": "NNS: Results of the Post-Closing Acceptance Period for the cash offer for OCI",
+      "summary": "This is a press release by NNS Holding (Cyprus) Limited (\"NNS\"). This press release is issued pursuant to the provisions of Section 17, paragraph 4 of the Dutch Decree on public takeover bids (Besluit openbare biedingen Wft) (the \"Decree\") in connection with the cash offer by NNS for all the issued and outstanding shares in the capital of OCI N.V. (\"OCI\" or the \"Company\") (the \"Offer\"). This",
+      "url": "https://www.wallstreet-online.de/nachricht/21742783-nns-results-of-the-post-closing-acceptance-period-for-the-cash-offer-for-oci",
+      "published_at": "2026-11-24T18:53:00Z",
+      "tickers": [
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "mna",
+      "direction": "bullish",
+      "news_side": "long",
+      "actionable": true,
+      "eu_category": "mna",
+      "scanned_at": "2026-11-24T19:28:46Z",
+      "region": "EU"
+    },
+    {
+      "id": "77cfdae8852c381d",
+      "source": "wso_nachrichten",
+      "title": "ICEsoft Releases Q3 2026 Financial Results and Provides Follow up on Previously Announced Strategic Initiative",
+      "summary": "Calgary, Alberta--(Newsfile Corp. - November 24, 2026) - ICEsoft Technologies Canada Corp. (CSE: ISFT) (the \"Corporation\" or the \"Company\" or \"ICEsoft\") is pleased to announce its interim, unaudited financial results for the periods ending September 30, 2026 and 2025. Detailed results and Management's discussion and analysis are now available on SEDAR at www.sedarplus.ca. Annual highlights are",
+      "url": "https://www.wallstreet-online.de/nachricht/21742774-icesoft-releases-q3-2026-financial-results-and-provides-follow-up-on-previously-announced-strategic-initiative",
+      "published_at": "2026-11-24T18:47:00Z",
+      "tickers": [
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "earnings",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "earnings_nosurprise",
+      "scanned_at": "2026-11-24T19:28:46Z",
+      "region": "EU"
+    },
+    {
+      "id": "7dc706269be720ab",
+      "source": "wso_nachrichten",
+      "title": "Steering Committee of Ad Hoc Group of Braskem Creditors Reaches Agreement in Principle with Braskem and Its Main Shareholders",
+      "summary": "S\u00c3O PAULO, Nov. 24, 2026 /PRNewswire/ -- The Steering Committee of the Ad Hoc Group of&nbsp;Braskem creditors (the \"Steering Committee\") today announced that it has reached an agreement in principle1 with&nbsp;Braskem S.A. (\"Braskem\" or the \"Company\"), with the support of its main shareholders, Shine I Fundo de Investimento em Participa\u00e7\u00f5es de Responsabilidade Limitada and Petr\u00f3leo Brasileiro",
+      "url": "https://www.wallstreet-online.de/nachricht/21742771-steering-committee-of-ad-hoc-group-of-braskem-creditors-reaches-agreement-principle-with-braskem-and-its-main-shareholders",
+      "published_at": "2026-11-24T18:46:00Z",
+      "tickers": [
+        "INGA.AS"
+      ],
+      "form": "EU_ADHOC",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-24T19:28:46Z",
+      "region": "EU"
+    },
+    {
+      "id": "e4a43746dcab9124",
+      "source": "wso_nachrichten",
+      "title": "Gro\u00dfe M\u00e4nner in Geschichte und Gegenwart",
+      "summary": "Ach, das sind Dramen wie in alten Zeiten! M\u00e4chtige M\u00e4nner st\u00fcrzen \u00fcber sch\u00f6ne Frauen! Verrat, Intrige und Konkurrenten, die den Dolch im Gewande tragen! Dass es das noch gibt! Nicht in Deutschland, nat\u00fcrlich. Die Macht, die m\u00e4chtige M\u00e4nner hierzulande zu haben glauben, gilt nichts auf dem Weltmarkt. Da spielen ganz andere Kaliber. Jensen Huang und Der Beitrag Gro\u00dfe M\u00e4nner in Geschichte",
+      "url": "https://www.wallstreet-online.de/nachricht/21742765-grosse-maenner-geschichte-gegenwart",
+      "published_at": "2026-11-24T18:42:58Z",
+      "tickers": [
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-24T19:28:46Z",
+      "region": "EU"
+    },
+    {
+      "id": "f96e554eeecfaf89",
+      "source": "wso_nachrichten",
+      "title": "ROSEN, LEADING TRIAL ATTORNEYS, Encourages MNTN, Inc. Investors to Secure Counsel Before Important Deadline in Securities Class Action First Filed by the Firm - MNTN",
+      "summary": "New York, New York--(Newsfile Corp. - November 24, 2026) - WHY: Rosen Law Firm, a global investor rights law firm, announces it has filed a class action lawsuit on behalf of purchasers of securities of MNTN, Inc. (NYSE: MNTN) between August 5, 2026 and November 4, 2026, both dates inclusive (the \"Class Period\"). A class action lawsuit has already been filed. If you wish to serve as lead plaintiff,",
+      "url": "https://www.wallstreet-online.de/nachricht/21742741-rosen-leading-trial-attorneys-encourages-mntn-inc-investors-to-secure-counsel-before-deadline-securities-class-action-first-filed-by-the-firm-mntn",
+      "published_at": "2026-11-24T18:41:00Z",
+      "tickers": [
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-24T19:28:46Z",
+      "region": "EU"
+    },
+    {
+      "id": "3a56be01fcdca5a8",
+      "source": "wso_nachrichten",
+      "title": "EQS-PVR: Instone Real Estate Group SE: Release according to Article 43, Section 2 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
+      "summary": "EQS Voting Rights Announcement: Instone Real Estate Group SE Instone Real Estate Group SE: Release according to Article 43, Section 2 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution 24.11.2026 / 19:40 CET/CEST Dissemination of a Voting Rights Announcement transmitted by EQS News - a service of EQS Group.",
+      "url": "https://www.wallstreet-online.de/nachricht/21742762-eqs-pvr-instone-real-estate-group-se-release-according-to-article-43-section-2-of-the-wphg-the-german-securities-trading-act-with-the-objective-of-europe-wide-distribution",
+      "published_at": "2026-11-24T18:40:01Z",
+      "tickers": [
+        "INGA.AS",
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-24T19:28:46Z",
+      "region": "EU"
+    },
+    {
+      "id": "d4b4ae3c14a7396a",
+      "source": "wso_nachrichten",
+      "title": "EQS-PVR: Instone Real Estate Group SE: Ver\u00f6ffentlichung gem\u00e4\u00df \u00a7 43 Abs. 2 WpHG mit dem Ziel der europaweiten Verbreitung",
+      "summary": "EQS Stimmrechtsmitteilung: Instone Real Estate Group SE Instone Real Estate Group SE: Ver\u00f6ffentlichung gem\u00e4\u00df \u00a7 43 Abs. 2 WpHG mit dem Ziel der europaweiten Verbreitung 24.11.2026 / 19:40 CET/CEST Ver\u00f6ffentlichung einer Stimmrechtsmitteilung \u00fcbermittelt durch EQS News - ein Service der EQS Group. F\u00fcr den Inhalt der Mitteilung ist der",
+      "url": "https://www.wallstreet-online.de/nachricht/21742759-eqs-pvr-instone-real-estate-group-se-veroeffentlichung-gemaess-43-abs-2-wphg-ziel-europaweiten-verbreitung",
+      "published_at": "2026-11-24T18:40:01Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-24T19:28:46Z",
+      "region": "EU"
+    },
+    {
+      "id": "4bba7effc224e7dd",
+      "source": "wso_nachrichten",
+      "title": "Mkango Magnetic Materials Limited Announces RetailBook Offer",
+      "summary": "THIS ANNOUNCEMENT CONTAINS INSIDE INFORMATION FOR THE PURPOSES OF ARTICLE 7 OF THE MARKET ABUSE REGULATION (EU) 596/2014 (WHICH FORMS PART OF DOMESTIC UK LAW PURSUANT TO THE EUROPEAN UNION (WITHDRAWAL) ACT 2018) (\"UK MAR\").NOT FOR RELEASE, &hellip;",
+      "url": "https://www.wallstreet-online.de/nachricht/21742738-mkango-magnetic-materials-limited-announces-retailbook-offer",
+      "published_at": "2026-11-24T18:40:00Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-24T19:28:46Z",
+      "region": "EU"
+    },
+    {
+      "id": "29f05bba1f7040d0",
+      "source": "wso_nachrichten",
+      "title": "PlasCred Appoints Alan Withey as Chief Financial Officer",
+      "summary": "Calgary, Alberta--(Newsfile Corp. - November 24, 2026) - PlasCred Circular Innovations Inc. (CSE: PLAS) (FSE: XV2) (OTCQB: PCIIF) (\"PlasCred\" or the \"Company\") is pleased to announce that Alan Withey has joined PlasCred as Chief Financial Officer. Mr. Withey has over 30 years experience as a finance executive with an extensive history in the energy industry. Alan is skilled in negotiation, minerals",
+      "url": "https://www.wallstreet-online.de/nachricht/21742747-plascred-appoints-alan-withey-as-chief-financial-officer",
+      "published_at": "2026-11-24T18:36:00Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-24T19:28:46Z",
+      "region": "EU"
+    },
+    {
+      "id": "70889771d25e27d0",
+      "source": "wso_nachrichten",
+      "title": "Honey Badger Silver Intersects Broad Mineralized Zones That Include 1,535 g/t AgEq Over 4.38 Meters and 1,154 g/t AgEq Over 7.30 Meters in First 2026 Drill Results at Sunrise Lake, NWT",
+      "summary": "Toronto, Ontario--(Newsfile Corp. - November 24, 2026) - Honey Badger Silver Inc. (TSXV: TUF) (OTCQB: HBEIF) (FSE: 1QA) (Tradegate: 1QA) (\"Honey Badger Silver\" or the \"Company\") is pleased to announce near-surface, high-grade, silver-rich polymetallic assay results from the first three diamond drill holes of its 2026 historical resource validation program at the 100%-owned Sunrise Lake Project",
+      "url": "https://www.wallstreet-online.de/nachricht/21742744-honey-badger-silver-intersects-broad-mineralized-zones-that-include-1-535-g-t-ageq-over-4-38-meters-and-1-154-g-t-ageq-over-7-30-meters-first-2026-drill-results-at-sunrise-lake-nwt",
+      "published_at": "2026-11-24T18:36:00Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "earnings",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "earnings_nosurprise",
+      "scanned_at": "2026-11-24T19:28:46Z",
+      "region": "EU"
+    },
+    {
+      "id": "38094188d294f44b",
+      "source": "wso_nachrichten",
+      "title": "Micron: Abstufung nach Kurssprung \u2013 was jetzt wichtig wird",
+      "summary": "Micron unter Druck: Abstufung und Chip-Ausverkauf verunsichern Anleger. Ich analysiere die Risiken und zeige, welche Signale jetzt f\u00fcr Ihre Entscheidung z\u00e4hlen.",
+      "url": "https://www.wallstreet-online.de/nachricht/21742720-micron-abstufung-kurssprung",
+      "published_at": "2026-11-24T18:30:36Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-24T19:28:46Z",
+      "region": "EU"
+    },
+    {
+      "id": "6eb6a30f8346c7ac",
+      "source": "wso_nachrichten",
+      "title": "Mercedes-Benz vor Tesla: Was Anleger jetzt pr\u00fcfen sollten",
+      "summary": "Mercedes-Benz zieht bei der deutschen Freigabe f\u00fcr Fahrassistenz an Tesla vorbei. Ich ordne ein, was der Vorsprung und Chinas Konkurrenz f\u00fcr Anleger bedeuten.",
+      "url": "https://www.wallstreet-online.de/nachricht/21742714-mercedes-benz-tesla-anleger-pruefen",
+      "published_at": "2026-11-24T18:30:36Z",
+      "tickers": [
+        "MBG.DE"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-24T19:28:46Z",
+      "region": "EU"
+    },
+    {
+      "id": "5e106e2af1e7c70f",
+      "source": "wso_nachrichten",
+      "title": "CTS Eventim: Was hinter Barclays\u2019 Urteil zu 2030 steckt",
+      "summary": "CTS Eventim plant bis 2030 gro\u00df, Barclays sieht Potenzial. Erfahren Sie, warum Aktienr\u00fcckk\u00e4ufe entt\u00e4uschen und welche H\u00fcrde f\u00fcr Anleger jetzt entscheidend ist.",
+      "url": "https://www.wallstreet-online.de/nachricht/21742705-cts-eventim-barclays-urteil-2030-steckt",
+      "published_at": "2026-11-24T18:30:36Z",
+      "tickers": [
+        "BARC.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-24T19:28:46Z",
+      "region": "EU"
+    },
+    {
+      "id": "e9c1943f818f9ece",
+      "source": "wso_nachrichten",
+      "title": "SAP-Aktie: Was Anleger bei den R\u00fcckk\u00e4ufen jetzt pr\u00fcfen",
+      "summary": "SAP legt zu: K\u00f6nnen R\u00fcckk\u00e4ufe die Erholung st\u00fctzen? Lesen Sie, welche Chancen, Risiken und Kursmarken jetzt z\u00e4hlen, um den n\u00e4chsten Schritt besser einzuordnen.",
+      "url": "https://www.wallstreet-online.de/nachricht/21742702-sap-aktie-anleger-rueckkaeufen-pruefen",
+      "published_at": "2026-11-24T18:30:36Z",
+      "tickers": [
+        "SAP.DE",
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-24T19:28:46Z",
+      "region": "EU"
+    },
+    {
+      "id": "395a1b350b7b73c8",
+      "source": "wso_nachrichten",
+      "title": "Almonty: Erste Wolfram-Lieferung \u2013 warum f\u00e4llt die Aktie?",
+      "summary": "Almonty f\u00e4llt trotz erster Wolfram-Lieferung aus Sangdong. Ich ordne die Nachrichten ein und zeige, welche Chancen und Risiken Anleger jetzt beachten sollten.",
+      "url": "https://www.wallstreet-online.de/nachricht/21742699-almonty-wolfram-lieferung-faellt-aktie",
+      "published_at": "2026-11-24T18:30:36Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-24T19:28:46Z",
+      "region": "EU"
+    },
+    {
+      "id": "d6de8d351ada5b9f",
+      "source": "wso_nachrichten",
+      "title": "Deutz: Nach Shortseller-Attacke setzen Banken auf Kauf",
+      "summary": "Die Deutz-Aktie f\u00e4llt trotz klarer Kaufempfehlungen. Erfahren Sie, wie Analysten die Lage nach der Shortseller-Attacke bewerten und worauf es jetzt ankommt.",
+      "url": "https://www.wallstreet-online.de/nachricht/21742684-deutz-shortseller-attacke-banken-kauf",
+      "published_at": "2026-11-24T18:30:36Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-24T19:28:46Z",
+      "region": "EU"
+    },
+    {
+      "id": "bdb0cc6b4fde3dd2",
+      "source": "wso_nachrichten",
+      "title": "Nel ASA am Elfjahrestief: Worauf es jetzt ankommt",
+      "summary": "Nel ASA am Elfjahrestief: Was das Kursziel von 1 NOK bedeutet, wie die j\u00fcngste Erholung einzuordnen ist und worauf Anleger jetzt besonders achten sollten.",
+      "url": "https://www.wallstreet-online.de/nachricht/21742678-nel-asa-elfjahrestief-worauf-ankommt",
+      "published_at": "2026-11-24T18:30:36Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "analyst",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "analyst",
+      "scanned_at": "2026-11-24T19:28:46Z",
+      "region": "EU"
+    },
+    {
+      "id": "fc279576cb58ea60",
+      "source": "eqs_google",
+      "title": "Meier Tobler publiziert die Einladung zur ausserordentlichen Generalversammlung vom 16. Dezember 2026 | Ad-hoc - EQS News",
+      "summary": "Meier Tobler publiziert die Einladung zur ausserordentlichen Generalversammlung vom 16. Dezember 2026 | Ad-hoc &nbsp;&nbsp; EQS News",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPRmp4MHdqaFVaQUFtUGRxYzhCODg4d3lVSWQ4b25FSWVuTWxxeFVjRWJUaGZVN1l0bllVZjlBa1k3R3RSMU1NSkxlT0Z6OEh0UUVmd3lNUXJadjI3clRuZkpGajF4TTJXU2VwTno2QS01TGdNcEN6YTZMRmc1dHVyQXpoMlFqZFRZYnpHZmRjaXRDZ0U4c1lxZEZBOHhFaE9JRVJkTGNIVjh4aTNvanFpckZJeEtraExtWjV6bG1MRkMzdDJmdDg3UmUxRWhtd0JoODRPUTRzZ1VKY29HR3JDaGRGQWJQU2lOUF9nVTY2UkJKLXRlUEdJNE5XZlJ2a1FCY1c2Y2cwcFU?oc=5",
+      "published_at": "2026-11-24T17:00:00Z",
+      "tickers": [
+        "SSE.L"
+      ],
+      "form": "EU_ADHOC",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-24T19:28:43Z",
+      "region": "EU"
+    },
+    {
+      "id": "4aa2250bd4b06669",
+      "source": "eqs_google",
+      "title": "Schweizerische Mobiliar Asset Management AG Gewinnsteigerung und erneute Erh\u00f6hung der Aussch\u00fcttung - EQS News",
+      "summary": "Schweizerische Mobiliar Asset Management AG Gewinnsteigerung und erneute Erh\u00f6hung der Aussch\u00fcttung &nbsp;&nbsp; EQS News",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNUXpoN2ctcmt5VWN3N0J1bUJrWWhJX0Iyc1ZCUWhCNGRPMVFCSUh3cUFlWUhHSTNVcHlNQTN6bWhUVU1BdWp4UTczaWRYTGk5UzVRa3dTT1drcW5vUUdMRFNfU2t4V084NDFHRG9uXzhha2ZLMlhhS1NjZm40b045aS1lNHFMSkpRdHI3RVFNZllQd1RFTS1YX25zd3RlYS1RbkU3TmcwcG9xeE92Zzd0d29PX0VQM1B1QThteXowQkRyZUxzdElWYUtZUQ?oc=5",
+      "published_at": "2026-11-24T16:50:00Z",
+      "tickers": [
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-24T19:28:43Z",
+      "region": "EU"
+    },
+    {
+      "id": "99628f9ab3cdcf2e",
+      "source": "yahoo_eu",
+      "title": "ROUNDUP 2: Frostiger Tarifauftakt bei VW - Warnstreiks drohen",
+      "summary": "(Aktualisierung: Ende der ersten Tarifgespr\u00e4che)",
+      "url": "https://de.finance.yahoo.com/nachrichten/roundup-2-frostiger-tarifauftakt-vw-164726134.html?.tsrc=rss",
+      "published_at": "2026-11-24T16:47:26Z",
+      "tickers": [
+        "VOW3.DE"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-24T19:28:52Z",
+      "region": "EU"
+    },
+    {
+      "id": "f4d2b6d6e7abbab4",
+      "source": "yahoo_eu",
+      "title": "Tarifkonflikt bei Volkswagen: Keinerlei Ann\u00e4herung in erster Gespr\u00e4chsrunde",
+      "summary": "Nach der ersten Verhandlungsrunde im Tarifkonflikt bei Volkswagen sind die Fronten verh\u00e4rtet: Der Forderungskatalog des Autobauers sei \"keine Verhandlungsgrundlage, sondern eine Kampfansage\", erkl\u00e4rte der Bezirksleiter der IG Metall Niedersachsen und Sachsen-Anhalt, Thorsten Gr\u00f6ger, am Dienstag.\"Die Verhandlung verlief erwartungsgem\u00e4\u00df frostig und war nach rund eineinhalb Stunden beendet\", erkl\u00e4rte die IG Metall am Dienstag.",
+      "url": "https://de.finance.yahoo.com/nachrichten/tausende-demonstrieren-ersten-tarifverhandlungen-volkswagen-112611140.html?.tsrc=rss",
+      "published_at": "2026-11-24T16:33:50Z",
+      "tickers": [
+        "VOW3.DE",
+        "GSK.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-24T19:28:52Z",
+      "region": "EU"
+    },
+    {
+      "id": "30f4b4249c651cf3",
+      "source": "yahoo_eu",
+      "title": "Erste Runde bei VW-Tarifverhandlungen ergebnislos beendet",
+      "summary": "Nach lediglich eineinhalb Stunden ist die erste Runde der VW -Tarifverhandlungen zu Ende gegangen. Eine Ann\u00e4herung blieb nach Angaben beider Tarifparteien aus. Die Verhandlungen hatten am fr\u00fchen Nachmittag in der Nordseehalle im ostfriesischen Emden begonnen. Nach Aufforderung der IG Metall finden die Gespr\u00e4che an Standorten statt, deren Zukunft von der VW-F\u00fchrung aktuell infrage gestellt wird.",
+      "url": "https://de.finance.yahoo.com/nachrichten/erste-runde-vw-tarifverhandlungen-ergebnislos-163157319.html?.tsrc=rss",
+      "published_at": "2026-11-24T16:31:57Z",
+      "tickers": [
+        "VOW3.DE"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-24T19:28:52Z",
+      "region": "EU"
+    },
+    {
+      "id": "65e11b33a4815019",
+      "source": "yahoo_eu",
+      "title": "UBS muss im Kapitalstreit eine weitere Niederlage hinnehmen \u2014 Ausschuss f\u00fcr 90%-Regel",
+      "summary": "Die UBS hat in der langwierigen Schweizer Kapitaldebatte eine weitere Niederlage erlitten. Ein Parlamentsausschuss unterst\u00fctzte einen Vorschlag mit Anforderungen, die die Bank ablehnt.",
+      "url": "https://de.finance.yahoo.com/nachrichten/ubs-muss-kapitalstreit-niederlage-hinnehmen-154722232.html?.tsrc=rss",
+      "published_at": "2026-11-24T15:47:22Z",
+      "tickers": [
+        "UBSG.SW",
+        "BATS.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-24T19:28:52Z",
+      "region": "EU"
+    },
+    {
+      "id": "c9e705a0e11912da",
+      "source": "eqs_google",
+      "title": "AIXTRON-Aktie sackt ab: Analyst zweifelt an durchschnittlichem Umsatzwachstum - Kursziel halbiert - Finanzen.net",
+      "summary": "AIXTRON-Aktie sackt ab: Analyst zweifelt an durchschnittlichem Umsatzwachstum - Kursziel halbiert &nbsp;&nbsp; Finanzen.net",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxONW5naFlZRjJLUWdjSVBjNk9QYURMY0o0eE1wT0ozSUJIRjg0aUhuNVJFNEFzdG1Rd2xxeFQtRzdFMWxCbzZPU19xUTFwa0tUalQzVFBrWlJwXzcyQnJ3MWNVeEhlQkhJUk1mTGhfR085UEJ1Ty1MTmFzeTlheWdmQk9iMGR3UWhqWERoNlRUbmxuN3N4T3JHZ0xHVXBaWTFfajJHYWNFem9pLWpaOXBJeVBsUHEzQURPQ05qRllFMzlwNldOZUNuTnBMbWcxRXNuMkdrZUJkQnVWSmR2WUtmcnEweHF0TlVudTNkN1g4TFl2ZkxnOWU3WEVzdw?oc=5",
+      "published_at": "2026-11-24T15:25:00Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "analyst",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "analyst",
+      "scanned_at": "2026-11-24T19:28:45Z",
+      "region": "EU"
+    },
+    {
+      "id": "05f1f3385a44f255",
+      "source": "yahoo_eu",
+      "title": "ROUNDUP: Frostiger Tarifauftakt bei VW - Warnstreiks drohen",
+      "summary": "Trommeln, Sirenen und Trillerpfeifen: Begleitet von lautstarkem Protest gegen die massiven Sparpl\u00e4ne haben beim Autobauer Volkswagen die Tarifgespr\u00e4che begonnen. Zeitweise h\u00fcllten Bengalos den Platz vor dem Verhandlungsort, der Nordseehalle in Emden, in roten Rauch. Auch mehrere schwarze Holzs\u00e4rge wurden von VW -Besch\u00e4ftigten aufgestellt - als Symbol f\u00fcr die Beerdigung der Marke Volkswagen.",
+      "url": "https://de.finance.yahoo.com/nachrichten/roundup-frostiger-tarifauftakt-vw-warnstreiks-152147672.html?.tsrc=rss",
+      "published_at": "2026-11-24T15:21:47Z",
+      "tickers": [
+        "VOW3.DE"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-24T19:28:52Z",
+      "region": "EU"
+    },
+    {
+      "id": "d5b33f89669ff611",
+      "source": "yahoo_eu",
+      "title": "Tarifverhandlungen bei VW haben begonnen",
+      "summary": "Im ostfriesischen Emden hat die Tarifrunde f\u00fcr die gut 120.000 VW -Besch\u00e4ftigten in Deutschland begonnen. In einer Veranstaltungshalle der Hafenstadt kamen mehrere Dutzend Vertreter der IG Metall und des Autobauers zum Verhandlungsauftakt zusammen. Nach Aufforderung der Gewerkschaft finden die Gespr\u00e4che an Standorten statt, deren Zukunft von der Volkswagen -F\u00fchrung aktuell infrage gestellt wird.",
+      "url": "https://de.finance.yahoo.com/nachrichten/tarifverhandlungen-vw-haben-begonnen-135609560.html?.tsrc=rss",
+      "published_at": "2026-11-24T13:56:09Z",
+      "tickers": [
+        "VOW3.DE"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-24T19:28:52Z",
+      "region": "EU"
+    },
+    {
+      "id": "cc6aab562c6a5ffe",
+      "source": "yahoo_eu",
+      "title": "ROUNDUP: Noch ein VW-Dieselprozess - Sechs Angeklagte in Braunschweig",
+      "summary": "Z\u00e4he Aufarbeitung der VW -Dieselaff\u00e4re: Mit sechs angeklagten ehemaligen VW-F\u00fchrungskr\u00e4ften und Mitarbeitern des Autobauers hat der abschlie\u00dfende Prozess zu dem Komplex am Landgericht Braunschweig begonnen. Mehr als elf Jahre nach Aufdeckung der Abgasmanipulationen bedeutet dies aber l\u00e4ngst nicht, dass die juristische Aufkl\u00e4rung des Skandals und der strafrechtlichen Verantwortung kurz vor einem Abschluss steht.",
+      "url": "https://de.finance.yahoo.com/nachrichten/roundup-noch-vw-dieselprozess-sechs-135236546.html?.tsrc=rss",
+      "published_at": "2026-11-24T13:52:36Z",
+      "tickers": [
+        "VOW3.DE",
+        "GSK.L",
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-24T19:28:52Z",
+      "region": "EU"
+    },
+    {
+      "id": "6877285b78d5f559",
+      "source": "yahoo_eu",
+      "title": "Tausende demonstrieren in Emden vor VW-Tarifrunde",
+      "summary": "Vor dem Beginn der Tarifgespr\u00e4che bei Volkswagen haben Tausende Besch\u00e4ftigte und Gewerkschafter in Emden gegen Sparpl\u00e4ne und m\u00f6gliche Werksschlie\u00dfungen bei dem Autobauer protestiert. Nach Angaben der IG Metall zogen rund 4.500 Menschen am Vormittag bei einer Demonstration durch die ostfriesische Seehafenstadt zur Nordseehalle, wo am Mittag die Tarifverhandlungen zwischen IG Metall und Arbeitgeberseite beginnen sollten.",
+      "url": "https://de.finance.yahoo.com/nachrichten/tausende-demonstrieren-emden-vw-tarifrunde-133610536.html?.tsrc=rss",
+      "published_at": "2026-11-24T13:36:10Z",
+      "tickers": [
+        "VOW3.DE"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-24T19:28:52Z",
+      "region": "EU"
+    },
+    {
+      "id": "96f98a367350e144",
+      "source": "yahoo_eu",
+      "title": "Volkswagen pocht auf harte Einschnitte",
+      "summary": "Volkswagen hat vor Beginn der Tarifrunde seine Forderung nach weitreichenden Kostensenkung bekr\u00e4ftigt. \"Uns ist durchaus bewusst: Es ist ein schmerzhafter Schritt. Aber er ist notwendig und er ist unvermeidbar\", sagte VW -Co-Verhandlungsf\u00fchrer Frank Ischner vor dem Verhandlungsstart im ostfriesischen Emden. Die wirtschaftlichen Rahmenbedingungen h\u00e4tten sich gerade in letzter Zeit sp\u00fcrbar und nachhaltig verschlechtert.",
+      "url": "https://de.finance.yahoo.com/nachrichten/volkswagen-pocht-harte-einschnitte-133150446.html?.tsrc=rss",
+      "published_at": "2026-11-24T13:31:50Z",
+      "tickers": [
+        "VOW3.DE",
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-24T19:28:52Z",
+      "region": "EU"
+    },
+    {
+      "id": "f8089f900652fe0f",
+      "source": "yahoo_eu",
+      "title": "ROUNDUP: Adyens Co-Chef und Mitgr\u00fcnder Pieter van der Does geht zum Jahresende",
+      "summary": "Pieter van der Does, Mitgr\u00fcnder des niederl\u00e4ndischen Zahlungsdienstleisters Adyen , wird zum Jahresende als dessen Co-Chef zur\u00fccktreten. Ingo Uytdehaage, der das Unternehmen seit 2023 gemeinsam mit van der Does leitete, \u00fcbernimmt dann allein das Ruder. Der Schritt erfolgt zum 20-j\u00e4hrigen Jubil\u00e4um des Unternehmens, wie Adyen am Montag nach B\u00f6rsenschluss mitteilte. Die Adyen-Aktie zeigte sich von der Personalie wenig bewegt.",
+      "url": "https://de.finance.yahoo.com/nachrichten/roundup-adyens-co-chef-mitgr%C3%BCnder-115104383.html?.tsrc=rss",
+      "published_at": "2026-11-24T11:51:04Z",
+      "tickers": [
+        "ADYEN.AS",
+        "INGA.AS",
+        "ENI.MI",
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-24T19:28:47Z",
+      "region": "EU"
+    },
+    {
+      "id": "044b11ad89bfcfe8",
+      "source": "eqs_google",
+      "title": "Rechenzentrum Aktien: Vertiv springt um zw\u00f6lf Prozent \u2013 und ein Analyst k\u00fcrzt das Kursziel um 120 Dollar - AktienCheck.de",
+      "summary": "Rechenzentrum Aktien: Vertiv springt um zw\u00f6lf Prozent \u2013 und ein Analyst k\u00fcrzt das Kursziel um 120 Dollar &nbsp;&nbsp; AktienCheck.de",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVFVSdGxTYldsV05jTzllQ0lKNkM0MW5uMzJ4MU4yYzd6NmY3WXZmS2sweTRKaU5KT2V1TF9aWTJzNzhydTBQSmxHb0U4SkdFUVlMMEp0TC1EcTItb2VPdHc5Y0JhMkdOeDM3OXNfRXdqVE1GYkN2MGpiUzBlOUl4SEF3ZEFESW1pME8ycWtDSm02VFowUlpJZ25zTnJTNGctdnBjTGFRbEZUSkw5?oc=5",
+      "published_at": "2026-11-24T11:17:57Z",
+      "tickers": [
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "analyst",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "analyst",
+      "scanned_at": "2026-11-24T19:28:45Z",
+      "region": "EU"
+    },
     {
       "id": "9e903b18e92d3ff8",
       "source": "prnewswire",
@@ -77,6 +902,25 @@
       "news_side": null,
       "actionable": false,
       "scanned_at": "2026-11-24T11:09:58Z"
+    },
+    {
+      "id": "d960b4850043a5ab",
+      "source": "yahoo_eu",
+      "title": "WDH: Adyens Co-Chef und Mitgr\u00fcnder Pieter van der Does geht zum Jahresende",
+      "summary": "(In der bisherigen Version war ein Grammatikfehler im ersten Satz. Dieser wurde entfernt.)",
+      "url": "https://de.finance.yahoo.com/nachrichten/wdh-adyens-co-chef-mitgr%C3%BCnder-110319824.html?.tsrc=rss",
+      "published_at": "2026-11-24T11:03:19Z",
+      "tickers": [
+        "ADYEN.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-24T19:28:47Z",
+      "region": "EU"
     },
     {
       "id": "7d6ff446784f1222",
@@ -510,6 +1354,23 @@
       "scanned_at": "2026-11-24T11:10:01Z"
     },
     {
+      "id": "97ecced6b22997cd",
+      "source": "eqs_google",
+      "title": "PAUL Tech AG: PAUL Tech AG erh\u00f6ht bestehende Kreditfazilit\u00e4t um EUR 25 Mio. | Ad-hoc - EQS News",
+      "summary": "PAUL Tech AG: PAUL Tech AG erh\u00f6ht bestehende Kreditfazilit\u00e4t um EUR 25 Mio. | Ad-hoc &nbsp;&nbsp; EQS News",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNQi1sVjVIN0tTZ0ZPTkFLdjFra0VqaC1sNG96NGZRVGNLVHc4bUtxRkV3VDJHZTM2dXBZMXVtSXBvTnlqajQ4am5kb3piUmhjUG5rd2h5REc2RFEzRTkwUHpyeXgyM1hrMmNER2ktVFlUWC1jaFpEbnd4aFBMdWlQa2Y4NXlSbWVKNkota1NsZTZudDEyUENEaUpJeEVFazZHTS0tMWVVX1pSSWhsMERnUmkzbl9pOEg4NWwwcXJvdlBFZHJlTVNLcXI2bFVKSEFobmJiTUNzYzk0V01aMHBQcUJVeTQtV1JTaUVHSmFxYVhnbnhCeXAxVlhpakZjdw?oc=5",
+      "published_at": "2026-11-24T09:56:00Z",
+      "tickers": [],
+      "form": "EU_ADHOC",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-24T19:28:43Z",
+      "region": "EU"
+    },
+    {
       "id": "7aa26cd8bedeac8d",
       "source": "prnewswire_financial",
       "title": "From Bordeaux to China: JD.com Expands Direct Sourcing Partnerships with Leading French Wine Producers",
@@ -580,6 +1441,26 @@
       "scanned_at": "2026-11-24T11:09:59Z"
     },
     {
+      "id": "ae93b9895465c17f",
+      "source": "yahoo_eu",
+      "title": "IPO: B\u00f6rsenreife von BASF-Agrarsparte r\u00fcckt n\u00e4her",
+      "summary": "Der weltgr\u00f6\u00dfte Chemiekonzern BASF h\u00e4lt an seinen B\u00f6rsenpl\u00e4nen f\u00fcr das Agrargesch\u00e4ft fest. Die \u00dcberf\u00fchrung des Gesch\u00e4fts in eigenst\u00e4ndige Gesellschaften sei weitgehend abgeschlossen, hie\u00df es am Dienstag bei einer Investorenveranstaltung in Ludwigshafen. Die B\u00f6rsenreife soll bis Mitte 2027 erreicht werden. Den Angaben zufolge hat die Sparte in den kommenden 15 Jahren ein Bruttoumsatz-Potenzial von in der Spitze 15 Milliarden Euro.",
+      "url": "https://de.finance.yahoo.com/nachrichten/ipo-b%C3%B6rsenreife-basf-agrarsparte-r%C3%BCckt-084252262.html?.tsrc=rss",
+      "published_at": "2026-11-24T08:42:52Z",
+      "tickers": [
+        "BAS.DE",
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-24T19:28:53Z",
+      "region": "EU"
+    },
+    {
       "id": "27757bf53d4d74cf",
       "source": "prnewswire_financial",
       "title": "Clapp Finance lanza Crypto Card con 0 % de comisiones por transacci\u00f3n",
@@ -608,6 +1489,26 @@
       "scanned_at": "2026-11-24T11:09:59Z"
     },
     {
+      "id": "e83b25f38d5f3a05",
+      "source": "yahoo_eu",
+      "title": "ABB unterst\u00fctzt die Skalierung industrieller KI mit dem weltweit ersten Motor mit integrierter Intelligenz",
+      "summary": "ABB hat mit Intelleqt\u2122 heute den weltweit ersten Niederspannungsmotor mit werkseitig integrierter Intelligenz vorgestellt, der ab der ersten Umdrehung operative Echtzeit-Einblicke liefert. Dank einer offenen Architektur erm\u00f6glicht er Kunden branchen\u00fcbergreifend die Anbindung von Motordaten an ihre bestehenden digitalen Plattformen bei vollst\u00e4ndiger Datenhoheit. Durch die Bereitstellung von Maschinenintelligenz mittels einer Plug-and-Play-L\u00f6sung unterst\u00fctzt Intelleqt\u2122 Unternehmen beim Aufbau der",
+      "url": "https://de.finance.yahoo.com/nachrichten/abb-unterst%C3%BCtzt-skalierung-industrieller-ki-080100896.html?.tsrc=rss",
+      "published_at": "2026-11-24T08:01:00Z",
+      "tickers": [
+        "ENI.MI",
+        "ABBN.SW"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-24T19:28:51Z",
+      "region": "EU"
+    },
+    {
       "id": "33b1937b6f58d682",
       "source": "prnewswire_financial",
       "title": "UP Fintech: Q3 Net Income Rises 16.4% QoQ, Client Assets Reach Record US$64.8 Billion",
@@ -623,6 +1524,28 @@
       "news_side": null,
       "actionable": false,
       "scanned_at": "2026-11-24T11:09:59Z"
+    },
+    {
+      "id": "d3a1e1958c2d723d",
+      "source": "yahoo_eu",
+      "title": "Norsk Hydro: Deutsche Bank r\u00e4t nach schwachem Jahr zum Kauf \u2013 Ziel 86 Kronen",
+      "summary": "Investing.com \u2013 Kursziel gesenkt, Votum angehoben: Die Deutsche Bank traut dem norwegischen Aluminiumhersteller Norsk Hydro (OL:NHY) wieder mehr zu und stuft die Aktie von \u201eHold\u201c auf \u201eBuy\u201c hoch. Nach den deutlichen K\u00fcrzungen der Konsenssch\u00e4tzungen sehen die Analysten einen Gro\u00dfteil der Abw\u00e4rtsrisiken bereits im Kurs eingepreist, und gemessen am aktuellen Niveau bleibt rund ein Drittel Luft nach oben.",
+      "url": "https://de.finance.yahoo.com/nachrichten/norsk-hydro-deutsche-bank-r%C3%A4t-075403294.html?.tsrc=rss",
+      "published_at": "2026-11-24T07:54:03Z",
+      "tickers": [
+        "DBK.DE",
+        "RWE.DE",
+        "INGA.AS",
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "analyst",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "analyst",
+      "scanned_at": "2026-11-24T19:28:50Z",
+      "region": "EU"
     },
     {
       "id": "44d72ff168f8af0b",
@@ -709,6 +1632,25 @@
       "scanned_at": "2026-11-24T11:09:59Z"
     },
     {
+      "id": "412c3c1420a169ef",
+      "source": "eqs_google",
+      "title": "Jungfraubahn Holding AG: Jungfraubahn Holding AG unterbreitet ein \u00f6ffentliches Kaufangebot f\u00fcr alle Aktien der Schilthornbahn AG | Ad-hoc - EQS News",
+      "summary": "Jungfraubahn Holding AG: Jungfraubahn Holding AG unterbreitet ein \u00f6ffentliches Kaufangebot f\u00fcr alle Aktien der Schilthornbahn AG | Ad-hoc &nbsp;&nbsp; EQS News",
+      "url": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxQWWxyb2VRLVR3Y0cta2hfVnVOTmgzV2hZNXQ4OWlqMnZTUlhmQ0NOVHc2NC00THJiOUZxWXFINzhBR3JSN09GSU95T1pMN1MyM1JKd1JjMVl2Tml6NEc4ZUE2OHFXbEpVRkhlcjh4eVhGV3pzbUlaakhpTVB1ZThsd205WVEyWHVubmpJcGZWVEtyVTlzaG5PejRCR21BU055RW8tTU13Q3Fjbms0a1NESTZWMC1qNTZhR19rX1lwc1VfZTF2UWVCMFVZYkRZd280YVdkNDFsUmNnZlE2UVZXZENzeWl5TExKaVh6aVpRRlVKUkVWQXBibVE2TWV5Z2FTbzNYMGQtRnBObTNvcDk0UUEzNDNRSERaTGxVLTcta3IydWU3SldULWpzY2ROak1XVFpTaEtEa1BsSkdIV0dnR1RHaVFOeFhhdlNBWFNFNURDMENaM050ZnR3?oc=5",
+      "published_at": "2026-11-24T05:33:00Z",
+      "tickers": [
+        "INGA.AS"
+      ],
+      "form": "EU_ADHOC",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-24T19:28:43Z",
+      "region": "EU"
+    },
+    {
       "id": "80de08331870cb30",
       "source": "prnewswire_financial",
       "title": "Bitmine Immersion Technologies (BMNR) gibt bekannt, dass die ETH-Best\u00e4nde 6,09 Millionen Token erreicht haben und sich die Gesamtbest\u00e4nde an Kryptow\u00e4hrungen sowie an Barmitteln und marktf\u00e4higen Wertpapieren auf 11,1 Milliarden US-Dollar belaufen",
@@ -723,6 +1665,25 @@
       "news_side": null,
       "actionable": false,
       "scanned_at": "2026-11-24T11:09:59Z"
+    },
+    {
+      "id": "928c5b67aaa45895",
+      "source": "yahoo_eu",
+      "title": "ING Deutschland f\u00fchrt Kreditkarte ein - aber nicht f\u00fcr alle",
+      "summary": "Vorstandschef Stoy hat das Thema schon im vergangenen Jahr \u00abganz dick\u00bb auf seine To-do-Liste geschrieben. Nun liefert die Direktbank. Alle Kunden wird die ING-Kreditkarte aber nicht gl\u00fccklich machen.",
+      "url": "https://de.finance.yahoo.com/nachrichten/ing-deutschland-f%C3%BChrt-kreditkarte-f%C3%BCr-050005435.html?.tsrc=rss",
+      "published_at": "2026-11-24T05:00:05Z",
+      "tickers": [
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-24T19:28:47Z",
+      "region": "EU"
     },
     {
       "id": "19d6534e841a3595",
@@ -2085,6 +3046,28 @@
       "scanned_at": "2026-11-24T01:17:50Z"
     },
     {
+      "id": "1aa0f9ac720c94be",
+      "source": "yahoo_eu",
+      "title": "ANALYSE-FLASH: JPMorgan bel\u00e4sst Adyen auf 'Overweight' - Ziel 1160 Euro",
+      "summary": "Die US-Bank JPMorgan hat die Einstufung f\u00fcr Adyen auf \"Overweight\" mit einem Kursziel von 1160 Euro belassen. Analyst Sandeep Deshpande rechnet laut einem am Montagabend vorliegenden Kommentar nicht mit wesentlichen Strategie-\u00c4nderungen aufgrund des angek\u00fcndigten R\u00fcckzugs von Mitgr\u00fcnder und Co-Vorstandschef (CEO) Pieter van der Does, da Co-CEO Ingo Uytdehaage dann die alleinige Vorstandsposition \u00fcbernehme. Dennoch verwies Deshpande darauf, dass viele Investoren seit Herbst 2025 vo",
+      "url": "https://de.finance.yahoo.com/nachrichten/analyse-flash-jpmorgan-bel%C3%A4sst-adyen-212002467.html?.tsrc=rss",
+      "published_at": "2026-11-23T21:20:02Z",
+      "tickers": [
+        "ADYEN.AS",
+        "RWE.DE",
+        "INGA.AS",
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "analyst",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "analyst",
+      "scanned_at": "2026-11-24T19:28:47Z",
+      "region": "EU"
+    },
+    {
       "id": "cc652c6404697880",
       "source": "marketwatch",
       "title": "Short sellers get smoked as Nvidia tallies biggest one-day gain in stock-market history",
@@ -2253,6 +3236,48 @@
       "scanned_at": "2026-11-24T11:10:00Z"
     },
     {
+      "id": "bf7cb9bdc6a6cece",
+      "source": "yahoo_eu",
+      "title": "Eli Lilly sieht Onkologie nach Adipositas-Boom als n\u00e4chste zentrale Wachstumss\u00e4ule",
+      "summary": "Investing.com - Eli Lilly & Co. hat die Krebstherapie als n\u00e4chste gro\u00dfe Wachstumschance nach den Erfolgen im Markt f\u00fcr Adipositas-Medikamente ausgemacht. Dies erkl\u00e4rte Jake Van Naarden, Leiter der Bereiche Business Development und Onkologie des Unternehmens.",
+      "url": "https://de.finance.yahoo.com/nachrichten/eli-lilly-sieht-onkologie-adipositas-203928730.html?.tsrc=rss",
+      "published_at": "2026-11-23T20:39:28Z",
+      "tickers": [
+        "RO.SW",
+        "INGA.AS",
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-24T19:28:48Z",
+      "region": "EU"
+    },
+    {
+      "id": "b4ed706e4ea18eb0",
+      "source": "yahoo_eu",
+      "title": "Adyen: Co-CEO Pieter van der Does tritt zum Jahresende ab \u2013 Ingo Uytdehaage \u00fcbernimmt alleinige F\u00fchrung",
+      "summary": "Investing.com - Adyen NV (AS:ADYEN) gab am Montag nach europ\u00e4ischem B\u00f6rsenschluss bekannt, dass Mitgr\u00fcnder Pieter van der Does zum Jahresende von seiner Position als Co-Chief Executive Officer zur\u00fccktreten und damit einen mehrj\u00e4hrigen Nachfolgeplan abschlie\u00dfen wird. Ingo Uytdehaage, der seit 2023 gemeinsam mit van der Does als Co-CEO fungiert, \u00fcbernimmt mit Wirkung zum 1. Januar 2027 die alleinige F\u00fchrung des in Amsterdam ans\u00e4ssigen Zahlungsdienstleisters.",
+      "url": "https://de.finance.yahoo.com/nachrichten/adyen-co-ceo-pieter-van-203337948.html?.tsrc=rss",
+      "published_at": "2026-11-23T20:33:37Z",
+      "tickers": [
+        "ADYEN.AS",
+        "INGA.AS",
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-24T19:28:47Z",
+      "region": "EU"
+    },
+    {
       "id": "54c415bf933f6dae",
       "source": "wso_nachrichten",
       "title": "Aktie im Fokus: Springer Nature verliert 4,12 % bei Aktienplatzierung durch Gro\u00dfaktion\u00e4r",
@@ -2322,6 +3347,26 @@
       "actionable": false,
       "eu_category": "other_8k",
       "scanned_at": "2026-11-23T20:05:51Z",
+      "region": "EU"
+    },
+    {
+      "id": "55cfeaf96f68ec14",
+      "source": "yahoo_eu",
+      "title": "Adyens Co-Chef und Mitgr\u00fcnder Pieter van der Does geht zum Jahresende",
+      "summary": "Der Mitgr\u00fcnder des niederl\u00e4ndischen Zahlungsdienstleister Adyen , Pieter van der Does, wird zum Jahresende als Co-Chef zur\u00fccktreten. Ingo Uytdehaage, der das Unternehmen seit 2023 gemeinsam mit van der Does leitet, \u00fcbernimmt dann das Ruder allein, wie Adyen am Montag nach B\u00f6rsenschluss mitteilte. \"Nach 20 Jahren ist dies f\u00fcr mich der richtige Zeitpunkt, um mit einem positiven Gef\u00fchl und einer sehr guten Bilanz zur\u00fcckzutreten\", sagt van der Does, der Adyen 2006 mitger\u00fcndet hatte. De",
+      "url": "https://de.finance.yahoo.com/nachrichten/adyens-co-chef-mitgr%C3%BCnder-pieter-194303199.html?.tsrc=rss",
+      "published_at": "2026-11-23T19:43:03Z",
+      "tickers": [
+        "ADYEN.AS",
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-24T19:28:47Z",
       "region": "EU"
     },
     {
@@ -2856,9 +3901,9 @@
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": false,
+      "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-23T20:05:56Z",
+      "scanned_at": "2026-11-24T19:28:48Z",
       "region": "EU"
     },
     {
@@ -2899,6 +3944,23 @@
       "region": "EU"
     },
     {
+      "id": "1ee5a7e354739bdf",
+      "source": "eqs_google",
+      "title": "EQS-DD: pferdewetten.de AG: Markus Knoss, Participation in a capital increase - finanzen.ch",
+      "summary": "EQS-DD: pferdewetten.de AG: Markus Knoss, Participation in a capital increase &nbsp;&nbsp; finanzen.ch",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPUC1ERGVlNWFWb2tiYVhoMU1uT2NCbjlTRFRObGJrLWVGSGhJU3hlc21SN0ZQaUx4T2hnbU1JdnJub0xtLUhfSElYUkxvU1dWSTFaWF9SZkNLZ2FwVWU2ZndKTHNVS1NwUkNkMC1aaVl0UjYtbzhxNS1keC1laDdqekVPMmhyZV8yZjc2QU9KNkdYLUJ4QkFWQXNNUzQ4NUphVU5DM0lIR3pyalNCQndad0o0V0VVSTVzTnVFV1lRV0poNVlVM0NN?oc=5",
+      "published_at": "2026-11-23T14:51:49Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "offering",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "eu_category": "offering",
+      "scanned_at": "2026-11-24T19:28:44Z",
+      "region": "EU"
+    },
+    {
       "id": "8496c57722d4aa9f",
       "source": "yahoo_eu",
       "title": "AKTIEN IM FOKUS: KI-Profiteure vorn - 'Huang-R\u00fcckkehr Signal der Stabilit\u00e4t'",
@@ -2915,9 +3977,9 @@
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": false,
+      "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-23T20:05:52Z",
+      "scanned_at": "2026-11-24T19:28:49Z",
       "region": "EU"
     },
     {
@@ -4198,12 +5260,12 @@
         "SSE.L"
       ],
       "form": "EU_NEWS",
-      "event_type": "other",
+      "event_type": "analyst",
       "direction": "neutral",
       "news_side": null,
-      "actionable": false,
+      "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-23T20:05:56Z",
+      "scanned_at": "2026-11-24T19:28:51Z",
       "region": "EU"
     },
     {
@@ -4222,9 +5284,9 @@
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": false,
+      "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-23T20:05:52Z",
+      "scanned_at": "2026-11-24T19:28:49Z",
       "region": "EU"
     },
     {
@@ -4235,15 +5297,16 @@
       "url": "https://de.finance.yahoo.com/nachrichten/abb-will-deutsche-firma-ziehl-074448294.html?.tsrc=rss",
       "published_at": "2026-11-23T07:44:48Z",
       "tickers": [
-        "ABB"
+        "RWE.DE",
+        "ABBN.SW"
       ],
       "form": "EU_NEWS",
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": false,
+      "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-23T20:05:55Z",
+      "scanned_at": "2026-11-24T19:28:51Z",
       "region": "EU"
     },
     {
@@ -4259,6 +5322,23 @@
       "news_side": null,
       "actionable": false,
       "scanned_at": "2026-11-24T11:10:00Z"
+    },
+    {
+      "id": "608f5ebd5a7bddf6",
+      "source": "eqs_google",
+      "title": "Newron st\u00e4rkt IP-Portfolio f\u00fcr Evenamide | Ad-hoc - EQS News",
+      "summary": "Newron st\u00e4rkt IP-Portfolio f\u00fcr Evenamide | Ad-hoc &nbsp;&nbsp; EQS News",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUnQtQ1h1VEl1eFFSMEtiOUExVmNYVnMyQ1VJUzNPeXdmQkMzeVZDaVFXRUFUU0xab0JJclNiOTRBQjBpaXJOQmdxVk1tZDJ6X0Y5R1drQkxHT1hXR2tXVVgta0l2SW9UU1Bta2pkMlRnSDZaY0JYRFBtcGZXdmtmMmZrTzVDTS0yOVlXZnRnNk5GTkxxdWtlSmdVZVhiZ2dzTUlOdk14WHl1MEhFWEVNT0s4XzlGQmhC?oc=5",
+      "published_at": "2026-11-23T06:00:00Z",
+      "tickers": [],
+      "form": "EU_ADHOC",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-24T19:28:43Z",
+      "region": "EU"
     },
     {
       "id": "2fd935a7b56dfad4",
@@ -4280,6 +5360,25 @@
       "region": "EU"
     },
     {
+      "id": "b4c34dc18be09aa8",
+      "source": "eqs_google",
+      "title": "Julius Baer Group Ltd. Interim Management Statement f\u00fcr die ersten zehn Monate 2026* - EQS News",
+      "summary": "Julius Baer Group Ltd. Interim Management Statement f\u00fcr die ersten zehn Monate 2026* &nbsp;&nbsp; EQS News",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPb1NRQlN0UzJOUnhUQkw1RTFkQmxxUFp0Q3pJdmhZU21HLUktZGU3aXlVWDZsaktCeGVFakJHb3N0aTdHT0tSUnNjSFpuQnptOS1jY29IcW9UdExodzA5N0ZWUVpmajY3Z0FsX1RKT2I1S3JENnBLRm9xeGc5QXpYdEV5WUw1OWtwd24wM0JaVUp0OWk5ODFOREl1a3Zza3RESVJoaG5EcnV6SHZEc0UyR1U4Snl4Z1ZQV3dVQUFVcUNUV2NNSXlBNnNueVZydlVmV1BYdDk5SQ?oc=5",
+      "published_at": "2026-11-23T05:59:00Z",
+      "tickers": [
+        "BA.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-24T19:28:43Z",
+      "region": "EU"
+    },
+    {
       "id": "64818566aafd7c18",
       "source": "yahoo_eu",
       "title": "Siemens-Chef: China k\u00f6nnte US-KI-Firmen das Gesch\u00e4ft verderben",
@@ -4295,9 +5394,9 @@
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": false,
+      "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-23T20:05:57Z",
+      "scanned_at": "2026-11-24T19:28:50Z",
       "region": "EU"
     },
     {
@@ -4314,9 +5413,9 @@
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": false,
+      "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-23T20:05:57Z",
+      "scanned_at": "2026-11-24T19:28:50Z",
       "region": "EU"
     },
     {
@@ -4413,9 +5512,9 @@
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": false,
+      "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-23T20:05:57Z",
+      "scanned_at": "2026-11-24T19:28:50Z",
       "region": "EU"
     },
     {
@@ -5086,9 +6185,9 @@
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": false,
+      "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-23T20:05:49Z",
+      "scanned_at": "2026-11-24T19:28:44Z",
       "region": "EU"
     },
     {
@@ -5303,253 +6402,6 @@
       "news_side": null,
       "actionable": false,
       "scanned_at": "2026-11-22T09:56:40Z"
-    },
-    {
-      "id": "814add6fc6e33419",
-      "source": "prnewswire",
-      "title": "Le district de Nansha : pivot strat\u00e9gique de la GBA pour le commerce Asie-Pacifique",
-      "summary": "GUANGZHOU, Chine, 22 novembre 2026 /PRNewswire/ -- Un reportage diffus\u00e9 par South. La 33e r\u00e9union des dirigeants \u00e9conomiques de la Coop\u00e9ration \u00e9conomique Asie-Pacifique (APEC) \u00e0 Shenzhen devrait offrir de nouvelles opportunit\u00e9s \u00e0 la r\u00e9gion de la Grande Baie Guangdong-Hong Kong-Macao (GBA)...",
-      "url": "https://www.prnewswire.com/news-releases/le-district-de-nansha--pivot-strategique-de-la-gba-pour-le-commerce-asie-pacifique-302947610.html",
-      "published_at": "2026-11-22T04:56:00Z",
-      "tickers": [
-        "APEC",
-        "GBA"
-      ],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-22T09:56:40Z"
-    },
-    {
-      "id": "af382f6a34a77f01",
-      "source": "prnewswire",
-      "title": "\u041d\u0430\u043d\u044c\u0448\u0430 \u0432 \u0413\u0443\u0430\u043d\u0447\u0436\u043e\u0443 -- \u0441\u0442\u0440\u0430\u0442\u0435\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0446\u0435\u043d\u0442\u0440 GBA \u0434\u043b\u044f \u0442\u043e\u0440\u0433\u043e\u0432\u043b\u0438 \u0432 \u0410\u0437\u0438\u0430\u0442\u0441\u043a\u043e-\u0422\u0438\u0445\u043e\u043e\u043a\u0435\u0430\u043d\u0441\u043a\u043e\u043c \u0440\u0435\u0433\u0438\u043e\u043d\u0435",
-      "summary": "\u0413\u0423\u0410\u041d\u0427\u0416\u041e\u0423, \u041a\u0438\u0442\u0430\u0439, 22 \u043d\u043e\u044f\u0431\u0440\u044f 2026 \u0433. /PRNewswire/ -- \u042d\u0442\u043e \u043d\u043e\u0432\u043e\u0441\u0442\u043d\u043e\u0439 \u0440\u0435\u043f\u043e\u0440\u0442\u0430\u0436 South. \u041e\u0436\u0438\u0434\u0430\u0435\u0442\u0441\u044f, \u0447\u0442\u043e 33-\u044f \u0432\u0441\u0442\u0440\u0435\u0447\u0430 \u044d\u043a\u043e\u043d\u043e\u043c\u0438\u0447\u0435\u0441\u043a\u0438\u0445 \u043b\u0438\u0434\u0435\u0440\u043e\u0432 \u0410\u0437\u0438\u0430\u0442\u0441\u043a\u043e-\u0422\u0438\u0445\u043e\u043e\u043a\u0435\u0430\u043d\u0441\u043a\u043e\u0433\u043e \u044d\u043a\u043e\u043d\u043e\u043c\u0438\u0447\u0435\u0441\u043a\u043e\u0433\u043e \u0441\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u0447\u0435\u0441\u0442\u0432\u0430 (\u0410\u0422\u042d\u0421) \u0432 \u0428\u044d\u043d\u044c\u0447\u0436\u044d\u043d\u0435 \u043f\u0440\u0438\u043d\u0435\u0441\u0435\u0442 \u043d\u043e\u0432\u044b\u0435 \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u0438 \u0434\u043b\u044f \u0440\u0435\u0433\u0438\u043e\u043d\u0430 \u0411\u043e\u043b\u044c\u0448\u043e\u0433\u043e \u0437\u0430\u043b\u0438\u0432\u0430 \u0413\u0443\u0430\u043d\u0434\u0443\u043d-\u0413\u043e\u043d\u043a\u043e\u043d\u0433-\u041c\u0430\u043a\u0430\u043e (GBA) \u0438...",
-      "url": "https://www.prnewswire.com/news-releases/------gba-------302947609.html",
-      "published_at": "2026-11-22T04:54:00Z",
-      "tickers": [
-        "GBA"
-      ],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-22T09:56:40Z"
-    },
-    {
-      "id": "729870215b348319",
-      "source": "prnewswire",
-      "title": "Die Sailun Group nimmt an der COP31 teil und pr\u00e4sentiert umweltfreundliche Praktiken, vorangetrieben durch technologische Innovationen",
-      "summary": "ANTALYA, T\u00fcrkei, 22. November 2026 /PRNewswire/ -- Die 31. Konferenz der Vertragsparteien des Rahmen\u00fcbereinkommens der Vereinten Nationen \u00fcber Klima\u00e4nderungen (COP31) fand vom 9. bis 20. November in Antalya, T\u00fcrkei, statt. Als Vertreter der gr\u00fcnen Transformation der Gummi- und...",
-      "url": "https://www.prnewswire.com/news-releases/die-sailun-group-nimmt-an-der-cop31-teil-und-prasentiert-umweltfreundliche-praktiken-vorangetrieben-durch-technologische-innovationen-302947608.html",
-      "published_at": "2026-11-22T04:39:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-22T09:56:40Z"
-    },
-    {
-      "id": "f300fe948944c698",
-      "source": "prnewswire",
-      "title": "RingConn pr\u00e4sentiert \u201eThe One Ring\", einen limitierten Smartring der 3. Generation, inspiriert von der \u201eHerr der Ringe\"-Filmtrilogie",
-      "summary": "Ein Smartring in limitierter Auflage bringt die ikonische Trilogie in den Alltag und l\u00e4dt die Nutzer ein, mit dem RingConn Gen 3 Smart Ring ihre eigene Reise der Selbstentdeckung und des Gesundheitsbewusstseins zu beginnen. NEW YORK, 22. November 2026 /PRNewswire/ -- RingConn, eine Marke...",
-      "url": "https://www.prnewswire.com/news-releases/ringconn-prasentiert-the-one-ring-einen-limitierten-smartring-der-3-generation-inspiriert-von-der-herr-der-ringe-filmtrilogie-302947605.html",
-      "published_at": "2026-11-22T04:09:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-22T09:56:40Z"
-    },
-    {
-      "id": "86985b64d76cafeb",
-      "source": "prnewswire",
-      "title": "RingConn d\u00e9voile l'Anneau Unique, un anneau connect\u00e9 de 3\u1d49 g\u00e9n\u00e9ration en \u00e9dition limit\u00e9e inspir\u00e9 de la trilogie cin\u00e9matographique du Seigneur des Anneaux.",
-      "summary": "Un anneau connect\u00e9 en \u00e9dition limit\u00e9e fait entrer la trilogie embl\u00e9matique dans la vie quotidienne, invitant les utilisateurs \u00e0 entamer leur propre voyage de d\u00e9couverte de soi et de sensibilisation \u00e0 la sant\u00e9 avec l'anneau connect\u00e9 de 3\u1d49 g\u00e9n\u00e9ration de RingConn. NEW YORK, 22 novembre 2026...",
-      "url": "https://www.prnewswire.com/news-releases/ringconn-devoile-lanneau-unique-un-anneau-connecte-de-3-generation-en-edition-limitee-inspire-de-la-trilogie-cinematographique-du-seigneur-des-anneaux-302947603.html",
-      "published_at": "2026-11-22T03:48:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-22T09:56:40Z"
-    },
-    {
-      "id": "8cfb0976ec9f7388",
-      "source": "prnewswire",
-      "title": "Ontworpen voor extreme robuustheid: ATEN introduceert zijn eerste industri\u00eble KVM-over-IP-extender en wint de Good Design Award 2026",
-      "summary": "Ontworpen voor veeleisende maritieme omgevingen, met internationale maritieme certificeringen, een beschermende conformal coating en bestendigheid tegen zoutnevel. TAIPEI, 22 november 2026 /PRNewswire/ -- ATEN International, wereldwijd marktleider op het gebied van intelligente...",
-      "url": "https://www.prnewswire.com/news-releases/ontworpen-voor-extreme-robuustheid-aten-introduceert-zijn-eerste-industriele-kvm-over-ip-extender-en-wint-de-good-design-award-2026-302947600.html",
-      "published_at": "2026-11-22T03:24:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-22T09:56:40Z"
-    },
-    {
-      "id": "859664cded68e86b",
-      "source": "prnewswire",
-      "title": "A Seattle Startup Brings Your Pet to Life on Your Phone and Laptop With the Avatar Mirroring Their Every Move in Real Time",
-      "summary": "The pet AI startup will demonstrate PettiLive! at CES 2027. SEATTLE, Nov. 21, 2026 /PRNewswire/ -- PettiChat, the Seattle-based pet AI startup behind the world's first real-time AI pet translator, today announced the launch of PettiLive!, a digital version of each pet that lives in the...",
-      "url": "https://www.prnewswire.com/news-releases/a-seattle-startup-brings-your-pet-to-life-on-your-phone-and-laptop-with-the-avatar-mirroring-their-every-move-in-real-time-302947597.html",
-      "published_at": "2026-11-22T01:15:00Z",
-      "tickers": [
-        "A"
-      ],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-22T02:08:22Z"
-    },
-    {
-      "id": "c894805bf7c8ea30",
-      "source": "prnewswire",
-      "title": "PHONO Marks 20th Anniversary and Secures New Orders at RE+ 2026",
-      "summary": "LAS VEGAS, Nov. 21, 2026 /PRNewswire/ -- PHONO showcased its diverse solar and energy storage solutions at RE+ 2026, held November 17\u201319 in Las Vegas, highlighting its latest offerings for residential, commercial, solar carport, and utility-scale applications. Marking its 20th...",
-      "url": "https://www.prnewswire.com/news-releases/phono-marks-20th-anniversary-and-secures-new-orders-at-re-2026-302947598.html",
-      "published_at": "2026-11-22T01:12:00Z",
-      "tickers": [
-        "PHONO"
-      ],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-22T02:08:22Z"
-    },
-    {
-      "id": "19205a8c511035e0",
-      "source": "prnewswire",
-      "title": "Humaid bin Ammar attends day two of Ajman Media Forum 2026 and honours participants and partners",
-      "summary": "AJMAN, UAE, Nov. 21, 2026 /PRNewswire/ -- His Highness Sheikh Ammar bin Humaid Al Nuaimi, Crown Prince of Ajman and Chairman of the Executive Council, launched the \"Ajman Memory\" project, implemented by Ajman Government Media Office to preserve and document the emirate's historical and...",
-      "url": "https://www.prnewswire.com/news-releases/humaid-bin-ammar-attends-day-two-of-ajman-media-forum-2026-and-honours-participants-and-partners-302947596.html",
-      "published_at": "2026-11-22T00:19:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-22T02:08:22Z"
-    },
-    {
-      "id": "6df1d6819486891a",
-      "source": "prnewswire",
-      "title": "Beyond the Lights: How Kelly and Duane Roberts Created a Holiday Legacy That Will Shine for Generations",
-      "summary": "As the Mission Inn Festival of Lights enters a new chapter under new ownership, the vision of Kelly and Duane Roberts continues to illuminate Riverside and inspire generations LOS ANGELES, Nov. 21, 2026 /PRNewswire/ -- For more than three decades, millions of twinkling lights have...",
-      "url": "https://www.prnewswire.com/news-releases/beyond-the-lights-how-kelly-and-duane-roberts-created-a-holiday-legacy-that-will-shine-for-generations-302947595.html",
-      "published_at": "2026-11-22T00:17:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-22T02:08:22Z"
-    },
-    {
-      "id": "a25ca10b2ec25177",
-      "source": "prnewswire",
-      "title": "Ajman Government Media Office's THE SIGNAL forum features Saeed Al Eter on how public trust and a successful development model underpin UAE soft power in times of crisis",
-      "summary": "AJMAN, UAE, Nov. 21, 2026 /PRNewswire/ -- HE Saeed Al Eter, Chairman of the UAE Government Media Office, said the UAE's soft power is rooted in a successful development model, leadership that enjoys public trust and institutions that have demonstrated their ability to respond effectively...",
-      "url": "https://www.prnewswire.com/news-releases/ajman-government-media-offices-the-signal-forum-features-saeed-al-eter-on-how-public-trust-and-a-successful-development-model-underpin-uae-soft-power-in-times-of-crisis-302947594.html",
-      "published_at": "2026-11-21T23:56:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-22T02:08:22Z"
-    },
-    {
-      "id": "19901166e684bc4e",
-      "source": "prnewswire",
-      "title": "Isar Aerospace starts build-out of its launch site at Spaceport Nova Scotia, advancing Canada's sovereign access to space",
-      "summary": "HALIFAX, NS, Nov. 21, 2026 /PRNewswire/ -- Isar Aerospace (\"Isar\") and Maritime Launch Services (\"MLS\") (TSX: MAXQ) (OTCQB: MAXQF) are taking the next step in advancing Canadian space capabilities with the transition of a dedicated launch complex at Spaceport Nova Scotia to Isar. This...",
-      "url": "https://www.prnewswire.com/news-releases/isar-aerospace-starts-build-out-of-its-launch-site-at-spaceport-nova-scotia-advancing-canadas-sovereign-access-to-space-302947593.html",
-      "published_at": "2026-11-21T22:46:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-22T02:08:22Z"
-    },
-    {
-      "id": "1c020e7c2795f82c",
-      "source": "prnewswire",
-      "title": "Toyota mejora la Sienna 2027 con actualizaciones integrales en el tren motriz y la seguridad",
-      "summary": "La Sienna 2027 actualiza sus sistemas de tren motriz, seguridad y tecnolog\u00eda para ofrecer m\u00e1s valor en su paquete ideal para familias Toyota presenta su sistema h\u00edbrido de sexta generaci\u00f3n con nuevos motores el\u00e9ctricos de alta eficiencia, bater\u00eda de iones de litio y motor recalibrado. La...",
-      "url": "https://www.prnewswire.com/news-releases/toyota-mejora-la-sienna-2027-con-actualizaciones-integrales-en-el-tren-motriz-y-la-seguridad-846008234.html",
-      "published_at": "2026-11-21T20:59:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-22T02:08:22Z"
-    },
-    {
-      "id": "3a1f6631e4630dba",
-      "source": "prnewswire",
-      "title": "Huawei svela le capacit\u00e0 di scalabilit\u00e0 dell'IA finanziaria al FinTech Festival 2026 di Singapore",
-      "summary": "Grazie allinfrastruttura basata sull'IA ibrida aperta e a tre fabbriche intelligenti, Huawei aiuta le istituzioni finanziarie globali a creare vantaggi competitivi differenziati SINGAPORE, 21 novembre 2026 /PRNewswire/ -- Al SFF 2026, Huawei ha condiviso informazioni utili su...",
-      "url": "https://www.prnewswire.com/news-releases/huawei-svela-le-capacita-di-scalabilita-dellia-finanziaria-al-fintech-festival-2026-di-singapore-302947587.html",
-      "published_at": "2026-11-21T20:30:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-22T02:08:22Z"
-    },
-    {
-      "id": "33715446edc1f757",
-      "source": "prnewswire_financial",
-      "title": "Huawei svela le capacit\u00e0 di scalabilit\u00e0 dell'IA finanziaria al FinTech Festival 2026 di Singapore",
-      "summary": "Grazie allinfrastruttura basata sull'IA ibrida aperta e a tre fabbriche intelligenti, Huawei aiuta le istituzioni finanziarie globali a creare vantaggi competitivi differenziati SINGAPORE, 21 novembre 2026 /PRNewswire/ -- Al SFF 2026, Huawei ha condiviso informazioni utili su...",
-      "url": "https://www.prnewswire.com/news-releases/huawei-svela-le-capacita-di-scalabilita-dellia-finanziaria-al-fintech-festival-2026-di-singapore-302947587.html",
-      "published_at": "2026-11-21T20:30:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-23T03:41:20Z"
-    },
-    {
-      "id": "51e8581d140f6a98",
-      "source": "marketwatch",
-      "title": "\u2018It\u2019s downright dirty\u2019: My brother moved in with our ailing mother and closed her bank account. What can I do?",
-      "summary": "\u201cIt is devastating when the people you should be able to trust become the very people you have to protect yourself from.\u201d",
-      "url": "https://www.marketwatch.com/story/it-is-heartbreaking-exhausting-and-downright-dirty-my-brother-took-over-our-ailing-mothers-life-and-finances-what-can-i-do-b4d48817?mod=mw_rss_topstories",
-      "published_at": "2026-11-21T20:15:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-22T09:56:43Z"
-    },
-    {
-      "id": "7da89c80fe71beb7",
-      "source": "cnbc_business",
-      "title": "International first class is over for U.S. airlines. Enter the mega business-class cabin",
-      "summary": "Airlines are opting to build giant business-class cabins with ever-more luxurious suites.",
-      "url": "https://www.cnbc.com/2026/11/21/us-airlines-first-class-business-class.html",
-      "published_at": "2026-11-21T12:00:01Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-24T11:10:00Z"
     }
   ]
 }

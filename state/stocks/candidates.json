@@ -1,6 +1,6 @@
 {
   "mode": "paper",
-  "as_of": "2026-11-24T15:11:03Z",
+  "as_of": "2026-11-24T19:29:25Z",
   "as_of_et": "2026-11-24 10:11 ET",
   "forward_test_start": "2026-11-10",
   "spy_above_ma50": false,
@@ -29,7 +29,7 @@
     "gap_filtered_guidance": "Config: long guidance_raise with gap \u22655% \u00b7 5% \u00b7 max 8 \u00b7 hold 5d \u00b7 no stop \u00b7 next_open (config/strategies/gap_filtered_guidance.yaml). Box test +4.4%.",
     "wide_capacity": "Config: quality longs \u00b7 5% \u00b7 max 15 \u00b7 hold 2d \u00b7 no stop \u00b7 next_open (config/strategies/wide_capacity.yaml). Box test +2.1%.",
     "bigmove_unified_v1": "Fade offering / PR-pop / M&A gap-downs and selective gap-down fades across pre/regular/after hours. Alert-only mega-cap shocks. No earnings/guidance chase. 5% \u00b7 max 20 \u00b7 hold 5d \u00b7 0.5%/fill + 0.5% ext slippage \u00b7 config/strategies/bigmove_unified_v1.yaml.",
-    "bigmove_eu_v1": "EU liquid large/mid caps: fade \u226510% gap-downs (earnings / other-PR / no-news) on Xetra/Euronext primary hours (09:00\u201317:30 Berlin). Gap-up shorts dropped after EU event study. Alert-only mega-cap shocks. No earnings/guidance chase. 5% \u00b7 max 20 \u00b7 hold 5d \u00b7 0.5%/fill (+0.5% outside primary) \u00b7 config/strategies/bigmove_eu_v1.yaml."
+    "bigmove_eu_v1": "EU liquid large/mid caps: fade large gap-downs after earnings/PR/no-news on primary hours (09:00\u201317:30 Berlin). Alert-only mega-cap shocks. No earnings/ guidance chase. No gap-up shorts (unprofitable on EU event study).\n"
   },
   "candidates": [
     {
@@ -4002,6 +4002,100 @@
       "rule_tags": [],
       "suggested_side": null,
       "suggested_hold": null
+    },
+    {
+      "ticker": "SAN.PA",
+      "name": "SAN.PA",
+      "cal_date": "2026-11-24",
+      "gap_pct": 9.8991,
+      "last": 93.69999694824219,
+      "prev_close": 85.26000213623047,
+      "rel_vol": 1.817,
+      "adv20_usd": 243116883.3525154,
+      "avg_dollar_volume": 243116883.3525154,
+      "spy_above_ma50": false,
+      "session": "closed",
+      "headline": "Auf H\u00f6henflug: Sanofi: Kurssprung auf neues 52-Wochen-Hoch",
+      "news_event_type": "other_8k",
+      "news_direction": "bullish",
+      "news_side": null,
+      "news_actionable": true,
+      "news_source": "wso_nachrichten",
+      "news_id": "bc59a8f4c260055e",
+      "filing_url": "https://www.wallstreet-online.de/nachricht/21742795-hoehenflug-sanofi-kurssprung-52-wochen-hoch",
+      "rule_tags": [
+        "bigmove_eu",
+        "other_8k",
+        "bigmove_eu_v1"
+      ],
+      "source": "bigmove_eu_move_trigger",
+      "suggested_side": null,
+      "suggested_hold": 5,
+      "region": "EU",
+      "as_of": "2026-11-24T19:28:56Z"
+    },
+    {
+      "ticker": "ABBN.SW",
+      "name": "ABBN.SW",
+      "cal_date": "2026-11-24",
+      "gap_pct": -4.3618,
+      "last": 65.33999633789062,
+      "prev_close": 68.31999969482422,
+      "rel_vol": 0.525,
+      "adv20_usd": 255654099.54636,
+      "avg_dollar_volume": 255654099.54636,
+      "spy_above_ma50": false,
+      "session": "closed",
+      "headline": "ABB unterst\u00fctzt die Skalierung industrieller KI mit dem weltweit ersten Motor mit integrierter Intelligenz",
+      "news_event_type": "other_8k",
+      "news_direction": "bearish",
+      "news_side": null,
+      "news_actionable": true,
+      "news_source": "yahoo_eu",
+      "news_id": "e83b25f38d5f3a05",
+      "filing_url": "https://de.finance.yahoo.com/nachrichten/abb-unterst%C3%BCtzt-skalierung-industrieller-ki-080100896.html?.tsrc=rss",
+      "rule_tags": [
+        "bigmove_eu",
+        "other_8k",
+        "bigmove_eu_v1"
+      ],
+      "source": "bigmove_eu_move_trigger",
+      "suggested_side": null,
+      "suggested_hold": 5,
+      "region": "EU",
+      "as_of": "2026-11-24T19:29:01Z"
+    },
+    {
+      "ticker": "IFX.DE",
+      "name": "IFX.DE",
+      "cal_date": "2026-11-24",
+      "gap_pct": -10.0372,
+      "last": 43.560001373291016,
+      "prev_close": 48.41999816894531,
+      "rel_vol": 0.57,
+      "adv20_usd": 261968164.86612225,
+      "avg_dollar_volume": 261968164.86612225,
+      "spy_above_ma50": false,
+      "session": "closed",
+      "headline": "AKTIEN IM FOKUS: KI-Profiteure vorn - 'Huang-R\u00fcckkehr Signal der Stabilit\u00e4t'",
+      "news_event_type": "other_8k",
+      "news_direction": "bearish",
+      "news_side": null,
+      "news_actionable": true,
+      "news_source": "yahoo_eu",
+      "news_id": "8496c57722d4aa9f",
+      "filing_url": "https://de.finance.yahoo.com/nachrichten/aktien-fokus-ki-profiteure-vorn-143956890.html?.tsrc=rss",
+      "rule_tags": [
+        "bigmove_eu",
+        "other_8k",
+        "bigmove_eu_v1"
+      ],
+      "source": "bigmove_eu_move_trigger",
+      "suggested_side": null,
+      "suggested_hold": 5,
+      "region": "EU",
+      "as_of": "2026-11-24T19:29:03Z"
     }
-  ]
+  ],
+  "stoxx_above_ma50": false
 }
