@@ -1,6 +1,6 @@
 {
   "mode": "paper",
-  "as_of": "2026-11-24T04:45:05Z",
+  "as_of": "2026-11-24T10:04:07Z",
   "as_of_et": "2026-11-23 23:24 ET",
   "forward_test_start": "2026-11-10",
   "spy_above_ma50": false,
@@ -2273,36 +2273,6 @@
       "suggested_hold": null
     },
     {
-      "ticker": "HPE",
-      "name": "HPE",
-      "cal_date": "2026-11-23",
-      "gap_pct": 9.2642,
-      "last": 44.7,
-      "prev_close": 40.90999984741211,
-      "rel_vol": 2.226,
-      "adv20_usd": 724248875.5324554,
-      "avg_dollar_volume": 724248875.5324554,
-      "spy_above_ma50": false,
-      "session": "closed",
-      "headline": "HPE just posted its strongest growth ever \u2014 but its stock is sinking",
-      "news_event_type": "other_8k",
-      "news_direction": "bullish",
-      "news_side": null,
-      "news_actionable": true,
-      "news_source": "marketwatch",
-      "news_id": "32b46b33d299fc7f",
-      "filing_url": "https://www.marketwatch.com/story/hpe-just-posted-its-strongest-growth-ever-and-its-stock-is-tacking-on-more-big-gains-4421cebb?mod=mw_rss_topstories",
-      "rule_tags": [
-        "bigmove",
-        "other_8k",
-        "bigmove_unified_v1"
-      ],
-      "source": "bigmove_move_trigger",
-      "suggested_side": null,
-      "suggested_hold": 5,
-      "as_of": "2026-11-24T04:44:02Z"
-    },
-    {
       "ticker": "SN",
       "name": "SN",
       "cal_date": "2026-11-23",
@@ -2453,36 +2423,6 @@
       "as_of": "2026-11-24T04:44:46Z"
     },
     {
-      "ticker": "A",
-      "name": "A",
-      "cal_date": "2026-11-23",
-      "gap_pct": 10.3416,
-      "last": 188.0,
-      "prev_close": 170.3800048828125,
-      "rel_vol": 0.9,
-      "adv20_usd": 356178001.38061523,
-      "avg_dollar_volume": 356178001.38061523,
-      "spy_above_ma50": false,
-      "session": "closed",
-      "headline": "A Seattle Startup Brings Your Pet to Life on Your Phone and Laptop With the Avatar Mirroring Their Every Move in Real Time",
-      "news_event_type": "other_8k",
-      "news_direction": "bullish",
-      "news_side": null,
-      "news_actionable": true,
-      "news_source": "prnewswire",
-      "news_id": "859664cded68e86b",
-      "filing_url": "https://www.prnewswire.com/news-releases/a-seattle-startup-brings-your-pet-to-life-on-your-phone-and-laptop-with-the-avatar-mirroring-their-every-move-in-real-time-302947597.html",
-      "rule_tags": [
-        "bigmove",
-        "other_8k",
-        "bigmove_unified_v1"
-      ],
-      "source": "bigmove_move_trigger",
-      "suggested_side": null,
-      "suggested_hold": 5,
-      "as_of": "2026-11-24T04:44:54Z"
-    },
-    {
       "ticker": "BURL",
       "name": "BURL",
       "cal_date": "2026-11-23",
@@ -2511,6 +2451,66 @@
       "suggested_side": null,
       "suggested_hold": 5,
       "as_of": "2026-11-24T04:45:04Z"
+    },
+    {
+      "ticker": "HPE",
+      "name": "HPE",
+      "cal_date": "2026-11-24",
+      "gap_pct": -12.0991,
+      "last": 42.21,
+      "prev_close": 48.02000045776367,
+      "rel_vol": 0.0,
+      "adv20_usd": 724248875.5324554,
+      "avg_dollar_volume": 724248875.5324554,
+      "spy_above_ma50": false,
+      "session": "pre",
+      "headline": "HPE just posted its strongest growth ever \u2014 but its stock is sinking",
+      "news_event_type": "other_8k",
+      "news_direction": "bearish",
+      "news_side": null,
+      "news_actionable": true,
+      "news_source": "marketwatch",
+      "news_id": "32b46b33d299fc7f",
+      "filing_url": "https://www.marketwatch.com/story/hpe-just-posted-its-strongest-growth-ever-and-its-stock-is-tacking-on-more-big-gains-4421cebb?mod=mw_rss_topstories",
+      "rule_tags": [
+        "bigmove",
+        "other_8k",
+        "bigmove_unified_v1"
+      ],
+      "source": "bigmove_move_trigger",
+      "suggested_side": null,
+      "suggested_hold": 5,
+      "as_of": "2026-11-24T10:03:46Z"
+    },
+    {
+      "ticker": "A",
+      "name": "A",
+      "cal_date": "2026-11-24",
+      "gap_pct": 6.7939,
+      "last": 188.0,
+      "prev_close": 176.0399932861328,
+      "rel_vol": 0.0,
+      "adv20_usd": 356178001.38061523,
+      "avg_dollar_volume": 356178001.38061523,
+      "spy_above_ma50": false,
+      "session": "pre",
+      "headline": "A Seattle Startup Brings Your Pet to Life on Your Phone and Laptop With the Avatar Mirroring Their Every Move in Real Time",
+      "news_event_type": "other_8k",
+      "news_direction": "bullish",
+      "news_side": null,
+      "news_actionable": true,
+      "news_source": "prnewswire",
+      "news_id": "859664cded68e86b",
+      "filing_url": "https://www.prnewswire.com/news-releases/a-seattle-startup-brings-your-pet-to-life-on-your-phone-and-laptop-with-the-avatar-mirroring-their-every-move-in-real-time-302947597.html",
+      "rule_tags": [
+        "bigmove",
+        "other_8k",
+        "bigmove_unified_v1"
+      ],
+      "source": "bigmove_move_trigger",
+      "suggested_side": null,
+      "suggested_hold": 5,
+      "as_of": "2026-11-24T10:04:03Z"
     }
   ]
 }
