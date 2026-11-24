@@ -156,7 +156,7 @@
   "default_hold_days": 5,
   "stop_loss": null,
   "max_open": 8,
-  "last_run": "2026-11-24T00:42:11Z",
-  "last_reason": "engine[beat5_raise]: auto=0 ingested=0 fills=0 closed=0 open=0 session=after",
-  "eur_usd": 1.0909883975982666
+  "last_run": "2026-11-24T04:47:48Z",
+  "last_reason": "engine[beat5_raise]: auto=0 ingested=0 fills=0 closed=0 open=0 session=closed",
+  "eur_usd": 1.091226577758789
 }
