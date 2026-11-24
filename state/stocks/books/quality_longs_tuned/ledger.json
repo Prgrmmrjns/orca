@@ -10,46 +10,9 @@
   "start_date": "2026-11-10",
   "start_capital_eur": 1000.0,
   "eur_usd_start": 1.1168192625045776,
-  "cash_eur": 849.3912025000001,
-  "equity_eur": 1000.06,
+  "cash_eur": 848.9485244733528,
+  "equity_eur": 999.39,
   "positions": {
-    "PINE": {
-      "ticker": "PINE",
-      "side": "long",
-      "shares": 3.336422,
-      "entry_usd": 16.49,
-      "entry_eur": 14.986113,
-      "quote_fx": 1.1003520488739014,
-      "entry_notional_eur": 50.0,
-      "entry_cost_eur": 0.25,
-      "entry_cost_pct": 0.005,
-      "size": 0.05,
-      "entry_day": "2026-11-17",
-      "entry_time": "2026-11-17T21:35:20Z",
-      "entry_session": "open",
-      "session": "open",
-      "exit_day": "2026-11-24",
-      "hold_days": 5,
-      "stop_loss": null,
-      "take_profit": null,
-      "trailing_stop": null,
-      "exit_at_close": false,
-      "trail_extreme": 16.648300170898438,
-      "rule_name": "quality_longs",
-      "reason": "[quality_longs_tuned/quality_longs] event=mna_deal surprise=None gap=None guidance=none headline=PINE TREE JOINT VENTURE ACQUIRES $108 MILLION SHOPPING CENTER IN TULSA, OKLAHOMA \u2192 long 5d",
-      "confidence": 1.0,
-      "rule_tags": [
-        "quality_longs_tuned",
-        "quality_longs",
-        "news_event",
-        "mna_deal"
-      ],
-      "decision_id": "quality_longs_tuned-PINE-2026-11-16T22:46:59Z-bb8040",
-      "book_id": "quality_longs_tuned",
-      "mark_usd": 16.510000228881836,
-      "mark_eur": 15.0043,
-      "unrealized_pnl_pct": 0.1213
-    },
     "MBIN": {
       "ticker": "MBIN",
       "side": "long",
@@ -124,6 +87,44 @@
       "mark_usd": 83.01000213623047,
       "mark_eur": 75.6885,
       "unrealized_pnl_pct": 1.2688
+    },
+    "ST": {
+      "ticker": "ST",
+      "side": "long",
+      "shares": 1.445104,
+      "entry_usd": 37.75,
+      "entry_eur": 34.601651,
+      "quote_fx": 1.0909883975982666,
+      "entry_notional_eur": 50.0,
+      "entry_cost_eur": 0.25,
+      "entry_cost_pct": 0.005,
+      "size": 0.05,
+      "entry_day": "2026-11-24",
+      "entry_time": "2026-11-24T05:21:09Z",
+      "entry_session": "open",
+      "session": "open",
+      "exit_day": "2026-12-01",
+      "hold_days": 5,
+      "stop_loss": null,
+      "take_profit": null,
+      "trailing_stop": null,
+      "exit_at_close": false,
+      "trail_extreme": 37.900001525878906,
+      "rule_name": "quality_longs",
+      "reason": "[quality_longs_tuned/quality_longs] event=mna surprise=None gap=4.6164 guidance=None headline=Specialised Therapeutics and DKSH Partner to Expand Access to Cancer Medicines i \u2192 long 5d",
+      "confidence": 1.0,
+      "rule_tags": [
+        "quality_longs_tuned",
+        "quality_longs",
+        "bigmove",
+        "mna",
+        "bigmove_unified_v1"
+      ],
+      "decision_id": "quality_longs_tuned-ST-2026-11-24T04:46:38Z-40fdd1",
+      "book_id": "quality_longs_tuned",
+      "mark_usd": 37.619998931884766,
+      "mark_eur": 34.4825,
+      "unrealized_pnl_pct": -0.3444
     }
   },
   "pending": [
@@ -203,35 +204,41 @@
       "decided_at": "2026-11-19T21:14:50Z",
       "status": "pending",
       "book_id": "quality_longs_tuned"
-    },
+    }
+  ],
+  "closed_trades": [
     {
-      "id": "quality_longs_tuned-ST-2026-11-24T04:46:38Z-40fdd1",
-      "ticker": "ST",
+      "ticker": "PINE",
       "side": "long",
-      "size": 0.05,
+      "entry_day": "2026-11-17",
+      "exit_day": "2026-11-24",
+      "entry_usd": 16.49,
+      "exit_usd": 16.51,
+      "shares": 3.336422,
       "hold_days": 5,
-      "stop_loss": null,
-      "take_profit": null,
-      "trailing_stop": null,
-      "exit_at_close": false,
-      "delay_minutes": 0,
-      "rule_name": "quality_longs",
-      "reason": "[quality_longs_tuned/quality_longs] event=mna surprise=None gap=4.6164 guidance=None headline=Specialised Therapeutics and DKSH Partner to Expand Access to Cancer Medicines i \u2192 long 5d",
-      "confidence": 1.0,
+      "exit_reason": "time_exit",
+      "entry_session": "open",
+      "exit_session": "after",
+      "session": "after",
+      "entry_cost_eur": 0.25,
+      "exit_cost_eur": 0.2503,
+      "entry_cost_pct": 0.005,
+      "exit_cost_pct": 0.005,
+      "pnl_eur": -0.44,
+      "pnl_pct_net": -0.8787,
+      "reason": "[quality_longs_tuned/quality_longs] event=mna_deal surprise=None gap=None guidance=none headline=PINE TREE JOINT VENTURE ACQUIRES $108 MILLION SHOPPING CENTER IN TULSA, OKLAHOMA \u2192 long 5d",
       "rule_tags": [
         "quality_longs_tuned",
         "quality_longs",
-        "bigmove",
-        "mna",
-        "bigmove_unified_v1"
+        "news_event",
+        "mna_deal"
       ],
-      "prefer_open": true,
-      "decided_at": "2026-11-24T04:46:38Z",
-      "status": "pending",
-      "book_id": "quality_longs_tuned"
+      "rule_name": "quality_longs",
+      "decision_id": "quality_longs_tuned-PINE-2026-11-16T22:46:59Z-bb8040",
+      "book_id": "quality_longs_tuned",
+      "closed_at": "2026-11-24T05:21:09Z"
     }
   ],
-  "closed_trades": [],
   "equity_history": [
     {
       "day": "2026-11-10",
@@ -301,6 +308,13 @@
       "equity_eur": 1000.06,
       "spy_eur": 985.18,
       "cash_eur": 849.39,
+      "n_open": 3
+    },
+    {
+      "day": "2026-11-24",
+      "equity_eur": 999.39,
+      "spy_eur": 985.18,
+      "cash_eur": 848.95,
       "n_open": 3
     }
   ],
@@ -374,7 +388,7 @@
   "stop_loss": null,
   "prefer_open": true,
   "max_open": 15,
-  "last_run": "2026-11-24T04:47:57Z",
+  "last_run": "2026-11-24T05:22:13Z",
   "last_reason": "engine[quality_longs_tuned]: auto=0 ingested=0 fills=0 closed=0 open=3 session=closed",
   "max_per_ticker": 1,
   "max_gross_exposure_pct": 0.75,
@@ -383,7 +397,7 @@
   "sizing": "fixed",
   "score_ref": 10.0,
   "strategy_config_path": "config/strategies/quality_longs_tuned.yaml",
-  "eur_usd": 1.091226577758789,
+  "eur_usd": 1.0911074876785278,
   "extended_hours_extra_slippage_pct": 0.0,
   "allow_extended_hours": false
 }

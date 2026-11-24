@@ -221,6 +221,13 @@
       "spy_eur": 985.18,
       "cash_eur": 1047.83,
       "n_open": 1
+    },
+    {
+      "day": "2026-11-24",
+      "equity_eur": 998.41,
+      "spy_eur": 985.18,
+      "cash_eur": 1047.83,
+      "n_open": 1
     }
   ],
   "spy_history": [
@@ -293,7 +300,7 @@
   "stop_loss": null,
   "prefer_open": true,
   "max_open": 8,
-  "last_run": "2026-11-24T04:47:55Z",
+  "last_run": "2026-11-24T05:22:12Z",
   "last_reason": "engine[dilution_shorts_tuned]: auto=0 ingested=0 fills=0 closed=0 open=1 session=closed",
   "max_per_ticker": 1,
   "max_gross_exposure_pct": 0.4,
@@ -302,7 +309,7 @@
   "sizing": "fixed",
   "score_ref": 10.0,
   "strategy_config_path": "config/strategies/dilution_shorts_tuned.yaml",
-  "eur_usd": 1.091226577758789,
+  "eur_usd": 1.0911074876785278,
   "extended_hours_extra_slippage_pct": 0.0,
   "allow_extended_hours": false
 }
