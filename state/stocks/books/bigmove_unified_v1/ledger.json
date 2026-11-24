@@ -11,7 +11,7 @@
   "start_capital_eur": 1000.0,
   "eur_usd_start": 1.1063170433044434,
   "cash_eur": 943.7076653965241,
-  "equity_eur": 994.97,
+  "equity_eur": 994.56,
   "positions": {
     "SNEX": {
       "ticker": "SNEX",
@@ -47,9 +47,9 @@
       ],
       "decision_id": "bigmove_unified_v1-SNEX-2026-11-19T23:47:23Z-be8464",
       "book_id": "bigmove_unified_v1",
-      "mark_usd": 39.4900016784668,
-      "mark_eur": 35.9872,
-      "unrealized_pnl_pct": 1.2305
+      "mark_usd": 38.150001525878906,
+      "mark_eur": 34.7661,
+      "unrealized_pnl_pct": -2.2046
     },
     "INTU": {
       "ticker": "INTU",
@@ -85,9 +85,9 @@
       ],
       "decision_id": "bigmove_unified_v1-INTU-2026-11-20T23:03:14Z-a46497",
       "book_id": "bigmove_unified_v1",
-      "mark_usd": 275.4599914550781,
-      "mark_eur": 250.9991,
-      "unrealized_pnl_pct": 1.2721
+      "mark_usd": 279.4200134277344,
+      "mark_eur": 254.6075,
+      "unrealized_pnl_pct": 2.7279
     },
     "HSBC": {
       "ticker": "HSBC",
@@ -110,7 +110,7 @@
       "take_profit": null,
       "trailing_stop": null,
       "exit_at_close": false,
-      "trail_extreme": 82.66000366210938,
+      "trail_extreme": 81.11499786376953,
       "rule_name": "mna_gapdown_short",
       "reason": "[bigmove_unified_v1/mna_gapdown_short] event=mna surprise=None gap=-4.006 guidance=None headline=HSBC HOLDINGS PLC ANNOUNCES RESULTS OF ITS TENDER OFFER FOR ONE SERIES OF SECURI \u2192 short 5d",
       "confidence": 1.0,
@@ -123,9 +123,9 @@
       ],
       "decision_id": "bigmove_unified_v1-HSBC-2026-11-21T03:55:51Z-95302b",
       "book_id": "bigmove_unified_v1",
-      "mark_usd": 83.01000213623047,
-      "mark_eur": 76.0953,
-      "unrealized_pnl_pct": 0.3614
+      "mark_usd": 82.02999877929688,
+      "mark_eur": 75.1969,
+      "unrealized_pnl_pct": 1.5604
     }
   },
   "pending": [],
@@ -247,8 +247,8 @@
     },
     {
       "day": "2026-11-24",
-      "equity_eur": 994.97,
-      "spy_eur": 985.18,
+      "equity_eur": 994.56,
+      "spy_eur": 980.56,
       "cash_eur": 943.71,
       "n_open": 3
     }
@@ -313,6 +313,12 @@
       "spy_eur": 985.18,
       "spy_usd": 722.29,
       "eur_usd": 1.09715
+    },
+    {
+      "day": "2026-11-24",
+      "spy_eur": 980.56,
+      "spy_usd": 718.78,
+      "eur_usd": 1.09697
     }
   ],
   "cost_pct": 0.005,
@@ -323,8 +329,8 @@
   "stop_loss": null,
   "prefer_open": false,
   "max_open": 20,
-  "last_run": "2026-11-24T10:04:09Z",
-  "last_reason": "engine[bigmove_unified_v1]: auto=0 ingested=0 fills=0 closed=0 open=3 session=pre",
+  "last_run": "2026-11-24T22:58:41Z",
+  "last_reason": "engine[bigmove_unified_v1]: auto=0 ingested=0 fills=0 closed=0 open=3 session=after",
   "extended_hours_extra_slippage_pct": 0.005,
   "allow_extended_hours": true,
   "max_per_ticker": 1,
@@ -334,5 +340,5 @@
   "sizing": "fixed",
   "score_ref": 10.0,
   "strategy_config_path": "config/strategies/bigmove_unified_v1.yaml",
-  "eur_usd": 1.0933741331100464
+  "eur_usd": 1.0969723463058472
 }
