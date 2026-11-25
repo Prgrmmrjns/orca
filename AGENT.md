@@ -11,7 +11,7 @@ Orca is **stocks only**. Do not revive the crypto demo on the Vercel site.
 
 ## Mission
 
-Each decision cycle, launch as a Cursor cloud agent on `Prgrmmrjns/orca` (main), read today's earnings **and news** candidates, read press releases / headlines, and write paper decisions for the **`agent` book** that the engine will fill.
+Each decision cycle, run as a cloud agent on `Prgrmmrjns/orca` (main), read today's earnings **and news** candidates, read press releases / headlines, and write paper decisions for the **`agent` book** that the engine will fill.
 
 ## Exact steps
 

@@ -1,6 +1,4 @@
 ccxt>=4.4.0
-# cursor-sdk needs Python >= 3.10 — install into .venv312, not the 3.9 .venv
-cursor-sdk>=1.0.0
 fastapi>=0.115.0
 uvicorn>=0.32.0
 feedparser>=6.0.0

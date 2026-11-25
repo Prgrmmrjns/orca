@@ -2,6 +2,7 @@
 """Tests for tuned news paper books (box-backtest configs → live paper)."""
 from __future__ import annotations
 
+import os
 import sys
 import unittest
 from pathlib import Path
@@ -24,7 +25,7 @@ from stocks.strategy_config import (
 )
 
 
-UPLOADS = Path("/home/ubuntu/.cursor/projects/agent-repos-orca/uploads")
+UPLOADS = Path(os.environ.get("ORCA_TUNED_UPLOADS", ROOT / "uploads"))
 UPLOAD_MAP = {
     "guidance_raise_tuned": "guidance_raise_tuned_9cb6.yaml",
     "dilution_shorts_tuned": "dilution_shorts_tuned_47fa.yaml",
