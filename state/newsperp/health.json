@@ -1,0 +1,192 @@
+{
+ "updated": "2026-11-25T13:18:24Z",
+ "classifier": "rules",
+ "llm_calls": 0,
+ "llm_failures": 0,
+ "sources": {
+  "nvda_newsroom": {
+   "polls": 18,
+   "not_modified": 17,
+   "errors": 0,
+   "last_ok": "2026-11-25T13:18:23Z",
+   "last_error": null,
+   "bytes": 425752
+  },
+  "aapl_newsroom": {
+   "polls": 9,
+   "not_modified": 8,
+   "errors": 0,
+   "last_ok": "2026-11-25T13:18:15Z",
+   "last_error": null,
+   "bytes": 18271
+  },
+  "amzn_ir": {
+   "polls": 9,
+   "not_modified": 8,
+   "errors": 0,
+   "last_ok": "2026-11-25T13:18:18Z",
+   "last_error": null,
+   "bytes": 22669
+  },
+  "googl_ir": {
+   "polls": 9,
+   "not_modified": 8,
+   "errors": 0,
+   "last_ok": "2026-11-25T13:18:15Z",
+   "last_error": null,
+   "bytes": 16914
+  },
+  "meta_ir": {
+   "polls": 9,
+   "not_modified": 8,
+   "errors": 0,
+   "last_ok": "2026-11-25T13:18:15Z",
+   "last_error": null,
+   "bytes": 24873
+  },
+  "coin_ir": {
+   "polls": 9,
+   "not_modified": 8,
+   "errors": 0,
+   "last_ok": "2026-11-25T13:18:15Z",
+   "last_error": null,
+   "bytes": 21139
+  },
+  "crcl_ir": {
+   "polls": 9,
+   "not_modified": 8,
+   "errors": 0,
+   "last_ok": "2026-11-25T13:18:15Z",
+   "last_error": null,
+   "bytes": 30138
+  },
+  "tsla_ir": {
+   "polls": 3,
+   "not_modified": 0,
+   "errors": 3,
+   "last_ok": null,
+   "last_error": "2026-11-25T13:17:40Z HTTPError: 403 Client Error: Forbidden for url: https://ir.tesla.com/feed/PressRelease.svc/GetPressReleaseList?LanguageId=1&bodyType=3&pressReleaseDateFilter=3&categoryId=",
+   "bytes": 1270
+  },
+  "hood_ir": {
+   "polls": 3,
+   "not_modified": 0,
+   "errors": 3,
+   "last_ok": null,
+   "last_error": "2026-11-25T13:17:40Z HTTPError: 403 Client Error: Forbidden for url: https://investors.robinhood.com/feed/PressRelease.svc/GetPressReleaseList?LanguageId=1&bodyType=3&pressReleaseDateFilter=3&",
+   "bytes": 1299
+  },
+  "amd_ir": {
+   "polls": 5,
+   "not_modified": 0,
+   "errors": 0,
+   "last_ok": "2026-11-25T13:18:14Z",
+   "last_error": null,
+   "bytes": 37445
+  },
+  "msft_news": {
+   "polls": 1,
+   "not_modified": 0,
+   "errors": 0,
+   "last_ok": "2026-11-25T13:16:55Z",
+   "last_error": null,
+   "bytes": 30237
+  },
+  "sec_8k": {
+   "polls": 8,
+   "not_modified": 0,
+   "errors": 0,
+   "last_ok": "2026-11-25T13:18:18Z",
+   "last_error": null,
+   "bytes": 1275522
+  },
+  "prnewswire": {
+   "polls": 3,
+   "not_modified": 1,
+   "errors": 0,
+   "last_ok": "2026-11-25T13:17:54Z",
+   "last_error": null,
+   "bytes": 86420
+  },
+  "whitehouse": {
+   "polls": 3,
+   "not_modified": 2,
+   "errors": 0,
+   "last_ok": "2026-11-25T13:17:54Z",
+   "last_error": null,
+   "bytes": 461992
+  },
+  "trump_posts": {
+   "polls": 3,
+   "not_modified": 2,
+   "errors": 0,
+   "last_ok": "2026-11-25T13:17:54Z",
+   "last_error": null,
+   "bytes": 175027
+  },
+  "fed_press": {
+   "polls": 3,
+   "not_modified": 2,
+   "errors": 0,
+   "last_ok": "2026-11-25T13:17:54Z",
+   "last_error": null,
+   "bytes": 14357
+  },
+  "bls": {
+   "polls": 2,
+   "not_modified": 1,
+   "errors": 0,
+   "last_ok": "2026-11-25T13:17:54Z",
+   "last_error": null,
+   "bytes": 5331
+  },
+  "bea": {
+   "polls": 1,
+   "not_modified": 0,
+   "errors": 0,
+   "last_ok": "2026-11-25T13:16:56Z",
+   "last_error": null,
+   "bytes": 90126
+  },
+  "fedreg_bis": {
+   "polls": 1,
+   "not_modified": 0,
+   "errors": 0,
+   "last_ok": "2026-11-25T13:16:56Z",
+   "last_error": null,
+   "bytes": 11594
+  },
+  "coindesk": {
+   "polls": 2,
+   "not_modified": 1,
+   "errors": 0,
+   "last_ok": "2026-11-25T13:17:54Z",
+   "last_error": null,
+   "bytes": 61016
+  },
+  "marketwatch": {
+   "polls": 2,
+   "not_modified": 1,
+   "errors": 0,
+   "last_ok": "2026-11-25T13:17:54Z",
+   "last_error": null,
+   "bytes": 8507
+  },
+  "benzinga": {
+   "polls": 2,
+   "not_modified": 1,
+   "errors": 0,
+   "last_ok": "2026-11-25T13:17:54Z",
+   "last_error": null,
+   "bytes": 431084
+  },
+  "sa_currents": {
+   "polls": 2,
+   "not_modified": 1,
+   "errors": 0,
+   "last_ok": "2026-11-25T13:17:54Z",
+   "last_error": null,
+   "bytes": 5179
+  }
+ }
+}

@@ -1,0 +1,46 @@
+name: newsperp
+
+# Always-on news collector + paper perp book (PAPER ONLY: public data, no exchange keys).
+# Each run polls for ~110 min; the hourly schedule keeps one run queued behind the
+# active one (concurrency group), so coverage is continuous. Only runs from main.
+on:
+  schedule:
+    - cron: "11 * * * *"
+  workflow_dispatch:
+    inputs:
+      minutes:
+        description: "Loop length in minutes"
+        default: "110"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: newsperp
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 130
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Install deps
+        run: pip install "anthropic>=1.0" feedparser requests
+      - name: Collect + paper trade
+        env:
+          ORCA_MODE: paper
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}   # optional; without it the rule classifier runs
+          ORCA_CONTACT_UA: ${{ vars.ORCA_CONTACT_UA }}           # "<name> <email>" for SEC/BLS fair-access
+          NEWSPERP_BRANCH: main
+        run: |
+          git config user.name "orca-newsperp-bot"
+          git config user.email "orca-bot@users.noreply.github.com"
+          python -m newsperp run --minutes "${{ github.event.inputs.minutes || '110' }}" --commit-every 15

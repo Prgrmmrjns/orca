@@ -22,3 +22,6 @@ pyarrow>=14.0
 
 # Crypto paper strategy v3 (lightgbm only for research/retraining; live needs numpy/pandas/requests)
 lightgbm>=4.0
+
+# newsperp classifier (optional; rules run without it)
+anthropic>=1.0

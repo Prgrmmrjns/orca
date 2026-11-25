@@ -1,0 +1,24 @@
+{
+ "strategy": "newsperp_v0",
+ "mode": "paper",
+ "currency": "EUR",
+ "start": "2026-11-25T13:16:54Z",
+ "start_equity_eur": 1000.0,
+ "cash_eur": 1000.0,
+ "positions": {},
+ "trades": [],
+ "history": [
+  {
+   "ts": "2026-11-25T13:18:24Z",
+   "equity_eur": 1000.0,
+   "cash_eur": 1000.0,
+   "gross_eur": 0.0,
+   "open": 0,
+   "eurusd": 1.09398
+  }
+ ],
+ "day_start": {
+  "2026-11-25": 1000.0
+ },
+ "halted_days": []
+}

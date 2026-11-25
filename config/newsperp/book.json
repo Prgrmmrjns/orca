@@ -1,0 +1,19 @@
+{
+  "_doc": "Paper perp book rules v0 (frozen 2026-11-25). Paper only: public Kraken data, no keys, no orders.",
+  "start_equity_eur": 1000.0,
+  "min_confidence": 0.65,
+  "min_expected_move_pct": 1.0,
+  "max_item_age_minutes": 15,
+  "risk_per_trade": 0.015,
+  "stop_pct": {"default": 3.0, "BTC": 2.5, "ETH": 3.0, "SPY": 1.5, "QQQ": 2.0},
+  "max_position_frac": 0.6,
+  "max_gross_leverage": 3.0,
+  "max_open_positions": 4,
+  "default_hold_minutes": 120,
+  "max_hold_minutes": 1440,
+  "daily_loss_limit": 0.04,
+  "taker_fee": 0.0005,
+  "extra_slippage": 0.001,
+  "classifier_model": "claude-opus-5-5",
+  "classifier_effort": "low"
+}

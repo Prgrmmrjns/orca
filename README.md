@@ -8,6 +8,10 @@
 
 Separate €1,000 Kraken paper book: BTC-trend-gated momentum + ML blend, long only, daily. Rules, backtest and caveats in [`crypto/STRATEGY.md`](crypto/STRATEGY.md); state in `state/crypto/`. Run `python -m crypto.live tick`.
 
+## News perp book (since 2026-11-25)
+
+Always-on news collector + €1,000 paper book on Kraken stock/crypto perps (long and short), driven by company newsrooms, SEC 8-Ks, government feeds and news RSS. Details in [`newsperp/README.md`](newsperp/README.md); state in `state/newsperp/`. Run `python -m newsperp run`.
+
 ## Books
 
 | Book | Trader | Rule |
