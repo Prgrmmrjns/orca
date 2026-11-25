@@ -330,7 +330,23 @@
       "agent": "rule:quality_longs_tuned",
       "prefer_open": true,
       "decided_at": "2026-11-24T22:57:03Z",
-      "status": "pending"
+      "status": "filled",
+      "fill": {
+        "time": "2026-11-25T22:12:57Z",
+        "ticker": "KITT",
+        "side": "buy",
+        "price_usd": 0.756,
+        "shares": 72.438392,
+        "notional_eur": 49.88,
+        "cost_eur": 0.2494,
+        "cost_pct": 0.005,
+        "session": "open",
+        "quote_fx": 1.0978153944015503,
+        "reason": "[quality_longs_tuned/quality_longs] event=mna_deal surprise=None gap=None guidance=none headline=Nauticus Robotics\u2122 Signs Letter of Intent to Acquire Ocean Power Technologies' W \u2192 long 5d",
+        "note": "filled at regular-session open",
+        "decision_id": "quality_longs_tuned-KITT-2026-11-24T22:57:03Z-2683fe",
+        "book_id": "quality_longs_tuned"
+      }
     },
     {
       "id": "quality_longs_tuned-ALIC-2026-11-24T22:57:04Z-8165a3",
@@ -394,7 +410,23 @@
       "agent": "rule:quality_longs_tuned",
       "prefer_open": true,
       "decided_at": "2026-11-24T22:57:04Z",
-      "status": "pending"
+      "status": "filled",
+      "fill": {
+        "time": "2026-11-25T22:12:57Z",
+        "ticker": "CII",
+        "side": "buy",
+        "price_usd": 21.49,
+        "shares": 2.547248,
+        "notional_eur": 49.86,
+        "cost_eur": 0.2493,
+        "cost_pct": 0.005,
+        "session": "open",
+        "quote_fx": 1.0978153944015503,
+        "reason": "[quality_longs_tuned/quality_longs] event=acquisition_target surprise=None gap=None guidance=none headline=AuguStar Life Insurance Company Announces Pricing Terms of its Cash Tender Offer \u2192 long 5d",
+        "note": "filled at regular-session open",
+        "decision_id": "quality_longs_tuned-CII-2026-11-24T22:57:04Z-516c80",
+        "book_id": "quality_longs_tuned"
+      }
     }
   ],
   "updated_at": "2026-11-24T22:57:04Z"

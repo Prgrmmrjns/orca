@@ -674,7 +674,23 @@
       "agent": "rule:news_event",
       "prefer_open": false,
       "decided_at": "2026-11-24T05:21:31Z",
-      "status": "pending"
+      "status": "filled",
+      "fill": {
+        "time": "2026-11-25T22:12:54Z",
+        "ticker": "ST",
+        "side": "buy",
+        "price_usd": 34.77,
+        "shares": 1.565895,
+        "notional_eur": 49.59,
+        "cost_eur": 0.248,
+        "cost_pct": 0.005,
+        "session": "open",
+        "quote_fx": 1.0978153944015503,
+        "reason": "[news_event/bullish_news_long] event=mna surprise=None gap=4.6164 guidance=None headline=Specialised Therapeutics and DKSH Partner to Expand Access to Cancer Medicines i \u2192 long 2d",
+        "note": "filled at regular-session open",
+        "decision_id": "news_event-ST-2026-11-24T05:21:31Z-9a748a",
+        "book_id": "news_event"
+      }
     },
     {
       "id": "news_event-KITT-2026-11-24T22:56:57Z-8cb15c",
@@ -705,7 +721,23 @@
       "agent": "rule:news_event",
       "prefer_open": false,
       "decided_at": "2026-11-24T22:56:57Z",
-      "status": "pending"
+      "status": "filled",
+      "fill": {
+        "time": "2026-11-25T22:12:54Z",
+        "ticker": "KITT",
+        "side": "buy",
+        "price_usd": 0.756,
+        "shares": 72.249614,
+        "notional_eur": 49.75,
+        "cost_eur": 0.2488,
+        "cost_pct": 0.005,
+        "session": "open",
+        "quote_fx": 1.0978153944015503,
+        "reason": "[news_event/bullish_news_long] event=mna_deal surprise=None gap=None guidance=none headline=Nauticus Robotics\u2122 Signs Letter of Intent to Acquire Ocean Power Technologies' W \u2192 long 2d",
+        "note": "filled at regular-session open",
+        "decision_id": "news_event-KITT-2026-11-24T22:56:57Z-8cb15c",
+        "book_id": "news_event"
+      }
     },
     {
       "id": "news_event-ALIC-2026-11-24T22:56:58Z-3d42a6",

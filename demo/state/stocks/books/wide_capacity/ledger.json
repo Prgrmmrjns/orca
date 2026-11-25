@@ -10,8 +10,8 @@
   "start_date": "2026-11-10",
   "start_capital_eur": 1000.0,
   "eur_usd_start": 1.1168192625045776,
-  "cash_eur": 948.5837138811146,
-  "equity_eur": 996.22,
+  "cash_eur": 848.3269238811146,
+  "equity_eur": 998.63,
   "positions": {
     "ST": {
       "ticker": "ST",
@@ -47,9 +47,84 @@
       ],
       "decision_id": "wide_capacity-ST-2026-11-24T04:46:40Z-2f5ebb",
       "book_id": "wide_capacity",
-      "mark_usd": 35.9900016784668,
-      "mark_eur": 32.9884,
-      "unrealized_pnl_pct": -4.6622
+      "mark_usd": 37.18000030517578,
+      "mark_eur": 34.0792,
+      "unrealized_pnl_pct": -1.5099
+    },
+    "KITT": {
+      "ticker": "KITT",
+      "side": "long",
+      "shares": 72.446379,
+      "entry_usd": 0.756,
+      "entry_eur": 0.68864,
+      "quote_fx": 1.0978153944015503,
+      "entry_notional_eur": 49.89,
+      "entry_cost_eur": 0.2494,
+      "entry_cost_pct": 0.005,
+      "size": 0.05,
+      "entry_day": "2026-11-25",
+      "entry_time": "2026-11-25T22:12:59Z",
+      "entry_session": "open",
+      "session": "open",
+      "exit_day": "2026-11-27",
+      "hold_days": 2,
+      "stop_loss": null,
+      "take_profit": null,
+      "trailing_stop": null,
+      "exit_at_close": false,
+      "trail_extreme": 0.8450000286102295,
+      "rule_name": "quality_longs",
+      "reason": "[wide_capacity/quality_longs] event=mna_deal surprise=None gap=None guidance=none headline=Nauticus Robotics\u2122 Signs Letter of Intent to Acquire Ocean Power Technologies' W \u2192 long 2d",
+      "confidence": 1.0,
+      "rule_tags": [
+        "wide_capacity",
+        "quality_longs",
+        "news_event",
+        "mna_deal"
+      ],
+      "decision_id": "wide_capacity-KITT-2026-11-24T22:57:09Z-716bf4",
+      "book_id": "wide_capacity",
+      "mark_usd": 0.7534000277519226,
+      "mark_eur": 0.6863,
+      "unrealized_pnl_pct": -0.3439
+    },
+    "CII": {
+      "ticker": "CII",
+      "side": "long",
+      "shares": 2.547529,
+      "entry_usd": 21.49,
+      "entry_eur": 19.57524,
+      "quote_fx": 1.0978153944015503,
+      "entry_notional_eur": 49.87,
+      "entry_cost_eur": 0.2493,
+      "entry_cost_pct": 0.005,
+      "size": 0.05,
+      "entry_day": "2026-11-25",
+      "entry_time": "2026-11-25T22:12:59Z",
+      "entry_session": "open",
+      "session": "open",
+      "exit_day": "2026-11-27",
+      "hold_days": 2,
+      "stop_loss": null,
+      "take_profit": null,
+      "trailing_stop": null,
+      "exit_at_close": false,
+      "trail_extreme": 22.204999923706055,
+      "rule_name": "quality_longs",
+      "reason": "[wide_capacity/quality_longs] event=acquisition_target surprise=None gap=None guidance=none headline=AuguStar Life Insurance Company Announces Pricing Terms of its Cash Tender Offer \u2192 long 2d",
+      "confidence": 1.0,
+      "rule_tags": [
+        "wide_capacity",
+        "quality_longs",
+        "news_event",
+        "acquisition_target",
+        "news_long"
+      ],
+      "decision_id": "wide_capacity-CII-2026-11-24T22:57:10Z-a50672",
+      "book_id": "wide_capacity",
+      "mark_usd": 22.139999389648438,
+      "mark_eur": 20.1673,
+      "unrealized_pnl_pct": 3.0247
     }
   },
   "pending": [
@@ -131,59 +206,8 @@
       "book_id": "wide_capacity"
     },
     {
-      "id": "wide_capacity-KITT-2026-11-24T22:57:09Z-716bf4",
-      "ticker": "KITT",
-      "side": "long",
-      "size": 0.05,
-      "hold_days": 2,
-      "stop_loss": null,
-      "take_profit": null,
-      "trailing_stop": null,
-      "exit_at_close": false,
-      "delay_minutes": 0,
-      "rule_name": "quality_longs",
-      "reason": "[wide_capacity/quality_longs] event=mna_deal surprise=None gap=None guidance=none headline=Nauticus Robotics\u2122 Signs Letter of Intent to Acquire Ocean Power Technologies' W \u2192 long 2d",
-      "confidence": 1.0,
-      "rule_tags": [
-        "wide_capacity",
-        "quality_longs",
-        "news_event",
-        "mna_deal"
-      ],
-      "prefer_open": true,
-      "decided_at": "2026-11-24T22:57:09Z",
-      "status": "pending",
-      "book_id": "wide_capacity"
-    },
-    {
       "id": "wide_capacity-ALIC-2026-11-24T22:57:10Z-bef9cf",
       "ticker": "ALIC",
-      "side": "long",
-      "size": 0.05,
-      "hold_days": 2,
-      "stop_loss": null,
-      "take_profit": null,
-      "trailing_stop": null,
-      "exit_at_close": false,
-      "delay_minutes": 0,
-      "rule_name": "quality_longs",
-      "reason": "[wide_capacity/quality_longs] event=acquisition_target surprise=None gap=None guidance=none headline=AuguStar Life Insurance Company Announces Pricing Terms of its Cash Tender Offer \u2192 long 2d",
-      "confidence": 1.0,
-      "rule_tags": [
-        "wide_capacity",
-        "quality_longs",
-        "news_event",
-        "acquisition_target",
-        "news_long"
-      ],
-      "prefer_open": true,
-      "decided_at": "2026-11-24T22:57:10Z",
-      "status": "pending",
-      "book_id": "wide_capacity"
-    },
-    {
-      "id": "wide_capacity-CII-2026-11-24T22:57:10Z-a50672",
-      "ticker": "CII",
       "side": "long",
       "size": 0.05,
       "hold_days": 2,
@@ -381,6 +405,13 @@
       "spy_eur": 986.1,
       "cash_eur": 948.58,
       "n_open": 1
+    },
+    {
+      "day": "2026-11-25",
+      "equity_eur": 998.63,
+      "spy_eur": 976.97,
+      "cash_eur": 848.33,
+      "n_open": 3
     }
   ],
   "spy_history": [
@@ -449,6 +480,12 @@
       "spy_eur": 986.1,
       "spy_usd": 718.78,
       "eur_usd": 1.09081
+    },
+    {
+      "day": "2026-11-25",
+      "spy_eur": 976.97,
+      "spy_usd": 716.7,
+      "eur_usd": 1.09782
     }
   ],
   "cost_pct": 0.005,
@@ -459,8 +496,8 @@
   "stop_loss": null,
   "prefer_open": true,
   "max_open": 15,
-  "last_run": "2026-11-25T04:15:55Z",
-  "last_reason": "engine[wide_capacity]: auto=0 ingested=0 fills=0 closed=0 open=1 session=closed",
+  "last_run": "2026-11-25T22:14:04Z",
+  "last_reason": "engine[wide_capacity]: auto=0 ingested=0 fills=0 closed=0 open=3 session=after",
   "max_per_ticker": 1,
   "max_gross_exposure_pct": 0.75,
   "allow_shorts": false,
@@ -468,7 +505,7 @@
   "sizing": "fixed",
   "score_ref": 10.0,
   "strategy_config_path": "config/strategies/wide_capacity.yaml",
-  "eur_usd": 1.0949305295944214,
+  "eur_usd": 1.0978153944015503,
   "extended_hours_extra_slippage_pct": 0.0,
   "allow_extended_hours": false
 }

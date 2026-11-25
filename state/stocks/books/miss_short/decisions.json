@@ -873,7 +873,37 @@
       "agent": "rule:miss_short",
       "prefer_open": true,
       "decided_at": "2026-11-24T22:56:56Z",
-      "status": "pending"
+      "status": "closed",
+      "fill": {
+        "ticker": "VNET",
+        "side": "short",
+        "entry_day": "2026-11-25",
+        "exit_day": "2026-11-25",
+        "entry_usd": 1.91,
+        "exit_usd": 2.0628,
+        "shares": 30.981673,
+        "hold_days": 2,
+        "exit_reason": "stop_loss",
+        "entry_session": "open",
+        "exit_session": "after",
+        "session": "after",
+        "entry_cost_eur": 0.2695,
+        "exit_cost_eur": 0.2911,
+        "entry_cost_pct": 0.005,
+        "exit_cost_pct": 0.005,
+        "pnl_eur": -4.87,
+        "pnl_pct_net": -8.4074,
+        "reason": "[miss_short/miss_short] event=['miss_short'] surprise=-101.89 gap=-5.4687 guidance=none headline= \u2192 short 2d",
+        "rule_tags": [
+          "miss_short",
+          "miss_short",
+          "miss_short"
+        ],
+        "rule_name": "miss_short",
+        "decision_id": "miss_short-VNET-2026-11-24T22:56:56Z-3849f2",
+        "book_id": "miss_short",
+        "closed_at": "2026-11-25T22:12:53Z"
+      }
     }
   ],
   "updated_at": "2026-11-24T22:56:56Z"
