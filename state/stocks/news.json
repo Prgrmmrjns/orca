@@ -1,9 +1,9 @@
 {
   "mode": "paper",
-  "as_of": "2026-11-25T14:56:45Z",
+  "as_of": "2026-11-25T18:37:31Z",
   "as_of_et": "2026-11-25 09:56 ET",
   "rolling_hours": 72,
-  "n_items": 396,
+  "n_items": 400,
   "n_actionable": 43,
   "n_with_ticker": 122,
   "sources": [
@@ -13,11 +13,606 @@
     "cnbc_finance",
     "marketwatch",
     "marketwatch_realtime",
-    "edgar_8k"
+    "edgar_8k",
+    "eqs_google",
+    "wso_nachrichten",
+    "finanzen_net",
+    "yahoo_eu"
   ],
   "errors": [],
   "note": "Paper news feed. Keyword tagging is heuristic. Shorts have no borrow model. RSS/EDGAR can lag minutes\u2013hours.",
   "items": [
+    {
+      "id": "cbf22c4baaa3f0b8",
+      "source": "wso_nachrichten",
+      "title": "Renk: Barclays setzt auf Overweight \u2013 was jetzt z\u00e4hlt",
+      "summary": "Die Renk-Aktie legt zu, Barclays bewertet sie mit Overweight. Erfahren Sie, was die R\u00fcstungsfantasie antreibt und welche Risiken Anleger jetzt beachten sollten.",
+      "url": "https://www.wallstreet-online.de/nachricht/21748540-renk-barclays-overweight-zaehlt",
+      "published_at": "2026-11-25T18:30:38Z",
+      "tickers": [
+        "BARC.L",
+        "RWE.DE"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "analyst",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "analyst",
+      "scanned_at": "2026-11-25T18:37:20Z",
+      "region": "EU"
+    },
+    {
+      "id": "458a2497afbc6b43",
+      "source": "wso_nachrichten",
+      "title": "Anthropic unter IPO-Preis: Was K\u00e4ufer jetzt antreibt",
+      "summary": "Anthropic steigt trotz KI-Blasenangst: Warum Anleger weiter zugreifen, welche Risiken der Kurs unter dem IPO-Preis birgt und worauf es jetzt wirklich ankommt.",
+      "url": "https://www.wallstreet-online.de/nachricht/21748531-anthropic-ipo-preis-kaeufer-antreibt",
+      "published_at": "2026-11-25T18:30:38Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-25T18:37:20Z",
+      "region": "EU"
+    },
+    {
+      "id": "75f2ab34d05332e7",
+      "source": "wso_nachrichten",
+      "title": "Siemens Energy: Warum der Windkraft-Deal nicht reicht",
+      "summary": "Siemens Energy verliert 4,60 Prozent. Trotz neuem Windkraft-Deal bleibt die Aktie unter Druck. Lesen Sie, welche Nachrichten Anleger jetzt einordnen sollten.",
+      "url": "https://www.wallstreet-online.de/nachricht/21748480-siemens-energy-windkraft-deal-reicht",
+      "published_at": "2026-11-25T18:30:38Z",
+      "tickers": [
+        "SIE.DE"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-25T18:37:20Z",
+      "region": "EU"
+    },
+    {
+      "id": "0904536f66535370",
+      "source": "wso_nachrichten",
+      "title": "Dell Technologies: Was hinter dem Druck trotz Rekorden steckt",
+      "summary": "Dell Technologies meldet Rekorde, doch die Aktie steht unter Druck. Ich ordne Zahlen, KI-Fantasie und Marktrisiken ein \u2013 damit Sie Chancen und Risiken abw\u00e4gen.",
+      "url": "https://www.wallstreet-online.de/nachricht/21748474-dell-technologies-druck-trotz-rekorden-steckt",
+      "published_at": "2026-11-25T18:30:38Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-25T18:37:20Z",
+      "region": "EU"
+    },
+    {
+      "id": "d3ef2940f1918557",
+      "source": "wso_nachrichten",
+      "title": "Rheinmetall: Lynx auf Shahed-Jagd \u2013 was jetzt wichtig wird",
+      "summary": "Rheinmetall vor wichtigen Impulsen: Was der Lynx-Einsatz in der Ukraine und der R\u00fcstungsgipfel f\u00fcr Anleger bedeuten und worauf es bei der Aktie jetzt ankommt.",
+      "url": "https://www.wallstreet-online.de/nachricht/21748537-rheinmetall-lynx-shahed-jagd",
+      "published_at": "2026-11-25T18:30:37Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-25T18:37:20Z",
+      "region": "EU"
+    },
+    {
+      "id": "2b6883f4f9ff2a95",
+      "source": "wso_nachrichten",
+      "title": "NVIDIA: KI-Kreditsorgen \u2013 was Anleger jetzt beachten m\u00fcssen",
+      "summary": "NVIDIA ger\u00e4t wegen KI-Kreditsorgen unter Druck. Ich zeige, welche Risiken jetzt z\u00e4hlen, warum Anleger trotzdem zugreifen und worauf es beim Einstieg ankommt.",
+      "url": "https://www.wallstreet-online.de/nachricht/21748528-nvidia-ki-kreditsorgen-anleger-beachten",
+      "published_at": "2026-11-25T18:30:37Z",
+      "tickers": [
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-25T18:37:20Z",
+      "region": "EU"
+    },
+    {
+      "id": "ea2e3a118fc9de77",
+      "source": "wso_nachrichten",
+      "title": "CTS Eventim: Was hinter Barclays\u2019 2030-Urteil steckt",
+      "summary": "CTS Eventim plant bis 2030 mit gro\u00dfen Zielen. Was Barclays und DZ Bank \u00fcberzeugt, warum R\u00fcckk\u00e4ufe entt\u00e4uschen und worauf Anleger jetzt besonders achten sollten.",
+      "url": "https://www.wallstreet-online.de/nachricht/21748507-cts-eventim-barclays-2030-urteil-steckt",
+      "published_at": "2026-11-25T18:30:37Z",
+      "tickers": [
+        "BARC.L",
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-25T18:37:20Z",
+      "region": "EU"
+    },
+    {
+      "id": "15f1e8cc873fbe01",
+      "source": "wso_nachrichten",
+      "title": "Alphabet: Millionenklage \u2013 was Anleger jetzt pr\u00fcfen m\u00fcssen",
+      "summary": "Alphabet steht nach Malaysias Klage und Druckenmillers Ausstieg unter Druck. Ich ordne die Risiken ein und zeige, worauf Anleger jetzt besonders achten sollten.",
+      "url": "https://www.wallstreet-online.de/nachricht/21748501-alphabet-millionenklage-anleger-pruefen",
+      "published_at": "2026-11-25T18:30:37Z",
+      "tickers": [
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-25T18:37:20Z",
+      "region": "EU"
+    },
+    {
+      "id": "e8c93d11d9afe360",
+      "source": "wso_nachrichten",
+      "title": "Deutsche Telekom: 35-Euro-Ziel \u2013 was Anleger jetzt pr\u00fcfen",
+      "summary": "Deutsche Telekom: Analysten erwarten 35 Euro. Ich ordne das Kursziel und die aktuellen Meldungen ein \u2013 und zeige, worauf Anleger jetzt besonders achten sollten.",
+      "url": "https://www.wallstreet-online.de/nachricht/21748492-deutsche-telekom-35-euro-ziel-anleger-pruefen",
+      "published_at": "2026-11-25T18:30:37Z",
+      "tickers": [
+        "DTE.DE"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "analyst",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "analyst",
+      "scanned_at": "2026-11-25T18:37:20Z",
+      "region": "EU"
+    },
+    {
+      "id": "48e0ca46c97df10b",
+      "source": "wso_nachrichten",
+      "title": "BioNTech: Milliardenpl\u00e4ne der Gr\u00fcnder \u2013 was jetzt z\u00e4hlt",
+      "summary": "BioNTech legt zu, w\u00e4hrend die Gr\u00fcnder offenbar eine Milliarde Dollar f\u00fcr ein neues Krebs-Start-up suchen. Was Anleger zu Chancen und Risiken wissen sollten.",
+      "url": "https://www.wallstreet-online.de/nachricht/21748516-biontech-milliardenplaene-gruender-zaehlt",
+      "published_at": "2026-11-25T18:30:36Z",
+      "tickers": [
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-25T18:37:20Z",
+      "region": "EU"
+    },
+    {
+      "id": "2e520dd40ea0ad68",
+      "source": "wso_nachrichten",
+      "title": "SAP verliert 20-Tage-Linie: Worauf Anleger jetzt achten",
+      "summary": "SAP hat die 20-Tage-Linie unterschritten. Erfahren Sie, welche Rolle Aktienr\u00fcckk\u00e4ufe und die Marke von 184 Euro f\u00fcr die weitere Kursentwicklung jetzt spielen.",
+      "url": "https://www.wallstreet-online.de/nachricht/21748513-sap-verliert-20-tage-linie-worauf-anleger-achten",
+      "published_at": "2026-11-25T18:30:36Z",
+      "tickers": [
+        "SAP.DE"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-25T18:37:20Z",
+      "region": "EU"
+    },
+    {
+      "id": "a642a2f0646d7ac5",
+      "source": "wso_nachrichten",
+      "title": "Mercedes-Benz: Was hinter der Abkehr von EQ steckt",
+      "summary": "Mercedes-Benz setzt bei E-Autos st\u00e4rker auf Kernmodelle und plant neue Fahrassistenten. Was der Strategiewechsel f\u00fcr Anleger bedeutet und worauf es jetzt ankommt.",
+      "url": "https://www.wallstreet-online.de/nachricht/21748510-mercedes-benz-abkehr-eq-steckt",
+      "published_at": "2026-11-25T18:30:36Z",
+      "tickers": [
+        "MBG.DE"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-25T18:37:20Z",
+      "region": "EU"
+    },
+    {
+      "id": "80e40f3f1f0a4781",
+      "source": "wso_nachrichten",
+      "title": "Evotec: Zweiter Wirkstoff in der Klinik \u2013 was jetzt z\u00e4hlt",
+      "summary": "Evotec und Bristol Myers Squibb bringen einen zweiten Molecular-Glue-Wirkstoff in die Klinik. Was der Fortschritt f\u00fcr Anleger nach dem Kursrutsch bedeutet.",
+      "url": "https://www.wallstreet-online.de/nachricht/21748498-evotec-zweiter-wirkstoff-klinik-zaehlt",
+      "published_at": "2026-11-25T18:30:36Z",
+      "tickers": [
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-25T18:37:20Z",
+      "region": "EU"
+    },
+    {
+      "id": "e1e8249171884cc4",
+      "source": "wso_nachrichten",
+      "title": "Bayer: Milliarden-Deal \u2013 dieses Detail z\u00e4hlt jetzt",
+      "summary": "Bayer setzt auf einen Krebswirkstoff von Hansoh: Der Deal kann bis zu 3,25 Milliarden Dollar kosten. Welche Risiken Anleger vor einem Einstieg pr\u00fcfen sollten.",
+      "url": "https://www.wallstreet-online.de/nachricht/21748495-bayer-milliarden-deal-detail-zaehlt",
+      "published_at": "2026-11-25T18:30:36Z",
+      "tickers": [
+        "BAYN.DE"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-25T18:37:20Z",
+      "region": "EU"
+    },
+    {
+      "id": "244299094819d7ea",
+      "source": "wso_nachrichten",
+      "title": "NEL ASA am Elfjahrestief: Diese Marke sollten Sie kennen",
+      "summary": "NEL ASA f\u00e4llt auf ein Elfjahrestief. Welche charttechnischen Marken jetzt z\u00e4hlen und wie Anleger die Risiken einordnen: aktuelle Analyse zur Wasserstoffaktie.",
+      "url": "https://www.wallstreet-online.de/nachricht/21748483-nel-asa-elfjahrestief-marke-kennen",
+      "published_at": "2026-11-25T18:30:36Z",
+      "tickers": [
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-25T18:37:20Z",
+      "region": "EU"
+    },
+    {
+      "id": "3a0eda09540f05a8",
+      "source": "wso_nachrichten",
+      "title": "Aixtron: UBS halbiert Kursziel \u2013 was jetzt wichtig wird",
+      "summary": "Aixtron unter Druck: UBS halbiert das Kursziel. Erfahren Sie, welche Risiken jetzt z\u00e4hlen und worauf Anleger beim angeschlagenen Halbleiterwert achten sollten.",
+      "url": "https://www.wallstreet-online.de/nachricht/21748543-aixtron-ubs-halbiert-kursziel",
+      "published_at": "2026-11-25T18:30:35Z",
+      "tickers": [
+        "RWE.DE",
+        "UBSG.SW"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "analyst",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "analyst",
+      "scanned_at": "2026-11-25T18:37:20Z",
+      "region": "EU"
+    },
+    {
+      "id": "5313c4681390bc12",
+      "source": "wso_nachrichten",
+      "title": "Vonovia: Neuer Vorsto\u00df im Mietstreit \u2013 was jetzt z\u00e4hlt",
+      "summary": "Vonovia h\u00e4lt sich im schwachen DAX, w\u00e4hrend der Chef im Berliner Mietstreit auf Dialog setzt. Erfahren Sie, welche Signale f\u00fcr Anleger jetzt entscheidend sind.",
+      "url": "https://www.wallstreet-online.de/nachricht/21748534-vonovia-vorstoss-mietstreit-zaehlt",
+      "published_at": "2026-11-25T18:30:35Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-25T18:37:20Z",
+      "region": "EU"
+    },
+    {
+      "id": "a8d90b1f97255681",
+      "source": "wso_nachrichten",
+      "title": "Amazon: Meta am Verhandlungstisch \u2013 was jetzt z\u00e4hlt",
+      "summary": "Amazon-Aktie unter Druck: Was die Gespr\u00e4che mit Meta \u00fcber KI-Shopping und die Atomkraft-Pl\u00e4ne f\u00fcr Anleger bedeuten \u2013 und worauf es jetzt besonders ankommt.",
+      "url": "https://www.wallstreet-online.de/nachricht/21748525-amazon-verhandlungstisch-zaehlt",
+      "published_at": "2026-11-25T18:30:35Z",
+      "tickers": [
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-25T18:37:20Z",
+      "region": "EU"
+    },
+    {
+      "id": "306755ad5793f727",
+      "source": "wso_nachrichten",
+      "title": "Volkswagen AG VZ: Was Anleger zu Premiumpl\u00e4nen wissen m\u00fcssen",
+      "summary": "Volkswagen legt zu: Neue Premiummodelle mit frischer Software treffen auf offenen Tarifstreit. Lesen Sie, welche Chancen und Risiken f\u00fcr Anleger jetzt z\u00e4hlen.",
+      "url": "https://www.wallstreet-online.de/nachricht/21748522-volkswagen-ag-vz-anleger-premiumplaenen-wissen",
+      "published_at": "2026-11-25T18:30:35Z",
+      "tickers": [
+        "VOW3.DE",
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-25T18:37:20Z",
+      "region": "EU"
+    },
+    {
+      "id": "6c6f83a952e8b6d3",
+      "source": "wso_nachrichten",
+      "title": "Micron Technology: Wie tief reicht der Kursziel-Schock?",
+      "summary": "Micron Technology ger\u00e4t nach gesenkten Kurszielen unter Druck. Was hinter den KI-Sorgen steckt und welche Risiken Anleger jetzt besonders genau pr\u00fcfen sollten.",
+      "url": "https://www.wallstreet-online.de/nachricht/21748519-micron-technology-tief-reicht-kursziel-schock",
+      "published_at": "2026-11-25T18:30:35Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "analyst",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "analyst",
+      "scanned_at": "2026-11-25T18:37:20Z",
+      "region": "EU"
+    },
+    {
+      "id": "a24e07f8bf444dee",
+      "source": "wso_nachrichten",
+      "title": "Deutz: Nach Shortseller-Attacke setzen Analysten auf Kauf",
+      "summary": "Die Deutz-Aktie steht nach der Shortseller-Attacke im Fokus. Was die Kaufempfehlungen der Analysten bedeuten und welche Chancen und Risiken Anleger jetzt pr\u00fcfen.",
+      "url": "https://www.wallstreet-online.de/nachricht/21748504-deutz-shortseller-attacke-analysten-kauf",
+      "published_at": "2026-11-25T18:30:35Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-25T18:37:20Z",
+      "region": "EU"
+    },
+    {
+      "id": "3991cebe60dd4c2f",
+      "source": "wso_nachrichten",
+      "title": "BYD: Bericht \u00fcber SUV-Verbot \u2013 was Anleger jetzt pr\u00fcfen",
+      "summary": "Die BYD-Aktie f\u00e4llt: Ein Bericht \u00fcber ein SUV-Verbot sorgt f\u00fcr Unruhe. Lesen Sie, welche Risiken jetzt z\u00e4hlen und was die Frankreich-Pl\u00e4ne bedeuten k\u00f6nnten.",
+      "url": "https://www.wallstreet-online.de/nachricht/21748489-byd-bericht-suv-verbot-anleger-pruefen",
+      "published_at": "2026-11-25T18:30:35Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-25T18:37:20Z",
+      "region": "EU"
+    },
+    {
+      "id": "d27b2b721465f094",
+      "source": "wso_nachrichten",
+      "title": "Infineon sackt ab: Was Anleger jetzt nicht \u00fcbersehen sollten",
+      "summary": "Infineon ger\u00e4t im Tech-Ausverkauf unter Druck. Warum Analysten dennoch optimistisch bleiben und welche Rolle der schw\u00e4chere Euro f\u00fcr die Gewinnchancen spielt.",
+      "url": "https://www.wallstreet-online.de/nachricht/21748486-infineon-sackt-ab-anleger-uebersehen",
+      "published_at": "2026-11-25T18:30:35Z",
+      "tickers": [
+        "IFX.DE",
+        "EOAN.DE"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-25T18:37:20Z",
+      "region": "EU"
+    },
+    {
+      "id": "65fb847274af4c1b",
+      "source": "wso_nachrichten",
+      "title": "SpaceX: Drohen Auftragsh\u00fcrden? Worauf es jetzt ankommt",
+      "summary": "Ein Gesetzesvorsto\u00df k\u00f6nnte SpaceX bei Staatsauftr\u00e4gen treffen. Erfahren Sie, welche Risiken daraus entstehen und worauf Anleger jetzt besonders achten sollten.",
+      "url": "https://www.wallstreet-online.de/nachricht/21748477-spacex-drohen-auftragshuerden-worauf-ankommt",
+      "published_at": "2026-11-25T18:30:35Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-25T18:37:20Z",
+      "region": "EU"
+    },
+    {
+      "id": "e8902381a8c6e8a0",
+      "source": "wso_nachrichten",
+      "title": "Almonty Industries: Wolfram-Engpass \u00f6ffnet Chancen",
+      "summary": "Almonty Industries im Fokus: Wolfram wird im Westen deutlich teurer. Welche Chancen die Versorgungsl\u00fccke er\u00f6ffnet und welche Risiken Anleger pr\u00fcfen sollten.",
+      "url": "https://www.wallstreet-online.de/nachricht/21748471-almonty-industries-wolfram-engpass-oeffnet-chancen",
+      "published_at": "2026-11-25T18:30:35Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-25T18:37:20Z",
+      "region": "EU"
+    },
+    {
+      "id": "461f84250add223b",
+      "source": "wso_nachrichten",
+      "title": "Hunderte Milliarden f\u00fcr KI: Anleihemarkt schl\u00e4gt Alarm: Wer soll das alles noch bezahlen?",
+      "summary": "Nvidia feiert ein Comeback, doch die Finanzierung des KI-Booms wird schwieriger. Am Anleihemarkt wachsen die Zweifel an den Milliardeninvestitionen.",
+      "url": "https://www.wallstreet-online.de/nachricht/21747331-hunderte-milliarden-ki-anleihemarkt-schlaegt-alarm-bezahlen",
+      "published_at": "2026-11-25T18:29:00Z",
+      "tickers": [
+        "ENI.MI"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-25T18:37:20Z",
+      "region": "EU"
+    },
+    {
+      "id": "30a90a951ea4f2d5",
+      "source": "wso_nachrichten",
+      "title": "Mut zum Widerspruch",
+      "summary": "Im freien demokratischen Ringen um allgemein verbindliche Regeln sollte Widerspruch selbstverst\u00e4ndlich sein, ebenso wie gro\u00dfz\u00fcgige Grenzen der Meinungsfreiheit. Insofern ist erkl\u00e4rungsbed\u00fcrftig, wenn Menschen beleidigt, ausgeschlossen und aus beruflichen Stellungen entfernt werden, weil sie der Regierung und der herrschenden Meinung \u00f6ffentlich widersprechen. Ein Erkl\u00e4rungsansatz ist, dass",
+      "url": "https://www.wallstreet-online.de/nachricht/21748453-mut-widerspruch",
+      "published_at": "2026-11-25T18:17:42Z",
+      "tickers": [
+        "INGA.AS",
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-25T18:37:20Z",
+      "region": "EU"
+    },
+    {
+      "id": "b99fd8a1e0c6d0d8",
+      "source": "wso_nachrichten",
+      "title": "RUM Reports Quarterly Financial Results for September 30, 2026",
+      "summary": "EDMONTON, AB / ACCESS Newswire / November 25, 2026 / Rocky Mountain Liquor Inc. (TSX-V:RUM) (the \"Company\" or \"Rocky Mountain\"), listed on the TSX Venture Exchange (the \"Exchange\"), today reported its financial results for the three and nine months &hellip;",
+      "url": "https://www.wallstreet-online.de/nachricht/21748435-rum-reports-quarterly-financial-results-for-september-30-2026",
+      "published_at": "2026-11-25T18:10:00Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "earnings",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "earnings_nosurprise",
+      "scanned_at": "2026-11-25T18:37:20Z",
+      "region": "EU"
+    },
+    {
+      "id": "76c5ce428151effc",
+      "source": "wso_nachrichten",
+      "title": "EQS-Adhoc: FIT GROUP AG: Bezugsrechtskapitalerh\u00f6hung wird in vollem Umfang durchgef\u00fchrt",
+      "summary": "EQS-Ad-hoc: FIT GROUP AG / Schlagwort(e): Kapitalerh\u00f6hung FIT GROUP AG: Bezugsrechtskapitalerh\u00f6hung wird in vollem Umfang durchgef\u00fchrt 25.11.2026 / 19:07 CET/CEST Ver\u00f6ffentlichung einer Insiderinformation nach Artikel 17 der Verordnung (EU) Nr. 596/2014, \u00fcbermittelt durch EQS News - ein Service der EQS Group. F\u00fcr den Inhalt der Mitteilung",
+      "url": "https://www.wallstreet-online.de/nachricht/21748432-eqs-adhoc-fit-group-ag-bezugsrechtskapitalerhoehung-vollem-umfang-durchgefuehrt",
+      "published_at": "2026-11-25T18:07:53Z",
+      "tickers": [],
+      "form": "EU_ADHOC",
+      "event_type": "offering",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "eu_category": "offering",
+      "scanned_at": "2026-11-25T18:37:20Z",
+      "region": "EU"
+    },
+    {
+      "id": "c139501a91ea7276",
+      "source": "eqs_google",
+      "title": "FIT GROUP AG: Bezugsrechtskapitalerh\u00f6hung wird in vollem Umfang durchgef\u00fchrt | Ad-hoc - EQS News",
+      "summary": "FIT GROUP AG: Bezugsrechtskapitalerh\u00f6hung wird in vollem Umfang durchgef\u00fchrt | Ad-hoc &nbsp;&nbsp; EQS News",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPRjM0dE9ZWExFS00wbDJPc1VuNHZ6THFGRUdkUEdTOC1ndGw4Q2RxSDkzcjZ5TFRLclB2eXAxMWMwb05oZkNGLVpGZjZHZHNncFhuaE91YjU4TS1YSEt2Nm9VZmdqeHBKREthSzN5TjhWbWpjdThGNHFURGxzYTBMVFF2elNnQ1d5LTBjdVRSSk51VFV5Y1QzZlVjb0NhMVZ6WnNlNzBvcXpLazZkNlJiMjFtcVZoWWJpSjhBNXlnTVhDQkgyT3o2ckYxdFRscFlfdnhEcGNCc2RDaG9sejBEZGNGWXdnX3M?oc=5",
+      "published_at": "2026-11-25T18:07:00Z",
+      "tickers": [],
+      "form": "EU_ADHOC",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-25T18:37:17Z",
+      "region": "EU"
+    },
+    {
+      "id": "abc29bf9ea6babc3",
+      "source": "wso_nachrichten",
+      "title": "BlackRock Greater Europe Investment Trust Plc - Transaction in Own Shares",
+      "summary": "BlackRock Greater Europe Investment Trust plc (\u2018the Company\u2019) LEI \u2013 5493003R8FJ6I76ZUW55 Transaction in own shares: purchase of own shares to be held in treasury The Company announces that it has today purchased 25,494 of its Ordinary Shares at an average price of 535.77 pence per share to be held in treasury. Following settlement of this",
+      "url": "https://www.wallstreet-online.de/nachricht/21748444-blackrock-greater-europe-investment-trust-plc-transaction-own-shares",
+      "published_at": "2026-11-25T18:02:00Z",
+      "tickers": [
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-25T18:37:20Z",
+      "region": "EU"
+    },
+    {
+      "id": "b6b7531905246464",
+      "source": "eqs_google",
+      "title": "Insider-K\u00e4ufe bei Zalando und HelloFresh - Investing.com Deutsch",
+      "summary": "Insider-K\u00e4ufe bei Zalando und HelloFresh &nbsp;&nbsp; Investing.com Deutsch",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOYzB0dEc4U3BSTGluTHJLRS1GX2taQjU3aFVuOU5BMDdEbUtvNDBLZjk3dDAxMjlxbFZqYVVmU2ZrNkMwSkRGSDhUdHlHQXhiZWp0TlVoYkNHazE3ZGpGMlEyVXlHZ25qS3p5SHREN1dxeG8tUmNvYjdHNENaaGNWUlFvak9jYVZvdFNjZWJWaEdQbVVWNjR4M1lPZlduQjdNMk41YkZB?oc=5",
+      "published_at": "2026-11-25T17:02:00Z",
+      "tickers": [
+        "ZAL.DE",
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-25T18:37:18Z",
+      "region": "EU"
+    },
     {
       "id": "c5c0298ea0ff91ca",
       "source": "prnewswire",
@@ -887,6 +1482,26 @@
       "scanned_at": "2026-11-25T14:56:41Z"
     },
     {
+      "id": "e021033281486df4",
+      "source": "yahoo_eu",
+      "title": "\u00dcberziehungszinsen: Vebraucherzentralen scheitern mit Klage gegen Deutsche Bank",
+      "summary": "Im Streit um geltende \u00dcberziehungsrichtlinien der Deutschen Bank hat das Oberlandesgericht Frankfurt am Main eine Klage des Verbraucherzentrale Bundesverbands (vzbv) abgewiesen.Wie das Gericht am Mittwoch mitteilte, beanstandete der vzbv die alleinige Angabe des Zinssatzes f\u00fcr den Fall einer Konto\u00fcberziehung in den Gesch\u00e4ftsbedingungen der Bank.",
+      "url": "https://de.finance.yahoo.com/nachrichten/%C3%BCberziehungszinsen-vebraucherzentralen-scheitern-klage-gegen-133948741.html?.tsrc=rss",
+      "published_at": "2026-11-25T13:39:48Z",
+      "tickers": [
+        "DBK.DE",
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-25T18:37:27Z",
+      "region": "EU"
+    },
+    {
       "id": "b33d25006e97e5d6",
       "source": "edgar_8k",
       "title": "8-K - RAYMOND JAMES FINANCIAL INC (0000720005) (Filer)",
@@ -1020,6 +1635,25 @@
       "scanned_at": "2026-11-25T14:56:41Z"
     },
     {
+      "id": "433ee8fa3bc4da96",
+      "source": "yahoo_eu",
+      "title": "PT Pan Brothers Tbk treibt die intelligente Fertigung mit widerstandsf\u00e4higeren SAP-Abl\u00e4ufen von Rimini Street voran",
+      "summary": "LAS VEGAS, November 25, 2026--Rimini Street, Inc. (Nasdaq: RMNI), das \u201eSoftware Support and Agentic AI ERP Company\u2122\" und f\u00fchrender Drittanbieter von Supportleistungen f\u00fcr Oracle-, SAP- und VMware-Software, gab heute bekannt, dass PT Pan Brothers Tbk, einer der gr\u00f6\u00dften Bekleidungshersteller Indonesiens, sich f\u00fcr Rimini Support\u2122 und Rimini Watch\u2122 entschieden hat, um die Zuverl\u00e4ssigkeit, Leistung und Transparenz seiner gesch\u00e4ftskritischen SAP-Umgebung zu st\u00e4rken. Die Dienstleistungen helfen PT Pan",
+      "url": "https://de.finance.yahoo.com/nachrichten/pt-pan-brothers-tbk-treibt-131000058.html?.tsrc=rss",
+      "published_at": "2026-11-25T13:10:00Z",
+      "tickers": [
+        "SAP.DE"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-25T18:37:23Z",
+      "region": "EU"
+    },
+    {
       "id": "3c438ca9df65f355",
       "source": "edgar_8k",
       "title": "8-K - CANNAPHARMARX, INC. (0001081938) (Filer)",
@@ -1033,6 +1667,40 @@
       "news_side": "short",
       "actionable": true,
       "scanned_at": "2026-11-25T14:56:41Z"
+    },
+    {
+      "id": "82e595941fb07839",
+      "source": "eqs_google",
+      "title": "Sixt Aktie: SDAX Gewinner am Mittag mit +3,58% - Familie Sixt kauft Vorzugsaktien, Rekordquartal im R\u00fccken - AktienCheck.de",
+      "summary": "Sixt Aktie: SDAX Gewinner am Mittag mit +3,58% - Familie Sixt kauft Vorzugsaktien, Rekordquartal im R\u00fccken &nbsp;&nbsp; AktienCheck.de",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbUExR0xmMEhXOElaWVE4d2hwOHZPU0ZWWTR4T2NMVmswUHhqZHRNSHFpR3Y2TzEtaTMxMmpEV2U0Um1TUndmVDl4ZWxObVR0bDNfV0Fmb3ZHVV9GcERidm1iSWd2Rm5wYVdzblhJNEdVXzdVd1FON0hFbGM0QTVWXzJkZVd4cWtwaWwwNUJSNW9EMlJ2ejNwSDVBcTdEM0NDTHlSdUE5SGNXZw?oc=5",
+      "published_at": "2026-11-25T13:02:10Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-25T18:37:18Z",
+      "region": "EU"
+    },
+    {
+      "id": "94b442c6f2226bec",
+      "source": "eqs_google",
+      "title": "Heidelberger Druck Aktie: SDAX Gewinner am Mittag mit +7,76% - Insiderkauf des CEO und Short-Druck treiben den Kurs - AktienCheck.de",
+      "summary": "Heidelberger Druck Aktie: SDAX Gewinner am Mittag mit +7,76% - Insiderkauf des CEO und Short-Druck treiben den Kurs &nbsp;&nbsp; AktienCheck.de",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZ0lqMFg4X3k1Mkh6S3VZM1IxN2ZSR056ejB3Y0NPMkMyV2RUbTR3clc3VHJYSE5OVVI5a2c4RnJxS0MxanRYOWlTRFZPVG42LVR6a09tRXMtVG1XWUx2anRvczJ2Mjl5Y3hfY2RLdF9aT2JYd3ZVQU9lWVpxc0V0bmVJZ09QWk9XeEpLOG1Qalg1RjlCeXMzaGZrN093ak42N0xrT0tGenF1TDhNaUFJdg?oc=5",
+      "published_at": "2026-11-25T13:00:27Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-25T18:37:18Z",
+      "region": "EU"
     },
     {
       "id": "b2acc55a0c9bc17e",
@@ -1110,6 +1778,23 @@
       "scanned_at": "2026-11-25T14:56:41Z"
     },
     {
+      "id": "b0a39f0c87566055",
+      "source": "eqs_google",
+      "title": "SanDisk Aktie: Evercore stutzt Kursziel auf 175 Dollar - Finanztrends",
+      "summary": "SanDisk Aktie: Evercore stutzt Kursziel auf 175 Dollar &nbsp;&nbsp; Finanztrends",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVURHRUVoNzZhbFd3NXBDUW80QzQ2ZUtwQnNSa25sWmFmN0VEcjAxMGxmQUc4dzZEcjNRVVR0WkZKMkVYWk5TZnk3RFlISHBkWlJDMEwyT01fUU9hZjEzVF9SeFp4OWpqdG1mOEVkcjIwdVFYWVdKeVFYQzY3TG5NVWR0bTdudXZTYkEwYVpRdDk?oc=5",
+      "published_at": "2026-11-25T12:29:08Z",
+      "tickers": [],
+      "form": "EU_NEWS",
+      "event_type": "analyst",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "analyst",
+      "scanned_at": "2026-11-25T18:37:19Z",
+      "region": "EU"
+    },
+    {
       "id": "6a5e1d25a35c498b",
       "source": "cnbc_finance",
       "title": "Liesman: Nvidia whiplash tests Kevin Warsh\u2019s push to read market signals",
@@ -1122,6 +1807,26 @@
       "news_side": null,
       "actionable": false,
       "scanned_at": "2026-11-25T14:56:44Z"
+    },
+    {
+      "id": "2a69ed3085a143d3",
+      "source": "yahoo_eu",
+      "title": "Niedersachsens Gro\u00dffirmen machen fast 600 Milliarden Umsatz",
+      "summary": "Die 100 gr\u00f6\u00dften Unternehmen Niedersachsens haben im vergangenen Jahr einen Umsatz von gut 586 Milliarden Euro erwirtschaftet. Gegen\u00fcber 2024 sei das ein Plus von 11,6 Prozent, teilte die Norddeutsche Landesbank (NordLB) mit. Der Zuwachs beruht demnach aber zu einem gro\u00dfen Teil auf der ver\u00e4nderten Zusammensetzung der Rangliste. Der Umsatz der 84 Firmen, die in beiden Jahren vertreten waren, stagnierte.",
+      "url": "https://de.finance.yahoo.com/nachrichten/niedersachsens-gro%C3%9Ffirmen-fast-600-milliarden-121812952.html?.tsrc=rss",
+      "published_at": "2026-11-25T12:18:12Z",
+      "tickers": [
+        "VOW3.DE",
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-25T18:37:24Z",
+      "region": "EU"
     },
     {
       "id": "2f62ef51f11200f4",
@@ -1154,6 +1859,25 @@
       "scanned_at": "2026-11-25T14:56:41Z"
     },
     {
+      "id": "61059abf77fd9d9f",
+      "source": "yahoo_eu",
+      "title": "VW lernt in China das Autobauen neu: F\u00fcnf Themen des Tages",
+      "summary": "William Wilkes \u00fcber China als Technologielabor \u2014 Abonnieren Sie unseren Newsletter F\u00fcnf Themen des Tages und erhalten Sie samstags das Hauptstadtgefl\u00fcster direkt in Ihre Mailbox. Folgen Sie uns auch auf unserer LinkedIn-Seite.",
+      "url": "https://de.finance.yahoo.com/nachrichten/vw-lernt-china-autobauen-neu-114101370.html?.tsrc=rss",
+      "published_at": "2026-11-25T11:41:01Z",
+      "tickers": [
+        "VOW3.DE"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-25T18:37:24Z",
+      "region": "EU"
+    },
+    {
       "id": "a17544dbbbae04c4",
       "source": "edgar_8k",
       "title": "8-K - Mobile Infrastructure Corp (0001847874) (Filer)",
@@ -1167,6 +1891,25 @@
       "news_side": "short",
       "actionable": true,
       "scanned_at": "2026-11-25T14:56:41Z"
+    },
+    {
+      "id": "b0d9ed0dfca72b4c",
+      "source": "yahoo_eu",
+      "title": "AKTIEN IM FOKUS 2: Schn\u00e4ppchensuche im Autosektor - EU-Schranken im Blick",
+      "summary": "(Neu: Erholungsrally bei Autobauern, EU-Hybrid-Beschr\u00e4nkungen, Analysten)",
+      "url": "https://de.finance.yahoo.com/nachrichten/aktien-fokus-2-schn%C3%A4ppchensuche-autosektor-113250206.html?.tsrc=rss",
+      "published_at": "2026-11-25T11:32:50Z",
+      "tickers": [
+        "VOW3.DE"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-25T18:37:24Z",
+      "region": "EU"
     },
     {
       "id": "d0ef0b15843fdc6f",
@@ -1227,6 +1970,133 @@
       "news_side": null,
       "actionable": false,
       "scanned_at": "2026-11-25T14:56:41Z"
+    },
+    {
+      "id": "f1a9ecd749ff1913",
+      "source": "yahoo_eu",
+      "title": "ANALYSE-FLASH: RBC hebt Sanofi auf 'Outperform' und Ziel auf 105 Euro",
+      "summary": "Die kanadische Bank RBC hat das Kursziel f\u00fcr Sanofi von 80 auf 105 Euro angehoben und die Aktien von \"Sector Perform\" auf \"Outperform\" hochgestuft. Die angek\u00fcndigte \u00dcbernahme des US-Biotechunternehmens Insmed biete f\u00fcr die Zeit nach dem Dupixent-Patentablauf die Klarheit, auf die der Markt gewartet habe, schrieb Trung Huynh am Mittwoch. Denn mit Insmed d\u00fcrften die Franzosen bis zum Ende des Jahrzehnts \u00fcberdurchschnittliches Wachstum im Vergleich zur EU-Konkurrenz. v",
+      "url": "https://de.finance.yahoo.com/nachrichten/analyse-flash-rbc-hebt-sanofi-100849196.html?.tsrc=rss",
+      "published_at": "2026-11-25T10:08:49Z",
+      "tickers": [
+        "SAN.PA"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "mna",
+      "direction": "bullish",
+      "news_side": "long",
+      "actionable": true,
+      "eu_category": "mna",
+      "scanned_at": "2026-11-25T18:37:22Z",
+      "region": "EU"
+    },
+    {
+      "id": "d228c0bf51d2283c",
+      "source": "yahoo_eu",
+      "title": "AKTIEN IM FOKUS: Turbulenzen bei KI-Werten halten an - Infineon-Tief seit April",
+      "summary": "Aktien aus dem globalen KI-Bereich kommen auch am Mittwoch nicht zur Ruhe. Vor allem galt dies f\u00fcr den Chipsektor, aus dem in Deutschland die Titel von Infineon mit einem bis zu knapp zwei Prozent gro\u00dfen Abschlag auf ein weiteres Tief seit April fielen. Die Aktien von Siemens Energy , einem weiteren deutschen KI-Profiteur, gaben um knapp ein Prozent nach.",
+      "url": "https://de.finance.yahoo.com/nachrichten/aktien-fokus-turbulenzen-ki-werten-094510494.html?.tsrc=rss",
+      "published_at": "2026-11-25T09:45:10Z",
+      "tickers": [
+        "IFX.DE",
+        "SIE.DE",
+        "EOAN.DE",
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-25T18:37:29Z",
+      "region": "EU"
+    },
+    {
+      "id": "23590155d48fd05e",
+      "source": "yahoo_eu",
+      "title": "Henry Boot warnt vor deutlicher Zielverfehlung f\u00fcr 2026 \u2013 Aktie bricht um 12 % ein",
+      "summary": "Investing.com - Der britische Immobilienentwickler und Investor Henry Boot (LON:BOOT) hat am Dienstag einger\u00e4umt, dass das Gesamtjahresergebnis 2026 deutlich hinter den Markterwartungen zur\u00fcckbleiben wird. Die Aktie des Unternehmens brach nach der Ver\u00f6ffentlichung des Trading Updates um 12 % ein.",
+      "url": "https://de.finance.yahoo.com/nachrichten/henry-boot-warnt-deutlicher-zielverfehlung-092543555.html?.tsrc=rss",
+      "published_at": "2026-11-25T09:25:43Z",
+      "tickers": [
+        "SSE.L",
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-25T18:37:21Z",
+      "region": "EU"
+    },
+    {
+      "id": "7775919e17b2ac8d",
+      "source": "yahoo_eu",
+      "title": "Europas B\u00f6rsen im Plus: VW, BMW und Luxuswerte gefragt \u2013 Blick auf US-PCE-Daten",
+      "summary": "Investing.com - Tech-Ausverkauf in Asien und an der Wall Street, dennoch Gewinne in Europa: Alle vier gro\u00dfen Indizes legten am Mittwochmorgen zu, angef\u00fchrt von Auto- und Luxuswerten. Vor den US-Inflationsdaten am Nachmittag r\u00fcckt zudem die Frage in den Fokus, wie deutlich die Federal Reserve im Dezember die Zinsen anheben wird.",
+      "url": "https://de.finance.yahoo.com/nachrichten/europas-b%C3%B6rsen-plus-vw-bmw-085651094.html?.tsrc=rss",
+      "published_at": "2026-11-25T08:56:51Z",
+      "tickers": [
+        "VOW3.DE",
+        "BMW.DE",
+        "INGA.AS",
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-25T18:37:24Z",
+      "region": "EU"
+    },
+    {
+      "id": "04ec3cb80ecd4b7e",
+      "source": "yahoo_eu",
+      "title": "Michael Kreppel-Friedbichler ist neuer COO von AOP Health",
+      "summary": "WIEN, November 25, 2026--Internationale Pharmaexpertise f\u00fcr weiteres Wachstum: Michael Kreppel-Friedbichler \u00fcbernahm mit 15. Oktober 2026 die Position des Chief Operating Officer (COO). Der Spitzenmanager bringt mehr als 20 Jahre Erfahrung in der Branche mit und folgt auf Jean-Michel Quinot, der Anfang 2027 in das Board of Directors der AOP Health International Management AG wechseln wird. Mit der Neubesetzung setzt das auf seltene Erkrankungen und Intensivmedizin spezialisierte Unternehmen mit",
+      "url": "https://de.finance.yahoo.com/nachrichten/michael-kreppel-friedbichler-neuer-coo-080000649.html?.tsrc=rss",
+      "published_at": "2026-11-25T08:00:00Z",
+      "tickers": [
+        "RO.SW",
+        "INGA.AS"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-25T18:37:28Z",
+      "region": "EU"
+    },
+    {
+      "id": "e231479f1914cb66",
+      "source": "yahoo_eu",
+      "title": "ANALYSE-FLASH: JPMorgan senkt Ziel f\u00fcr Mercedes-Benz auf 50 Euro - 'Overweight'",
+      "summary": "Die US-Bank JPMorgan hat das Kursziel f\u00fcr Mercedes-Benz von 70 auf 50 Euro gesenkt, aber die Einstufung auf \"Overweight\" belassen. Mit Blick auf die Autobranche setzt die Bank 2027 vor allem auf Lkw-Bauer, Anbieter hochtechnologisierter Fahrzeuge und Luxusautos sowie Reifenhersteller, wie Analyst Jose Asumendi am Dienstag im gro\u00dfen Ausblick schrieb. Unter den Einzelwerten hei\u00dfen die Favoriten Ferrari, Porsche AG, Michelin, Continental, Daimler Truck und Volvo. BMW, Mercedes und Re",
+      "url": "https://de.finance.yahoo.com/nachrichten/analyse-flash-jpmorgan-senkt-ziel-070501571.html?.tsrc=rss",
+      "published_at": "2026-11-25T07:05:01Z",
+      "tickers": [
+        "MBG.DE",
+        "ML.PA",
+        "RACE.MI",
+        "BMW.DE",
+        "RWE.DE",
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "analyst",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "analyst",
+      "scanned_at": "2026-11-25T18:37:23Z",
+      "region": "EU"
     },
     {
       "id": "b9d431a99c919401",
@@ -3632,6 +4502,28 @@
       "scanned_at": "2026-11-24T21:23:17Z"
     },
     {
+      "id": "d960d39ad0d78b94",
+      "source": "yahoo_eu",
+      "title": "Moody\u2019s best\u00e4tigt Sanofi-Rating mit \u201eAa3\u201c \u2013 Ausblick wegen Insmed-\u00dcbernahme auf \u201enegativ\u201c gesenkt",
+      "summary": "Investing.com \u2013 Moody\u2019s Ratings hat das langfristige Emittenten- sowie das Senior-Unsecured-Rating von Sanofi (NASDAQ:SNY) mit \u201eAa3\u201c best\u00e4tigt, den Ausblick jedoch von \u201estabil\u201c auf \u201enegativ\u201c herabgestuft. Grund daf\u00fcr ist eine versch\u00e4rfte Beobachtung der Bilanz des Pharmakonzerns infolge der Vereinbarung zur \u00dcbernahme von Insmed Incorporated f\u00fcr 41 Milliarden Dollar. Die Entscheidung reflektiert das Spannungsfeld zwischen dem strategischen Mehrwert durch den Ausbau des Atemwegsportfolios von Sano",
+      "url": "https://de.finance.yahoo.com/nachrichten/moody-s-best%C3%A4tigt-sanofi-rating-204805314.html?.tsrc=rss",
+      "published_at": "2026-11-24T20:48:05Z",
+      "tickers": [
+        "SAN.PA",
+        "RWE.DE",
+        "INGA.AS",
+        "ENI.MI"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "mna",
+      "direction": "bullish",
+      "news_side": "long",
+      "actionable": true,
+      "eu_category": "mna",
+      "scanned_at": "2026-11-25T18:37:22Z",
+      "region": "EU"
+    },
+    {
       "id": "9576a0e3daeebe86",
       "source": "cnbc_finance",
       "title": "Utah drops criminal charges against Kalshi founders after company suspended operations in state",
@@ -4471,6 +5363,25 @@
       "region": "EU"
     },
     {
+      "id": "b1b55eb68af98b8a",
+      "source": "yahoo_eu",
+      "title": "Sanofi kauft US-Firma Insmed f\u00fcr 41 Milliarden Dollar: Kurs auf Zeit nach Dupixent",
+      "summary": "Der franz\u00f6sische Pharmakonzern Sanofi \u00fcbernimmt f\u00fcr 41 Milliarden Dollar die US-Biotechfirma Insmed und st\u00e4rkt so sein Medikamentenportfolio vor dem Patentablauf des Hauptprodukts.View on euronews",
+      "url": "https://de.euronews.com/2026/11/24/sanofi-kauft-us-firma-insmed-fur-41-milliarden-dollar-kurs-auf-zeit-nach-dupixent?.tsrc=rss",
+      "published_at": "2026-11-24T18:21:39Z",
+      "tickers": [
+        "SAN.PA"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-25T18:37:22Z",
+      "region": "EU"
+    },
+    {
       "id": "fc279576cb58ea60",
       "source": "eqs_google",
       "title": "Meier Tobler publiziert die Einladung zur ausserordentlichen Generalversammlung vom 16. Dezember 2026 | Ad-hoc - EQS News",
@@ -4487,6 +5398,25 @@
       "actionable": false,
       "eu_category": "other_8k",
       "scanned_at": "2026-11-24T19:28:43Z",
+      "region": "EU"
+    },
+    {
+      "id": "8dc815ebcf6df0b2",
+      "source": "eqs_google",
+      "title": "Meier Tobler publiziert die Einladung zur ausserordentlichen Generalversammlung vom 16. Dezember 2026 | Ad-hoc - EQS News",
+      "summary": "Meier Tobler publiziert die Einladung zur ausserordentlichen Generalversammlung vom 16. Dezember 2026 | Ad-hoc &nbsp;&nbsp; EQS News",
+      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOM3FoRVdmLTVWaGpNbXVidTZQWG96M3JWREFwM2hXM1dqbWdFeE8zUjNVZjdwOXhvZE12RjBsUEF3MDluN1RJZDNGdWtaT3N4S3BQV1dVb0dyTS04YmlGLW1UWjYtRGU2OXg5ZloxTllEbmhVN0VRbXE4azZFOTZ3blMza2E0VFIwY3VMNThjZHRZR0tlX2FkVmdXNHZmNUZTb0hXRXZIZGVxM0I5MFZRQ0dfVGJZcmVObV9vc1g0bkhHX2wwc1NmYkZUdDJTbDkySDFXZ0w5UVdMVVpzNGhvNE1jUTJ1T1Ruc2h1NUNNelE4TTNFOGR1bWhTZTJKV19zRHprcVNUS3h4akNf?oc=5",
+      "published_at": "2026-11-24T17:00:00Z",
+      "tickers": [
+        "SSE.L"
+      ],
+      "form": "EU_ADHOC",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-25T18:37:17Z",
       "region": "EU"
     },
     {
@@ -4509,6 +5439,25 @@
       "region": "EU"
     },
     {
+      "id": "fe24f03b3edbe546",
+      "source": "eqs_google",
+      "title": "Schweizerische Mobiliar Asset Management AG Gewinnsteigerung und erneute Erh\u00f6hung der Aussch\u00fcttung - EQS News",
+      "summary": "Schweizerische Mobiliar Asset Management AG Gewinnsteigerung und erneute Erh\u00f6hung der Aussch\u00fcttung &nbsp;&nbsp; EQS News",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNUHViNzlqSjN6TjdFR09sd2Y4SDV3bGFEMTgteFY4REdhZWczeFk5Y3dtVmJJdUVnOFZERVVvck40ZGx6M0tyY2FKU2Nyb3B1Mkh5N042SHM4cVVKdVQ2YU5EeUpjQjcyRF9sSEJQS0sxM212NmEtVC1YclJpTk1HUjVVbWhtbDk5QlFsOENacG1ZUUJqUE9LQzJJVWVpV1E1SFE0T0dWenRqaV9SbC00cVYwMVJCOGcySFRGSjRQMkNORTlrVjEweWxWa3JoTXlqVGc?oc=5",
+      "published_at": "2026-11-24T16:50:00Z",
+      "tickers": [
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-25T18:37:17Z",
+      "region": "EU"
+    },
+    {
       "id": "99628f9ab3cdcf2e",
       "source": "yahoo_eu",
       "title": "ROUNDUP 2: Frostiger Tarifauftakt bei VW - Warnstreiks drohen",
@@ -4522,9 +5471,9 @@
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": false,
+      "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-24T19:28:52Z",
+      "scanned_at": "2026-11-25T18:37:24Z",
       "region": "EU"
     },
     {
@@ -4542,9 +5491,9 @@
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": false,
+      "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-24T19:28:52Z",
+      "scanned_at": "2026-11-25T18:37:24Z",
       "region": "EU"
     },
     {
@@ -4561,9 +5510,9 @@
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": false,
+      "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-24T19:28:52Z",
+      "scanned_at": "2026-11-25T18:37:24Z",
       "region": "EU"
     },
     {
@@ -4574,15 +5523,16 @@
       "url": "https://de.finance.yahoo.com/nachrichten/ubs-muss-kapitalstreit-niederlage-hinnehmen-154722232.html?.tsrc=rss",
       "published_at": "2026-11-24T15:47:22Z",
       "tickers": [
-        "UBS"
+        "UBSG.SW",
+        "BATS.L"
       ],
       "form": "EU_NEWS",
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": false,
+      "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-24T19:28:52Z",
+      "scanned_at": "2026-11-25T18:37:25Z",
       "region": "EU"
     },
     {
@@ -4597,9 +5547,9 @@
       "event_type": "analyst",
       "direction": "neutral",
       "news_side": null,
-      "actionable": false,
+      "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-24T19:28:45Z",
+      "scanned_at": "2026-11-25T18:37:19Z",
       "region": "EU"
     },
     {
@@ -4616,9 +5566,9 @@
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": false,
+      "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-24T19:28:52Z",
+      "scanned_at": "2026-11-25T18:37:24Z",
       "region": "EU"
     },
     {
@@ -4759,9 +5709,9 @@
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": false,
+      "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-24T19:28:47Z",
+      "scanned_at": "2026-11-25T18:37:26Z",
       "region": "EU"
     },
     {
@@ -4778,9 +5728,9 @@
       "event_type": "analyst",
       "direction": "neutral",
       "news_side": null,
-      "actionable": false,
+      "actionable": true,
       "eu_category": "analyst",
-      "scanned_at": "2026-11-24T19:28:45Z",
+      "scanned_at": "2026-11-25T18:37:19Z",
       "region": "EU"
     },
     {
@@ -4851,15 +5801,15 @@
       "url": "https://de.finance.yahoo.com/nachrichten/wdh-adyens-co-chef-mitgr%C3%BCnder-110319824.html?.tsrc=rss",
       "published_at": "2026-11-24T11:03:19Z",
       "tickers": [
-        "WDH"
+        "ADYEN.AS"
       ],
       "form": "EU_NEWS",
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": false,
+      "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-24T19:28:47Z",
+      "scanned_at": "2026-11-25T18:37:26Z",
       "region": "EU"
     },
     {
@@ -5052,6 +6002,25 @@
       "scanned_at": "2026-11-24T11:09:59Z"
     },
     {
+      "id": "c20570d50cba5b58",
+      "source": "yahoo_eu",
+      "title": "Sanofi kauft US-Biotechfirma f\u00fcr 41 Milliarden Dollar",
+      "summary": "Sanofi macht in den USA einen Mega-Deal perfekt. Damit peilt der franz\u00f6sische Pharmakonzern eine st\u00e4rkere Position bei Mitteln gegen seltenen Krankheiten an.",
+      "url": "https://de.finance.yahoo.com/nachrichten/sanofi-kauft-us-biotechfirma-f%C3%BCr-071823610.html?.tsrc=rss",
+      "published_at": "2026-11-24T10:48:17Z",
+      "tickers": [
+        "SAN.PA"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-25T18:37:22Z",
+      "region": "EU"
+    },
+    {
       "id": "3007f5d47e6b6af2",
       "source": "prnewswire",
       "title": "PTLO Stock Drop Notice: Portillo's 23% Stock Drop Leads to Securities Fraud Class Action on behalf of Investors - January 11 Court Deadline is Imminent",
@@ -5238,6 +6207,26 @@
       "scanned_at": "2026-11-25T04:33:41Z"
     },
     {
+      "id": "b753109c20a902a8",
+      "source": "yahoo_eu",
+      "title": "ROUNDUP: Sanofi will US-Pharmahersteller Insmed f\u00fcr 41 Milliarden Dollar kaufen",
+      "summary": "Der franz\u00f6sische Pharmahersteller Sanofi greift f\u00fcr den Ausbau seines Gesch\u00e4fts mit Medikamenten gegen Atemwegserkrankungen und seltenen Krankheiten tief in die Tasche. F\u00fcr 41 Milliarden US-Dollar (37,6 Mrd Euro) will der Konzern das US-Biotechunternehmen Insmed \u00fcbernehmen. Je Insmed-Aktie w\u00fcrden 175 Dollar in bar geboten, teilte Sanofi am Dienstag in Paris mit. Damit stemmen die Franzosen eine der gr\u00f6\u00dften \u00dcbernahmen in ihrer Geschichte. Es ist zugleich ein gro\u00dfer W",
+      "url": "https://de.finance.yahoo.com/nachrichten/roundup-sanofi-will-us-pharmahersteller-101032789.html?.tsrc=rss",
+      "published_at": "2026-11-24T10:10:32Z",
+      "tickers": [
+        "SAN.PA",
+        "SSE.L"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-25T18:37:22Z",
+      "region": "EU"
+    },
+    {
       "id": "1b42b45925b33ea5",
       "source": "marketwatch",
       "title": "Zendaya and Tom Holland buy a home on 1 acre in London for $10 million",
@@ -5300,16 +6289,33 @@
       "summary": "PAUL Tech AG: PAUL Tech AG erh\u00f6ht bestehende Kreditfazilit\u00e4t um EUR 25 Mio. | Ad-hoc &nbsp;&nbsp; EQS News",
       "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNQi1sVjVIN0tTZ0ZPTkFLdjFra0VqaC1sNG96NGZRVGNLVHc4bUtxRkV3VDJHZTM2dXBZMXVtSXBvTnlqajQ4am5kb3piUmhjUG5rd2h5REc2RFEzRTkwUHpyeXgyM1hrMmNER2ktVFlUWC1jaFpEbnd4aFBMdWlQa2Y4NXlSbWVKNkota1NsZTZudDEyUENEaUpJeEVFazZHTS0tMWVVX1pSSWhsMERnUmkzbl9pOEg4NWwwcXJvdlBFZHJlTVNLcXI2bFVKSEFobmJiTUNzYzk0V01aMHBQcUJVeTQtV1JTaUVHSmFxYVhnbnhCeXAxVlhpakZjdw?oc=5",
       "published_at": "2026-11-24T09:56:00Z",
-      "tickers": [
-        "PAUL"
-      ],
+      "tickers": [],
       "form": "EU_ADHOC",
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": false,
+      "actionable": true,
       "eu_category": "other_8k",
-      "scanned_at": "2026-11-24T19:28:43Z",
+      "scanned_at": "2026-11-25T18:37:17Z",
+      "region": "EU"
+    },
+    {
+      "id": "4241dc2fca02f911",
+      "source": "yahoo_eu",
+      "title": "WDH: Sanofi will US-Pharmahersteller Insmed f\u00fcr 41 Milliarden Dollar kaufen",
+      "summary": "(Ausgefallenes Wort im ersten Absatz, vierter Satz erg\u00e4nzt: Der Kauf soll sich ab Ende rpt Ende 2028 positiv auf das Ergebnis je Aktie von Sanofi auswirken.)",
+      "url": "https://de.finance.yahoo.com/nachrichten/wdh-sanofi-will-us-pharmahersteller-094546897.html?.tsrc=rss",
+      "published_at": "2026-11-24T09:45:46Z",
+      "tickers": [
+        "SAN.PA"
+      ],
+      "form": "EU_NEWS",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": true,
+      "eu_category": "other_8k",
+      "scanned_at": "2026-11-25T18:37:22Z",
       "region": "EU"
     },
     {
@@ -5367,752 +6373,6 @@
       "news_side": null,
       "actionable": false,
       "scanned_at": "2026-11-24T11:09:59Z"
-    },
-    {
-      "id": "ddedf80b481990a5",
-      "source": "prnewswire_financial",
-      "title": "Halfpricesoft.com Releases ezW2 2026 for Upcoming Tax Season Deadlines",
-      "summary": "Streamline year-end compliance with unlimited W-2, W-3, and 1099-NEC processing, W-2 corrections, flexible self-e filing, and a new high-accuracy E-File Add-On Service. REDMOND, Wash., Nov. 24, 2026 /PRNewswire/ -- Halfpricesoft.com has officially launched ezW2 2026, the go-to trusted tax...",
-      "url": "https://www.prnewswire.com/news-releases/halfpricesoftcom-releases-ezw2-2026-for-upcoming-tax-season-deadlines-302945996.html",
-      "published_at": "2026-11-24T09:00:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-24T11:09:59Z"
-    },
-    {
-      "id": "ae93b9895465c17f",
-      "source": "yahoo_eu",
-      "title": "IPO: B\u00f6rsenreife von BASF-Agrarsparte r\u00fcckt n\u00e4her",
-      "summary": "Der weltgr\u00f6\u00dfte Chemiekonzern BASF h\u00e4lt an seinen B\u00f6rsenpl\u00e4nen f\u00fcr das Agrargesch\u00e4ft fest. Die \u00dcberf\u00fchrung des Gesch\u00e4fts in eigenst\u00e4ndige Gesellschaften sei weitgehend abgeschlossen, hie\u00df es am Dienstag bei einer Investorenveranstaltung in Ludwigshafen. Die B\u00f6rsenreife soll bis Mitte 2027 erreicht werden. Den Angaben zufolge hat die Sparte in den kommenden 15 Jahren ein Bruttoumsatz-Potenzial von in der Spitze 15 Milliarden Euro.",
-      "url": "https://de.finance.yahoo.com/nachrichten/ipo-b%C3%B6rsenreife-basf-agrarsparte-r%C3%BCckt-084252262.html?.tsrc=rss",
-      "published_at": "2026-11-24T08:42:52Z",
-      "tickers": [
-        "BAS.DE",
-        "SSE.L"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-24T19:28:53Z",
-      "region": "EU"
-    },
-    {
-      "id": "27757bf53d4d74cf",
-      "source": "prnewswire_financial",
-      "title": "Clapp Finance lanza Crypto Card con 0 % de comisiones por transacci\u00f3n",
-      "summary": "-Clapp Finance lanza Crypto Card con 0 % de comisiones por transacci\u00f3n y posibilidad de realizar gastos mediante una l\u00ednea de cr\u00e9dito PRAGA, 24 de noviembre de 2026 /PRNewswire/ -- Clapp Finance anunci\u00f3 hoy el lanzamiento de su tarjeta Clapp Crypto Card, que ofrece una forma sencilla de...",
-      "url": "https://www.prnewswire.com/news-releases/clapp-finance-lanza-crypto-card-con-0--de-comisiones-por-transaccion-302948617.html",
-      "published_at": "2026-11-24T08:30:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-24T11:09:59Z"
-    },
-    {
-      "id": "0d08424aaf86d724",
-      "source": "prnewswire_financial",
-      "title": "Clapp Finance bringt Krypto-Karte mit 0 % Transaktionsgeb\u00fchren und unbegrenztem Kreditrahmen auf den Markt",
-      "summary": "PRAG, 24. November 2026 /PRNewswire/ -- Clapp Finance hat heute die Einf\u00fchrung seiner Clapp Crypto Card bekannt gegeben, die eine nahtlose M\u00f6glichkeit bietet, digitale Verm\u00f6genswerte im Alltag \u00fcberall dort einzusetzen, wo Visa akzeptiert wird. In Kombination mit Clapps Kreditlinien mit...",
-      "url": "https://www.prnewswire.com/news-releases/clapp-finance-bringt-krypto-karte-mit-0--transaktionsgebuhren-und-unbegrenztem-kreditrahmen-auf-den-markt-302948594.html",
-      "published_at": "2026-11-24T08:30:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-24T11:09:59Z"
-    },
-    {
-      "id": "e83b25f38d5f3a05",
-      "source": "yahoo_eu",
-      "title": "ABB unterst\u00fctzt die Skalierung industrieller KI mit dem weltweit ersten Motor mit integrierter Intelligenz",
-      "summary": "ABB hat mit Intelleqt\u2122 heute den weltweit ersten Niederspannungsmotor mit werkseitig integrierter Intelligenz vorgestellt, der ab der ersten Umdrehung operative Echtzeit-Einblicke liefert. Dank einer offenen Architektur erm\u00f6glicht er Kunden branchen\u00fcbergreifend die Anbindung von Motordaten an ihre bestehenden digitalen Plattformen bei vollst\u00e4ndiger Datenhoheit. Durch die Bereitstellung von Maschinenintelligenz mittels einer Plug-and-Play-L\u00f6sung unterst\u00fctzt Intelleqt\u2122 Unternehmen beim Aufbau der",
-      "url": "https://de.finance.yahoo.com/nachrichten/abb-unterst%C3%BCtzt-skalierung-industrieller-ki-080100896.html?.tsrc=rss",
-      "published_at": "2026-11-24T08:01:00Z",
-      "tickers": [
-        "ABB"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-24T19:28:51Z",
-      "region": "EU"
-    },
-    {
-      "id": "33b1937b6f58d682",
-      "source": "prnewswire_financial",
-      "title": "UP Fintech: Q3 Net Income Rises 16.4% QoQ, Client Assets Reach Record US$64.8 Billion",
-      "summary": "NEW YORK, Nov. 24, 2026 /PRNewswire/ -- UP Fintech Holding Limited (Nasdaq: TIGR) (\"UP Fintech\" or the \"Company\"), announced its unaudited financial results for the third quarter ended September 30, 2026. In the third quarter, the Company reported a revenue of US$172.6 million. Non-GAAP...",
-      "url": "https://www.prnewswire.com/news-releases/up-fintech-q3-net-income-rises-16-4-qoq-client-assets-reach-record-us64-8-billion-302949196.html",
-      "published_at": "2026-11-24T08:00:00Z",
-      "tickers": [
-        "TIGR",
-        "UP"
-      ],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-24T11:09:59Z"
-    },
-    {
-      "id": "d3a1e1958c2d723d",
-      "source": "yahoo_eu",
-      "title": "Norsk Hydro: Deutsche Bank r\u00e4t nach schwachem Jahr zum Kauf \u2013 Ziel 86 Kronen",
-      "summary": "Investing.com \u2013 Kursziel gesenkt, Votum angehoben: Die Deutsche Bank traut dem norwegischen Aluminiumhersteller Norsk Hydro (OL:NHY) wieder mehr zu und stuft die Aktie von \u201eHold\u201c auf \u201eBuy\u201c hoch. Nach den deutlichen K\u00fcrzungen der Konsenssch\u00e4tzungen sehen die Analysten einen Gro\u00dfteil der Abw\u00e4rtsrisiken bereits im Kurs eingepreist, und gemessen am aktuellen Niveau bleibt rund ein Drittel Luft nach oben.",
-      "url": "https://de.finance.yahoo.com/nachrichten/norsk-hydro-deutsche-bank-r%C3%A4t-075403294.html?.tsrc=rss",
-      "published_at": "2026-11-24T07:54:03Z",
-      "tickers": [
-        "DBK.DE",
-        "RWE.DE",
-        "INGA.AS",
-        "SSE.L"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "eu_category": "analyst",
-      "scanned_at": "2026-11-24T19:28:50Z",
-      "region": "EU"
-    },
-    {
-      "id": "44d72ff168f8af0b",
-      "source": "prnewswire_financial",
-      "title": "Ascentium Acquires Statura, Expanding Its Private Client Business Across Europe and the Middle East",
-      "summary": "Acquisition takes the group to 61 cities across 29 markets SINGAPORE, Nov. 24, 2026 /PRNewswire/ -- Ascentium, a leading global business services platform headquartered in Singapore, today announced it has completed the acquisition of Statura, an independent provider of cross-border...",
-      "url": "https://www.prnewswire.com/news-releases/ascentium-acquires-statura-expanding-its-private-client-business-across-europe-and-the-middle-east-302948130.html",
-      "published_at": "2026-11-24T07:00:00Z",
-      "tickers": [],
-      "event_type": "mna_deal",
-      "direction": "bullish",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-24T11:09:59Z"
-    },
-    {
-      "id": "7da079e344f61e2e",
-      "source": "prnewswire_financial",
-      "title": "Ascentium Acquires Statura, Expanding Its Private Client Business Across Europe and the Middle East",
-      "summary": "Acquisition takes the group to 61 cities across 29 markets SINGAPORE, Nov. 24, 2026 /PRNewswire/ -- Ascentium, a leading global business services platform headquartered in Singapore, today announced it has completed the acquisition of Statura, an independent provider of cross-border...",
-      "url": "https://www.prnewswire.com/news-releases/ascentium-acquires-statura-expanding-its-private-client-business-across-europe-and-the-middle-east-302948141.html",
-      "published_at": "2026-11-24T07:00:00Z",
-      "tickers": [],
-      "event_type": "mna_deal",
-      "direction": "bullish",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-24T11:09:59Z"
-    },
-    {
-      "id": "5844e146e112f558",
-      "source": "prnewswire_financial",
-      "title": "Worldline relaunches Global Collect: a dedicated cross-border payments brand for Travel and Digital commerce",
-      "summary": "Deep industry expertise, dedicated human partnership and smart technology \u2013 backed by Worldline's scale. PARIS-LA D\u00c9FENSE, Nov. 24, 2026 /PRNewswire/ -- Worldline [Euronext: WLN], a European leader in payment services, today announces the relaunch of Global Collect brand, giving its...",
-      "url": "https://www.prnewswire.com/news-releases/worldline-relaunches-global-collect-a-dedicated-cross-border-payments-brand-for-travel-and-digital-commerce-302948697.html",
-      "published_at": "2026-11-24T07:00:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-24T11:09:59Z"
-    },
-    {
-      "id": "41e00e8a1e621d54",
-      "source": "prnewswire_financial",
-      "title": "Mitrade Ends Breakthrough 2026 Past 8 Million Registered Users, With Trading Volume Up 44%",
-      "summary": "LIMASSOL, Cyprus, Nov. 24, 2026 /PRNewswire/ -- Fast-growing global CFD broker Mitrade is closing the year strong, drawing in nearly 1.7 million new users while trading volume across the group surged 44%. In 2026, it pushed into new territories and dug deeper into established ones,...",
-      "url": "https://www.prnewswire.com/news-releases/mitrade-ends-breakthrough-2026-past-8-million-registered-users-with-trading-volume-up-44-302947932.html",
-      "published_at": "2026-11-24T06:00:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-24T11:09:59Z"
-    },
-    {
-      "id": "2c579964beaf723d",
-      "source": "prnewswire_financial",
-      "title": "Mitrade schlie\u00dft das Jahr 2026 mit einem Durchbruch ab: \u00dcber 8 Millionen registrierte Nutzer und ein um 44 % gestiegenes Handelsvolumen",
-      "summary": "LIMASSOL, Zypern, 24. November 2026 /PRNewswire/ -- Der schnell wachsende globale CFD-Broker Mitrade schlie\u00dft das Jahr stark ab: Das Unternehmen gewann fast 1,7 Millionen neue Nutzer hinzu, w\u00e4hrend das Handelsvolumen konzernweit um 44 % stieg. 2026 erschloss das Unternehmen neue M\u00e4rkte...",
-      "url": "https://www.prnewswire.com/news-releases/mitrade-schlieWt-das-jahr-2026-mit-einem-durchbruch-ab-uber-8-millionen-registrierte-nutzer-und-ein-um-44--gestiegenes-handelsvolumen-302948078.html",
-      "published_at": "2026-11-24T06:00:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-24T11:09:59Z"
-    },
-    {
-      "id": "85f19ac75d5276d2",
-      "source": "prnewswire_financial",
-      "title": "PrimeStone Capital - Letter to the Supervisory Board of flatexDEGIRO SE",
-      "summary": "LONDON, Nov. 24, 2026 /PRNewswire/ -- PrimeStone Capital LLP, which through funds it advises holds c.1.5% of the share capital of flatexDEGIRO SE, has sent a public letter to the Supervisory Board. The full letter is available at: https://primestonecapital.news/ Contact email:...",
-      "url": "https://www.prnewswire.com/news-releases/primestone-capital---letter-to-the-supervisory-board-of-flatexdegiro-se-302948450.html",
-      "published_at": "2026-11-24T06:00:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-24T11:09:59Z"
-    },
-    {
-      "id": "412c3c1420a169ef",
-      "source": "eqs_google",
-      "title": "Jungfraubahn Holding AG: Jungfraubahn Holding AG unterbreitet ein \u00f6ffentliches Kaufangebot f\u00fcr alle Aktien der Schilthornbahn AG | Ad-hoc - EQS News",
-      "summary": "Jungfraubahn Holding AG: Jungfraubahn Holding AG unterbreitet ein \u00f6ffentliches Kaufangebot f\u00fcr alle Aktien der Schilthornbahn AG | Ad-hoc &nbsp;&nbsp; EQS News",
-      "url": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxQWWxyb2VRLVR3Y0cta2hfVnVOTmgzV2hZNXQ4OWlqMnZTUlhmQ0NOVHc2NC00THJiOUZxWXFINzhBR3JSN09GSU95T1pMN1MyM1JKd1JjMVl2Tml6NEc4ZUE2OHFXbEpVRkhlcjh4eVhGV3pzbUlaakhpTVB1ZThsd205WVEyWHVubmpJcGZWVEtyVTlzaG5PejRCR21BU055RW8tTU13Q3Fjbms0a1NESTZWMC1qNTZhR19rX1lwc1VfZTF2UWVCMFVZYkRZd280YVdkNDFsUmNnZlE2UVZXZENzeWl5TExKaVh6aVpRRlVKUkVWQXBibVE2TWV5Z2FTbzNYMGQtRnBObTNvcDk0UUEzNDNRSERaTGxVLTcta3IydWU3SldULWpzY2ROak1XVFpTaEtEa1BsSkdIV0dnR1RHaVFOeFhhdlNBWFNFNURDMENaM050ZnR3?oc=5",
-      "published_at": "2026-11-24T05:33:00Z",
-      "tickers": [
-        "INGA.AS"
-      ],
-      "form": "EU_ADHOC",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-24T19:28:43Z",
-      "region": "EU"
-    },
-    {
-      "id": "80de08331870cb30",
-      "source": "prnewswire_financial",
-      "title": "Bitmine Immersion Technologies (BMNR) gibt bekannt, dass die ETH-Best\u00e4nde 6,09 Millionen Token erreicht haben und sich die Gesamtbest\u00e4nde an Kryptow\u00e4hrungen sowie an Barmitteln und marktf\u00e4higen Wertpapieren auf 11,1 Milliarden US-Dollar belaufen",
-      "summary": "Bitmine h\u00e4lt 4,98 % des gesamten ETH-Umlaufs von 122,2 Millionen Bitmine hat in nur 17 Monaten bereits 99 % des Weges zur \u201eAlchemy of 5 %\" zur\u00fcckgelegt Bitmine ver\u00f6ffentlichte am 7. Oktober eine Botschaft des Chairman mit dem Titel \u201eCrypto Bull Underway \u2013 This Cycle Likely the Largest\"...",
-      "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-gibt-bekannt-dass-die-eth-bestande-6-09-millionen-token-erreicht-haben-und-sich-die-gesamtbestande-an-kryptowahrungen-sowie-an-barmitteln-und-marktfahigen-wertpapieren-auf-11-1-milliarden-us--302949113.html",
-      "published_at": "2026-11-24T05:25:00Z",
-      "tickers": [
-        "BMNR"
-      ],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-24T11:09:59Z"
-    },
-    {
-      "id": "928c5b67aaa45895",
-      "source": "yahoo_eu",
-      "title": "ING Deutschland f\u00fchrt Kreditkarte ein - aber nicht f\u00fcr alle",
-      "summary": "Vorstandschef Stoy hat das Thema schon im vergangenen Jahr \u00abganz dick\u00bb auf seine To-do-Liste geschrieben. Nun liefert die Direktbank. Alle Kunden wird die ING-Kreditkarte aber nicht gl\u00fccklich machen.",
-      "url": "https://de.finance.yahoo.com/nachrichten/ing-deutschland-f%C3%BChrt-kreditkarte-f%C3%BCr-050005435.html?.tsrc=rss",
-      "published_at": "2026-11-24T05:00:05Z",
-      "tickers": [
-        "ING"
-      ],
-      "form": "EU_NEWS",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "eu_category": "other_8k",
-      "scanned_at": "2026-11-24T19:28:47Z",
-      "region": "EU"
-    },
-    {
-      "id": "19d6534e841a3595",
-      "source": "edgar_8k",
-      "title": "8-K - ODYSSEY MARINE EXPLORATION INC (0000798528) (Filer)",
-      "summary": "Filed: 2026-11-24 AccNo: 0001193125-26-472931 Size: 1 MB Item 1.01: Entry into a Material Definitive Agreement Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
-      "url": "https://www.sec.gov/Archives/edgar/data/798528/000119312526472931/0001193125-26-472931-index.htm",
-      "published_at": "2026-11-24T02:35:08Z",
-      "tickers": [],
-      "company": "ODYSSEY MARINE EXPLORATION INC",
-      "event_type": "fraud_probe",
-      "direction": "bearish",
-      "news_side": "short",
-      "actionable": true,
-      "scanned_at": "2026-11-24T11:09:58Z"
-    },
-    {
-      "id": "6ec1cb3d81fab767",
-      "source": "prnewswire",
-      "title": "ICP DAS concr\u00e9tise ses engagements en mati\u00e8re de d\u00e9veloppement durable : progression de l'efficacit\u00e9 \u00e9nerg\u00e9tique, de l'innovation verte et des op\u00e9rations responsables",
-      "summary": "HSINCHU, 24 novembre 2026 /PRNewswire/ -- Alors que le d\u00e9veloppement durable prend de l'importance pour les entreprises, ICP DAS concr\u00e9tise ses engagements gr\u00e2ce \u00e0 l'efficacit\u00e9 \u00e9nerg\u00e9tique, l'innovation verte, les op\u00e9rations responsables et le d\u00e9veloppement technologique. Dans son rapport...",
-      "url": "https://www.prnewswire.com/news-releases/icp-das-concretise-ses-engagements-en-matiere-de-developpement-durable--progression-de-lefficacite-energetique-de-linnovation-verte-et-des-operations-responsables-302932118.html",
-      "published_at": "2026-11-24T01:15:00Z",
-      "tickers": [
-        "ICP"
-      ],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-24T01:17:48Z"
-    },
-    {
-      "id": "60dc4cd94643b307",
-      "source": "prnewswire",
-      "title": "ICP DAS convierte los compromisos de sostenibilidad en acciones concretas",
-      "summary": "ICP DAS convierte los compromisos de sostenibilidad en acciones concretas: impulsando la eficiencia energ\u00e9tica, la innovaci\u00f3n verde y la responsabilidad empresarial HSINCHU, 24 de noviembre de 2026 /PRNewswire/ -- Al tiempo que la sostenibilidad cobra mayor importancia para las empresas,...",
-      "url": "https://www.prnewswire.com/news-releases/icp-das-convierte-los-compromisos-de-sostenibilidad-en-acciones-concretas-302932208.html",
-      "published_at": "2026-11-24T01:15:00Z",
-      "tickers": [
-        "ICP"
-      ],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-24T01:17:48Z"
-    },
-    {
-      "id": "24f96260f22e2ae8",
-      "source": "prnewswire",
-      "title": "ICP DAS setzt Nachhaltigkeitsverpflichtungen in die Tat um: F\u00f6rderung von Energieeffizienz, gr\u00fcner Innovation und verantwortungsvollem Wirtschaften",
-      "summary": "HSINCHU, 24. November 2026 /PRNewswire/ -- Da Nachhaltigkeit f\u00fcr Unternehmen immer wichtiger wird, setzt ICP DAS seine Verpflichtungen durch Energieeffizienz, gr\u00fcne Innovationen, verantwortungsvolle Betriebsabl\u00e4ufe und Technologieentwicklung in die Tat um. In seinem Nachhaltigkeitsbericht...",
-      "url": "https://www.prnewswire.com/news-releases/icp-das-setzt-nachhaltigkeitsverpflichtungen-in-die-tat-um-forderung-von-energieeffizienz-gruner-innovation-und-verantwortungsvollem-wirtschaften-302932524.html",
-      "published_at": "2026-11-24T01:15:00Z",
-      "tickers": [
-        "ICP"
-      ],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-24T01:17:48Z"
-    },
-    {
-      "id": "18df820350567c97",
-      "source": "prnewswire",
-      "title": "ICP DAS Turns Sustainability Commitments into Action: Advancing Energy Efficiency, Green Innovation and Responsible Business",
-      "summary": "HSINCHU, Nov. 23, 2026 /PRNewswire/ -- As sustainability becomes important to businesses, ICP DAS turns its commitments into action through energy efficiency, green innovation, responsible operations, and technology development. In its 2025 Sustainability Report, ICP DAS highlights its...",
-      "url": "https://www.prnewswire.com/news-releases/icp-das-turns-sustainability-commitments-into-action-advancing-energy-efficiency-green-innovation-and-responsible-business-302931871.html",
-      "published_at": "2026-11-24T01:15:00Z",
-      "tickers": [
-        "ICP"
-      ],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-24T01:17:48Z"
-    },
-    {
-      "id": "f9a5c405fb2d4248",
-      "source": "prnewswire",
-      "title": "\u0427\u044d\u043d\u0434\u0443 \u0441\u0442\u0440\u0435\u043c\u0438\u0442\u0441\u044f \u0441\u0442\u0430\u0442\u044c \u0432\u0435\u0434\u0443\u0449\u0438\u043c \u0446\u0435\u043d\u0442\u0440\u043e\u043c \u0440\u0430\u0437\u0432\u0438\u0442\u0438\u044f \u043d\u0435\u0439\u0440\u043e\u0438\u043d\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u043e\u0432 \u0432 \u0417\u0430\u043f\u0430\u0434\u043d\u043e\u043c \u041a\u0438\u0442\u0430\u0435",
-      "summary": "\u0427\u042d\u041d\u0414\u0423, \u041a\u0438\u0442\u0430\u0439, 24 \u043d\u043e\u044f\u0431\u0440\u044f 2026 \u0433. /PRNewswire/ -- \u0427\u044d\u043d\u0434\u0443 (Chengdu), \u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u0438\u0432\u043d\u044b\u0439 \u0446\u0435\u043d\u0442\u0440 \u043f\u0440\u043e\u0432\u0438\u043d\u0446\u0438\u0438 \u0421\u044b\u0447\u0443\u0430\u043d\u044c (Sichuan), \u0430\u043a\u0442\u0438\u0432\u0438\u0437\u0438\u0440\u0443\u0435\u0442 \u0443\u0441\u0438\u043b\u0438\u044f \u043f\u043e \u043f\u0440\u0435\u0432\u0440\u0430\u0449\u0435\u043d\u0438\u044e \u0433\u043e\u0440\u043e\u0434\u0430 \u0432 \u0432\u0435\u0434\u0443\u0449\u0438\u0439 \u0446\u0435\u043d\u0442\u0440 \u0440\u0430\u0437\u0432\u0438\u0442\u0438\u044f \u0438\u043d\u0434\u0443\u0441\u0442\u0440\u0438\u0438 \u043d\u0435\u0439\u0440\u043e\u0438\u043d\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u043e\u0432 \u00ab\u043c\u043e\u0437\u0433 \u2014 \u043a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u00bb (BCI) \u0432 \u0437\u0430\u043f\u0430\u0434\u043d\u043e\u0439 \u0447\u0430\u0441\u0442\u0438 \u041a\u0438\u0442\u0430\u044f. \u0412\u0430\u0436\u043d\u044b\u043c \u0448\u0430\u0433\u043e\u043c \u0432 \u044d\u0442\u043e\u043c...",
-      "url": "https://www.prnewswire.com/news-releases/----------302948785.html",
-      "published_at": "2026-11-24T01:04:00Z",
-      "tickers": [
-        "BCI"
-      ],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-24T01:17:48Z"
-    },
-    {
-      "id": "48339a9a954b25a1",
-      "source": "marketwatch",
-      "title": "I\u2019ve been married for 58 years. It\u2019s \u2018our\u2019 money, not \u2018his\u2019 and \u2018hers.\u2019 Why do so many couples keep their finances separate?",
-      "summary": "\u201cMy wife stopped working outside the home in 1970.\u201d",
-      "url": "https://www.marketwatch.com/story/ive-been-married-for-58-years-its-our-money-not-his-and-hers-why-dont-others-feel-the-same-c5745889?mod=mw_rss_topstories",
-      "published_at": "2026-11-24T01:01:00Z",
-      "tickers": [
-        "I"
-      ],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-24T21:23:19Z"
-    },
-    {
-      "id": "32b46b33d299fc7f",
-      "source": "marketwatch",
-      "title": "HPE just posted its strongest growth ever \u2014 but its stock is sinking",
-      "summary": "HPE boosted its financial forecast on Monday in the face of strong AI demand.",
-      "url": "https://www.marketwatch.com/story/hpe-just-posted-its-strongest-growth-ever-and-its-stock-is-tacking-on-more-big-gains-4421cebb?mod=mw_rss_topstories",
-      "published_at": "2026-11-24T01:01:00Z",
-      "tickers": [
-        "HPE"
-      ],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-25T04:33:41Z"
-    },
-    {
-      "id": "502ee468c2360f3a",
-      "source": "edgar_8k",
-      "title": "8-K - Marwynn Holdings, Inc. (0002030522) (Filer)",
-      "summary": "Filed: 2026-11-24 AccNo: 0001213900-26-123307 Size: 504 KB Item 1.01: Entry into a Material Definitive Agreement Item 9.01: Financial Statements and Exhibits",
-      "url": "https://www.sec.gov/Archives/edgar/data/2030522/000121390026123307/0001213900-26-123307-index.htm",
-      "published_at": "2026-11-24T00:47:34Z",
-      "tickers": [],
-      "company": "Marwynn Holdings, Inc.",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-24T11:09:58Z"
-    },
-    {
-      "id": "21d545d8eceef0be",
-      "source": "prnewswire",
-      "title": "West Virginia National Auto Insurance Company Names Insurance Veteran Stephen Peters, CPCU, CIC, ARe, CLCS, State Marketing Manager",
-      "summary": "Peters brings nearly 20 years of agency and carrier experience to help grow West Virginia National Auto Insurance Company and Warrior Insurance Network across West Virginia and Virginia, including the December 2026 launch of the BlueRidge personal auto insurance product in Virginia....",
-      "url": "https://www.prnewswire.com/news-releases/west-virginia-national-auto-insurance-company-names-insurance-veteran-stephen-peters-cpcu-cic-are-clcs-state-marketing-manager-302948712.html",
-      "published_at": "2026-11-24T00:45:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-24T01:17:48Z"
-    },
-    {
-      "id": "7ff2d81ef272a195",
-      "source": "prnewswire_financial",
-      "title": "West Virginia National Auto Insurance Company Names Insurance Veteran Stephen Peters, CPCU, CIC, ARe, CLCS, State Marketing Manager",
-      "summary": "Peters brings nearly 20 years of agency and carrier experience to help grow West Virginia National Auto Insurance Company and Warrior Insurance Network across West Virginia and Virginia, including the December 2026 launch of the BlueRidge personal auto insurance product in Virginia....",
-      "url": "https://www.prnewswire.com/news-releases/west-virginia-national-auto-insurance-company-names-insurance-veteran-stephen-peters-cpcu-cic-are-clcs-state-marketing-manager-302948712.html",
-      "published_at": "2026-11-24T00:45:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-24T01:17:48Z"
-    },
-    {
-      "id": "ebc82906b658eccf",
-      "source": "prnewswire",
-      "title": "Platinum Equity Completes Acquisition of EDP",
-      "summary": "Platinum Equity to Support Continued Investments in Sales, Marketing, Technology and Strategic Acquisitions LOS ANGELES, Nov. 23, 2026 /PRNewswire/ -- Platinum Equity has completed the acquisition of EDP, a leading provider of propane distribution and other related services to...",
-      "url": "https://www.prnewswire.com/news-releases/platinum-equity-completes-acquisition-of-edp-302948762.html",
-      "published_at": "2026-11-24T00:30:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-24T01:17:48Z"
-    },
-    {
-      "id": "9f60920f607fb771",
-      "source": "prnewswire_financial",
-      "title": "Platinum Equity Completes Acquisition of EDP",
-      "summary": "Platinum Equity to Support Continued Investments in Sales, Marketing, Technology and Strategic Acquisitions LOS ANGELES, Nov. 23, 2026 /PRNewswire/ -- Platinum Equity has completed the acquisition of EDP, a leading provider of propane distribution and other related services to...",
-      "url": "https://www.prnewswire.com/news-releases/platinum-equity-completes-acquisition-of-edp-302948762.html",
-      "published_at": "2026-11-24T00:30:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-24T01:17:48Z"
-    },
-    {
-      "id": "3f246cdc8c226b71",
-      "source": "edgar_8k",
-      "title": "8-K - NRC HEALTH (0000070487) (Filer)",
-      "summary": "Filed: 2026-11-24 AccNo: 0001437749-26-038112 Size: 180 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 9.01: Financial Statements and Exhibits",
-      "url": "https://www.sec.gov/Archives/edgar/data/70487/000143774926038112/0001437749-26-038112-index.htm",
-      "published_at": "2026-11-24T00:29:23Z",
-      "tickers": [],
-      "company": "NRC HEALTH",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-24T11:09:58Z"
-    },
-    {
-      "id": "ee11700127d3cfa4",
-      "source": "edgar_8k",
-      "title": "8-K - NEWS CORP (0001564708) (Filer)",
-      "summary": "Filed: 2026-11-24 AccNo: 0001564708-26-000268 Size: 396 KB Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
-      "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470826000268/0001564708-26-000268-index.htm",
-      "published_at": "2026-11-24T00:26:27Z",
-      "tickers": [],
-      "company": "NEWS CORP",
-      "event_type": "fraud_probe",
-      "direction": "bearish",
-      "news_side": "short",
-      "actionable": true,
-      "scanned_at": "2026-11-24T11:09:58Z"
-    },
-    {
-      "id": "bb5327784c4b067d",
-      "source": "prnewswire",
-      "title": "MemorialCare Orthopedic & Spine Institute Receives 2025-2026 WebMD Patient Choice Award for Orthopedics in Orange County",
-      "summary": "FOUNTAIN VALLEY, Calif., Nov. 23, 2026 /PRNewswire/ -- MemorialCare Orthopedic & Spine Institute received the 2025-2026 WebMD Patient Choice Award for Orthopedics in Orange County, recognizing it as most preferred by patients seeking orthopedic care in the region. The award is based on...",
-      "url": "https://www.prnewswire.com/news-releases/memorialcare-orthopedic--spine-institute-receives-2025-2026-webmd-patient-choice-award-for-orthopedics-in-orange-county-302948768.html",
-      "published_at": "2026-11-24T00:26:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-24T01:17:48Z"
-    },
-    {
-      "id": "2fc851e6b9c14bc8",
-      "source": "edgar_8k",
-      "title": "8-K - Rezolute, Inc. (0001509261) (Filer)",
-      "summary": "Filed: 2026-11-24 AccNo: 0001104659-26-131220 Size: 6 MB Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
-      "url": "https://www.sec.gov/Archives/edgar/data/1509261/000110465926131220/0001104659-26-131220-index.htm",
-      "published_at": "2026-11-24T00:15:53Z",
-      "tickers": [],
-      "company": "Rezolute, Inc.",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-24T11:09:58Z"
-    },
-    {
-      "id": "7f9331acb289aa8c",
-      "source": "edgar_8k",
-      "title": "8-K - Rein Therapeutics, Inc. (0001420565) (Filer)",
-      "summary": "Filed: 2026-11-24 AccNo: 0001193125-26-472827 Size: 3 MB Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
-      "url": "https://www.sec.gov/Archives/edgar/data/1420565/000119312526472827/0001193125-26-472827-index.htm",
-      "published_at": "2026-11-24T00:15:31Z",
-      "tickers": [],
-      "company": "Rein Therapeutics, Inc.",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-24T11:09:58Z"
-    },
-    {
-      "id": "d6f74371292f0d14",
-      "source": "prnewswire",
-      "title": "MoneyMinder Solo Brings 23 Years of Simple Bookkeeping to Self-Employed Business Owners",
-      "summary": "Trusted by volunteer treasurers since 2003, MoneyMinder launches a new edition for freelancers and one-person businesses that takes them from first estimate and invoice to reconciled accounts and tax-ready books. Available now at solo.moneyminder.com. WINTER PARK, Fla., Nov. 23, 2026...",
-      "url": "https://www.prnewswire.com/news-releases/moneyminder-solo-brings-23-years-of-simple-bookkeeping-to-self-employed-business-owners-302948758.html",
-      "published_at": "2026-11-24T00:11:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-24T01:17:48Z"
-    },
-    {
-      "id": "15cb74ee5ede7759",
-      "source": "prnewswire_financial",
-      "title": "MoneyMinder Solo Brings 23 Years of Simple Bookkeeping to Self-Employed Business Owners",
-      "summary": "Trusted by volunteer treasurers since 2003, MoneyMinder launches a new edition for freelancers and one-person businesses that takes them from first estimate and invoice to reconciled accounts and tax-ready books. Available now at solo.moneyminder.com. WINTER PARK, Fla., Nov. 23, 2026...",
-      "url": "https://www.prnewswire.com/news-releases/moneyminder-solo-brings-23-years-of-simple-bookkeeping-to-self-employed-business-owners-302948758.html",
-      "published_at": "2026-11-24T00:11:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-24T01:17:48Z"
-    },
-    {
-      "id": "c2ccd7dd2d42f84e",
-      "source": "prnewswire",
-      "title": "Rates Are Shifting: Gift a CD That Locks In At Least 5.10% APY Before Year-End",
-      "summary": "With top CD rates at 5.10% APY and higher, CDs offer a low-risk, federally insured way to give to kids, grandkids and the causes you care about SEATTLE, Nov. 23, 2026 /PRNewswire/ -- Money has become one of the most popular holiday gifts, and this year there's a smarter way to give it....",
-      "url": "https://www.prnewswire.com/news-releases/rates-are-shifting-gift-a-cd-that-locks-in-at-least-5-10-apy-before-year-end-302948752.html",
-      "published_at": "2026-11-24T00:04:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-24T01:17:48Z"
-    },
-    {
-      "id": "ab90b02a211953a0",
-      "source": "prnewswire_financial",
-      "title": "Rates Are Shifting: Gift a CD That Locks In At Least 5.10% APY Before Year-End",
-      "summary": "With top CD rates at 5.10% APY and higher, CDs offer a low-risk, federally insured way to give to kids, grandkids and the causes you care about SEATTLE, Nov. 23, 2026 /PRNewswire/ -- Money has become one of the most popular holiday gifts, and this year there's a smarter way to give it....",
-      "url": "https://www.prnewswire.com/news-releases/rates-are-shifting-gift-a-cd-that-locks-in-at-least-5-10-apy-before-year-end-302948752.html",
-      "published_at": "2026-11-24T00:04:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-24T01:17:48Z"
-    },
-    {
-      "id": "9d4106c6efbdb706",
-      "source": "prnewswire",
-      "title": "$HAREHOLDER ALERT - The M&A Class Action Firm Is Investigating the Merger - AYTU, ADT, CCC and CBNK - IS IT A FAIR DEAL FOR YOU?",
-      "summary": "NEW YORK, Nov. 23, 2026 /PRNewswire/ -- Class Action Attorney Juan Monteverde with Monteverde & Associates PC (the \"M&amp;A Class Action Firm\"), has recovered millions of dollars for shareholders and is recognized as a Top 50 Firm in the 2025 ISS Securities Class Action Services Report. We...",
-      "url": "https://www.prnewswire.com/news-releases/hareholder-alert---the-ma-class-action-firm-is-investigating-the-merger--aytu-adt-ccc-and-cbnk---is-it-a-fair-deal-for-you-302948408.html",
-      "published_at": "2026-11-24T00:00:00Z",
-      "tickers": [],
-      "event_type": "shareholder_alert",
-      "direction": "bearish",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-24T01:17:48Z"
-    },
-    {
-      "id": "73c64aa27d2dee55",
-      "source": "edgar_8k",
-      "title": "8-K - Driven Brands Holdings Inc. (0001804745) (Filer)",
-      "summary": "Filed: 2026-11-24 AccNo: 0001628280-26-075574 Size: 195 KB Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing Item 7.01: Regulation FD Disclosure",
-      "url": "https://www.sec.gov/Archives/edgar/data/1804745/000162828026075574/0001628280-26-075574-index.htm",
-      "published_at": "2026-11-23T23:42:01Z",
-      "tickers": [],
-      "company": "Driven Brands Holdings Inc.",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-24T11:09:58Z"
-    },
-    {
-      "id": "130decbc7351876f",
-      "source": "prnewswire",
-      "title": "Hugel marks 25th anniversary with global medical and academic exchange",
-      "summary": "\"2026 H.E.L.F. in Seoul\" concludes November 21\u201323 as Hugel's largest-ever global academic event The program draws approximately 400 medical professionals from Korea and abroad for clinic tours, a symposium and a factory tour SEOUL, South Korea, Nov. 23, 2026 /PRNewswire/ -- Hugel Inc., a...",
-      "url": "https://www.prnewswire.com/news-releases/hugel-marks-25th-anniversary-with-global-medical-and-academic-exchange-302948258.html",
-      "published_at": "2026-11-23T23:40:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-24T01:17:48Z"
-    },
-    {
-      "id": "00ef1281a2f7fa4c",
-      "source": "edgar_8k",
-      "title": "8-K - Apimeds Pharmaceuticals US, Inc. (0001894525) (Filer)",
-      "summary": "Filed: 2026-11-24 AccNo: 0001213900-26-123285 Size: 219 KB Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
-      "url": "https://www.sec.gov/Archives/edgar/data/1894525/000121390026123285/0001213900-26-123285-index.htm",
-      "published_at": "2026-11-23T23:30:32Z",
-      "tickers": [],
-      "company": "Apimeds Pharmaceuticals US, Inc.",
-      "event_type": "fraud_probe",
-      "direction": "bearish",
-      "news_side": "short",
-      "actionable": true,
-      "scanned_at": "2026-11-24T11:09:58Z"
-    },
-    {
-      "id": "d6feae18710ad370",
-      "source": "prnewswire",
-      "title": "The Inner Circle acknowledges Aashish Valvani, MD, as a Pinnacle Lifetime Member",
-      "summary": "FLINT, Mich., Nov. 23, 2026 /PRNewswire/ -- Prominently featured in The Inner Circle, Aashish Valvani, MD is acknowledged as a Prominent Pulmonologist for his contributions to Pulmonology and Critical Care. Aashish Valvani, MD, has established a respected career in medicine, recognized...",
-      "url": "https://www.prnewswire.com/news-releases/the-inner-circle-acknowledges-aashish-valvani-md-as-a-pinnacle-lifetime-member-302948633.html",
-      "published_at": "2026-11-23T23:30:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-24T01:17:48Z"
-    },
-    {
-      "id": "3c3f0afdf2b76481",
-      "source": "prnewswire",
-      "title": "Strathcona Resources and Greenfire Resources Announce Filing of Joint Management Information Circular and Receipt of Interim Order",
-      "summary": "CALGARY, AB, Nov. 23, 2026 /PRNewswire/ -- Strathcona Resources Ltd. (\"Strathcona\") (TSX: SCR) and Greenfire Resources Ltd. (\"Greenfire\") (TSX: GFR) (NYSE: GFR) are pleased to jointly announce that Strathcona and Greenfire obtained an interim order of the Court of King's Bench earlier...",
-      "url": "https://www.prnewswire.com/news-releases/strathcona-resources-and-greenfire-resources-announce-filing-of-joint-management-information-circular-and-receipt-of-interim-order-302948732.html",
-      "published_at": "2026-11-23T23:30:00Z",
-      "tickers": [
-        "GFR"
-      ],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-24T01:17:48Z"
-    },
-    {
-      "id": "277d12d278d7087f",
-      "source": "cnbc_business",
-      "title": "Employees at Eric Trump-backed robot startup lose health benefits as company's cash crunch deepens",
-      "summary": "Foundation is pursuing an emergency bridge loan and has been in talks with VC firms as it waits for a $150 million investment from South Korea's Base Group.",
-      "url": "https://www.cnbc.com/2026/11/22/foundation-future-industries-health-benefits-payroll-base-group.html",
-      "published_at": "2026-11-23T23:28:19Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-25T14:56:43Z"
-    },
-    {
-      "id": "e6c2e9dcac6976cd",
-      "source": "cnbc_finance",
-      "title": "Employees at Eric Trump-backed robot startup lose health benefits as company's cash crunch deepens",
-      "summary": "Foundation is pursuing an emergency bridge loan and has been in talks with VC firms as it waits for a $150 million investment from South Korea's Base Group.",
-      "url": "https://www.cnbc.com/2026/11/22/foundation-future-industries-health-benefits-payroll-base-group.html",
-      "published_at": "2026-11-23T23:28:19Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-25T14:56:44Z"
-    },
-    {
-      "id": "32d881a96b060741",
-      "source": "cnbc_business",
-      "title": "ESPN, NFL to show Super Bowl 61 in Imax theaters",
-      "summary": "In addition to ESPN channels, Super Bowl 61 will also be available on streaming platform Disney+ as well as the company's broadcast network ABC.",
-      "url": "https://www.cnbc.com/2026/11/23/espn-nfl-super-bowl-imax.html",
-      "published_at": "2026-11-23T21:55:27Z",
-      "tickers": [
-        "ESPN"
-      ],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-25T14:56:43Z"
-    },
-    {
-      "id": "ef84a44033815d96",
-      "source": "cnbc_finance",
-      "title": "\u2018This establishes a bottom\u2019: Jensen Huang\u2019s return seen as likely to stop market sell-off, for now",
-      "summary": "Wall Street strategists say Jensen Huang\u2019s return to Nvidia could steady the AI trade, though spending and data-center risks remain.",
-      "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo-market-rally.html",
-      "published_at": "2026-11-23T18:00:47Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-25T14:56:44Z"
-    },
-    {
-      "id": "11a367c2362c9b5d",
-      "source": "cnbc_finance",
-      "title": "JPMorgan is working on AI agent transactions that don\u2019t involve humans",
-      "summary": "JPMorgan and Hyundai Card are looking to expand the use of AI agents in financial transactions.",
-      "url": "https://www.cnbc.com/2026/11/18/jpmorgan-hyundai-card-ai-agents-payments.html",
-      "published_at": "2026-11-23T06:06:55Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-25T14:56:44Z"
     }
   ]
 }

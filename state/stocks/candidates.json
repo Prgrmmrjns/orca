@@ -1,6 +1,6 @@
 {
   "mode": "paper",
-  "as_of": "2026-11-25T08:35:13Z",
+  "as_of": "2026-11-25T18:38:05Z",
   "as_of_et": "2026-11-25 03:12 ET",
   "forward_test_start": "2026-11-10",
   "spy_above_ma50": false,
@@ -29,7 +29,7 @@
     "gap_filtered_guidance": "Config: long guidance_raise with gap \u22655% \u00b7 5% \u00b7 max 8 \u00b7 hold 5d \u00b7 no stop \u00b7 next_open (config/strategies/gap_filtered_guidance.yaml). Box test +4.4%.",
     "wide_capacity": "Config: quality longs \u00b7 5% \u00b7 max 15 \u00b7 hold 2d \u00b7 no stop \u00b7 next_open (config/strategies/wide_capacity.yaml). Box test +2.1%.",
     "bigmove_unified_v1": "Fade offering / PR-pop / M&A gap-downs and selective gap-down fades across pre/regular/after hours. Alert-only mega-cap shocks. No earnings/guidance chase.\n",
-    "bigmove_eu_v1": "EU liquid large/mid caps: fade \u226510% gap-downs (earnings / other-PR / no-news) on Xetra/Euronext primary hours (09:00\u201317:30 Berlin). Gap-up shorts dropped after EU event study. Alert-only mega-cap shocks. No earnings/guidance chase. 5% \u00b7 max 20 \u00b7 hold 5d \u00b7 0.5%/fill (+0.5% outside primary) \u00b7 config/strategies/bigmove_eu_v1.yaml."
+    "bigmove_eu_v1": "EU liquid large/mid caps: fade large gap-downs after earnings/PR/no-news on primary hours (09:00\u201317:30 Berlin). Alert-only mega-cap shocks. No earnings/ guidance chase. No gap-up shorts (unprofitable on EU event study).\n"
   },
   "candidates": [
     {
@@ -3185,7 +3185,101 @@
       "rule_tags": [],
       "suggested_side": null,
       "suggested_hold": null
+    },
+    {
+      "ticker": "VOW3.DE",
+      "name": "VOW3.DE",
+      "cal_date": "2026-11-25",
+      "gap_pct": 4.6183,
+      "last": 65.23999786376953,
+      "prev_close": 62.36000061035156,
+      "rel_vol": 1.255,
+      "adv20_usd": 63948484.94951916,
+      "avg_dollar_volume": 63948484.94951916,
+      "spy_above_ma50": false,
+      "session": "closed",
+      "headline": "Volkswagen AG VZ: Was Anleger zu Premiumpl\u00e4nen wissen m\u00fcssen",
+      "news_event_type": "other_8k",
+      "news_direction": "bullish",
+      "news_side": null,
+      "news_actionable": true,
+      "news_source": "wso_nachrichten",
+      "news_id": "306755ad5793f727",
+      "filing_url": "https://www.wallstreet-online.de/nachricht/21748522-volkswagen-ag-vz-anleger-premiumplaenen-wissen",
+      "rule_tags": [
+        "bigmove_eu",
+        "other_8k",
+        "bigmove_eu_v1"
+      ],
+      "source": "bigmove_eu_move_trigger",
+      "suggested_side": null,
+      "suggested_hold": 5,
+      "region": "EU",
+      "as_of": "2026-11-25T18:37:36Z"
+    },
+    {
+      "ticker": "IFX.DE",
+      "name": "IFX.DE",
+      "cal_date": "2026-11-25",
+      "gap_pct": -6.8824,
+      "last": 40.724998474121094,
+      "prev_close": 43.73500061035156,
+      "rel_vol": 0.755,
+      "adv20_usd": 267225383.11743432,
+      "avg_dollar_volume": 267225383.11743432,
+      "spy_above_ma50": false,
+      "session": "closed",
+      "headline": "Infineon sackt ab: Was Anleger jetzt nicht \u00fcbersehen sollten",
+      "news_event_type": "other_8k",
+      "news_direction": "bearish",
+      "news_side": null,
+      "news_actionable": true,
+      "news_source": "wso_nachrichten",
+      "news_id": "d27b2b721465f094",
+      "filing_url": "https://www.wallstreet-online.de/nachricht/21748486-infineon-sackt-ab-anleger-uebersehen",
+      "rule_tags": [
+        "bigmove_eu",
+        "other_8k",
+        "bigmove_eu_v1"
+      ],
+      "source": "bigmove_eu_move_trigger",
+      "suggested_side": null,
+      "suggested_hold": 5,
+      "region": "EU",
+      "as_of": "2026-11-25T18:37:37Z"
+    },
+    {
+      "ticker": "SAN.PA",
+      "name": "SAN.PA",
+      "cal_date": "2026-11-25",
+      "gap_pct": 4.6698,
+      "last": 97.94999694824219,
+      "prev_close": 93.58000183105469,
+      "rel_vol": 1.749,
+      "adv20_usd": 278722402.9137554,
+      "avg_dollar_volume": 278722402.9137554,
+      "spy_above_ma50": false,
+      "session": "closed",
+      "headline": "ANALYSE-FLASH: RBC hebt Sanofi auf 'Outperform' und Ziel auf 105 Euro",
+      "news_event_type": "mna",
+      "news_direction": "bullish",
+      "news_side": null,
+      "news_actionable": true,
+      "news_source": "yahoo_eu",
+      "news_id": "f1a9ecd749ff1913",
+      "filing_url": "https://de.finance.yahoo.com/nachrichten/analyse-flash-rbc-hebt-sanofi-100849196.html?.tsrc=rss",
+      "rule_tags": [
+        "bigmove_eu",
+        "mna",
+        "bigmove_eu_v1"
+      ],
+      "source": "bigmove_eu_move_trigger",
+      "suggested_side": null,
+      "suggested_hold": 5,
+      "region": "EU",
+      "as_of": "2026-11-25T18:37:39Z"
     }
   ],
-  "news_merged_at": "2026-11-25T14:56:45Z"
+  "news_merged_at": "2026-11-25T14:56:45Z",
+  "stoxx_above_ma50": false
 }
