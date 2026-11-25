@@ -45,7 +45,9 @@ class Book:
     # ---- entries ----------------------------------------------------------
     def stop_pct(self, sym):
         s = self.cfg["stop_pct"]
-        return float(s.get(sym, s["default"]))
+        if sym in s: return float(s[sym])
+        if self.universe.get(sym, {}).get("crypto"): return float(s.get("crypto_default", s["default"]))
+        return float(s["default"])
 
     def try_open(self, event: dict, imp: dict, ticks: dict, fx: float, t=None) -> dict:
         """Returns {"opened": trade} or {"skipped": reason}."""

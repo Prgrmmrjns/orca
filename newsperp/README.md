@@ -4,11 +4,13 @@
 Started 2026-11-25 with **€1,000**. State in `state/newsperp/`; rules in `config/newsperp/book.json`.
 
 ## What it does
-1. **Polls** 23 public sources (`config/newsperp/sources.json`):
+1. **Polls** 32 public sources (`config/newsperp/sources.json`):
    - company newsrooms and IR feeds: NVIDIA, Apple, Amazon, Alphabet, Meta, Coinbase, Circle, AMD, Microsoft
    - SEC 8-K filings for 12 companies (round-robin, one request every 12 s)
    - PR Newswire, White House, a Truth Social mirror, Fed, BLS, BEA, Federal Register (BIS export rules)
    - CoinDesk, MarketWatch, Benzinga, Seeking Alpha
+   - crypto: Binance listing and delisting notices, Kraken blog, Cointelegraph, The Block, Decrypt, rekt.news
+     (hacks), SEC and CFTC press releases
    Conditional GETs (ETag / If-Modified-Since) make an unchanged poll nearly free; NVIDIA's feed ignores them,
    so it gets a HEAD check every 5 s instead.
 2. **Logs** every new item with our own first-seen time, the publisher's timestamp, the lag between them, and
@@ -18,7 +20,12 @@ Started 2026-11-25 with **€1,000**. State in `state/newsperp/`; rules in `conf
    output, server-side refusal fallback) returns event type, and per symbol direction, confidence, expected move
    and horizon. Without a key: a small keyword rule set (CEO resignation/reinstatement, guidance raise/cut,
    offerings, investigations, take-overs).
-4. **Paper-trades** Kraken perps: NVDA, TSLA, AAPL, AMZN, GOOGL, META, MSTR, COIN, HOOD, CRCL, SPY, QQQ, BTC, ETH.
+4. **Paper-trades** 37 Kraken perps, long or short:
+   - stocks: NVDA, TSLA, AAPL, AMZN, GOOGL, META, MSTR, COIN, HOOD, CRCL; pre-IPO ANT (Anthropic) and SPCX (SpaceX)
+   - SPY, QQQ, and GOLD (`PF_XAUUSD`, far more liquid than the GLD token)
+   - the 22 crypto perps trading > $1M/day: BTC, ETH, SOL, HYPE, ZEC, NEAR, XRP, TAO, ADA, DOGE, INJ, QNT, UNI, SUI,
+     PUMP, ENA, XMR, SEI, AVAX, LINK, XLM, FET
+   AMD and MSFT have no perp; their news is logged and can still move other symbols via the classifier.
 
 ## Book rules v0 (frozen 2026-11-25)
 | | |
@@ -26,7 +33,7 @@ Started 2026-11-25 with **€1,000**. State in `state/newsperp/`; rules in `conf
 | Entry | confidence ≥ 0.65, expected move ≥ 1%, item seen within 15 min of publication |
 | Fill | fresh Kraken quote *after* classification: buy at ask, sell at bid, + 0.10% slippage, + 0.05% taker fee |
 | Size | risk 1.5% of equity to the stop; max 60% of equity per position, 3× gross, 4 positions |
-| Stop | 3% (SPY 1.5%, QQQ 2%, BTC 2.5%), checked every 10 s |
+| Stop | 3% stocks, 5% ANT/SPCX/crypto alts (SOL, XRP 4%, ETH 3%, BTC 2.5%), SPY/GOLD 1.5%, QQQ 2%; checked every 10 s |
 | Exit | the classifier's horizon (15 min – 24 h, default 2 h), stop, or a reversing signal |
 | Funding | Kraken hourly funding accrued continuously |
 | Kill switch | −4% on the UTC day: flatten and no new entries until tomorrow |
@@ -66,6 +73,20 @@ Read with care:
 - The edge fades with delay (+14% at 45 s, +1.5% at 5 min): polling speed matters, which is why SEC filings are
   now polled one company every 2 s (each company every ~24 s).
 - No real order book: thin perps can fill much worse at the moment news breaks.
+
+### Crypto announcements (`python -m newsperp backtest --crypto`, `reports/newsperp/backtest_crypto.json`)
+Binance listing and delisting notices since Jan 2025 that name a symbol we trade: 32 events.
+| Signal | Trades | Win rate | Total |
+|---|---|---|---|
+| "listing" rule, if allowed to trade | 18 | 44% | −4.8% |
+| follow | 4 | 25% | −1.3% |
+| random direction (control) | ~22 | 39% | +1.1% |
+
+Most notices concern coins that are already widely traded (new futures pairs, Earn additions) and carry no new
+information; Binance's three ANT bStocks notices were each followed by a −5% stop. So the crypto keyword rules stay
+at confidence 0.6 (logged, never traded) and crypto announcements are not used for "follow". Crypto trades come only
+from the Claude classifier (hacks, ETF and regulatory decisions, protocol news), which needs the API key and has no
+backtest yet: historical crypto headlines with exact timestamps are not freely available.
 
 ## Known gaps
 - Tesla and Robinhood IR sites return 403 to this container's IP; they are covered via SEC 8-Ks.

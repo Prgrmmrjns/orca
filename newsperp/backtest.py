@@ -120,8 +120,36 @@ def build_events(since="2026-02-07", refresh=False) -> list[dict]:
     f.write_text(json.dumps(events))
     return events
 
+def build_crypto_events(since="2025-01-01", refresh=False) -> list[dict]:
+    """Binance listing (catalog 48) and delisting (161) notices that name a symbol we can trade."""
+    f = CACHE / f"crypto_events_{since}.json"
+    if f.exists() and not refresh: return json.loads(f.read_text())
+    from .sources import match_tickers
+    uni = load_json(CFG / "sources.json", {})["universe"]
+    t_since = dt.datetime.fromisoformat(since).replace(tzinfo=UTC).timestamp() * 1000
+    events = []
+    for cat, src in ((48, "binance_listing"), (161, "binance_delisting")):
+        for page in range(1, 30):
+            j = _get_json("https://www.binance.com/bapi/composite/v1/public/cms/article/list/query"
+                          f"?type=1&catalogId={cat}&pageNo={page}&pageSize=50", WEB_UA)
+            arts = ((j or {}).get("data") or {}).get("catalogs", [{}])[0].get("articles", [])
+            if not arts: break
+            for a in arts:
+                if a["releaseDate"] < t_since: continue
+                title = _clean(a["title"], 300)
+                for sym in match_tickers(title, uni):
+                    if uni[sym].get("perp"):
+                        events.append(dict(symbol=sym, t=int(a["releaseDate"] // 1000), source=src, sources=[src],
+                                           title=title, items="", body=""))
+            if arts[-1]["releaseDate"] < t_since: break
+            time.sleep(0.3)
+    events.sort(key=lambda e: e["t"])
+    CACHE.mkdir(parents=True, exist_ok=True)
+    f.write_text(json.dumps(events))
+    return events
+
 # ------------------------------------------------------------- signals ----
-def signals(events, variant, bars, uni, latency, seed=0, clf_cache=None):
+def signals(events, variant, bars, uni, latency, seed=0, clf_cache=None, rule_min_conf=0.65):
     rng = random.Random(seed); out = []
     for e in events:
         perp = uni[e["symbol"]]["perp"]; t_in = e["t"] + latency
@@ -134,10 +162,11 @@ def signals(events, variant, bars, uni, latency, seed=0, clf_cache=None):
             out.append(dict(e, side=side, hold=120, conf=None, why=f"move {mv*100:+.1f}% before entry"))
         elif variant == "random":
             out.append(dict(e, side=rng.choice(["long", "short"]), hold=120, conf=None, why="random"))
-        elif variant == "rules":
+        elif variant in ("rules", "rules_raw"):
+            mc = rule_min_conf if variant == "rules" else 0.0
             r = rule_classify(dict(title=e["title"], summary="", tickers=[e["symbol"]]), e["body"], [e["symbol"]])
             for i in r["impacts"]:                     # same entry filters as the live book
-                if i["confidence"] >= 0.65 and abs(i["expected_move_pct"]) >= 1.0:
+                if i["confidence"] >= mc and abs(i["expected_move_pct"]) >= 1.0:
                     out.append(dict(e, side=i["direction"], hold=i["horizon_minutes"], conf=i["confidence"], why=r["event_type"]))
         elif variant == "llm":
             r = clf_cache.get(f"{e['symbol']}|{e['t']}")
@@ -171,7 +200,8 @@ def simulate(sigs, bars, uni, bcfg, latency, cost_bp, start_eq=1000.0):
         perp = uni[s["symbol"]]["perp"]
         b = bars.bar(perp, t_in)
         if not b: continue
-        stop_pct = float(bcfg["stop_pct"].get(s["symbol"], bcfg["stop_pct"]["default"])) / 100
+        sp = bcfg["stop_pct"]
+        stop_pct = float(sp.get(s["symbol"], sp.get("crypto_default", sp["default"]) if uni[s["symbol"]].get("crypto") else sp["default"])) / 100
         notional = min(bcfg["risk_per_trade"] * eq / stop_pct, bcfg["max_position_frac"] * eq)
         sign = 1 if s["side"] == "long" else -1
         entry = b[3] * (1 + sign * cost)
@@ -208,17 +238,18 @@ def stats(trades, start_eq=1000.0):
                 total_pct=round((eqs[-1] / start_eq - 1) * 100, 2), max_dd_pct=round(mdd * 100, 2),
                 stops=sum(t["exit"] == "stop" for t in trades))
 
-def run(latency=45, cost_bp=20, since="2026-02-07"):
+def run(latency=45, cost_bp=20, since=None, dataset="stocks"):
     uni = load_json(CFG / "sources.json", {})["universe"]
     bcfg = load_json(CFG / "book.json", {})
-    events = build_events(since)
+    since = since or ("2026-02-07" if dataset == "stocks" else "2025-01-01")
+    events = build_events(since) if dataset == "stocks" else build_crypto_events(since)
     bars = Bars()
-    llm = llm_classify_all(events, uni)
-    res = dict(generated=dt.datetime.now(UTC).isoformat(timespec="seconds"), since=since, n_events=len(events),
+    llm = llm_classify_all(events, uni) if dataset == "stocks" else None
+    res = dict(generated=dt.datetime.now(UTC).isoformat(timespec="seconds"), dataset=dataset, since=since, n_events=len(events),
                latency_s=latency, cost_bp_per_side=cost_bp,
                n_earnings_events=sum("2.02" in (e["items"] or "") or "results" in e["title"].lower() for e in events),
                classifier="llm" if llm else "not available (no ANTHROPIC_API_KEY)", variants={}, trades={})
-    for v in ("rules", "follow", "fade", "llm"):
+    for v in ("rules", "rules_raw", "follow", "fade", "llm"):
         if v == "llm" and not llm: continue
         sig = signals(events, v, bars, uni, latency, clf_cache=llm)
         out = {}
@@ -232,5 +263,5 @@ def run(latency=45, cost_bp=20, since="2026-02-07"):
     rnd = [stats(simulate(signals(events, "random", bars, uni, latency, seed=s), bars, uni, bcfg, latency, cost_bp)) for s in range(20)]
     res["variants"]["random_x20"] = {k: round(st.mean(r[k] for r in rnd), 2) for k in ("trades", "win_rate", "avg_ret_pct", "total_pct", "max_dd_pct")}
     OUT.mkdir(parents=True, exist_ok=True)
-    (OUT / "backtest.json").write_text(json.dumps(res, indent=1))
+    (OUT / ("backtest.json" if dataset == "stocks" else f"backtest_{dataset}.json")).write_text(json.dumps(res, indent=1))
     return res

@@ -34,7 +34,7 @@ class Signal(BaseModel):
 
 SYSTEM = """You classify breaking news for a paper-trading research bot that trades perpetual futures.
 Tradeable symbols: {symbols}.
-(Stock symbols are tokenized-stock perps tracking the US share price; SPY/QQQ are index trackers; BTC/ETH are crypto.)
+(Stock symbols are tokenized-stock perps tracking the US share price; ANT and SPCX track pre-IPO Anthropic and SpaceX; SPY/QQQ are index trackers; GOLD is spot gold; the rest are crypto assets.)
 
 For the item you get, decide whether it is genuinely new, market-moving information and, if so, which listed
 symbols should move, in which direction, how much, and over what horizon. Rules:
@@ -97,6 +97,9 @@ class Classifier:
 # --------------------------------------------------------------------------
 # Rule fallback: only a handful of unambiguous patterns, on pre-matched tickers.
 RULES = [
+    ("crypto_listing", r"\b(binance|coinbase|upbit|robinhood|kraken)\b.{0,60}\b(will list|lists|will add|adds|will launch|launches)\b", "long", 0.6, 3.0),
+    ("crypto_delisting", r"\b(will delist|delisting|to delist)\b", "short", 0.6, 4.0),
+    ("hack", r"\b(hacked|exploited|exploit|drained|stolen funds|security incident)\b", "short", 0.6, 4.0),
     ("leadership", r"\b(ceo|chief executive)\b.*\b(resign|steps? down|terminat|ousted|depart|leave)", "short", 0.6, 4.0),
     ("leadership", r"\b(resign|steps? down|ousted)\b.*\b(ceo|chief executive)\b", "short", 0.6, 4.0),
     ("leadership", r"\breinstat\w*\b.*\b(ceo|chief executive|president)\b", "long", 0.7, 5.0),

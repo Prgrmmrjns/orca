@@ -84,6 +84,7 @@ class Poller:
             if kind == "rss": items = self._rss()
             elif kind == "q4_json": items = self._q4()
             elif kind == "sec_submissions": items = self._sec()
+            elif kind == "binance_cms": items = self._binance()
             else: raise ValueError(kind)
             self.errors = 0
             self.stats["last_ok"] = _iso(dt.datetime.now(dt.timezone.utc))
@@ -135,6 +136,18 @@ class Poller:
                                                     if it.get(k) not in (None, "None"))),
                             tickers=list(self.src.get("tickers", []))))
         return out
+
+    def _binance(self):
+        """Binance announcement list (public CMS API used by binance.com). releaseDate is epoch ms."""
+        url = ("https://www.binance.com/bapi/composite/v1/public/cms/article/list/query"
+               f"?type=1&catalogId={self.src['catalog']}&pageNo=1&pageSize=20")
+        r = self._get(url, conditional=False)
+        if r is None: return []
+        arts = (r.json().get("data") or {}).get("catalogs", [{}])[0].get("articles", [])
+        return [dict(id=a["code"], source=self.src["id"], title=_clean(a.get("title"), 300),
+                     url=f"https://www.binance.com/en/support/announcement/{a['code']}",
+                     published=_iso(dt.datetime.fromtimestamp(a["releaseDate"] / 1000, dt.timezone.utc)),
+                     summary="", tickers=[]) for a in arts]
 
     def _sec(self):
         """Round-robin one CIK per poll via data.sec.gov submissions JSON."""
@@ -190,7 +203,8 @@ def _skip_cover(text: str) -> str:
 def match_tickers(text: str, universe: dict) -> list[str]:
     hits = []
     for t, u in universe.items():
+        tail = r"(?:USDT|USDC|USD|/USD\w?)?" if u.get("crypto") else ""     # crypto pairs: SOLUSDT, SOL/USDT
         for name in u.get("names", []):
-            if re.search(rf"(?<![A-Za-z]){re.escape(name)}(?![A-Za-z])", text):
+            if re.search(rf"(?<![A-Za-z]){re.escape(name)}{tail}(?![A-Za-z])", text):
                 hits.append(t); break
     return hits

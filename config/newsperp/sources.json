@@ -1,46 +1,621 @@
 {
-  "_doc": "newsperp collector sources. interval = seconds between polls. llm: all = classify every new item, match = only items naming a universe company, never = log only. Verified 2026-11-25; see newsperp/README.md.",
-  "universe": {
-    "NVDA": {"perp": "PF_NVDAXUSD", "cik": 1045810, "names": ["NVIDIA", "Nvidia", "Jensen Huang"]},
-    "TSLA": {"perp": "PF_TSLAXUSD", "cik": 1318605, "names": ["Tesla", "Elon Musk"]},
-    "AAPL": {"perp": "PF_AAPLXUSD", "cik": 320193, "names": ["Apple Inc", "Apple", "Tim Cook", "iPhone"]},
-    "AMZN": {"perp": "PF_AMZNXUSD", "cik": 1018724, "names": ["Amazon", "AWS", "Andy Jassy"]},
-    "GOOGL": {"perp": "PF_GOOGLXUSD", "cik": 1652044, "names": ["Alphabet", "Google", "Sundar Pichai"]},
-    "META": {"perp": "PF_METAXUSD", "cik": 1326801, "names": ["Meta Platforms", "Zuckerberg", "Facebook", "Instagram"]},
-    "MSTR": {"perp": "PF_MSTRXUSD", "cik": 1050446, "names": ["MicroStrategy", "Strategy Inc", "Michael Saylor", "Saylor"]},
-    "COIN": {"perp": "PF_COINXUSD", "cik": 1679788, "names": ["Coinbase"]},
-    "HOOD": {"perp": "PF_HOODXUSD", "cik": 1783879, "names": ["Robinhood"]},
-    "CRCL": {"perp": "PF_CRCLXUSD", "cik": 1876042, "names": ["Circle Internet", "USDC"]},
-    "AMD": {"perp": null, "cik": 2488, "names": ["Advanced Micro Devices", "AMD", "Lisa Su"]},
-    "MSFT": {"perp": null, "cik": 789019, "names": ["Microsoft", "Satya Nadella", "Azure"]},
-    "SPY": {"perp": "PF_SPYXUSD", "cik": null, "names": []},
-    "QQQ": {"perp": "PF_QQQXUSD", "cik": null, "names": []},
-    "BTC": {"perp": "PF_XBTUSD", "cik": null, "names": ["Bitcoin", "BTC"]},
-    "ETH": {"perp": "PF_ETHUSD", "cik": null, "names": ["Ethereum", "Ether"]}
+ "_doc": "newsperp collector sources. interval = seconds between polls. llm: all = classify every new item, match = only items naming a universe company, never = log only. Verified 2026-11-25; see newsperp/README.md.",
+ "universe": {
+  "NVDA": {
+   "perp": "PF_NVDAXUSD",
+   "cik": 1045810,
+   "names": [
+    "NVIDIA",
+    "Nvidia",
+    "Jensen Huang"
+   ]
   },
-  "sources": [
-    {"id": "nvda_newsroom", "kind": "rss", "head_check": true, "url": "https://nvidianews.nvidia.com/rss.xml", "interval": 5, "tickers": ["NVDA"], "llm": "all"},
-    {"id": "aapl_newsroom", "kind": "rss", "url": "https://www.apple.com/newsroom/rss-feed.rss", "interval": 10, "tickers": ["AAPL"], "llm": "all"},
-    {"id": "amzn_ir", "kind": "q4_json", "url": "https://ir.aboutamazon.com", "interval": 10, "tickers": ["AMZN"], "llm": "all"},
-    {"id": "googl_ir", "kind": "q4_json", "url": "https://abc.xyz", "interval": 10, "tickers": ["GOOGL"], "llm": "all"},
-    {"id": "meta_ir", "kind": "q4_json", "url": "https://investor.atmeta.com", "interval": 10, "tickers": ["META"], "llm": "all"},
-    {"id": "coin_ir", "kind": "q4_json", "url": "https://investor.coinbase.com", "interval": 10, "tickers": ["COIN"], "llm": "all"},
-    {"id": "crcl_ir", "kind": "q4_json", "url": "https://investor.circle.com", "interval": 10, "tickers": ["CRCL"], "llm": "all"},
-    {"id": "tsla_ir", "kind": "q4_json", "url": "https://ir.tesla.com", "interval": 15, "tickers": ["TSLA"], "llm": "all", "_note": "403 from some IPs; collector backs off on errors"},
-    {"id": "hood_ir", "kind": "q4_json", "url": "https://investors.robinhood.com", "interval": 15, "tickers": ["HOOD"], "llm": "all", "_note": "403 from some IPs"},
-    {"id": "amd_ir", "kind": "rss", "url": "https://ir.amd.com/news-events/press-releases/rss", "interval": 20, "tickers": ["AMD"], "llm": "all"},
-    {"id": "msft_news", "kind": "rss", "url": "https://news.microsoft.com/source/feed/", "interval": 120, "tickers": ["MSFT"], "llm": "match"},
-    {"id": "sec_8k", "kind": "sec_submissions", "interval": 2, "llm": "all", "forms": ["8-K", "8-K/A", "6-K"]},
-    {"id": "prnewswire", "kind": "rss", "url": "https://www.prnewswire.com/rss/news-releases-list.rss", "interval": 30, "llm": "match"},
-    {"id": "whitehouse", "kind": "rss", "url": "https://www.whitehouse.gov/news/feed/", "interval": 30, "llm": "all"},
-    {"id": "trump_posts", "kind": "rss", "url": "https://trumpstruth.org/feed", "interval": 30, "llm": "all", "_note": "third-party Truth Social mirror; unofficial"},
-    {"id": "fed_press", "kind": "rss", "url": "https://www.federalreserve.gov/feeds/press_all.xml", "interval": 30, "llm": "all"},
-    {"id": "bls", "kind": "rss", "url": "https://www.bls.gov/feed/bls_latest.rss", "contact_ua": true, "interval": 60, "llm": "all"},
-    {"id": "bea", "kind": "rss", "url": "https://apps.bea.gov/rss/rss.xml", "interval": 120, "llm": "all"},
-    {"id": "fedreg_bis", "kind": "rss", "url": "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=industry-and-security-bureau", "interval": 300, "llm": "all"},
-    {"id": "coindesk", "kind": "rss", "url": "https://www.coindesk.com/arc/outboundfeeds/rss/", "interval": 60, "llm": "match"},
-    {"id": "marketwatch", "kind": "rss", "url": "https://feeds.content.dowjones.io/public/rss/mw_topstories", "interval": 60, "llm": "match"},
-    {"id": "benzinga", "kind": "rss", "url": "https://www.benzinga.com/feed", "interval": 60, "llm": "match"},
-    {"id": "sa_currents", "kind": "rss", "url": "https://seekingalpha.com/market_currents.xml", "interval": 60, "llm": "match"}
-  ]
+  "TSLA": {
+   "perp": "PF_TSLAXUSD",
+   "cik": 1318605,
+   "names": [
+    "Tesla",
+    "Elon Musk"
+   ]
+  },
+  "AAPL": {
+   "perp": "PF_AAPLXUSD",
+   "cik": 320193,
+   "names": [
+    "Apple Inc",
+    "Apple",
+    "Tim Cook",
+    "iPhone"
+   ]
+  },
+  "AMZN": {
+   "perp": "PF_AMZNXUSD",
+   "cik": 1018724,
+   "names": [
+    "Amazon",
+    "AWS",
+    "Andy Jassy"
+   ]
+  },
+  "GOOGL": {
+   "perp": "PF_GOOGLXUSD",
+   "cik": 1652044,
+   "names": [
+    "Alphabet",
+    "Google",
+    "Sundar Pichai"
+   ]
+  },
+  "META": {
+   "perp": "PF_METAXUSD",
+   "cik": 1326801,
+   "names": [
+    "Meta Platforms",
+    "Zuckerberg",
+    "Facebook",
+    "Instagram"
+   ]
+  },
+  "MSTR": {
+   "perp": "PF_MSTRXUSD",
+   "cik": 1050446,
+   "names": [
+    "MicroStrategy",
+    "Strategy Inc",
+    "Michael Saylor",
+    "Saylor"
+   ]
+  },
+  "COIN": {
+   "perp": "PF_COINXUSD",
+   "cik": 1679788,
+   "names": [
+    "Coinbase"
+   ]
+  },
+  "HOOD": {
+   "perp": "PF_HOODXUSD",
+   "cik": 1783879,
+   "names": [
+    "Robinhood"
+   ]
+  },
+  "CRCL": {
+   "perp": "PF_CRCLXUSD",
+   "cik": 1876042,
+   "names": [
+    "Circle Internet",
+    "USDC"
+   ]
+  },
+  "AMD": {
+   "perp": null,
+   "cik": 2488,
+   "names": [
+    "Advanced Micro Devices",
+    "AMD",
+    "Lisa Su"
+   ]
+  },
+  "MSFT": {
+   "perp": null,
+   "cik": 789019,
+   "names": [
+    "Microsoft",
+    "Satya Nadella",
+    "Azure"
+   ]
+  },
+  "SPY": {
+   "perp": "PF_SPYXUSD",
+   "cik": null,
+   "names": []
+  },
+  "QQQ": {
+   "perp": "PF_QQQXUSD",
+   "cik": null,
+   "names": []
+  },
+  "BTC": {
+   "perp": "PF_XBTUSD",
+   "cik": null,
+   "crypto": true,
+   "names": [
+    "Bitcoin",
+    "BTC",
+    "XBT"
+   ]
+  },
+  "ETH": {
+   "perp": "PF_ETHUSD",
+   "cik": null,
+   "crypto": true,
+   "names": [
+    "Ethereum",
+    "Ether",
+    "ETH"
+   ]
+  },
+  "ANT": {
+   "perp": "PF_ANTXUSD",
+   "cik": null,
+   "names": [
+    "Anthropic",
+    "Dario Amodei"
+   ]
+  },
+  "SPCX": {
+   "perp": "PF_SPCXXUSD",
+   "cik": null,
+   "names": [
+    "SpaceX",
+    "Starlink",
+    "Starship"
+   ]
+  },
+  "GOLD": {
+   "perp": "PF_XAUUSD",
+   "cik": null,
+   "names": [
+    "gold price",
+    "Gold price",
+    "gold prices",
+    "Gold prices",
+    "bullion"
+   ]
+  },
+  "SOL": {
+   "perp": "PF_SOLUSD",
+   "cik": null,
+   "crypto": true,
+   "names": [
+    "Solana",
+    "SOL"
+   ]
+  },
+  "HYPE": {
+   "perp": "PF_HYPEUSD",
+   "cik": null,
+   "crypto": true,
+   "names": [
+    "Hyperliquid",
+    "HYPE"
+   ]
+  },
+  "ZEC": {
+   "perp": "PF_ZECUSD",
+   "cik": null,
+   "crypto": true,
+   "names": [
+    "Zcash",
+    "ZEC"
+   ]
+  },
+  "NEAR": {
+   "perp": "PF_NEARUSD",
+   "cik": null,
+   "crypto": true,
+   "names": [
+    "NEAR Protocol",
+    "NEAR"
+   ]
+  },
+  "XRP": {
+   "perp": "PF_XRPUSD",
+   "cik": null,
+   "crypto": true,
+   "names": [
+    "XRP",
+    "Ripple"
+   ]
+  },
+  "TAO": {
+   "perp": "PF_TAOUSD",
+   "cik": null,
+   "crypto": true,
+   "names": [
+    "Bittensor",
+    "TAO"
+   ]
+  },
+  "ADA": {
+   "perp": "PF_ADAUSD",
+   "cik": null,
+   "crypto": true,
+   "names": [
+    "Cardano",
+    "ADA"
+   ]
+  },
+  "DOGE": {
+   "perp": "PF_DOGEUSD",
+   "cik": null,
+   "crypto": true,
+   "names": [
+    "Dogecoin",
+    "DOGE"
+   ]
+  },
+  "INJ": {
+   "perp": "PF_INJUSD",
+   "cik": null,
+   "crypto": true,
+   "names": [
+    "Injective",
+    "INJ"
+   ]
+  },
+  "QNT": {
+   "perp": "PF_QNTUSD",
+   "cik": null,
+   "crypto": true,
+   "names": [
+    "Quant Network",
+    "QNT"
+   ]
+  },
+  "UNI": {
+   "perp": "PF_UNIUSD",
+   "cik": null,
+   "crypto": true,
+   "names": [
+    "Uniswap",
+    "UNI"
+   ]
+  },
+  "SUI": {
+   "perp": "PF_SUIUSD",
+   "cik": null,
+   "crypto": true,
+   "names": [
+    "Sui Network",
+    "SUI"
+   ]
+  },
+  "PUMP": {
+   "perp": "PF_PUMPUSD",
+   "cik": null,
+   "crypto": true,
+   "names": [
+    "Pump.fun",
+    "PUMP"
+   ]
+  },
+  "ENA": {
+   "perp": "PF_ENAUSD",
+   "cik": null,
+   "crypto": true,
+   "names": [
+    "Ethena",
+    "ENA"
+   ]
+  },
+  "XMR": {
+   "perp": "PF_XMRUSD",
+   "cik": null,
+   "crypto": true,
+   "names": [
+    "Monero",
+    "XMR"
+   ]
+  },
+  "SEI": {
+   "perp": "PF_SEIUSD",
+   "cik": null,
+   "crypto": true,
+   "names": [
+    "Sei Network",
+    "SEI"
+   ]
+  },
+  "AVAX": {
+   "perp": "PF_AVAXUSD",
+   "cik": null,
+   "crypto": true,
+   "names": [
+    "Avalanche",
+    "AVAX"
+   ]
+  },
+  "LINK": {
+   "perp": "PF_LINKUSD",
+   "cik": null,
+   "crypto": true,
+   "names": [
+    "Chainlink",
+    "LINK"
+   ]
+  },
+  "XLM": {
+   "perp": "PF_XLMUSD",
+   "cik": null,
+   "crypto": true,
+   "names": [
+    "Stellar",
+    "XLM"
+   ]
+  },
+  "FET": {
+   "perp": "PF_FETUSD",
+   "cik": null,
+   "crypto": true,
+   "names": [
+    "Fetch.ai",
+    "Artificial Superintelligence Alliance",
+    "FET"
+   ]
+  }
+ },
+ "sources": [
+  {
+   "id": "nvda_newsroom",
+   "kind": "rss",
+   "head_check": true,
+   "url": "https://nvidianews.nvidia.com/rss.xml",
+   "interval": 5,
+   "tickers": [
+    "NVDA"
+   ],
+   "llm": "all"
+  },
+  {
+   "id": "aapl_newsroom",
+   "kind": "rss",
+   "url": "https://www.apple.com/newsroom/rss-feed.rss",
+   "interval": 10,
+   "tickers": [
+    "AAPL"
+   ],
+   "llm": "all"
+  },
+  {
+   "id": "amzn_ir",
+   "kind": "q4_json",
+   "url": "https://ir.aboutamazon.com",
+   "interval": 10,
+   "tickers": [
+    "AMZN"
+   ],
+   "llm": "all"
+  },
+  {
+   "id": "googl_ir",
+   "kind": "q4_json",
+   "url": "https://abc.xyz",
+   "interval": 10,
+   "tickers": [
+    "GOOGL"
+   ],
+   "llm": "all"
+  },
+  {
+   "id": "meta_ir",
+   "kind": "q4_json",
+   "url": "https://investor.atmeta.com",
+   "interval": 10,
+   "tickers": [
+    "META"
+   ],
+   "llm": "all"
+  },
+  {
+   "id": "coin_ir",
+   "kind": "q4_json",
+   "url": "https://investor.coinbase.com",
+   "interval": 10,
+   "tickers": [
+    "COIN"
+   ],
+   "llm": "all"
+  },
+  {
+   "id": "crcl_ir",
+   "kind": "q4_json",
+   "url": "https://investor.circle.com",
+   "interval": 10,
+   "tickers": [
+    "CRCL"
+   ],
+   "llm": "all"
+  },
+  {
+   "id": "tsla_ir",
+   "kind": "q4_json",
+   "url": "https://ir.tesla.com",
+   "interval": 15,
+   "tickers": [
+    "TSLA"
+   ],
+   "llm": "all",
+   "_note": "403 from some IPs; collector backs off on errors"
+  },
+  {
+   "id": "hood_ir",
+   "kind": "q4_json",
+   "url": "https://investors.robinhood.com",
+   "interval": 15,
+   "tickers": [
+    "HOOD"
+   ],
+   "llm": "all",
+   "_note": "403 from some IPs"
+  },
+  {
+   "id": "amd_ir",
+   "kind": "rss",
+   "url": "https://ir.amd.com/news-events/press-releases/rss",
+   "interval": 20,
+   "tickers": [
+    "AMD"
+   ],
+   "llm": "all"
+  },
+  {
+   "id": "msft_news",
+   "kind": "rss",
+   "url": "https://news.microsoft.com/source/feed/",
+   "interval": 120,
+   "tickers": [
+    "MSFT"
+   ],
+   "llm": "match"
+  },
+  {
+   "id": "sec_8k",
+   "kind": "sec_submissions",
+   "interval": 2,
+   "llm": "all",
+   "forms": [
+    "8-K",
+    "8-K/A",
+    "6-K"
+   ]
+  },
+  {
+   "id": "prnewswire",
+   "kind": "rss",
+   "url": "https://www.prnewswire.com/rss/news-releases-list.rss",
+   "interval": 30,
+   "llm": "match"
+  },
+  {
+   "id": "whitehouse",
+   "kind": "rss",
+   "url": "https://www.whitehouse.gov/news/feed/",
+   "interval": 30,
+   "llm": "all"
+  },
+  {
+   "id": "trump_posts",
+   "kind": "rss",
+   "url": "https://trumpstruth.org/feed",
+   "interval": 30,
+   "llm": "all",
+   "_note": "third-party Truth Social mirror; unofficial"
+  },
+  {
+   "id": "fed_press",
+   "kind": "rss",
+   "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+   "interval": 30,
+   "llm": "all"
+  },
+  {
+   "id": "bls",
+   "kind": "rss",
+   "url": "https://www.bls.gov/feed/bls_latest.rss",
+   "contact_ua": true,
+   "interval": 60,
+   "llm": "all"
+  },
+  {
+   "id": "bea",
+   "kind": "rss",
+   "url": "https://apps.bea.gov/rss/rss.xml",
+   "interval": 120,
+   "llm": "all"
+  },
+  {
+   "id": "fedreg_bis",
+   "kind": "rss",
+   "url": "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=industry-and-security-bureau",
+   "interval": 300,
+   "llm": "all"
+  },
+  {
+   "id": "coindesk",
+   "kind": "rss",
+   "url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+   "interval": 60,
+   "llm": "match"
+  },
+  {
+   "id": "marketwatch",
+   "kind": "rss",
+   "url": "https://feeds.content.dowjones.io/public/rss/mw_topstories",
+   "interval": 60,
+   "llm": "match"
+  },
+  {
+   "id": "benzinga",
+   "kind": "rss",
+   "url": "https://www.benzinga.com/feed",
+   "interval": 60,
+   "llm": "match"
+  },
+  {
+   "id": "sa_currents",
+   "kind": "rss",
+   "url": "https://seekingalpha.com/market_currents.xml",
+   "interval": 60,
+   "llm": "match"
+  },
+  {
+   "id": "binance_listing",
+   "kind": "binance_cms",
+   "catalog": 48,
+   "interval": 10,
+   "llm": "match",
+   "_note": "Binance new listings / futures launches"
+  },
+  {
+   "id": "binance_delisting",
+   "kind": "binance_cms",
+   "catalog": 161,
+   "interval": 20,
+   "llm": "match",
+   "_note": "Binance delistings"
+  },
+  {
+   "id": "kraken_blog",
+   "kind": "rss",
+   "url": "https://blog.kraken.com/feed",
+   "interval": 60,
+   "llm": "match"
+  },
+  {
+   "id": "cointelegraph",
+   "kind": "rss",
+   "url": "https://cointelegraph.com/rss",
+   "interval": 60,
+   "llm": "match"
+  },
+  {
+   "id": "theblock",
+   "kind": "rss",
+   "url": "https://www.theblock.co/rss.xml",
+   "interval": 60,
+   "llm": "match"
+  },
+  {
+   "id": "decrypt",
+   "kind": "rss",
+   "url": "https://decrypt.co/feed",
+   "interval": 60,
+   "llm": "match"
+  },
+  {
+   "id": "rekt",
+   "kind": "rss",
+   "url": "https://rekt.news/rss/feed.xml",
+   "interval": 300,
+   "llm": "match",
+   "_note": "hacks/exploits"
+  },
+  {
+   "id": "sec_press",
+   "kind": "rss",
+   "url": "https://www.sec.gov/news/pressreleases.rss",
+   "contact_ua": true,
+   "interval": 60,
+   "llm": "all"
+  },
+  {
+   "id": "cftc_press",
+   "kind": "rss",
+   "url": "https://www.cftc.gov/RSS/RSSGP/rssgp.xml",
+   "interval": 120,
+   "llm": "all"
+  }
+ ]
 }

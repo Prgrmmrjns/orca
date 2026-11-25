@@ -17,7 +17,7 @@ def main():
     r = sub.add_parser("run"); r.add_argument("--minutes", type=float, default=110); r.add_argument("--commit-every", type=float, default=0)
     sub.add_parser("probe"); sub.add_parser("status")
     s = sub.add_parser("study"); s.add_argument("--sec", action="store_true")
-    b = sub.add_parser("backtest"); b.add_argument("--latency", type=int, default=45); b.add_argument("--cost-bp", type=float, default=20)
+    b = sub.add_parser("backtest"); b.add_argument("--latency", type=int, default=45); b.add_argument("--cost-bp", type=float, default=20); b.add_argument("--crypto", action="store_true")
     a = ap.parse_args()
     if a.cmd == "run":
         from .collector import Collector
@@ -46,7 +46,7 @@ def main():
                          indent=1, default=str))
     elif a.cmd == "backtest":
         from .backtest import run
-        r = run(a.latency, a.cost_bp)
+        r = run(a.latency, a.cost_bp, dataset="crypto" if a.crypto else "stocks")
         print(json.dumps({k: v for k, v in r.items() if k != "trades"}, indent=1))
     elif a.cmd == "study":
         from .study import study_events, study_sec

@@ -102,3 +102,10 @@ def test_follow_signal_direction_and_threshold(tmp_path, monkeypatch):
     assert col.follow_impacts(it, pub, tick(100.5, 100.6), set()) == []          # < 1% move
     assert col.follow_impacts(it, pub, tick(90.0, 90.1), {"NVDA"}) == []          # classifier already decided
     assert col.follow_impacts(dict(it, source="benzinga"), pub, tick(105, 105.1), set()) == []  # not official
+
+def test_crypto_matching_and_stops():
+    assert match_tickers("Binance Futures Will Launch USDⓈ-Margined HYPEUSDT Perpetual", UNI) == ["HYPE"]
+    assert match_tickers("the link between rates", UNI) == []               # lowercase words are not tickers
+    assert "ANT" in match_tickers("Anthropic raises new round", UNI)
+    b = Book(new_ledger(CFG, T0), CFG, UNI)
+    assert b.stop_pct("HYPE") == CFG["stop_pct"]["crypto_default"] and b.stop_pct("BTC") == 2.5 and b.stop_pct("NVDA") == 3.0

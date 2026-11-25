@@ -1,0 +1,536 @@
+{
+ "generated": "2026-11-25T13:43:23+00:00",
+ "dataset": "crypto",
+ "since": "2025-01-01",
+ "n_events": 32,
+ "latency_s": 45,
+ "cost_bp_per_side": 20,
+ "n_earnings_events": 0,
+ "classifier": "not available (no ANTHROPIC_API_KEY)",
+ "variants": {
+  "rules": {
+   "cost_20bp": {
+    "trades": 0
+   },
+   "cost_40bp": {
+    "trades": 0
+   },
+   "latency_10s": {
+    "trades": 0
+   },
+   "latency_120s": {
+    "trades": 0
+   },
+   "latency_300s": {
+    "trades": 0
+   }
+  },
+  "rules_raw": {
+   "cost_20bp": {
+    "trades": 18,
+    "win_rate": 0.44,
+    "avg_ret_pct": -0.93,
+    "median_ret_pct": -0.32,
+    "total_pct": -4.82,
+    "max_dd_pct": -6.34,
+    "stops": 4
+   },
+   "cost_40bp": {
+    "trades": 18,
+    "win_rate": 0.22,
+    "avg_ret_pct": -1.28,
+    "median_ret_pct": -0.71,
+    "total_pct": -6.89,
+    "max_dd_pct": -7.14,
+    "stops": 4
+   },
+   "latency_10s": {
+    "trades": 18,
+    "win_rate": 0.44,
+    "avg_ret_pct": -0.91,
+    "median_ret_pct": -0.32,
+    "total_pct": -4.74,
+    "max_dd_pct": -6.17,
+    "stops": 4
+   },
+   "latency_120s": {
+    "trades": 18,
+    "win_rate": 0.39,
+    "avg_ret_pct": -0.97,
+    "median_ret_pct": -0.19,
+    "total_pct": -5.05,
+    "max_dd_pct": -6.36,
+    "stops": 4
+   },
+   "latency_300s": {
+    "trades": 18,
+    "win_rate": 0.44,
+    "avg_ret_pct": -0.82,
+    "median_ret_pct": -0.54,
+    "total_pct": -4.14,
+    "max_dd_pct": -6.42,
+    "stops": 3
+   }
+  },
+  "follow": {
+   "cost_20bp": {
+    "trades": 4,
+    "win_rate": 0.25,
+    "avg_ret_pct": -1.05,
+    "median_ret_pct": -2.4,
+    "total_pct": -1.29,
+    "max_dd_pct": -2.97,
+    "stops": 1
+   },
+   "cost_40bp": {
+    "trades": 4,
+    "win_rate": 0.25,
+    "avg_ret_pct": -1.39,
+    "median_ret_pct": -2.79,
+    "total_pct": -1.69,
+    "max_dd_pct": -3.26,
+    "stops": 1
+   },
+   "latency_10s": {
+    "trades": 3,
+    "win_rate": 0.33,
+    "avg_ret_pct": 0.52,
+    "median_ret_pct": -0.44,
+    "total_pct": 0.45,
+    "max_dd_pct": -1.26,
+    "stops": 0
+   },
+   "latency_120s": {
+    "trades": 5,
+    "win_rate": 0.2,
+    "avg_ret_pct": -1.46,
+    "median_ret_pct": -2.45,
+    "total_pct": -2.2,
+    "max_dd_pct": -3.62,
+    "stops": 1
+   },
+   "latency_300s": {
+    "trades": 5,
+    "win_rate": 0.4,
+    "avg_ret_pct": -0.63,
+    "median_ret_pct": -0.78,
+    "total_pct": -0.95,
+    "max_dd_pct": -2.25,
+    "stops": 0
+   }
+  },
+  "fade": {
+   "cost_20bp": {
+    "trades": 3,
+    "win_rate": 0.67,
+    "avg_ret_pct": 5.57,
+    "median_ret_pct": 3.6,
+    "total_pct": 5.05,
+    "max_dd_pct": -0.11,
+    "stops": 0
+   },
+   "cost_40bp": {
+    "trades": 3,
+    "win_rate": 0.67,
+    "avg_ret_pct": 5.19,
+    "median_ret_pct": 3.21,
+    "total_pct": 4.7,
+    "max_dd_pct": -0.23,
+    "stops": 0
+   },
+   "latency_10s": {
+    "trades": 3,
+    "win_rate": 0.33,
+    "avg_ret_pct": -0.85,
+    "median_ret_pct": -0.36,
+    "total_pct": -0.78,
+    "max_dd_pct": -1.56,
+    "stops": 1
+   },
+   "latency_120s": {
+    "trades": 4,
+    "win_rate": 0.75,
+    "avg_ret_pct": 3.47,
+    "median_ret_pct": 2.66,
+    "total_pct": 4.15,
+    "max_dd_pct": -1.56,
+    "stops": 1
+   },
+   "latency_300s": {
+    "trades": 5,
+    "win_rate": 0.4,
+    "avg_ret_pct": -0.22,
+    "median_ret_pct": -0.01,
+    "total_pct": -0.36,
+    "max_dd_pct": -1.56,
+    "stops": 1
+   }
+  },
+  "random_x20": {
+   "trades": 21.5,
+   "win_rate": 0.39,
+   "avg_ret_pct": 0.14,
+   "total_pct": 1.11,
+   "max_dd_pct": -4.9
+  }
+ },
+ "trades": {
+  "rules": [],
+  "rules_raw": [
+   {
+    "time": "2025-01-14 04:00",
+    "symbol": "SOL",
+    "side": "long",
+    "title": "Binance Options RFQ Adds SOLUSDT Options",
+    "items": "",
+    "why": "crypto_listing",
+    "conf": 0.6,
+    "exit": "time",
+    "hold_min": 120,
+    "ret_pct": 0.04,
+    "pnl_eur": 0.14,
+    "equity": 1000.14
+   },
+   {
+    "time": "2025-05-30 08:36",
+    "symbol": "HYPE",
+    "side": "long",
+    "title": "Binance Futures Will Launch USD\u24c8-Margined HYPEUSDT Perpetual Contract",
+    "items": "",
+    "why": "crypto_listing",
+    "conf": 0.6,
+    "exit": "time",
+    "hold_min": 120,
+    "ret_pct": 1.75,
+    "pnl_eur": 5.26,
+    "equity": 1005.41
+   },
+   {
+    "time": "2025-06-16 06:45",
+    "symbol": "UNI",
+    "side": "long",
+    "title": "Binance Futures Will Launch USD\u24c8-Margined AAVEUSDC and UNIUSDC Perpetual Contrac",
+    "items": "",
+    "why": "crypto_listing",
+    "conf": 0.6,
+    "exit": "time",
+    "hold_min": 120,
+    "ret_pct": -0.2,
+    "pnl_eur": -0.61,
+    "equity": 1004.8
+   },
+   {
+    "time": "2025-09-09 07:00",
+    "symbol": "ENA",
+    "side": "long",
+    "title": "Binance Will List Ethena USDe (USDE)",
+    "items": "",
+    "why": "crypto_listing",
+    "conf": 0.6,
+    "exit": "time",
+    "hold_min": 120,
+    "ret_pct": -0.44,
+    "pnl_eur": -1.31,
+    "equity": 1003.48
+   },
+   {
+    "time": "2025-09-11 11:37",
+    "symbol": "PUMP",
+    "side": "long",
+    "title": "Binance Will List Pump.fun (PUMP) with Seed Tag Applied",
+    "items": "",
+    "why": "crypto_listing",
+    "conf": 0.6,
+    "exit": "stop",
+    "hold_min": 120,
+    "ret_pct": -5.19,
+    "pnl_eur": -15.62,
+    "equity": 987.86
+   },
+   {
+    "time": "2025-11-19 07:30",
+    "symbol": "ZEC",
+    "side": "long",
+    "title": "Binance Futures Will Launch USD\u24c8-Margined ZECUSDC Perpetual Contract (2025-11-19",
+    "items": "",
+    "why": "crypto_listing",
+    "conf": 0.6,
+    "exit": "time",
+    "hold_min": 120,
+    "ret_pct": 2.92,
+    "pnl_eur": 8.66,
+    "equity": 996.52
+   },
+   {
+    "time": "2026-01-21 08:30",
+    "symbol": "XRP",
+    "side": "long",
+    "title": "Binance Will List Ripple USD (RLUSD) and Introduce RLUSD Zero Trading Fee Promot",
+    "items": "",
+    "why": "crypto_listing",
+    "conf": 0.6,
+    "exit": "time",
+    "hold_min": 120,
+    "ret_pct": -0.53,
+    "pnl_eur": -2.0,
+    "equity": 994.52
+   },
+   {
+    "time": "2026-01-22 07:30",
+    "symbol": "XRP",
+    "side": "long",
+    "title": "Binance Will Add Ripple USD (RLUSD) on Earn, Buy Crypto, Convert, Margin & VIP L",
+    "items": "",
+    "why": "crypto_listing",
+    "conf": 0.6,
+    "exit": "time",
+    "hold_min": 120,
+    "ret_pct": 0.09,
+    "pnl_eur": 0.35,
+    "equity": 994.87
+   },
+   {
+    "time": "2026-05-14 15:29",
+    "symbol": "BTC",
+    "side": "long",
+    "title": "Binance Futures Will Launch USD\u24c8-Margined BTCUSD1 Perpetual Contract (2026-05-18",
+    "items": "",
+    "why": "crypto_listing",
+    "conf": 0.6,
+    "exit": "time",
+    "hold_min": 120,
+    "ret_pct": 0.13,
+    "pnl_eur": 0.78,
+    "equity": 995.65
+   },
+   {
+    "time": "2026-06-12 16:00",
+    "symbol": "SPCX",
+    "side": "long",
+    "title": "Binance Exchange Adds bStocks Tokenized Securities SpaceX (SPCXB) on Binance Spo",
+    "items": "",
+    "why": "crypto_listing",
+    "conf": 0.6,
+    "exit": "time",
+    "hold_min": 120,
+    "ret_pct": 5.83,
+    "pnl_eur": 17.41,
+    "equity": 1013.06
+   },
+   {
+    "time": "2026-07-02 10:45",
+    "symbol": "ETH",
+    "side": "long",
+    "title": "Binance Futures Will Launch USD\u24c8-Margined ETHUSD1 Perpetual Contract (2026-07-03",
+    "items": "",
+    "why": "crypto_listing",
+    "conf": 0.6,
+    "exit": "time",
+    "hold_min": 120,
+    "ret_pct": 0.63,
+    "pnl_eur": 3.17,
+    "equity": 1016.23
+   },
+   {
+    "time": "2026-07-06 08:00",
+    "symbol": "QNT",
+    "side": "long",
+    "title": "Binance Adds ANTA, CBRS, DISK, FOTO, KMEM, QNT and STRC on Binance Stock Trading",
+    "items": "",
+    "why": "crypto_listing",
+    "conf": 0.6,
+    "exit": "time",
+    "hold_min": 120,
+    "ret_pct": -0.97,
+    "pnl_eur": -2.96,
+    "equity": 1013.27
+   },
+   {
+    "time": "2026-09-24 07:30",
+    "symbol": "HYPE",
+    "side": "long",
+    "title": "Binance Will List Hyperliquid (HYPE) with Seed Tag Applied",
+    "items": "",
+    "why": "crypto_listing",
+    "conf": 0.6,
+    "exit": "time",
+    "hold_min": 120,
+    "ret_pct": -4.36,
+    "pnl_eur": -13.27,
+    "equity": 1000.01
+   },
+   {
+    "time": "2026-09-24 10:45",
+    "symbol": "HYPE",
+    "side": "long",
+    "title": "Binance Will Add Hyperliquid (HYPE) on Earn, Buy Crypto, Convert, VIP Loan & Mar",
+    "items": "",
+    "why": "crypto_listing",
+    "conf": 0.6,
+    "exit": "time",
+    "hold_min": 120,
+    "ret_pct": 0.17,
+    "pnl_eur": 0.52,
+    "equity": 1000.53
+   },
+   {
+    "time": "2026-11-11 05:00",
+    "symbol": "HYPE",
+    "side": "long",
+    "title": "Binance Futures Will Launch USD\u24c8-Margined HYPEUSDC and TRXUSDC Perpetual Contrac",
+    "items": "",
+    "why": "crypto_listing",
+    "conf": 0.6,
+    "exit": "time",
+    "hold_min": 120,
+    "ret_pct": -0.95,
+    "pnl_eur": -2.86,
+    "equity": 997.67
+   },
+   {
+    "time": "2026-11-19 16:52",
+    "symbol": "ANT",
+    "side": "long",
+    "title": "Binance Exchange Adds Anthropic (ANTB) bStocks Trading Pairs on Binance Spot/Con",
+    "items": "",
+    "why": "crypto_listing",
+    "conf": 0.6,
+    "exit": "stop",
+    "hold_min": 120,
+    "ret_pct": -5.19,
+    "pnl_eur": -15.53,
+    "equity": 982.14
+   },
+   {
+    "time": "2026-11-19 17:10",
+    "symbol": "ANT",
+    "side": "long",
+    "title": "Binance Will Add Anthropic (ANTB) bStocks Tokenized Securities as Collateral Ass",
+    "items": "",
+    "why": "crypto_listing",
+    "conf": 0.6,
+    "exit": "stop",
+    "hold_min": 120,
+    "ret_pct": -5.19,
+    "pnl_eur": -15.29,
+    "equity": 966.85
+   },
+   {
+    "time": "2026-11-23 14:17",
+    "symbol": "ANT",
+    "side": "long",
+    "title": "Binance Will Launch Stock Options on Anthropic (ANT)",
+    "items": "",
+    "why": "crypto_listing",
+    "conf": 0.6,
+    "exit": "stop",
+    "hold_min": 120,
+    "ret_pct": -5.19,
+    "pnl_eur": -15.05,
+    "equity": 951.79
+   }
+  ],
+  "follow": [
+   {
+    "time": "2025-09-09 07:00",
+    "symbol": "ENA",
+    "side": "long",
+    "title": "Binance Will List Ethena USDe (USDE)",
+    "items": "",
+    "why": "move +4.4% before entry",
+    "conf": null,
+    "exit": "time",
+    "hold_min": 120,
+    "ret_pct": -0.44,
+    "pnl_eur": -1.31,
+    "equity": 998.69
+   },
+   {
+    "time": "2026-09-24 07:30",
+    "symbol": "HYPE",
+    "side": "long",
+    "title": "Binance Will List Hyperliquid (HYPE) with Seed Tag Applied",
+    "items": "",
+    "why": "move +1.5% before entry",
+    "conf": null,
+    "exit": "time",
+    "hold_min": 120,
+    "ret_pct": -4.36,
+    "pnl_eur": -13.07,
+    "equity": 985.62
+   },
+   {
+    "time": "2026-11-19 16:52",
+    "symbol": "ANT",
+    "side": "long",
+    "title": "Binance Exchange Adds Anthropic (ANTB) bStocks Trading Pairs on Binance Spot/Con",
+    "items": "",
+    "why": "move +2.8% before entry",
+    "conf": null,
+    "exit": "stop",
+    "hold_min": 120,
+    "ret_pct": -5.19,
+    "pnl_eur": -15.35,
+    "equity": 970.27
+   },
+   {
+    "time": "2026-11-19 17:10",
+    "symbol": "ANT",
+    "side": "short",
+    "title": "Binance Will Add Anthropic (ANTB) bStocks Tokenized Securities as Collateral Ass",
+    "items": "",
+    "why": "move -1.0% before entry",
+    "conf": null,
+    "exit": "time",
+    "hold_min": 120,
+    "ret_pct": 5.79,
+    "pnl_eur": 16.85,
+    "equity": 987.12
+   }
+  ],
+  "fade": [
+   {
+    "time": "2025-09-09 07:00",
+    "symbol": "ENA",
+    "side": "short",
+    "title": "Binance Will List Ethena USDe (USDE)",
+    "items": "",
+    "why": "move +4.4% before entry",
+    "conf": null,
+    "exit": "time",
+    "hold_min": 120,
+    "ret_pct": -0.36,
+    "pnl_eur": -1.09,
+    "equity": 998.91
+   },
+   {
+    "time": "2026-09-24 07:30",
+    "symbol": "HYPE",
+    "side": "short",
+    "title": "Binance Will List Hyperliquid (HYPE) with Seed Tag Applied",
+    "items": "",
+    "why": "move +1.5% before entry",
+    "conf": null,
+    "exit": "time",
+    "hold_min": 120,
+    "ret_pct": 3.6,
+    "pnl_eur": 10.78,
+    "equity": 1009.68
+   },
+   {
+    "time": "2026-11-19 16:52",
+    "symbol": "ANT",
+    "side": "short",
+    "title": "Binance Exchange Adds Anthropic (ANTB) bStocks Trading Pairs on Binance Spot/Con",
+    "items": "",
+    "why": "move +2.8% before entry",
+    "conf": null,
+    "exit": "time",
+    "hold_min": 120,
+    "ret_pct": 13.48,
+    "pnl_eur": 40.82,
+    "equity": 1050.51
+   }
+  ]
+ }
+}
