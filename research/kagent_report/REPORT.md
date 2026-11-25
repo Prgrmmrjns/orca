@@ -1,0 +1,139 @@
+# Kraken agent: fees, universe, design and backtest (2026-11-25)
+
+**Paper only. Nothing here places orders or uses private keys.** Reproduce with:
+
+```bash
+pip install -r requirements.txt
+python -m kagent.data           # refresh market data into research/kagent_data/
+python -m kagent.run_backtest   # writes research/kagent_report/report.json + equity_curves.csv.gz
+```
+
+## TL;DR
+
+- **The rule-based agent kept its risk promise but did not make money out of sample.** Over the untouched holdout
+  (2024-12-01 → 2026-11-24) it returned **-4.9%/yr, max drawdown -20%**, while BTC fell **-29%/yr with a -58% drawdown**
+  and an equal-weight basket of the same 8 coins lost -47%/yr. On 2020-2024 (the design period) it made 54%/yr at Sharpe 1.9.
+- **ML on price data has no edge.** Walk-forward LightGBM and ridge models had rank-IC ≈ 0.01 (noise) and lost money
+  after costs in both periods. I did not ship them. ML should come back once the news/filings history from the
+  Haiku pipeline is long enough to test.
+- **Trade perps, not spot.** At Kraken Pro tier 1 spot taker is **0.80%** vs **0.05%** on perps. The same strategy pays
+  ~9-15%/yr in spot fees vs ~0.7%/yr on perps (plus ~2.7%/yr funding).
+- **Today the agent is 100% cash**: BTC (60.2k) is below its 20/50/100/200-day averages.
+
+## 1. Kraken Pro fees (kraken.com/pro/fees, read 2026-11-25)
+
+Fee tier = best of 30-day spot volume, 30-day futures volume, or assets on platform (since 2026-07-09).
+
+| Tier (30d spot vol) | Spot maker | Spot taker | Futures/perps maker | Futures/perps taker |
+|---|---|---|---|---|
+| 1 ($0+) | 0.40% | **0.80%** | 0.02% | **0.05%** |
+| 2 ($2.5K+) | 0.30% | 0.60% | 0.0175% | 0.045% |
+| 3 ($10K+ or $20K assets) | 0.22% | 0.38% | 0.015% | 0.04% |
+| 5 ($50K+) | 0.15% | 0.30% | 0.01% | 0.03% |
+
+- **xStocks (tokenized stocks, spot):** 0.00% maker / 0.08% taker at tier 1.
+- **Stablecoin/FX pairs:** 0.20% / 0.20% at tier 1.
+- **Spot margin:** opening fee + rollover **per 4 hours**: BTC 0.01%, most alts 0.02%, some 0.04%. That is
+  ~22-44%/yr on the borrowed amount, on top of trading fees. 2% liquidation fee. Margin shorts are expensive.
+- **Perp funding:** hourly; longs pay shorts when positive. Kraken's own last 12 months: BTC +3.7%/yr, ETH +3.6%/yr,
+  most alts slightly negative (shorts paid). In 2021-style bull markets funding ran 20-50%/yr.
+
+Note: `strategy/STRATEGY.md` says Jonas has a 0%-fee plan. That is most likely Kraken+ (waives the *app* instant-buy
+fee), which does not apply to Kraken Pro order-book trading. Worth confirming in the account.
+
+### Cost model used in every backtest
+- Perps: 0.05% taker + slippage per side (0.05% BTC/ETH/SOL/XRP, 0.15% other alts, 0.05% traditional).
+- Funding: crypto longs pay 10%/yr (about 3x the recent realised rate), shorts earn nothing; RWA perps 5%/yr either side.
+- Spot comparison: 0.80% taker + same slippage; margin rollover 0.12%/day on borrowed amounts.
+- Execution one full day after the signal (signal at close t, trade at close t+1). Cash earns 0.
+
+## 2. What's tradable through the Kraken API (public endpoints, 2026-11-25)
+
+| Market | Count | Notes |
+|---|---|---|
+| Spot pairs | 1,436 | `api.kraken.com/0/public/AssetPairs` |
+| Spot pairs with margin | 267 (251 also shortable) | BTC up to 10x; position limits per pair |
+| Tokenized stocks (xStocks) spot | 356 pairs | e.g. AAPLx/USD; 0.08% taker |
+| Perpetual futures (`PF_*`) | 196 | `futures.kraken.com/derivatives/api/v3/instruments` |
+| … of which crypto | ~150 | BTC $629M/day, ETH $136M, SOL $57M; most alts < $5M/day |
+| … equities perps | 13 | NVDA-like semis, SOXL/SOXS, AMD, PLTR, MU, Samsung, SK Hynix |
+| … xStocks perps | 15 | SPY, QQQ, GLD, TSLA, NVDA, AAPL, GOOGL, META, AMZN, COIN, MSTR, HOOD, CRCL, … |
+| … commodities | 6 | gold, silver, WTI, Brent, natgas, copper |
+| … FX / index / pre-IPO | 3 / 1 / 3 | EUR, GBP, CHF / US100 / OpenAI, … |
+
+Perps allow long and short on the same instrument, so they replace margin for shorts. They are MTF-listed with an ISIN
+(Kraken's EU entity); Jonas should confirm derivatives are enabled for his German account before paper → real.
+
+## 3. Data
+
+- Crypto daily OHLCV 2017+ for 20 liquid coins from Binance's public data mirror (Kraken's public OHLC only gives
+  720 bars). Checked against Kraken perp closes since 2022: daily return correlation 0.995-0.9997, median basis 5-13 bps.
+- Gold, silver, WTI, Nasdaq-100, S&P 500, EURUSD from Yahoo as stand-ins for Kraken's RWA perps.
+- Kraken hourly funding (last 12 months) for all 20 coins.
+- **Caveat: survivorship bias.** The universe is today's surviving large coins. Results before ~2021 are flattered.
+
+## 4. Method
+
+- **Design period 2020-01-01 → 2024-11-30.** All choices were made here.
+- **Holdout 2024-12-01 → 2026-11-24, run once** after the rule was frozen (`kagent/agent.py`). Not tuned afterwards.
+- Walk-forward for ML: retrain every 28 days on all data ending 8 days before (7-day label + 1-day embargo).
+- Robustness: 144-config grid (universe × SMA windows × vol target × BTC gate × shorts), cost ×3, funding 25%/yr,
+  2-day lag, block-bootstrap 90% Sharpe intervals.
+
+### What was tried
+
+| Idea | Result on design period | Kept? |
+|---|---|---|
+| Regime-gated trend (hold coins above SMA while BTC above SMA) | all 144 variants Sharpe > 1; median 1.7 | **Yes** |
+| BTC regime gate on vs off | median Sharpe 1.84 vs 1.50, max DD -38% vs -49% | Yes |
+| Shorting coins in bear regime (perps) | no improvement (1.69 vs 1.64) | No |
+| Time-series momentum long/short, 20 coins | Sharpe 0.65, DD -41% | No |
+| Adding gold/silver/oil/Nasdaq/S&P/EUR trend sleeve | Sharpe 0.21 alone after carry; drags combined | No |
+| ML cross-sectional ranker (LightGBM, ridge), 26 features | rank-IC 0.006-0.013, loses after costs | No |
+| ML time-series classifier (next-7d up/down) | AUC 0.497; top quintile had the *worst* returns | No |
+| Weekly vs daily rebalance | same Sharpe, half the turnover | Weekly |
+| Drawdown brake (½ size at -15%, ¼ at -25%) | Sharpe 1.98 → 1.89, DD -26% → -21% | Included, see below |
+
+### Frozen agent rule (`kagent/agent.py`)
+1. Universe: BTC, ETH, SOL, XRP, ADA, DOGE, LINK, AVAX perps (the 8 most liquid with long history).
+2. For each SMA window N ∈ {20, 50, 100, 200}: if BTC > SMA(N), hold each coin above its own SMA(N),
+   inverse-vol weighted, scaled to 30% annual vol, max 50% per coin. Target = average of the 4 sub-books.
+3. Weekly rebalance (Monday), skip trades < 5% of equity, always fully exit. Long only, no leverage (gross ≤ 1).
+   Average gross exposure ≈ 0.28, i.e. mostly cash.
+4. Drawdown brake on its own equity: ½ size at -15% from high, ¼ at -25%.
+
+## 5. Results (all after fees, slippage, funding)
+
+| Strategy | Design 2020-24 CAGR | Sharpe | Max DD | **Holdout 2024-12→now CAGR** | **Sharpe** | **Max DD** |
+|---|---|---|---|---|---|---|
+| BTC buy & hold (perp) | 53.3% | 0.99 | -78.9% | **-29.0%** | -0.57 | -57.9% |
+| Equal-weight 8 coins buy & hold | 136.1% | 1.49 | -80.5% | **-46.7%** | -0.66 | -74.6% |
+| Old Orca v2 on spot fees | 65.4% | 1.67 | -40.9% | **-17.5%** | -0.61 | -41.5% |
+| Old Orca v2 on perps | 79.0% | 1.91 | -36.6% | **-9.9%** | -0.27 | -34.4% |
+| Trend long/short, 20 coins | 13.9% | 0.65 | -40.8% | **-6.6%** | -0.18 | -29.9% |
+| ML ranker ridge L/S | 5.0% | 0.33 | -58.4% | **-42.0%** | -2.00 | -67.3% |
+| ML ranker LightGBM L/S | -25.7% | -1.15 | -82.2% | **-5.8%** | -0.19 | -24.9% |
+| Agent without brake | 60.6% | 1.98 | -26.4% | **-2.1%** | 0.00 | -19.4% |
+| **Agent (frozen, with brake)** | **53.5%** | **1.89** | **-21.4%** | **-4.9%** | **-0.14** | **-20.3%** |
+
+Agent by calendar year: 2020 +96%, 2021 +119%, 2022 -7%, 2023 +51%, 2024 +34%, 2025 +3%, 2026 YTD -9%.
+Bootstrap 90% Sharpe interval: design [0.95, 2.62], holdout [-1.23, 0.85].
+
+## 6. Where it fails (honest read)
+
+- **No profit in the last two years.** The edge is avoiding crashes, not making money in chop. 2025-26 was a slow
+  bleed with failed rallies; every rally above the averages reversed, so the agent bought high and sold low in small size.
+- **Design-period numbers are flattered** by survivorship and by 2020-21, the strongest crypto bull run on record.
+  Expect real-world Sharpe well below 1.9; the holdout says somewhere around 0, with drawdowns around -20%.
+- **The drawdown brake cost return in both periods** and cut drawdown only a little. I'd drop it and replace it with a
+  hard stop: halt and ask Jonas at -25% from the high.
+- **No short side.** Shorting in bear regimes did not help on the design period, so it wasn't added. It might have
+  helped in the holdout, but adding it now would be tuning on the holdout.
+- Cash earns 0 here; USD/USDC held as collateral could earn a few % a year, which would help a mostly-cash strategy.
+
+## 7. Next steps (not started; need Jonas's go-ahead)
+
+1. Paper-trade the frozen rule on live Kraken perp prices (weekly), next to the existing books.
+2. When the Haiku news/filings history has a few months of data, test news features as ML inputs with the same
+   walk-forward + holdout discipline. Funding rate and open interest (now being collected) are the other candidates.
+3. Equity/commodity perps (13 + 15 + 6 markets) only have weeks-to-months of Kraken history; revisit once longer.
