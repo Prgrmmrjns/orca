@@ -459,7 +459,7 @@
   "stop_loss": null,
   "prefer_open": true,
   "max_open": 15,
-  "last_run": "2026-11-25T03:33:46Z",
+  "last_run": "2026-11-25T04:15:55Z",
   "last_reason": "engine[wide_capacity]: auto=0 ingested=0 fills=0 closed=0 open=1 session=closed",
   "max_per_ticker": 1,
   "max_gross_exposure_pct": 0.75,
@@ -468,7 +468,7 @@
   "sizing": "fixed",
   "score_ref": 10.0,
   "strategy_config_path": "config/strategies/wide_capacity.yaml",
-  "eur_usd": 1.0955302715301514,
+  "eur_usd": 1.0949305295944214,
   "extended_hours_extra_slippage_pct": 0.0,
   "allow_extended_hours": false
 }
