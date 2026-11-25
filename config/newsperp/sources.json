@@ -30,7 +30,7 @@
     {"id": "hood_ir", "kind": "q4_json", "url": "https://investors.robinhood.com", "interval": 15, "tickers": ["HOOD"], "llm": "all", "_note": "403 from some IPs"},
     {"id": "amd_ir", "kind": "rss", "url": "https://ir.amd.com/news-events/press-releases/rss", "interval": 20, "tickers": ["AMD"], "llm": "all"},
     {"id": "msft_news", "kind": "rss", "url": "https://news.microsoft.com/source/feed/", "interval": 120, "tickers": ["MSFT"], "llm": "match"},
-    {"id": "sec_8k", "kind": "sec_submissions", "interval": 12, "llm": "all", "forms": ["8-K", "8-K/A", "6-K"]},
+    {"id": "sec_8k", "kind": "sec_submissions", "interval": 2, "llm": "all", "forms": ["8-K", "8-K/A", "6-K"]},
     {"id": "prnewswire", "kind": "rss", "url": "https://www.prnewswire.com/rss/news-releases-list.rss", "interval": 30, "llm": "match"},
     {"id": "whitehouse", "kind": "rss", "url": "https://www.whitehouse.gov/news/feed/", "interval": 30, "llm": "all"},
     {"id": "trump_posts", "kind": "rss", "url": "https://trumpstruth.org/feed", "interval": 30, "llm": "all", "_note": "third-party Truth Social mirror; unofficial"},

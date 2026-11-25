@@ -177,9 +177,15 @@ def sec_exhibit_text(item: dict, n: int = 6000) -> str:
         names = [x["name"] for x in r["directory"]["item"]]
         ex = [x for x in names if re.search(r"ex-?99", x, re.I) and x.endswith((".htm", ".html", ".txt"))]
         time.sleep(0.15)
-        return fetch_text(item["url"].rsplit("/", 1)[0] + "/" + ex[0], n, sec=True) if ex else fetch_text(item["url"], n, sec=True)
+        if ex: return fetch_text(item["url"].rsplit("/", 1)[0] + "/" + ex[0], n, sec=True)
     except Exception:
-        return fetch_text(item["url"], n, sec=True)
+        pass
+    return _skip_cover(fetch_text(item["url"], n + 4000, sec=True))[:n]
+
+def _skip_cover(text: str) -> str:
+    """Drop the 8-K cover page (registrant address, check boxes) and start at the first Item section."""
+    m = re.search(r"\bItem\s+[1-9]\.\d\d\b(?!.{0,40}Financial Statements and Exhibits)", text)
+    return text[m.start():] if m else text
 
 def match_tickers(text: str, universe: dict) -> list[str]:
     hits = []

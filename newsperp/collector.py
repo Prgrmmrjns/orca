@@ -114,6 +114,7 @@ class Collector:
             if it["source"] == "sec_8k": body = sec_exhibit_text(it)
             elif len(it.get("summary", "")) < 300 and it.get("url") and mode == "all": body = fetch_text(it["url"])
             sig = self.clf.classify(it, body)
+            sig["impacts"] = sig["impacts"] + self.follow_impacts(it, pub, ticks, {i["symbol"] for i in sig["impacts"]})
             ev.update(event_type=sig["event_type"], signal=sig, classified_s=round((now_utc() - t_seen).total_seconds(), 2))
             if sig["impacts"]:
                 tk2 = ticks
@@ -129,6 +130,29 @@ class Collector:
         self.write_event(ev); self.n_events += 1; self.dirty = True
         log(f"[{it['source']}] lag={ev['lag_s']}s {tickers} {it['title'][:90]}"
             + (f" -> {ev.get('event_type')} {[(i['symbol'], i['direction'], i['confidence']) for i in ev.get('signal', {}).get('impacts', [])]}" if ev.get("signal") else ""))
+
+    def follow_impacts(self, it: dict, pub, ticks: dict, taken: set) -> list[dict]:
+        """Price-confirmed signal: official release + perp already moved >= min_move since publication."""
+        f = self.bcfg.get("follow") or {}
+        if not f.get("enabled") or it["source"] not in f.get("sources", []) or pub is None: return []
+        out = []
+        for sym in it.get("tickers") or []:
+            perp = self.universe.get(sym, {}).get("perp")
+            if not perp or sym in taken or perp not in ticks: continue
+            t0 = int(pub.timestamp()) - 60
+            try:
+                cs = market.candles(perp, t0 - 300, t0 + 60)
+                ref = [float(c["close"]) for c in cs if c["time"] // 1000 <= t0]
+            except Exception:
+                ref = []
+            if not ref: continue
+            mid = (ticks[perp]["bid"] + ticks[perp]["ask"]) / 2
+            mv = (mid / ref[-1] - 1) * 100
+            if f["min_move_pct"] <= abs(mv) <= f.get("max_move_pct", 99):
+                out.append(dict(symbol=sym, direction="long" if mv > 0 else "short", confidence=f["confidence"],
+                                expected_move_pct=round(abs(mv), 2), horizon_minutes=f["hold_minutes"],
+                                reason=f"follow: perp moved {mv:+.1f}% since publication", method="follow"))
+        return out
 
     # ---- book housekeeping ------------------------------------------------
     def manage_book(self, full_mark=False):

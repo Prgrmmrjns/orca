@@ -27,3 +27,4 @@ stocks/data/raw/
 *.parquet
 # crypto research cache (re-download with python -m crypto.fetch_binance)
 crypto/data_cache/
+newsperp/data_cache/

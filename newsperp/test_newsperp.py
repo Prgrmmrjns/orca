@@ -91,3 +91,14 @@ def test_baseline_then_only_new_items(tmp_path, monkeypatch):
     assert len(lines) == 1 and json.loads(lines[0])["tickers"] == ["BTC"]
     col.handle_items(p, new)                                             # repeat poll: no duplicate
     assert len(next((tmp_path / "events").glob("*.jsonl")).read_text().splitlines()) == 1
+
+def test_follow_signal_direction_and_threshold(tmp_path, monkeypatch):
+    monkeypatch.setattr(C.market, "candles", lambda perp, a, b: [dict(time=(b - 120) * 1000, close="100")])
+    col = C.Collector(state_dir=tmp_path)
+    pub = dt.datetime(2026, 11, 23, 13, 55, tzinfo=dt.timezone.utc)
+    it = dict(source="nvda_newsroom", tickers=["NVDA"])
+    up = col.follow_impacts(it, pub, tick(105.0, 105.1), set())
+    assert up and up[0]["direction"] == "long" and up[0]["confidence"] >= CFG["min_confidence"]
+    assert col.follow_impacts(it, pub, tick(100.5, 100.6), set()) == []          # < 1% move
+    assert col.follow_impacts(it, pub, tick(90.0, 90.1), {"NVDA"}) == []          # classifier already decided
+    assert col.follow_impacts(dict(it, source="benzinga"), pub, tick(105, 105.1), set()) == []  # not official

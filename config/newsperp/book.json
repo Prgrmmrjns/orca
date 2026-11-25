@@ -5,7 +5,13 @@
   "min_expected_move_pct": 1.0,
   "max_item_age_minutes": 15,
   "risk_per_trade": 0.015,
-  "stop_pct": {"default": 3.0, "BTC": 2.5, "ETH": 3.0, "SPY": 1.5, "QQQ": 2.0},
+  "stop_pct": {
+    "default": 3.0,
+    "BTC": 2.5,
+    "ETH": 3.0,
+    "SPY": 1.5,
+    "QQQ": 2.0
+  },
   "max_position_frac": 0.6,
   "max_gross_leverage": 3.0,
   "max_open_positions": 4,
@@ -15,5 +21,25 @@
   "taker_fee": 0.0005,
   "extra_slippage": 0.001,
   "classifier_model": "claude-opus-5-5",
-  "classifier_effort": "low"
+  "classifier_effort": "low",
+  "follow": {
+    "_doc": "Price-confirmed news: on an official release (SEC 8-K / company newsroom or IR), if the perp already moved >= min_move_pct since publication when we see it, trade in that direction. Classifier signals for the same symbol take precedence. Backtest Feb-Nov 2026: 17 trades, +12.4% at 45 s delay, ~0% at 5 min (small sample, parameters chosen on the same data).",
+    "enabled": true,
+    "min_move_pct": 1.0,
+    "max_move_pct": 8.0,
+    "hold_minutes": 120,
+    "confidence": 0.66,
+    "sources": [
+      "sec_8k",
+      "nvda_newsroom",
+      "aapl_newsroom",
+      "amzn_ir",
+      "googl_ir",
+      "meta_ir",
+      "coin_ir",
+      "crcl_ir",
+      "tsla_ir",
+      "hood_ir"
+    ]
+  }
 }

@@ -4,6 +4,7 @@
   python -m newsperp probe                                    # poll every source once, print health
   python -m newsperp status                                   # book summary
   python -m newsperp study [--sec]                            # event study
+  python -m newsperp backtest [--latency 45] [--cost-bp 20]   # historical backtest (Feb 2026+)
 """
 from __future__ import annotations
 
@@ -16,6 +17,7 @@ def main():
     r = sub.add_parser("run"); r.add_argument("--minutes", type=float, default=110); r.add_argument("--commit-every", type=float, default=0)
     sub.add_parser("probe"); sub.add_parser("status")
     s = sub.add_parser("study"); s.add_argument("--sec", action="store_true")
+    b = sub.add_parser("backtest"); b.add_argument("--latency", type=int, default=45); b.add_argument("--cost-bp", type=float, default=20)
     a = ap.parse_args()
     if a.cmd == "run":
         from .collector import Collector
@@ -42,6 +44,10 @@ def main():
                               closed_trades=len(closes), wins=sum(t["pnl_eur"] > 0 for t in closes),
                               realized_eur=round(sum(t["pnl_eur"] for t in closes), 2), last=h[-1] if h else None),
                          indent=1, default=str))
+    elif a.cmd == "backtest":
+        from .backtest import run
+        r = run(a.latency, a.cost_bp)
+        print(json.dumps({k: v for k, v in r.items() if k != "trades"}, indent=1))
     elif a.cmd == "study":
         from .study import study_events, study_sec
         if a.sec: print(json.dumps(study_sec(), indent=1))

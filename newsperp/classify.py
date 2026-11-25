@@ -109,7 +109,7 @@ RULES = [
 ]
 
 def rule_classify(item: dict, body: str, symbols: list[str]) -> dict:
-    text = f"{item['title']} {item.get('summary', '')}"
+    text = f"{item['title']} {item.get('summary', '')} {body[:1500]}"
     tickers = [t for t in (item.get("tickers") or []) if t in symbols]
     for etype, pat, side, conf, move in RULES:
         if re.search(pat, text, re.I):

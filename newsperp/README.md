@@ -41,6 +41,32 @@ Started 2026-11-25 with **€1,000**. State in `state/newsperp/`; rules in `conf
 - Two case studies (NVIDIA CEO resignation 2026-11-12, reinstatement 2026-11-23) are in the session notes:
   the reinstatement perp move was +8% in the first minute, +24% at 2 h, +7.6% two days later.
 
+## Backtest (`python -m newsperp backtest`, report in `reports/newsperp/backtest.json`)
+Feb 7 – Nov 25 2026, 214 official events (SEC 8-Ks of the 10 perp stocks + IR press releases, merged within 20 min),
+1-minute Kraken perp bars, 20 bp per side (half-spread + slippage + fee), book sizing and stops as above,
+entry 45 s after publication unless stated.
+
+| Signal | Trades | Win rate | Avg / trade | Total | Max DD |
+|---|---|---|---|---|---|
+| follow (price-confirmed, ≥1% move by entry) | 16 | 75% | +1.70% | +14.2% | −1.6% |
+| follow at 40 bp per side | 16 | 75% | +1.35% | +11.1% | −1.7% |
+| follow, entry after 10 s / 2 min / 5 min | 14 / 20 / 25 | 71 / 55 / 52% | | +13.9 / +4.6 / +1.5% | |
+| fade (opposite of follow) | 16 | 19% | −1.69% | −12.9% | −13.2% |
+| random direction on every event (20 seeds) | 167 | 29% | −0.26% | −19.5% | −26.7% |
+| keyword rules (live filters) | 1 | – | – | – | – |
+| Claude classifier | not run: no API key in this environment | | | | |
+
+Read with care:
+- 16 trades over ten months is a small sample; three trades (Alphabet Q3, a Circle charter, NVIDIA's CEO
+  reinstatement) make most of the profit.
+- The 1% trigger and 2 h hold were picked after looking at the same period, and the 8% bad-print cap was added
+  after one Amazon bar printed −10.7% in a minute (without the cap: 17 trades, +12.4%).
+- The keyword rules' single trade is the NVIDIA reinstatement, and the "reinstated" rule was written after that
+  event, so it proves nothing.
+- The edge fades with delay (+14% at 45 s, +1.5% at 5 min): polling speed matters, which is why SEC filings are
+  now polled one company every 2 s (each company every ~24 s).
+- No real order book: thin perps can fill much worse at the moment news breaks.
+
 ## Known gaps
 - Tesla and Robinhood IR sites return 403 to this container's IP; they are covered via SEC 8-Ks.
   The GitHub runner IP may or may not be blocked; see `state/newsperp/health.json`.
