@@ -180,9 +180,12 @@ def review() -> dict:
         perf.setdefault(r["book"], []).append(r["equity"])
     perf = {b: dict(start=round(v[0], 2), now=round(v[-1], 2), chg_pct=round((v[-1] / v[0] - 1) * 100, 2)) for b, v in perf.items() if v}
     lessons = db.select("lessons", {"active": "eq.true", "order": "ts.desc"}, limit=20)
-    p = db.kv_get("agent_params", {}) or {}
+    from .agent import params as cur_params
+    p = cur_params()
+    first = db.select("equity", {"book": "eq.total", "order": "ts", "select": "ts"}, limit=1)
     stats = db.select("event_stats")
-    user = json.dumps(dict(date=str(_now().date()), performance_8d=perf, trades_24h=trades, decisions_24h=decs,
+    user = json.dumps(dict(date=str(_now().date()), paper_trading_started=first[0]["ts"] if first else None,
+                           note="Opening fills show realised P&L = -fee; that is by design.", performance_8d=perf, trades_24h=trades, decisions_24h=decs,
                            failed_jobs_24h=runs, high_impact_news_24h=news, event_type_stats=stats,
                            current_knobs=dict(event_size_mult=p.get("event_size_mult", 1.0), min_impact=p.get("min_impact", 4),
                                               min_confidence=p.get("min_confidence", 0.6)),
