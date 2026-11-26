@@ -159,22 +159,38 @@
       "agent": "rule:bigmove_unified_v1",
       "prefer_open": false,
       "decided_at": "2026-11-19T23:47:23Z",
-      "status": "filled",
+      "status": "closed",
       "fill": {
-        "time": "2026-11-19T23:47:24Z",
         "ticker": "SNEX",
-        "side": "buy",
-        "price_usd": 39.01,
+        "side": "long",
+        "entry_day": "2026-11-19",
+        "exit_day": "2026-11-26",
+        "entry_usd": 39.01,
+        "exit_usd": 36.23,
         "shares": 1.405746,
-        "notional_eur": 49.97,
-        "cost_eur": 0.4997,
-        "cost_pct": 0.01,
+        "hold_days": 5,
+        "exit_reason": "time_exit",
+        "entry_session": "after",
+        "exit_session": "after",
         "session": "after",
-        "quote_fx": 1.0973334312438965,
+        "entry_cost_eur": 0.4997,
+        "exit_cost_eur": 0.4641,
+        "entry_cost_pct": 0.01,
+        "exit_cost_pct": 0.01,
+        "pnl_eur": -4.53,
+        "pnl_pct_net": -9.1264,
         "reason": "[bigmove_unified_v1/capitulation_fade_long] event=no_news_found surprise=None gap=-27.5311 guidance=None headline=SNEX move -27.5% no news found \u2192 long 5d",
-        "note": "filled at extended-hours quote (after)",
+        "rule_tags": [
+          "bigmove_unified_v1",
+          "capitulation_fade_long",
+          "bigmove",
+          "no_news_found",
+          "bigmove_unified_v1"
+        ],
+        "rule_name": "capitulation_fade_long",
         "decision_id": "bigmove_unified_v1-SNEX-2026-11-19T23:47:23Z-be8464",
-        "book_id": "bigmove_unified_v1"
+        "book_id": "bigmove_unified_v1",
+        "closed_at": "2026-11-26T08:03:16Z"
       }
     },
     {
@@ -303,7 +319,23 @@
       "agent": "rule:bigmove_unified_v1",
       "prefer_open": false,
       "decided_at": "2026-11-26T02:09:26Z",
-      "status": "pending"
+      "status": "filled",
+      "fill": {
+        "time": "2026-11-26T08:03:13Z",
+        "ticker": "NTNX",
+        "side": "buy",
+        "price_usd": 45.744999,
+        "shares": 1.188665,
+        "notional_eur": 49.54,
+        "cost_eur": 0.2477,
+        "cost_pct": 0.005,
+        "session": "open",
+        "quote_fx": 1.0975743532180786,
+        "reason": "[bigmove_unified_v1/capitulation_fade_long] event=no_news_found surprise=None gap=-18.3879 guidance=None headline=NTNX move -18.4% no news found \u2192 long 5d",
+        "note": "filled at regular-session open",
+        "decision_id": "bigmove_unified_v1-NTNX-2026-11-26T02:09:26Z-4b13aa",
+        "book_id": "bigmove_unified_v1"
+      }
     },
     {
       "id": "bigmove_unified_v1-SHOE-2026-11-26T02:09:26Z-42bffd",
@@ -335,7 +367,23 @@
       "agent": "rule:bigmove_unified_v1",
       "prefer_open": false,
       "decided_at": "2026-11-26T02:09:26Z",
-      "status": "pending"
+      "status": "filled",
+      "fill": {
+        "time": "2026-11-26T08:03:14Z",
+        "ticker": "SHOE",
+        "side": "buy",
+        "price_usd": 11.66,
+        "shares": 4.665068,
+        "notional_eur": 49.56,
+        "cost_eur": 0.2478,
+        "cost_pct": 0.005,
+        "session": "open",
+        "quote_fx": 1.0975743532180786,
+        "reason": "[bigmove_unified_v1/capitulation_fade_long] event=no_news_found surprise=None gap=-21.0007 guidance=None headline=SHOE move -21.0% no news found \u2192 long 5d",
+        "note": "filled at regular-session open",
+        "decision_id": "bigmove_unified_v1-SHOE-2026-11-26T02:09:26Z-42bffd",
+        "book_id": "bigmove_unified_v1"
+      }
     },
     {
       "id": "bigmove_unified_v1-AMBA-2026-11-26T02:09:26Z-6d4f49",
@@ -367,7 +415,23 @@
       "agent": "rule:bigmove_unified_v1",
       "prefer_open": false,
       "decided_at": "2026-11-26T02:09:26Z",
-      "status": "pending"
+      "status": "filled",
+      "fill": {
+        "time": "2026-11-26T08:03:15Z",
+        "ticker": "AMBA",
+        "side": "buy",
+        "price_usd": 33.66,
+        "shares": 1.61214,
+        "notional_eur": 49.44,
+        "cost_eur": 0.2472,
+        "cost_pct": 0.005,
+        "session": "open",
+        "quote_fx": 1.0975743532180786,
+        "reason": "[bigmove_unified_v1/capitulation_fade_long] event=no_news_found surprise=None gap=-35.3978 guidance=None headline=AMBA move -35.4% no news found \u2192 long 5d",
+        "note": "filled at regular-session open",
+        "decision_id": "bigmove_unified_v1-AMBA-2026-11-26T02:09:26Z-6d4f49",
+        "book_id": "bigmove_unified_v1"
+      }
     },
     {
       "id": "bigmove_unified_v1-DY-2026-11-26T02:09:26Z-23524f",
@@ -399,7 +463,23 @@
       "agent": "rule:bigmove_unified_v1",
       "prefer_open": false,
       "decided_at": "2026-11-26T02:09:26Z",
-      "status": "pending"
+      "status": "filled",
+      "fill": {
+        "time": "2026-11-26T08:03:15Z",
+        "ticker": "DY",
+        "side": "buy",
+        "price_usd": 172.380005,
+        "shares": 0.315662,
+        "notional_eur": 49.58,
+        "cost_eur": 0.2479,
+        "cost_pct": 0.005,
+        "session": "open",
+        "quote_fx": 1.0975743532180786,
+        "reason": "[bigmove_unified_v1/capitulation_fade_long] event=no_news_found surprise=None gap=-17.3128 guidance=None headline=DY move -17.3% no news found \u2192 long 5d",
+        "note": "filled at regular-session open",
+        "decision_id": "bigmove_unified_v1-DY-2026-11-26T02:09:26Z-23524f",
+        "book_id": "bigmove_unified_v1"
+      }
     }
   ],
   "updated_at": "2026-11-26T02:09:26Z"
