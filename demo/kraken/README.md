@@ -28,3 +28,18 @@ event size ≤ 25% of the events book, event stop ≤ 6%, hold ≤ 48 h, allocat
 A losing event type (n ≥ 8, mean < 0, t < -1) is switched off automatically.
 Budget: €1,000 paper (env ORCA_CAPITAL_EUR), converted to USD at start; quantities rounded to Kraken minimum sizes; total notional ≤ 2x equity.
 Haiku spend caps: $30 total, $0.60/day, $20 for scraping (env `ORCA_LLM_CAP_*`).
+
+## Prompt lab (2026-11-26)
+
+Offline test of news-trading prompts: 5,362 posts (Telegram WatcherGuru, unfolded, WuBlockchain, FinancialJuice,
+plus stored RSS) over 3 weeks, each decision scored by the realised Kraken perp move (15-min bars, entry 2 min after
+the post, 0.2%/0.4% round-trip cost), first 65% train, last 35% holdout. Calls go through `POST /api/kraken/lab`
+(CRON_SECRET, separate $90 cap in kv `lab_spend`).
+
+- Old live pipeline (Haiku triage + rules): 8 trades, about flat.
+- New open prompt, Opus: 59 trades, -0.5% per trade (train t=-1.3, holdout t=-1.7). Haiku with the same prompt barely traded.
+- Opus read the losing trades and wrote v2 rules (first report only, skip macro/megacap drama/large-cap adoption/recaps,
+  hold ≤4h). v2 trades almost never (1-2 trades in 3 weeks). Headline trading has no demonstrated edge here; v2 is a filter.
+
+Live trader now uses v2 (`TRADER_VERSION`), sees the last 6 h of headlines on the same assets, and holds ≤4 h.
+Each decision records the prompt version in `inputs.prompt`.

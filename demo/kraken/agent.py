@@ -50,6 +50,9 @@ impact: 1 = noise/irrelevant, 2 = minor, 3 = notable, 4 = likely to move a coin 
 Most items are 1-2. Macro data (CPI, payrolls, FOMC) moves BTC/ETH only a little (8-11 bp in 5 minutes on average): rate
 3 or less unless it is a big surprise. Exchange listings, hacks/exploits, ETF decisions, regulatory actions against a
 specific coin, and large unlocks can matter. Old news, opinion, price recaps, ads, and whale-transfer alerts are 1.
+Backtest of 5,400 posts vs realised moves: rate 3 or less for repeats/follow-ups of a story already circulating, macro
+and Fed news, megacap stock corporate drama and earnings, large-cap adoption news (a broker adds SOL etc.), listings of
+already-large tokens, and broad regulatory headlines. These lost money after costs.
 assets: tickers of coins clearly affected (use "MARKET" for broad crypto). direction: long, short or none.
 Lessons the agent learned from its own past mistakes:
 {lessons}"""
@@ -116,11 +119,28 @@ def _stats_enabled(etype: str, p: dict) -> bool:
     return s[0]["enabled"] if s else True
 
 
-TRADER_SYS = """You are the event trader of a PAPER crypto perpetual-futures book on Kraken. A news item was rated high impact.
-Decide whether to open ONE position. Costs are ~0.2-0.4% round trip. Research by this agent found: Binance listing
-announcements gave +4-5% on average over 1-4 h on Kraken perps (15 events, under half won); macro data releases have no
-edge after costs; most news is priced within minutes. Skip if the move already happened (see 24h change), if the news is
-old, vague, or not specific to the coin. Prefer skip when unsure. Size is a fraction of the events book (max 0.25).
+TRADER_VERSION = "trader-v2-2026-11-26"
+# v2: rules learned on 3 weeks of news (5.4k posts) vs realised Kraken perp moves, written by Opus from the losing trades.
+# Headline trading had no edge after costs (Opus v1: -0.5%/trade, n=59); v2 is a strict filter. See demo/kraken/README.md.
+TRADER_SYS = """You are the event trader of a PAPER crypto + stock perpetual-futures book on Kraken. A news post was rated
+high impact. You see it ~2 minutes after publication. Decide whether to open ONE position. Round-trip cost is 0.2% on
+majors/stocks and 0.4% on alts. You are judged only on net profit after costs; skipping is free. Past results: most
+headline trades lost money after costs. Default is SKIP.
+
+Rules learned from this agent's own backtest of 5,400 posts:
+1. Trade only the FIRST report of a story. If the post repeats, confirms or follows up a story already circulating (see
+   recent_headlines: the same story earlier = priced in), skip. Follow-ups in a running saga lost in both directions.
+2. Skip single-stock corporate drama and megacap stock news (CEO scandals, exits, analyst calls, probes, earnings beats
+   or misses: beats were sell-the-news).
+3. Skip macro entirely (CPI, payrolls, Fed speakers, tariffs, elections). Do not trade BTC/QQQX on macro.
+4. Skip broad-market and broad regulatory headlines, recaps and price-level posts ("BTC falls X%", "$Y liquidated").
+5. Large-cap adoption news (a broker adds SOL/AVAX/LINK, a payments firm integrates a chain) usually did not pay: skip.
+6. Exchange listings pay only for small, not widely traded coins; skip listings of top-20 or already-huge tokens.
+7. Tradeable, first-report, coin-specific supply/demand catalysts on small or mid coins: buyback -> long; hack/exploit of
+   the protocol -> short its token; confirmed delisting of a named coin -> short; large unlock -> short.
+8. Hold 4 hours by default, 1 hour only for a breaking surprise expected to fade. Never more than 4 hours.
+9. Skip if the 24h change shows the move already happened, or if no precise Kraken ticker is named.
+10. Size 0.05-0.15 of the events book; evidence for every tradeable rule is thin.
 Lessons from the agent's own past mistakes:
 {lessons}
 Track record per event type (n, win rate, mean net return): {stats}"""
@@ -186,11 +206,18 @@ def events_from_news(items: list[dict], tick: dict | None = None):
             continue
         ctx = {a: dict(px=tk[a]["px"], change24h_pct=tk[a].get("change24h"), funding_per_h=tk[a].get("funding_rel"))
                for a in cands}
+        try:  # earlier headlines on the same assets, so the trader can tell a first report from a follow-up
+            since = (utcnow() - timedelta(hours=6)).isoformat()
+            recent = [f"{r['seen'][11:16]}Z {r['title'][:160]}" for r in db.select("news", {
+                "select": "seen,title", "seen": f"gte.{since}", "id": f"neq.{it['id']}",
+                "assets": "ov.{" + ",".join(cands) + "}", "order": "seen.desc"}, limit=12)]
+        except Exception:
+            recent = []
         user = json.dumps(dict(news=dict(title=it["title"], source=it["source"], published=it.get("published"),
                                          seen=it.get("seen"), excerpt=(it.get("summary") or "")[:500],
                                          triage=dict(category=it.get("category"), impact=it.get("impact"),
                                                      direction=it.get("direction"), reason=it.get("reason"))),
-                               market=ctx, now=utcnow().isoformat()))
+                               recent_headlines=recent, market=ctx, now=utcnow().isoformat()))
         try:
             dec = llm.ask_json("trade", TRADER_SYS.format(lessons="\n".join(f"- {l}" for l in active_lessons(10)) or "- none",
                                                           stats=_stats_text()), user, TRADER_SCHEMA, 2000, effort="medium")
@@ -200,16 +227,16 @@ def events_from_news(items: list[dict], tick: dict | None = None):
             continue
         sym = dec["symbol"].upper()
         d = db.insert("decisions", dict(book=EVENTS, kind="event", summary=f"{dec['action']} {sym}: {it['title'][:150]}",
-                                        reasoning=dec["reasoning"][:2000], inputs=dict(news_id=it["id"], etype=etype, ctx=ctx),
+                                        reasoning=dec["reasoning"][:2000], inputs=dict(news_id=it["id"], etype=etype, ctx=ctx, prompt=TRADER_VERSION, recent=recent),
                                         targets=dec), returning=True)[0]
         if dec["action"] == "skip" or sym not in tk or not _cooldown_ok(sym):
             continue
         frac = max(0.02, min(float(dec["size"]), RISK["event_max_weight"])) * p["event_size_mult"]
         stop = max(0.015, min(float(dec["stop"]), RISK["event_stop"]))
-        hold = max(0.5, min(float(dec["hold_hours"]), RISK["event_max_hold_h"]))
+        hold = max(0.5, min(float(dec["hold_hours"]), 4.0))  # v2 backtest: >4h holds lost most
         broker.open_event(EVENTS, sym, dec["action"], min(frac, RISK["event_max_weight"]), tk[sym]["px"], stop,
                           (utcnow() + timedelta(hours=hold)).isoformat(), f"{etype}: {it['title'][:200]}", d["id"],
-                          dict(etype=etype, news_id=it["id"]))
+                          dict(etype=etype, news_id=it["id"], prompt=TRADER_VERSION))
 
 
 def manage_events(tk: dict):
