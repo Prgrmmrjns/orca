@@ -6,8 +6,10 @@ from fastapi import FastAPI
 from fastapi.responses import FileResponse, JSONResponse, RedirectResponse
 
 from stocks_live import json_safe, require_paper, snapshot as stocks_snapshot
+from kraken.api import router as kraken_router
 
 app = FastAPI(title="Orca — earnings paper")
+app.include_router(kraken_router)
 PUBLIC = Path(__file__).resolve().parent / "public"
 PAGE = PUBLIC / "index.html"
 

@@ -2,7 +2,7 @@
 name = "orca-paper"
 version = "0.1.0"
 requires-python = ">=3.12"
-dependencies = ["fastapi", "requests"]
+dependencies = ["fastapi", "requests", "numpy", "pandas", "feedparser", "anthropic"]
 
 [tool.vercel]
 entrypoint = "app:app"

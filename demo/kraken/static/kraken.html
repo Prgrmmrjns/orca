@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Orca Kraken Agent</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+  :root {
+    --bg: #f6f8fb; --card: #ffffff; --line: #e2e8f0; --text: #0f172a; --muted: #64748b;
+    --accent: #2563eb; --up: #059669; --down: #dc2626; --chip: #eef2ff; --warn: #b45309;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0b1220; --card: #111a2e; --line: #1f2a44; --text: #e5edf8; --muted: #8ea0bd;
+            --accent: #60a5fa; --up: #34d399; --down: #f87171; --chip: #1b2742; --warn: #fbbf24; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 14px/1.45 system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
+  header { padding: 18px 16px 8px; max-width: 1200px; margin: auto; display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: baseline; }
+  header h1 { margin: 0; font-size: 20px; }
+  header .sub { color: var(--muted); font-size: 13px; }
+  header a { color: var(--accent); text-decoration: none; margin-left: auto; font-size: 13px; }
+  .badge { background: var(--chip); color: var(--accent); border-radius: 999px; padding: 2px 10px; font-size: 12px; font-weight: 600; }
+  nav { max-width: 1200px; margin: auto; padding: 0 16px; display: flex; gap: 4px; overflow-x: auto; border-bottom: 1px solid var(--line); }
+  nav button { background: none; border: 0; color: var(--muted); padding: 10px 12px; font: inherit; cursor: pointer; border-bottom: 2px solid transparent; white-space: nowrap; }
+  nav button.on { color: var(--text); border-color: var(--accent); font-weight: 600; }
+  main { max-width: 1200px; margin: auto; padding: 16px; }
+  .grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px; min-width: 0; }
+  .kpi .v { font-size: 22px; font-weight: 700; margin-top: 2px; }
+  .kpi .l { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; }
+  .kpi .s { color: var(--muted); font-size: 12px; }
+  h2 { font-size: 15px; margin: 22px 0 10px; }
+  .up { color: var(--up); } .down { color: var(--down); } .muted { color: var(--muted); }
+  .tbl { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th, td { text-align: left; padding: 7px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; font-size: 12px; white-space: nowrap; }
+  td.n, th.n { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .books { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); }
+  .book p { color: var(--muted); font-size: 12px; margin: 6px 0 0; }
+  .row { display: flex; justify-content: space-between; gap: 8px; }
+  .chartbox { position: relative; height: 280px; }
+  .dec { border-left: 3px solid var(--accent); padding: 8px 12px; margin: 10px 0; background: var(--card); border-radius: 0 10px 10px 0; border-top: 1px solid var(--line); border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+  .dec.daily_report { border-left-color: var(--up); }
+  .dec.event { border-left-color: var(--warn); }
+  .dec .meta { color: var(--muted); font-size: 12px; }
+  .dec .why { margin-top: 6px; white-space: pre-wrap; }
+  details summary { cursor: pointer; color: var(--accent); font-size: 12px; margin-top: 6px; }
+  pre { white-space: pre-wrap; word-break: break-word; font-size: 11px; color: var(--muted); max-height: 300px; overflow: auto; }
+  .imp { display: inline-block; min-width: 22px; text-align: center; border-radius: 6px; padding: 0 5px; font-weight: 700; font-size: 12px; background: var(--chip); }
+  .imp.i4, .imp.i5 { background: var(--down); color: #fff; } .imp.i3 { background: var(--warn); color: #fff; }
+  .filters { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 10px; }
+  select, input { background: var(--card); color: var(--text); border: 1px solid var(--line); border-radius: 8px; padding: 6px 8px; font: inherit; }
+  .hidden { display: none; }
+  a.t { color: var(--text); text-decoration: none; } a.t:hover { text-decoration: underline; }
+  .note { color: var(--muted); font-size: 12px; margin-top: 8px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Orca Kraken Agent</h1><span class="badge">PAPER</span>
+  <span class="sub" id="status">loading…</span>
+  <a href="/">Stocks books →</a>
+</header>
+<nav id="tabs">
+  <button data-t="overview" class="on">Overview</button>
+  <button data-t="trades">Trades</button>
+  <button data-t="decisions">Reasoning</button>
+  <button data-t="news">News</button>
+  <button data-t="learning">Learning</button>
+</nav>
+<main>
+  <section id="overview">
+    <div class="grid" id="kpis"></div>
+    <h2>Equity by book</h2>
+    <div class="card"><div class="chartbox"><canvas id="eq"></canvas></div></div>
+    <h2>Books</h2>
+    <div class="books" id="books"></div>
+    <h2>Open positions</h2>
+    <div class="card tbl"><table id="pos"></table></div>
+    <p class="note">Paper only: fills at the Kraken Futures mark price plus slippage (5 bp majors, 15 bp others) and the 0.05% taker fee; daily funding is charged from Kraken's own rates. No order ever reaches Kraken.</p>
+  </section>
+  <section id="trades" class="hidden">
+    <div class="filters"><select id="tbook"><option value="">All books</option></select></div>
+    <div class="card tbl"><table id="ttbl"></table></div>
+  </section>
+  <section id="decisions" class="hidden">
+    <div class="filters"><select id="dkind"><option value="">All</option><option value="daily_report">Daily reports</option><option value="rebalance">Rebalances</option><option value="event">Event trades</option></select></div>
+    <div id="dlist"></div>
+  </section>
+  <section id="news" class="hidden">
+    <div class="filters">
+      <select id="nimp"><option value="0">All impact</option><option value="3">Impact ≥ 3</option><option value="4">Impact ≥ 4</option></select>
+      <input id="nq" placeholder="Filter text or source" />
+    </div>
+    <div class="card tbl"><table id="ntbl"></table></div>
+  </section>
+  <section id="learning" class="hidden">
+    <div class="grid" id="lkpis"></div>
+    <h2>Lessons the agent learned</h2>
+    <div class="card tbl"><table id="ltbl"></table></div>
+    <h2>Event-type track record</h2>
+    <div class="card tbl"><table id="etbl"></table></div>
+    <h2>ML policy coefficients (weekly refit)</h2>
+    <div class="card"><div class="chartbox"><canvas id="theta"></canvas></div><p class="note" id="thetanote"></p></div>
+    <h2>Job runs and errors</h2>
+    <div class="card tbl"><table id="rtbl"></table></div>
+  </section>
+</main>
+<script>
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const usd = (x, d=0) => x == null ? '–' : (x < 0 ? '-$' : '$') + Math.abs(x).toLocaleString('en-US', {maximumFractionDigits: d, minimumFractionDigits: d});
+const pct = (x, d=2) => x == null ? '–' : (x * 100).toFixed(d) + '%';
+const cls = x => x > 0 ? 'up' : x < 0 ? 'down' : '';
+const ago = t => { if (!t) return '–'; const s = (Date.now() - new Date(t)) / 1000; return s < 90 ? Math.round(s) + 's ago' : s < 5400 ? Math.round(s/60) + 'm ago' : s < 172800 ? Math.round(s/3600) + 'h ago' : Math.round(s/86400) + 'd ago'; };
+const loc = t => t ? new Date(t).toLocaleString([], {month:'short', day:'numeric', hour:'2-digit', minute:'2-digit'}) : '–';
+const get = u => fetch(u).then(r => r.json());
+const COLORS = {total:'#2563eb', trend_alt:'#059669', lowrisk:'#d97706', policy:'#7c3aed', events:'#db2777'};
+let eqChart, thChart, NEWS = [], tab = 'overview';
+const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+
+document.querySelectorAll('#tabs button').forEach(b => b.onclick = () => {
+  document.querySelectorAll('#tabs button').forEach(x => x.classList.toggle('on', x === b));
+  document.querySelectorAll('main > section').forEach(s => s.classList.toggle('hidden', s.id !== b.dataset.t));
+  tab = b.dataset.t; load(); try { localStorage.setItem('ktab', tab); } catch (e) {}
+});
+
+async function overview() {
+  const [s, eq] = await Promise.all([get('/api/kraken/summary'), get('/api/kraken/equity?days=90')]);
+  const pnl = s.start_equity ? s.total - s.start_equity : null;
+  const dd = s.total_hwm ? 1 - s.total / s.total_hwm : 0;
+  const lt = s.last_tick?.ts;
+  $('#status').textContent = `last scrape ${ago(lt)} · daily job ${s.daily_done || 'not yet'} · ${s.news_24h} news in 24h`;
+  $('#kpis').innerHTML = [
+    ['Total equity', usd(s.total), `started ${s.started ? loc(s.started) : '–'}`],
+    ['P&L since start', `<span class="${cls(pnl)}">${usd(pnl)}</span>`, s.start_equity ? pct(pnl / s.start_equity) : ''],
+    ['Drawdown', pct(dd), `brake at 15% / 25%`],
+    ['Gross exposure', pct(s.gross / s.total, 0), usd(s.gross)],
+    ['Open positions', s.positions.length, `${s.books.filter(b => b.enabled).length}/${s.books.length} books on`],
+    ['Haiku spend', usd(s.llm?.total || 0, 2), `today ${usd(s.llm?.today || 0, 3)} · ${s.llm?.calls || 0} calls`],
+    ['Errors 24h', s.errors_24h, 'see Learning tab'],
+  ].map(([l, v, sub]) => `<div class="card kpi"><div class="l">${l}</div><div class="v">${v}</div><div class="s">${sub}</div></div>`).join('');
+  $('#books').innerHTML = s.books.map(b => `<div class="card book">
+      <div class="row"><b>${esc(b.name)}</b><span class="badge" style="color:${COLORS[b.id]}">${pct(b.alloc, 0)}</span></div>
+      <div class="row" style="margin-top:6px"><span>${usd(b.equity)}</span><span class="${cls(b.equity - b.hwm)}">dd ${pct(b.dd, 1)}</span></div>
+      <div class="muted" style="font-size:12px">gross ${pct(b.gross / Math.max(b.equity, 1), 0)} ${b.enabled ? '' : '· <b class="down">switched off</b>'}</div>
+      <p>${esc(b.description)}</p></div>`).join('');
+  $('#pos').innerHTML = '<tr><th>Book</th><th>Coin</th><th>Side</th><th class="n">Notional</th><th class="n">Entry</th><th class="n">Mark</th><th class="n">Return</th><th class="n">Unreal. P&L</th><th>Since</th><th>Exit plan</th></tr>' +
+    (s.positions.map(p => `<tr><td>${p.book}</td><td><b>${p.sym}</b></td><td class="${p.qty > 0 ? 'up' : 'down'}">${p.qty > 0 ? 'long' : 'short'}</td>
+      <td class="n">${usd(Math.abs(p.notional))}</td><td class="n">${(+p.entry_px).toPrecision(6)}</td><td class="n">${(+p.px).toPrecision(6)}</td>
+      <td class="n ${cls(p.ret)}">${pct(p.ret)}</td><td class="n ${cls(p.upnl)}">${usd(p.upnl, 2)}</td><td>${ago(p.entry_ts)}</td>
+      <td class="muted">${p.exit_after ? 'exit ' + loc(p.exit_after) + ', stop ' + (+p.stop_px).toPrecision(5) : 'weekly rebalance'}</td></tr>`).join('') || '<tr><td colspan="10" class="muted">No open positions</td></tr>');
+  const series = {};
+  eq.forEach(r => (series[r.book] ||= []).push({x: new Date(r.ts), y: r.equity}));
+  const ds = Object.entries(series).map(([b, pts]) => ({label: b, data: pts, borderColor: COLORS[b] || '#888', backgroundColor: COLORS[b] || '#888',
+    borderWidth: b === 'total' ? 2.5 : 1.5, pointRadius: 0, tension: .2, yAxisID: b === 'total' ? 'y' : 'y1'}));
+  const grid = css('--line'), tc = css('--muted');
+  const opt = {responsive: true, maintainAspectRatio: false, interaction: {mode: 'index', intersect: false}, animation: false,
+    plugins: {legend: {labels: {color: tc, boxWidth: 12}}, tooltip: {callbacks: {label: c => `${c.dataset.label}: ${usd(c.parsed.y)}`}}},
+    scales: {x: {type: 'linear', ticks: {color: tc, callback: v => new Date(v).toLocaleDateString([], {month:'short', day:'numeric'}), maxTicksLimit: 7}, grid: {color: grid}},
+             y: {position: 'left', ticks: {color: tc, callback: v => usd(v)}, grid: {color: grid}, title: {display: true, text: 'total', color: tc}},
+             y1: {position: 'right', ticks: {color: tc, callback: v => usd(v)}, grid: {display: false}, title: {display: true, text: 'books', color: tc}}}};
+  ds.forEach(d => d.data = d.data.map(p => ({x: +p.x, y: p.y})));
+  if (eqChart) { eqChart.data.datasets = ds; eqChart.update(); } else eqChart = new Chart($('#eq'), {type: 'line', data: {datasets: ds}, options: opt});
+}
+
+async function trades() {
+  const b = $('#tbook').value;
+  const t = await get('/api/kraken/trades?limit=300' + (b ? '&book=' + b : ''));
+  if ($('#tbook').options.length < 2) ['trend_alt','lowrisk','policy','events'].forEach(x => $('#tbook').add(new Option(x, x)));
+  $('#ttbl').innerHTML = '<tr><th>Time</th><th>Book</th><th>Coin</th><th>Side</th><th class="n">Qty</th><th class="n">Price</th><th class="n">Notional</th><th class="n">Fee</th><th class="n">Realised P&L</th><th>Reason</th></tr>' +
+    (t.map(r => `<tr><td>${loc(r.ts)}</td><td>${r.book}</td><td><b>${r.sym}</b></td><td class="${r.side === 'buy' ? 'up' : 'down'}">${r.side}</td>
+      <td class="n">${(+r.qty).toPrecision(5)}</td><td class="n">${(+r.px).toPrecision(6)}</td><td class="n">${usd(r.notional)}</td><td class="n">${usd(r.fee, 2)}</td>
+      <td class="n ${cls(r.pnl)}">${usd(r.pnl, 2)}</td><td class="muted">${esc(r.reason)}</td></tr>`).join('') || '<tr><td colspan="10" class="muted">No trades yet</td></tr>');
+}
+
+async function decisions() {
+  const k = $('#dkind').value;
+  const d = await get('/api/kraken/decisions?limit=80' + (k ? '&kind=' + k : ''));
+  $('#dlist').innerHTML = d.map(x => `<div class="dec ${x.kind}"><div class="meta">${loc(x.ts)} · ${x.book} · ${x.kind.replace('_', ' ')}</div>
+    <b>${esc(x.summary)}</b><div class="why">${esc(x.reasoning)}</div>
+    ${x.targets || x.inputs ? `<details><summary>inputs and targets</summary><pre>${esc(JSON.stringify({targets: x.targets, inputs: x.inputs}, null, 1))}</pre></details>` : ''}</div>`).join('') || '<p class="muted">No decisions yet.</p>';
+}
+
+async function news() {
+  NEWS = await get('/api/kraken/news?limit=400&min_impact=' + $('#nimp').value);
+  renderNews();
+}
+function renderNews() {
+  const q = $('#nq').value.toLowerCase();
+  const rows = NEWS.filter(n => !q || (n.title + ' ' + n.source + ' ' + (n.assets || []).join(' ')).toLowerCase().includes(q));
+  $('#ntbl').innerHTML = '<tr><th>Seen</th><th>Imp.</th><th>Source</th><th>Headline</th><th>Assets</th><th>Haiku read</th></tr>' +
+    rows.map(n => `<tr><td style="white-space:nowrap">${loc(n.seen)}<div class="muted" style="font-size:11px">${n.published ? 'lag ' + Math.max(0, Math.round((new Date(n.seen) - new Date(n.published)) / 1000)) + 's' : ''}</div></td>
+      <td><span class="imp i${n.impact || 0}">${n.impact ?? '·'}</span></td><td class="muted">${esc(n.source)}</td>
+      <td><a class="t" href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}</a></td>
+      <td>${esc((n.assets || []).join(', '))}</td>
+      <td class="muted">${n.direction && n.direction !== 'none' ? `<b class="${n.direction === 'long' ? 'up' : 'down'}">${n.direction}</b> ` : ''}${esc(n.category || '')}${n.reason ? ': ' + esc(n.reason) : ''}</td></tr>`).join('');
+}
+$('#nq').oninput = renderNews; $('#nimp').onchange = news; $('#tbook').onchange = trades; $('#dkind').onchange = decisions;
+
+async function learning() {
+  const L = await get('/api/kraken/learning');
+  const p = L.params || {};
+  $('#lkpis').innerHTML = [
+    ['Event size multiplier', (p.event_size_mult ?? 1).toFixed(2), 'bounded 0.5 to 1.5'],
+    ['Min. news impact', p.min_impact ?? 4, 'to consider a trade'],
+    ['Min. confidence', (p.min_confidence ?? .6).toFixed(2), 'of the Haiku triage'],
+    ['Active lessons', L.lessons.filter(l => l.active).length, `${L.lessons.length} total`],
+  ].map(([l, v, s]) => `<div class="card kpi"><div class="l">${l}</div><div class="v">${v}</div><div class="s">${s}</div></div>`).join('');
+  $('#ltbl').innerHTML = '<tr><th>When</th><th>From</th><th>Lesson</th><th>Evidence</th><th>Status</th></tr>' +
+    (L.lessons.map(l => `<tr><td style="white-space:nowrap">${loc(l.ts)}</td><td class="muted">${esc(l.source)}</td><td>${esc(l.text)}</td>
+      <td class="muted">${esc(l.evidence?.note || (l.evidence ? JSON.stringify(l.evidence) : ''))}</td><td>${l.active ? 'active' : '<span class="muted">retired</span>'}</td></tr>`).join('') ||
+      '<tr><td colspan="5" class="muted">No lessons yet. The daily self-review writes them after it has trades to look at.</td></tr>');
+  $('#etbl').innerHTML = '<tr><th>Event type</th><th class="n">Trades</th><th class="n">Win rate</th><th class="n">Mean net return</th><th>Status</th></tr>' +
+    (L.event_stats.map(e => `<tr><td>${esc(e.etype)}</td><td class="n">${e.n}</td><td class="n">${e.n ? pct(e.wins / e.n, 0) : '–'}</td>
+      <td class="n ${cls(e.sum_ret)}">${e.n ? pct(e.sum_ret / e.n) : '–'}</td><td>${e.enabled ? 'on' : '<b class="down">off</b>'}</td></tr>`).join('') ||
+      '<tr><td colspan="5" class="muted">No closed event trades yet.</td></tr>');
+  const m = L.models.filter(x => x.model === 'policy');
+  if (m.length) {
+    const keys = Object.keys(m[0].params);
+    const ds = m.slice(0, 4).reverse().map((x, i, a) => ({label: new Date(x.ts).toLocaleDateString(), data: keys.map(k => x.params[k]),
+      backgroundColor: `rgba(37,99,235,${0.25 + 0.75 * (i + 1) / a.length})`}));
+    const tc = css('--muted');
+    const opt = {responsive: true, maintainAspectRatio: false, animation: false, plugins: {legend: {labels: {color: tc}}},
+      scales: {x: {ticks: {color: tc}, grid: {display: false}}, y: {ticks: {color: tc}, grid: {color: css('--line')}}}};
+    if (thChart) { thChart.data = {labels: keys, datasets: ds}; thChart.update(); } else thChart = new Chart($('#theta'), {type: 'bar', data: {labels: keys, datasets: ds}, options: opt});
+    const mt = m[0].metrics || {};
+    $('#thetanote').textContent = `Fit on ${mt.n_weeks} non-overlapping weeks (${mt.start} to ${mt.end}); in-sample Sharpe ${(+mt.insample_sharpe).toFixed(2)} (out-of-sample in research: median 0.51).` +
+      (mt.drift_vs_last != null ? ` Change vs last week: ${(mt.drift_vs_last * 100).toFixed(1)}%.` : '') + ' Weights are blended 50/50 with last week.';
+  }
+  $('#rtbl').innerHTML = '<tr><th>When</th><th>Job</th><th>OK</th><th class="n">ms</th><th>Detail</th></tr>' +
+    L.runs.map(r => `<tr><td style="white-space:nowrap">${loc(r.ts)}</td><td>${r.job}</td><td class="${r.ok ? 'up' : 'down'}">${r.ok ? 'yes' : 'no'}</td><td class="n">${r.ms}</td>
+      <td><details><summary>${esc((r.detail || '').slice(0, 90))}</summary><pre>${esc(r.detail)}</pre></details></td></tr>`).join('');
+}
+
+async function load() {
+  try { await ({overview, trades, decisions, news, learning})[tab](); }
+  catch (e) { $('#status').textContent = 'could not load: ' + e; }
+}
+try { const t = localStorage.getItem('ktab'); if (t) document.querySelector(`#tabs button[data-t="${t}"]`)?.click(); } catch (e) {}
+load(); setInterval(load, 60000);
+</script>
+</body>
+</html>
