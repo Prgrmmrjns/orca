@@ -312,3 +312,26 @@ Both years are positive for every mix, but not every quarter: 2026Q2 and 2026Q4 
 Block-bootstrap Sharpe 90% CI for the 50/50 mix: year A -0.5..2.9, year B -1.7..2.3 (P(Sharpe>0) 0.65 in B).
 Honest read: positive, beats BTC by a wide margin with a third of its drawdown, but the edge in year B is not statistically
 distinguishable from zero. Files: `combined_2y.csv`, `combined_2y_quarterly.csv`, `sleeve_returns_2y.csv.gz`.
+
+## 13. Adding stocks (xStocks / equity perps), last 2 years (2026-11-26)
+
+Kraken's equity perps launched Feb-Sep 2026 and xStocks spot in mid-2025, so the 2-year test uses the underlying US
+close as the price (xStocks track it 1:1). Universe: 28 names Kraken lists (14 with perps: SPY QQQ GLD TSLA NVDA MSTR
+HOOD GOOGL AAPL AMZN COIN META MU INTC; 14 xStocks only: MSFT AVGO AMD PLTR NFLX JPM ORCL LLY V COST WMT XOM UNH SLV).
+Costs: perp 0.05% fee + 0.05% slippage per side, longs pay 5%/yr funding (assumed; no history yet). xStocks spot:
+0.08% fee + 0.05% slippage, no funding, long only. Code: `kagent/stocks_data.py`, `kagent/stocks_eval.py`.
+
+| Sleeve / mix | A ann | A Sharpe | A maxDD | B ann | B Sharpe | B maxDD |
+|---|---|---|---|---|---|---|
+| Stock trend (SPY-gated SMA, 15% vol target), perps | +13.2% | 1.57 | -4.1% | +4.4% | 0.57 | -5.2% |
+| Same, on xStocks spot (no funding) | +15.5% | 1.81 | -4.0% | +6.8% | 0.86 | -5.0% |
+| Stock low-risk L/S, 28 names | -0.9% | -0.10 | -5.7% | +3.8% | 0.46 | -7.7% |
+| Stock low-risk L/S, 14 perp names only | -13.1% | -1.75 | -16.1% | -2.2% | -0.18 | -12.2% |
+| Coins only (section 12) | +20.7% | 1.17 | -10.3% | +5.6% | 0.46 | -15.8% |
+| **Coins + stock trend (3 equal sleeves)** | **+18.5%** | **1.44** | **-7.2%** | **+5.5%** | **0.57** | **-11.6%** |
+| Coins + stock trend + stock low-risk (4 equal) | +13.6% | 1.44 | -5.1% | +5.3% | 0.71 | -8.7% |
+| SPY buy & hold | +14.3% | 0.78 | -18.8% | +7.3% | 0.55 | -11.5% |
+
+Stock trend is only 0.2 correlated with the coin book, so adding it keeps return and cuts drawdown by about a quarter.
+The low-risk effect that works in coins does not work in stocks here (negative on the shortable perp names), so it is dropped.
+Caveat: the stock list is what Kraken lists *today*, which favours past winners (PLTR, HOOD, MSTR); that flatters the trend sleeve.
