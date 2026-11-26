@@ -5,7 +5,7 @@
   "strategy_title": "Agent (Chewbacca)",
   "kind": "agent",
   "base_currency": "EUR",
-  "note": "Paper only. Forward test book `agent` since 2026-11-10. No broker API. Discretionary agentic book. Cursor agent decides via stocks.decide from shared candidates. Baseline \u2014 not auto-traded by the engine.",
+  "note": "DEPRECATED mirror of books/agent/ledger.json \u2014 use books/agent/",
   "rules": "Discretionary agentic book. Cursor agent decides via stocks.decide from shared candidates. Baseline \u2014 not auto-traded by the engine.",
   "start_date": "2026-11-10",
   "start_capital_eur": 1000.0,

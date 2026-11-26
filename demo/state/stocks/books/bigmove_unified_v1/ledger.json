@@ -47,7 +47,7 @@
       ],
       "decision_id": "bigmove_unified_v1-SNEX-2026-11-19T23:47:23Z-be8464",
       "book_id": "bigmove_unified_v1",
-      "mark_usd": 36.22999954223633,
+      "mark_usd": 36.23,
       "mark_eur": 33.0164,
       "unrealized_pnl_pct": -7.1264
     },
@@ -85,7 +85,7 @@
       ],
       "decision_id": "bigmove_unified_v1-INTU-2026-11-20T23:03:14Z-a46497",
       "book_id": "bigmove_unified_v1",
-      "mark_usd": 271.7200012207031,
+      "mark_usd": 271.72,
       "mark_eur": 247.5913,
       "unrealized_pnl_pct": -0.1029
     },
@@ -123,12 +123,117 @@
       ],
       "decision_id": "bigmove_unified_v1-HSBC-2026-11-21T03:55:51Z-95302b",
       "book_id": "bigmove_unified_v1",
-      "mark_usd": 81.80999755859375,
+      "mark_usd": 81.81,
       "mark_eur": 74.9952,
       "unrealized_pnl_pct": 1.8335
     }
   },
-  "pending": [],
+  "pending": [
+    {
+      "id": "bigmove_unified_v1-NTNX-2026-11-26T02:09:26Z-4b13aa",
+      "ticker": "NTNX",
+      "side": "long",
+      "size": 0.05,
+      "hold_days": 5,
+      "stop_loss": null,
+      "take_profit": null,
+      "trailing_stop": null,
+      "exit_at_close": false,
+      "delay_minutes": 0,
+      "rule_name": "capitulation_fade_long",
+      "reason": "[bigmove_unified_v1/capitulation_fade_long] event=no_news_found surprise=None gap=-18.3879 guidance=None headline=NTNX move -18.4% no news found \u2192 long 5d",
+      "confidence": 1.0,
+      "rule_tags": [
+        "bigmove_unified_v1",
+        "capitulation_fade_long",
+        "bigmove",
+        "no_news_found",
+        "bigmove_unified_v1"
+      ],
+      "prefer_open": false,
+      "decided_at": "2026-11-26T02:09:26Z",
+      "status": "pending",
+      "book_id": "bigmove_unified_v1"
+    },
+    {
+      "id": "bigmove_unified_v1-SHOE-2026-11-26T02:09:26Z-42bffd",
+      "ticker": "SHOE",
+      "side": "long",
+      "size": 0.05,
+      "hold_days": 5,
+      "stop_loss": null,
+      "take_profit": null,
+      "trailing_stop": null,
+      "exit_at_close": false,
+      "delay_minutes": 0,
+      "rule_name": "capitulation_fade_long",
+      "reason": "[bigmove_unified_v1/capitulation_fade_long] event=no_news_found surprise=None gap=-21.0007 guidance=None headline=SHOE move -21.0% no news found \u2192 long 5d",
+      "confidence": 1.0,
+      "rule_tags": [
+        "bigmove_unified_v1",
+        "capitulation_fade_long",
+        "bigmove",
+        "no_news_found",
+        "bigmove_unified_v1"
+      ],
+      "prefer_open": false,
+      "decided_at": "2026-11-26T02:09:26Z",
+      "status": "pending",
+      "book_id": "bigmove_unified_v1"
+    },
+    {
+      "id": "bigmove_unified_v1-AMBA-2026-11-26T02:09:26Z-6d4f49",
+      "ticker": "AMBA",
+      "side": "long",
+      "size": 0.05,
+      "hold_days": 5,
+      "stop_loss": null,
+      "take_profit": null,
+      "trailing_stop": null,
+      "exit_at_close": false,
+      "delay_minutes": 0,
+      "rule_name": "capitulation_fade_long",
+      "reason": "[bigmove_unified_v1/capitulation_fade_long] event=no_news_found surprise=None gap=-35.3978 guidance=None headline=AMBA move -35.4% no news found \u2192 long 5d",
+      "confidence": 1.0,
+      "rule_tags": [
+        "bigmove_unified_v1",
+        "capitulation_fade_long",
+        "bigmove",
+        "no_news_found",
+        "bigmove_unified_v1"
+      ],
+      "prefer_open": false,
+      "decided_at": "2026-11-26T02:09:26Z",
+      "status": "pending",
+      "book_id": "bigmove_unified_v1"
+    },
+    {
+      "id": "bigmove_unified_v1-DY-2026-11-26T02:09:26Z-23524f",
+      "ticker": "DY",
+      "side": "long",
+      "size": 0.05,
+      "hold_days": 5,
+      "stop_loss": null,
+      "take_profit": null,
+      "trailing_stop": null,
+      "exit_at_close": false,
+      "delay_minutes": 0,
+      "rule_name": "capitulation_fade_long",
+      "reason": "[bigmove_unified_v1/capitulation_fade_long] event=no_news_found surprise=None gap=-17.3128 guidance=None headline=DY move -17.3% no news found \u2192 long 5d",
+      "confidence": 1.0,
+      "rule_tags": [
+        "bigmove_unified_v1",
+        "capitulation_fade_long",
+        "bigmove",
+        "no_news_found",
+        "bigmove_unified_v1"
+      ],
+      "prefer_open": false,
+      "decided_at": "2026-11-26T02:09:26Z",
+      "status": "pending",
+      "book_id": "bigmove_unified_v1"
+    }
+  ],
   "closed_trades": [
     {
       "ticker": "SPGI",
@@ -255,7 +360,7 @@
     {
       "day": "2026-11-25",
       "equity_eur": 990.83,
-      "spy_eur": 976.97,
+      "spy_eur": 986.1,
       "cash_eur": 943.71,
       "n_open": 3
     }
@@ -326,12 +431,6 @@
       "spy_eur": 986.1,
       "spy_usd": 718.78,
       "eur_usd": 1.09081
-    },
-    {
-      "day": "2026-11-25",
-      "spy_eur": 976.97,
-      "spy_usd": 716.7,
-      "eur_usd": 1.09782
     }
   ],
   "cost_pct": 0.005,
@@ -342,8 +441,8 @@
   "stop_loss": null,
   "prefer_open": false,
   "max_open": 20,
-  "last_run": "2026-11-25T22:14:05Z",
-  "last_reason": "engine[bigmove_unified_v1]: auto=0 ingested=0 fills=0 closed=0 open=3 session=after",
+  "last_run": "2026-11-26T02:09:29Z",
+  "last_reason": "engine[bigmove_unified_v1]: auto=4 ingested=4 fills=0 closed=0 open=3 session=closed",
   "extended_hours_extra_slippage_pct": 0.005,
   "allow_extended_hours": true,
   "max_per_ticker": 1,
@@ -353,5 +452,5 @@
   "sizing": "fixed",
   "score_ref": 10.0,
   "strategy_config_path": "config/strategies/bigmove_unified_v1.yaml",
-  "eur_usd": 1.0978153944015503
+  "eur_usd": 1.0970927476882935
 }
