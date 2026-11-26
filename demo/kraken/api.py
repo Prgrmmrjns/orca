@@ -5,7 +5,7 @@ import os
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
-from fastapi import APIRouter, Header, HTTPException, Query
+from fastapi import APIRouter, Body, Header, HTTPException, Query
 from fastapi.responses import FileResponse, JSONResponse
 
 from . import db
@@ -93,6 +93,14 @@ def summary():
 def equity(days: int = Query(30, le=365)):
     since = (datetime.now(timezone.utc) - timedelta(days=days)).isoformat()
     return _ok(db.select("equity", {"ts": f"gte.{since}", "order": "ts", "select": "ts,book,equity"}))
+
+
+@router.post("/api/kraken/lab")
+def lab_run(body: dict = Body(...), authorization: str | None = Header(None)):
+    _auth(authorization)
+    from . import lab
+    return lab.run(body["model"], body["system"], body["users"], body["schema"], body.get("max_tokens", 4000),
+                   body.get("effort", "low"), body.get("workers", 16))
 
 
 @router.get("/api/kraken/exposure")
