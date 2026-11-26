@@ -147,7 +147,7 @@ BOOKS: list[BookSpec] = [
         title="Agent (Chewbacca)",
         kind="agent",
         description=(
-            "Discretionary agentic book. Cursor agent decides via stocks.decide from "
+            "Discretionary agentic book. Deciding agent writes via stocks.decide from "
             "shared candidates. Baseline — not auto-traded by the engine."
         ),
         size=0.08,

@@ -8,7 +8,7 @@
 
 | Book | Trader | Rule |
 | --- | --- | --- |
-| `agent` | Cursor agent (`stocks.decide`) | Discretionary baseline (earnings + news) |
+| `agent` | Deciding agent (`stocks.decide`) | Discretionary baseline (earnings + news) |
 | `bigbeat_gap` | Engine | surprise >15%, gap >5%, SPY>MA50 · 10% · max 8 · hold 3 · no stop |
 | `guidance_beat` | Engine | raised guidance + surprise >8%, release out · 10% · max 8 · hold 5 |
 | `beat5_raise` | Engine | surprise >5% + raised outlook · 10% · max 8 · hold 5 |

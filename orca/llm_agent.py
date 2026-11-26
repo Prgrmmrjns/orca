@@ -1,18 +1,13 @@
-"""Cursor SDK agent that picks paper weights from ML scores and news."""
+"""Prompt building and decision parsing for the paper LLM book (no LLM client)."""
 
 from __future__ import annotations
 
 import json
-import os
 import re
-import tempfile
 from pathlib import Path
 from typing import Any
 
 import pandas as pd
-from cursor_sdk import Agent, ModelParameterValue, ModelSelection
-from cursor_sdk import Cursor
-from cursor_sdk import CursorAgentError
 
 from orca.news import mentioned_bases
 from orca.logging_setup import setup_logging
@@ -34,39 +29,6 @@ How to choose:
 - Reply with JSON only. No markdown.
 {"reasoning": "a few sentences on the leader, your memory, and why this book", "weights": {"SOL/USD": 0.7}, "orders": [{"pair": "SOL/USD", "side": "buy", "below": 140.0, "weight": 0.15}, {"pair": "DASH/USD", "side": "sell", "below": 28.0}], "reason": "one line"}
 """
-
-
-def resolve_grok_medium(api_key: str) -> ModelSelection:
-    """Pick Grok 4.7 Medium from the account catalog."""
-    models = Cursor.models.list(api_key=api_key)
-    grok = None
-    for model in models:
-        mid = getattr(model, "id", None) or (model.get("id") if isinstance(model, dict) else None)
-        if mid == "grok-4.7":
-            grok = model
-            break
-    if grok is None:
-        available = []
-        for model in models:
-            mid = getattr(model, "id", "") or ""
-            if "grok" in str(mid).lower():
-                available.append(str(mid))
-        raise SystemExit(
-            "Grok 4.7 not in Cursor.models.list(). Available Grok ids: "
-            + (", ".join(available) if available else "(none)")
-        )
-    variants = list(getattr(grok, "variants", ()) or [])
-    medium = None
-    for variant in variants:
-        params = {p.id: p.value for p in getattr(variant, "params", ())}
-        name = (getattr(variant, "display_name", "") or "").lower()
-        if params.get("reasoning_effort") == "medium" and params.get("fast") != "true":
-            medium = variant
-            if "medium" in name and "fast" not in name:
-                break
-    if medium is None:
-        raise SystemExit("Grok 4.7 Medium preset missing from the catalog")
-    return ModelSelection(id="grok-4.7", params=tuple(medium.params))
 
 
 def _extract_json(text: str) -> dict[str, Any]:
@@ -363,68 +325,3 @@ def build_prompt(
         + json.dumps(payload, ensure_ascii=True)
         + "\nReturn the JSON decision now."
     )
-
-
-def decide_weights(
-    *,
-    api_key: str,
-    model: ModelSelection,
-    prompt: str,
-    pairs: list[str] | tuple[str, ...],
-    cwd: Path | None = None,
-) -> dict[str, Any]:
-    """One-shot Cursor agent call. Weights, resting orders, reasoning, raw text."""
-    work = Path(cwd) if cwd else Path(tempfile.mkdtemp(prefix="orca-llm-"))
-    work.mkdir(parents=True, exist_ok=True)
-    last_err: Exception | None = None
-    raw = ""
-    for attempt in range(2):
-        try:
-            result = Agent.prompt(
-                prompt if attempt == 0 else prompt + "\nPrevious reply was invalid. JSON only.",
-                {
-                    "api_key": api_key,
-                    "model": model,
-                    "local": {"cwd": str(work), "setting_sources": []},
-                },
-            )
-            if result.status != "finished":
-                raise RuntimeError(f"run status {result.status}")
-            raw = str(result.result or "")
-            if "tool_call" in raw.lower() and "weights" not in raw:
-                raise ValueError("tool call in reply")
-            weights, orders, reason, reasoning = parse_decision(_extract_json(raw), pairs)
-            return {
-                "weights": weights,
-                "orders": orders,
-                "reason": reason,
-                "reasoning": reasoning,
-                "raw": raw,
-            }
-        except CursorAgentError as exc:
-            last_err = exc
-            logger.warning("Cursor agent startup failed (attempt %d): %s", attempt + 1, exc)
-        except Exception as exc:  # noqa: BLE001 — retry once on bad JSON
-            last_err = exc
-            logger.warning("Bad agent reply (attempt %d): %s", attempt + 1, exc)
-    raise RuntimeError(f"agent decision failed: {last_err}")
-
-
-def load_api_key() -> str:
-    key = os.environ.get("CURSOR_API_KEY", "").strip()
-    if key:
-        return key
-    env_path = Path(__file__).resolve().parents[1] / ".env"
-    if env_path.exists():
-        try:
-            from dotenv import dotenv_values
-
-            key = (dotenv_values(env_path).get("CURSOR_API_KEY") or "").strip()
-        except Exception:  # noqa: BLE001
-            key = ""
-            for line in env_path.read_text(encoding="utf-8").splitlines():
-                if line.startswith("CURSOR_API_KEY="):
-                    key = line.split("=", 1)[1].strip().strip('"').strip("'")
-        if key:
-            return key
-    raise SystemExit("CURSOR_API_KEY missing. Add it to the environment or .env")

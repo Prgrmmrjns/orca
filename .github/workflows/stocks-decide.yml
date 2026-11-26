@@ -1,7 +1,7 @@
 name: stocks-decide
 
 # Manual / future Chewbacca trigger. Decisions are normally written by the
-# Cursor cloud agent using `python -m stocks.decide` (see AGENT.md).
+# deciding agent using `python -m stocks.decide` (see AGENT.md).
 on:
   workflow_dispatch:
     inputs:

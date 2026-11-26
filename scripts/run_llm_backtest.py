@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Daily paper backtest. One LLM decision a day, ML and headlines built once."""
+"""Daily paper backtest. Replays saved LLM decisions from logs/llm_agent checkpoints."""
 
 from __future__ import annotations
 
@@ -19,13 +19,8 @@ from orca.action_model import build_books  # noqa: E402
 from orca.config import load_config  # noqa: E402
 from orca.data import fetch_binance_hourly, fetch_ohlcv, load_ohlcv, save_ohlcv  # noqa: E402
 from orca.llm_agent import (  # noqa: E402
-    build_prompt,
-    decide_weights,
     headlines_before,
-    load_api_key,
     ml_snapshot,
-    resolve_grok_medium,
-    stabilize_weights,
     stamp_held,
 )
 from orca.logging_setup import setup_logging  # noqa: E402
@@ -156,31 +151,6 @@ def write_outputs(
     REPORT_PATH.write_text(json.dumps(meta, indent=2), encoding="utf-8")
 
 
-def clean_orders(
-    orders: list[dict[str, Any]],
-    held: dict[str, float],
-    marks: dict[str, float],
-    *,
-    max_names: int = 2,
-) -> list[dict[str, Any]]:
-    """Drop levels far from the mark, sells of coins we don't hold, and extra names."""
-    out: list[dict[str, Any]] = []
-    held_n = sum(1 for weight in held.values() if weight > 0)
-    for order in orders:
-        pair = order["pair"]
-        mark = marks.get(pair)
-        if not mark or order["below"] <= 0:
-            continue
-        if abs(order["below"] / mark - 1.0) > 0.15:
-            continue
-        if order["side"] == "sell" and held.get(pair, 0.0) <= 0:
-            continue
-        if order["side"] == "buy" and held.get(pair, 0.0) <= 0 and held_n >= max_names:
-            continue
-        out.append(order)
-    return out[:4]
-
-
 def trigger_price(open_: float | None, low: float | None, high: float | None, below: float) -> float | None:
     """Fill a resting 'at or below' order if this bar traded there."""
     if open_ is None or low is None or low > below:
@@ -239,33 +209,10 @@ def apply_resting(
     return fills, still
 
 
-def entry_stats(
-    port: MultiPaperPortfolio,
-    marks: dict[str, float],
-    entry_px: dict[str, float],
-    opened_at: dict[str, pd.Timestamp],
-    now: pd.Timestamp,
-) -> dict[str, Any]:
-    out: dict[str, Any] = {}
-    for pair, amount in port.base.items():
-        if amount <= 0 or pair not in marks or pair not in entry_px or entry_px[pair] <= 0:
-            continue
-        since = opened_at.get(pair)
-        out[pair] = {
-            "pnl": round(marks[pair] / entry_px[pair] - 1.0, 4),
-            "days": int((now - since).total_seconds() // 86400) if since is not None else 0,
-        }
-    return out
-
-
 def main() -> int:
     cfg = load_config()
     if cfg.get("mode") != "paper":
         raise SystemExit("Refusing to run: config mode is not paper")
-
-    api_key = load_api_key()
-    model_sel = resolve_grok_medium(api_key)
-    logger.info("Model %s", model_sel.to_json())
 
     action_cfg = cfg.get("action") or {}
     pairs = list(cfg.get("pairs") or DEFAULT_PAIRS)
@@ -384,7 +331,6 @@ def main() -> int:
     entry_px: dict[str, float] = {}
     targets: dict[str, float] = {}
     orders: list[dict[str, Any]] = []
-    memory: list[dict[str, Any]] = []
     reason = ""
     reasoning = ""
 
@@ -398,7 +344,7 @@ def main() -> int:
                 mdd = min(mdd, eq / peak - 1.0)
         return {
             "generated_at": datetime.now(ZoneInfo("Europe/Berlin")).isoformat(timespec="seconds"),
-            "model": model_sel.to_json(),
+            "model": "replay",
             "test_start": str(calendar[start_i]),
             "test_end": str(end_ts),
             "hours_done": hours_done,
@@ -459,52 +405,12 @@ def main() -> int:
                 ml_rows = list(ck.get("ml") or ml_rows)
                 heads = list(ck.get("headlines") or heads)
             else:
-                prompt = build_prompt(
-                    hour=ts,
-                    cash=port.cash,
-                    equity=port.equity(marks_open),
-                    weights=held,
-                    closes=marks_open,
-                    ml_rows=ml_rows,
-                    headlines=heads,
-                    start_eur=budget_eur,
-                    eur_usd=eur_usd,
-                    pairs=pairs,
-                    memory=memory,
-                    since_entry=entry_stats(port, marks_open, entry_px, opened_at, ts),
-                )
-                try:
-                    decision = decide_weights(
-                        api_key=api_key,
-                        model=model_sel,
-                        prompt=prompt,
-                        pairs=pairs,
-                    )
-                    targets = stabilize_weights(decision["weights"], held, opened_at, ts, max_names=2)
-                    orders = clean_orders(decision["orders"], targets, marks_open)
-                    reason = decision["reason"]
-                    reasoning = decision["reasoning"]
-                    raw = decision["raw"]
-                except Exception as exc:  # noqa: BLE001 — leave book unchanged
-                    logger.warning("Day %s keep unchanged: %s", ts, exc)
-                    targets = held
-                    orders = []
-                    reason = f"unchanged after error: {exc}"
-                    reasoning = reason
-                    raw = ""
-                save_checkpoint(
-                    ts,
-                    {
-                        "timestamp": str(ts),
-                        "weights": targets,
-                        "orders": orders,
-                        "reason": reason,
-                        "reasoning": reasoning,
-                        "ml": ml_rows,
-                        "headlines": heads,
-                        "raw": raw,
-                    },
-                )
+                # No LLM client is wired in. Replay saved decisions only.
+                logger.warning("Day %s has no saved decision; book unchanged", ts)
+                targets = held
+                orders = []
+                reason = "no saved decision"
+                reasoning = reason
             before_amt = {pair: amount for pair, amount in port.base.items()}
             fills = port.apply_target_weights(ts, marks_open, targets)
             for pair, amount in port.base.items():
@@ -545,16 +451,6 @@ def main() -> int:
                     "equity": equity,
                 }
             )
-            memory.append(
-                {
-                    "day": ts.strftime("%Y-%m-%d %H:%M"),
-                    "weights": weights_out,
-                    "orders": orders,
-                    "reason": reason,
-                    "equity_eur": round(equity / eur_usd, 2),
-                }
-            )
-            memory = memory[-8:]
         hours_done += 1
         if decide_now or fills:
             write_outputs(
