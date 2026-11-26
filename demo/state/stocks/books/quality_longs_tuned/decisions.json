@@ -427,7 +427,38 @@
         "decision_id": "quality_longs_tuned-CII-2026-11-24T22:57:04Z-516c80",
         "book_id": "quality_longs_tuned"
       }
+    },
+    {
+      "id": "quality_longs_tuned-CCG-2026-11-26T10:41:39Z-daef13",
+      "book_id": "quality_longs_tuned",
+      "ticker": "CCG",
+      "side": "long",
+      "size": 0.05,
+      "hold": 5,
+      "reason": "[quality_longs_tuned/quality_longs] event=mna_deal surprise=None gap=None guidance=none headline=Cheche Group Signs Definitive Agreement to Acquire 20% Interest in Residential S \u2192 long 5d",
+      "confidence": 1.0,
+      "stop_loss": null,
+      "take_profit": null,
+      "trailing_stop": null,
+      "exit_at_close": false,
+      "delay_minutes": 0,
+      "rule_name": "quality_longs",
+      "rule_tags": [
+        "quality_longs_tuned",
+        "quality_longs",
+        "news_event",
+        "mna_deal"
+      ],
+      "surprise_pct": null,
+      "gap_pct": null,
+      "guidance": "none",
+      "news_event_type": "mna_deal",
+      "news_id": "4ff0d483688c02f6",
+      "agent": "rule:quality_longs_tuned",
+      "prefer_open": true,
+      "decided_at": "2026-11-26T10:41:39Z",
+      "status": "pending"
     }
   ],
-  "updated_at": "2026-11-24T22:57:04Z"
+  "updated_at": "2026-11-26T10:41:39Z"
 }

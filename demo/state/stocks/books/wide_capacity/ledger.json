@@ -230,6 +230,31 @@
       "decided_at": "2026-11-24T22:57:10Z",
       "status": "pending",
       "book_id": "wide_capacity"
+    },
+    {
+      "id": "wide_capacity-CCG-2026-11-26T10:41:45Z-b78e7d",
+      "ticker": "CCG",
+      "side": "long",
+      "size": 0.05,
+      "hold_days": 2,
+      "stop_loss": null,
+      "take_profit": null,
+      "trailing_stop": null,
+      "exit_at_close": false,
+      "delay_minutes": 0,
+      "rule_name": "quality_longs",
+      "reason": "[wide_capacity/quality_longs] event=mna_deal surprise=None gap=None guidance=none headline=Cheche Group Signs Definitive Agreement to Acquire 20% Interest in Residential S \u2192 long 2d",
+      "confidence": 1.0,
+      "rule_tags": [
+        "wide_capacity",
+        "quality_longs",
+        "news_event",
+        "mna_deal"
+      ],
+      "prefer_open": true,
+      "decided_at": "2026-11-26T10:41:45Z",
+      "status": "pending",
+      "book_id": "wide_capacity"
     }
   ],
   "closed_trades": [
@@ -412,6 +437,13 @@
       "spy_eur": 978.39,
       "cash_eur": 848.33,
       "n_open": 3
+    },
+    {
+      "day": "2026-11-26",
+      "equity_eur": 998.61,
+      "spy_eur": 978.39,
+      "cash_eur": 848.33,
+      "n_open": 3
     }
   ],
   "spy_history": [
@@ -496,8 +528,8 @@
   "stop_loss": null,
   "prefer_open": true,
   "max_open": 15,
-  "last_run": "2026-11-26T03:37:38Z",
-  "last_reason": "engine[wide_capacity]: auto=0 ingested=0 fills=0 closed=0 open=3 session=closed",
+  "last_run": "2026-11-26T10:43:13Z",
+  "last_reason": "engine[wide_capacity]: auto=0 ingested=0 fills=0 closed=0 open=3 session=pre",
   "max_per_ticker": 1,
   "max_gross_exposure_pct": 0.75,
   "allow_shorts": false,
@@ -505,7 +537,7 @@
   "sizing": "fixed",
   "score_ref": 10.0,
   "strategy_config_path": "config/strategies/wide_capacity.yaml",
-  "eur_usd": 1.0964912176132202,
+  "eur_usd": 1.0979359149932861,
   "extended_hours_extra_slippage_pct": 0.0,
   "allow_extended_hours": false
 }
