@@ -1,11 +1,11 @@
 {
   "mode": "paper",
-  "as_of": "2026-11-26T08:21:39Z",
-  "as_of_et": "2026-11-26 00:32 ET",
+  "as_of": "2026-11-26T15:45:07Z",
+  "as_of_et": "2026-11-26 10:45 ET",
   "rolling_hours": 72,
-  "n_items": 300,
+  "n_items": 363,
   "n_actionable": 28,
-  "n_with_ticker": 103,
+  "n_with_ticker": 133,
   "sources": [
     "prnewswire",
     "prnewswire_financial",
@@ -13,13 +13,835 @@
     "cnbc_finance",
     "marketwatch",
     "marketwatch_realtime",
-    "edgar_8k",
-    "edgar_424b",
-    "edgar_sc_to"
+    "edgar_8k"
   ],
   "errors": [],
   "note": "Paper news feed. Keyword tagging is heuristic. Shorts have no borrow model. RSS/EDGAR can lag minutes\u2013hours.",
   "items": [
+    {
+      "id": "b3e23ed255cd0c4c",
+      "source": "prnewswire",
+      "title": "CDK4/6 Inhibitors Market Set for Continued Growth Through 2036, Driven by Expanding Clinical Pipelines and Increasing Adoption of Targeted Therapies | DelveInsight",
+      "summary": "DelveInsight's report assesses the CDK4/6 inhibitors market across the 7MM, with steady growth anticipated through 2036. The CDK4/6 inhibitors market growth is driven by the increasing prevalence of HR+/HER2\u2212 breast cancer, the established clinical benefits of CDK4/6 inhibitors in...",
+      "url": "https://www.prnewswire.com/news-releases/cdk46-inhibitors-market-set-for-continued-growth-through-2036-driven-by-expanding-clinical-pipelines-and-increasing-adoption-of-targeted-therapies--delveinsight-302951033.html",
+      "published_at": "2026-11-26T15:34:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:04Z"
+    },
+    {
+      "id": "163d7fe5e7b5c80b",
+      "source": "prnewswire",
+      "title": "IoT Market worth $1,004.24 billion by 2032 - Report by MarketsandMarkets\u2122",
+      "summary": "DELRAY BEACH, Fla., Nov. 26, 2026 /PRNewswire/ -- According to MarketsandMarkets\u2122, the IoT Market is projected to grow from USD 606.29 billion in 2026 to USD 1,004.24 billion by 2032, at a compound annual growth rate (CAGR) of 8.8% during the same period. Browse 300 market data Tables and...",
+      "url": "https://www.prnewswire.com/news-releases/iot-market-worth-1-004-24-billion-by-2032--report-by-marketsandmarkets-302951183.html",
+      "published_at": "2026-11-26T15:31:00Z",
+      "tickers": [
+        "CAGR"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:04Z"
+    },
+    {
+      "id": "9919f67171bde9ba",
+      "source": "marketwatch",
+      "title": "We are living in perilous times if Nvidia CEO Jensen Huang dictates your 401(k) balance",
+      "summary": "Why did a futurist with Huang\u2019s prescient vision build a company where all roads lead to him?",
+      "url": "https://www.marketwatch.com/story/we-are-living-in-perilous-times-if-nvidias-jensen-huang-dictates-your-401-k-balance-e0942d1e?mod=mw_rss_topstories",
+      "published_at": "2026-11-26T15:30:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:06Z"
+    },
+    {
+      "id": "4447d51f5c0318db",
+      "source": "prnewswire",
+      "title": "Pharmaceutical Membrane Filtration Market worth $21.65 billion by 2031 - Exclusive Report by MarketsandMarkets\u2122",
+      "summary": "DELRAY BEACH, Fla., Nov. 26, 2026 /PRNewswire/ -- According to MarketsandMarkets\u2122, the Pharmaceutical Membrane Filtration Market is projected to reach USD 21.65 billion by 2031 from USD 11.63 billion in 2026, at a CAGR of 13.2% during the forecast period. Browse 650 market data Tables and...",
+      "url": "https://www.prnewswire.com/news-releases/pharmaceutical-membrane-filtration-market-worth-21-65-billion-by-2031---exclusive-report-by-marketsandmarkets-302951164.html",
+      "published_at": "2026-11-26T15:16:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:04Z"
+    },
+    {
+      "id": "983bbd895c8742ff",
+      "source": "prnewswire",
+      "title": "Families of Babies Sickened in ByHeart Botulism Outbreak Move to Sue Founders Ron Belldegrun and Mia Funt Personally",
+      "summary": "Proposed complaints allege the sibling co-founders skipped botulism testing, kept producing through years of FDA warnings, did not investigate a 2024 report of a baby hospitalized with suspected botulism, and told parents the formula was safe as babies fell ill. BAINBRIDGE ISLAND, Wash.,...",
+      "url": "https://www.prnewswire.com/news-releases/families-of-babies-sickened-in-byheart-botulism-outbreak-move-to-sue-founders-ron-belldegrun-and-mia-funt-personally-302951042.html",
+      "published_at": "2026-11-26T15:15:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:04Z"
+    },
+    {
+      "id": "e5f170127c6d0aaa",
+      "source": "marketwatch",
+      "title": "My husband secretly sends his ex-wife $1,500 a month after she lost her job. We have $2.4 million saved. Has he lied by omission?",
+      "summary": "\u201cHe explained that he wasn\u2019t trying to hide the payment, but his former wife lost her job in a medical billing company.\u201d",
+      "url": "https://www.marketwatch.com/story/my-husband-secretly-sends-his-ex-wife-1-500-a-month-after-she-lost-her-job-we-have-2-4-million-saved-has-he-lied-by-omission-ede1972a?mod=mw_rss_topstories",
+      "published_at": "2026-11-26T15:13:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:06Z"
+    },
+    {
+      "id": "f60876ecbdd6cff5",
+      "source": "prnewswire",
+      "title": "Columbia University's Japanese Culture Center Rebuilds Website With Digital Silk to Open Three Decades of Lectures to the Public",
+      "summary": "The Donald Keene Center, a Columbia University institute, had Digital Silk rebuild its site as a mobile-friendly archive in English and Japanese. Key Takeaways The Center's history was its most persuasive material, and the old site kept most of it out of sight. Known mainly for...",
+      "url": "https://www.prnewswire.com/news-releases/columbia-universitys-japanese-culture-center-rebuilds-website-with-digital-silk-to-open-three-decades-of-lectures-to-the-public-302951221.html",
+      "published_at": "2026-11-26T15:09:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:04Z"
+    },
+    {
+      "id": "5a44d9d22cd05b56",
+      "source": "prnewswire",
+      "title": "Black Friday Cruise Deals: Up to 40% off and Kids Sail Free With MSC Cruises",
+      "summary": "MIAMI, Nov. 26, 2026 /PRNewswire/ -- MSC Cruises is offering its biggest Black Friday sale yet, giving travelers the opportunity to save on their next vacation. It covers most sailings worldwide\u2014including from Miami, Port Canaveral, Galveston and Seattle\u2014like itineraries aboard flagship...",
+      "url": "https://www.prnewswire.com/news-releases/black-friday-cruise-deals-up-to-40-off-and-kids-sail-free-with-msc-cruises-302950539.html",
+      "published_at": "2026-11-26T15:06:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:04Z"
+    },
+    {
+      "id": "13acc69469125e97",
+      "source": "prnewswire",
+      "title": "L'aile China World Summit de l'h\u00f4tel Shangri-La \u00e0 P\u00e9kin marque un nouveau chapitre pour la marque avec son projet de construction verticale jusqu'en 2026.",
+      "summary": "P\u00c9KIN, 26 novembre 2026 /PRNewswire/ -- Le 22 novembre, le China World Summit Wing, Beijing, A Shangri-La Hotel a annonc\u00e9 une refonte compl\u00e8te de sa marque et a d\u00e9voil\u00e9 son nouveau positionnement de marque, \u00ab Au-dessus du moment. Sois toi-m\u00eame \u00bb. Ce positionnement r\u00e9affirme la vision de...",
+      "url": "https://www.prnewswire.com/news-releases/laile-china-world-summit-de-lhotel-shangri-la-a-pekin-marque-un-nouveau-chapitre-pour-la-marque-avec-son-projet-de-construction-verticale-jusquen-2026-302951300.html",
+      "published_at": "2026-11-26T15:06:00Z",
+      "tickers": [
+        "L"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:04Z"
+    },
+    {
+      "id": "4531f40a7f4b2feb",
+      "source": "prnewswire",
+      "title": "China World Summit Wing, Peking, ein Shangri-La Hotel, markiert ein neues Markenkapitel mit dem Vertical Run 2026",
+      "summary": "PEKING, 26. November 2026 /PRNewswire/ -- Am 22. November k\u00fcndigte das China World Summit Wing, Beijing, A Shangri-La Hotel eine umfassende Markenauffrischung an und pr\u00e4sentierte seine neue Markenpositionierung: \"Above the Moment. Sei du selbst.\" Die Positionierung bekr\u00e4ftigt die Vision...",
+      "url": "https://www.prnewswire.com/news-releases/china-world-summit-wing-peking-ein-shangri-la-hotel-markiert-ein-neues-markenkapitel-mit-dem-vertical-run-2026-302951301.html",
+      "published_at": "2026-11-26T15:06:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:04Z"
+    },
+    {
+      "id": "9163ad96cd98599b",
+      "source": "prnewswire",
+      "title": "LSEG Finance plc announces increase in Maximum Acceptance Amount and results of its tender offer",
+      "summary": "LONDON, Nov. 26, 2026 /PRNewswire/ -- LSEG Finance plc (formerly LSEGA Financing plc) (the \"Offeror\") announces today the results of its previously announced tender offer (the \"Offer\") for its outstanding U.S.$1,250,000,000 2.500% Notes due 2031 (the \"Notes\"), of which U.S.$750,000,000...",
+      "url": "https://www.prnewswire.com/news-releases/lseg-finance-plc-announces-increase-in-maximum-acceptance-amount-and-results-of-its-tender-offer-302951299.html",
+      "published_at": "2026-11-26T15:05:00Z",
+      "tickers": [
+        "LSEG"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:04Z"
+    },
+    {
+      "id": "2531d29c4fc73f98",
+      "source": "prnewswire_financial",
+      "title": "LSEG Finance plc announces increase in Maximum Acceptance Amount and results of its tender offer",
+      "summary": "LONDON, Nov. 26, 2026 /PRNewswire/ -- LSEG Finance plc (formerly LSEGA Financing plc) (the \"Offeror\") announces today the results of its previously announced tender offer (the \"Offer\") for its outstanding U.S.$1,250,000,000 2.500% Notes due 2031 (the \"Notes\"), of which U.S.$750,000,000...",
+      "url": "https://www.prnewswire.com/news-releases/lseg-finance-plc-announces-increase-in-maximum-acceptance-amount-and-results-of-its-tender-offer-302951299.html",
+      "published_at": "2026-11-26T15:05:00Z",
+      "tickers": [
+        "LSEG"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:05Z"
+    },
+    {
+      "id": "2211a461d528bcd5",
+      "source": "prnewswire",
+      "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of Xerox Holdings Corporation - XRX",
+      "summary": "NEW YORK, Nov. 26, 2026 /PRNewswire/ -- Pomerantz LLP is investigating claims on behalf of investors of Xerox Holdings Corporation (\"Xerox\" or the \"Company\") (NASDAQ: XRX). Such investors are advised to contact Danielle Peyton at newaction@pomlaw.com or 646-581-9980, ext. 7980. The...",
+      "url": "https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-of-investors-of-xerox-holdings-corporation---xrx-302949053.html",
+      "published_at": "2026-11-26T15:01:00Z",
+      "tickers": [
+        "XRX"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:04Z"
+    },
+    {
+      "id": "634ca0c29e660d37",
+      "source": "prnewswire",
+      "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of Amdocs Limited - DOX",
+      "summary": "NEW YORK, Nov. 26, 2026 /PRNewswire/ -- Pomerantz LLP is investigating claims on behalf of investors of Amdocs Limited (\"Amdocs\" or the \"Company\") (NASDAQ: DOX). Such investors are advised to contact Danielle Peyton at newaction@pomlaw.com or 646-581-9980, ext. 7980. The investigation...",
+      "url": "https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-of-investors-of-amdocs-limited---dox-302949040.html",
+      "published_at": "2026-11-26T15:01:00Z",
+      "tickers": [
+        "DOX"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:04Z"
+    },
+    {
+      "id": "30c403f5233950a0",
+      "source": "prnewswire",
+      "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of Ionis Pharmaceuticals, Inc. - IONS",
+      "summary": "NEW YORK, Nov. 26, 2026 /PRNewswire/ -- Pomerantz LLP is investigating claims on behalf of investors of Ionis Pharmaceuticals, Inc. (\"Ionis\" or the \"Company\") (NASDAQ: IONS). Such investors are advised to contact Danielle Peyton at newaction@pomlaw.com or 646-581-9980, ext. 7980. The...",
+      "url": "https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-of-investors-of-ionis-pharmaceuticals-inc---ions-302949042.html",
+      "published_at": "2026-11-26T15:01:00Z",
+      "tickers": [
+        "IONS"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:04Z"
+    },
+    {
+      "id": "c001272b6aeefdf0",
+      "source": "prnewswire",
+      "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of ServiceNow, Inc. - NOW",
+      "summary": "NEW YORK, Nov. 26, 2026 /PRNewswire/ -- Pomerantz LLP is investigating claims on behalf of investors of ServiceNow, Inc. (\"ServiceNow\" or the \"Company\") (NYSE: NOW). Such investors are advised to contact Danielle Peyton at newaction@pomlaw.com or 646-581-9980, ext. 7980. The investigation...",
+      "url": "https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-of-investors-of-servicenow-inc---now-302949107.html",
+      "published_at": "2026-11-26T15:01:00Z",
+      "tickers": [
+        "NOW"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:04Z"
+    },
+    {
+      "id": "45f63f400248d638",
+      "source": "prnewswire",
+      "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of Securitize Corp. - SECZ",
+      "summary": "NEW YORK, Nov. 26, 2026 /PRNewswire/ -- Pomerantz LLP is investigating claims on behalf of investors of Securitize Corp.(\"Securitize\" or the \"Company\") (NYSE:SECZ). Such investors are advised to contact Danielle Peyton at newaction@pomlaw.com or 646-581-9980, ext. 7980 The investigation...",
+      "url": "https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-of-investors-of-securitize-corp--secz-302949048.html",
+      "published_at": "2026-11-26T15:01:00Z",
+      "tickers": [
+        "SECZ"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:04Z"
+    },
+    {
+      "id": "0be84da6b8a58c79",
+      "source": "prnewswire",
+      "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of Once Upon a Farm, PBC - OFRM",
+      "summary": "NEW YORK, Nov. 26, 2026 /PRNewswire/ -- Pomerantz LLP is investigating claims on behalf of investors of Once Upon a Farm, PBC (\"Once Upon a Farm\" or the \"Company\") (NYSE: OFRM). Such investors are advised to contact Danielle Peyton at newaction@pomlaw.com or 646-581-9980, ext. 7980. The...",
+      "url": "https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-of-investors-of-once-upon-a-farm-pbc---ofrm-302949058.html",
+      "published_at": "2026-11-26T15:01:00Z",
+      "tickers": [
+        "OFRM"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:04Z"
+    },
+    {
+      "id": "86c207908f053fd5",
+      "source": "prnewswire",
+      "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of Krystal Biotech, Inc. - KRYS",
+      "summary": "NEW YORK, Nov. 26, 2026 /PRNewswire/ -- Pomerantz LLP is investigating claims on behalf of investors of Krystal Biotech, Inc. (\"Krystal Biotech\" or the \"Company\") (NASDAQ: KRYS). Such investors are advised to contact Danielle Peyton at newaction@pomlaw.com or 646-581-9980, ext. 7980. The...",
+      "url": "https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-of-investors-of-krystal-biotech-inc---krys-302949069.html",
+      "published_at": "2026-11-26T15:01:00Z",
+      "tickers": [
+        "KRYS"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:04Z"
+    },
+    {
+      "id": "57f123bbe9d14799",
+      "source": "prnewswire",
+      "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of LKQ Corporation - LKQ",
+      "summary": "NEW YORK, Nov. 26, 2026 /PRNewswire/ -- Pomerantz LLP is investigating claims on behalf of investors of LKQ Corporation (\"LKQ\" or the \"Company\") (NASDAQ: LKQ). Such investors are advised to contact Danielle Peyton at newaction@pomlaw.com or 646-581-9980, ext. 7980. The investigation...",
+      "url": "https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-of-investors-of-lkq-corporation---lkq-302949051.html",
+      "published_at": "2026-11-26T15:01:00Z",
+      "tickers": [
+        "LKQ"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:04Z"
+    },
+    {
+      "id": "9591f43fbb14f56d",
+      "source": "prnewswire",
+      "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of Dollar General Corporation - DG",
+      "summary": "NEW YORK, Nov. 26, 2026 /PRNewswire/ -- Pomerantz LLP is investigating claims on behalf of investors of Dollar General Corporation (\"Dollar General\" or the \"Company\") (NYSE: DG). Such investors are advised to contact Danielle Peyton at newaction@pomlaw.com or 646-581-9980, ext. 7980. The...",
+      "url": "https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-of-investors-of-dollar-general-corporation---dg-302949046.html",
+      "published_at": "2026-11-26T15:01:00Z",
+      "tickers": [
+        "DG"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:04Z"
+    },
+    {
+      "id": "351286d523558fe4",
+      "source": "prnewswire",
+      "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of Alnylam Pharmaceuticals, Inc. - ALNY",
+      "summary": "NEW YORK, Nov. 26, 2026 /PRNewswire/ -- Pomerantz LLP is investigating claims on behalf of investors of Alnylam Pharmaceuticals, Inc. (\"Alnylam\" or the \"Company\") (NASDAQ: ALNY). Such investors are advised to contact Danielle Peyton at newaction@pomlaw.com or 646-581-9980, ext. 7980. The...",
+      "url": "https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-of-investors-of-alnylam-pharmaceuticals-inc---alny-302949037.html",
+      "published_at": "2026-11-26T15:01:00Z",
+      "tickers": [
+        "ALNY"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:04Z"
+    },
+    {
+      "id": "4d9f0ec85a3cdd98",
+      "source": "prnewswire",
+      "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of TriNet Group, Inc. - TNET",
+      "summary": "NEW YORK, Nov. 26, 2026 /PRNewswire/ -- Pomerantz LLP is investigating claims on behalf of investors of TriNet Group, Inc. (\"TriNet\" or the \"Company\") (NYSE: TNET). Such investors are advised to contact Danielle Peyton at newaction@pomlaw.com or 646-581-9980, ext. 7980. The investigation...",
+      "url": "https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-of-investors-of-trinet-group-inc---tnet-302949052.html",
+      "published_at": "2026-11-26T15:01:00Z",
+      "tickers": [
+        "TNET"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:04Z"
+    },
+    {
+      "id": "899599596290cbbd",
+      "source": "prnewswire_financial",
+      "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of Xerox Holdings Corporation - XRX",
+      "summary": "NEW YORK, Nov. 26, 2026 /PRNewswire/ -- Pomerantz LLP is investigating claims on behalf of investors of Xerox Holdings Corporation (\"Xerox\" or the \"Company\") (NASDAQ: XRX). Such investors are advised to contact Danielle Peyton at newaction@pomlaw.com or 646-581-9980, ext. 7980. The...",
+      "url": "https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-of-investors-of-xerox-holdings-corporation---xrx-302949053.html",
+      "published_at": "2026-11-26T15:01:00Z",
+      "tickers": [
+        "XRX"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:05Z"
+    },
+    {
+      "id": "e4cdbc657531f94d",
+      "source": "prnewswire_financial",
+      "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of Amdocs Limited - DOX",
+      "summary": "NEW YORK, Nov. 26, 2026 /PRNewswire/ -- Pomerantz LLP is investigating claims on behalf of investors of Amdocs Limited (\"Amdocs\" or the \"Company\") (NASDAQ: DOX). Such investors are advised to contact Danielle Peyton at newaction@pomlaw.com or 646-581-9980, ext. 7980. The investigation...",
+      "url": "https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-of-investors-of-amdocs-limited---dox-302949040.html",
+      "published_at": "2026-11-26T15:01:00Z",
+      "tickers": [
+        "DOX"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:05Z"
+    },
+    {
+      "id": "56bfd076fb40b108",
+      "source": "prnewswire_financial",
+      "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of Ionis Pharmaceuticals, Inc. - IONS",
+      "summary": "NEW YORK, Nov. 26, 2026 /PRNewswire/ -- Pomerantz LLP is investigating claims on behalf of investors of Ionis Pharmaceuticals, Inc. (\"Ionis\" or the \"Company\") (NASDAQ: IONS). Such investors are advised to contact Danielle Peyton at newaction@pomlaw.com or 646-581-9980, ext. 7980. The...",
+      "url": "https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-of-investors-of-ionis-pharmaceuticals-inc---ions-302949042.html",
+      "published_at": "2026-11-26T15:01:00Z",
+      "tickers": [
+        "IONS"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:05Z"
+    },
+    {
+      "id": "7d81a0165ca1fb24",
+      "source": "prnewswire_financial",
+      "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of ServiceNow, Inc. - NOW",
+      "summary": "NEW YORK, Nov. 26, 2026 /PRNewswire/ -- Pomerantz LLP is investigating claims on behalf of investors of ServiceNow, Inc. (\"ServiceNow\" or the \"Company\") (NYSE: NOW). Such investors are advised to contact Danielle Peyton at newaction@pomlaw.com or 646-581-9980, ext. 7980. The investigation...",
+      "url": "https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-of-investors-of-servicenow-inc---now-302949107.html",
+      "published_at": "2026-11-26T15:01:00Z",
+      "tickers": [
+        "NOW"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:05Z"
+    },
+    {
+      "id": "88e9ec47e1111873",
+      "source": "prnewswire_financial",
+      "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of Once Upon a Farm, PBC - OFRM",
+      "summary": "NEW YORK, Nov. 26, 2026 /PRNewswire/ -- Pomerantz LLP is investigating claims on behalf of investors of Once Upon a Farm, PBC (\"Once Upon a Farm\" or the \"Company\") (NYSE: OFRM). Such investors are advised to contact Danielle Peyton at newaction@pomlaw.com or 646-581-9980, ext. 7980. The...",
+      "url": "https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-of-investors-of-once-upon-a-farm-pbc---ofrm-302949058.html",
+      "published_at": "2026-11-26T15:01:00Z",
+      "tickers": [
+        "OFRM"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:05Z"
+    },
+    {
+      "id": "fb2ef61e72255ff1",
+      "source": "prnewswire_financial",
+      "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of Krystal Biotech, Inc. - KRYS",
+      "summary": "NEW YORK, Nov. 26, 2026 /PRNewswire/ -- Pomerantz LLP is investigating claims on behalf of investors of Krystal Biotech, Inc. (\"Krystal Biotech\" or the \"Company\") (NASDAQ: KRYS). Such investors are advised to contact Danielle Peyton at newaction@pomlaw.com or 646-581-9980, ext. 7980. The...",
+      "url": "https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-of-investors-of-krystal-biotech-inc---krys-302949069.html",
+      "published_at": "2026-11-26T15:01:00Z",
+      "tickers": [
+        "KRYS"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:05Z"
+    },
+    {
+      "id": "110a7feb58aeb23a",
+      "source": "prnewswire_financial",
+      "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of LKQ Corporation - LKQ",
+      "summary": "NEW YORK, Nov. 26, 2026 /PRNewswire/ -- Pomerantz LLP is investigating claims on behalf of investors of LKQ Corporation (\"LKQ\" or the \"Company\") (NASDAQ: LKQ). Such investors are advised to contact Danielle Peyton at newaction@pomlaw.com or 646-581-9980, ext. 7980. The investigation...",
+      "url": "https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-of-investors-of-lkq-corporation---lkq-302949051.html",
+      "published_at": "2026-11-26T15:01:00Z",
+      "tickers": [
+        "LKQ"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:05Z"
+    },
+    {
+      "id": "df88876ab70d2f5f",
+      "source": "prnewswire_financial",
+      "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of Alnylam Pharmaceuticals, Inc. - ALNY",
+      "summary": "NEW YORK, Nov. 26, 2026 /PRNewswire/ -- Pomerantz LLP is investigating claims on behalf of investors of Alnylam Pharmaceuticals, Inc. (\"Alnylam\" or the \"Company\") (NASDAQ: ALNY). Such investors are advised to contact Danielle Peyton at newaction@pomlaw.com or 646-581-9980, ext. 7980. The...",
+      "url": "https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-of-investors-of-alnylam-pharmaceuticals-inc---alny-302949037.html",
+      "published_at": "2026-11-26T15:01:00Z",
+      "tickers": [
+        "ALNY"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:05Z"
+    },
+    {
+      "id": "a49f994cb958dede",
+      "source": "prnewswire_financial",
+      "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of TriNet Group, Inc. - TNET",
+      "summary": "NEW YORK, Nov. 26, 2026 /PRNewswire/ -- Pomerantz LLP is investigating claims on behalf of investors of TriNet Group, Inc. (\"TriNet\" or the \"Company\") (NYSE: TNET). Such investors are advised to contact Danielle Peyton at newaction@pomlaw.com or 646-581-9980, ext. 7980. The investigation...",
+      "url": "https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-of-investors-of-trinet-group-inc---tnet-302949052.html",
+      "published_at": "2026-11-26T15:01:00Z",
+      "tickers": [
+        "TNET"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:05Z"
+    },
+    {
+      "id": "1fa4f97ae9e12605",
+      "source": "prnewswire_financial",
+      "title": "INVESTOR ALERT: Pomerantz Law Firm Reminds Investors with Losses on their Investment in Babcock & Wilcox Enterprises, Inc. of Class Action Lawsuit - BW",
+      "summary": "NEW YORK, Nov. 26, 2026 /PRNewswire/ -- Pomerantz LLP. If you are an investor who believes that you may have incurred a loss regarding your Babcock & Wilcox Enterprises, Inc. securities (\"B & W\" or the \"Company\") (NYSE: BW); such investors are advised to contact Danielle Peyton at...",
+      "url": "https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-reminds-investors-with-losses-on-their-investment-in-babcock--wilcox-enterprises-inc-of-class-action-lawsuit---bw-302949045.html",
+      "published_at": "2026-11-26T15:01:00Z",
+      "tickers": [
+        "BW"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:05Z"
+    },
+    {
+      "id": "37d8db94c62e6ff0",
+      "source": "prnewswire_financial",
+      "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of Iovance Biotherapeutics, Inc. - IOVA",
+      "summary": "NEW YORK, Nov. 26, 2026 /PRNewswire/ -- Pomerantz LLP is investigating claims on behalf of investors of Iovance Biotherapeutics, Inc. (\"Iovance\" or the \"Company\") (NASDAQ: IOVA). Such investors are advised to contact Danielle Peyton at newaction@pomlaw.com or 646-581-9980, ext. 7980. The...",
+      "url": "https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-of-investors-of-iovance-biotherapeutics-inc---iova-302949034.html",
+      "published_at": "2026-11-26T15:01:00Z",
+      "tickers": [
+        "IOVA"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:05Z"
+    },
+    {
+      "id": "5b3d6e9a97d24222",
+      "source": "prnewswire_financial",
+      "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of Caterpillar Inc. - CAT",
+      "summary": "NEW YORK, Nov. 26, 2026 /PRNewswire/ -- Pomerantz LLP is investigating claims on behalf of investors of Caterpillar Inc. (\"Caterpillar\" or the \"Company\") (NYSE: CAT). Such investors are advised to contact Danielle Peyton at newaction@pomlaw.com or 646-581-9980, ext. 7980. The...",
+      "url": "https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-of-investors-of-caterpillar-inc---cat-302949047.html",
+      "published_at": "2026-11-26T15:01:00Z",
+      "tickers": [
+        "CAT"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:05Z"
+    },
+    {
+      "id": "b47dae43ce21ed1d",
+      "source": "prnewswire_financial",
+      "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of HCA Healthcare, Inc. - HCA",
+      "summary": "NEW YORK, Nov. 26, 2026 /PRNewswire/ -- Pomerantz LLP is investigating claims on behalf of investors of HCA Healthcare, Inc. (\"HCA\" or the \"Company\") (NYSE: HCA). Such investors are advised to contact Danielle Peyton at newaction@pomlaw.com or 646-581-9980, ext. 7980. The investigation...",
+      "url": "https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-of-investors-of-hca-healthcare-inc--hca-302949039.html",
+      "published_at": "2026-11-26T15:01:00Z",
+      "tickers": [
+        "HCA"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:05Z"
+    },
+    {
+      "id": "95b4b2e2f3e1dc6b",
+      "source": "prnewswire_financial",
+      "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of Alphatec Holdings, Inc. - ATEC",
+      "summary": "NEW YORK, Nov. 26, 2026 /PRNewswire/ -- Pomerantz LLP is investigating claims on behalf of investors of Alphatec Holdings, Inc. (\"Alphatec\" or the \"Company\") (NASDAQ: ATEC). Such investors are advised to contact Danielle Peyton at newaction@pomlaw.com or 646-581-9980, ext. 7980. The...",
+      "url": "https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-of-investors-of-alphatec-holdings-inc---atec-302949036.html",
+      "published_at": "2026-11-26T15:01:00Z",
+      "tickers": [
+        "ATEC"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:05Z"
+    },
+    {
+      "id": "31d0e614bce7260e",
+      "source": "prnewswire_financial",
+      "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of Bright Minds Bioscience Inc. - DRUG",
+      "summary": "NEW YORK, Nov. 26, 2026 /PRNewswire/ -- Pomerantz LLP is investigating claims on behalf of investors of Bright Minds Bioscience Inc. (\"Bright Minds\" or the \"Company\") (NASDAQ: DRUG). Such investors are advised to contact Danielle Peyton at newaction@pomlaw.com or 646-581-9980, ext. 7980....",
+      "url": "https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-of-investors-of-bright-minds-bioscience-inc---drug-302949050.html",
+      "published_at": "2026-11-26T15:01:00Z",
+      "tickers": [
+        "DRUG"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:05Z"
+    },
+    {
+      "id": "be251ad1bd5ca173",
+      "source": "prnewswire_financial",
+      "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of Aurora Innovation, Inc. - AUR",
+      "summary": "NEW YORK, Nov. 26, 2026 /PRNewswire/ -- Pomerantz LLP is investigating claims on behalf of investors of Aurora Innovation, Inc. (\"Aurora\" or the \"Company\") (NASDAQ: AUR). Such investors are advised to contact Danielle Peyton at newaction@pomlaw.com or 646-581-9980, ext. 7980. The...",
+      "url": "https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-of-investors-of-aurora-innovation-inc---aur-302949043.html",
+      "published_at": "2026-11-26T15:01:00Z",
+      "tickers": [
+        "AUR"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:05Z"
+    },
+    {
+      "id": "55b3aa64baed1924",
+      "source": "prnewswire_financial",
+      "title": "INVESTOR ALERT: Pomerantz Law Firm Reminds Investors with Losses on their Investment in Yiren Digital Ltd. of Class Action Lawsuit and Upcoming Deadlines - YRD",
+      "summary": "NEW YORK, Nov. 26, 2026 /PRNewswire/ -- Pomerantz LLP reminds investors with losses on their investment in Yiren Digital Ltd. (\"Yiren\" or the \"Company\") (NYSE: YRD) that a class action lawsuit has been filed against the Company. Such investors are advised to contact Danielle Peyton at...",
+      "url": "https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-reminds-investors-with-losses-on-their-investment-in-yiren-digital-ltd-of-class-action-lawsuit-and-upcoming-deadlines--yrd-302948997.html",
+      "published_at": "2026-11-26T15:00:00Z",
+      "tickers": [
+        "YRD"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:05Z"
+    },
+    {
+      "id": "0004fa814596cad6",
+      "source": "prnewswire_financial",
+      "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of Lightwave Logic, Inc. - LWLG",
+      "summary": "NEW YORK, Nov. 26, 2026 /PRNewswire/ -- Pomerantz LLP is investigating claims on behalf of investors of Lightwave Logic, Inc. (\"Lightwave Logic\" or the \"Company\") (NASDAQ: LWLG). Such investors are advised to contact Danielle Peyton at newaction@pomlaw.com or 646-581-9980, ext. 7980. The...",
+      "url": "https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-of-investors-of-lightwave-logic-inc---lwlg-302948991.html",
+      "published_at": "2026-11-26T15:00:00Z",
+      "tickers": [
+        "LWLG"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:05Z"
+    },
+    {
+      "id": "6ad48efb8dcb0c21",
+      "source": "prnewswire_financial",
+      "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of BillionToOne, Inc. - BLLN",
+      "summary": "NEW YORK, Nov. 26, 2026 /PRNewswire/ -- Pomerantz LLP is investigating claims on behalf of investors of BillionToOne, Inc. (\"BillionToOne\" or the \"Company\") (NASDAQ: BLLN). Such investors are advised to contact Danielle Peyton at newaction@pomlaw.com or 646-581-9980, ext. 7980. The...",
+      "url": "https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-of-investors-of-billiontoone-inc---blln-302949020.html",
+      "published_at": "2026-11-26T15:00:00Z",
+      "tickers": [
+        "BLLN"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:05Z"
+    },
+    {
+      "id": "7dc0351327f24b1f",
+      "source": "marketwatch",
+      "title": "This retired professor has reinvented himself \u2014 as a Taylor Swift scholar",
+      "summary": "His niece convinced him to spend his retirement analyzing Taylor Swift lyrics. Now he\u2019s a successful podcaster at 72.",
+      "url": "https://www.marketwatch.com/story/this-retired-professor-has-reinvented-himself-as-a-taylor-swift-scholar-88456c8d?mod=mw_rss_topstories",
+      "published_at": "2026-11-26T14:35:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:06Z"
+    },
+    {
+      "id": "c20bda3f35b68cc1",
+      "source": "marketwatch",
+      "title": "Nvidia and the whole AI trade aren\u2019t out of the woods \u2014 not by a long shot",
+      "summary": "The \u2018Bank of AI\u2019 faces a host of troubles ahead.",
+      "url": "https://www.marketwatch.com/story/nvidia-and-the-whole-ai-trade-arent-out-of-the-woods-not-by-a-long-shot-bccc0025?mod=mw_rss_topstories",
+      "published_at": "2026-11-26T14:00:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:06Z"
+    },
+    {
+      "id": "0c126fed70f86199",
+      "source": "marketwatch",
+      "title": "Futures point to Black Friday gains on Wall Street as global markets welcome U.S. resilience",
+      "summary": "A rebound off lows for the S&amp;P 500 on Wednesday calms bourses after the tech washout.",
+      "url": "https://www.marketwatch.com/story/futures-point-to-black-friday-gains-for-wall-street-as-global-markets-welcome-u-s-resilience-ad6bcef2?mod=mw_rss_topstories",
+      "published_at": "2026-11-26T13:41:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:06Z"
+    },
+    {
+      "id": "d73a3e50cb875958",
+      "source": "marketwatch",
+      "title": "Roth IRA conversions aren\u2019t free money. Watch out for these 5 costly mistakes.",
+      "summary": "Do it poorly, and you trigger taxes you didn\u2019t even know existed.",
+      "url": "https://www.marketwatch.com/story/roth-ira-conversions-arent-free-money-watch-out-for-these-5-costly-mistakes-39b182d3?mod=mw_rss_topstories",
+      "published_at": "2026-11-26T13:24:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:06Z"
+    },
+    {
+      "id": "65fed25969671623",
+      "source": "cnbc_finance",
+      "title": "Semiconductor chips are the new oil. Here's why",
+      "summary": "Semiconductor exports overtook oil and gas for the first time in 2026, as the AI boom fueled chip demand.",
+      "url": "https://www.cnbc.com/2026/11/26/semiconductor-chips-are-the-new-oil-heres-why.html",
+      "published_at": "2026-11-26T13:19:25Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:06Z"
+    },
+    {
+      "id": "d410e0a49ac676f4",
+      "source": "marketwatch",
+      "title": "\u2018I felt so seen\u2019: Why families across America are laughing \u2014 and crying \u2014 over SNL\u2019s \u2018Sister\u2019 sketch",
+      "summary": "The late-night comedy sketch does the impossible by making female caregivers feel seen.",
+      "url": "https://www.marketwatch.com/story/so-sad-and-so-true-has-your-family-talked-about-snls-sister-sketch-yet-19bf9d67?mod=mw_rss_topstories",
+      "published_at": "2026-11-26T13:06:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:06Z"
+    },
+    {
+      "id": "facb71013290e69c",
+      "source": "marketwatch",
+      "title": "Capital preservation rather than chasing the market is how hedge funds are negotiating this volatility",
+      "summary": "After a strong first half, performance for the hedge fund sector has dipped in the second half, and Goldman Sachs expects the investor class to try and hold onto what they have for now.",
+      "url": "https://www.marketwatch.com/story/capital-preservation-rather-than-chasing-the-market-higher-is-how-hedge-funds-are-negotiating-market-volatility-f4288b71?mod=mw_rss_topstories",
+      "published_at": "2026-11-26T12:37:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:06Z"
+    },
+    {
+      "id": "624287661e3b21cd",
+      "source": "cnbc_business",
+      "title": "Microdrama apps chase profits as Hollywood moves into short-form, vertical video",
+      "summary": "The microdrama category has exploded at a time when traditional forms of media face waning interest and YouTube claims more viewing hours.",
+      "url": "https://www.cnbc.com/2026/11/26/micro-drama-apps-hollywood-vertical-video.html",
+      "published_at": "2026-11-26T12:00:01Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:05Z"
+    },
+    {
+      "id": "3cda6422e2f9b94b",
+      "source": "marketwatch",
+      "title": "The tech rout should bottom soon, with a 25% rally for the S&P 500 to follow, says Deutsche Bank",
+      "summary": "Deutsche Bank sees the benchmark index reaching 9,000 points by the end of 2027 as focus shifts from capital expenditure to monetization from artificial intelligence.",
+      "url": "https://www.marketwatch.com/story/the-tech-rout-should-bottom-soon-with-a-25-rally-for-the-s-p-500-to-follow-says-deutsche-bank-c9070bf6?mod=mw_rss_topstories",
+      "published_at": "2026-11-26T10:11:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:06Z"
+    },
+    {
+      "id": "2866e959df226d02",
+      "source": "cnbc_finance",
+      "title": "Robots could be doing household chores in just 1-2 years, Chinese EV firm says",
+      "summary": "Xpeng Co-President Brian Gu shared his humanoid robot predictions with CNBC in an interview Thursday.",
+      "url": "https://www.cnbc.com/2026/11/26/china-ev-xpeng-humanoid-robots-household-chores.html",
+      "published_at": "2026-11-26T07:30:11Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:06Z"
+    },
+    {
+      "id": "c3cdfd82ac69cc16",
+      "source": "marketwatch",
+      "title": "Is the stock market open for Thanksgiving? The answer might surprise you.",
+      "summary": "The answer to the question of whether the stock market is open on Thanksgiving isn\u2019t a simple yes or no, as the major exchanges are closed, but trading of equity futures is open for part of the day.",
+      "url": "https://www.marketwatch.com/story/is-the-stock-market-open-for-thanksgiving-the-answer-might-surprise-you-e68114d4?mod=mw_rss_topstories",
+      "published_at": "2026-11-26T07:16:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:06Z"
+    },
+    {
+      "id": "3b3b0706cfcb5ccb",
+      "source": "cnbc_finance",
+      "title": "Beware higher correlation but nab high U.S. credit yields, fund managers say",
+      "summary": "The AI boom could trigger a recession, but data centers remain an attractive investment opportunity, a hedge fund manager said.",
+      "url": "https://www.cnbc.com/2026/11/26/mispricing-risk-fund-managers-ai-volatility.html",
+      "published_at": "2026-11-26T05:36:01Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:06Z"
+    },
     {
       "id": "f6a86ba8952f69a4",
       "source": "prnewswire",
@@ -710,7 +1532,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T05:32:01Z"
+      "scanned_at": "2026-11-26T15:45:05Z"
     },
     {
       "id": "1bbbe9114119057e",
@@ -725,7 +1547,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-26T05:31:59Z"
+      "scanned_at": "2026-11-26T15:45:04Z"
     },
     {
       "id": "002281fcbcfaaf83",
@@ -740,7 +1562,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-26T05:31:59Z"
+      "scanned_at": "2026-11-26T15:45:04Z"
     },
     {
       "id": "38e814e52c47c8b4",
@@ -755,7 +1577,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T05:31:59Z"
+      "scanned_at": "2026-11-26T15:45:04Z"
     },
     {
       "id": "1348a19270f28c25",
@@ -798,7 +1620,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T05:31:59Z"
+      "scanned_at": "2026-11-26T15:45:04Z"
     },
     {
       "id": "0d0731d46968f272",
@@ -827,7 +1649,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-26T05:31:59Z"
+      "scanned_at": "2026-11-26T15:45:04Z"
     },
     {
       "id": "ad61430806876eb6",
@@ -842,7 +1664,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-26T05:31:59Z"
+      "scanned_at": "2026-11-26T15:45:04Z"
     },
     {
       "id": "89740e993263b9a6",
@@ -857,7 +1679,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T05:31:59Z"
+      "scanned_at": "2026-11-26T15:45:04Z"
     },
     {
       "id": "1cf612a3ff6e2da3",
@@ -872,7 +1694,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-26T05:31:59Z"
+      "scanned_at": "2026-11-26T15:45:04Z"
     },
     {
       "id": "1d74298ba94386e2",
@@ -917,7 +1739,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T05:31:59Z"
+      "scanned_at": "2026-11-26T15:45:04Z"
     },
     {
       "id": "372f279fde1269ca",
@@ -932,7 +1754,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T05:31:59Z"
+      "scanned_at": "2026-11-26T15:45:04Z"
     },
     {
       "id": "149d105c7eb7f1fb",
@@ -961,7 +1783,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-26T05:31:59Z"
+      "scanned_at": "2026-11-26T15:45:04Z"
     },
     {
       "id": "b09b30969edea893",
@@ -976,7 +1798,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T05:31:59Z"
+      "scanned_at": "2026-11-26T15:45:04Z"
     },
     {
       "id": "db7c1541095e3940",
@@ -991,7 +1813,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-26T05:31:59Z"
+      "scanned_at": "2026-11-26T15:45:04Z"
     },
     {
       "id": "ffcc4fe1d9a4ad49",
@@ -1006,7 +1828,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-26T05:31:59Z"
+      "scanned_at": "2026-11-26T15:45:04Z"
     },
     {
       "id": "26a9d9cd0f4c60c0",
@@ -1021,7 +1843,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T05:31:59Z"
+      "scanned_at": "2026-11-26T15:45:04Z"
     },
     {
       "id": "c87673f7a9fe94ff",
@@ -1036,7 +1858,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T05:31:59Z"
+      "scanned_at": "2026-11-26T15:45:04Z"
     },
     {
       "id": "6c6d8364f1c0a237",
@@ -1051,7 +1873,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-26T05:31:59Z"
+      "scanned_at": "2026-11-26T15:45:04Z"
     },
     {
       "id": "64170f919ff3c32b",
@@ -1066,7 +1888,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T05:31:59Z"
+      "scanned_at": "2026-11-26T15:45:04Z"
     },
     {
       "id": "a7f213f0987f4483",
@@ -1081,7 +1903,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T05:31:59Z"
+      "scanned_at": "2026-11-26T15:45:04Z"
     },
     {
       "id": "0c4aaa47baf680a9",
@@ -1096,7 +1918,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T05:31:59Z"
+      "scanned_at": "2026-11-26T15:45:04Z"
     },
     {
       "id": "22eff6eecd73fdff",
@@ -1111,7 +1933,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T05:31:59Z"
+      "scanned_at": "2026-11-26T15:45:04Z"
     },
     {
       "id": "0499206cf66adccb",
@@ -1126,7 +1948,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-26T05:31:59Z"
+      "scanned_at": "2026-11-26T15:45:04Z"
     },
     {
       "id": "e7644a4428858f53",
@@ -1141,7 +1963,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T05:31:59Z"
+      "scanned_at": "2026-11-26T15:45:04Z"
     },
     {
       "id": "35c3cc87bb8f5752",
@@ -1156,7 +1978,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T05:31:59Z"
+      "scanned_at": "2026-11-26T15:45:04Z"
     },
     {
       "id": "f8acaea8894c00b3",
@@ -1171,7 +1993,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-26T05:31:59Z"
+      "scanned_at": "2026-11-26T15:45:04Z"
     },
     {
       "id": "6b56ab57855f8182",
@@ -1186,7 +2008,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T05:31:59Z"
+      "scanned_at": "2026-11-26T15:45:04Z"
     },
     {
       "id": "1dbfa7572e982712",
@@ -1201,7 +2023,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T05:31:59Z"
+      "scanned_at": "2026-11-26T15:45:04Z"
     },
     {
       "id": "3ff101028a3ae4e9",
@@ -1230,7 +2052,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T05:31:59Z"
+      "scanned_at": "2026-11-26T15:45:04Z"
     },
     {
       "id": "212820731e951626",
@@ -1289,7 +2111,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-26T05:31:59Z"
+      "scanned_at": "2026-11-26T15:45:04Z"
     },
     {
       "id": "83f51f1a6ed370ae",
@@ -1332,7 +2154,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T05:31:59Z"
+      "scanned_at": "2026-11-26T15:45:04Z"
     },
     {
       "id": "efa552b09e44c5c6",
@@ -1347,7 +2169,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T05:31:59Z"
+      "scanned_at": "2026-11-26T15:45:04Z"
     },
     {
       "id": "62432663baaec2ac",
@@ -1376,7 +2198,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T05:31:59Z"
+      "scanned_at": "2026-11-26T15:45:04Z"
     },
     {
       "id": "280217f05e9d3726",
@@ -1391,7 +2213,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T05:31:59Z"
+      "scanned_at": "2026-11-26T15:45:04Z"
     },
     {
       "id": "4f0651626a75ab42",
@@ -1406,7 +2228,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T05:31:59Z"
+      "scanned_at": "2026-11-26T15:45:04Z"
     },
     {
       "id": "75c98b0e4a7904ff",
@@ -1421,7 +2243,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T05:31:59Z"
+      "scanned_at": "2026-11-26T15:45:04Z"
     },
     {
       "id": "d29f1a33e4e61005",
@@ -1498,7 +2320,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T05:31:59Z"
+      "scanned_at": "2026-11-26T15:45:04Z"
     },
     {
       "id": "396f2a50cebc206e",
@@ -1527,7 +2349,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-26T05:31:59Z"
+      "scanned_at": "2026-11-26T15:45:04Z"
     },
     {
       "id": "969bdd442e521d54",
@@ -1542,7 +2364,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T05:31:59Z"
+      "scanned_at": "2026-11-26T15:45:04Z"
     },
     {
       "id": "c30d4a49f35dfecd",
@@ -1557,7 +2379,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T05:31:59Z"
+      "scanned_at": "2026-11-26T15:45:04Z"
     },
     {
       "id": "52d487d78a907726",
@@ -1572,7 +2394,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T05:31:59Z"
+      "scanned_at": "2026-11-26T15:45:04Z"
     },
     {
       "id": "3c65ef0f773138ee",
@@ -2346,7 +3168,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T05:32:02Z"
+      "scanned_at": "2026-11-26T15:45:06Z"
     },
     {
       "id": "b6b7531905246464",
@@ -2814,7 +3636,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T05:32:01Z"
+      "scanned_at": "2026-11-26T15:45:05Z"
     },
     {
       "id": "96bfb62d51d3531d",
@@ -3576,7 +4398,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T05:32:02Z"
+      "scanned_at": "2026-11-26T15:45:06Z"
     },
     {
       "id": "2a69ed3085a143d3",
@@ -4214,7 +5036,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T05:32:02Z"
+      "scanned_at": "2026-11-26T15:45:06Z"
     },
     {
       "id": "4c69408c17a3c9f2",
@@ -4427,7 +5249,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T05:32:02Z"
+      "scanned_at": "2026-11-26T15:45:06Z"
     },
     {
       "id": "aad2cb57c4a9ffdc",
@@ -4671,6 +5493,134 @@
       "news_side": null,
       "actionable": false,
       "scanned_at": "2026-11-25T04:33:38Z"
+    },
+    {
+      "id": "9576a0e3daeebe86",
+      "source": "cnbc_finance",
+      "title": "Utah drops criminal charges against Kalshi founders after company suspended operations in state",
+      "summary": "Co-founders of the prediction market platform were slated to appear in a state district court in December.",
+      "url": "https://www.cnbc.com/2026/11/24/utah-drops-charges-against-kalshi-after-it-halted-operations-in-state.html",
+      "published_at": "2026-11-24T20:45:57Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:06Z"
+    },
+    {
+      "id": "22c55472e9c2650d",
+      "source": "cnbc_business",
+      "title": "Retail turnarounds are taking hold just in time for the holiday season",
+      "summary": "Retail earnings reports on Tuesday pointed to a mix of factors behind the strong results, including a resilient consumer and stronger execution.",
+      "url": "https://www.cnbc.com/2026/11/24/retail-turnarounds-holiday-season.html",
+      "published_at": "2026-11-24T19:26:39Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:05Z"
+    },
+    {
+      "id": "2a593cc6e6dc2bb5",
+      "source": "cnbc_business",
+      "title": "Best Buy reports comparable sales growth of 6.1%, highest in five years",
+      "summary": "Best Buy beat quarterly expectations for its fiscal third-quarter earnings results on Tuesday and raised its full-year guidance.",
+      "url": "https://www.cnbc.com/2026/11/24/best-buy-bby-q3-2027-earnings.html",
+      "published_at": "2026-11-24T14:51:58Z",
+      "tickers": [],
+      "event_type": "earnings",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:05Z"
+    },
+    {
+      "id": "8d67dd25a6271816",
+      "source": "cnbc_finance",
+      "title": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation",
+      "summary": "The influential central banker expressed confidence that inflation will get closer to the Fed's 2% target in 2027.",
+      "url": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html",
+      "published_at": "2026-11-24T13:33:26Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:06Z"
+    },
+    {
+      "id": "f6ff266a26540a30",
+      "source": "cnbc_business",
+      "title": "Some U.S. food banks see demand top pandemic levels",
+      "summary": "A combination of high costs and restrictions to federal aid have led to soaring demand at many food banks in the U.S.",
+      "url": "https://www.cnbc.com/2026/11/24/us-food-banks-demand-snap.html",
+      "published_at": "2026-11-24T12:00:01Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:05Z"
+    },
+    {
+      "id": "277d12d278d7087f",
+      "source": "cnbc_business",
+      "title": "Employees at Eric Trump-backed robot startup lose health benefits as company's cash crunch deepens",
+      "summary": "Foundation is pursuing an emergency bridge loan and has been in talks with VC firms as it waits for a $150 million investment from South Korea's Base Group.",
+      "url": "https://www.cnbc.com/2026/11/22/foundation-future-industries-health-benefits-payroll-base-group.html",
+      "published_at": "2026-11-23T23:28:19Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:05Z"
+    },
+    {
+      "id": "e6c2e9dcac6976cd",
+      "source": "cnbc_finance",
+      "title": "Employees at Eric Trump-backed robot startup lose health benefits as company's cash crunch deepens",
+      "summary": "Foundation is pursuing an emergency bridge loan and has been in talks with VC firms as it waits for a $150 million investment from South Korea's Base Group.",
+      "url": "https://www.cnbc.com/2026/11/22/foundation-future-industries-health-benefits-payroll-base-group.html",
+      "published_at": "2026-11-23T23:28:19Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:06Z"
+    },
+    {
+      "id": "32d881a96b060741",
+      "source": "cnbc_business",
+      "title": "ESPN, NFL to show Super Bowl 61 in Imax theaters",
+      "summary": "In addition to ESPN channels, Super Bowl 61 will also be available on streaming platform Disney+ as well as the company's broadcast network ABC.",
+      "url": "https://www.cnbc.com/2026/11/23/espn-nfl-super-bowl-imax.html",
+      "published_at": "2026-11-23T21:55:27Z",
+      "tickers": [
+        "ESPN"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:05Z"
+    },
+    {
+      "id": "ef84a44033815d96",
+      "source": "cnbc_finance",
+      "title": "\u2018This establishes a bottom\u2019: Jensen Huang\u2019s return seen as likely to stop market sell-off, for now",
+      "summary": "Wall Street strategists say Jensen Huang\u2019s return to Nvidia could steady the AI trade, though spending and data-center risks remain.",
+      "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo-market-rally.html",
+      "published_at": "2026-11-23T18:00:47Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T15:45:06Z"
     }
   ]
 }
