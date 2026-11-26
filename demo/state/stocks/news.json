@@ -1,11 +1,11 @@
 {
   "mode": "paper",
-  "as_of": "2026-11-26T02:08:32Z",
-  "as_of_et": "2026-11-25 18:35 ET",
+  "as_of": "2026-11-26T05:32:03Z",
+  "as_of_et": "2026-11-26 00:32 ET",
   "rolling_hours": 72,
-  "n_items": 300,
+  "n_items": 347,
   "n_actionable": 37,
-  "n_with_ticker": 121,
+  "n_with_ticker": 103,
   "sources": [
     "prnewswire",
     "prnewswire_financial",
@@ -13,13 +13,457 @@
     "cnbc_finance",
     "marketwatch",
     "marketwatch_realtime",
-    "edgar_8k",
-    "edgar_424b",
-    "edgar_sc_to"
+    "edgar_8k"
   ],
   "errors": [],
   "note": "Paper news feed. Keyword tagging is heuristic. Shorts have no borrow model. RSS/EDGAR can lag minutes\u2013hours.",
   "items": [
+    {
+      "id": "f6a86ba8952f69a4",
+      "source": "prnewswire",
+      "title": "FlagOS Global Competition S2 Concludes Successfully | From SGLang Operators to ModelBest End-to-End Inference Optimization: A Complete Record of FlagOS Cross-Chip Engineering in Practice",
+      "summary": "BEIJING, Nov. 26, 2026 /PRNewswire/ -- The large-scale deployment of LLMs inevitably involves challenges at two levels: at the top is end-to-end inference efficiency, and at the bottom are operators. As model parameter counts continue to grow and inference costs become a bottleneck to...",
+      "url": "https://www.prnewswire.com/news-releases/flagos-global-competition-s2-concludes-successfully--from-sglang-operators-to-modelbest-end-to-end-inference-optimization-a-complete-record-of-flagos-cross-chip-engineering-in-practice-302951024.html",
+      "published_at": "2026-11-26T05:24:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T05:32:00Z"
+    },
+    {
+      "id": "62ea88c1a20fb49c",
+      "source": "prnewswire",
+      "title": "Primax Earns Taiwan's Top 10 Sustainable Enterprises, Marks Third Consecutive Year in S&P Global Sustainability Yearbook Membership",
+      "summary": "Renewables reach 63.69% of Group electricity consumption as carbon pricing is integrated into business decisions. TAIPEI, Nov. 26, 2026 /PRNewswire/ -- Primax Electronics (TWSE: 4915) has been named one of Taiwan's Top 10 Sustainable Enterprises in the Manufacturing category and received...",
+      "url": "https://www.prnewswire.com/news-releases/primax-earns-taiwans-top-10-sustainable-enterprises-marks-third-consecutive-year-in-sp-global-sustainability-yearbook-membership-302951020.html",
+      "published_at": "2026-11-26T05:05:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T05:32:00Z"
+    },
+    {
+      "id": "3554392c814fe52b",
+      "source": "prnewswire",
+      "title": "EVE Energy Unveils Full-Scenario Energy Storage Solutions for AI Data Centers at RE+ 2026",
+      "summary": "New solutions address power needs across the source-grid, power-distribution and cabinet-side layers of AI data center infrastructure LAS VEGAS, Nov. 26, 2026 /PRNewswire/ -- As AI workloads scale, data centers are placing new demands on power infrastructure, making reliable electricity...",
+      "url": "https://www.prnewswire.com/news-releases/eve-energy-unveils-full-scenario-energy-storage-solutions-for-ai-data-centers-at-re-2026-302951019.html",
+      "published_at": "2026-11-26T05:03:00Z",
+      "tickers": [
+        "EVE"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T05:32:00Z"
+    },
+    {
+      "id": "3056393471e1ef9a",
+      "source": "prnewswire",
+      "title": "Jelly Formats Enter a Growth Window as TCI's Jellie\u2122 Draws Buyers from 65 Countries",
+      "summary": "From Snack to Supplement Format, Jelly Steals the Spotlight at a Beauty Show TAIPEI, Nov. 25, 2026 /PRNewswire/ -- As consumers shift their focus from \"what to take\" to \"how to take it,\" easy-to-consume new formats have become a strategic priority for supplement brands. TCI Co., Ltd....",
+      "url": "https://www.prnewswire.com/news-releases/jelly-formats-enter-a-growth-window-as-tcis-jellie-draws-buyers-from-65-countries-302951016.html",
+      "published_at": "2026-11-26T04:36:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T05:32:00Z"
+    },
+    {
+      "id": "e0ad971241cb6b08",
+      "source": "prnewswire",
+      "title": "Huawei \u0438 CMA \u0441\u043e\u0432\u043c\u0435\u0441\u0442\u043d\u043e \u043f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u0438\u043b\u0438 \u0440\u0435\u0448\u0435\u043d\u0438\u0435 \u0434\u043b\u044f \u043d\u0430\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0445 \u043f\u043b\u0430\u0442\u0435\u0436\u043d\u044b\u0445 \u0441\u0438\u0441\u0442\u0435\u043c, \u043f\u0440\u0438\u0437\u0432\u0430\u043d\u043d\u043e\u0435 \u0443\u0441\u043a\u043e\u0440\u0438\u0442\u044c \u0442\u0440\u0430\u043d\u0441\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u044e \u043f\u043b\u0430\u0442\u0435\u0436\u043d\u043e\u0439 \u043e\u0442\u0440\u0430\u0441\u043b\u0438 \u0432\u043e \u0432\u0441\u0435\u043c \u043c\u0438\u0440\u0435",
+      "summary": "\u0421\u0418\u041d\u0413\u0410\u041f\u0423\u0420, 26 \u043d\u043e\u044f\u0431\u0440\u044f 2026 \u0433. /PRNewswire/ -- \u0412 \u0440\u0430\u043c\u043a\u0430\u0445 Singapore FinTech Festival 2026 (SFF 2026) \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0438 Huawei \u0438 CMA Small Systems AB (CMA), \u0443\u0447\u0430\u0441\u0442\u043d\u0438\u043a \u0433\u043b\u043e\u0431\u0430\u043b\u044c\u043d\u043e\u0439 \u043f\u0430\u0440\u0442\u043d\u0435\u0440\u0441\u043a\u043e\u0439 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u044b Huawei \u0434\u043b\u044f \u0444\u0438\u043d\u0430\u043d\u0441\u043e\u0432\u043e\u0439 \u043e\u0442\u0440\u0430\u0441\u043b\u0438 RONGHAI, \u0441\u043e\u0432\u043c\u0435\u0441\u0442\u043d\u043e \u043f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u0438\u043b\u0438 \u0440\u0435\u0448\u0435\u043d\u0438\u0435 \u0434\u043b\u044f \u043d\u0430\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0445 \u043f\u043b\u0430\u0442\u0435\u0436\u043d\u044b\u0445 \u0441\u0438\u0441\u0442\u0435\u043c...",
+      "url": "https://www.prnewswire.com/news-releases/huawei--cma----------------302951015.html",
+      "published_at": "2026-11-26T04:35:00Z",
+      "tickers": [
+        "CMA"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T05:32:00Z"
+    },
+    {
+      "id": "b2b1fa4b44dbf7ca",
+      "source": "prnewswire_financial",
+      "title": "Huawei \u0438 CMA \u0441\u043e\u0432\u043c\u0435\u0441\u0442\u043d\u043e \u043f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u0438\u043b\u0438 \u0440\u0435\u0448\u0435\u043d\u0438\u0435 \u0434\u043b\u044f \u043d\u0430\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0445 \u043f\u043b\u0430\u0442\u0435\u0436\u043d\u044b\u0445 \u0441\u0438\u0441\u0442\u0435\u043c, \u043f\u0440\u0438\u0437\u0432\u0430\u043d\u043d\u043e\u0435 \u0443\u0441\u043a\u043e\u0440\u0438\u0442\u044c \u0442\u0440\u0430\u043d\u0441\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u044e \u043f\u043b\u0430\u0442\u0435\u0436\u043d\u043e\u0439 \u043e\u0442\u0440\u0430\u0441\u043b\u0438 \u0432\u043e \u0432\u0441\u0435\u043c \u043c\u0438\u0440\u0435",
+      "summary": "\u0421\u0418\u041d\u0413\u0410\u041f\u0423\u0420, 26 \u043d\u043e\u044f\u0431\u0440\u044f 2026 \u0433. /PRNewswire/ -- \u0412 \u0440\u0430\u043c\u043a\u0430\u0445 Singapore FinTech Festival 2026 (SFF 2026) \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0438 Huawei \u0438 CMA Small Systems AB (CMA), \u0443\u0447\u0430\u0441\u0442\u043d\u0438\u043a \u0433\u043b\u043e\u0431\u0430\u043b\u044c\u043d\u043e\u0439 \u043f\u0430\u0440\u0442\u043d\u0435\u0440\u0441\u043a\u043e\u0439 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u044b Huawei \u0434\u043b\u044f \u0444\u0438\u043d\u0430\u043d\u0441\u043e\u0432\u043e\u0439 \u043e\u0442\u0440\u0430\u0441\u043b\u0438 RONGHAI, \u0441\u043e\u0432\u043c\u0435\u0441\u0442\u043d\u043e \u043f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u0438\u043b\u0438 \u0440\u0435\u0448\u0435\u043d\u0438\u0435 \u0434\u043b\u044f \u043d\u0430\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0445 \u043f\u043b\u0430\u0442\u0435\u0436\u043d\u044b\u0445 \u0441\u0438\u0441\u0442\u0435\u043c...",
+      "url": "https://www.prnewswire.com/news-releases/huawei--cma----------------302951015.html",
+      "published_at": "2026-11-26T04:35:00Z",
+      "tickers": [
+        "CMA"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T05:32:00Z"
+    },
+    {
+      "id": "b54700952c2b5d66",
+      "source": "prnewswire",
+      "title": "LGMG Unveils VTH150 Electric-Wheel Mining Truck at bauma CHINA 2026",
+      "summary": "The debut comes as LGMG marks ten consecutive years as the global sales leader in off-highway mechanical-drive wide-body dump trucks. SHANGHAI, Nov. 26, 2026 /PRNewswire/ -- LGMG today unveiled its VTH150 electric-wheel mining dump truck at bauma CHINA 2026. Built to haul heavy loads...",
+      "url": "https://www.prnewswire.com/news-releases/lgmg-unveils-vth150-electric-wheel-mining-truck-at-bauma-china-2026-302951013.html",
+      "published_at": "2026-11-26T04:29:00Z",
+      "tickers": [
+        "LGMG"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T05:32:00Z"
+    },
+    {
+      "id": "df1f83773519a159",
+      "source": "prnewswire",
+      "title": "MegazoneCloud Launches Its Amazon Quick Center of Excellence to Turn Enterprise Data Into Autonomous Action",
+      "summary": "Dedicated delivery practice pairs the Amazon Quick agentic workspace with funded entry engagements and governed autonomy to move clients from manual work to always-on AI. ROCHESTER, N.Y., Nov. 25, 2026 /PRNewswire/ -- MegazoneCloud (CEO: Doug Yeum), a leading AI and cloud company, today...",
+      "url": "https://www.prnewswire.com/news-releases/megazonecloud-launches-its-amazon-quick-center-of-excellence-to-turn-enterprise-data-into-autonomous-action-302951012.html",
+      "published_at": "2026-11-26T04:28:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T05:32:00Z"
+    },
+    {
+      "id": "ab3ede525e20e25e",
+      "source": "prnewswire",
+      "title": "LGMG Showcases Hybrid and Electric Aerial Work Platforms at bauma CHINA 2026",
+      "summary": "SHANGHAI, Nov. 26, 2026 /PRNewswire/ -- LGMG, one of the world's top 10 aerial work platform manufacturers, showcased hybrid and electric aerial work platforms and telehandlers at bauma CHINA 2026 in Shanghai, November 24\u201327. The lineup highlighted advances in modular powertrains,...",
+      "url": "https://www.prnewswire.com/news-releases/lgmg-showcases-hybrid-and-electric-aerial-work-platforms-at-bauma-china-2026-302951011.html",
+      "published_at": "2026-11-26T04:23:00Z",
+      "tickers": [
+        "LGMG"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T05:32:00Z"
+    },
+    {
+      "id": "7a5704f7a38d5345",
+      "source": "prnewswire",
+      "title": "RoboSense Reports Third Quarter 2026 Unaudited Financial Results, with Robotics LiDAR Sales Volume Ranking No. 1 Globally",
+      "summary": "Key Financial & Operational Highlights Quarterly revenue was RMB672.7 million, up 65.2% year over year Quarterly LiDAR sales volume was approximately 575,500 units, up 210.1% year over year Nine-month LiDAR sales volume for robotics and other applications was approximately 427,800 units,...",
+      "url": "https://www.prnewswire.com/news-releases/robosense-reports-third-quarter-2026-unaudited-financial-results-with-robotics-lidar-sales-volume-ranking-no-1-globally-302951008.html",
+      "published_at": "2026-11-26T04:11:00Z",
+      "tickers": [],
+      "event_type": "earnings",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T05:32:00Z"
+    },
+    {
+      "id": "5b46422d670974f9",
+      "source": "prnewswire",
+      "title": "LGMG Unveils VTH150 Electric-Wheel Mining Truck at bauma CHINA 2026",
+      "summary": "The debut comes as LGMG marks ten consecutive years as the global sales leader in off-highway mechanical-drive wide-body dump trucks. SHANGHAI, Nov. 25, 2026 /PRNewswire/ -- LGMG today unveiled its VTH150 electric-wheel mining dump truck at bauma CHINA 2026. Built to haul heavy loads...",
+      "url": "https://www.prnewswire.com/news-releases/lgmg-unveils-vth150-electric-wheel-mining-truck-at-bauma-china-2026-302951007.html",
+      "published_at": "2026-11-26T04:10:00Z",
+      "tickers": [
+        "LGMG"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T05:32:00Z"
+    },
+    {
+      "id": "df33154d5c18b2bd",
+      "source": "prnewswire",
+      "title": "LGMG Showcases Hybrid and Electric Aerial Work Platforms at bauma CHINA 2026",
+      "summary": "SHANGHAI, Nov. 25, 2026 /PRNewswire/ -- LGMG, one of the world's top 10 aerial work platform manufacturers, showcased hybrid and electric aerial work platforms and telehandlers at bauma CHINA 2026 in Shanghai, November 24\u201327. The lineup highlighted advances in modular powertrains,...",
+      "url": "https://www.prnewswire.com/news-releases/lgmg-showcases-hybrid-and-electric-aerial-work-platforms-at-bauma-china-2026-302951006.html",
+      "published_at": "2026-11-26T04:06:00Z",
+      "tickers": [
+        "LGMG"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T05:32:00Z"
+    },
+    {
+      "id": "7b4893e925d8e497",
+      "source": "prnewswire",
+      "title": "TVM Capital Healthcare Invests in HiRO, the Global CRO Redefining Cross-Border Clinical Research, to Accelerate Southeast Asia Expansion",
+      "summary": "Investment strengthens HiRO's established Southeast Asia platform, giving sponsors worldwide faster, single-partner access to the region's nearly 700 million patient population SINGAPORE, Nov. 25, 2026 /PRNewswire/ -- Harvest Integrated Research Organization (HiRO), a full-service global...",
+      "url": "https://www.prnewswire.com/news-releases/tvm-capital-healthcare-invests-in-hiro-the-global-cro-redefining-cross-border-clinical-research-to-accelerate-southeast-asia-expansion-302951004.html",
+      "published_at": "2026-11-26T03:47:00Z",
+      "tickers": [
+        "TVM"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T05:32:00Z"
+    },
+    {
+      "id": "7fa3ed6e3735f192",
+      "source": "prnewswire",
+      "title": "L'Or\u00e9al Paris y Ariana Greenblatt ponen de relieve el impacto del acoso callejero durante los 16 D\u00edas de Activismo contra la Violencia de G\u00e9nero",
+      "summary": "Como embajadora de marca m\u00e1s joven de L'Or\u00e9al Paris, Greenblatt, de 19 a\u00f1os, aporta una perspectiva fresca al movimiento Stand Up, animando a una nueva generaci\u00f3n a pasar a la acci\u00f3n. NUEVA YORK, 25 de noviembre de 2026 /PRNewswire-HISPANIC PR WIRE/ -- Para conmemorar los 16 D\u00edas de...",
+      "url": "https://www.prnewswire.com/news-releases/l-oreal-paris-y-ariana-greenblatt-ponen-de-relieve-el-impacto-del-acoso-callejero-durante-los-16-dias-de-activismo-contra-la-violencia-de-genero-887086665.html",
+      "published_at": "2026-11-26T03:28:00Z",
+      "tickers": [
+        "L"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T05:32:00Z"
+    },
+    {
+      "id": "f456703fef1dfcf8",
+      "source": "prnewswire",
+      "title": "Huawei ve CMA, K\u00fcresel \u00d6deme D\u00f6n\u00fc\u015f\u00fcm\u00fcn\u00fc H\u0131zland\u0131rmak \u0130\u00e7in Ortakla\u015fa Ulusal \u00d6deme \u00c7\u00f6z\u00fcm\u00fcn\u00fc Tan\u0131tt\u0131",
+      "summary": "SINGAPUR, 26 Kas\u0131m 2026 /PRNewswire/ -- Singapur FinTech Festivali 2026'da (SFF 2026), Huawei ve Huawei K\u00fcresel Finansal Ortak RONGHAI Program\u0131 \u00fcyesi CMA Small Systems AB (CMA), ortakla\u015fa Ulusal \u00d6deme \u00c7\u00f6z\u00fcm\u00fcn\u00fc tan\u0131tt\u0131. Huawei'nin Merkez Bankas\u0131 Entegre \u0130\u015f Birimi \u00c7\u00f6z\u00fcm Sat\u0131\u015f Departman\u0131...",
+      "url": "https://www.prnewswire.com/news-releases/huawei-ve-cma-kuresel-odeme-donuumunu-hzlandrmak-cin-ortaklaa-ulusal-odeme-cozumunu-tantt-302950989.html",
+      "published_at": "2026-11-26T03:25:00Z",
+      "tickers": [
+        "CMA"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T05:32:00Z"
+    },
+    {
+      "id": "39db468bd4fbef9e",
+      "source": "prnewswire_financial",
+      "title": "Huawei ve CMA, K\u00fcresel \u00d6deme D\u00f6n\u00fc\u015f\u00fcm\u00fcn\u00fc H\u0131zland\u0131rmak \u0130\u00e7in Ortakla\u015fa Ulusal \u00d6deme \u00c7\u00f6z\u00fcm\u00fcn\u00fc Tan\u0131tt\u0131",
+      "summary": "SINGAPUR, 26 Kas\u0131m 2026 /PRNewswire/ -- Singapur FinTech Festivali 2026'da (SFF 2026), Huawei ve Huawei K\u00fcresel Finansal Ortak RONGHAI Program\u0131 \u00fcyesi CMA Small Systems AB (CMA), ortakla\u015fa Ulusal \u00d6deme \u00c7\u00f6z\u00fcm\u00fcn\u00fc tan\u0131tt\u0131. Huawei'nin Merkez Bankas\u0131 Entegre \u0130\u015f Birimi \u00c7\u00f6z\u00fcm Sat\u0131\u015f Departman\u0131...",
+      "url": "https://www.prnewswire.com/news-releases/huawei-ve-cma-kuresel-odeme-donuumunu-hzlandrmak-cin-ortaklaa-ulusal-odeme-cozumunu-tantt-302950989.html",
+      "published_at": "2026-11-26T03:25:00Z",
+      "tickers": [
+        "CMA"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T05:32:00Z"
+    },
+    {
+      "id": "094d7196ff1a6d05",
+      "source": "prnewswire",
+      "title": "Laekna Submitted Investigational New Drug Application for LAE123 (ActRIIA/IIB Dual-antagonist mAb) to FDA",
+      "summary": "As a novel therapy for diseases that require complete inhibition of both ActRIIA and ActRIIB for maximal efficacy, including heart failure SHANGHAI, Nov. 25, 2026 /PRNewswire/ -- Laekna (2105.HK) announced today that the company has submitted an Investigational New Drug (IND) application...",
+      "url": "https://www.prnewswire.com/news-releases/laekna-submitted-investigational-new-drug-application-for-lae123-actriiaiib-dual-antagonist-mab-to-fda-302950988.html",
+      "published_at": "2026-11-26T03:24:00Z",
+      "tickers": [
+        "IND"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T05:32:00Z"
+    },
+    {
+      "id": "359a70ec4d12d7f9",
+      "source": "prnewswire",
+      "title": "Fosun International Named \"Sustainability Leading Enterprise\" by Bloomberg Businessweek/Chinese Edition",
+      "summary": "HONG KONG, Nov. 25, 2026 /PRNewswire/ -- On 25 November, the 8th \"ESG Leading Enterprises 2026\" award ceremony, co-organized by Bloomberg Businessweek/Chinese Edition and Deloitte, a globally renowned accounting firm, was successfully held in Hong Kong. The event was honored to feature a...",
+      "url": "https://www.prnewswire.com/news-releases/fosun-international-named-sustainability-leading-enterprise-by-bloomberg-businessweekchinese-edition-302950982.html",
+      "published_at": "2026-11-26T03:17:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T05:32:00Z"
+    },
+    {
+      "id": "b42467ed17eb7f52",
+      "source": "prnewswire_financial",
+      "title": "Fosun International Named \"Sustainability Leading Enterprise\" by Bloomberg Businessweek/Chinese Edition",
+      "summary": "HONG KONG, Nov. 25, 2026 /PRNewswire/ -- On 25 November, the 8th \"ESG Leading Enterprises 2026\" award ceremony, co-organized by Bloomberg Businessweek/Chinese Edition and Deloitte, a globally renowned accounting firm, was successfully held in Hong Kong. The event was honored to feature a...",
+      "url": "https://www.prnewswire.com/news-releases/fosun-international-named-sustainability-leading-enterprise-by-bloomberg-businessweekchinese-edition-302950982.html",
+      "published_at": "2026-11-26T03:17:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T05:32:00Z"
+    },
+    {
+      "id": "8f6f7be0fdfb2e1c",
+      "source": "prnewswire",
+      "title": "Flamengo Wins Brazilian S\u00e9rie A Title as GAC Deepens Its Presence in Brazil Through Football",
+      "summary": "SAO PAULO, Nov. 25, 2026 /PRNewswire/ -- On November 21, CR Flamengo drew with Palmeiras in Round 36 of the Brazilian S\u00e9rie A, securing the 2026 title ahead of schedule. As Flamengo's strategic partner, GAC celebrated this moment of glory with fans, using football to further deepen...",
+      "url": "https://www.prnewswire.com/news-releases/flamengo-wins-brazilian-serie-a-title-as-gac-deepens-its-presence-in-brazil-through-football-302950969.html",
+      "published_at": "2026-11-26T02:58:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T05:32:00Z"
+    },
+    {
+      "id": "2bc290e95e3d83d7",
+      "source": "prnewswire",
+      "title": "Invisibl Cloud Receives Honors in 2026 HPCwire Readers' and Editors' Choice Awards",
+      "summary": "23rd Annual HPCwire Awards Presented to Leaders in the Global HPC Community CHICAGO, Nov. 25, 2026 /PRNewswire/ -- Invisibl Cloud has been recognized in the 23rd edition of the HPCwire Editor's Choice Awards, presented at the 2026 International Conference for High Performance Computing,...",
+      "url": "https://www.prnewswire.com/news-releases/invisibl-cloud-receives-honors-in-2026-hpcwire-readers-and-editors-choice-awards-302950909.html",
+      "published_at": "2026-11-26T02:30:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T05:32:00Z"
+    },
+    {
+      "id": "68152f52437b9882",
+      "source": "prnewswire",
+      "title": "Global Gen Z explores Jinan: where ancient heritage meets futuristic innovation",
+      "summary": "JINAN, China, Nov. 25, 2026 /PRNewswire/ -- A report from China Daily: Ten Gen Z participants from across the globe joined \"Opportunity China 2026: Global Gen Z Views on Jinan\" from Nov 15 to 17. From ancient springs to intelligent robots, young international visitors gained fresh...",
+      "url": "https://www.prnewswire.com/news-releases/global-gen-z-explores-jinan-where-ancient-heritage-meets-futuristic-innovation-302950950.html",
+      "published_at": "2026-11-26T02:03:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T05:32:00Z"
+    },
+    {
+      "id": "b053bdaebaac139d",
+      "source": "prnewswire",
+      "title": "Bizcap tritt in den polnischen Markt ein und beschleunigt damit seine Expansion in Europa",
+      "summary": "WARSCHAU, Polen, 26. November 2026 /PRNewswire/ -- Der weltweit t\u00e4tige nichtbankliche Unternehmensfinanzierer Bizcap hat offiziell seine Gesch\u00e4ftst\u00e4tigkeit in Polen aufgenommen, womit das Unternehmen einen weiteren wichtigen Meilenstein bei seiner Expansion in Europa erreicht und nun auch...",
+      "url": "https://www.prnewswire.com/news-releases/bizcap-tritt-in-den-polnischen-markt-ein-und-beschleunigt-damit-seine-expansion-in-europa-302950948.html",
+      "published_at": "2026-11-26T01:57:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T05:32:00Z"
+    },
+    {
+      "id": "5b41886101454626",
+      "source": "prnewswire_financial",
+      "title": "Bizcap tritt in den polnischen Markt ein und beschleunigt damit seine Expansion in Europa",
+      "summary": "WARSCHAU, Polen, 26. November 2026 /PRNewswire/ -- Der weltweit t\u00e4tige nichtbankliche Unternehmensfinanzierer Bizcap hat offiziell seine Gesch\u00e4ftst\u00e4tigkeit in Polen aufgenommen, womit das Unternehmen einen weiteren wichtigen Meilenstein bei seiner Expansion in Europa erreicht und nun auch...",
+      "url": "https://www.prnewswire.com/news-releases/bizcap-tritt-in-den-polnischen-markt-ein-und-beschleunigt-damit-seine-expansion-in-europa-302950948.html",
+      "published_at": "2026-11-26T01:57:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T05:32:00Z"
+    },
+    {
+      "id": "a20b137df9f3d2c1",
+      "source": "prnewswire_financial",
+      "title": "Bizcap s'implante en Pologne pour acc\u00e9l\u00e9rer son expansion europ\u00e9enne",
+      "summary": "VARSOVIE, Pologne, 26 novembre 2026 /PRNewswire/ -- Bizcap, pr\u00eateur mondial non bancaire aux entreprises, a officiellement lanc\u00e9 ses activit\u00e9s en Pologne, marquant une autre \u00e9tape importante de son expansion europ\u00e9enne et apportant ses solutions de financement rapides et flexibles aux...",
+      "url": "https://www.prnewswire.com/news-releases/bizcap-simplante-en-pologne-pour-accelerer-son-expansion-europeenne-302950947.html",
+      "published_at": "2026-11-26T01:55:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T05:32:00Z"
+    },
+    {
+      "id": "f2675e553f7a4b55",
+      "source": "cnbc_finance",
+      "title": "Where the market may be mispricing risk most: AI boom, volatility, high-yield bonds",
+      "summary": "The AI boom could trigger a recession, but data centers remain an attractive investment opportunity, a hedge fund manager said.",
+      "url": "https://www.cnbc.com/2026/11/26/mispricing-risk-fund-managers-ai-volatility.html",
+      "published_at": "2026-11-26T01:34:58Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T05:32:02Z"
+    },
+    {
+      "id": "7c43cd209a3333ec",
+      "source": "prnewswire_financial",
+      "title": "De Bordeaux \u00e0 la Chine : JD.com \u00e9tend ses partenariats d'approvisionnement direct avec les principaux producteurs de vin fran\u00e7ais",
+      "summary": "P\u00c9KIN, 26 novembre 2026 /PRNewswire/ -- JD.com \u00e9tend ses partenariats d'approvisionnement direct et d'importation transfrontali\u00e8re avec les principaux producteurs mondiaux, offrant ainsi aux marques internationales une voie plus directe vers les clients chinois. Le 20 novembre, des...",
+      "url": "https://www.prnewswire.com/news-releases/de-bordeaux-a-la-chine--jdcom-etend-ses-partenariats-dapprovisionnement-direct-avec-les-principaux-producteurs-de-vin-francais-302950932.html",
+      "published_at": "2026-11-26T01:21:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T05:32:00Z"
+    },
+    {
+      "id": "864783bf7d362e3d",
+      "source": "marketwatch",
+      "title": "We are living in perilous times if Nvidia\u2019s Jensen Huang dictates your 401(k) balance",
+      "summary": "Why did a futurist with Huang\u2019s prescient vision build a company where all roads lead to him?",
+      "url": "https://www.marketwatch.com/story/we-are-living-in-perilous-times-if-nvidias-jensen-huang-dictates-your-401-k-balance-e0942d1e?mod=mw_rss_topstories",
+      "published_at": "2026-11-26T01:15:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T05:32:02Z"
+    },
+    {
+      "id": "b9d7f357d8495031",
+      "source": "marketwatch",
+      "title": "Why this stock-market selloff is probably going to get worse before it gets better",
+      "summary": "Monday\u2019s rally helped to paper over deeper issues that must be resolved before a durable bottom can arrive.",
+      "url": "https://www.marketwatch.com/story/why-this-stock-market-selloff-is-probably-going-to-get-worse-before-it-gets-better-fce63a89?mod=mw_rss_topstories",
+      "published_at": "2026-11-26T00:33:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T05:32:02Z"
+    },
+    {
+      "id": "109c1660a50619f7",
+      "source": "prnewswire_financial",
+      "title": "Banco Macro Announces Results for the Third Quarter of 2026",
+      "summary": "BUENOS AIRES, Argentina, Nov. 25, 2026 /PRNewswire/ -- Banco Macro S.A. (NYSE: BMA; BYMA: BMA) (\"Banco Macro\" or \"BMA\" or the \"Bank\") announced today its results for the third quarter ended September 30, 2026 (\"3Q26\"). All figures are in Argentine pesos (Ps.) and have been restated in...",
+      "url": "https://www.prnewswire.com/news-releases/banco-macro-announces-results-for-the-third-quarter-of-2026-302950900.html",
+      "published_at": "2026-11-25T23:50:00Z",
+      "tickers": [
+        "BMA"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T05:32:00Z"
+    },
     {
       "id": "536b92ae7e327e6e",
       "source": "prnewswire",
@@ -35,6 +479,38 @@
       "news_side": null,
       "actionable": false,
       "scanned_at": "2026-11-25T23:35:25Z"
+    },
+    {
+      "id": "e4cba312b8a26b3a",
+      "source": "marketwatch",
+      "title": "I\u2019m in my 70s and buying a new BMW X1. Should I put my only son on the title?",
+      "summary": "\u201cGiven my age, I never make a major new purchase without thinking about the future.\u201d",
+      "url": "https://www.marketwatch.com/story/im-in-my-70s-and-buying-a-new-bmw-x1-should-i-put-my-only-son-on-the-title-25731040?mod=mw_rss_topstories",
+      "published_at": "2026-11-25T23:30:00Z",
+      "tickers": [
+        "I"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T05:32:02Z"
+    },
+    {
+      "id": "48339a9a954b25a1",
+      "source": "marketwatch",
+      "title": "I\u2019ve been married for 58 years. It\u2019s \u2018our\u2019 money, not \u2018his\u2019 and \u2018hers.\u2019 Why do so many couples keep their finances separate?",
+      "summary": "\u201cMy wife stopped working outside the home in 1970.\u201d",
+      "url": "https://www.marketwatch.com/story/ive-been-married-for-58-years-its-our-money-not-his-and-hers-why-dont-others-feel-the-same-c5745889?mod=mw_rss_topstories",
+      "published_at": "2026-11-25T23:00:00Z",
+      "tickers": [
+        "I"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T05:32:02Z"
     },
     {
       "id": "1891bc9f6738d3df",
@@ -94,7 +570,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-25T23:35:25Z"
+      "scanned_at": "2026-11-26T05:32:00Z"
     },
     {
       "id": "441347e23f9a4ff1",
@@ -126,7 +602,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-25T23:35:25Z"
+      "scanned_at": "2026-11-26T05:32:00Z"
     },
     {
       "id": "18978117b61ea02b",
@@ -158,7 +634,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-25T23:35:25Z"
+      "scanned_at": "2026-11-26T05:32:00Z"
     },
     {
       "id": "45b6bdfaccea9a82",
@@ -218,7 +694,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-25T23:35:25Z"
+      "scanned_at": "2026-11-26T05:32:00Z"
     },
     {
       "id": "b9b004231cefcf08",
@@ -232,7 +708,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-25T23:35:26Z"
+      "scanned_at": "2026-11-26T05:32:01Z"
     },
     {
       "id": "1bbbe9114119057e",
@@ -247,7 +723,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-25T23:35:24Z"
+      "scanned_at": "2026-11-26T05:31:59Z"
     },
     {
       "id": "002281fcbcfaaf83",
@@ -262,7 +738,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-25T23:35:24Z"
+      "scanned_at": "2026-11-26T05:31:59Z"
     },
     {
       "id": "38e814e52c47c8b4",
@@ -277,7 +753,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-25T23:35:24Z"
+      "scanned_at": "2026-11-26T05:31:59Z"
     },
     {
       "id": "1348a19270f28c25",
@@ -305,7 +781,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-25T23:35:25Z"
+      "scanned_at": "2026-11-26T05:32:00Z"
     },
     {
       "id": "65bee6df6df830ce",
@@ -320,7 +796,21 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-25T23:35:24Z"
+      "scanned_at": "2026-11-26T05:31:59Z"
+    },
+    {
+      "id": "0d0731d46968f272",
+      "source": "marketwatch",
+      "title": "Oracle, CoreWeave and other tech stocks bounce back after selloff",
+      "summary": "Oracle, CoreWeave and other technology stocks bounced back from early losses on Wednesday, after what appeared to be a major selloff eased ahead of the market\u2019s close.",
+      "url": "https://www.marketwatch.com/story/oracles-stock-sinks-toward-a-3-year-low-as-the-ai-trade-continues-to-unravel-d4698d77?mod=mw_rss_topstories",
+      "published_at": "2026-11-25T22:16:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T05:32:02Z"
     },
     {
       "id": "e3656d0b247cd835",
@@ -335,7 +825,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-25T23:35:24Z"
+      "scanned_at": "2026-11-26T05:31:59Z"
     },
     {
       "id": "ad61430806876eb6",
@@ -350,7 +840,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-25T23:35:24Z"
+      "scanned_at": "2026-11-26T05:31:59Z"
     },
     {
       "id": "89740e993263b9a6",
@@ -365,7 +855,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-25T23:35:24Z"
+      "scanned_at": "2026-11-26T05:31:59Z"
     },
     {
       "id": "1cf612a3ff6e2da3",
@@ -380,7 +870,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-25T23:35:24Z"
+      "scanned_at": "2026-11-26T05:31:59Z"
     },
     {
       "id": "1d74298ba94386e2",
@@ -425,7 +915,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-25T23:35:24Z"
+      "scanned_at": "2026-11-26T05:31:59Z"
     },
     {
       "id": "372f279fde1269ca",
@@ -440,7 +930,21 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-25T23:35:24Z"
+      "scanned_at": "2026-11-26T05:31:59Z"
+    },
+    {
+      "id": "149d105c7eb7f1fb",
+      "source": "marketwatch",
+      "title": "Nvidia\u2019s stock has given back a big chunk of Monday\u2019s rally as dip buyers cash in",
+      "summary": "Based on where retail investors bought Nvidia shares on the dip last week, their gains are now nearly all gone, according to Vanda Research.",
+      "url": "https://www.marketwatch.com/story/nvidias-stock-is-giving-back-more-than-half-of-mondays-rally-as-dip-buyers-cash-in-ee4fa52c?mod=mw_rss_topstories",
+      "published_at": "2026-11-25T22:11:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T05:32:02Z"
     },
     {
       "id": "e56f378089ac9d4d",
@@ -455,7 +959,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-25T23:35:24Z"
+      "scanned_at": "2026-11-26T05:31:59Z"
     },
     {
       "id": "b09b30969edea893",
@@ -470,7 +974,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-25T23:35:24Z"
+      "scanned_at": "2026-11-26T05:31:59Z"
     },
     {
       "id": "db7c1541095e3940",
@@ -485,7 +989,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-25T23:35:24Z"
+      "scanned_at": "2026-11-26T05:31:59Z"
     },
     {
       "id": "ffcc4fe1d9a4ad49",
@@ -500,7 +1004,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-25T23:35:24Z"
+      "scanned_at": "2026-11-26T05:31:59Z"
     },
     {
       "id": "26a9d9cd0f4c60c0",
@@ -515,7 +1019,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-25T23:35:24Z"
+      "scanned_at": "2026-11-26T05:31:59Z"
     },
     {
       "id": "c87673f7a9fe94ff",
@@ -530,7 +1034,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-25T23:35:24Z"
+      "scanned_at": "2026-11-26T05:31:59Z"
     },
     {
       "id": "6c6d8364f1c0a237",
@@ -545,7 +1049,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-25T23:35:24Z"
+      "scanned_at": "2026-11-26T05:31:59Z"
     },
     {
       "id": "64170f919ff3c32b",
@@ -560,7 +1064,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-25T23:35:24Z"
+      "scanned_at": "2026-11-26T05:31:59Z"
     },
     {
       "id": "a7f213f0987f4483",
@@ -575,7 +1079,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-25T23:35:24Z"
+      "scanned_at": "2026-11-26T05:31:59Z"
     },
     {
       "id": "0c4aaa47baf680a9",
@@ -590,7 +1094,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-25T23:35:24Z"
+      "scanned_at": "2026-11-26T05:31:59Z"
     },
     {
       "id": "22eff6eecd73fdff",
@@ -605,7 +1109,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-25T23:35:24Z"
+      "scanned_at": "2026-11-26T05:31:59Z"
     },
     {
       "id": "0499206cf66adccb",
@@ -620,7 +1124,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-25T23:35:24Z"
+      "scanned_at": "2026-11-26T05:31:59Z"
     },
     {
       "id": "e7644a4428858f53",
@@ -635,7 +1139,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-25T23:35:24Z"
+      "scanned_at": "2026-11-26T05:31:59Z"
     },
     {
       "id": "35c3cc87bb8f5752",
@@ -650,7 +1154,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-25T23:35:24Z"
+      "scanned_at": "2026-11-26T05:31:59Z"
     },
     {
       "id": "f8acaea8894c00b3",
@@ -665,7 +1169,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-25T23:35:24Z"
+      "scanned_at": "2026-11-26T05:31:59Z"
     },
     {
       "id": "6b56ab57855f8182",
@@ -680,7 +1184,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-25T23:35:24Z"
+      "scanned_at": "2026-11-26T05:31:59Z"
     },
     {
       "id": "1dbfa7572e982712",
@@ -695,7 +1199,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-25T23:35:24Z"
+      "scanned_at": "2026-11-26T05:31:59Z"
     },
     {
       "id": "3ff101028a3ae4e9",
@@ -724,7 +1228,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-25T23:35:24Z"
+      "scanned_at": "2026-11-26T05:31:59Z"
     },
     {
       "id": "212820731e951626",
@@ -768,7 +1272,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-25T23:35:25Z"
+      "scanned_at": "2026-11-26T05:32:00Z"
     },
     {
       "id": "e34a1e43f857e56f",
@@ -783,7 +1287,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-25T23:35:24Z"
+      "scanned_at": "2026-11-26T05:31:59Z"
     },
     {
       "id": "83f51f1a6ed370ae",
@@ -826,7 +1330,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-25T23:35:24Z"
+      "scanned_at": "2026-11-26T05:31:59Z"
     },
     {
       "id": "efa552b09e44c5c6",
@@ -841,7 +1345,21 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-25T23:35:24Z"
+      "scanned_at": "2026-11-26T05:31:59Z"
+    },
+    {
+      "id": "62432663baaec2ac",
+      "source": "marketwatch",
+      "title": "Elon Musk and SpaceX to donate roughly $17.8 billion to \u2018Trump accounts\u2019",
+      "summary": "SpaceX to provide one newly issued Class A share to every active \u2018Trump account,\u2019 and CEO Musk will match that gift.",
+      "url": "https://www.marketwatch.com/story/elon-musk-and-spacex-to-donate-roughly-17-8-billion-to-trump-accounts-071c12e1?mod=mw_rss_topstories",
+      "published_at": "2026-11-25T21:50:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T05:32:02Z"
     },
     {
       "id": "149b20eeb7e50e63",
@@ -856,7 +1374,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-25T23:35:24Z"
+      "scanned_at": "2026-11-26T05:31:59Z"
     },
     {
       "id": "280217f05e9d3726",
@@ -871,7 +1389,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-25T23:35:24Z"
+      "scanned_at": "2026-11-26T05:31:59Z"
     },
     {
       "id": "4f0651626a75ab42",
@@ -886,7 +1404,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-25T23:35:24Z"
+      "scanned_at": "2026-11-26T05:31:59Z"
     },
     {
       "id": "75c98b0e4a7904ff",
@@ -901,7 +1419,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-25T23:35:24Z"
+      "scanned_at": "2026-11-26T05:31:59Z"
     },
     {
       "id": "d29f1a33e4e61005",
@@ -933,7 +1451,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-25T23:35:25Z"
+      "scanned_at": "2026-11-26T05:32:00Z"
     },
     {
       "id": "ca0d8bc5571e9661",
@@ -950,6 +1468,22 @@
       "scanned_at": "2026-11-25T23:35:25Z"
     },
     {
+      "id": "91240d97ce8e4106",
+      "source": "marketwatch",
+      "title": "HP\u2019s stock is a standout gainer in the tech selloff, as an earnings beat still matters",
+      "summary": "PC maker\u2019s \u2018low-quality\u2019 beat is enough to propel its shares amid the tech rout.",
+      "url": "https://www.marketwatch.com/story/hps-stock-is-a-standout-gainer-in-the-tech-rout-as-an-earnings-beat-still-matters-8f6c76ad?mod=mw_rss_topstories",
+      "published_at": "2026-11-25T21:36:00Z",
+      "tickers": [
+        "HP"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T05:32:02Z"
+    },
+    {
       "id": "eaeb4840adfa4e2a",
       "source": "edgar_8k",
       "title": "8-K - USCB FINANCIAL HOLDINGS, INC. (0001901637) (Filer)",
@@ -962,7 +1496,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-25T23:35:24Z"
+      "scanned_at": "2026-11-26T05:31:59Z"
     },
     {
       "id": "396f2a50cebc206e",
@@ -991,7 +1525,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-25T23:35:24Z"
+      "scanned_at": "2026-11-26T05:31:59Z"
     },
     {
       "id": "969bdd442e521d54",
@@ -1006,7 +1540,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-25T23:35:24Z"
+      "scanned_at": "2026-11-26T05:31:59Z"
     },
     {
       "id": "c30d4a49f35dfecd",
@@ -1021,7 +1555,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-25T23:35:24Z"
+      "scanned_at": "2026-11-26T05:31:59Z"
     },
     {
       "id": "52d487d78a907726",
@@ -1036,7 +1570,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-25T23:35:24Z"
+      "scanned_at": "2026-11-26T05:31:59Z"
     },
     {
       "id": "3c65ef0f773138ee",
@@ -1050,7 +1584,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-25T23:35:25Z"
+      "scanned_at": "2026-11-26T05:32:00Z"
     },
     {
       "id": "28d5985dd9c9cf50",
@@ -1064,7 +1598,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-25T23:35:25Z"
+      "scanned_at": "2026-11-26T05:32:00Z"
     },
     {
       "id": "9d84ebfafed1dce2",
@@ -1081,7 +1615,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-25T23:35:25Z"
+      "scanned_at": "2026-11-26T05:32:00Z"
     },
     {
       "id": "38fd70083a213b39",
@@ -1095,7 +1629,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-25T23:35:25Z"
+      "scanned_at": "2026-11-26T05:32:00Z"
     },
     {
       "id": "17b2df89671485c6",
@@ -1109,7 +1643,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-25T23:35:25Z"
+      "scanned_at": "2026-11-26T05:32:00Z"
     },
     {
       "id": "bb4360e9042a6b1c",
@@ -1125,7 +1659,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-25T23:35:25Z"
+      "scanned_at": "2026-11-26T05:32:00Z"
     },
     {
       "id": "99655ea342fc513d",
@@ -1810,7 +2344,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-25T23:35:26Z"
+      "scanned_at": "2026-11-26T05:32:02Z"
     },
     {
       "id": "b6b7531905246464",
@@ -2278,7 +2812,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-25T23:35:26Z"
+      "scanned_at": "2026-11-26T05:32:01Z"
     },
     {
       "id": "96bfb62d51d3531d",
@@ -2377,7 +2911,7 @@
       "id": "ed21efe4418e1a5f",
       "source": "marketwatch",
       "title": "I hate that Jensen Huang is back at Nvidia, but I love what it\u2019s done for my 401(k). Am I a hypocrite?",
-      "summary": "\u201cI was paralyzed during the market downturn.\u201d",
+      "summary": "Doing nothing and maintaining an even temperament is often the work of gods.",
       "url": "https://www.marketwatch.com/story/i-hate-that-jensen-huang-is-back-at-nvidia-but-i-love-what-its-done-for-my-401-k-am-i-a-hypocrite-f63c0303?mod=mw_rss_topstories",
       "published_at": "2026-11-25T14:01:00Z",
       "tickers": [
@@ -2387,7 +2921,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-25T14:56:44Z"
+      "scanned_at": "2026-11-26T05:32:02Z"
     },
     {
       "id": "c8e56c45c49396a4",
@@ -3040,7 +3574,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-25T23:35:26Z"
+      "scanned_at": "2026-11-26T05:32:02Z"
     },
     {
       "id": "2a69ed3085a143d3",
@@ -3678,7 +4212,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-25T23:35:26Z"
+      "scanned_at": "2026-11-26T05:32:02Z"
     },
     {
       "id": "4c69408c17a3c9f2",
@@ -3878,6 +4412,20 @@
       "news_side": null,
       "actionable": false,
       "scanned_at": "2026-11-25T04:33:39Z"
+    },
+    {
+      "id": "3dcc35b4d966043b",
+      "source": "cnbc_finance",
+      "title": "Kalshi daily volume of \u2018perps\u2019 trading begins to top its prediction markets",
+      "summary": "The product, the first one beyond event contracts, was introduced in May.",
+      "url": "https://www.cnbc.com/2026/11/24/kalshi-perps-volume-prediction-markets.html",
+      "published_at": "2026-11-24T23:03:24Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T05:32:02Z"
     },
     {
       "id": "aad2cb57c4a9ffdc",
@@ -4632,7 +5180,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-25T04:33:41Z"
+      "scanned_at": "2026-11-26T05:32:02Z"
     },
     {
       "id": "bdc9d324eb2dc449",
@@ -4677,6 +5225,148 @@
       "news_side": null,
       "actionable": false,
       "scanned_at": "2026-11-24T21:23:16Z"
+    },
+    {
+      "id": "9576a0e3daeebe86",
+      "source": "cnbc_finance",
+      "title": "Utah drops criminal charges against Kalshi founders after company suspended operations in state",
+      "summary": "Co-founders of the prediction market platform were slated to appear in a state district court in December.",
+      "url": "https://www.cnbc.com/2026/11/24/utah-drops-charges-against-kalshi-after-it-halted-operations-in-state.html",
+      "published_at": "2026-11-24T20:45:57Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T05:32:02Z"
+    },
+    {
+      "id": "22c55472e9c2650d",
+      "source": "cnbc_business",
+      "title": "Retail turnarounds are taking hold just in time for the holiday season",
+      "summary": "Retail earnings reports on Tuesday pointed to a mix of factors behind the strong results, including a resilient consumer and stronger execution.",
+      "url": "https://www.cnbc.com/2026/11/24/retail-turnarounds-holiday-season.html",
+      "published_at": "2026-11-24T19:26:39Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T05:32:01Z"
+    },
+    {
+      "id": "2a593cc6e6dc2bb5",
+      "source": "cnbc_business",
+      "title": "Best Buy reports comparable sales growth of 6.1%, highest in five years",
+      "summary": "Best Buy beat quarterly expectations for its fiscal third-quarter earnings results on Tuesday and raised its full-year guidance.",
+      "url": "https://www.cnbc.com/2026/11/24/best-buy-bby-q3-2027-earnings.html",
+      "published_at": "2026-11-24T14:51:58Z",
+      "tickers": [],
+      "event_type": "earnings",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T05:32:01Z"
+    },
+    {
+      "id": "8d67dd25a6271816",
+      "source": "cnbc_finance",
+      "title": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation",
+      "summary": "The influential central banker expressed confidence that inflation will get closer to the Fed's 2% target in 2027.",
+      "url": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html",
+      "published_at": "2026-11-24T13:33:26Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T05:32:02Z"
+    },
+    {
+      "id": "f6ff266a26540a30",
+      "source": "cnbc_business",
+      "title": "Some U.S. food banks see demand top pandemic levels",
+      "summary": "A combination of high costs and restrictions to federal aid have led to soaring demand at many food banks in the U.S.",
+      "url": "https://www.cnbc.com/2026/11/24/us-food-banks-demand-snap.html",
+      "published_at": "2026-11-24T12:00:01Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T05:32:01Z"
+    },
+    {
+      "id": "277d12d278d7087f",
+      "source": "cnbc_business",
+      "title": "Employees at Eric Trump-backed robot startup lose health benefits as company's cash crunch deepens",
+      "summary": "Foundation is pursuing an emergency bridge loan and has been in talks with VC firms as it waits for a $150 million investment from South Korea's Base Group.",
+      "url": "https://www.cnbc.com/2026/11/22/foundation-future-industries-health-benefits-payroll-base-group.html",
+      "published_at": "2026-11-23T23:28:19Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T05:32:01Z"
+    },
+    {
+      "id": "e6c2e9dcac6976cd",
+      "source": "cnbc_finance",
+      "title": "Employees at Eric Trump-backed robot startup lose health benefits as company's cash crunch deepens",
+      "summary": "Foundation is pursuing an emergency bridge loan and has been in talks with VC firms as it waits for a $150 million investment from South Korea's Base Group.",
+      "url": "https://www.cnbc.com/2026/11/22/foundation-future-industries-health-benefits-payroll-base-group.html",
+      "published_at": "2026-11-23T23:28:19Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T05:32:02Z"
+    },
+    {
+      "id": "32d881a96b060741",
+      "source": "cnbc_business",
+      "title": "ESPN, NFL to show Super Bowl 61 in Imax theaters",
+      "summary": "In addition to ESPN channels, Super Bowl 61 will also be available on streaming platform Disney+ as well as the company's broadcast network ABC.",
+      "url": "https://www.cnbc.com/2026/11/23/espn-nfl-super-bowl-imax.html",
+      "published_at": "2026-11-23T21:55:27Z",
+      "tickers": [
+        "ESPN"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T05:32:01Z"
+    },
+    {
+      "id": "ef84a44033815d96",
+      "source": "cnbc_finance",
+      "title": "\u2018This establishes a bottom\u2019: Jensen Huang\u2019s return seen as likely to stop market sell-off, for now",
+      "summary": "Wall Street strategists say Jensen Huang\u2019s return to Nvidia could steady the AI trade, though spending and data-center risks remain.",
+      "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo-market-rally.html",
+      "published_at": "2026-11-23T18:00:47Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T05:32:02Z"
+    },
+    {
+      "id": "11a367c2362c9b5d",
+      "source": "cnbc_finance",
+      "title": "JPMorgan is working on AI agent transactions that don\u2019t involve humans",
+      "summary": "JPMorgan and Hyundai Card are looking to expand the use of AI agents in financial transactions.",
+      "url": "https://www.cnbc.com/2026/11/18/jpmorgan-hyundai-card-ai-agents-payments.html",
+      "published_at": "2026-11-23T06:06:55Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-26T05:32:02Z"
     }
   ]
 }
