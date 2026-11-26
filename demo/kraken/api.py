@@ -75,7 +75,8 @@ def summary():
     return _ok(dict(
         mode="paper", now=datetime.now(timezone.utc).isoformat(), total=total, gross=gross,
         start_equity=first[0]["equity"] if first else None, started=first[0]["ts"] if first else None,
-        total_hwm=db.kv_get("total_hwm"), books=out_books, positions=positions,
+        total_hwm=db.kv_get("total_hwm"), capital=db.kv_get("start_capital"),
+        eurusd=tk.get("EUR", {}).get("px"), books=out_books, positions=positions,
         last_tick=db.kv_get("last_tick"), daily_done=db.kv_get("daily_done"), llm=db.kv_get("llm_spend"),
         params=db.kv_get("agent_params"), event_stats=db.select("event_stats"),
         policy=pol[0] if pol else None,

@@ -31,6 +31,26 @@ def tickers() -> dict[str, dict]:
     return out
 
 
+def instruments() -> dict[str, int]:
+    """base -> quantity decimals Kraken accepts (contractValueTradePrecision); 4 means 0.0001 is the smallest size."""
+    from . import db
+    c = db.kv_get("instruments")
+    if c and c.get("day") == datetime.now(timezone.utc).date().isoformat():
+        return c["prec"]
+    d = S.get(KF + "/derivatives/api/v3/instruments", timeout=15).json()["instruments"]
+    prec = {}
+    for x in d:
+        s = x["symbol"]
+        if s.startswith("PF_") and s.endswith("USD") and x.get("contractValueTradePrecision") is not None:
+            prec[s[3:-3].replace("XBT", "BTC")] = int(x["contractValueTradePrecision"])
+    db.kv_set("instruments", {"day": datetime.now(timezone.utc).date().isoformat(), "prec": prec})
+    return prec
+
+
+def eurusd() -> float:
+    return ticker_for("EUR") or 1.10
+
+
 def all_perp_bases() -> set[str]:
     """Every base asset with a Kraken perp (for event trades on coins outside the 20-coin core)."""
     d = S.get(KF + "/derivatives/api/v3/tickers", timeout=10).json()["tickers"]

@@ -5,11 +5,31 @@ from __future__ import annotations
 from datetime import datetime, timezone
 
 from . import db
-from .config import BOOKS, START_CAPITAL, TAKER_FEE, slippage
+import math
+
+from .config import BOOKS, MAX_LEVERAGE, START_CAPITAL_EUR, TAKER_FEE, slippage
 
 
 def now():
     return datetime.now(timezone.utc).isoformat()
+
+
+def round_qty(sym: str, q: float) -> float:
+    """Round toward zero to the smallest size Kraken accepts for this perp."""
+    from .market import instruments
+    p = instruments().get(sym, 3)
+    f = 10 ** p
+    return math.trunc(q * f) / f
+
+
+def start_capital_usd() -> float:
+    v = db.kv_get("start_capital")
+    if v:
+        return v["usd"]
+    from .market import eurusd
+    fx = eurusd()
+    db.kv_set("start_capital", {"eur": START_CAPITAL_EUR, "eurusd": fx, "usd": START_CAPITAL_EUR * fx, "ts": now()})
+    return START_CAPITAL_EUR * fx
 
 
 def ensure_books():
@@ -17,7 +37,7 @@ def ensure_books():
     rows = []
     for bid, b in BOOKS.items():
         if bid not in have:
-            cap = START_CAPITAL * b["alloc"]
+            cap = start_capital_usd() * b["alloc"]
             rows.append(dict(id=bid, name=b["name"], description=b["description"], capital=cap, cash=cap, hwm=cap,
                              alloc=b["alloc"], enabled=True, params={"prior_alloc": b["alloc"]}))
     if rows:
@@ -82,10 +102,10 @@ def rebalance(book_id: str, targets: dict[str, float], px: dict[str, float], rea
     for sym in sorted(set(targets) | set(cur)):
         if sym not in px:
             continue
-        tq = targets.get(sym, 0.0) * eq / px[sym]
+        tq = round_qty(sym, targets.get(sym, 0.0) * eq / px[sym])
         q0 = cur[sym]["qty"] if sym in cur else 0.0
         dq = tq - q0
-        if abs(dq * px[sym]) < band * eq and not (tq == 0 and q0 != 0):
+        if abs(dq) < 1e-12 or (abs(dq * px[sym]) < band * eq and not (tq == 0 and q0 != 0)):
             continue
         newp, dcash, tr = _fill(book_id, sym, cur.get(sym), dq, px[sym], reason, decision_id)
         cash += dcash
@@ -104,7 +124,11 @@ def open_event(book_id: str, sym: str, side: str, frac: float, px: float, stop: 
     if any(p["sym"] == sym for p in by[book_id]):
         return None
     eq, _ = book_equity(book, by[book_id], {sym: px})
-    dq = (1 if side == "long" else -1) * frac * eq / px
+    dq = round_qty(sym, (1 if side == "long" else -1) * frac * eq / px)
+    if dq == 0:
+        return None  # below Kraken's minimum size for this account size
+    if not margin_ok(abs(dq) * px):
+        return None
     newp, dcash, tr = _fill(book_id, sym, None, dq, px, reason, decision_id, meta)
     newp["stop_px"] = newp["entry_px"] * (1 - stop) if side == "long" else newp["entry_px"] * (1 + stop)
     newp["exit_after"] = exit_after
@@ -112,6 +136,19 @@ def open_event(book_id: str, sym: str, side: str, frac: float, px: float, stop: 
     db.insert("trades", tr)
     db.update("books", {"id": book_id}, {"cash": book["cash"] + dcash, "updated": now()})
     return tr
+
+
+def margin_ok(extra_notional: float, buffer: float = 0.9) -> bool:
+    """Total perp notional across all books must stay under MAX_LEVERAGE x total equity (with a buffer)."""
+    from .market import tickers
+    px = {k: v["px"] for k, v in tickers().items()}
+    books, by = state()
+    tot = gross = 0.0
+    for bid, b in books.items():
+        e, g = book_equity(b, by[bid], px)
+        tot += e
+        gross += g
+    return gross + extra_notional <= MAX_LEVERAGE * buffer * tot
 
 
 def close(book_id: str, pos: dict, px: float, reason: str) -> dict:

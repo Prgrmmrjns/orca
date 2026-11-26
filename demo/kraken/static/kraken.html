@@ -79,7 +79,7 @@
     <div class="books" id="books"></div>
     <h2>Open positions</h2>
     <div class="card tbl"><table id="pos"></table></div>
-    <p class="note">Paper only: fills at the Kraken Futures mark price plus slippage (5 bp majors, 15 bp others) and the 0.05% taker fee; daily funding is charged from Kraken's own rates. No order ever reaches Kraken.</p>
+    <p class="note">Budget €1,000, converted to USD at the start (Kraken perps settle in USD). Sizes are rounded down to the smallest quantity Kraken accepts, so small targets can round to zero. Total notional is kept under 2x equity (assumed EU retail leverage cap). Paper only: fills at the Kraken Futures mark price plus slippage (5 bp majors, 15 bp others) and the 0.05% taker fee; daily funding is charged from Kraken's own rates. No order ever reaches Kraken.</p>
   </section>
   <section id="trades" class="hidden">
     <div class="filters"><select id="tbook"><option value="">All books</option></select></div>
@@ -130,13 +130,15 @@ document.querySelectorAll('#tabs button').forEach(b => b.onclick = () => {
 
 async function overview() {
   const [s, eq] = await Promise.all([get('/api/kraken/summary'), get('/api/kraken/equity?days=90')]);
+  const fx = s.eurusd || s.capital?.eurusd || 1.1;
+  const eur = (x, d=0) => x == null ? '–' : (x < 0 ? '-€' : '€') + Math.abs(x / fx).toLocaleString('en-US', {maximumFractionDigits: d, minimumFractionDigits: d});
   const pnl = s.start_equity ? s.total - s.start_equity : null;
   const dd = s.total_hwm ? 1 - s.total / s.total_hwm : 0;
   const lt = s.last_tick?.ts;
   $('#status').textContent = `last scrape ${ago(lt)} · daily job ${s.daily_done || 'not yet'} · ${s.news_24h} news in 24h`;
   $('#kpis').innerHTML = [
-    ['Total equity', usd(s.total), `started ${s.started ? loc(s.started) : '–'}`],
-    ['P&L since start', `<span class="${cls(pnl)}">${usd(pnl)}</span>`, s.start_equity ? pct(pnl / s.start_equity) : ''],
+    ['Total equity', eur(s.total, 2), `${usd(s.total, 2)} · budget €${s.capital?.eur ?? '–'} from ${s.started ? loc(s.started) : '–'}`],
+    ['P&L since start', `<span class="${cls(pnl)}">${eur(pnl, 2)}</span>`, s.start_equity ? pct(pnl / s.start_equity) + ' · ' + usd(pnl, 2) : ''],
     ['Drawdown', pct(dd), `brake at 15% / 25%`],
     ['Gross exposure', pct(s.gross / s.total, 0), usd(s.gross)],
     ['Open positions', s.positions.length, `${s.books.filter(b => b.enabled).length}/${s.books.length} books on`],
@@ -145,12 +147,12 @@ async function overview() {
   ].map(([l, v, sub]) => `<div class="card kpi"><div class="l">${l}</div><div class="v">${v}</div><div class="s">${sub}</div></div>`).join('');
   $('#books').innerHTML = s.books.map(b => `<div class="card book">
       <div class="row"><b>${esc(b.name)}</b><span class="badge" style="color:${COLORS[b.id]}">${pct(b.alloc, 0)}</span></div>
-      <div class="row" style="margin-top:6px"><span>${usd(b.equity)}</span><span class="${cls(b.equity - b.hwm)}">dd ${pct(b.dd, 1)}</span></div>
+      <div class="row" style="margin-top:6px"><span>${usd(b.equity, 2)}</span><span class="${cls(b.equity - b.hwm)}">dd ${pct(b.dd, 1)}</span></div>
       <div class="muted" style="font-size:12px">gross ${pct(b.gross / Math.max(b.equity, 1), 0)} ${b.enabled ? '' : '· <b class="down">switched off</b>'}</div>
       <p>${esc(b.description)}</p></div>`).join('');
   $('#pos').innerHTML = '<tr><th>Book</th><th>Coin</th><th>Side</th><th class="n">Notional</th><th class="n">Entry</th><th class="n">Mark</th><th class="n">Return</th><th class="n">Unreal. P&L</th><th>Since</th><th>Exit plan</th></tr>' +
     (s.positions.map(p => `<tr><td>${p.book}</td><td><b>${p.sym}</b></td><td class="${p.qty > 0 ? 'up' : 'down'}">${p.qty > 0 ? 'long' : 'short'}</td>
-      <td class="n">${usd(Math.abs(p.notional))}</td><td class="n">${(+p.entry_px).toPrecision(6)}</td><td class="n">${(+p.px).toPrecision(6)}</td>
+      <td class="n">${usd(Math.abs(p.notional), 2)}</td><td class="n">${(+p.entry_px).toPrecision(6)}</td><td class="n">${(+p.px).toPrecision(6)}</td>
       <td class="n ${cls(p.ret)}">${pct(p.ret)}</td><td class="n ${cls(p.upnl)}">${usd(p.upnl, 2)}</td><td>${ago(p.entry_ts)}</td>
       <td class="muted">${p.exit_after ? 'exit ' + loc(p.exit_after) + ', stop ' + (+p.stop_px).toPrecision(5) : 'weekly rebalance'}</td></tr>`).join('') || '<tr><td colspan="10" class="muted">No open positions</td></tr>');
   const series = {};
@@ -177,7 +179,7 @@ async function trades() {
   if ($('#tbook').options.length < 2) ['trend_alt','lowrisk','policy','events'].forEach(x => $('#tbook').add(new Option(x, x)));
   $('#ttbl').innerHTML = '<tr><th>Time</th><th>Book</th><th>Coin</th><th>Side</th><th class="n">Qty</th><th class="n">Price</th><th class="n">Notional</th><th class="n">Fee</th><th class="n">Realised P&L</th><th>Reason</th></tr>' +
     (t.map(r => `<tr><td>${loc(r.ts)}</td><td>${r.book}</td><td><b>${r.sym}</b></td><td class="${r.side === 'buy' ? 'up' : 'down'}">${r.side}</td>
-      <td class="n">${(+r.qty).toPrecision(5)}</td><td class="n">${(+r.px).toPrecision(6)}</td><td class="n">${usd(r.notional)}</td><td class="n">${usd(r.fee, 2)}</td>
+      <td class="n">${(+r.qty).toPrecision(5)}</td><td class="n">${(+r.px).toPrecision(6)}</td><td class="n">${usd(r.notional, 2)}</td><td class="n">${usd(r.fee, 3)}</td>
       <td class="n ${cls(r.pnl)}">${usd(r.pnl, 2)}</td><td class="muted">${esc(r.reason)}</td></tr>`).join('') || '<tr><td colspan="10" class="muted">No trades yet</td></tr>');
 }
 

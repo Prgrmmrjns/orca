@@ -125,11 +125,20 @@ def weekly(px, tk, tot, hwm) -> dict:
     w, info = signals.policy(C, fund, pol["theta"])
     info["theta"] = {k: round(v, 3) for k, v in pol["theta"].items()}
     plans["policy"] = (w, info)
+    # margin: scale every systematic book down together if the combined notional would exceed the leverage cap
+    from .config import MAX_LEVERAGE
+    alloc = {b: books[b]["alloc"] for b in books}
+    planned = sum(alloc.get(b, 0) * sum(abs(v) for v in w.values()) for b, (w, _) in plans.items()) * brake
+    ev_gross = sum(abs(p["qty"]) * px.get(p["sym"], p["entry_px"]) for p in db.select("positions", {"book": "eq.events"})) / max(tot, 1)
+    lev_scale = min(1.0, (MAX_LEVERAGE * 0.9 - ev_gross) / planned) if planned > 0 else 1.0
+    out["leverage_scale"] = round(lev_scale, 3)
     for bid, (w, info) in plans.items():
         if not books.get(bid, {}).get("enabled", False):
             continue
-        tw = {k: v * brake for k, v in w.items() if k in px}
+        tw = {k: v * brake * lev_scale for k, v in w.items() if k in px}
         inputs = dict(book=BOOKS[bid]["name"], rule=BOOKS[bid]["description"], data_through=out["data_end"],
+                      book_capital_usd=round(books[bid]["alloc"] * tot, 2),
+                      note="Small account: Kraken minimum sizes round some targets to zero; that is expected.",
                       targets={k: round(v, 4) for k, v in tw.items()}, drawdown_brake=brake, total_drawdown=round(dd, 4),
                       signal_info=info)
         reasoning = explain(bid, inputs)

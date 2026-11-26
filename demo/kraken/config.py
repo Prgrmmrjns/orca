@@ -25,7 +25,9 @@ def slippage(sym: str) -> float:
     return 0.0005 if sym in MAJORS else 0.0015
 
 
-START_CAPITAL = 100_000.0
+START_CAPITAL_EUR = float(os.environ.get("ORCA_CAPITAL_EUR", "1000"))  # Jonas, 2026-11-26
+# Kraken perps settle in USD: the EUR budget is converted at the live EUR/USD perp price when the books are created.
+MAX_LEVERAGE = 2.0  # conservative EU-retail assumption: total perp notional <= 2x equity (we keep a 10% buffer)
 BOOKS = {
     "trend_alt": dict(name="Trend + alt-data", alloc=0.35,
                       description="Frozen BTC-gated SMA 20/50/100/200 trend on 8 perps (long only) plus a long/short "

@@ -25,4 +25,5 @@ Live: https://orca-paper.vercel.app/kraken. **Paper only:** no code path sends a
 Risk limits (`config.py`, the review can't change them): drawdown brake 15% / 25% on total equity, book kill switch at -30%,
 event size ≤ 25% of the events book, event stop ≤ 6%, hold ≤ 48 h, allocation within 0.5x-1.6x of the prior.
 A losing event type (n ≥ 8, mean < 0, t < -1) is switched off automatically.
+Budget: €1,000 paper (env ORCA_CAPITAL_EUR), converted to USD at start; quantities rounded to Kraken minimum sizes; total notional ≤ 2x equity.
 Haiku spend caps: $30 total, $0.60/day, $20 for scraping (env `ORCA_LLM_CAP_*`).
