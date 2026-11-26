@@ -73,11 +73,15 @@
 <main>
   <section id="overview">
     <div class="grid" id="kpis"></div>
+    <h2>Balance</h2>
+    <div class="grid" id="balance"></div>
+    <h2>Net exposure by coin (all books combined)</h2>
+    <div class="card tbl"><table id="expo"></table></div>
     <h2>Equity by book</h2>
     <div class="card"><div class="chartbox"><canvas id="eq"></canvas></div><p class="note" id="eqnote"></p></div>
     <h2>Books</h2>
     <div class="books" id="books"></div>
-    <h2>Open positions</h2>
+    <h2>Positions (each book's holdings)</h2>
     <div class="card tbl"><table id="pos"></table></div>
     <h2>What it trades, and why</h2>
     <div class="card" style="font-size:13px">
@@ -156,10 +160,32 @@ async function overview() {
       <div class="row" style="margin-top:6px"><span>${usd(b.equity, 2)}</span><span class="${cls(b.equity - b.hwm)}">dd ${pct(b.dd, 1)}</span></div>
       <div class="muted" style="font-size:12px">gross ${pct(b.gross / Math.max(b.equity, 1), 0)} ${b.enabled ? '' : '· <b class="down">switched off</b>'}</div>
       <p>${esc(b.description)}</p></div>`).join('');
-  $('#pos').innerHTML = '<tr><th>Book</th><th>Coin</th><th>Side</th><th>Venue</th><th class="n">Notional</th><th class="n">Entry</th><th class="n">Mark</th><th class="n">Return</th><th class="n">Unreal. P&L</th><th>Since</th><th>Exit plan</th></tr>' +
-    (s.positions.map(p => `<tr><td>${p.book}</td><td><b>${p.sym}</b></td><td class="${p.qty > 0 ? 'up' : 'down'}">${p.qty > 0 ? 'long' : 'short'}</td><td class="muted">perp</td>
-      <td class="n">${usd(Math.abs(p.notional), 2)}</td><td class="n">${(+p.entry_px).toPrecision(6)}</td><td class="n">${(+p.px).toPrecision(6)}</td>
-      <td class="n ${cls(p.ret)}">${pct(p.ret)}</td><td class="n ${cls(p.upnl)}">${usd(p.upnl, 2)}</td><td>${ago(p.entry_ts)}</td>
+  const long = s.positions.filter(p => p.qty > 0).reduce((a, p) => a + p.notional, 0);
+  const short = -s.positions.filter(p => p.qty < 0).reduce((a, p) => a + p.notional, 0);
+  const upnl = s.positions.reduce((a, p) => a + p.upnl, 0);
+  $('#balance').innerHTML = [
+    ['Equity', eur(s.total, 2), 'cash collateral + open P&L'],
+    ['Cash collateral', eur(s.total - upnl, 2), 'no coins held (perps)'],
+    ['Open P&L', `<span class="${cls(upnl)}">${eur(upnl, 2)}</span>`, 'unrealised'],
+    ['Realised P&L', `<span class="${cls(s.realised_pnl)}">${eur(s.realised_pnl, 2)}</span>`, 'closed trades, before fees'],
+    ['Fees paid', eur(s.fees_paid, 2), 'taker fee + slippage in fills'],
+    ['Long exposure', eur(long, 0), pct(long / s.total, 0) + ' of equity'],
+    ['Short exposure', eur(short, 0), pct(short / s.total, 0) + ' of equity'],
+    ['Net exposure', `<span class="${cls(long - short)}">${eur(long - short, 0)}</span>`, pct((long - short) / s.total, 0) + ' of equity'],
+  ].map(([l, v, sub]) => `<div class="card kpi"><div class="l">${l}</div><div class="v">${v}</div><div class="s">${sub}</div></div>`).join('');
+  const by = {};
+  s.positions.forEach(p => { const o = (by[p.sym] ||= {net: 0, upnl: 0, books: []}); o.net += p.notional; o.upnl += p.upnl; o.books.push(`${p.book} ${p.qty > 0 ? 'long' : 'short'} ${eur(Math.abs(p.notional))}`); });
+  const coins = Object.entries(by).sort((a, b) => Math.abs(b[1].net) - Math.abs(a[1].net));
+  const mx = Math.max(1, ...coins.map(c => Math.abs(c[1].net)));
+  $('#expo').innerHTML = '<tr><th>Coin</th><th>Net</th><th class="n">Size</th><th class="n">% of equity</th><th style="width:30%"></th><th class="n">Open P&L</th><th>From books</th></tr>' +
+    (coins.map(([c, o]) => `<tr><td><b>${c}</b></td><td class="${o.net > 0 ? 'up' : 'down'}">${o.net > 0 ? 'long' : 'short'}</td>
+      <td class="n">${eur(Math.abs(o.net), 2)}</td><td class="n">${pct(Math.abs(o.net) / s.total, 1)}</td>
+      <td><div style="height:8px;border-radius:4px;width:${(Math.abs(o.net) / mx * 100).toFixed(0)}%;background:${o.net > 0 ? css('--up') : css('--down')}"></div></td>
+      <td class="n ${cls(o.upnl)}">${eur(o.upnl, 2)}</td><td class="muted">${esc(o.books.join(' · '))}</td></tr>`).join('') || '<tr><td colspan="7" class="muted">No open positions</td></tr>');
+  $('#pos').innerHTML = '<tr><th>Coin</th><th>Book</th><th>Side</th><th class="n">Size</th><th class="n">% of equity</th><th class="n">Entry</th><th class="n">Mark</th><th class="n">Return</th><th class="n">P&L</th><th>Since</th><th>Exit plan</th></tr>' +
+    (s.positions.map(p => `<tr><td><b>${p.sym}</b> <span class="muted" style="font-size:11px">perp</span></td><td>${p.book}</td><td class="${p.qty > 0 ? 'up' : 'down'}">${p.qty > 0 ? 'long' : 'short'}</td>
+      <td class="n">${eur(Math.abs(p.notional), 2)}</td><td class="n">${pct(Math.abs(p.notional) / s.total, 1)}</td><td class="n">${(+p.entry_px).toPrecision(6)}</td><td class="n">${(+p.px).toPrecision(6)}</td>
+      <td class="n ${cls(p.ret)}">${pct(p.ret)}</td><td class="n ${cls(p.upnl)}">${eur(p.upnl, 2)}</td><td>${ago(p.entry_ts)}</td>
       <td class="muted">${p.exit_after ? 'exit ' + loc(p.exit_after) + ', stop ' + (+p.stop_px).toPrecision(5) : 'weekly rebalance'}</td></tr>`).join('') || '<tr><td colspan="11" class="muted">No open positions</td></tr>');
   const series = {};
   eq.forEach(r => (series[r.book] ||= []).push({x: new Date(r.ts), y: r.equity}));

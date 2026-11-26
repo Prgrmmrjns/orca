@@ -69,13 +69,17 @@ def summary():
                               ret=(x / p["entry_px"] - 1) * (1 if p["qty"] > 0 else -1),
                               change24h=tk.get(p["sym"], {}).get("change24h")))
     positions.sort(key=lambda r: -abs(r["notional"]))
+    tr = db.select("trades", {"select": "pnl,fee,action"})
+    realised = sum((t["pnl"] or 0) + (t["fee"] or 0) for t in tr if t.get("action", "").startswith(("close", "reduce", "flip")))
+    fees = sum(t["fee"] or 0 for t in tr)
     first = db.select("equity", {"book": "eq.total", "order": "ts"}, limit=1)
     pol = db.select("model_params", {"model": "eq.policy", "order": "ts.desc"}, limit=1)
     since = (datetime.now(timezone.utc) - timedelta(days=1)).isoformat()
     return _ok(dict(
         mode="paper", now=datetime.now(timezone.utc).isoformat(), total=total, gross=gross,
         start_equity=first[0]["equity"] if first else None, started=first[0]["ts"] if first else None,
-        total_hwm=db.kv_get("total_hwm"), capital=db.kv_get("start_capital"),
+        total_hwm=db.kv_get("total_hwm"), realised_pnl=realised, fees_paid=fees,
+        cash=sum(b["cash"] for b in books), capital=db.kv_get("start_capital"),
         eurusd=tk.get("EUR", {}).get("px"), books=out_books, positions=positions,
         last_tick=db.kv_get("last_tick"), daily_done=db.kv_get("daily_done"), llm=db.kv_get("llm_spend"),
         params=db.kv_get("agent_params"), event_stats=db.select("event_stats"),
