@@ -211,3 +211,38 @@ hindsight. It is weak in 2020-21 because the selector had only about a year of h
 gives a positive holdout (+6%/yr), but it is **not profitable in every year**: 2022 lost 19% and 2026 is flat, and the
 combined drawdown (-37% on 2020-24) is worse than trend alone. Across rounds 1-3 about 250 variants were tried, so
 expect live results below these numbers.
+
+## 10. Fast event layer (2026-11-26)
+
+### How fast can we be?
+| Piece | Measured / expected delay |
+|---|---|
+| Kraken WebSocket trades (cloud test) | **60-120 ms** behind the exchange timestamp |
+| Fed press releases (federalreserve.gov RSS, 5 s polling) | ~1-5 s after publication |
+| BLS CPI RSS | release at 08:30 ET; RSS ~seconds |
+| SEC EDGAR 8-K live feed | ~10 s to a few minutes |
+| PR Newswire / BusinessWire RSS | measured 44 s for a fresh item in a 2-minute test |
+| Haiku classification of one headline | ~1-2 s (≈ $0.0001 per headline at Haiku 5.5 prices) |
+| X/Twitter, Bloomberg, Dow Jones, Benzinga Pro | fastest for scandals; paid (≈$100 to thousands per month) |
+
+Professional firms trade Fed and CPI headlines in microseconds, so the first move is gone before any of these feeds deliver.
+
+### Event backtest (`kagent/events.py`, 1-minute BTC & ETH, 70 FOMC decisions + 105 CPI releases, 2018-2026)
+Rule: look at the move from the release to entry time (+1, +5 or +15 min); **follow** it or **fade** it; hold 15 min - 1 day.
+Costs: 0.30% round trip (0.05% perp taker + 0.10% event slippage per side). Design period 2018-2023, test 2024-2026.
+
+- Median BTC move in the first minute: 25 bps; first 15 minutes: 42 bps.
+- **Every short hold (15-60 min) loses after costs in both periods.** Trying to scalp the reaction doesn't pay at our speed.
+- **Following the first 5-minute move and holding 1 day** was positive in both periods: +17 bps/event on 2018-23 (t = 0.5),
+  +64 bps/event on 2024-26 (t = 2.0). Driven by CPI (design +50 bps, test +36 bps); FOMC is inconsistent (design -33, test +105).
+- By year (net bps per event): 2020 +116, 2021 +88, 2022 +32, **2023 -51**, 2024 +77, 2025 +71, 2026 +44.
+- At ~40 events a year this is worth a few % a year at most. It's a small add-on, not a money machine, and statistically weak.
+
+Single-stock news (earnings, CEO scandals) can't be backtested at 1-minute resolution with free data. Kraken's stock perps
+only date from 2026, so that layer has to be judged forward in paper mode.
+
+### Live paper listener (`kagent/live/`)
+`python -m kagent.live.run --minutes 60` subscribes to Kraken perp tickers over WebSocket, polls Fed / BLS / SEC / PR Newswire /
+BusinessWire, sends each new headline to Haiku (structured output: assets, long/short/none, event type, surprise, confidence),
+and opens **paper** positions (5% each, 1-hour exit, fees + slippage) for confident signals. Logs to `research/kagent_live/`.
+It has no order code at all. Needs `ANTHROPIC_API_KEY` (on the Mac's `.env`); without it, it only logs feed delays.
