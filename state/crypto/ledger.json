@@ -6,7 +6,7 @@
  "start_equity": 1000.0,
  "cash": 1000.0,
  "positions": {},
- "last_signal_date": "2026-11-24",
+ "last_signal_date": "2026-11-25",
  "trades": [],
  "history": [
   {
@@ -29,6 +29,12 @@
   },
   {
    "ts": "2026-11-25T00:09:18Z",
+   "equity": 1000.0,
+   "cash": 1000.0,
+   "positions": {}
+  },
+  {
+   "ts": "2026-11-26T00:09:38Z",
    "equity": 1000.0,
    "cash": 1000.0,
    "positions": {}

@@ -1,192 +1,264 @@
 {
- "updated": "2026-11-25T13:18:24Z",
+ "updated": "2026-11-26T00:19:46Z",
  "classifier": "rules",
  "llm_calls": 0,
  "llm_failures": 0,
  "sources": {
   "nvda_newsroom": {
-   "polls": 18,
-   "not_modified": 17,
+   "polls": 120,
+   "not_modified": 119,
    "errors": 0,
-   "last_ok": "2026-11-25T13:18:23Z",
+   "last_ok": "2026-11-26T00:19:43Z",
    "last_error": null,
-   "bytes": 425752
+   "bytes": 425743
   },
   "aapl_newsroom": {
-   "polls": 9,
-   "not_modified": 8,
+   "polls": 60,
+   "not_modified": 59,
    "errors": 0,
-   "last_ok": "2026-11-25T13:18:15Z",
+   "last_ok": "2026-11-26T00:19:38Z",
    "last_error": null,
    "bytes": 18271
   },
   "amzn_ir": {
-   "polls": 9,
-   "not_modified": 8,
+   "polls": 60,
+   "not_modified": 59,
    "errors": 0,
-   "last_ok": "2026-11-25T13:18:18Z",
+   "last_ok": "2026-11-26T00:19:38Z",
    "last_error": null,
    "bytes": 22669
   },
   "googl_ir": {
-   "polls": 9,
-   "not_modified": 8,
+   "polls": 60,
+   "not_modified": 59,
    "errors": 0,
-   "last_ok": "2026-11-25T13:18:15Z",
+   "last_ok": "2026-11-26T00:19:38Z",
    "last_error": null,
    "bytes": 16914
   },
   "meta_ir": {
-   "polls": 9,
-   "not_modified": 8,
+   "polls": 60,
+   "not_modified": 59,
    "errors": 0,
-   "last_ok": "2026-11-25T13:18:15Z",
+   "last_ok": "2026-11-26T00:19:38Z",
    "last_error": null,
    "bytes": 24873
   },
   "coin_ir": {
-   "polls": 9,
-   "not_modified": 8,
+   "polls": 60,
+   "not_modified": 59,
    "errors": 0,
-   "last_ok": "2026-11-25T13:18:15Z",
+   "last_ok": "2026-11-26T00:19:38Z",
    "last_error": null,
    "bytes": 21139
   },
   "crcl_ir": {
-   "polls": 9,
-   "not_modified": 8,
+   "polls": 60,
+   "not_modified": 59,
    "errors": 0,
-   "last_ok": "2026-11-25T13:18:15Z",
+   "last_ok": "2026-11-26T00:19:38Z",
    "last_error": null,
    "bytes": 30138
   },
   "tsla_ir": {
-   "polls": 3,
+   "polls": 6,
    "not_modified": 0,
-   "errors": 3,
+   "errors": 6,
    "last_ok": null,
-   "last_error": "2026-11-25T13:17:40Z HTTPError: 403 Client Error: Forbidden for url: https://ir.tesla.com/feed/PressRelease.svc/GetPressReleaseList?LanguageId=1&bodyType=3&pressReleaseDateFilter=3&categoryId=",
-   "bytes": 1270
+   "last_error": "2026-11-26T00:17:32Z HTTPError: 403 Client Error: Forbidden for url: https://ir.tesla.com/feed/PressRelease.svc/GetPressReleaseList?LanguageId=1&bodyType=3&pressReleaseDateFilter=3&categoryId=",
+   "bytes": 2534
   },
   "hood_ir": {
-   "polls": 3,
+   "polls": 6,
    "not_modified": 0,
-   "errors": 3,
+   "errors": 6,
    "last_ok": null,
-   "last_error": "2026-11-25T13:17:40Z HTTPError: 403 Client Error: Forbidden for url: https://investors.robinhood.com/feed/PressRelease.svc/GetPressReleaseList?LanguageId=1&bodyType=3&pressReleaseDateFilter=3&",
-   "bytes": 1299
+   "last_error": "2026-11-26T00:17:32Z HTTPError: 403 Client Error: Forbidden for url: https://investors.robinhood.com/feed/PressRelease.svc/GetPressReleaseList?LanguageId=1&bodyType=3&pressReleaseDateFilter=3&",
+   "bytes": 2610
   },
   "amd_ir": {
-   "polls": 5,
+   "polls": 30,
    "not_modified": 0,
    "errors": 0,
-   "last_ok": "2026-11-25T13:18:14Z",
+   "last_ok": "2026-11-26T00:19:28Z",
    "last_error": null,
-   "bytes": 37445
+   "bytes": 224670
   },
   "msft_news": {
-   "polls": 1,
-   "not_modified": 0,
+   "polls": 5,
+   "not_modified": 4,
    "errors": 0,
-   "last_ok": "2026-11-25T13:16:55Z",
+   "last_ok": "2026-11-26T00:17:46Z",
    "last_error": null,
-   "bytes": 30237
+   "bytes": 22016
   },
   "sec_8k": {
-   "polls": 8,
+   "polls": 298,
    "not_modified": 0,
    "errors": 0,
-   "last_ok": "2026-11-25T13:18:18Z",
+   "last_ok": "2026-11-26T00:19:45Z",
    "last_error": null,
-   "bytes": 1275522
+   "bytes": 46111980
   },
   "prnewswire": {
-   "polls": 3,
-   "not_modified": 1,
+   "polls": 20,
+   "not_modified": 9,
    "errors": 0,
-   "last_ok": "2026-11-25T13:17:54Z",
+   "last_ok": "2026-11-26T00:19:17Z",
    "last_error": null,
-   "bytes": 86420
+   "bytes": 424628
   },
   "whitehouse": {
-   "polls": 3,
-   "not_modified": 2,
+   "polls": 20,
+   "not_modified": 19,
    "errors": 0,
-   "last_ok": "2026-11-25T13:17:54Z",
+   "last_ok": "2026-11-26T00:19:17Z",
    "last_error": null,
-   "bytes": 461992
+   "bytes": 473080
   },
   "trump_posts": {
-   "polls": 3,
-   "not_modified": 2,
+   "polls": 20,
+   "not_modified": 19,
    "errors": 0,
-   "last_ok": "2026-11-25T13:17:54Z",
+   "last_ok": "2026-11-26T00:19:17Z",
    "last_error": null,
-   "bytes": 175027
+   "bytes": 171771
   },
   "fed_press": {
-   "polls": 3,
-   "not_modified": 2,
+   "polls": 20,
+   "not_modified": 19,
    "errors": 0,
-   "last_ok": "2026-11-25T13:17:54Z",
+   "last_ok": "2026-11-26T00:19:17Z",
    "last_error": null,
-   "bytes": 14357
+   "bytes": 14567
   },
   "bls": {
-   "polls": 2,
-   "not_modified": 1,
+   "polls": 10,
+   "not_modified": 9,
    "errors": 0,
-   "last_ok": "2026-11-25T13:17:54Z",
+   "last_ok": "2026-11-26T00:18:46Z",
    "last_error": null,
    "bytes": 5331
   },
   "bea": {
-   "polls": 1,
-   "not_modified": 0,
+   "polls": 5,
+   "not_modified": 4,
    "errors": 0,
-   "last_ok": "2026-11-25T13:16:56Z",
+   "last_ok": "2026-11-26T00:17:46Z",
    "last_error": null,
-   "bytes": 90126
+   "bytes": 92282
   },
   "fedreg_bis": {
-   "polls": 1,
-   "not_modified": 0,
+   "polls": 3,
+   "not_modified": 2,
    "errors": 0,
-   "last_ok": "2026-11-25T13:16:56Z",
+   "last_ok": "2026-11-26T00:19:46Z",
    "last_error": null,
-   "bytes": 11594
+   "bytes": 34782
   },
   "coindesk": {
-   "polls": 2,
-   "not_modified": 1,
+   "polls": 10,
+   "not_modified": 8,
    "errors": 0,
-   "last_ok": "2026-11-25T13:17:54Z",
+   "last_ok": "2026-11-26T00:18:47Z",
    "last_error": null,
-   "bytes": 61016
+   "bytes": 308040
   },
   "marketwatch": {
-   "polls": 2,
-   "not_modified": 1,
+   "polls": 10,
+   "not_modified": 5,
    "errors": 0,
-   "last_ok": "2026-11-25T13:17:54Z",
+   "last_ok": "2026-11-26T00:18:46Z",
    "last_error": null,
-   "bytes": 8507
+   "bytes": 40485
   },
   "benzinga": {
-   "polls": 2,
-   "not_modified": 1,
+   "polls": 10,
+   "not_modified": 9,
    "errors": 0,
-   "last_ok": "2026-11-25T13:17:54Z",
+   "last_ok": "2026-11-26T00:18:47Z",
    "last_error": null,
-   "bytes": 431084
+   "bytes": 2354530
   },
   "sa_currents": {
-   "polls": 2,
-   "not_modified": 1,
+   "polls": 10,
+   "not_modified": 9,
    "errors": 0,
-   "last_ok": "2026-11-25T13:17:54Z",
+   "last_ok": "2026-11-26T00:18:46Z",
    "last_error": null,
-   "bytes": 5179
+   "bytes": 5046
+  },
+  "binance_listing": {
+   "polls": 60,
+   "not_modified": 59,
+   "errors": 0,
+   "last_ok": "2026-11-26T00:19:38Z",
+   "last_error": null,
+   "bytes": 272940
+  },
+  "binance_delisting": {
+   "polls": 30,
+   "not_modified": 29,
+   "errors": 0,
+   "last_ok": "2026-11-26T00:19:28Z",
+   "last_error": null,
+   "bytes": 112650
+  },
+  "kraken_blog": {
+   "polls": 10,
+   "not_modified": 9,
+   "errors": 0,
+   "last_ok": "2026-11-26T00:18:46Z",
+   "last_error": null,
+   "bytes": 131839
+  },
+  "cointelegraph": {
+   "polls": 10,
+   "not_modified": 7,
+   "errors": 0,
+   "last_ok": "2026-11-26T00:18:47Z",
+   "last_error": null,
+   "bytes": 157797
+  },
+  "theblock": {
+   "polls": 10,
+   "not_modified": 9,
+   "errors": 0,
+   "last_ok": "2026-11-26T00:18:46Z",
+   "last_error": null,
+   "bytes": 35287
+  },
+  "decrypt": {
+   "polls": 10,
+   "not_modified": 9,
+   "errors": 0,
+   "last_ok": "2026-11-26T00:18:47Z",
+   "last_error": null,
+   "bytes": 428520
+  },
+  "rekt": {
+   "polls": 3,
+   "not_modified": 2,
+   "errors": 0,
+   "last_ok": "2026-11-26T00:19:46Z",
+   "last_error": null,
+   "bytes": 10645
+  },
+  "sec_press": {
+   "polls": 10,
+   "not_modified": 9,
+   "errors": 0,
+   "last_ok": "2026-11-26T00:18:47Z",
+   "last_error": null,
+   "bytes": 37098
+  },
+  "cftc_press": {
+   "polls": 5,
+   "not_modified": 4,
+   "errors": 0,
+   "last_ok": "2026-11-26T00:17:46Z",
+   "last_error": null,
+   "bytes": 4469
   }
  }
 }
