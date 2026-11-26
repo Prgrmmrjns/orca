@@ -291,3 +291,24 @@ weights, beta-neutral to BTC, 0.05% taker + 0.05-0.15% slippage per side, actual
 Correlation to BTC is about 0.1, so it can sit next to the trend sleeve. It's positive in both years but modest. The edge
 is real in rank terms, while costs and the short side's squeezes eat a large share of it. Weekly is the only workable
 cadence.
+
+## 12. Combined book, last 2 years (2026-11-26)
+
+Three sleeves, mixed with fixed weights chosen in advance (nothing fitted to the result):
+trend (frozen agent), alt-data composite (round 3), and the weekly beta-neutral low-risk long/short sleeve (`kagent/lowrisk.py`).
+All net of Kraken perp fees, slippage and funding. Year A = 2024-11-26..2025-11-25, year B = 2025-11-26..now.
+The low-risk signal was *found* on year A, so only year B is a clean check for it.
+
+| Mix | A ann | A Sharpe | A maxDD | B ann | B Sharpe | B maxDD |
+|---|---|---|---|---|---|---|
+| trend + alt score | +24.2% | 0.82 | -21.9% | +1.1% | 0.17 | -19.5% |
+| low-risk L/S | +13.7% | 1.20 | -8.0% | +7.4% | 0.52 | -15.7% |
+| **50/50 of the two** | **+20.7%** | **1.17** | **-10.3%** | **+5.6%** | **0.45** | **-15.8%** |
+| 1/3 each (trend, alt, low-risk) | +11.6% | 1.10 | -5.9% | +3.3% | 0.40 | -10.8% |
+| BTC buy & hold | -6.1% | 0.06 | -32.0% | -31.1% | -0.62 | -39.5% |
+
+The low-risk sleeve is uncorrelated with the others (corr -0.07 to trend, +0.09 to BTC), so mixing halves drawdown.
+Both years are positive for every mix, but not every quarter: 2026Q2 and 2026Q4 (to date) are negative (-6% / -8% for 50/50).
+Block-bootstrap Sharpe 90% CI for the 50/50 mix: year A -0.5..2.9, year B -1.7..2.3 (P(Sharpe>0) 0.65 in B).
+Honest read: positive, beats BTC by a wide margin with a third of its drawdown, but the edge in year B is not statistically
+distinguishable from zero. Files: `combined_2y.csv`, `combined_2y_quarterly.csv`, `sleeve_returns_2y.csv.gz`.

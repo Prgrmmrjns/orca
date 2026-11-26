@@ -1,0 +1,13 @@
+mix,period,ann,sh,mdd
+trend_alt,A,24.2,0.82,-21.9
+trend_alt,B,1.1,0.17,-19.5
+lowrisk,A,13.7,1.2,-8.0
+lowrisk,B,7.4,0.52,-15.7
+50/50 trend_alt+lowrisk,A,20.7,1.17,-10.3
+50/50 trend_alt+lowrisk,B,5.6,0.45,-15.8
+lowrisk + trend_alt (both full),A,41.3,1.17,-20.2
+lowrisk + trend_alt (both full),B,9.2,0.45,-29.5
+1/3 each trend/alt/lowrisk,A,11.6,1.1,-5.9
+1/3 each trend/alt/lowrisk,B,3.3,0.4,-10.8
+btc,A,-6.1,0.06,-32.0
+btc,B,-31.1,-0.62,-39.5
