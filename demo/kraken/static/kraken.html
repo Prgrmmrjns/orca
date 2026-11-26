@@ -77,6 +77,8 @@
     <div class="grid" id="balance"></div>
     <h2>Net exposure by coin (all books combined)</h2>
     <div class="card tbl"><table id="expo"></table></div>
+    <h2>Where the money is, over time</h2>
+    <div class="card"><div class="chartbox" style="height:340px"><canvas id="alloc"></canvas></div><p class="note" id="allocnote"></p></div>
     <h2>Equity by book</h2>
     <div class="card"><div class="chartbox"><canvas id="eq"></canvas></div><p class="note" id="eqnote"></p></div>
     <h2>Books</h2>
@@ -130,7 +132,7 @@ const dur = s => { s = Math.max(0, s); return s < 120 ? Math.round(s) + 's' : s 
 const loc = t => t ? new Date(t).toLocaleString([], {month:'short', day:'numeric', hour:'2-digit', minute:'2-digit'}) : '–';
 const get = u => fetch(u).then(r => r.json());
 const COLORS = {total:'#2563eb', trend_alt:'#059669', lowrisk:'#d97706', policy:'#7c3aed', events:'#db2777'};
-let eqChart, thChart, NEWS = [], tab = 'overview';
+let eqChart, alChart, thChart, NEWS = [], tab = 'overview';
 const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
 
 document.querySelectorAll('#tabs button').forEach(b => b.onclick = () => {
@@ -140,7 +142,7 @@ document.querySelectorAll('#tabs button').forEach(b => b.onclick = () => {
 });
 
 async function overview() {
-  const [s, eq] = await Promise.all([get('/api/kraken/summary'), get('/api/kraken/equity?days=90')]);
+  const [s, eq, ex] = await Promise.all([get('/api/kraken/summary'), get('/api/kraken/equity?days=90'), get('/api/kraken/exposure?days=14')]);
   const fx = s.eurusd || s.capital?.eurusd || 1.1;
   const eur = (x, d=0) => x == null ? '–' : (x < 0 ? '-€' : '€') + Math.abs(x / fx).toLocaleString('en-US', {maximumFractionDigits: d, minimumFractionDigits: d});
   const pnl = s.start_equity ? s.total - s.start_equity : null;
@@ -204,6 +206,35 @@ async function overview() {
   const span = npts ? +series.total[npts - 1].x - +series.total[0].x : 0;
   opt.scales.x.ticks.callback = v => span < 2 * 86400000 ? new Date(v).toLocaleTimeString([], {hour: '2-digit', minute: '2-digit'}) : new Date(v).toLocaleDateString([], {month: 'short', day: 'numeric'});
   if (eqChart) { eqChart.data.datasets = ds; eqChart.update(); } else eqChart = new Chart($('#eq'), {type: 'line', data: {datasets: ds}, options: opt});
+  allocChart(ex, fx, span);
+}
+
+// Stacked area: each symbol's value to the account (cost basis + open P&L; a short counts as its
+// entry size plus its profit), plus uninvested cash on top. The bands add up to total equity.
+const PAL = ['#4e79a7','#f28e2b','#59a14f','#e15759','#76b7b2','#edc948','#b07aa1','#ff9da7','#9c755f','#2f6f9f','#c45a1a','#3b7d3b','#a83c3e','#4a9a95','#b39b2e','#7b4f74','#d46c79','#6e5241','#86bcb6','#d4a6c8'];
+function allocChart(ex, fx, span) {
+  const snaps = ex.map(r => ({x: +new Date(r.ts), v: r.v}));
+  const tot = {};
+  snaps.forEach(s => Object.entries(s.v).forEach(([k, v]) => { if (k !== '_cash') tot[k] = (tot[k] || 0) + Math.max(v, 0); }));
+  const syms = Object.keys(tot).sort((a, b) => tot[b] - tot[a]);
+  const MAXN = 18, top = syms.slice(0, MAXN), rest = syms.slice(MAXN);
+  const series = [...top.map((k, i) => ({label: k, color: PAL[i % PAL.length], f: v => v[k] || 0}))];
+  if (rest.length) series.push({label: `${rest.length} others`, color: '#a0a0a0', f: v => rest.reduce((a, k) => a + (v[k] || 0), 0)});
+  series.push({label: 'Cash (not in positions)', color: '#94a3b8', f: v => v._cash || 0});
+  const ds = series.map(se => ({label: se.label, data: snaps.map(s => ({x: s.x, y: Math.max(se.f(s.v), 0) / fx})),
+    borderColor: se.color, backgroundColor: se.color + 'cc', fill: true, borderWidth: 0.5, pointRadius: 0, tension: 0.15}));
+  const grid = css('--line'), tc = css('--muted');
+  const eur0 = v => '€' + Math.round(v).toLocaleString('en-US');
+  const opt = {responsive: true, maintainAspectRatio: false, animation: false, interaction: {mode: 'index', intersect: false},
+    plugins: {legend: {position: window.innerWidth > 700 ? 'right' : 'bottom', reverse: true, labels: {color: tc, boxWidth: 10, font: {size: 11}}},
+      tooltip: {itemSort: (a, b) => b.parsed.y - a.parsed.y, filter: i => i.parsed.y >= 0.5,
+        callbacks: {label: c => `${c.dataset.label}: €${c.parsed.y.toFixed(2)}`,
+          footer: items => 'Total equity: €' + items.reduce((a, i) => a + i.parsed.y, 0).toFixed(2)}}},
+    scales: {x: {type: 'linear', ticks: {color: tc, maxTicksLimit: 8, callback: v => span < 2 * 86400000 ? new Date(v).toLocaleTimeString([], {hour: '2-digit', minute: '2-digit'}) : new Date(v).toLocaleDateString([], {month: 'short', day: 'numeric'})}, grid: {color: grid}},
+             y: {stacked: true, min: 0, ticks: {color: tc, callback: eur0}, grid: {color: grid}}}};
+  $('#allocnote').textContent = (snaps.length < 4 ? `Snapshotted every 30 minutes; the surface fills in over the next hours (${snaps.length} points so far). ` : '') +
+    'Each band is what a position is worth to the account: its entry size plus its open profit or loss. A short counts as its size plus the profit it has made (or minus its loss). Grey on top is cash not used in positions. The bands add up to total equity.';
+  if (alChart) { alChart.data.datasets = ds; alChart.update(); } else alChart = new Chart($('#alloc'), {type: 'line', data: {datasets: ds}, options: opt});
 }
 
 async function trades() {

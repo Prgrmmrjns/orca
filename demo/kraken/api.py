@@ -95,6 +95,16 @@ def equity(days: int = Query(30, le=365)):
     return _ok(db.select("equity", {"ts": f"gte.{since}", "order": "ts", "select": "ts,book,equity"}))
 
 
+@router.get("/api/kraken/exposure")
+def exposure(days: int = Query(7, le=60)):
+    since = (datetime.now(timezone.utc) - timedelta(days=days)).isoformat()
+    rows = db.select("exposure", {"ts": f"gte.{since}", "order": "ts,sym", "select": "ts,sym,notional"})
+    out: dict[str, dict] = {}
+    for r in rows:
+        out.setdefault(r["ts"], {})[r["sym"]] = r["notional"]
+    return _ok([{"ts": t, "v": v} for t, v in out.items()])
+
+
 @router.get("/api/kraken/trades")
 def trades(limit: int = Query(100, le=500), book: str | None = None):
     p = {"order": "ts.desc"}

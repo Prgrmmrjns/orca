@@ -246,6 +246,20 @@ def update_event_stats(etype: str, ret: float):
 
 
 # ============================================================== mark to market
+def exposure_rows(ts: str, by: dict, px: dict, tot: float) -> list[dict]:
+    """Value of each symbol to the account: cost basis plus open P&L (a short is worth its
+    entry notional plus its profit). The rest of equity is '_cash', so the rows sum to equity."""
+    val: dict[str, float] = {}
+    for plist in by.values():
+        for p in plist:
+            x = px.get(p["sym"], p["entry_px"])
+            v = abs(p["qty"]) * p["entry_px"] + p["qty"] * (x - p["entry_px"])
+            val[p["sym"]] = val.get(p["sym"], 0.0) + v
+    rows = [dict(ts=ts, sym=k, notional=v) for k, v in val.items()]
+    rows.append(dict(ts=ts, sym="_cash", notional=tot - sum(val.values())))
+    return rows
+
+
 def snapshot(tk: dict, store: bool):
     books, by = broker.state()
     px = {k: v["px"] for k, v in tk.items()}
@@ -262,6 +276,11 @@ def snapshot(tk: dict, store: bool):
     rows.append(dict(ts=ts, book="total", equity=tot, gross=gross))
     if store:
         db.insert("equity", rows, upsert=True)
+        if utcnow().minute % 30 == 0 or not db.select("exposure", {"select": "ts", "limit": "1"}):
+            try:
+                db.insert("exposure", exposure_rows(ts, by, px, tot), upsert=True)
+            except Exception as e:  # chart data only, never block the tick
+                print("exposure snapshot failed", e)
     hwm = max(db.kv_get("total_hwm", 0) or 0, tot)
     db.kv_set("total_hwm", hwm)
     return tot, hwm
