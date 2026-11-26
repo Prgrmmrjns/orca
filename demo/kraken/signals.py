@@ -241,7 +241,7 @@ def fit_policy(C, fund, start="2019-09-01", gamma=1.0, rho=1e-4):
     return {k: float(v) for k, v in th.items()}, metrics
 
 
-def policy(C, fund, theta, tv=0.15, lev_cap=3.0):
+def policy(C, fund, theta, tv=0.15, lev_cap=3.0, top_k=6):
     C = C[SYMS]
     X, T, R = features(C, fund[SYMS])
     valid = C.notna() & C.shift(200).notna()
@@ -256,7 +256,11 @@ def policy(C, fund, theta, tv=0.15, lev_cap=3.0):
     pv = float(np.sqrt(max(w.values @ S @ w.values, 0)))
     k = min(tv / pv, lev_cap) if pv > 1e-6 else 0.0
     w = (w * k).clip(-0.5, 0.5)
+    if top_k and (w.abs() > 0).sum() > top_k:  # small account: keep the strongest positions, same gross exposure
+        g = w.abs().sum()
+        w = w.where(w.abs().rank(ascending=False) <= top_k, 0.0)
+        w = (w * g / w.abs().sum()).clip(-0.5, 0.5) if w.abs().sum() > 0 else w
     contrib = {f: float(theta[f] * X[f].iloc[-1].fillna(0).abs().mean()) for f in keys_x}
-    info = dict(scale=k, exante_vol_unscaled=pv, net_exposure=float(w.sum()), gross=float(w.abs().sum()),
+    info = dict(scale=k, top_k=top_k, exante_vol_unscaled=pv, net_exposure=float(w.sum()), gross=float(w.abs().sum()),
                 timing={c: float(T[c].iloc[-1]) for c in T}, feature_strength=contrib)
     return {kk: float(v) for kk, v in w.items() if abs(v) > 1e-4}, info

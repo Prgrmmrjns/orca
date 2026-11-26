@@ -80,7 +80,17 @@ def _fill(book_id, sym, cur, dq, px, reason, decision_id, meta=None):
         newp = dict(cur, qty=q1, entry_px=(q0 * e0 + dq * fpx) / q1)
     else:  # reduced
         newp = dict(cur, qty=q1)
-    trade = dict(book=book_id, sym=sym, side=side, qty=abs(dq), px=fpx, notional=abs(dq) * fpx, fee=fee,
+    if q0 == 0:
+        action = "open long" if dq > 0 else "open short"
+    elif abs(q1) < 1e-12:
+        action = "close long" if q0 > 0 else "close short"
+    elif (q0 > 0) != (q1 > 0):
+        action = "flip to long" if q1 > 0 else "flip to short"
+    elif abs(q1) > abs(q0):
+        action = "add to long" if q0 > 0 else "add to short"
+    else:
+        action = "reduce long" if q0 > 0 else "reduce short"
+    trade = dict(book=book_id, sym=sym, side=side, action=action, venue="perp", qty=abs(dq), px=fpx, notional=abs(dq) * fpx, fee=fee,
                  pnl=pnl - fee if pnl else -fee, reason=reason[:500], decision_id=decision_id, ts=now())
     return newp, pnl - fee, trade
 

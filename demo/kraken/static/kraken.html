@@ -79,6 +79,12 @@
     <div class="books" id="books"></div>
     <h2>Open positions</h2>
     <div class="card tbl"><table id="pos"></table></div>
+    <h2>What it trades, and why</h2>
+    <div class="card" style="font-size:13px">
+      <p style="margin:0 0 8px"><b>Kraken perpetual futures (all books).</b> Perps are Kraken's margin product: they go long or short with leverage, for 0.05% taker fee. A <i>sell</i> that opens a position is a <b>short</b>: it profits if the coin falls. No coins are held, only cash collateral plus perp positions.</p>
+      <p style="margin:0 0 8px"><b>Spot margin: not used.</b> Spot costs 0.80% taker plus 0.01-0.04% rollover every 4 h on margin, about 16x the perp fee for the same long/short exposure. Every backtest showed spot/margin losing to perps after costs.</p>
+      <p style="margin:0"><b>xStocks: not used yet.</b> The stock trend edge in the research came mostly from hindsight (today's Kraken list is full of 2025 winners). With a hindsight-free list most of it disappeared, and xStocks cost 0.13% per side. It can run as a small experimental paper book if wanted.</p>
+    </div>
     <p class="note">Budget €1,000, converted to USD at the start (Kraken perps settle in USD). Sizes are rounded down to the smallest quantity Kraken accepts, so small targets can round to zero. Total notional is kept under 2x equity (assumed EU retail leverage cap). Paper only: fills at the Kraken Futures mark price plus slippage (5 bp majors, 15 bp others) and the 0.05% taker fee; daily funding is charged from Kraken's own rates. No order ever reaches Kraken.</p>
   </section>
   <section id="trades" class="hidden">
@@ -150,11 +156,11 @@ async function overview() {
       <div class="row" style="margin-top:6px"><span>${usd(b.equity, 2)}</span><span class="${cls(b.equity - b.hwm)}">dd ${pct(b.dd, 1)}</span></div>
       <div class="muted" style="font-size:12px">gross ${pct(b.gross / Math.max(b.equity, 1), 0)} ${b.enabled ? '' : '· <b class="down">switched off</b>'}</div>
       <p>${esc(b.description)}</p></div>`).join('');
-  $('#pos').innerHTML = '<tr><th>Book</th><th>Coin</th><th>Side</th><th class="n">Notional</th><th class="n">Entry</th><th class="n">Mark</th><th class="n">Return</th><th class="n">Unreal. P&L</th><th>Since</th><th>Exit plan</th></tr>' +
-    (s.positions.map(p => `<tr><td>${p.book}</td><td><b>${p.sym}</b></td><td class="${p.qty > 0 ? 'up' : 'down'}">${p.qty > 0 ? 'long' : 'short'}</td>
+  $('#pos').innerHTML = '<tr><th>Book</th><th>Coin</th><th>Side</th><th>Venue</th><th class="n">Notional</th><th class="n">Entry</th><th class="n">Mark</th><th class="n">Return</th><th class="n">Unreal. P&L</th><th>Since</th><th>Exit plan</th></tr>' +
+    (s.positions.map(p => `<tr><td>${p.book}</td><td><b>${p.sym}</b></td><td class="${p.qty > 0 ? 'up' : 'down'}">${p.qty > 0 ? 'long' : 'short'}</td><td class="muted">perp</td>
       <td class="n">${usd(Math.abs(p.notional), 2)}</td><td class="n">${(+p.entry_px).toPrecision(6)}</td><td class="n">${(+p.px).toPrecision(6)}</td>
       <td class="n ${cls(p.ret)}">${pct(p.ret)}</td><td class="n ${cls(p.upnl)}">${usd(p.upnl, 2)}</td><td>${ago(p.entry_ts)}</td>
-      <td class="muted">${p.exit_after ? 'exit ' + loc(p.exit_after) + ', stop ' + (+p.stop_px).toPrecision(5) : 'weekly rebalance'}</td></tr>`).join('') || '<tr><td colspan="10" class="muted">No open positions</td></tr>');
+      <td class="muted">${p.exit_after ? 'exit ' + loc(p.exit_after) + ', stop ' + (+p.stop_px).toPrecision(5) : 'weekly rebalance'}</td></tr>`).join('') || '<tr><td colspan="11" class="muted">No open positions</td></tr>');
   const series = {};
   eq.forEach(r => (series[r.book] ||= []).push({x: new Date(r.ts), y: r.equity}));
   const ds = Object.entries(series).map(([b, pts]) => ({label: b, data: pts, borderColor: COLORS[b] || '#888', backgroundColor: COLORS[b] || '#888',
@@ -177,10 +183,10 @@ async function trades() {
   const b = $('#tbook').value;
   const t = await get('/api/kraken/trades?limit=300' + (b ? '&book=' + b : ''));
   if ($('#tbook').options.length < 2) ['trend_alt','lowrisk','policy','events'].forEach(x => $('#tbook').add(new Option(x, x)));
-  $('#ttbl').innerHTML = '<tr><th>Time</th><th>Book</th><th>Coin</th><th>Side</th><th class="n">Qty</th><th class="n">Price</th><th class="n">Notional</th><th class="n">Fee</th><th class="n">Realised P&L</th><th>Reason</th></tr>' +
-    (t.map(r => `<tr><td>${loc(r.ts)}</td><td>${r.book}</td><td><b>${r.sym}</b></td><td class="${r.side === 'buy' ? 'up' : 'down'}">${r.side}</td>
+  $('#ttbl').innerHTML = '<tr><th>Time</th><th>Book</th><th>Coin</th><th>Action</th><th>Venue</th><th class="n">Qty</th><th class="n">Price</th><th class="n">Notional</th><th class="n">Fee</th><th class="n">Realised P&L</th><th>Reason</th></tr>' +
+    (t.map(r => `<tr><td>${loc(r.ts)}</td><td>${r.book}</td><td><b>${r.sym}</b></td><td class="${(r.action || r.side).includes('short') || (!r.action && r.side === 'sell') ? 'down' : 'up'}">${esc(r.action || r.side)}<div class="muted" style="font-size:11px">${r.side}</div></td><td class="muted">Kraken ${r.venue || 'perp'}</td>
       <td class="n">${(+r.qty).toPrecision(5)}</td><td class="n">${(+r.px).toPrecision(6)}</td><td class="n">${usd(r.notional, 2)}</td><td class="n">${usd(r.fee, 3)}</td>
-      <td class="n ${cls(r.pnl)}">${usd(r.pnl, 2)}</td><td class="muted">${esc(r.reason)}</td></tr>`).join('') || '<tr><td colspan="10" class="muted">No trades yet</td></tr>');
+      <td class="n ${cls(r.pnl)}">${usd(r.pnl, 2)}</td><td class="muted">${esc(r.reason)}</td></tr>`).join('') || '<tr><td colspan="11" class="muted">No trades yet</td></tr>');
 }
 
 async function decisions() {

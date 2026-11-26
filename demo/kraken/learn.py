@@ -20,6 +20,7 @@ from . import broker, db, llm, signals
 from .config import BOOKS, RISK
 
 ETA = 1.0
+MIN_POSITION_USD = 10.0  # with a EUR 1000 account, smaller positions are mostly fees and rounding
 
 
 def _now():
@@ -136,6 +137,8 @@ def weekly(px, tk, tot, hwm) -> dict:
         if not books.get(bid, {}).get("enabled", False):
             continue
         tw = {k: v * brake * lev_scale for k, v in w.items() if k in px}
+        cap_usd = books[bid]["alloc"] * tot
+        tw = {k: v for k, v in tw.items() if abs(v) * cap_usd >= MIN_POSITION_USD}  # skip dust positions
         inputs = dict(book=BOOKS[bid]["name"], rule=BOOKS[bid]["description"], data_through=out["data_end"],
                       book_capital_usd=round(books[bid]["alloc"] * tot, 2),
                       note="Small account: Kraken minimum sizes round some targets to zero; that is expected.",
