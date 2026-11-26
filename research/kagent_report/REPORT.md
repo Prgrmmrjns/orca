@@ -137,3 +137,40 @@ Bootstrap 90% Sharpe interval: design [0.95, 2.62], holdout [-1.23, 0.85].
 2. When the Haiku news/filings history has a few months of data, test news features as ML inputs with the same
    walk-forward + holdout discipline. Funding rate and open interest (now being collected) are the other candidates.
 3. Equity/commodity perps (13 + 15 + 6 markets) only have weeks-to-months of Kraken history; revisit once longer.
+
+## 8. Round 2 (2026-11-26): trying to make the holdout positive without fitting to it
+
+Jonas asked for more research before paper trading. The trap is to keep trying ideas until one looks good on
+2024-12 → now, which turns the holdout into training data. So every new idea was first judged on 2020-24 only.
+
+| New idea (judged on 2020-24) | Sharpe | Max DD | Verdict |
+|---|---|---|---|
+| Frozen agent (reference) | 1.98 | -26% | |
+| + short coins in bear regime (½ size / full size) | 1.79 / 1.52 | -32% / -37% | worse |
+| Alt-vs-BTC relative trend spread | -0.57 | -64% | fails |
+| Cross-sectional momentum L/S (30/60/90d) | 0.68 / 0.22 / 0.30 | -28% to -43% | fails |
+| Short-term mean reversion on BTC/ETH/SOL/XRP (9 variants) | -0.9 to -1.6 | -33% to -72% | fails |
+| Daily exits (weekly entries) | 1.88 | -24% | similar |
+| Entry filters: price ≥ 2-5% above SMA and/or SMA rising | 1.7-1.9 | **-14% to -24%** | same Sharpe, lower drawdown |
+
+**Walk-forward selection (honest out-of-sample for the whole period).** A family of 56 variants (filters × universe
+BTC/4/8 coins × 20-30% vol target, plus the bear-short versions). Every 6 months, the variant with the best trailing
+2-3 year Sharpe (or Calmar) is picked using only past data and traded for the next 6 months.
+
+| Selection rule | 2021-24 CAGR / Sharpe / DD | **Holdout 2024-12 → now CAGR / Sharpe / DD** |
+|---|---|---|
+| Best trailing 2y Sharpe | 25.5% / 1.43 / -19.7% | **-1.0% / -0.05 / -9.7%** |
+| Best trailing 3y Sharpe | 24.8% / 1.22 / -23.4% | **-0.2% / 0.01 / -7.4%** |
+| Best trailing 2y Calmar | 24.4% / 1.61 / -16.5% | **-2.7% / -0.23 / -10.2%** |
+| Best trailing 3y Calmar | 15.2% / 1.06 / -20.1% | **-0.2% / 0.01 / -7.4%** |
+
+Since mid-2025 every selector picks the same variant: 8 coins, price ≥ 5% above SMA, SMA rising over 10 days, 20% vol target.
+
+**Holdout across all 56 variants:** only 3 of 56 were positive; median -5%/yr. The best (+8.8%/yr) is "full-size shorts in
+bear regime", which was one of the *worst* on 2020-24 (Sharpe 1.52 vs 1.98). Picking it now would be choosing by
+hindsight. Rank correlation between 2020-24 Sharpe and holdout Sharpe is only 0.21.
+
+**Honest conclusion:** with price data alone, I can't find a rule that is both justified by 2020-24 and positive on the
+last two years. What *is* robust is the drawdown control: the walk-forward version lost ~0-1%/yr with a -7% to -10% max
+drawdown while BTC lost 29%/yr with a -58% drawdown. A positive return in this market would need a new source of
+information (news, funding, on-chain), not more tuning of price rules.

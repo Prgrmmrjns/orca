@@ -105,3 +105,29 @@ def regime_trend(close: pd.DataFrame, uni, windows=(50, 100, 200), tv=0.40, gate
             w = w - s
         subs.append(w)
     return (sum(subs) / len(subs)).fillna(0)
+
+
+def regime_trend2(close: pd.DataFrame, uni, windows=(20, 50, 100, 200), tv=0.30, buffer=0.0, slope=0,
+                  coin_cap=0.5, vol_win=30, btc_only=False) -> pd.DataFrame:
+    """regime_trend with false-breakout filters: price must exceed SMA by `buffer` and, if slope>0,
+    the SMA must be higher than `slope` days ago. Applied to both the coin and the BTC gate.
+    btc_only=True trades BTC alone (with the same gate)."""
+    uni = ["BTC"] if btc_only else list(uni)
+    P = close[uni]
+    vol = P.pct_change(fill_method=None).rolling(vol_win).std() * np.sqrt(365)
+    subs = []
+    for N in windows:
+        sma = P.rolling(N).mean()
+        on = P > sma * (1 + buffer)
+        if slope:
+            on &= sma > sma.shift(slope)
+        b = close.BTC.rolling(N).mean()
+        gate = close.BTC > b * (1 + buffer)
+        if slope:
+            gate &= b > b.shift(slope)
+        on = on.mul(gate, axis=0)
+        iv = (1 / vol).where(on)
+        w = iv.div(iv.sum(axis=1), axis=0).fillna(0)
+        pv = (w * vol).sum(axis=1) * 0.85
+        subs.append(w.mul((tv / pv).clip(upper=1).fillna(0), axis=0).clip(upper=coin_cap))
+    return (sum(subs) / len(subs)).fillna(0)
