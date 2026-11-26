@@ -271,9 +271,13 @@ def snapshot(tk: dict, store: bool):
 def tick(force_all=False) -> dict:
     t0 = time.time()
     out = {}
+    m = utcnow()
+    lock = db.kv_get("tick_lock")
+    if lock and (m - datetime.fromisoformat(lock)).total_seconds() < 280:
+        return {"skipped": "previous tick still running"}
+    db.kv_set("tick_lock", m.isoformat())
     try:
         broker.ensure_books()
-        m = utcnow()
         minute = m.hour * 60 + m.minute
         items, status = feeds.poll(minute, force_all=force_all)
         out["sources"] = status
@@ -307,6 +311,8 @@ def tick(force_all=False) -> dict:
     except Exception as e:  # noqa
         log_run("tick", False, t0, traceback.format_exc())
         out["error"] = repr(e)
+    finally:
+        db.kv_set("tick_lock", "2000-01-01T00:00:00+00:00")
     return out
 
 
