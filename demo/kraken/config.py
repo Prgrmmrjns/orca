@@ -14,15 +14,24 @@ PERPS = {
     "FIL": "PF_FILUSD", "ETC": "PF_ETCUSD", "TRX": "PF_TRXUSD", "INJ": "PF_INJUSD",
 }
 SYMS = list(PERPS)
+# Stock perps on Kraken Futures (long and short). Hindsight-light list: names that were already mega-caps/ETFs in 2024
+# (COIN, MSTR, HOOD, PLTR, CRCL are left out: they are on Kraken's list because they won in 2025).
+# Research name -> Kraken base. History before the perps existed = the underlying US close (Yahoo).
+STOCK_MAP = {"SPY": "SPYX", "QQQ": "QQQX", "GLD": "GLDX", "AAPL": "AAPLX", "NVDA": "NVDAX", "GOOGL": "GOOGLX",
+             "AMZN": "AMZNX", "META": "METAX", "TSLA": "TSLAX", "AMD": "AMD", "INTC": "INTC", "MU": "MU"}
+STOCK_PERPS = {b: f"PF_{b}USD" for b in STOCK_MAP.values()}
+STOCKS = list(STOCK_PERPS)
+ALL_PERPS = {**PERPS, **STOCK_PERPS}
 TREND_UNI = ["BTC", "ETH", "SOL", "XRP", "ADA", "DOGE", "LINK", "AVAX"]
 MAJORS = {"BTC", "ETH", "SOL", "XRP"}
 
+# "alloc" below is only the starting split before the agent has any signals; after that allocation is dynamic.
 # Kraken Pro perps tier 1: 0.02% maker / 0.05% taker; slippage assumption from the backtests
 TAKER_FEE = 0.0005
 
 
 def slippage(sym: str) -> float:
-    return 0.0005 if sym in MAJORS else 0.0015
+    return 0.0005 if sym in MAJORS or sym in STOCK_PERPS else 0.0015
 
 
 START_CAPITAL_EUR = float(os.environ.get("ORCA_CAPITAL_EUR", "1000"))  # Jonas, 2026-11-26
@@ -39,6 +48,11 @@ BOOKS = {
     "policy": dict(name="Objective-max ML policy", alloc=0.20,
                    description="Linear policy whose weights maximise net log growth minus a variance penalty "
                                "(closed form), refit weekly on all data since 2019; 15% vol target. Report section 14."),
+    "stocks": dict(name="Stock perps trend", alloc=0.15,
+                   description="SPY-gated SMA 20/50/100/200 trend on 12 Kraken stock perps (SPY, QQQ, GLD, AAPL, NVDA, "
+                               "GOOGL, AMZN, META, TSLA, AMD, INTC, MU): long names above their SMA while SPY is above "
+                               "its SMA, short names below their SMA (half size) while SPY is below. Weekly, 15% vol. "
+                               "Experimental: the stock edge in research was weak once hindsight was removed."),
     "events": dict(name="News / event trades", alloc=0.10,
                    description="Fast event trades from scraped news: Binance listings/delistings and Haiku-rated "
                                "high-impact coin news. Each event type is tracked and switched off if it loses."),
@@ -52,7 +66,8 @@ RISK = dict(
     book_kill_dd=0.30,          # a book is disabled at -30% from its high-water mark
     event_max_weight=0.25,      # per event trade, fraction of the events book
     event_stop=0.06, event_max_hold_h=48,
-    alloc_min=0.5, alloc_max=1.6,  # meta-allocator bounds relative to the prior allocation
+    alloc_floor=0.05, alloc_cap=0.45,  # dynamic allocation bounds per book (fraction of total equity)
+    events_alloc=(0.05, 0.20),
 )
 
 # Anthropic usage (Haiku). Hard caps in USD.

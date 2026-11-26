@@ -8,7 +8,7 @@ import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "demo"))
 from kraken import db  # noqa
-from kraken.config import SYMS  # noqa
+from kraken.config import STOCK_MAP, SYMS  # noqa
 
 D = Path(__file__).resolve().parent.parent / "research" / "kagent_data"
 
@@ -21,6 +21,11 @@ def rows_long(df, a, b, c):
 C = pd.read_csv(D / "close.csv.gz", index_col=0, parse_dates=True)[SYMS].loc["2017-01-01":]
 db.insert("prices_daily", rows_long(C, "sym", "d", "close"), upsert=True)
 print("prices", C.shape)
+
+S = pd.read_csv(D / "stocks_close.csv.gz", index_col=0, parse_dates=True)[list(STOCK_MAP)].loc["2017-01-01":]
+S = S.rename(columns=STOCK_MAP)
+db.insert("prices_daily", rows_long(S, "sym", "d", "close"), upsert=True)
+print("stocks", S.shape)
 
 bf = pd.read_csv(D / "binance_funding_daily.csv.gz", index_col=0, parse_dates=True)
 bf.index = bf.index.tz_localize(None) if bf.index.tz is not None else bf.index

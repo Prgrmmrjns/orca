@@ -6,7 +6,7 @@ import numpy as np
 import pandas as pd
 
 from . import db
-from .config import SYMS, TREND_UNI
+from .config import STOCKS, SYMS, TREND_UNI
 
 H = 7
 
@@ -20,11 +20,13 @@ def load_panel(start: str = "2017-01-01"):
         df = pd.DataFrame(rows, columns=cols).pivot_table(index=cols[0], columns=cols[1], values=cols[2], aggfunc="last")
         df.index = pd.to_datetime(df.index)
         return df.sort_index()
-    C = piv("prices", ["d", "sym", "close"]).reindex(columns=SYMS)
-    C = C.reindex(pd.date_range(C.index[0], C.index[-1], freq="D")).ffill(limit=3)
+    C = piv("prices", ["d", "sym", "close"])
+    C = C.reindex(pd.date_range(C.index[0], C.index[-1], freq="D"))
+    C[SYMS] = C[SYMS].ffill(limit=3)
+    C[[s for s in STOCKS if s in C]] = C[[s for s in STOCKS if s in C]].ffill(limit=5)  # weekends/holidays
     F = piv("funding", ["d", "sym", "rate"])
-    fund = F.reindex(index=C.index, columns=SYMS).fillna(0.10 / 365) if len(F) else \
-        pd.DataFrame(0.10 / 365, index=C.index, columns=SYMS)
+    fund = F.reindex(index=C.index, columns=C.columns).fillna(0.10 / 365) if len(F) else \
+        pd.DataFrame(0.10 / 365, index=C.index, columns=C.columns)
     A = piv("alt", ["d", "k", "v"])
     return C, fund, A
 
@@ -179,6 +181,33 @@ def trend_alt(close, A, thr=0.25, comp_vol=0.25):
     info["btc_above_sma"] = {N: bool(btc.iloc[-1] > btc.rolling(N).mean().iloc[-1]) for N in (20, 50, 100, 200)}
     info["trend_weights"] = tr.iloc[-1][tr.iloc[-1].abs() > 1e-4].round(4).to_dict()
     info["composite_weights"] = comp.iloc[-1][comp.iloc[-1].abs() > 1e-4].round(4).to_dict()
+    return {k: float(v) for k, v in last.items() if abs(v) > 1e-4}, info
+
+
+# ------------------------------------------------------------------ stock perps trend (kagent/stocks_eval.py, + shorts)
+def stocks_trend(close, windows=(20, 50, 100, 200), tv=0.15, cap_w=0.25, short_mult=0.5):
+    uni = [s for s in STOCKS if s in close]
+    P = close[uni]
+    if "SPYX" not in P or P["SPYX"].notna().sum() < 250:
+        return {}, {"error": "not enough SPY history"}
+    vol = P.pct_change(fill_method=None).rolling(60).std() * np.sqrt(365)
+    subs = []
+    gate = {}
+    for N in windows:
+        spy_on = P["SPYX"] > P["SPYX"].rolling(N).mean()
+        gate[N] = bool(spy_on.iloc[-1])
+        sma = P.rolling(N).mean()
+        on = (P > sma).mul(spy_on, axis=0)
+        off = (P < sma).mul(~spy_on, axis=0)
+        iv = 1 / vol
+        wl = iv.where(on).div(iv.where(on).sum(axis=1), axis=0).fillna(0)
+        ws = iv.where(off).div(iv.where(off).sum(axis=1), axis=0).fillna(0)
+        w = wl - short_mult * ws
+        pv = (w.abs() * vol).sum(axis=1) * 0.85
+        subs.append(w.mul((tv / pv).clip(upper=1).fillna(0), axis=0).clip(-cap_w, cap_w))
+    W = weekly(sum(subs) / len(subs))
+    last = W.iloc[-1]
+    info = dict(spy_above_sma=gate, above_own_sma50={s: bool(P[s].iloc[-1] > P[s].rolling(50).mean().iloc[-1]) for s in uni})
     return {k: float(v) for k, v in last.items() if abs(v) > 1e-4}, info
 
 

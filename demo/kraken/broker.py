@@ -35,11 +35,13 @@ def start_capital_usd() -> float:
 def ensure_books():
     have = {b["id"] for b in db.select("books")}
     rows = []
+    norm = sum(b["alloc"] for b in BOOKS.values())
     for bid, b in BOOKS.items():
         if bid not in have:
-            cap = start_capital_usd() * b["alloc"]
+            # starting split only; the agent re-allocates dynamically. A book added to a running account starts empty.
+            cap = start_capital_usd() * b["alloc"] / norm if not have else 0.0
             rows.append(dict(id=bid, name=b["name"], description=b["description"], capital=cap, cash=cap, hwm=cap,
-                             alloc=b["alloc"], enabled=True, params={"prior_alloc": b["alloc"]}))
+                             alloc=b["alloc"] / norm if not have else 0.0, enabled=True, params={}))
     if rows:
         db.insert("books", rows)
 

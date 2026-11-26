@@ -2,8 +2,10 @@
 
 1. Weekly policy refit: the objective-max linear policy is refit on all data since 2019 (closed form) and blended 50/50
    with last week's coefficients so one noisy week can't flip it. Coefficient drift is logged.
-2. Weekly capital re-allocation between books: prior allocation x exp(eta * J_book), J = annualised net log growth minus
-   3x downside variance over the last 8 weeks of the book's own paper P&L, clipped to [0.5x, 1.6x] of the prior.
+2. Weekly dynamic capital split (no fixed percentages): equal ex-ante risk across the systematic books that currently
+   have positions to take (a book with no signal gets nothing), tilted by exp(eta * J_book), J = annualised net log growth
+   minus 3x downside variance over the book's last 8 weeks of paper P&L; per-book floor 5%, cap 45%. Events get 5-20%
+   depending on their own J.
 3. Drawdown brake on total equity: >= 15% below high-water mark -> half size, >= 25% -> quarter size.
 4. Event-type track record: every closed event trade updates its type's stats; a losing type is switched off (agent.py).
 5. Daily Haiku self-review: reads the day's trades, closed event trades, P&L by book, errors and skipped events, writes
@@ -48,30 +50,72 @@ def objective(r: list[float]) -> float:
     return float(365 * np.mean(np.log1p(x)) - 3 * 365 * np.mean(np.minimum(x, 0) ** 2))
 
 
-def reallocate(px, tot) -> dict:
+def exante_vol(C, w: dict) -> float:
+    """Annualised ex-ante vol of a weight vector from the last 60 days of daily returns."""
+    cols = [k for k in w if k in C]
+    if not cols:
+        return 0.0
+    R = C[cols].pct_change(fill_method=None).iloc[-60:].fillna(0)
+    x = np.array([w[k] for k in cols])
+    return float(np.sqrt(max(x @ (R.cov().values * 365) @ x, 0)))
+
+
+def reallocate(px, tot, plans: dict, C) -> dict:
+    """Dynamic capital split (no fixed percentages): equal risk across the systematic books that currently have
+    positions to take, tilted by each book's own recent objective J, plus a performance-driven slice for events."""
     books, by = broker.state()
     rets = book_returns()
     tilts = (db.kv_get("agent_params", {}) or {}).get("book_tilts", {})
-    raw, info = {}, {}
-    for bid, b in books.items():
-        prior = (b.get("params") or {}).get("prior_alloc", BOOKS.get(bid, {}).get("alloc", 0.1))
+    info, raw = {}, {}
+
+    def perf(bid):
         r = rets.get(bid, [])
-        J = objective(r) if len(r) >= 21 else 0.0
-        a = prior * math.exp(ETA * J) * (1 + float(tilts.get(bid, 0.0)))
-        a = min(max(a, RISK["alloc_min"] * prior), RISK["alloc_max"] * prior)
-        if not b["enabled"]:
-            a = 0.0
-        raw[bid] = a
-        info[bid] = dict(prior=prior, days=len(r), J=round(J, 3), tilt=tilts.get(bid, 0.0))
-    s = sum(raw.values()) or 1.0
-    alloc = {k: v / s for k, v in raw.items()}
-    # move cash so each book's equity matches its new allocation (paper transfer)
+        return (objective(r) if len(r) >= 21 else 0.0), len(r)
+    for bid, (w, _) in plans.items():
+        if not books.get(bid, {}).get("enabled", False):
+            continue
+        J, n = perf(bid)
+        v = exante_vol(C, w)
+        g = sum(abs(x) for x in w.values())
+        # risk per unit of capital = v; equal risk -> capital ~ 1/v. A book with no signal gets the floor.
+        base = (1.0 / max(v, 0.05)) if g > 0.02 else 0.0
+        raw[bid] = base * math.exp(ETA * max(min(J, 1.0), -1.0)) * (1 + float(tilts.get(bid, 0.0)))
+        info[bid] = dict(exante_vol_of_targets=round(v, 3), gross=round(g, 3), days=n, J=round(J, 3))
+    lo, hi = RISK["events_alloc"]
+    ev = books.get("events")
+    if ev and ev["enabled"]:
+        J, n = perf("events")
+        on = [s for s in db.select("event_stats") if s["enabled"]]
+        ev_alloc = min(max(0.10 * math.exp(ETA * max(min(J, 1.0), -1.0)), lo), hi)
+        info["events"] = dict(days=n, J=round(J, 3), enabled_types=len(on))
+    else:
+        ev_alloc = 0.0
+    s = sum(raw.values())
+    alloc = {}
+    for bid in books:
+        if bid == "events":
+            alloc[bid] = ev_alloc
+        elif bid in raw and s > 0:
+            alloc[bid] = raw[bid] / s * (1 - ev_alloc)
+        else:
+            alloc[bid] = 0.0
+    # floors / caps, then renormalise (two passes are enough here)
+    for _ in range(2):
+        for bid in alloc:
+            if bid != "events" and alloc[bid] > 0:
+                alloc[bid] = min(max(alloc[bid], RISK["alloc_floor"]), RISK["alloc_cap"])
+        tot_sys = sum(v for k, v in alloc.items() if k != "events")
+        if tot_sys > 0:
+            for bid in alloc:
+                if bid != "events":
+                    alloc[bid] *= (1 - ev_alloc) / tot_sys
+    # a book with nothing to do keeps its cash as collateral; move capital (paper transfer)
     for bid, b in books.items():
         eq, _ = broker.book_equity(b, by[bid], px)
-        target = alloc[bid] * tot
-        db.update("books", {"id": bid}, {"cash": b["cash"] + (target - eq), "alloc": alloc[bid],
-                                          "hwm": b["hwm"] * target / eq if eq > 0 else target})
-        info[bid]["alloc"] = round(alloc[bid], 4)
+        target = alloc.get(bid, 0.0) * tot
+        db.update("books", {"id": bid}, {"cash": b["cash"] + (target - eq), "alloc": alloc.get(bid, 0.0),
+                                          "hwm": b["hwm"] * target / eq if eq > 0 and target > 0 else target})
+        info.setdefault(bid, {})["alloc"] = round(alloc.get(bid, 0.0), 4)
     return info
 
 
@@ -107,7 +151,6 @@ def explain(book, inputs) -> str:
 def weekly(px, tk, tot, hwm) -> dict:
     C, fund, A = signals.load_panel()
     out = {"data_end": str(C.index[-1].date())}
-    out["alloc"] = reallocate(px, tot)
     pol = refit_policy(C, fund)
     out["policy_fit"] = pol["metrics"]
     dd = 1 - tot / hwm if hwm else 0.0
@@ -126,6 +169,10 @@ def weekly(px, tk, tot, hwm) -> dict:
     w, info = signals.policy(C, fund, pol["theta"])
     info["theta"] = {k: round(v, 3) for k, v in pol["theta"].items()}
     plans["policy"] = (w, info)
+    w, info = signals.stocks_trend(C)
+    plans["stocks"] = (w, info)
+    out["alloc"] = reallocate(px, tot, plans, C)
+    books = {b["id"]: b for b in db.select("books")}
     # margin: scale every systematic book down together if the combined notional would exceed the leverage cap
     from .config import MAX_LEVERAGE
     alloc = {b: books[b]["alloc"] for b in books}

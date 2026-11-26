@@ -8,7 +8,7 @@ from datetime import date, datetime, timedelta, timezone
 
 import requests
 
-from .config import PERPS, UA
+from .config import ALL_PERPS, PERPS, UA
 
 S = requests.Session()
 S.headers["User-Agent"] = UA
@@ -79,7 +79,7 @@ def daily_closes(days: int = 10) -> list[dict]:
     since = int(time.time()) - days * 86400
     today = datetime.now(timezone.utc).date()
     rows = []
-    for s, k in PERPS.items():
+    for s, k in ALL_PERPS.items():
         try:
             c = S.get(f"{KF}/api/charts/v1/trade/{k}/1d?from={since}", timeout=15).json().get("candles", [])
         except Exception:
@@ -96,7 +96,7 @@ def daily_funding(days: int = 10) -> list[dict]:
     cutoff = datetime.now(timezone.utc) - timedelta(days=days)
     today = datetime.now(timezone.utc).date()
     rows = []
-    for s, k in PERPS.items():
+    for s, k in ALL_PERPS.items():
         try:
             r = S.get(f"{KF}/derivatives/api/v4/historicalfundingrates?symbol={k}", timeout=15).json().get("rates", [])
         except Exception:
