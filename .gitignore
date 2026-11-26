@@ -25,3 +25,4 @@ research/closes.csv
 stocks/data/cache/
 stocks/data/raw/
 *.parquet
+research/kagent_data/_raw_*.pkl

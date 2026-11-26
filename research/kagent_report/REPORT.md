@@ -174,3 +174,40 @@ hindsight. Rank correlation between 2020-24 Sharpe and holdout Sharpe is only 0.
 last two years. What *is* robust is the drawdown control: the walk-forward version lost ~0-1%/yr with a -7% to -10% max
 drawdown while BTC lost 29%/yr with a -58% drawdown. A positive return in this market would need a new source of
 information (news, funding, on-chain), not more tuning of price rules.
+
+## 9. Round 3 (2026-11-26): new data sources
+
+New inputs (`kagent/altdata.py`, all public, multi-year, lagged to when they were known; FRED +7 days, others +1 day):
+Deribit BTC/ETH perp funding (2019+), Coin Metrics on-chain (MVRV, active addresses, exchange flows), Fear & Greed
+(2018+), total stablecoin supply (DefiLlama), Fed net liquidity (balance sheet − reverse repo − TGA), broad dollar,
+10y real yield.
+
+**News history:** GDELT's API only serves a rolling ~3-month window, and there's no Anthropic key in the cloud
+environment, so there is no multi-year news history to backtest yet. The Haiku scraper's stored output becomes
+testable once a few months have built up.
+
+**Alt-data score (`kagent/round3.py`)**, fully walk-forward: every month, keep the inputs whose past correlation with BTC's
+forward 7d / 28d return was ≥ 0.03 with the same sign in both halves of the past. Then average their 365-day
+z-scores. Go long or short the 8 coins when the score is beyond ±0.25, at a 25% vol target. Recent picks:
+on-chain valuation momentum (MVRV), exchange outflows, Fear & Greed, stablecoin growth, Fed liquidity, and BTC trend.
+Funding flipped sign between periods, so the selector usually dropped it.
+
+| Year | Trend (frozen) | Alt-data score L/S | **Combined (trend + score)** |
+|---|---|---|---|
+| 2020 | +113% | -19% | +97% |
+| 2021 | +119% | -10% | +119% |
+| 2022 | -7% | -3% | **-19%** |
+| 2023 | +61% | +8% | +79% |
+| 2024 | +45% | +25% | +68% |
+| 2025 | +3% | +9% | +21% |
+| 2026 YTD | -4% | +4% | **-0.1%** |
+| Holdout 2024-12→now CAGR / max DD | -2.1% / -19% | +6.5% / -9% | **+6.3% / -22%** |
+| 2020-24 Sharpe / max DD | 1.98 / -26% | 0.01 / -39% | 1.66 / -37% |
+
+Daily return correlation between the two sleeves: 0.18.
+
+**Read:** the alt-data score is the first input that made money in the holdout years without being picked with
+hindsight. It is weak in 2020-21 because the selector had only about a year of history then. Combining it with trend
+gives a positive holdout (+6%/yr), but it is **not profitable in every year**: 2022 lost 19% and 2026 is flat, and the
+combined drawdown (-37% on 2020-24) is worse than trend alone. Across rounds 1-3 about 250 variants were tried, so
+expect live results below these numbers.
