@@ -230,7 +230,7 @@ function allocChart(ex, fx, span) {
       tooltip: {itemSort: (a, b) => b.parsed.y - a.parsed.y, filter: i => i.parsed.y >= 0.5,
         callbacks: {label: c => `${c.dataset.label}: €${c.parsed.y.toFixed(2)}`,
           footer: items => 'Total equity: €' + items.reduce((a, i) => a + i.parsed.y, 0).toFixed(2)}}},
-    scales: {x: {type: 'linear', ticks: {color: tc, maxTicksLimit: 8, callback: v => span < 2 * 86400000 ? new Date(v).toLocaleTimeString([], {hour: '2-digit', minute: '2-digit'}) : new Date(v).toLocaleDateString([], {month: 'short', day: 'numeric'})}, grid: {color: grid}},
+    scales: {x: {type: 'linear', min: snaps[0]?.x, max: snaps[snaps.length - 1]?.x, ticks: {color: tc, maxTicksLimit: 8, callback: v => span < 2 * 86400000 ? new Date(v).toLocaleTimeString([], {hour: '2-digit', minute: '2-digit'}) : new Date(v).toLocaleDateString([], {month: 'short', day: 'numeric'})}, grid: {color: grid}},
              y: {stacked: true, min: 0, ticks: {color: tc, callback: eur0}, grid: {color: grid}}}};
   $('#allocnote').textContent = (snaps.length < 4 ? `Snapshotted every 30 minutes; the surface fills in over the next hours (${snaps.length} points so far). ` : '') +
     'Each band is what a position is worth to the account: its entry size plus its open profit or loss. A short counts as its size plus the profit it has made (or minus its loss). Grey on top is cash not used in positions. The bands add up to total equity.';
