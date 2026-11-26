@@ -11,11 +11,18 @@ from kagent.data import DATA
 PERP = ["SPY", "QQQ", "GLD", "TSLA", "NVDA", "MSTR", "HOOD", "GOOGL", "AAPL", "AMZN", "COIN", "META", "MU", "INTC"]
 XSTOCK_ONLY = ["MSFT", "AVGO", "AMD", "PLTR", "NFLX", "JPM", "ORCL", "LLY", "V", "COST", "WMT", "XOM", "UNH", "SLV"]
 STOCKS = PERP + XSTOCK_ONLY
+# Hindsight-free universe: ~50 largest US stocks by market cap around 2024-11 (start of the test window), plus SPY/QQQ/GLD.
+# Kraken lists most of them as xStocks. Use this one for stock strategies so later winners (PLTR, HOOD...) don't leak in.
+SP50_2024 = ["AAPL", "NVDA", "MSFT", "AMZN", "GOOGL", "META", "TSLA", "AVGO", "BRK-B", "LLY", "WMT", "JPM", "V", "UNH",
+             "XOM", "ORCL", "MA", "HD", "PG", "COST", "JNJ", "NFLX", "ABBV", "BAC", "CRM", "KO", "MRK", "CVX", "AMD",
+             "WFC", "TMUS", "CSCO", "PEP", "ADBE", "ACN", "LIN", "MCD", "NOW", "TMO", "IBM", "ABT", "PM", "GE", "CAT",
+             "DIS", "ISRG", "QCOM", "TXN", "INTU", "GS", "SPY", "QQQ", "GLD"]
+ALL = sorted(set(STOCKS) | set(SP50_2024))
 
 
 def build() -> None:
     import yfinance as yf
-    df = yf.download(STOCKS, start="2022-01-01", progress=False, auto_adjust=True)["Close"]
+    df = yf.download(ALL, start="2018-01-01", progress=False, auto_adjust=True)["Close"]
     df.to_csv(DATA / "stocks_close.csv.gz")
     print(df.shape, df.index[0].date(), df.index[-1].date(), df.isna().sum().to_dict())
 
