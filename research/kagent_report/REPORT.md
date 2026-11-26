@@ -246,3 +246,48 @@ only date from 2026, so that layer has to be judged forward in paper mode.
 BusinessWire, sends each new headline to Haiku (structured output: assets, long/short/none, event type, surprise, confidence),
 and opens **paper** positions (5% each, 1-hour exit, fees + slippage) for confident signals. Logs to `research/kagent_live/`.
 It has no order code at all. Needs `ANTHROPIC_API_KEY` (on the Mac's `.env`); without it, it only logs feed delays.
+
+## 11. Signal discovery, last 2 years only (2026-11-26)
+
+New data: Kraken Futures' own public analytics for 30 perps, daily, and hourly for BTC/ETH/SOL (`kagent/kraken_analytics.py`).
+It covers open interest, long/short ratio, liquidations, taker buy/sell imbalance, top-20% trader positioning, trade
+count/size, volatility and basis. Combined with price/volume, on-chain, sentiment, macro and cross-asset features, that is
+333 daily tests (`kagent/discovery.py`) and 75 hourly tests (`kagent/discovery_hourly.py`).
+
+**Method:** year A (2024-11-26 → 2025-11-25) finds signals; year B (2025-11-26 → now) checks them. "Robust" means
+|t| > 2 in A and the same sign with |t| > 1.5 in B. With 333 tests, about 15 would pass |t| > 2 in A by luck alone.
+
+### What predicts moves (robust in both years)
+**Only one family: risk / lottery-ness, cross-sectionally.** Coins that have been the most volatile, had the biggest single-day
+jump in the last 30 days, ran furthest off their 30-day low, or saw a spike in trade count **underperform the other coins
+over the next 1-7 days**. Rank-IC is -0.05 to -0.13, with t -2.3 to -4.5 in both years: 19 of 19 robust results are this
+family (volatility 7d/30d, Kraken rolling volatility, max daily return 30d, daily range, run-up from the 30d low,
+trade-count spike, volume spike).
+This matches the "low-volatility / MAX" effect known from stocks: gamblers overpay for lottery-like coins.
+
+### What does not predict moves (honest negatives)
+- **Market timing (whether all of crypto goes up or down):** none of the ~40 market-level features (Fear & Greed,
+  stablecoins, Fed liquidity, dollar, real yields, MVRV, exchange flows, Deribit funding, BTC trend, breadth, market-wide
+  liquidations, Nasdaq/S&P/gold/oil) was robust over these two years.
+- **Kraken positioning (open interest, long/short ratio, taker imbalance, liquidations, top traders):** nothing robust
+  on daily. Hourly, the crowd long/short ratio leans contrarian (more retail longs → weaker next 1-24h, t ≈ -1.1 to -1.9),
+  which is too weak to trade.
+- **Short-term reversal:** 1-3 day reversal was strong in year A (t -4) and **vanished in year B**. Hourly reversal is
+  statistically real (t -2.4 to -3.4 in both years), but it's worth < 1 bp per hour against ~15 bps of costs.
+  Fading big hourly moves (|z| > 2-3) loses on BTC and ETH.
+
+### Is the robust signal tradable?
+Market-neutral perps book: each week, long the 4 lowest-risk coins and short the 4 highest-risk coins of 20. Inverse-vol
+weights, beta-neutral to BTC, 0.05% taker + 0.05-0.15% slippage per side, actual Kraken funding in year B.
+
+| Variant | Year A return / Sharpe / max DD | Year B return / Sharpe / max DD |
+|---|---|---|
+| Low-risk composite (vol + max-jump + run-up), weekly | **+13.7% / 1.20 / -8%** | **+7.5% / 0.53 / -16%** |
+| Same, one extra day of delay | +16.4% / 1.43 / -7% | +5.6% / 0.42 / -15% |
+| Same, rebalanced daily | -9.1% (costs 14%/yr) | -17.4% |
+| Low-vol only, weekly | +9.8% / 0.79 | -2.1% / -0.08 |
+| Low-MAX only, weekly | +7.3% / 0.62 | +4.8% / 0.40 |
+
+Correlation to BTC is about 0.1, so it can sit next to the trend sleeve. It's positive in both years but modest. The edge
+is real in rank terms, while costs and the short side's squeezes eat a large share of it. Weekly is the only workable
+cadence.
