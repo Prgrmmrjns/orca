@@ -74,7 +74,7 @@
   <section id="overview">
     <div class="grid" id="kpis"></div>
     <h2>Equity by book</h2>
-    <div class="card"><div class="chartbox"><canvas id="eq"></canvas></div></div>
+    <div class="card"><div class="chartbox"><canvas id="eq"></canvas></div><p class="note" id="eqnote"></p></div>
     <h2>Books</h2>
     <div class="books" id="books"></div>
     <h2>Open positions</h2>
@@ -115,6 +115,7 @@ const usd = (x, d=0) => x == null ? '–' : (x < 0 ? '-$' : '$') + Math.abs(x).t
 const pct = (x, d=2) => x == null ? '–' : (x * 100).toFixed(d) + '%';
 const cls = x => x > 0 ? 'up' : x < 0 ? 'down' : '';
 const ago = t => { if (!t) return '–'; const s = (Date.now() - new Date(t)) / 1000; return s < 90 ? Math.round(s) + 's ago' : s < 5400 ? Math.round(s/60) + 'm ago' : s < 172800 ? Math.round(s/3600) + 'h ago' : Math.round(s/86400) + 'd ago'; };
+const dur = s => { s = Math.max(0, s); return s < 120 ? Math.round(s) + 's' : s < 7200 ? Math.round(s/60) + 'm' : s < 172800 ? Math.round(s/3600) + 'h' : Math.round(s/86400) + 'd'; };
 const loc = t => t ? new Date(t).toLocaleString([], {month:'short', day:'numeric', hour:'2-digit', minute:'2-digit'}) : '–';
 const get = u => fetch(u).then(r => r.json());
 const COLORS = {total:'#2563eb', trend_alt:'#059669', lowrisk:'#d97706', policy:'#7c3aed', events:'#db2777'};
@@ -163,6 +164,10 @@ async function overview() {
              y: {position: 'left', ticks: {color: tc, callback: v => usd(v)}, grid: {color: grid}, title: {display: true, text: 'total', color: tc}},
              y1: {position: 'right', ticks: {color: tc, callback: v => usd(v)}, grid: {display: false}, title: {display: true, text: 'books', color: tc}}}};
   ds.forEach(d => d.data = d.data.map(p => ({x: +p.x, y: p.y})));
+  const npts = (series.total || []).length;
+  $('#eqnote').textContent = npts < 6 ? `Equity is snapshotted every 10 minutes; the chart fills in over the first hours (${npts} points so far).` : '';
+  const span = npts ? +series.total[npts - 1].x - +series.total[0].x : 0;
+  opt.scales.x.ticks.callback = v => span < 2 * 86400000 ? new Date(v).toLocaleTimeString([], {hour: '2-digit', minute: '2-digit'}) : new Date(v).toLocaleDateString([], {month: 'short', day: 'numeric'});
   if (eqChart) { eqChart.data.datasets = ds; eqChart.update(); } else eqChart = new Chart($('#eq'), {type: 'line', data: {datasets: ds}, options: opt});
 }
 
@@ -192,7 +197,7 @@ function renderNews() {
   const q = $('#nq').value.toLowerCase();
   const rows = NEWS.filter(n => !q || (n.title + ' ' + n.source + ' ' + (n.assets || []).join(' ')).toLowerCase().includes(q));
   $('#ntbl').innerHTML = '<tr><th>Seen</th><th>Imp.</th><th>Source</th><th>Headline</th><th>Assets</th><th>Haiku read</th></tr>' +
-    rows.map(n => `<tr><td style="white-space:nowrap">${loc(n.seen)}<div class="muted" style="font-size:11px">${n.published ? 'lag ' + Math.max(0, Math.round((new Date(n.seen) - new Date(n.published)) / 1000)) + 's' : ''}</div></td>
+    rows.map(n => `<tr><td style="white-space:nowrap">${loc(n.seen)}<div class="muted" style="font-size:11px">${n.published ? 'lag ' + dur((new Date(n.seen) - new Date(n.published)) / 1000) : ''}</div></td>
       <td><span class="imp i${n.impact || 0}">${n.impact ?? '·'}</span></td><td class="muted">${esc(n.source)}</td>
       <td><a class="t" href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}</a></td>
       <td>${esc((n.assets || []).join(', '))}</td>
