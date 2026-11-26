@@ -1,62 +1,62 @@
 {
- "updated": "2026-11-26T00:19:46Z",
+ "updated": "2026-11-26T00:23:18Z",
  "classifier": "rules",
  "llm_calls": 0,
  "llm_failures": 0,
  "sources": {
   "nvda_newsroom": {
-   "polls": 120,
-   "not_modified": 119,
+   "polls": 162,
+   "not_modified": 161,
    "errors": 0,
-   "last_ok": "2026-11-26T00:19:43Z",
+   "last_ok": "2026-11-26T00:23:13Z",
    "last_error": null,
    "bytes": 425743
   },
   "aapl_newsroom": {
-   "polls": 60,
-   "not_modified": 59,
+   "polls": 81,
+   "not_modified": 80,
    "errors": 0,
-   "last_ok": "2026-11-26T00:19:38Z",
+   "last_ok": "2026-11-26T00:23:08Z",
    "last_error": null,
    "bytes": 18271
   },
   "amzn_ir": {
-   "polls": 60,
-   "not_modified": 59,
+   "polls": 81,
+   "not_modified": 80,
    "errors": 0,
-   "last_ok": "2026-11-26T00:19:38Z",
+   "last_ok": "2026-11-26T00:23:08Z",
    "last_error": null,
    "bytes": 22669
   },
   "googl_ir": {
-   "polls": 60,
-   "not_modified": 59,
+   "polls": 81,
+   "not_modified": 80,
    "errors": 0,
-   "last_ok": "2026-11-26T00:19:38Z",
+   "last_ok": "2026-11-26T00:23:08Z",
    "last_error": null,
    "bytes": 16914
   },
   "meta_ir": {
-   "polls": 60,
-   "not_modified": 59,
+   "polls": 81,
+   "not_modified": 80,
    "errors": 0,
-   "last_ok": "2026-11-26T00:19:38Z",
+   "last_ok": "2026-11-26T00:23:08Z",
    "last_error": null,
    "bytes": 24873
   },
   "coin_ir": {
-   "polls": 60,
-   "not_modified": 59,
+   "polls": 81,
+   "not_modified": 80,
    "errors": 0,
-   "last_ok": "2026-11-26T00:19:38Z",
+   "last_ok": "2026-11-26T00:23:08Z",
    "last_error": null,
    "bytes": 21139
   },
   "crcl_ir": {
-   "polls": 60,
-   "not_modified": 59,
+   "polls": 81,
+   "not_modified": 80,
    "errors": 0,
-   "last_ok": "2026-11-26T00:19:38Z",
+   "last_ok": "2026-11-26T00:23:08Z",
    "last_error": null,
    "bytes": 30138
   },
@@ -77,74 +77,74 @@
    "bytes": 2610
   },
   "amd_ir": {
-   "polls": 30,
+   "polls": 41,
    "not_modified": 0,
    "errors": 0,
-   "last_ok": "2026-11-26T00:19:28Z",
+   "last_ok": "2026-11-26T00:23:08Z",
    "last_error": null,
-   "bytes": 224670
+   "bytes": 307049
   },
   "msft_news": {
-   "polls": 5,
-   "not_modified": 4,
+   "polls": 7,
+   "not_modified": 6,
    "errors": 0,
-   "last_ok": "2026-11-26T00:17:46Z",
+   "last_ok": "2026-11-26T00:21:46Z",
    "last_error": null,
    "bytes": 22016
   },
   "sec_8k": {
-   "polls": 298,
+   "polls": 404,
    "not_modified": 0,
    "errors": 0,
-   "last_ok": "2026-11-26T00:19:45Z",
+   "last_ok": "2026-11-26T00:23:17Z",
    "last_error": null,
-   "bytes": 46111980
+   "bytes": 62604626
   },
   "prnewswire": {
-   "polls": 20,
-   "not_modified": 9,
+   "polls": 28,
+   "not_modified": 13,
    "errors": 0,
-   "last_ok": "2026-11-26T00:19:17Z",
+   "last_ok": "2026-11-26T00:23:17Z",
    "last_error": null,
-   "bytes": 424628
+   "bytes": 579214
   },
   "whitehouse": {
-   "polls": 20,
-   "not_modified": 19,
+   "polls": 28,
+   "not_modified": 27,
    "errors": 0,
-   "last_ok": "2026-11-26T00:19:17Z",
+   "last_ok": "2026-11-26T00:23:17Z",
    "last_error": null,
    "bytes": 473080
   },
   "trump_posts": {
-   "polls": 20,
-   "not_modified": 19,
-   "errors": 0,
-   "last_ok": "2026-11-26T00:19:17Z",
-   "last_error": null,
-   "bytes": 171771
+   "polls": 25,
+   "not_modified": 21,
+   "errors": 3,
+   "last_ok": "2026-11-26T00:20:17Z",
+   "last_error": "2026-11-26T00:22:17Z HTTPError: 429 Client Error: Too Many Requests for url: https://www.trumpstruth.org/feed",
+   "bytes": 193104
   },
   "fed_press": {
-   "polls": 20,
-   "not_modified": 19,
+   "polls": 28,
+   "not_modified": 27,
    "errors": 0,
-   "last_ok": "2026-11-26T00:19:17Z",
+   "last_ok": "2026-11-26T00:23:17Z",
    "last_error": null,
    "bytes": 14567
   },
   "bls": {
-   "polls": 10,
-   "not_modified": 9,
+   "polls": 14,
+   "not_modified": 13,
    "errors": 0,
-   "last_ok": "2026-11-26T00:18:46Z",
+   "last_ok": "2026-11-26T00:22:47Z",
    "last_error": null,
    "bytes": 5331
   },
   "bea": {
-   "polls": 5,
-   "not_modified": 4,
+   "polls": 7,
+   "not_modified": 6,
    "errors": 0,
-   "last_ok": "2026-11-26T00:17:46Z",
+   "last_ok": "2026-11-26T00:21:47Z",
    "last_error": null,
    "bytes": 92282
   },
@@ -157,84 +157,84 @@
    "bytes": 34782
   },
   "coindesk": {
-   "polls": 10,
-   "not_modified": 8,
+   "polls": 14,
+   "not_modified": 12,
    "errors": 0,
-   "last_ok": "2026-11-26T00:18:47Z",
+   "last_ok": "2026-11-26T00:22:47Z",
    "last_error": null,
-   "bytes": 308040
+   "bytes": 431256
   },
   "marketwatch": {
-   "polls": 10,
-   "not_modified": 5,
+   "polls": 14,
+   "not_modified": 8,
    "errors": 0,
-   "last_ok": "2026-11-26T00:18:46Z",
+   "last_ok": "2026-11-26T00:22:47Z",
    "last_error": null,
-   "bytes": 40485
+   "bytes": 48582
   },
   "benzinga": {
-   "polls": 10,
-   "not_modified": 9,
+   "polls": 14,
+   "not_modified": 13,
    "errors": 0,
-   "last_ok": "2026-11-26T00:18:47Z",
+   "last_ok": "2026-11-26T00:22:47Z",
    "last_error": null,
-   "bytes": 2354530
+   "bytes": 3296342
   },
   "sa_currents": {
-   "polls": 10,
-   "not_modified": 9,
+   "polls": 14,
+   "not_modified": 13,
    "errors": 0,
-   "last_ok": "2026-11-26T00:18:46Z",
+   "last_ok": "2026-11-26T00:22:47Z",
    "last_error": null,
    "bytes": 5046
   },
   "binance_listing": {
-   "polls": 60,
-   "not_modified": 59,
+   "polls": 81,
+   "not_modified": 80,
    "errors": 0,
-   "last_ok": "2026-11-26T00:19:38Z",
+   "last_ok": "2026-11-26T00:23:08Z",
    "last_error": null,
-   "bytes": 272940
+   "bytes": 368469
   },
   "binance_delisting": {
-   "polls": 30,
-   "not_modified": 29,
+   "polls": 41,
+   "not_modified": 40,
    "errors": 0,
-   "last_ok": "2026-11-26T00:19:28Z",
+   "last_ok": "2026-11-26T00:23:08Z",
    "last_error": null,
-   "bytes": 112650
+   "bytes": 153955
   },
   "kraken_blog": {
-   "polls": 10,
-   "not_modified": 9,
+   "polls": 14,
+   "not_modified": 13,
    "errors": 0,
-   "last_ok": "2026-11-26T00:18:46Z",
+   "last_ok": "2026-11-26T00:22:47Z",
    "last_error": null,
    "bytes": 131839
   },
   "cointelegraph": {
-   "polls": 10,
-   "not_modified": 7,
+   "polls": 14,
+   "not_modified": 11,
    "errors": 0,
-   "last_ok": "2026-11-26T00:18:47Z",
+   "last_ok": "2026-11-26T00:22:47Z",
    "last_error": null,
    "bytes": 157797
   },
   "theblock": {
-   "polls": 10,
-   "not_modified": 9,
+   "polls": 14,
+   "not_modified": 13,
    "errors": 0,
-   "last_ok": "2026-11-26T00:18:46Z",
+   "last_ok": "2026-11-26T00:22:47Z",
    "last_error": null,
    "bytes": 35287
   },
   "decrypt": {
-   "polls": 10,
-   "not_modified": 9,
+   "polls": 14,
+   "not_modified": 13,
    "errors": 0,
-   "last_ok": "2026-11-26T00:18:47Z",
+   "last_ok": "2026-11-26T00:22:47Z",
    "last_error": null,
-   "bytes": 428520
+   "bytes": 599928
   },
   "rekt": {
    "polls": 3,
@@ -245,18 +245,18 @@
    "bytes": 10645
   },
   "sec_press": {
-   "polls": 10,
-   "not_modified": 9,
+   "polls": 14,
+   "not_modified": 13,
    "errors": 0,
-   "last_ok": "2026-11-26T00:18:47Z",
+   "last_ok": "2026-11-26T00:22:47Z",
    "last_error": null,
    "bytes": 37098
   },
   "cftc_press": {
-   "polls": 5,
-   "not_modified": 4,
+   "polls": 7,
+   "not_modified": 6,
    "errors": 0,
-   "last_ok": "2026-11-26T00:17:46Z",
+   "last_ok": "2026-11-26T00:21:46Z",
    "last_error": null,
    "bytes": 4469
   }
