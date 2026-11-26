@@ -335,3 +335,71 @@ Costs: perp 0.05% fee + 0.05% slippage per side, longs pay 5%/yr funding (assume
 Stock trend is only 0.2 correlated with the coin book, so adding it keeps return and cuts drawdown by about a quarter.
 The low-risk effect that works in coins does not work in stocks here (negative on the shortable perp names), so it is dropped.
 Caveat: the stock list is what Kraken lists *today*, which favours past winners (PLTR, HOOD, MSTR); that flatters the trend sleeve.
+
+## 14. Deep round (2026-11-26): everything tradable, an explicit objective, purged CPCV, ML policy, minute-level news
+
+**Objective.** J = 365·mean(log(1+r)) − 3·365·mean(min(r,0)²) on daily net returns: annualised net log growth
+(Kelly already charges variance once) plus an extra charge on downside variance only. Upside volatility is free.
+
+**Validation.** Purged combinatorial CV (`kagent/cpcv.py`): the window is cut into 20 contiguous blocks, each split
+tests on 4 random blocks (300 random splits of C(20,4)), trains on the rest minus 5 days before and 10 days after
+each test block (plus the label horizon for ML). Reported as a distribution over splits. Also: deflated Sharpe
+(Bailey & López de Prado) and probability of backtest overfitting (PBO). Data after 2026-10-15 is kept untouched.
+
+**Universe and costs** (`kagent/zoo.py`): 20 coin perps (fee + slippage, real Kraken funding, Binance funding before
+Kraken's history starts), 14 stock perps (0.10%/side, longs pay 5%/yr), xStocks spot on the ~50 largest US stocks
+as of 2024-11 (0.13%/side, long only). Coin spot and margin are dominated by perps (0.80% taker) and not used.
+
+**Hindsight check.** With the stock list Kraken offers *today* (full of 2025 winners: PLTR, HOOD, MSTR...) stock
+long-only looked great. With the 2024-11 top-50 list most of that edge disappears. Section 13's stock numbers are biased.
+
+**Strategy zoo: 200 configs** (TS trend/momentum long-short, long-only and short-only; BTC trend; XS momentum,
+reversal, low-risk, low-vol, low-MAX, funding carry, residual reversal; SPY-gated stock trend; stock XS momentum,
+reversal, low-vol; risk-off coin shorts), daily or weekly rebalanced, each scaled ex-ante to 15% vol.
+
+| Selection inside CPCV | Window | Sharpe p10 / median / p90 | median ann. | P(ann>0) |
+|---|---|---|---|---|
+| best single config, 2y data only | 2y | -2.5 / -0.9 / 0.9 | -13.7% | 0.23 |
+| top-10 equal, 2y only | 2y | -2.8 / -1.1 / 0.5 | -9.8% | 0.21 |
+| best single, 2019+ data | all blocks | -0.6 / 0.2 / 1.1 | +2.1% | 0.61 |
+| objective-optimised mix (≤2x), 2019+ | all blocks | -0.1 / 0.9 / 1.9 | +15.7% | 0.83 |
+| same | test days in last 2y | -1.7 / 0.2 / 1.4 | +1.3% | 0.55 |
+
+PBO (2019+) = 0.29. Deflated-Sharpe probability of the full-period winner ≈ 0 (200 trials): not significant.
+Two years cannot separate 200 similar strategies; choosing among them on 2 years is overfitting.
+
+**ML policy that maximises the objective** (`kagent/policy.py`, coins, weekly). Weights are linear in 16 features
+(cross-sectional z-scores + market-timing block); the portfolio return is θ·g_t, so the 2nd-order approximation of J
+has the closed form θ = (Cov(g) + ρI)⁻¹ mean(g). Fit inside each CPCV fold (2019+), purged by the 7-day label horizon.
+
+| Model | Sharpe p10 / median / p90 | median ann. | P(ann>0) | median maxDD |
+|---|---|---|---|---|
+| linear objective-max policy (300 splits) | -0.42 / 0.51 / 1.50 | +6.7% | 0.72 | -18% |
+| same, splits mostly in the last 2y (40) | median 0.43 | +6% | | -22% |
+| LightGBM rank model (60 splits) | -1.61 / -0.54 / 0.57 | -10.3% | 0.28 | -26% |
+
+The policy loads mostly on trend (price above 50/200-day SMA, positive) and against 30-day winners. Its
+coefficients move a lot between folds, a sign the signal is weak.
+
+**Falling prices.** In BTC's 8 down months of the last 2 years, short-capable trend books (BTC SMA20/50 long-short,
+short-only TS momentum, funding carry) made +3% to +4.6% per month, and gave most of it back in up months.
+
+**Minute-level news (data in `research/kagent_data/news/`, 1m prices in `m1/`, not committed).**
+- Binance listing announcements → buy the coin on Kraken perps 1-5 min later: +4-5% average after 0.7% costs over
+  1-4 h, but only 15 events matched a Kraken perp and fewer than half won (`events_binance.csv`). Not proven.
+- FinancialJuice posts every data release as "ACTUAL x (FORECAST y)" (history since 2025-03, 4,212 releases). Trading
+  BTC/ETH on the learned surprise sign, CPCV over time blocks: about 0 bp gross, −20 bp net per trade. BTC's typical
+  5-minute move on a US release is only 8-11 bp, below the 20 bp round trip. No edge on crypto from macro squawks.
+
+**Which free source is first** (`kagent/news_latency.py`, second-stamped history; live poller `kagent/newslat.py`):
+
+| Event | Official source | FinancialJuice TG | unfolded TG | WatcherGuru TG | Wu Blockchain TG |
+|---|---|---|---|---|---|
+| US macro release (CPI, PPI, PCE, claims, ISM, retail) | agency site at :00 | median 31 s (p10 1 s, p90 50 s, n=123) | 14 s (n=10) | 25 s (n=14) | 459 s |
+| Binance listing / delisting | Binance CMS API (t=0) | – | – | rarely | 537 s (n=52) |
+
+Live RSS lags (seen time − item time, 10 h poll): FinancialJuice TG ~30 s, PR Newswire ~2 min, Seeking Alpha ~2.5 min,
+Investing.com ~11 min. BTC does about half of its 15-minute reaction within the first 2 minutes after a release, so
+a 30 s squawk still catches most of it, but the move is too small to pay perp costs.
+Paid feeds publish no measured latency (see `news_feeds_paid.md`): Tree News $500-2,500/mo, Benzinga Pro $37-197,
+Newsquawk $199-399, Bloomberg custom. For crypto the fastest free source is the exchange's own announcement API.
