@@ -1,11 +1,11 @@
 {
   "mode": "paper",
-  "as_of": "2026-11-26T18:22:19Z",
-  "as_of_et": "2026-11-26 10:45 ET",
+  "as_of": "2026-11-27T00:06:31Z",
+  "as_of_et": "2026-11-26 19:06 ET",
   "rolling_hours": 72,
   "n_items": 400,
-  "n_actionable": 28,
-  "n_with_ticker": 133,
+  "n_actionable": 22,
+  "n_with_ticker": 178,
   "sources": [
     "prnewswire",
     "prnewswire_financial",
@@ -13,15 +13,362 @@
     "cnbc_finance",
     "marketwatch",
     "marketwatch_realtime",
-    "edgar_8k",
-    "eqs_google",
-    "wso_nachrichten",
-    "finanzen_net",
-    "yahoo_eu"
+    "edgar_8k"
   ],
   "errors": [],
   "note": "Paper news feed. Keyword tagging is heuristic. Shorts have no borrow model. RSS/EDGAR can lag minutes\u2013hours.",
   "items": [
+    {
+      "id": "bb43f8e9e965f41f",
+      "source": "prnewswire",
+      "title": "Singapore and China Judiciaries Mark a Milestone in Bilateral Relations",
+      "summary": "SINGAPORE, Nov. 26, 2026 /PRNewswire/ -- The Honourable the Chief Justice Sundaresh Menon of the Supreme Court of Singapore and Chief Justice of the People's Republic of China Zhang Jun met virtually on 15 October 2026, reaffirming the longstanding friendship and cooperation between the...",
+      "url": "https://www.prnewswire.com/news-releases/singapore-and-china-judiciaries-mark-a-milestone-in-bilateral-relations-302951403.html",
+      "published_at": "2026-11-27T00:00:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T00:06:28Z"
+    },
+    {
+      "id": "70d126c6672e1360",
+      "source": "prnewswire",
+      "title": "DoGo Power predstavuje na ve\u013etrhu GENERA 2026 v Madride inteligentn\u00e9 sie\u0165otvorn\u00e9 syst\u00e9my skladovania energie",
+      "summary": "MADRID, 26. novembra 2026 /PRNewswire/ -- Spolo\u010dnos\u0165 DoGo Power predstavila na ve\u013etrhu GENERA 2026 v Madride v \u0160panielsku svoje inteligentn\u00e9 sie\u0165otvorn\u00e9 syst\u00e9my na skladovanie energie (ESS) a rie\u0161enia pre komer\u010dn\u00e9 a priemyseln\u00e9 (C&amp;I) ako aj \u00fa\u017eitkov\u00e9 aplik\u00e1cie a usporiadala workshop s...",
+      "url": "https://www.prnewswire.com/news-releases/dogo-power-predstavuje-na-vetrhu-genera-2026-v-madride-inteligentne-sieotvorne-systemy-skladovania-energie-302951396.html",
+      "published_at": "2026-11-26T23:35:00Z",
+      "tickers": [
+        "ESS"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T00:06:28Z"
+    },
+    {
+      "id": "8a46060885e769c9",
+      "source": "prnewswire",
+      "title": "Global Lithium-Ion Battery Market Set for Strong Growth, Reaching USD 368.3 Billion by 2031: Wissen Research",
+      "summary": "SHERIDAN, Wyo., Nov. 26, 2026 /PRNewswire/ -- The global lithium-ion battery market is valued at USD 209 billion in 2026 and is projected to reach USD 368.3 billion by 2031, an increase of roughly 76% over the forecast period (2026\u20132031), according to a new study by Wissen Research. Three...",
+      "url": "https://www.prnewswire.com/news-releases/global-lithium-ion-battery-market-set-for-strong-growth-reaching-usd-368-3-billion-by-2031-wissen-research-302951394.html",
+      "published_at": "2026-11-26T23:29:00Z",
+      "tickers": [],
+      "event_type": "guidance_raise",
+      "direction": "bullish",
+      "news_side": "long",
+      "actionable": true,
+      "scanned_at": "2026-11-27T00:06:28Z"
+    },
+    {
+      "id": "77282b5441bf8745",
+      "source": "prnewswire",
+      "title": "WeFetch AI Corp. Hits 30M in Monthly AI Agent Traffic",
+      "summary": "gtinfetch.ai: 12 artificial intelligence (AI) agent calls a second, 700 a minute and one million a day, on 84.8 million barcodes. VANCOUVER, BC and LONDON, Nov. 26, 2026 /PRNewswire/ -- WeFetch AI Corp. today reported 30 million in AI agent traffic over the prior 30 days across its...",
+      "url": "https://www.prnewswire.com/news-releases/wefetch-ai-corp-hits-30m-in-monthly-ai-agent-traffic-302951388.html",
+      "published_at": "2026-11-26T23:09:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T00:06:28Z"
+    },
+    {
+      "id": "896570777a3bcb09",
+      "source": "prnewswire",
+      "title": "Gene Solutions' SPOT-MAS 10 Receives Class C IVD Registration from Singapore's HSA for Blood-Based Multi-Cancer Screening",
+      "summary": "SINGAPORE, Nov. 26, 2026 /PRNewswire/ -- Gene Solutions today announced that Singapore's Health Sciences Authority (HSA) has approved the registration application of SPOT-MAS 10 as a Class C in vitro diagnostic (IVD) medical device. Based on the Singapore Medical Device Register records...",
+      "url": "https://www.prnewswire.com/news-releases/gene-solutions-spot-mas-10-receives-class-c-ivd-registration-from-singapores-hsa-for-blood-based-multi-cancer-screening-302951232.html",
+      "published_at": "2026-11-26T23:00:00Z",
+      "tickers": [
+        "HSA",
+        "IVD"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T00:06:28Z"
+    },
+    {
+      "id": "b13993a7e9d7a6fe",
+      "source": "prnewswire",
+      "title": "Concierto AI est d\u00e9sormais en ligne : l'IA souveraine pour chaque employ\u00e9, au sein m\u00eame du cloud ou du centre de donn\u00e9es de l'entreprise",
+      "summary": "Trianz \u00e9tend Concierto, sa plateforme \u00e9prouv\u00e9e de transformation d'entreprise, \u00e0 l'IA souveraine, offrant une IA plus performante, plus s\u00fbre, plus durable et plus abordable, d\u00e9ploy\u00e9e au sein du r\u00e9seau du client, avec une utilisation illimit\u00e9e et sans tarification par jetons. LONDRES, 26...",
+      "url": "https://www.prnewswire.com/news-releases/concierto-ai-est-desormais-en-ligne--lia-souveraine-pour-chaque-employe-au-sein-meme-du-cloud-ou-du-centre-de-donnees-de-lentreprise-302951385.html",
+      "published_at": "2026-11-26T22:55:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T00:06:28Z"
+    },
+    {
+      "id": "f0959fc3abedfd7a",
+      "source": "prnewswire",
+      "title": "L'intelligence verte pour un avenir solide : la plus grande exposition de XCMG lors du salon bauma 2026 red\u00e9finit la construction intelligente",
+      "summary": "SHANGHAI, 26 novembre 2026 /PRNewswire/ -- XCMG (SHE : 000425) a inaugur\u00e9 sa plus grande exposition \u00e0 ce jour \u00e0 l'occasion du salon bauma CHINA 2026 le 24 novembre, pr\u00e9sentant des avanc\u00e9es dans le domaine des machines de construction intelligentes, \u00e9cologiques et haut de gamme. Sous le...",
+      "url": "https://www.prnewswire.com/news-releases/lintelligence-verte-pour-un-avenir-solide--la-plus-grande-exposition-de-xcmg-lors-du-salon-bauma-2026-redefinit-la-construction-intelligente-302951383.html",
+      "published_at": "2026-11-26T22:34:00Z",
+      "tickers": [
+        "L"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T00:06:28Z"
+    },
+    {
+      "id": "71d97504b6a80077",
+      "source": "marketwatch",
+      "title": "\u2018I\u2019ve been a stay-at-home mom\u2019: I\u2019m 50 and have a chronic illness. My husband lost his job. Should he raid his 401(k)?",
+      "summary": "\u201cOur financial and healthcare situation has become increasingly concerning.\u201d",
+      "url": "https://www.marketwatch.com/story/ive-been-a-stay-at-home-mom-im-50-and-have-a-chronic-illness-my-husband-lost-his-job-should-he-raid-his-401-k-63e59123?mod=mw_rss_topstories",
+      "published_at": "2026-11-26T22:00:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T00:06:30Z"
+    },
+    {
+      "id": "2007b5d08b5d816d",
+      "source": "marketwatch",
+      "title": "I\u2019m terrified of a market crash. Should I put $400,000 of my $1 million retirement savings into an annuity?",
+      "summary": "\u201cWe have a house worth $450,000. Our combined annual income is $125,000.\u201d",
+      "url": "https://www.marketwatch.com/story/were-in-our-50s-and-terrified-of-a-market-crash-should-we-put-400-000-of-our-1-million-retirement-savings-into-an-annuity-1943f240?mod=mw_rss_topstories",
+      "published_at": "2026-11-26T21:45:00Z",
+      "tickers": [
+        "I"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T00:06:30Z"
+    },
+    {
+      "id": "2a0520092c80ec35",
+      "source": "prnewswire",
+      "title": "Disrupting Hospitality: Shane Green Says Hotels Must Look Beyond Efficiency",
+      "summary": "On Disruption Interruption, Shane Green, President and Founder of SGEi, explains why efficiency alone does not create a memorable guest experience and why hospitality still depends on human connection. TAMPA BAY, Fla., Nov. 26, 2026 /PRNewswire/ -- As hotels introduce artificial...",
+      "url": "https://www.prnewswire.com/news-releases/disrupting-hospitality-shane-green-says-hotels-must-look-beyond-efficiency-302951353.html",
+      "published_at": "2026-11-26T21:22:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T00:06:28Z"
+    },
+    {
+      "id": "0a8bea5af7108271",
+      "source": "prnewswire",
+      "title": "Xiaomi Internet lance la marque commerciale mondiale UMIADS : Make Global Growth Truly Visible (Rendre la croissance mondiale v\u00e9ritablement visible)",
+      "summary": "CHANGSHA, Chine, 26 novembre 2026 /PRNewswire/ -- Lors de la conf\u00e9rence des partenaires commerciaux Internet de Xiaomi 2026 qui s'est tenue \u00e0 Changsha le 25 novembre, Liu Chan, directrice g\u00e9n\u00e9rale du d\u00e9partement des activit\u00e9s Internet chez Xiaomi, a d\u00e9voil\u00e9 UMIADS en tant que nouvelle...",
+      "url": "https://www.prnewswire.com/news-releases/xiaomi-internet-lance-la-marque-commerciale-mondiale-umiads--make-global-growth-truly-visible-rendre-la-croissance-mondiale-veritablement-visible-302951378.html",
+      "published_at": "2026-11-26T21:08:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T00:06:28Z"
+    },
+    {
+      "id": "e24108c753824094",
+      "source": "prnewswire",
+      "title": "DoGo Power \u0434\u0435\u043c\u043e\u043d\u0441\u0442\u0440\u0438\u0440\u0443\u0435\u0442 Smart Grid-Forming ESS \u043d\u0430 \u0432\u044b\u0441\u0442\u0430\u0432\u043a\u0435 GENERA 2026 Madrid",
+      "summary": "\u041c\u0410\u0414\u0420\u0418\u0414, 26 \u043d\u043e\u044f\u0431\u0440\u044f 2026 \u0433. /PRNewswire/ -- \u041a\u043e\u043c\u043f\u0430\u043d\u0438\u044f DoGo Power \u043f\u0440\u043e\u0434\u0435\u043c\u043e\u043d\u0441\u0442\u0440\u0438\u0440\u043e\u0432\u0430\u043b\u0430 \u0441\u0432\u043e\u0438 \u0438\u043d\u0442\u0435\u043b\u043b\u0435\u043a\u0442\u0443\u0430\u043b\u044c\u043d\u044b\u0435 \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u043d\u0430\u043a\u043e\u043f\u043b\u0435\u043d\u0438\u044f \u044d\u043d\u0435\u0440\u0433\u0438\u0438 (ESS) \u0438 \u0440\u0435\u0448\u0435\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u043e\u043c\u043c\u0435\u0440\u0447\u0435\u0441\u043a\u0438\u0445 \u0438 \u043f\u0440\u043e\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u044b\u0445 \u0438 \u043a\u043e\u043c\u043c\u0443\u043d\u0430\u043b\u044c\u043d\u044b\u0445 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0439 \u043d\u0430 GENERA 2026 \u0432 \u041c\u0430\u0434\u0440\u0438\u0434\u0435, \u0418\u0441\u043f\u0430\u043d\u0438\u044f, \u0438 \u043f\u0440\u043e\u0432\u0435\u043b\u0430 \u0441\u0435\u043c\u0438\u043d\u0430\u0440 \u043d\u0430 \u0442\u0435\u043c\u0443...",
+      "url": "https://www.prnewswire.com/news-releases/dogo-power--smart-grid-forming-ess---genera-2026-madrid-302951376.html",
+      "published_at": "2026-11-26T21:03:00Z",
+      "tickers": [
+        "ESS"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T00:06:28Z"
+    },
+    {
+      "id": "f4ecd6de10cfa8f5",
+      "source": "prnewswire",
+      "title": "LiuGong predstavuje na ve\u013etrhu bauma CHINA 2026 pokro\u010dil\u00e9 vybavenie a inteligentn\u00e9 technol\u00f3gie",
+      "summary": "\u0160ANGHAJ, 26. november 2026 /PRNewswire/ -- 24. novembra sa na v\u00fdstavisku Shanghai New International Expo Centre otvorila v\u00fdstava bauma CHINA 2026. Spolo\u010dnos\u0165 LiuGong (000528.SZ) predstavila 39 pokro\u010dil\u00fdch strojov a priemyseln\u00fdch rie\u0161en\u00ed v pavil\u00f3ne s rozlohou 4224 metrov \u0161tvorcov\u00fdch...",
+      "url": "https://www.prnewswire.com/news-releases/liugong-predstavuje-na-vetrhu-bauma-china-2026-pokroile-vybavenie-a-inteligentne-technologie-302951374.html",
+      "published_at": "2026-11-26T20:47:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T00:06:28Z"
+    },
+    {
+      "id": "4334a44b0d4fbfd7",
+      "source": "prnewswire",
+      "title": "LGMG uv\u00e1dza na ve\u013etrhu bauma CHINA 2026 \u0165a\u017eobn\u00e9 n\u00e1kladn\u00e9 vozidlo VTH150 s elektrick\u00fdm pohonom kolies",
+      "summary": "Premi\u00e9ra prich\u00e1dza v \u010dase, ke\u010f spolo\u010dnos\u0165 LGMG oslavuje desa\u0165 po sebe id\u00facich rokov v poz\u00edcii svetov\u00e9ho l\u00eddra v predaji ter\u00e9nnych skl\u00e1pa\u010dov s mechanick\u00fdm pohonom a \u0161irokou karos\u00e9riou. \u0160ANGHAJ, 26. novembra 2026 /PRNewswire/ \u2013 Spolo\u010dnos\u0165 LGMG predstavila 24. novembra na ve\u013etrhu bauma CHINA...",
+      "url": "https://www.prnewswire.com/news-releases/lgmg-uvadza-na-vetrhu-bauma-china-2026-aobne-nakladne-vozidlo-vth150-s-elektrickym-pohonom-kolies-302951372.html",
+      "published_at": "2026-11-26T20:42:00Z",
+      "tickers": [
+        "LGMG"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T00:06:28Z"
+    },
+    {
+      "id": "b3b87300e91c491c",
+      "source": "prnewswire",
+      "title": "Zoomlion lance le premier robot d'excavation IA du secteur, activ\u00e9 par l'intelligence embarqu\u00e9e, au salon bauma CHINA 2026",
+      "summary": "SHANGHAI, 26 novembre 2026 /PRNewswire/ -- \u00c0 l'occasion du salon bauma CHINA 2026, Zoomlion Heavy Industry Science & Technology Co., Ltd. (\u00ab Zoomlion \u00bb ou \u00ab la Soci\u00e9t\u00e9 \u00bb) a lanc\u00e9, le 24 novembre, le premier robot d'excavation dot\u00e9 d'une intelligence artificielle et activ\u00e9 par une...",
+      "url": "https://www.prnewswire.com/news-releases/zoomlion-lance-le-premier-robot-dexcavation-ia-du-secteur-active-par-lintelligence-embarquee-au-salon-bauma-china-2026-302951370.html",
+      "published_at": "2026-11-26T20:41:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T00:06:28Z"
+    },
+    {
+      "id": "2475a805475b838e",
+      "source": "prnewswire",
+      "title": "Xiaomi Internet \u0437\u0430\u043f\u0443\u0441\u043a\u0430\u0435\u0442 \u0433\u043b\u043e\u0431\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u043e\u043c\u043c\u0435\u0440\u0447\u0435\u0441\u043a\u0438\u0439 \u0431\u0440\u0435\u043d\u0434 UMIADS: \u0441\u0434\u0435\u043b\u0430\u0439\u0442\u0435 \u0433\u043b\u043e\u0431\u0430\u043b\u044c\u043d\u044b\u0439 \u0440\u043e\u0441\u0442 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u043e \u0437\u0430\u043c\u0435\u0442\u043d\u044b\u043c",
+      "summary": "\u0427\u0410\u041d\u0428\u0410, \u041a\u0438\u0442\u0430\u0439, 26 \u043d\u043e\u044f\u0431\u0440\u044f 2026 \u0433. /PRNewswire/ -- \u041d\u0430 \u043a\u043e\u043d\u0444\u0435\u0440\u0435\u043d\u0446\u0438\u0438 \u043f\u0430\u0440\u0442\u043d\u0435\u0440\u043e\u0432 Xiaomi \u043f\u043e \u0438\u043d\u0442\u0435\u0440\u043d\u0435\u0442-\u0431\u0438\u0437\u043d\u0435\u0441\u0443 2026 \u0433\u043e\u0434\u0430, \u0441\u043e\u0441\u0442\u043e\u044f\u0432\u0448\u0435\u0439\u0441\u044f 25 \u043d\u043e\u044f\u0431\u0440\u044f \u0432 \u0427\u0430\u043d\u0448\u0435, \u041b\u044e \u0427\u0430\u043d (Liu Chan), \u0433\u0435\u043d\u0435\u0440\u0430\u043b\u044c\u043d\u044b\u0439 \u043c\u0435\u043d\u0435\u0434\u0436\u0435\u0440 \u0434\u0435\u043f\u0430\u0440\u0442\u0430\u043c\u0435\u043d\u0442\u0430 \u0438\u043d\u0442\u0435\u0440\u043d\u0435\u0442-\u0431\u0438\u0437\u043d\u0435\u0441\u0430 Xiaomi, \u043f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u0438\u043b UMIADS \u0432 \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0435 \u043d\u043e\u0432\u043e\u0433\u043e \u0433\u043b\u043e\u0431\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u043a\u043e\u043c\u043c\u0435\u0440\u0447\u0435\u0441\u043a\u043e\u0433\u043e \u0431\u0440\u0435\u043d\u0434\u0430...",
+      "url": "https://www.prnewswire.com/news-releases/xiaomi-internet-----umiads------302951364.html",
+      "published_at": "2026-11-26T19:46:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T00:06:28Z"
+    },
+    {
+      "id": "48e4a3db4e255fe1",
+      "source": "prnewswire",
+      "title": "North American Launch - Prevost Unveils Its First-Ever Fully Electric Motorcoach",
+      "summary": "SAINTE-CLAIRE, QC, Nov. 26, 2026 /PRNewswire/ -- Prevost, North America's largest motorcoach manufacturer, is proud to announce the North American launch of its first zero-emission motorcoach, the H3-45 Electric. \"The development of our new fully electric motorcoach demonstrates Prevost's...",
+      "url": "https://www.prnewswire.com/news-releases/north-american-launch---prevost-unveils-its-first-ever-fully-electric-motorcoach-302951290.html",
+      "published_at": "2026-11-26T19:45:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T00:06:28Z"
+    },
+    {
+      "id": "2dd0eb207b692641",
+      "source": "prnewswire",
+      "title": "LiuGong \u0434\u0435\u043c\u043e\u043d\u0441\u0442\u0440\u0438\u0440\u0443\u0435\u0442 \u043f\u0435\u0440\u0435\u0434\u043e\u0432\u043e\u0435 \u043e\u0431\u043e\u0440\u0443\u0434\u043e\u0432\u0430\u043d\u0438\u0435 \u0438 \u0438\u043d\u0442\u0435\u043b\u043b\u0435\u043a\u0442\u0443\u0430\u043b\u044c\u043d\u044b\u0435 \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0438 \u043d\u0430 \u0432\u044b\u0441\u0442\u0430\u0432\u043a\u0435 Bauma CHINA 2026",
+      "summary": "\u0428\u0410\u041d\u0425\u0410\u0419, 26 \u043d\u043e\u044f\u0431\u0440\u044f 2026 \u0433. /PRNewswire/ -- 24 \u043d\u043e\u044f\u0431\u0440\u044f \u0432 \u0428\u0430\u043d\u0445\u0430\u0439\u0441\u043a\u043e\u043c \u043d\u043e\u0432\u043e\u043c \u043c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u043e\u043c \u0432\u044b\u0441\u0442\u0430\u0432\u043e\u0447\u043d\u043e\u043c \u0446\u0435\u043d\u0442\u0440\u0435 \u043e\u0442\u043a\u0440\u044b\u043b\u0430\u0441\u044c \u0432\u044b\u0441\u0442\u0430\u0432\u043a\u0430 bauma CHINA 2026. LiuGong (000528.SZ) \u043f\u0440\u043e\u0434\u0435\u043c\u043e\u043d\u0441\u0442\u0440\u0438\u0440\u043e\u0432\u0430\u043b 39 \u043f\u0435\u0440\u0435\u0434\u043e\u0432\u044b\u0445 \u043c\u0430\u0448\u0438\u043d \u0438 \u043e\u0442\u0440\u0430\u0441\u043b\u0435\u0432\u044b\u0445 \u0440\u0435\u0448\u0435\u043d\u0438\u0439 \u0432 \u043f\u0430\u0432\u0438\u043b\u044c\u043e\u043d\u0435 \u043f\u043b\u043e\u0449\u0430\u0434\u044c\u044e 4224 \u043a\u0432\u0430\u0434\u0440\u0430\u0442\u043d\u044b\u0445 \u043c\u0435\u0442\u0440\u0430, \u043f\u043e\u0441\u0432\u044f\u0449\u0435\u043d\u043d\u043e\u043c \u0431\u0435\u0437\u0443\u0433\u043b\u0435\u0440\u043e\u0434\u043d\u044b\u043c...",
+      "url": "https://www.prnewswire.com/news-releases/liugong---------bauma-china-2026-302951360.html",
+      "published_at": "2026-11-26T19:37:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T00:06:28Z"
+    },
+    {
+      "id": "a0723dfc3de0c967",
+      "source": "prnewswire",
+      "title": "LiuGong pr\u00e9sente ses \u00e9quipements de pointe et ses technologies intelligentes au salon bauma CHINA 2026",
+      "summary": "SHANGHAI, 26 novembre 2026 /PRNewswire/ -- Le salon bauma CHINA 2026 a ouvert ses portes le 24 novembre au Shanghai New International Expo Center. LiuGong (000528.SZ) a pr\u00e9sent\u00e9 39 machines innovantes et solutions industrielles dans un pavillon de 4 224 m\u00e8tres carr\u00e9s consacr\u00e9 aux...",
+      "url": "https://www.prnewswire.com/news-releases/liugong-presente-ses-equipements-de-pointe-et-ses-technologies-intelligentes-au-salon-bauma-china-2026-302951359.html",
+      "published_at": "2026-11-26T19:33:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T00:06:28Z"
+    },
+    {
+      "id": "ea0f1d1d92da5373",
+      "source": "marketwatch",
+      "title": "A 66-year-old nurse is facing down retirement with just $500 saved. Who\u2019s to blame?",
+      "summary": "\u201cRetirement is a financial status, not an age.\u201d",
+      "url": "https://www.marketwatch.com/story/a-66-year-old-nurse-faces-retirement-with-just-500-saved-whos-to-blame-4249a0fd?mod=mw_rss_topstories",
+      "published_at": "2026-11-26T19:00:00Z",
+      "tickers": [
+        "A"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T00:06:30Z"
+    },
+    {
+      "id": "2e3e2c482da707ae",
+      "source": "prnewswire",
+      "title": "Leekr Technology fournit des solutions de freinage \u00e9lectrique de qualit\u00e9 automobile pour soutenir la production en s\u00e9rie de v\u00e9hicules autonomes",
+      "summary": "SHANGHAI, 26 novembre 2026 /PRNewswire/ -- Leekr Technology, fournisseur leader de solutions de ch\u00e2ssis intelligents, acc\u00e9l\u00e8re son expansion sur les march\u00e9s \u00e9trangers des v\u00e9hicules autonomes, en proposant sa technologie de freinage \u00e9lectronique de qualit\u00e9 automobile, qui a fait ses...",
+      "url": "https://www.prnewswire.com/news-releases/leekr-technology-fournit-des-solutions-de-freinage-electrique-de-qualite-automobile-pour-soutenir-la-production-en-serie-de-vehicules-autonomes-302951351.html",
+      "published_at": "2026-11-26T18:47:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T00:06:28Z"
+    },
+    {
+      "id": "feb9074799b29661",
+      "source": "prnewswire",
+      "title": "Julius Meinl Coffee Group completes largest acquisition in its history",
+      "summary": "Investment moves Julius Meinl into the top five HoReCa coffee players in Italy and signals further acquisition appetite VIENNA, Nov. 26, 2026 /PRNewswire/ -- Julius Meinl has completed the acquisition of the businesses of Daroma and Neronobile in Italy, marking the largest acquisition in...",
+      "url": "https://www.prnewswire.com/news-releases/julius-meinl-coffee-group-completes-largest-acquisition-in-its-history-302951331.html",
+      "published_at": "2026-11-26T18:46:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T00:06:28Z"
+    },
+    {
+      "id": "85ad0e43a9e56748",
+      "source": "prnewswire_financial",
+      "title": "Julius Meinl Coffee Group completes largest acquisition in its history",
+      "summary": "Investment moves Julius Meinl into the top five HoReCa coffee players in Italy and signals further acquisition appetite VIENNA, Nov. 26, 2026 /PRNewswire/ -- Julius Meinl has completed the acquisition of the businesses of Daroma and Neronobile in Italy, marking the largest acquisition in...",
+      "url": "https://www.prnewswire.com/news-releases/julius-meinl-coffee-group-completes-largest-acquisition-in-its-history-302951331.html",
+      "published_at": "2026-11-26T18:46:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T00:06:29Z"
+    },
+    {
+      "id": "9df01ff72aa527eb",
+      "source": "prnewswire",
+      "title": "Apotex supports continued access to women's health treatment in Canada",
+      "summary": "Company ready to respond to increased demand for estrogen cream and working with provinces to expand public access TORONTO, Nov. 26, 2026 /PRNewswire/ -- The sudden discontinuation of certain women's health products in Canada has created a challenging transition for patients and...",
+      "url": "https://www.prnewswire.com/news-releases/apotex-supports-continued-access-to-womens-health-treatment-in-canada-302951347.html",
+      "published_at": "2026-11-26T18:30:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T00:06:28Z"
+    },
     {
       "id": "0d71261d28321f54",
       "source": "wso_nachrichten",
@@ -34,7 +381,7 @@
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "other_8k",
       "scanned_at": "2026-11-26T18:22:13Z",
       "region": "EU"
@@ -54,7 +401,7 @@
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "other_8k",
       "scanned_at": "2026-11-26T18:22:13Z",
       "region": "EU"
@@ -66,12 +413,14 @@
       "summary": "EQS-News: Stabilus SE / Schlagwort(e): Personalie/Vertrag Stabilus SE: Aufsichtsrat verl\u00e4ngert Vertrag mit Vorstandsvorsitzendem Dr. Michael B\u00fcchsner 26.11.2026 / 19:08 CET/CEST F\u00fcr den Inhalt der Mitteilung ist der Emittent / Herausgeber verantwortlich. CORPORATE NEWS",
       "url": "https://www.wallstreet-online.de/nachricht/21753862-eqs-news-stabilus-se-aufsichtsrat-verlaengert-vertrag-vorstandsvorsitzendem-dr-michael-buechsner",
       "published_at": "2026-11-26T18:08:13Z",
-      "tickers": [],
+      "tickers": [
+        "EQS"
+      ],
       "form": "EU_NEWS",
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "other_8k",
       "scanned_at": "2026-11-26T18:22:13Z",
       "region": "EU"
@@ -83,12 +432,14 @@
       "summary": "EQS-News: Stabilus SE / Key word(s): Personnel/Contract Stabilus SE: Supervisory Board extends contract with CEO Dr. Michael B\u00fcchsner 26.11.2026 / 19:08 CET/CEST The issuer is solely responsible for the content of this announcement. CORPORATE NEWS Stabilus SE:",
       "url": "https://www.wallstreet-online.de/nachricht/21753856-eqs-news-stabilus-se-supervisory-board-extends-contract-with-ceo-dr-michael-buechsner",
       "published_at": "2026-11-26T18:08:13Z",
-      "tickers": [],
+      "tickers": [
+        "EQS"
+      ],
       "form": "EU_NEWS",
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "other_8k",
       "scanned_at": "2026-11-26T18:22:13Z",
       "region": "EU"
@@ -104,10 +455,10 @@
         "SSE.L"
       ],
       "form": "EU_NEWS",
-      "event_type": "mna",
-      "direction": "bullish",
-      "news_side": "long",
-      "actionable": true,
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
       "eu_category": "mna",
       "scanned_at": "2026-11-26T18:22:13Z",
       "region": "EU"
@@ -119,12 +470,14 @@
       "summary": "EQS-Ad-hoc: Stabilus SE / Schlagwort(e): Personalentscheidungen / Vorstand Stabilus SE: Aufsichtsrat verl\u00e4ngert Vertrag mit Vorstandsvorsitzendem Dr. Michael B\u00fcchsner 26.11.2026 / 19:05 CET/CEST Ver\u00f6ffentlichung einer Insiderinformation nach Artikel 17 der Verordnung (EU) Nr. 596/2014, \u00fcbermittelt durch EQS News - ein Service der EQS Group.",
       "url": "https://www.wallstreet-online.de/nachricht/21753865-eqs-adhoc-stabilus-se-aufsichtsrat-verlaengert-vertrag-vorstandsvorsitzendem-dr-michael-buechsner",
       "published_at": "2026-11-26T18:05:33Z",
-      "tickers": [],
+      "tickers": [
+        "EQS"
+      ],
       "form": "EU_ADHOC",
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "other_8k",
       "scanned_at": "2026-11-26T18:22:13Z",
       "region": "EU"
@@ -136,12 +489,14 @@
       "summary": "EQS-Ad-hoc: Stabilus SE / Key word(s): Personnel decisions / Executive Board Stabilus SE: Supervisory Board extends contract with CEO Dr. Michael B\u00fcchsner 26-Nov-2026 / 19:05 CET/CEST Disclosure of an inside information acc. to Article 17 MAR of the Regulation (EU) No 596/2014, transmitted by EQS News - a service of EQS Group. The issuer is",
       "url": "https://www.wallstreet-online.de/nachricht/21753859-eqs-adhoc-stabilus-se-supervisory-board-extends-contract-with-ceo-dr-michael-buechsner",
       "published_at": "2026-11-26T18:05:33Z",
-      "tickers": [],
+      "tickers": [
+        "EQS"
+      ],
       "form": "EU_ADHOC",
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "other_8k",
       "scanned_at": "2026-11-26T18:22:13Z",
       "region": "EU"
@@ -154,13 +509,14 @@
       "url": "https://www.wallstreet-online.de/nachricht/21753844-rosen-a-leading-investor-rights-law-firm-encourages-tenax-therapeutics-inc-investors-to-secure-counsel-before-deadline-securities-class-action-tenx",
       "published_at": "2026-11-26T18:05:00Z",
       "tickers": [
-        "INGA.AS"
+        "TENX",
+        "ROSEN"
       ],
       "form": "EU_NEWS",
       "event_type": "shareholder_alert",
       "direction": "bearish",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "other_8k",
       "scanned_at": "2026-11-26T18:22:13Z",
       "region": "EU"
@@ -179,7 +535,7 @@
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "other_8k",
       "scanned_at": "2026-11-26T18:22:13Z",
       "region": "EU"
@@ -199,7 +555,7 @@
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "other_8k",
       "scanned_at": "2026-11-26T18:22:13Z",
       "region": "EU"
@@ -212,16 +568,13 @@
       "url": "https://www.wallstreet-online.de/nachricht/21753832-gstarsoft-praesentiert-bim-world-muenchen-2026-praxisorientierten-bim",
       "published_at": "2026-11-26T17:48:00Z",
       "tickers": [
-        "RWE.DE",
-        "INGA.AS",
-        "ENI.MI",
-        "SSE.L"
+        "BIM"
       ],
       "form": "EU_NEWS",
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "other_8k",
       "scanned_at": "2026-11-26T18:22:13Z",
       "region": "EU"
@@ -238,7 +591,7 @@
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "other_8k",
       "scanned_at": "2026-11-26T18:22:13Z",
       "region": "EU"
@@ -257,7 +610,7 @@
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "other_8k",
       "scanned_at": "2026-11-26T18:22:13Z",
       "region": "EU"
@@ -275,10 +628,10 @@
         "SSE.L"
       ],
       "form": "EU_NEWS",
-      "event_type": "mna",
-      "direction": "bullish",
-      "news_side": "long",
-      "actionable": true,
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
       "eu_category": "mna",
       "scanned_at": "2026-11-26T18:22:13Z",
       "region": "EU"
@@ -298,7 +651,7 @@
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "other_8k",
       "scanned_at": "2026-11-26T18:22:13Z",
       "region": "EU"
@@ -315,7 +668,7 @@
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "other_8k",
       "scanned_at": "2026-11-26T18:22:13Z",
       "region": "EU"
@@ -336,7 +689,7 @@
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "other_8k",
       "scanned_at": "2026-11-26T18:22:13Z",
       "region": "EU"
@@ -355,7 +708,7 @@
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "other_8k",
       "scanned_at": "2026-11-26T18:22:13Z",
       "region": "EU"
@@ -375,7 +728,7 @@
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "other_8k",
       "scanned_at": "2026-11-26T18:22:13Z",
       "region": "EU"
@@ -392,7 +745,7 @@
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "other_8k",
       "scanned_at": "2026-11-26T18:22:13Z",
       "region": "EU"
@@ -408,10 +761,10 @@
         "DBK.DE"
       ],
       "form": "EU_NEWS",
-      "event_type": "analyst",
-      "direction": "bearish",
+      "event_type": "other",
+      "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "analyst",
       "scanned_at": "2026-11-26T18:22:13Z",
       "region": "EU"
@@ -430,7 +783,7 @@
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "other_8k",
       "scanned_at": "2026-11-26T18:22:13Z",
       "region": "EU"
@@ -447,7 +800,7 @@
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "other_8k",
       "scanned_at": "2026-11-26T18:22:13Z",
       "region": "EU"
@@ -460,14 +813,13 @@
       "url": "https://www.wallstreet-online.de/nachricht/21753799-bnp-paribas-halbiert-kursziel-775-dollar-stuft-micron-neutral-herab-ueberangebot-dram-2027-erwartet",
       "published_at": "2026-11-26T17:35:12Z",
       "tickers": [
-        "BNP.PA",
-        "INGA.AS"
+        "BNP"
       ],
       "form": "EU_NEWS",
       "event_type": "analyst",
       "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "analyst",
       "scanned_at": "2026-11-26T18:22:13Z",
       "region": "EU"
@@ -479,12 +831,14 @@
       "summary": "EQS-News: PlasCred Circular Innovations Inc. / Schlagwort(e): Miscellaneous PlasCred ernennt Alan Withey zum Chief Financial Officer 26.11.2026 / 18:35 CET/CEST F\u00fcr den Inhalt der Mitteilung ist der Emittent / Herausgeber verantwortlich. Calgary, Alberta--(Newsfile Corp. - Donnerstag, 26. November 2026) - PlasCred Circular",
       "url": "https://www.wallstreet-online.de/nachricht/21753784-eqs-news-plascred-ernennt-alan-withey-chief-financial-officer",
       "published_at": "2026-11-26T17:35:03Z",
-      "tickers": [],
+      "tickers": [
+        "EQS"
+      ],
       "form": "EU_NEWS",
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "other_8k",
       "scanned_at": "2026-11-26T18:22:13Z",
       "region": "EU"
@@ -500,10 +854,10 @@
         "SSE.L"
       ],
       "form": "EU_NEWS",
-      "event_type": "earnings",
+      "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "earnings_nosurprise",
       "scanned_at": "2026-11-26T18:22:13Z",
       "region": "EU"
@@ -522,7 +876,7 @@
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "other_8k",
       "scanned_at": "2026-11-26T18:22:13Z",
       "region": "EU"
@@ -539,7 +893,7 @@
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "other_8k",
       "scanned_at": "2026-11-26T18:22:13Z",
       "region": "EU"
@@ -552,13 +906,13 @@
       "url": "https://www.wallstreet-online.de/nachricht/21753754-wdh-aktien-wien-schluss-atx-us-fahrwasser-erholt",
       "published_at": "2026-11-26T17:27:49Z",
       "tickers": [
-        "SSE.L"
+        "WDH"
       ],
       "form": "EU_NEWS",
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "other_8k",
       "scanned_at": "2026-11-26T18:22:13Z",
       "region": "EU"
@@ -578,10 +932,38 @@
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "other_8k",
       "scanned_at": "2026-11-26T18:22:13Z",
       "region": "EU"
+    },
+    {
+      "id": "c24fb65c79dfb1ba",
+      "source": "prnewswire_financial",
+      "title": "Julius Meinl Kaffee st\u00e4rkt internationales Wachstum mit Rekord-Akquisition",
+      "summary": "Familienunternehmen baut internationale Pr\u00e4senz weiter aus und verbindet \u00f6sterreichische Wurzeln mit einem globalen Kaffeegesch\u00e4ft WIEN, 26. November 2026 /PRNewswire/ -- Das \u00f6sterreichische Kaffeeunternehmen Julius Meinl setzt einen weiteren wichtigen Schritt in der Entwicklung seines...",
+      "url": "https://www.prnewswire.com/news-releases/julius-meinl-kaffee-starkt-internationales-wachstum-mit-rekord-akquisition-302951334.html",
+      "published_at": "2026-11-26T17:19:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T00:06:29Z"
+    },
+    {
+      "id": "fdb1f05ed6309c9f",
+      "source": "prnewswire_financial",
+      "title": "Julius Meinl Coffee Group completes largest acquisition in its history",
+      "summary": "Investment moves Julius Meinl into the top five HoReCa coffee players in Italy and signals further acquisition appetite VIENNA, Nov. 26, 2026 /PRNewswire/ -- Julius Meinl has completed the acquisition of the businesses of Daroma and Neronobile in Italy, marking the largest acquisition in...",
+      "url": "https://www.prnewswire.com/news-releases/julius-meinl-coffee-group-completes-largest-acquisition-in-its-history-302951333.html",
+      "published_at": "2026-11-26T17:16:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T00:06:29Z"
     },
     {
       "id": "38743f16d0a3c693",
@@ -591,14 +973,13 @@
       "url": "https://de.finance.yahoo.com/nachrichten/roundup-kreise-sap-erw%C3%A4gt-abbau-170848656.html?.tsrc=rss",
       "published_at": "2026-11-26T17:08:48Z",
       "tickers": [
-        "SAP.DE",
-        "ABBN.SW"
+        "KI"
       ],
       "form": "EU_NEWS",
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "other_8k",
       "scanned_at": "2026-11-26T18:22:15Z",
       "region": "EU"
@@ -610,15 +991,81 @@
       "summary": "EEII AG: EEII AG gibt die Unterzeichnung einer unverbindlichen Grundsatzvereinbarung mit Haute Capital Partners SA bekannt | Ad-hoc &nbsp;&nbsp; EQS News",
       "url": "https://news.google.com/rss/articles/CBMizwJBVV95cUxNbS1YLWtMZUJMOXRwdjVBVWp4UlhURklZM2FzYl96cGx4OVkxSHVCZWJIVnM3V2NfQkhMNV9PTmFRY3ZDdkQtUGVJcjZaOEwyMkR3NFV5ODI1VFpzUlFnS1dPODVVOEpmX0Y4WHFVZTlxWnByYld4Z3Y2bVNscnA0a3dYUS1sSEg0NXB6SlpLb2FDMm9TVTFHanp2b1AxTm5LQWt5TGtXVHVfbGVKbUdxTmY4Wmd1aC1tM043amIyc0s2VHRlUHFTMHFab2RKVGZ2RnNVRllSeGR3T29MbFFEZFpOVzhDT1FCMGU4bGFZcWZkQzlvY25iME1ERDVMY0lCLWtFaHVBNUJEV1M1VkVQaGxPSEdWak5GcjZWNlRLZUtnblN3Vy0zeUw1Mi00YkpfQ3hrbFhIOHh3OVY2azFRZi1mdmxudG05QUhEaTBaQQ?oc=5",
       "published_at": "2026-11-26T17:03:00Z",
-      "tickers": [],
+      "tickers": [
+        "EEII"
+      ],
       "form": "EU_ADHOC",
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "other_8k",
       "scanned_at": "2026-11-26T18:22:11Z",
       "region": "EU"
+    },
+    {
+      "id": "c29575c51f6157e7",
+      "source": "prnewswire_financial",
+      "title": "SHAREHOLDER ALERT: Bronstein Gewirtz & Grossman, LLC Announces Class Action Against Alibaba Group Holding Limited (NYSE: BABA) -- Investors Who Suffered Losses Are Encouraged to Contact the Firm",
+      "summary": "Lead Plaintiff Deadline: January 19, 2027. Investors who purchased (NYSE: BABA) securities between May 23, 2024 and November 11, 2026 may be eligible to recover losses. NEW YORK, Nov. 26, 2026 /PRNewswire/ -- Attorney Advertising -- This lawsuit seeks to recover damages against Defendants...",
+      "url": "https://www.prnewswire.com/news-releases/shareholder-alert-bronstein-gewirtz--grossman-llc-announces-class-action-against-alibaba-group-holding-limited-nyse-baba--investors-who-suffered-losses-are-encouraged-to-contact-the-firm-302949659.html",
+      "published_at": "2026-11-26T17:00:00Z",
+      "tickers": [
+        "BABA"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T00:06:29Z"
+    },
+    {
+      "id": "430506d228093f55",
+      "source": "prnewswire_financial",
+      "title": "SHAREHOLDER ALERT: Bronstein Gewirtz & Grossman, LLC Announces Class Action Against Fervo Energy Company (NASDAQ: FRVO) -- Investors Who Suffered Losses Are Encouraged to Contact the Firm",
+      "summary": "Lead Plaintiff Deadline: January 19, 2027. Investors who purchased Fervo Energy Company (NASDAQ: FRVO) Class A common stock pursuant to or traceable to the registration statement and prospectus for its May 2026 initial public offering may be eligible to recover losses. NEW YORK, Nov. 26,...",
+      "url": "https://www.prnewswire.com/news-releases/shareholder-alert-bronstein-gewirtz--grossman-llc-announces-class-action-against-fervo-energy-company-nasdaq-frvo--investors-who-suffered-losses-are-encouraged-to-contact-the-firm-302949731.html",
+      "published_at": "2026-11-26T17:00:00Z",
+      "tickers": [
+        "FRVO"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T00:06:29Z"
+    },
+    {
+      "id": "1ed317599db8c338",
+      "source": "prnewswire_financial",
+      "title": "SHAREHOLDER ALERT: Bronstein Gewirtz & Grossman, LLC Announces Class Action Against FMC Corporation (NYSE: FMC) -- Investors Who Suffered Losses Are Encouraged to Contact the Firm",
+      "summary": "Lead Plaintiff Deadline: January 19, 2027. Investors who purchased (NYSE: FMC) securities between February 4, 2026 and October 14, 2026 may be eligible to recover losses. NEW YORK, Nov. 26, 2026 /PRNewswire/ -- Attorney Advertising-- This lawsuit seeks to recover damages against...",
+      "url": "https://www.prnewswire.com/news-releases/shareholder-alert-bronstein-gewirtz--grossman-llc-announces-class-action-against-fmc-corporation-nyse-fmc--investors-who-suffered-losses-are-encouraged-to-contact-the-firm-302949752.html",
+      "published_at": "2026-11-26T17:00:00Z",
+      "tickers": [
+        "FMC"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T00:06:29Z"
+    },
+    {
+      "id": "4a95d0f6deebba4c",
+      "source": "prnewswire_financial",
+      "title": "SHAREHOLDER ALERT: Bronstein Gewirtz & Grossman, LLC Announces Class Action Against MNTN, Inc. (NYSE: MNTN) -- Investors Who Suffered Losses Are Encouraged to Contact the Firm",
+      "summary": "Lead Plaintiff Deadline: January 19, 2027. Investors who purchased (NYSE: MNTN) securities between August 5, 2026 and November 4, 2026 may be eligible to recover losses. NEW YORK, Nov. 26, 2026 /PRNewswire/ -- Attorney Advertising-- This lawsuit seeks to recover damages against Defendants...",
+      "url": "https://www.prnewswire.com/news-releases/shareholder-alert-bronstein-gewirtz--grossman-llc-announces-class-action-against-mntn-inc-nyse-mntn--investors-who-suffered-losses-are-encouraged-to-contact-the-firm-302949745.html",
+      "published_at": "2026-11-26T17:00:00Z",
+      "tickers": [
+        "MNTN"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T00:06:29Z"
     },
     {
       "id": "3fadfa1ddcd0dfa4",
@@ -629,10 +1076,10 @@
       "published_at": "2026-11-26T16:26:00Z",
       "tickers": [],
       "form": "EU_NEWS",
-      "event_type": "analyst",
+      "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "analyst",
       "scanned_at": "2026-11-26T18:22:12Z",
       "region": "EU"
@@ -651,10 +1098,24 @@
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "other_8k",
       "scanned_at": "2026-11-26T18:22:16Z",
       "region": "EU"
+    },
+    {
+      "id": "25667d1f03cf0c10",
+      "source": "cnbc_finance",
+      "title": "Buyer beware? Nvidia's volatile swings expose risks of single-stock ETFs",
+      "summary": "ETF Action founding partner Mike Akins and GraniteShares CEO Will Rhind react to Nvidia's sharp losses and latest comeback.",
+      "url": "https://www.cnbc.com/2026/11/26/nvidias-volatile-swings-expose-risks-of-single-stock-etfs.html",
+      "published_at": "2026-11-26T16:00:01Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T00:06:30Z"
     },
     {
       "id": "b3e23ed255cd0c4c",
@@ -698,7 +1159,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T15:45:06Z"
+      "scanned_at": "2026-11-27T00:06:30Z"
     },
     {
       "id": "4447d51f5c0318db",
@@ -740,7 +1201,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T15:45:06Z"
+      "scanned_at": "2026-11-27T00:06:30Z"
     },
     {
       "id": "f60876ecbdd6cff5",
@@ -830,7 +1291,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T15:45:05Z"
+      "scanned_at": "2026-11-27T00:06:29Z"
     },
     {
       "id": "2211a461d528bcd5",
@@ -1022,7 +1483,7 @@
       "direction": "bearish",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T15:45:05Z"
+      "scanned_at": "2026-11-27T00:06:29Z"
     },
     {
       "id": "e4cdbc657531f94d",
@@ -1038,7 +1499,7 @@
       "direction": "bearish",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T15:45:05Z"
+      "scanned_at": "2026-11-27T00:06:29Z"
     },
     {
       "id": "56bfd076fb40b108",
@@ -1054,7 +1515,7 @@
       "direction": "bearish",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T15:45:05Z"
+      "scanned_at": "2026-11-27T00:06:29Z"
     },
     {
       "id": "7d81a0165ca1fb24",
@@ -1070,7 +1531,7 @@
       "direction": "bearish",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T15:45:05Z"
+      "scanned_at": "2026-11-27T00:06:29Z"
     },
     {
       "id": "88e9ec47e1111873",
@@ -1086,7 +1547,7 @@
       "direction": "bearish",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T15:45:05Z"
+      "scanned_at": "2026-11-27T00:06:29Z"
     },
     {
       "id": "fb2ef61e72255ff1",
@@ -1102,7 +1563,7 @@
       "direction": "bearish",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T15:45:05Z"
+      "scanned_at": "2026-11-27T00:06:29Z"
     },
     {
       "id": "110a7feb58aeb23a",
@@ -1118,7 +1579,7 @@
       "direction": "bearish",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T15:45:05Z"
+      "scanned_at": "2026-11-27T00:06:29Z"
     },
     {
       "id": "df88876ab70d2f5f",
@@ -1134,7 +1595,7 @@
       "direction": "bearish",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T15:45:05Z"
+      "scanned_at": "2026-11-27T00:06:29Z"
     },
     {
       "id": "a49f994cb958dede",
@@ -1150,7 +1611,7 @@
       "direction": "bearish",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T15:45:05Z"
+      "scanned_at": "2026-11-27T00:06:29Z"
     },
     {
       "id": "1fa4f97ae9e12605",
@@ -1166,7 +1627,7 @@
       "direction": "bearish",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T15:45:05Z"
+      "scanned_at": "2026-11-27T00:06:29Z"
     },
     {
       "id": "37d8db94c62e6ff0",
@@ -1182,7 +1643,7 @@
       "direction": "bearish",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T15:45:05Z"
+      "scanned_at": "2026-11-27T00:06:29Z"
     },
     {
       "id": "5b3d6e9a97d24222",
@@ -1198,7 +1659,7 @@
       "direction": "bearish",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T15:45:05Z"
+      "scanned_at": "2026-11-27T00:06:29Z"
     },
     {
       "id": "b47dae43ce21ed1d",
@@ -1324,7 +1785,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T15:45:06Z"
+      "scanned_at": "2026-11-27T00:06:30Z"
     },
     {
       "id": "56e7056b4c90f99b",
@@ -1338,7 +1799,7 @@
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "other_8k",
       "scanned_at": "2026-11-26T18:22:11Z",
       "region": "EU"
@@ -1351,14 +1812,13 @@
       "url": "https://www.businessinsider.de/wirtschaft/bmw-baut-weitere-stellen-ab-diesmal-waehlt-der-autobauer-gezielter-aus/bd560w4/?.tsrc=rss",
       "published_at": "2026-11-26T14:03:57Z",
       "tickers": [
-        "RO.SW",
-        "BMW.DE"
+        "BMW"
       ],
       "form": "EU_NEWS",
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "other_8k",
       "scanned_at": "2026-11-26T18:22:18Z",
       "region": "EU"
@@ -1375,7 +1835,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T15:45:06Z"
+      "scanned_at": "2026-11-27T00:06:30Z"
     },
     {
       "id": "0c126fed70f86199",
@@ -1417,7 +1877,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T15:45:06Z"
+      "scanned_at": "2026-11-27T00:06:30Z"
     },
     {
       "id": "d410e0a49ac676f4",
@@ -1447,7 +1907,7 @@
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "other_8k",
       "scanned_at": "2026-11-26T18:22:17Z",
       "region": "EU"
@@ -1480,7 +1940,7 @@
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "other_8k",
       "scanned_at": "2026-11-26T18:22:17Z",
       "region": "EU"
@@ -1497,10 +1957,10 @@
         "SSE.L"
       ],
       "form": "EU_NEWS",
-      "event_type": "mna",
-      "direction": "bullish",
-      "news_side": "long",
-      "actionable": true,
+      "event_type": "analyst",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
       "eu_category": "mna",
       "scanned_at": "2026-11-26T18:22:18Z",
       "region": "EU"
@@ -1517,7 +1977,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T15:45:05Z"
+      "scanned_at": "2026-11-27T00:06:29Z"
     },
     {
       "id": "035e76bfb22c2c3e",
@@ -1534,7 +1994,7 @@
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "other_8k",
       "scanned_at": "2026-11-26T18:22:17Z",
       "region": "EU"
@@ -1560,12 +2020,14 @@
       "summary": "JDC Group AG: JDC Group AG beschlie\u00dft R\u00fcckkaufprogramm f\u00fcr eigene Aktien | Ad-hoc &nbsp;&nbsp; EQS News",
       "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPMy0xLThxdWFmNi1HdndNVEU5ZU5heDhOS2sxbzJzT01iUlV4VzRVdVdGT1I1c3ZBdTJYNFdrNExTSnFzWl90TEZBUjRBWEZjU1VEeWhiaDRkWnZROUctXzhMX3ZaZXpVWjZrU0NsaXFRU2dabXVPVGJ3VVRlOFpVU1djOEQ3djE0WWtZU0o1M3QyTzROekNWaDFmS1hNeDFnVF9qZVRWVjFoTS00bXdDaFA0elE3RnJwbWNyVU0wZEhmMEN4RURWaGRJbGFfcUo2NUVtVklkRDhQd1Q3aUdweE56SXNiRlhzQVpvclNvaGRQT1MtcUNoX3BTSTkyeWhHbDRJZWNEQUpWUW94OWFSUQ?oc=5",
       "published_at": "2026-11-26T10:07:00Z",
-      "tickers": [],
+      "tickers": [
+        "JDC"
+      ],
       "form": "EU_ADHOC",
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "other_8k",
       "scanned_at": "2026-11-26T18:22:11Z",
       "region": "EU"
@@ -1578,14 +2040,13 @@
       "url": "https://de.finance.yahoo.com/nachrichten/aktie-fokus-bayer-zieht-berenberg-100439103.html?.tsrc=rss",
       "published_at": "2026-11-26T10:04:39Z",
       "tickers": [
-        "BAYN.DE",
-        "SSE.L"
+        "AKTIE"
       ],
       "form": "EU_NEWS",
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "other_8k",
       "scanned_at": "2026-11-26T18:22:16Z",
       "region": "EU"
@@ -1604,7 +2065,7 @@
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "other_8k",
       "scanned_at": "2026-11-26T18:22:16Z",
       "region": "EU"
@@ -1623,7 +2084,7 @@
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "other_8k",
       "scanned_at": "2026-11-26T18:22:16Z",
       "region": "EU"
@@ -1641,10 +2102,10 @@
         "SSE.L"
       ],
       "form": "EU_NEWS",
-      "event_type": "analyst",
-      "direction": "bearish",
+      "event_type": "other",
+      "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "analyst",
       "scanned_at": "2026-11-26T18:22:15Z",
       "region": "EU"
@@ -1662,10 +2123,10 @@
         "SSE.L"
       ],
       "form": "EU_NEWS",
-      "event_type": "analyst",
+      "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "analyst",
       "scanned_at": "2026-11-26T18:22:16Z",
       "region": "EU"
@@ -1682,7 +2143,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T15:45:06Z"
+      "scanned_at": "2026-11-27T00:06:30Z"
     },
     {
       "id": "c3cdfd82ac69cc16",
@@ -1710,7 +2171,7 @@
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "other_8k",
       "scanned_at": "2026-11-26T18:22:11Z",
       "region": "EU"
@@ -1727,7 +2188,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T15:45:06Z"
+      "scanned_at": "2026-11-27T00:06:30Z"
     },
     {
       "id": "7754abc552afc61d",
@@ -1743,7 +2204,7 @@
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "other_8k",
       "scanned_at": "2026-11-26T18:22:11Z",
       "region": "EU"
@@ -1793,7 +2254,7 @@
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "other_8k",
       "scanned_at": "2026-11-26T18:22:16Z",
       "region": "EU"
@@ -2246,7 +2707,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T05:32:02Z"
+      "scanned_at": "2026-11-27T00:06:30Z"
     },
     {
       "id": "48339a9a954b25a1",
@@ -2262,7 +2723,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T05:32:02Z"
+      "scanned_at": "2026-11-27T00:06:30Z"
     },
     {
       "id": "1891bc9f6738d3df",
@@ -2460,7 +2921,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T15:45:05Z"
+      "scanned_at": "2026-11-27T00:06:29Z"
     },
     {
       "id": "1bbbe9114119057e",
@@ -2475,7 +2936,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-26T15:45:04Z"
+      "scanned_at": "2026-11-27T00:06:28Z"
     },
     {
       "id": "002281fcbcfaaf83",
@@ -2490,7 +2951,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-26T15:45:04Z"
+      "scanned_at": "2026-11-27T00:06:28Z"
     },
     {
       "id": "38e814e52c47c8b4",
@@ -2505,7 +2966,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T15:45:04Z"
+      "scanned_at": "2026-11-27T00:06:28Z"
     },
     {
       "id": "1348a19270f28c25",
@@ -2548,7 +3009,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T15:45:04Z"
+      "scanned_at": "2026-11-27T00:06:28Z"
     },
     {
       "id": "0d0731d46968f272",
@@ -2577,7 +3038,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-26T15:45:04Z"
+      "scanned_at": "2026-11-27T00:06:28Z"
     },
     {
       "id": "ad61430806876eb6",
@@ -2592,7 +3053,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-26T15:45:04Z"
+      "scanned_at": "2026-11-27T00:06:28Z"
     },
     {
       "id": "89740e993263b9a6",
@@ -2607,7 +3068,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T15:45:04Z"
+      "scanned_at": "2026-11-27T00:06:28Z"
     },
     {
       "id": "1cf612a3ff6e2da3",
@@ -2622,7 +3083,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-26T15:45:04Z"
+      "scanned_at": "2026-11-27T00:06:28Z"
     },
     {
       "id": "1d74298ba94386e2",
@@ -2667,7 +3128,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T15:45:04Z"
+      "scanned_at": "2026-11-27T00:06:28Z"
     },
     {
       "id": "372f279fde1269ca",
@@ -2682,7 +3143,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T15:45:04Z"
+      "scanned_at": "2026-11-27T00:06:28Z"
     },
     {
       "id": "149d105c7eb7f1fb",
@@ -2711,7 +3172,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-26T15:45:04Z"
+      "scanned_at": "2026-11-27T00:06:28Z"
     },
     {
       "id": "b09b30969edea893",
@@ -2726,7 +3187,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T15:45:04Z"
+      "scanned_at": "2026-11-27T00:06:28Z"
     },
     {
       "id": "db7c1541095e3940",
@@ -2741,7 +3202,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-26T15:45:04Z"
+      "scanned_at": "2026-11-27T00:06:28Z"
     },
     {
       "id": "ffcc4fe1d9a4ad49",
@@ -2756,7 +3217,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-26T15:45:04Z"
+      "scanned_at": "2026-11-27T00:06:28Z"
     },
     {
       "id": "26a9d9cd0f4c60c0",
@@ -2771,7 +3232,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T15:45:04Z"
+      "scanned_at": "2026-11-27T00:06:28Z"
     },
     {
       "id": "c87673f7a9fe94ff",
@@ -2786,7 +3247,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T15:45:04Z"
+      "scanned_at": "2026-11-27T00:06:28Z"
     },
     {
       "id": "6c6d8364f1c0a237",
@@ -2801,7 +3262,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-26T15:45:04Z"
+      "scanned_at": "2026-11-27T00:06:28Z"
     },
     {
       "id": "64170f919ff3c32b",
@@ -2816,7 +3277,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T15:45:04Z"
+      "scanned_at": "2026-11-27T00:06:28Z"
     },
     {
       "id": "a7f213f0987f4483",
@@ -2831,7 +3292,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T15:45:04Z"
+      "scanned_at": "2026-11-27T00:06:28Z"
     },
     {
       "id": "0c4aaa47baf680a9",
@@ -2846,7 +3307,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T15:45:04Z"
+      "scanned_at": "2026-11-27T00:06:28Z"
     },
     {
       "id": "22eff6eecd73fdff",
@@ -2861,7 +3322,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T15:45:04Z"
+      "scanned_at": "2026-11-27T00:06:28Z"
     },
     {
       "id": "0499206cf66adccb",
@@ -2876,7 +3337,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-26T15:45:04Z"
+      "scanned_at": "2026-11-27T00:06:28Z"
     },
     {
       "id": "e7644a4428858f53",
@@ -2891,7 +3352,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T15:45:04Z"
+      "scanned_at": "2026-11-27T00:06:28Z"
     },
     {
       "id": "35c3cc87bb8f5752",
@@ -2906,7 +3367,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T15:45:04Z"
+      "scanned_at": "2026-11-27T00:06:28Z"
     },
     {
       "id": "f8acaea8894c00b3",
@@ -2921,7 +3382,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-26T15:45:04Z"
+      "scanned_at": "2026-11-27T00:06:28Z"
     },
     {
       "id": "6b56ab57855f8182",
@@ -2936,7 +3397,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T15:45:04Z"
+      "scanned_at": "2026-11-27T00:06:28Z"
     },
     {
       "id": "1dbfa7572e982712",
@@ -2951,7 +3412,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T15:45:04Z"
+      "scanned_at": "2026-11-27T00:06:28Z"
     },
     {
       "id": "3ff101028a3ae4e9",
@@ -2980,7 +3441,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T15:45:04Z"
+      "scanned_at": "2026-11-27T00:06:28Z"
     },
     {
       "id": "212820731e951626",
@@ -3039,7 +3500,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-26T15:45:04Z"
+      "scanned_at": "2026-11-27T00:06:28Z"
     },
     {
       "id": "83f51f1a6ed370ae",
@@ -3082,7 +3543,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T15:45:04Z"
+      "scanned_at": "2026-11-27T00:06:28Z"
     },
     {
       "id": "efa552b09e44c5c6",
@@ -3097,7 +3558,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T15:45:04Z"
+      "scanned_at": "2026-11-27T00:06:28Z"
     },
     {
       "id": "62432663baaec2ac",
@@ -3126,7 +3587,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T15:45:04Z"
+      "scanned_at": "2026-11-27T00:06:28Z"
     },
     {
       "id": "280217f05e9d3726",
@@ -3141,7 +3602,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T15:45:04Z"
+      "scanned_at": "2026-11-27T00:06:28Z"
     },
     {
       "id": "4f0651626a75ab42",
@@ -3156,7 +3617,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T15:45:04Z"
+      "scanned_at": "2026-11-27T00:06:28Z"
     },
     {
       "id": "75c98b0e4a7904ff",
@@ -3171,7 +3632,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T15:45:04Z"
+      "scanned_at": "2026-11-27T00:06:28Z"
     },
     {
       "id": "d29f1a33e4e61005",
@@ -3248,7 +3709,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T15:45:04Z"
+      "scanned_at": "2026-11-27T00:06:28Z"
     },
     {
       "id": "396f2a50cebc206e",
@@ -3277,7 +3738,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-26T15:45:04Z"
+      "scanned_at": "2026-11-27T00:06:28Z"
     },
     {
       "id": "969bdd442e521d54",
@@ -3292,7 +3753,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T15:45:04Z"
+      "scanned_at": "2026-11-27T00:06:28Z"
     },
     {
       "id": "c30d4a49f35dfecd",
@@ -3307,7 +3768,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T15:45:04Z"
+      "scanned_at": "2026-11-27T00:06:28Z"
     },
     {
       "id": "52d487d78a907726",
@@ -3322,7 +3783,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T15:45:04Z"
+      "scanned_at": "2026-11-27T00:06:28Z"
     },
     {
       "id": "3c65ef0f773138ee",
@@ -3488,9 +3949,9 @@
       "tickers": [],
       "form": "EU_NEWS",
       "event_type": "analyst",
-      "direction": "bearish",
+      "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "analyst",
       "scanned_at": "2026-11-26T18:22:12Z",
       "region": "EU"
@@ -4075,12 +4536,14 @@
       "summary": "FIT GROUP AG: Bezugsrechtskapitalerh\u00f6hung wird in vollem Umfang durchgef\u00fchrt | Ad-hoc &nbsp;&nbsp; EQS News",
       "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQYllpa2hicW0zc1E1dmprZ2xJbjJDUmpDMUVoWWVZTnRqWWthcUVhSE4tSVhQOFlCS3lpd0s4aTFfMm1VQVlUTmNOM01NaUJ3TnltaktSVUZXbU55SEZEWDNkeV9VRkZna2dLN3lCUktrUlNLaV83RUY4OTdZQk9rdkprTzF3R2xLRDQ5T0ItVlNjcGhERWl6LU93cVlDTThtT0FQaHAzNENBVDFTZTNNZm1udTNBZnRLZjM3bzlWb0VNVlgtdTZHQWpGYi04Z2RmRllTNTk5QVY0eUo2UE5MRUxGOEh5Ykk?oc=5",
       "published_at": "2026-11-25T18:07:00Z",
-      "tickers": [],
+      "tickers": [
+        "FIT"
+      ],
       "form": "EU_ADHOC",
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "other_8k",
       "scanned_at": "2026-11-26T18:22:11Z",
       "region": "EU"
@@ -4099,7 +4562,7 @@
       "event_type": "analyst",
       "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "analyst",
       "scanned_at": "2026-11-26T18:22:12Z",
       "region": "EU"
@@ -4149,7 +4612,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T15:45:06Z"
+      "scanned_at": "2026-11-27T00:06:30Z"
     },
     {
       "id": "b6b7531905246464",
@@ -4472,7 +4935,7 @@
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "other_8k",
       "scanned_at": "2026-11-26T18:22:16Z",
       "region": "EU"
@@ -4636,7 +5099,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T15:45:05Z"
+      "scanned_at": "2026-11-27T00:06:29Z"
     },
     {
       "id": "96bfb62d51d3531d",
@@ -4745,7 +5208,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T05:32:02Z"
+      "scanned_at": "2026-11-27T00:06:30Z"
     },
     {
       "id": "c8e56c45c49396a4",
@@ -5087,7 +5550,7 @@
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "other_8k",
       "scanned_at": "2026-11-26T18:22:17Z",
       "region": "EU"
@@ -5233,13 +5696,14 @@
       "url": "https://de.finance.yahoo.com/nachrichten/pt-pan-brothers-tbk-treibt-131000058.html?.tsrc=rss",
       "published_at": "2026-11-25T13:10:00Z",
       "tickers": [
-        "SAP.DE"
+        "RMNI",
+        "PT"
       ],
       "form": "EU_NEWS",
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "other_8k",
       "scanned_at": "2026-11-26T18:22:15Z",
       "region": "EU"
@@ -5377,10 +5841,10 @@
       "published_at": "2026-11-25T12:29:08Z",
       "tickers": [],
       "form": "EU_NEWS",
-      "event_type": "analyst",
+      "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "analyst",
       "scanned_at": "2026-11-26T18:22:12Z",
       "region": "EU"
@@ -5397,7 +5861,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T15:45:06Z"
+      "scanned_at": "2026-11-27T00:06:30Z"
     },
     {
       "id": "2a69ed3085a143d3",
@@ -5414,7 +5878,7 @@
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "other_8k",
       "scanned_at": "2026-11-26T18:22:16Z",
       "region": "EU"
@@ -5457,13 +5921,13 @@
       "url": "https://de.finance.yahoo.com/nachrichten/vw-lernt-china-autobauen-neu-114101370.html?.tsrc=rss",
       "published_at": "2026-11-25T11:41:01Z",
       "tickers": [
-        "VOW3.DE"
+        "VW"
       ],
       "form": "EU_NEWS",
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "other_8k",
       "scanned_at": "2026-11-26T18:22:16Z",
       "region": "EU"
@@ -5497,7 +5961,7 @@
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "other_8k",
       "scanned_at": "2026-11-26T18:22:19Z",
       "region": "EU"
@@ -5577,9 +6041,9 @@
       ],
       "form": "EU_NEWS",
       "event_type": "analyst",
-      "direction": "bearish",
+      "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "analyst",
       "scanned_at": "2026-11-26T18:22:19Z",
       "region": "EU"
@@ -5599,9 +6063,9 @@
       ],
       "form": "EU_NEWS",
       "event_type": "analyst",
-      "direction": "bearish",
+      "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "analyst",
       "scanned_at": "2026-11-26T18:22:19Z",
       "region": "EU"
@@ -5617,10 +6081,10 @@
         "SAN.PA"
       ],
       "form": "EU_NEWS",
-      "event_type": "mna",
-      "direction": "bullish",
-      "news_side": "long",
-      "actionable": true,
+      "event_type": "analyst",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
       "eu_category": "mna",
       "scanned_at": "2026-11-26T18:22:18Z",
       "region": "EU"
@@ -5642,7 +6106,7 @@
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "other_8k",
       "scanned_at": "2026-11-26T18:22:17Z",
       "region": "EU"
@@ -5662,7 +6126,7 @@
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "other_8k",
       "scanned_at": "2026-11-26T18:22:15Z",
       "region": "EU"
@@ -5683,7 +6147,7 @@
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "other_8k",
       "scanned_at": "2026-11-26T18:22:18Z",
       "region": "EU"
@@ -5703,7 +6167,7 @@
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "other_8k",
       "scanned_at": "2026-11-26T18:22:18Z",
       "region": "EU"
@@ -5723,7 +6187,7 @@
       "event_type": "analyst",
       "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "analyst",
       "scanned_at": "2026-11-26T18:22:19Z",
       "region": "EU"
@@ -5739,14 +6203,13 @@
         "ML.PA",
         "RACE.MI",
         "RWE.DE",
-        "INGA.AS",
-        "SSE.L"
+        "INGA.AS"
       ],
       "form": "EU_NEWS",
       "event_type": "analyst",
-      "direction": "bearish",
+      "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "analyst",
       "scanned_at": "2026-11-26T18:22:19Z",
       "region": "EU"
@@ -5762,15 +6225,13 @@
         "MBG.DE",
         "ML.PA",
         "RACE.MI",
-        "BMW.DE",
-        "RWE.DE",
-        "SSE.L"
+        "BMW.DE"
       ],
       "form": "EU_NEWS",
       "event_type": "analyst",
-      "direction": "bearish",
+      "direction": "neutral",
       "news_side": null,
-      "actionable": true,
+      "actionable": false,
       "eu_category": "analyst",
       "scanned_at": "2026-11-26T18:22:15Z",
       "region": "EU"
@@ -5939,477 +6400,6 @@
       "url": "https://www.prnewswire.com/news-releases/yutongs-net-zero-forest-puts-one-bus-one-tree-into-action-in-greece-and-the-netherlands-302950096.html",
       "published_at": "2026-11-25T03:10:00Z",
       "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-25T04:33:38Z"
-    },
-    {
-      "id": "12dfac36d953f7c4",
-      "source": "prnewswire",
-      "title": "Udon Thani World Horticultural Expo 2026 showcases global gardens and Isan culture",
-      "summary": "TAT invites international and Thai visitors to explore horticultural diversity, agricultural innovation and wetland conservation until 14 March 2027 BANGKOK, Nov. 24, 2026 /PRNewswire/ -- The Tourism Authority of Thailand (TAT) is inviting international and Thai travellers to discover...",
-      "url": "https://www.prnewswire.com/news-releases/udon-thani-world-horticultural-expo-2026-showcases-global-gardens-and-isan-culture-302949986.html",
-      "published_at": "2026-11-25T03:00:00Z",
-      "tickers": [
-        "TAT"
-      ],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-25T04:33:38Z"
-    },
-    {
-      "id": "bbb562daf32fee9b",
-      "source": "prnewswire",
-      "title": "Brigham Nurses Ratify New MNA Contract Providing Key Improvements that Benefit Patients and Nurses",
-      "summary": "Built on powerful solidarity and widespread support, the contract agreement will help nurses provide the world-class care Brigham patients need and deserve BOSTON, Nov. 24, 2026 /PRNewswire/ -- The more than 4,000 registered nurses at Brigham and Women's Hospital (BWH), represented by the...",
-      "url": "https://www.prnewswire.com/news-releases/brigham-nurses-ratify-new-mna-contract-providing-key-improvements-that-benefit-patients-and-nurses-302950078.html",
-      "published_at": "2026-11-25T02:53:00Z",
-      "tickers": [
-        "BWH"
-      ],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-25T04:33:38Z"
-    },
-    {
-      "id": "7467e0e6d47b5e2c",
-      "source": "prnewswire",
-      "title": "Menu-Order-AI\u2122 Announces Four Healthcare and Wellness Partnerships",
-      "summary": "Menu-Order-AI\u2122 announced partnerships with VitalCore Health, Green Cap Health, LongevityPlan.AI and Elevation Medical Aesthetics. BOSTON, Nov. 24, 2026 /PRNewswire/ -- Menu-Order-AI\u2122 announced partnerships with VitalCore Health, Green Cap Health, LongevityPlan AI and Elevation Medical...",
-      "url": "https://www.prnewswire.com/news-releases/menu-order-ai-announces-four-healthcare-and-wellness-partnerships-302950076.html",
-      "published_at": "2026-11-25T02:52:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-25T04:33:38Z"
-    },
-    {
-      "id": "736048c812a89e77",
-      "source": "prnewswire",
-      "title": "From One PR Hoodie to 1B+ Social Views: FINNSUL Turns an Organic TikTok Moment With Jan Ravnik Into a Challenger-Brand Growth Playbook",
-      "summary": "The FINNSUL x Jan Ravnik Lemonade Squeeze launch built a record-breaking waitlist of more than 46,000 and culminated in a $30,000 donation to National Dance Institute's DREAM Project MIAMI, Nov. 24, 2026 /PRNewswire/ -- Most celebrity collaborations begin after the paperwork is signed....",
-      "url": "https://www.prnewswire.com/news-releases/from-one-pr-hoodie-to-1b-social-views-finnsul-turns-an-organic-tiktok-moment-with-jan-ravnik-into-a-challenger-brand-growth-playbook-302950070.html",
-      "published_at": "2026-11-25T02:49:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-25T04:33:38Z"
-    },
-    {
-      "id": "98a6f0cd047db925",
-      "source": "prnewswire",
-      "title": "Segway Super Villain Showcases Off-Road Performance with Baja 1000 Class One-Two Finish",
-      "summary": "PLANO, Texas, Nov. 24, 2026 /PRNewswire/ -- Two race-prepared Segway Super Villain vehicles secured a Class 2 one-two finish on Segway Factory Racing's debut at the 2026 SCORE Baja 1000. The No. 2097 entry, with Jacob Zuccone among its drivers, claimed victory, followed by the No. 2095,...",
-      "url": "https://www.prnewswire.com/news-releases/segway-super-villain-showcases-off-road-performance-with-baja-1000-class-one-two-finish-302950060.html",
-      "published_at": "2026-11-25T02:39:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-25T04:33:38Z"
-    },
-    {
-      "id": "ac427cb04ba92ee3",
-      "source": "prnewswire",
-      "title": "AuguStar Life Insurance Company Announces Final Results of its Cash Tender Offer for Constellation Insurance, Inc.'s Outstanding 5.550% Senior Notes due 2030 (Currently Bearing Interest at a Rate of 5.800%) and 6.625% Senior Notes due 2031",
-      "summary": "CINCINNATI, Nov. 24, 2026 /PRNewswire/ -- AuguStar\u00ae Life Insurance Company (ALIC), a wholly owned subsidiary of Constellation Insurance, Inc. ( (CII) or the (Company) ), announced today the expiration and final results of its previously announced offers to purchase for cash (Offers) of...",
-      "url": "https://www.prnewswire.com/news-releases/augustar-life-insurance-company-announces-final-results-of-its-cash-tender-offer-for-constellation-insurance-incs-outstanding-5-550-senior-notes-due-2030-currently-bearing-interest-at-a-rate-of-5-800-and-6-625-senior-notes-302950055.html",
-      "published_at": "2026-11-25T02:32:00Z",
-      "tickers": [
-        "ALIC",
-        "CII"
-      ],
-      "event_type": "acquisition_target",
-      "direction": "bullish",
-      "news_side": "long",
-      "actionable": true,
-      "scanned_at": "2026-11-25T04:33:38Z"
-    },
-    {
-      "id": "205c555f397564cc",
-      "source": "prnewswire_financial",
-      "title": "AuguStar Life Insurance Company Announces Final Results of its Cash Tender Offer for Constellation Insurance, Inc.'s Outstanding 5.550% Senior Notes due 2030 (Currently Bearing Interest at a Rate of 5.800%) and 6.625% Senior Notes due 2031",
-      "summary": "CINCINNATI, Nov. 24, 2026 /PRNewswire/ -- AuguStar\u00ae Life Insurance Company (ALIC), a wholly owned subsidiary of Constellation Insurance, Inc. ( (CII) or the (Company) ), announced today the expiration and final results of its previously announced offers to purchase for cash (Offers) of...",
-      "url": "https://www.prnewswire.com/news-releases/augustar-life-insurance-company-announces-final-results-of-its-cash-tender-offer-for-constellation-insurance-incs-outstanding-5-550-senior-notes-due-2030-currently-bearing-interest-at-a-rate-of-5-800-and-6-625-senior-notes-302950055.html",
-      "published_at": "2026-11-25T02:32:00Z",
-      "tickers": [
-        "ALIC",
-        "CII"
-      ],
-      "event_type": "acquisition_target",
-      "direction": "bullish",
-      "news_side": "long",
-      "actionable": true,
-      "scanned_at": "2026-11-25T04:33:39Z"
-    },
-    {
-      "id": "4c19f58376ec695a",
-      "source": "edgar_8k",
-      "title": "8-K - Planet Green Holdings Corp. (0001117057) (Filer)",
-      "summary": "Filed: 2026-11-25 AccNo: 0001213900-26-123863 Size: 483 KB Item 1.01: Entry into a Material Definitive Agreement Item 3.02: Unregistered Sales of Equity Securities Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
-      "url": "https://www.sec.gov/Archives/edgar/data/1117057/000121390026123863/0001213900-26-123863-index.htm",
-      "published_at": "2026-11-25T02:30:54Z",
-      "tickers": [],
-      "company": "Planet Green Holdings Corp.",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-25T14:56:41Z"
-    },
-    {
-      "id": "54f0f70d4b528ed0",
-      "source": "prnewswire",
-      "title": "Akuvox Launches MR03, a Non-Contact Sensing Device for Senior Care",
-      "summary": "XIAMEN, China, Nov. 25, 2026 /PRNewswire/ -- Akuvox, a global leader in Al-driven smart living technology, today introduced MR03, its AI-powered millimeter-wave (mmWave) radar for non-contact activity awareness. Designed for senior living, residential safety, and smart monitoring, MR03...",
-      "url": "https://www.prnewswire.com/news-releases/akuvox-launches-mr03-a-non-contact-sensing-device-for-senior-care-302950030.html",
-      "published_at": "2026-11-25T02:30:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-25T04:33:38Z"
-    },
-    {
-      "id": "3b61469d09bc3851",
-      "source": "prnewswire",
-      "title": "Akuvox Launches MR03, a Non-Contact Sensing Device for Senior Care",
-      "summary": "XIAMEN, China, Nov. 24, 2026 /PRNewswire/ -- Akuvox, a global leader in Al-driven smart living technology, today introduced MR03, its AI-powered millimeter-wave (mmWave) radar for non-contact activity awareness. Designed for senior living, residential safety, and smart monitoring, MR03...",
-      "url": "https://www.prnewswire.com/news-releases/akuvox-launches-mr03-a-non-contact-sensing-device-for-senior-care-302950019.html",
-      "published_at": "2026-11-25T02:30:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-25T04:33:38Z"
-    },
-    {
-      "id": "683cc0515fc3d45f",
-      "source": "edgar_8k",
-      "title": "8-K - Surgery Partners, Inc. (0001638833) (Filer)",
-      "summary": "Filed: 2026-11-25 AccNo: 0001104659-26-131732 Size: 98 MB Item 1.01: Entry into a Material Definitive Agreement Item 9.01: Financial Statements and Exhibits",
-      "url": "https://www.sec.gov/Archives/edgar/data/1638833/000110465926131732/0001104659-26-131732-index.htm",
-      "published_at": "2026-11-25T02:01:27Z",
-      "tickers": [],
-      "company": "Surgery Partners, Inc.",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-25T14:56:41Z"
-    },
-    {
-      "id": "f38488e06a062d4a",
-      "source": "cnbc_finance",
-      "title": "Jensen Huang's Nvidia return shows the U.S.-China AI race is about more than chips",
-      "summary": "Jensen Huang's return as Nvidia CEO demonstrates that the U.S.-China artificial intelligence race is not just about semiconductors, but tech talent too.",
-      "url": "https://www.cnbc.com/2026/11/25/jensen-huang-nvidia-ai-talent-race.html",
-      "published_at": "2026-11-25T01:13:56Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-26T15:45:06Z"
-    },
-    {
-      "id": "4c69408c17a3c9f2",
-      "source": "edgar_8k",
-      "title": "8-K - Bit Digital, Inc (0001710350) (Filer)",
-      "summary": "Filed: 2026-11-25 AccNo: 0001213900-26-123836 Size: 217 KB Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
-      "url": "https://www.sec.gov/Archives/edgar/data/1710350/000121390026123836/0001213900-26-123836-index.htm",
-      "published_at": "2026-11-25T01:08:27Z",
-      "tickers": [],
-      "company": "Bit Digital, Inc",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-25T14:56:41Z"
-    },
-    {
-      "id": "1cb2d7ad9dcc2d80",
-      "source": "prnewswire_financial",
-      "title": "FIBRA Prologis Reestructura su L\u00ednea de Cr\u00e9dito, Duplica su Capacidad a US$1,000 Millones y Reduce el Margen de Financiamiento",
-      "summary": "CIUDAD DE M\u00c9XICO, 24 de noviembre de 2026 /PRNewswire-HISPANIC PR WIRE/ -- FIBRA Prologis (BMV:FIBRAPL 14), un fideicomiso de inversi\u00f3n en bienes ra\u00edces l\u00edder en inversi\u00f3n y administraci\u00f3n de inmuebles industriales clase-A en M\u00e9xico, anunci\u00f3 que reestructur\u00f3 su l\u00ednea de cr\u00e9dito revolvente...",
-      "url": "https://www.prnewswire.com/news-releases/fibra-prologis-reestructura-su-linea-de-credito-duplica-su-capacidad-a-us-1-000-millones-y-reduce-el-margen-de-financiamiento-857674604.html",
-      "published_at": "2026-11-25T00:48:00Z",
-      "tickers": [
-        "FIBRA"
-      ],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-25T04:33:39Z"
-    },
-    {
-      "id": "fb0ded28e08739ac",
-      "source": "edgar_8k",
-      "title": "8-K - LASE Corp. (0001807887) (Filer)",
-      "summary": "Filed: 2026-11-25 AccNo: 0001493152-26-054074 Size: 252 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
-      "url": "https://www.sec.gov/Archives/edgar/data/1807887/000149315226054074/0001493152-26-054074-index.htm",
-      "published_at": "2026-11-24T23:50:20Z",
-      "tickers": [],
-      "company": "LASE Corp.",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-25T14:56:41Z"
-    },
-    {
-      "id": "0ec3058fe1945f81",
-      "source": "edgar_8k",
-      "title": "8-K - Goosehead Insurance, Inc. (0001726978) (Filer)",
-      "summary": "Filed: 2026-11-25 AccNo: 0001726978-26-000079 Size: 164 KB Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
-      "url": "https://www.sec.gov/Archives/edgar/data/1726978/000172697826000079/0001726978-26-000079-index.htm",
-      "published_at": "2026-11-24T23:48:21Z",
-      "tickers": [],
-      "company": "Goosehead Insurance, Inc.",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-25T14:56:41Z"
-    },
-    {
-      "id": "09cae0c4159283bb",
-      "source": "edgar_8k",
-      "title": "8-K - NEWS CORP (0001564708) (Filer)",
-      "summary": "Filed: 2026-11-25 AccNo: 0001564708-26-000269 Size: 396 KB Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
-      "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470826000269/0001564708-26-000269-index.htm",
-      "published_at": "2026-11-24T23:47:50Z",
-      "tickers": [],
-      "company": "NEWS CORP",
-      "event_type": "fraud_probe",
-      "direction": "bearish",
-      "news_side": "short",
-      "actionable": true,
-      "scanned_at": "2026-11-25T14:56:41Z"
-    },
-    {
-      "id": "18185e23c2137506",
-      "source": "prnewswire_financial",
-      "title": "FIBRA Prologis Recasts Credit Facility, Doubling Capacity to $1 Billion and Reducing Borrowing Spread",
-      "summary": "MEXICO CITY, Nov. 24, 2026 /PRNewswire/ -- FIBRA Prologis (BMV: FIBRAPL 14), a leading owner and operator of Class-A industrial real estate in Mexico, announced the recast of its unsecured, sustainability-linked revolving credit facility with improved terms and increased capacity. The...",
-      "url": "https://www.prnewswire.com/news-releases/fibra-prologis-recasts-credit-facility-doubling-capacity-to-1-billion-and-reducing-borrowing-spread-302949962.html",
-      "published_at": "2026-11-24T23:44:00Z",
-      "tickers": [
-        "FIBRA"
-      ],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-25T04:33:39Z"
-    },
-    {
-      "id": "25444e1709190bfa",
-      "source": "edgar_8k",
-      "title": "8-K - AMAZE HOLDINGS, INC. (0001880343) (Filer)",
-      "summary": "Filed: 2026-11-25 AccNo: 0001493152-26-054072 Size: 210 KB Item 3.03: Material Modifications to Rights of Security Holders Item 5.03: Amendments to Articles of Incorporation or Bylaws; Change in Fiscal Year Item 9.01: Financial Statements and Exhibits",
-      "url": "https://www.sec.gov/Archives/edgar/data/1880343/000149315226054072/0001493152-26-054072-index.htm",
-      "published_at": "2026-11-24T23:26:18Z",
-      "tickers": [],
-      "company": "AMAZE HOLDINGS, INC.",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-25T14:56:41Z"
-    },
-    {
-      "id": "56d7934e76b981bc",
-      "source": "edgar_8k",
-      "title": "8-K/A - UPWORK, INC (0001627475) (Filer)",
-      "summary": "Filed: 2026-11-25 AccNo: 0001627475-26-000068 Size: 143 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
-      "url": "https://www.sec.gov/Archives/edgar/data/1627475/000162747526000068/0001627475-26-000068-index.htm",
-      "published_at": "2026-11-24T23:17:00Z",
-      "tickers": [],
-      "company": "",
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-25T14:56:41Z"
-    },
-    {
-      "id": "f3ac7f62ffa61a60",
-      "source": "edgar_8k",
-      "title": "8-K - Northwest Natural Holding Co (0001733998) (Filer)",
-      "summary": "Filed: 2026-11-25 AccNo: 0001733998-26-000165 Size: 455 KB Item 8.01: Other Events",
-      "url": "https://www.sec.gov/Archives/edgar/data/1733998/000173399826000165/0001733998-26-000165-index.htm",
-      "published_at": "2026-11-24T23:14:12Z",
-      "tickers": [],
-      "company": "Northwest Natural Holding Co",
-      "event_type": "fraud_probe",
-      "direction": "bearish",
-      "news_side": "short",
-      "actionable": true,
-      "scanned_at": "2026-11-25T14:56:41Z"
-    },
-    {
-      "id": "7c31f890cff4a794",
-      "source": "prnewswire_financial",
-      "title": "Cohen & Steers Total Return Realty Fund, Inc. (RFI) Notification of Sources of Distribution Under Section 19(a)",
-      "summary": "NEW YORK, Nov. 24, 2026 /PRNewswire/ -- This press release provides shareholders of Cohen & Steers Total Return Realty Fund, Inc. (NYSE: RFI) (the \"Fund\") with information regarding the sources of the distribution to be paid on November 30, 2026 and cumulative distributions paid fiscal...",
-      "url": "https://www.prnewswire.com/news-releases/cohen--steers-total-return-realty-fund-inc-rfi-notification-of-sources-of-distribution-under-section-19a-302949949.html",
-      "published_at": "2026-11-24T23:12:00Z",
-      "tickers": [
-        "RFI"
-      ],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-25T04:33:39Z"
-    },
-    {
-      "id": "acf27b5bdb8eb886",
-      "source": "marketwatch",
-      "title": "Micron boosted CEO Sanjay Mehrotra\u2019s security budget by 2,000%, new filing shows",
-      "summary": "Steeply higher security expenses of $764,748 for Mehrotra were part of a $39.7 million total compensation package in the latest fiscal year.",
-      "url": "https://www.marketwatch.com/story/micron-boosted-ceo-sanjay-mehrotras-security-budget-by-2-000-new-filing-shows-d6202acc?mod=mw_rss_topstories",
-      "published_at": "2026-11-24T23:11:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-25T04:33:41Z"
-    },
-    {
-      "id": "067e093ca0baa838",
-      "source": "prnewswire_financial",
-      "title": "Cohen & Steers Closed-End Opportunity Fund, Inc. (FOF) Notification of Sources of Distribution Under Section 19(a)",
-      "summary": "NEW YORK, Nov. 24, 2026 /PRNewswire/ -- This press release provides shareholders of Cohen & Steers Closed-End Opportunity Fund, Inc. (NYSE: FOF) (the \"Fund\") with information regarding the sources of the distribution to be paid on November 30, 2026 and cumulative distributions paid fiscal...",
-      "url": "https://www.prnewswire.com/news-releases/cohen--steers-closed-end-opportunity-fund-inc-fof-notification-of-sources-of-distribution-under-section-19a-302949948.html",
-      "published_at": "2026-11-24T23:08:00Z",
-      "tickers": [
-        "FOF"
-      ],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-25T04:33:39Z"
-    },
-    {
-      "id": "6e2fcc191d39a35a",
-      "source": "prnewswire_financial",
-      "title": "Cohen & Steers REIT and Preferred and Income Fund, Inc. (RNP) Notification of Sources of Distribution Under Section 19(a)",
-      "summary": "NEW YORK, Nov. 24, 2026 /PRNewswire/ -- This press release provides shareholders of Cohen & Steers REIT and Preferred and Income Fund, Inc. (NYSE: RNP) (the \"Fund\") with information regarding the sources of the distribution to be paid on November 30, 2026 and cumulative distributions paid...",
-      "url": "https://www.prnewswire.com/news-releases/cohen--steers-reit-and-preferred-and-income-fund-inc-rnp-notification-of-sources-of-distribution-under-section-19a-302949945.html",
-      "published_at": "2026-11-24T23:05:00Z",
-      "tickers": [
-        "RNP"
-      ],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-25T04:33:39Z"
-    },
-    {
-      "id": "3dcc35b4d966043b",
-      "source": "cnbc_finance",
-      "title": "Kalshi daily volume of \u2018perps\u2019 trading begins to top its prediction markets",
-      "summary": "The product, the first one beyond event contracts, was introduced in May.",
-      "url": "https://www.cnbc.com/2026/11/24/kalshi-perps-volume-prediction-markets.html",
-      "published_at": "2026-11-24T23:03:24Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-26T15:45:06Z"
-    },
-    {
-      "id": "aad2cb57c4a9ffdc",
-      "source": "prnewswire_financial",
-      "title": "Cohen & Steers Quality Income Realty Fund, Inc. (RQI) Notification of Sources of Distribution Under Section 19(a)",
-      "summary": "NEW YORK, Nov. 24, 2026 /PRNewswire/ -- This press release provides shareholders of Cohen & Steers Quality Income Realty Fund, Inc. (NYSE: RQI) (the \"Fund\") with information regarding the sources of the distribution to be paid on November 30, 2026 and cumulative distributions paid fiscal...",
-      "url": "https://www.prnewswire.com/news-releases/cohen--steers-quality-income-realty-fund-inc-rqi-notification-of-sources-of-distribution-under-section-19a-302949944.html",
-      "published_at": "2026-11-24T23:03:00Z",
-      "tickers": [
-        "RQI"
-      ],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-25T04:33:39Z"
-    },
-    {
-      "id": "7e65bba19dcbdd10",
-      "source": "prnewswire_financial",
-      "title": "Cohen & Steers Infrastructure Fund, Inc. (UTF) Notification of Sources of Distribution Under Section 19(a)",
-      "summary": "NEW YORK, Nov. 24, 2026 /PRNewswire/ -- This press release provides shareholders of Cohen & Steers Infrastructure Fund, Inc. (NYSE: UTF) (the \"Fund\") with information regarding the sources of the distribution to be paid on November 30, 2026 and cumulative distributions paid fiscal...",
-      "url": "https://www.prnewswire.com/news-releases/cohen--steers-infrastructure-fund-inc-utf-notification-of-sources-of-distribution-under-section-19a-302949937.html",
-      "published_at": "2026-11-24T22:49:00Z",
-      "tickers": [
-        "UTF"
-      ],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-25T04:33:39Z"
-    },
-    {
-      "id": "0899630699909879",
-      "source": "prnewswire_financial",
-      "title": "Alpheya Expands Access to Benzinga News and Market Intelligence",
-      "summary": "Benzinga News, Company Logos and Market Data Now Available Through Alpheya's AI-Powered Wealth Platform for Financial Institutions DETROIT, Nov. 24, 2026 /PRNewswire/ -- Benzinga, a leading provider of real-time financial news and market intelligence, today announced an expanded data...",
-      "url": "https://www.prnewswire.com/news-releases/alpheya-expands-access-to-benzinga-news-and-market-intelligence-302949935.html",
-      "published_at": "2026-11-24T22:37:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-25T04:33:39Z"
-    },
-    {
-      "id": "db81d25a87936a98",
-      "source": "prnewswire_financial",
-      "title": "Centuri Holdings Set to Join S&P SmallCap 600",
-      "summary": "NEW YORK, Nov. 24, 2026 /PRNewswire/ -- Centuri Holdings Inc. (NYSE: CTRI) will replace DoubleVerify Holdings Inc. (NYSE: DV) in the S&amp;P SmallCap 600 effective prior to the opening of trading on Tuesday, December 1. Nielsen Holdings is acquiring DoubleVerify Holdings in a deal expected to...",
-      "url": "https://www.prnewswire.com/news-releases/centuri-holdings-set-to-join-sp-smallcap-600-302949933.html",
-      "published_at": "2026-11-24T22:32:00Z",
-      "tickers": [
-        "CTRI",
-        "DV"
-      ],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-25T04:33:39Z"
-    },
-    {
-      "id": "a270c8187b26a1c2",
-      "source": "edgar_8k",
-      "title": "8-K - American Resources Corp (0001590715) (Filer)",
-      "summary": "Filed: 2026-11-24 AccNo: 0001477932-26-007287 Size: 3 MB Item 4.02: Non-Reliance on Previously Issued Financial Statements or a Related Audit Report or Completed Interim Review Item 9.01: Financial Statements and Exhibits",
-      "url": "https://www.sec.gov/Archives/edgar/data/1590715/000147793226007287/0001477932-26-007287-index.htm",
-      "published_at": "2026-11-24T22:30:36Z",
-      "tickers": [],
-      "company": "American Resources Corp",
       "event_type": "other",
       "direction": "neutral",
       "news_side": null,

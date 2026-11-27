@@ -12,8 +12,8 @@
   },
   "calendar_error": "",
   "n_calendar": 51,
-  "n_candidates": 51,
-  "n_tagged": 1,
+  "n_candidates": 53,
+  "n_tagged": 3,
   "errors": [],
   "rules": {
     "agent": "Discretionary agentic book. Deciding agent writes via stocks.decide from shared candidates. Baseline \u2014 not auto-traded by the engine.",
@@ -60,6 +60,66 @@
       ],
       "suggested_side": "short",
       "suggested_hold": 2
+    },
+    {
+      "ticker": "CCG",
+      "name": "CCG",
+      "source": "news",
+      "cal_date": "2026-11-25",
+      "report_date": "2026-11-25",
+      "timing": "news",
+      "surprise_pct": null,
+      "gap_pct": null,
+      "guidance": "none",
+      "headline": "Cheche Group Signs Definitive Agreement to Acquire 20% Interest in Residential Solar-Plus-Storage Company Long Way Fortune, With Option to Increase Stake to 51%",
+      "excerpt": "Investment supports Cheche's Green Mobility + Green Energy strategy; consideration payable in warrants BEIJING, Nov. 25, 2026 /PRNewswire/ -- Cheche Group Inc. (Nasdaq: CCG) (\"Cheche\" or the \"Company\"), a leading auto insurance technology platform, today announced that it has entered into...",
+      "filing_url": "",
+      "exhibit_url": "https://www.prnewswire.com/news-releases/cheche-group-signs-definitive-agreement-to-acquire-20-interest-in-residential-solar-plus-storage-company-long-way-fortune-with-option-to-increase-stake-to-51-302950548.html",
+      "news_id": "4ff0d483688c02f6",
+      "news_source": "prnewswire_financial",
+      "news_event_type": "mna_deal",
+      "news_direction": "bullish",
+      "news_side": null,
+      "news_actionable": false,
+      "news_published_at": "2026-11-25T14:00:00Z",
+      "rule_tags": [
+        "news_event",
+        "mna_deal"
+      ],
+      "suggested_side": null,
+      "suggested_hold": null,
+      "spy_above_ma50": null,
+      "scanned_at": "2026-11-27T00:06:31Z"
+    },
+    {
+      "ticker": "GIL",
+      "name": "GIL",
+      "source": "news",
+      "cal_date": "2026-11-25",
+      "report_date": "2026-11-25",
+      "timing": "news",
+      "surprise_pct": null,
+      "gap_pct": null,
+      "guidance": "none",
+      "headline": "DEADLINE APPROACHING: Berger Montague Advises Gildan Activewear Inc. (NYSE: GIL) Investors to Inquire About a Securities Fraud Class Action by December 14, 2026",
+      "excerpt": "PHILADELPHIA, Nov. 25, 2026 /PRNewswire/ -- Berger Montague, a leading national plaintiffs' law firm, announces a class action lawsuit against Gildan Activewear Inc. (NYSE: GIL) (\"Gildan\" or the \"Company\") on behalf of investors who purchased or acquired Gildan securities during the...",
+      "filing_url": "",
+      "exhibit_url": "https://www.prnewswire.com/news-releases/deadline-approaching-berger-montague-advises-gildan-activewear-inc-nyse-gil-investors-to-inquire-about-a-securities-fraud-class-action-by-december-14-2026-302950061.html",
+      "news_id": "ef9082611a176c68",
+      "news_source": "prnewswire_financial",
+      "news_event_type": "lawsuit",
+      "news_direction": "bearish",
+      "news_side": null,
+      "news_actionable": false,
+      "news_published_at": "2026-11-25T14:02:00Z",
+      "rule_tags": [
+        "news_event",
+        "lawsuit"
+      ],
+      "suggested_side": null,
+      "suggested_hold": null,
+      "spy_above_ma50": null,
+      "scanned_at": "2026-11-27T00:06:31Z"
     },
     {
       "ticker": "BZ",
@@ -1411,5 +1471,6 @@
       "suggested_side": null,
       "suggested_hold": null
     }
-  ]
+  ],
+  "news_merged_at": "2026-11-27T00:06:31Z"
 }
