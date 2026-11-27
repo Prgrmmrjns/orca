@@ -1,11 +1,11 @@
 {
   "mode": "paper",
-  "as_of": "2026-11-27T08:29:05Z",
-  "as_of_et": "2026-11-26 19:06 ET",
+  "as_of": "2026-11-27T08:49:23Z",
+  "as_of_et": "2026-11-27 03:49 ET",
   "rolling_hours": 72,
-  "n_items": 300,
+  "n_items": 339,
   "n_actionable": 14,
-  "n_with_ticker": 178,
+  "n_with_ticker": 162,
   "sources": [
     "prnewswire",
     "prnewswire_financial",
@@ -13,13 +13,460 @@
     "cnbc_finance",
     "marketwatch",
     "marketwatch_realtime",
-    "edgar_8k",
-    "edgar_424b",
-    "edgar_sc_to"
+    "edgar_8k"
   ],
   "errors": [],
   "note": "Paper news feed. Keyword tagging is heuristic. Shorts have no borrow model. RSS/EDGAR can lag minutes\u2013hours.",
   "items": [
+    {
+      "id": "efdf12df25f6473f",
+      "source": "prnewswire",
+      "title": "PTLO Investors Have Opportunity to Lead Portillo's Inc. Securities Fraud Lawsuit with SBS Law",
+      "summary": "LOS ANGELES, Nov. 27, 2026 /PRNewswire/ -- Schall, Brown & Schwartz LLP (\"SBS\"), a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Portillo's Inc. (\"Portillo's\" or \"the Company\") (NASDAQ: PTLO) for violations of \u00a7\u00a710(b) and 20(a) of the...",
+      "url": "https://www.prnewswire.com/news-releases/ptlo-investors-have-opportunity-to-lead-portillos-inc-securities-fraud-lawsuit-with-sbs-law-302951542.html",
+      "published_at": "2026-11-27T08:40:00Z",
+      "tickers": [
+        "PTLO"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T08:49:19Z"
+    },
+    {
+      "id": "8d9f1130681e31e1",
+      "source": "prnewswire",
+      "title": "Portillo's Inc. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - PTLO",
+      "summary": "NEW YORK, Nov. 27, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Portillo's Inc. (\"Portillo's\" or \"the Company\") (NASDAQ: PTLO) for violations of \u00a7\u00a710(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder by...",
+      "url": "https://www.prnewswire.com/news-releases/portillos-inc-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--ptlo-302951533.html",
+      "published_at": "2026-11-27T08:39:00Z",
+      "tickers": [
+        "PTLO"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T08:49:19Z"
+    },
+    {
+      "id": "bf422a215e6624c5",
+      "source": "prnewswire",
+      "title": "KGC Investors Have Opportunity to Lead Kinross Gold Corporation Securities Fraud Lawsuit with SBS Law",
+      "summary": "LOS ANGELES, Nov. 27, 2026 /PRNewswire/ -- Schall, Brown & Schwartz LLP (\"SBS\"), a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Kinross Gold Corporation (\"Kinross\" or \"the Company\") (NYSE: KGC) for violations of \u00a7\u00a710(b) and 20(a) of the...",
+      "url": "https://www.prnewswire.com/news-releases/kgc-investors-have-opportunity-to-lead-kinross-gold-corporation-securities-fraud-lawsuit-with-sbs-law-302951528.html",
+      "published_at": "2026-11-27T08:36:00Z",
+      "tickers": [
+        "KGC"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T08:49:19Z"
+    },
+    {
+      "id": "18218a0c2ce03b74",
+      "source": "prnewswire",
+      "title": "Lancement au Maroc de l'\u00e9v\u00e9nement consacr\u00e9 au pays invit\u00e9 dans le cadre de la \u00ab 2026 Silk Road Week \u00bb par une grande c\u00e9l\u00e9bration des \u00e9changes entre civilisations",
+      "summary": "RABAT, Maroc, 27 novembre 2026 /PRNewswire/ -- Le 25 novembre, s'est tenu \u00e0 Rabat, au Maroc, l'\u00e9v\u00e9nement de cl\u00f4ture consacr\u00e9 au pays \u00e0 l'honneur de la semaine 2026 Silk Road Week. Sur un mod\u00e8le \u00ab 1 + 4 \u00bb m\u00ealant exposition, spectacle, mode, milieu universitaire et \u00e9ducation sociale,...",
+      "url": "https://www.prnewswire.com/news-releases/lancement-au-maroc-de-levenement-consacre-au-pays-invite-dans-le-cadre-de-la--2026-silk-road-week--par-une-grande-celebration-des-echanges-entre-civilisations-302951633.html",
+      "published_at": "2026-11-27T08:34:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T08:49:19Z"
+    },
+    {
+      "id": "5851e8a2a98cf5c2",
+      "source": "prnewswire",
+      "title": "O-I Glass, Inc. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - OI",
+      "summary": "NEW YORK, Nov. 27, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against O-I Glass, Inc. (\"O-I Glass\" or \"the Company\") (NYSE: OI) for violations of \u00a7\u00a710(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder by the U....",
+      "url": "https://www.prnewswire.com/news-releases/o-i-glass-inc-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--oi-302951530.html",
+      "published_at": "2026-11-27T08:26:00Z",
+      "tickers": [
+        "OI",
+        "O"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T08:49:19Z"
+    },
+    {
+      "id": "59826e0bafd1b173",
+      "source": "prnewswire",
+      "title": "Xiaomi Internet uv\u00e1d\u00ed na trh zna\u010dku UMIADS, aby byl glob\u00e1ln\u00ed r\u016fst skute\u010dn\u011b viditeln\u00fd",
+      "summary": "\u010cCHANG-\u0160A, \u010c\u00edna, 27. listopadu 2026 /PRNewswire/ -- Na konferenci Xiaomi Internet Business Partner Conference 2026, kter\u00e1 se konala 25. listopadu v \u010cchang-\u0161a, p\u0159edstavila Liu Chan, gener\u00e1ln\u00ed \u0159editelka odd\u011blen\u00ed internetov\u00e9ho obchodu spole\u010dnosti Xiaomi, novou glob\u00e1ln\u00ed obchodn\u00ed zna\u010dku UMIADS...",
+      "url": "https://www.prnewswire.com/news-releases/xiaomi-internet-uvadi-na-trh-znaku-umiads-aby-byl-globalni-rst-skuten-viditelny-302951625.html",
+      "published_at": "2026-11-27T08:26:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T08:49:19Z"
+    },
+    {
+      "id": "31ca5d7f07384bea",
+      "source": "prnewswire",
+      "title": "FRVO Investors Have Opportunity to Lead Fervo Energy Company Securities Fraud Lawsuit with SBS Law",
+      "summary": "LOS ANGELES, Nov. 27, 2026 /PRNewswire/ -- Schall, Brown & Schwartz LLP (\"SBS\"), a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Fervo Energy Company (\"Fervo\" or \"the Company\") (NASDAQ: FRVO) for violations of the federal securities laws....",
+      "url": "https://www.prnewswire.com/news-releases/frvo-investors-have-opportunity-to-lead-fervo-energy-company-securities-fraud-lawsuit-with-sbs-law-302951523.html",
+      "published_at": "2026-11-27T08:25:00Z",
+      "tickers": [
+        "FRVO"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T08:49:19Z"
+    },
+    {
+      "id": "aee02d385e4e41f1",
+      "source": "prnewswire",
+      "title": "ENSG Investors Have Opportunity to Lead The Ensign Group, Inc. Securities Fraud Lawsuit with SBS Law",
+      "summary": "LOS ANGELES, Nov. 27, 2026 /PRNewswire/ -- Schall, Brown & Schwartz LLP (\"SBS\"), a national shareholder rights litigation firm, reminds investors of a class action lawsuit against The Ensign Group, Inc. (\"Ensign\" or \"the Company\") (NASDAQ: ENSG) for violations of \u00a7\u00a710(b) and 20(a) of the...",
+      "url": "https://www.prnewswire.com/news-releases/ensg-investors-have-opportunity-to-lead-the-ensign-group-inc-securities-fraud-lawsuit-with-sbs-law-302951526.html",
+      "published_at": "2026-11-27T08:24:00Z",
+      "tickers": [
+        "ENSG"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T08:49:19Z"
+    },
+    {
+      "id": "1632866d53051705",
+      "source": "prnewswire",
+      "title": "CC Investors Have Opportunity to Lead The Chemours Company Securities Fraud Lawsuit with SBS Law",
+      "summary": "LOS ANGELES, Nov. 27, 2026 /PRNewswire/ -- Schall, Brown & Schwartz LLP (\"SBS\"), a national shareholder rights litigation firm, reminds investors of a class action lawsuit against The Chemours Company (\"Chemours\" or \"the Company\") (NYSE: CC) for violations of \u00a7\u00a710(b) and 20(a) of the...",
+      "url": "https://www.prnewswire.com/news-releases/cc-investors-have-opportunity-to-lead-the-chemours-company-securities-fraud-lawsuit-with-sbs-law-302951520.html",
+      "published_at": "2026-11-27T08:21:00Z",
+      "tickers": [
+        "CC"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T08:49:19Z"
+    },
+    {
+      "id": "bc992a734fc8d8cc",
+      "source": "prnewswire",
+      "title": "\u00bfLas bicicletas plegables nunca fueron para todos? DAHON lo soluciona",
+      "summary": "SACRAMENTO, California, 27 de noviembre de 2026 /PRNewswire/ -- Durante m\u00e1s de cuarenta a\u00f1os, DAHON ha ofrecido una libertad que se adapta a un n\u00famero cada vez mayor de ciclistas. Detr\u00e1s de esa misi\u00f3n se encuentra el fundador y consejero delegado, el doctor David Hon, cuya trayectoria...",
+      "url": "https://www.prnewswire.com/news-releases/las-bicicletas-plegables-nunca-fueron-para-todos-dahon-lo-soluciona-302951622.html",
+      "published_at": "2026-11-27T08:20:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T08:49:19Z"
+    },
+    {
+      "id": "67ab085f49747845",
+      "source": "prnewswire",
+      "title": "Breathcare's 'teeheehee' Expands Skincare Choices with Oat-Cica Line and Toner Pads",
+      "summary": "From soothing and moisturizing to hydrating pores and firmness care; company pursues listings on online retail channels in the U.S. and Japan SEOUL, South Korea, Nov. 27, 2026 /PRNewswire/ -- teeheehee, the skincare brand of Breathcare Co., Ltd. (CEO Yoon-ju Lee), is expanding its product...",
+      "url": "https://www.prnewswire.com/news-releases/breathcares-teeheehee-expands-skincare-choices-with-oat-cica-line-and-toner-pads-302951623.html",
+      "published_at": "2026-11-27T08:20:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T08:49:19Z"
+    },
+    {
+      "id": "e3d31b2c624cf746",
+      "source": "prnewswire",
+      "title": "CCB Investors Have Opportunity to Lead Coastal Financial Corporation Securities Fraud Lawsuit with SBS Law",
+      "summary": "LOS ANGELES, Nov. 27, 2026 /PRNewswire/ -- Schall, Brown & Schwartz LLP (\"SBS\"), a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Coastal Financial Corporation (\"Coastal\" or \"the Company\") (NASDAQ: CCB) for violations of \u00a7\u00a710(b) and 20(a)...",
+      "url": "https://www.prnewswire.com/news-releases/ccb-investors-have-opportunity-to-lead-coastal-financial-corporation-securities-fraud-lawsuit-with-sbs-law-302951518.html",
+      "published_at": "2026-11-27T08:19:00Z",
+      "tickers": [
+        "CCB"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T08:49:19Z"
+    },
+    {
+      "id": "6e5b3d3e384a414d",
+      "source": "prnewswire",
+      "title": "FLNC Investors Have Opportunity to Lead Fluence Energy, Inc. Securities Fraud Lawsuit with SBS Law",
+      "summary": "LOS ANGELES, Nov. 27, 2026 /PRNewswire/ -- Schall, Brown & Schwartz LLP (\"SBS\"), a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Fluence Energy, Inc. (\"Fluence\" or \"the Company\") (NASDAQ: FLNC) for violations of \u00a7\u00a710(b) and 20(a) of the...",
+      "url": "https://www.prnewswire.com/news-releases/flnc-investors-have-opportunity-to-lead-fluence-energy-inc-securities-fraud-lawsuit-with-sbs-law-302951521.html",
+      "published_at": "2026-11-27T08:17:00Z",
+      "tickers": [
+        "FLNC"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T08:49:19Z"
+    },
+    {
+      "id": "9efed8febabefd8e",
+      "source": "prnewswire",
+      "title": "Vietnam's Vinaseed Seeks Partners in Seed Development and Commercialization at ASC 2026",
+      "summary": "As the only Vietnamese exhibitor, Vinaseed brings rice, corn and vegetable varieties to Antalya, offering opportunities to connect research with production, processing and market development. ANTALYA, Turkey, Nov. 27, 2026 /PRNewswire/ -- Vietnam National Seed Group (Vinaseed) will...",
+      "url": "https://www.prnewswire.com/news-releases/vietnams-vinaseed-seeks-partners-in-seed-development-and-commercialization-at-asc-2026-302951621.html",
+      "published_at": "2026-11-27T08:15:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T08:49:19Z"
+    },
+    {
+      "id": "07681558644861b3",
+      "source": "prnewswire",
+      "title": "Qfin Holdings, Inc. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - QFIN",
+      "summary": "NEW YORK, Nov. 27, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Qfin Holdings, Inc. (\"Qfin\" or \"the Company\") (NASDAQ: QFIN) for for violations of \u00a7\u00a710(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder...",
+      "url": "https://www.prnewswire.com/news-releases/qfin-holdings-inc-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--qfin-302951516.html",
+      "published_at": "2026-11-27T08:14:00Z",
+      "tickers": [
+        "QFIN"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T08:49:19Z"
+    },
+    {
+      "id": "359fb9a1bd1f5d11",
+      "source": "prnewswire",
+      "title": "Lead Intelligent es reconocida en el informe del Pacto Mundial de la ONU",
+      "summary": "- Lead Intelligent es reconocida en el informe del Pacto Mundial de la ONU por sus pr\u00e1cticas de globalizaci\u00f3n, impulsando la transici\u00f3n verde global a trav\u00e9s de la fabricaci\u00f3n de equipos avanzados WUXI, China, 27 de noviembre de 2026 /PRNewswire/ -- Se ha dado a conocer reciente el...",
+      "url": "https://www.prnewswire.com/news-releases/lead-intelligent-es-reconocida-en-el-informe-del-pacto-mundial-de-la-onu-302951618.html",
+      "published_at": "2026-11-27T08:12:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T08:49:19Z"
+    },
+    {
+      "id": "417a29d803ab4e0b",
+      "source": "prnewswire",
+      "title": "Lead Intelligent wird im Bericht des UN Global Compact f\u00fcr seine Globalisierungspraktiken gew\u00fcrdigt, die den globalen \u00f6kologischen Wandel durch fortschrittliche Anlagenfertigung vorantreiben",
+      "summary": "WUXI, China, 27. November 2026 /PRNewswire/ -- Der Bericht 2026 \u00fcber die Globalisierung chinesischer b\u00f6rsennotierter Unternehmen, der gemeinsam vom UN Global Compact (UNGC) und dem chinesischen Verband b\u00f6rsennotierter Unternehmen ver\u00f6ffentlicht wurde, ist k\u00fcrzlich erschienen. Lead...",
+      "url": "https://www.prnewswire.com/news-releases/lead-intelligent-wird-im-bericht-des-un-global-compact-fur-seine-globalisierungspraktiken-gewurdigt-die-den-globalen-okologischen-wandel-durch-fortschrittliche-anlagenfertigung-vorantreiben-302951616.html",
+      "published_at": "2026-11-27T08:10:00Z",
+      "tickers": [
+        "UNGC"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T08:49:19Z"
+    },
+    {
+      "id": "de35c3a58a8e543a",
+      "source": "prnewswire",
+      "title": "Lead Intelligent reconnue dans le rapport du Pacte mondial des Nations Unies pour ses pratiques de mondialisation, contribuant \u00e0 la transition \u00e9cologique mondiale gr\u00e2ce \u00e0 la fabrication d'\u00e9quipements de pointe",
+      "summary": "WUXI, Chine, 27 novembre 2026 /PRNewswire/ -- Le rapport 2026 sur la mondialisation des soci\u00e9t\u00e9s chinoises cot\u00e9es en bourse, publi\u00e9 conjointement par le Pacte mondial des Nations Unies (UNGC) et l'Association chinoise des soci\u00e9t\u00e9s publiques, a \u00e9t\u00e9 r\u00e9cemment publi\u00e9. Lead Intelligent a \u00e9t\u00e9...",
+      "url": "https://www.prnewswire.com/news-releases/lead-intelligent-reconnue-dans-le-rapport-du-pacte-mondial-des-nations-unies-pour-ses-pratiques-de-mondialisation-contribuant-a-la-transition-ecologique-mondiale-grace-a-la-fabrication-dequipements-de-pointe-302951615.html",
+      "published_at": "2026-11-27T08:08:00Z",
+      "tickers": [
+        "UNGC"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T08:49:19Z"
+    },
+    {
+      "id": "ef1bd88b7a9d67eb",
+      "source": "prnewswire",
+      "title": "LORZOR's Black Friday Gift Picks Feature Leather Wallets He'll Use Every Day",
+      "summary": "LOS ANGELES, CHICAGO and DALLAS, Nov. 27, 2026 /PRNewswire/ -- LORZOR is a leather-led brand creating wallets and everyday carry goods for men. For Black Friday 2026, it announces its biggest sale of the year, led by the 1979 leather pop-up wallet series, with up to 62% off selected...",
+      "url": "https://www.prnewswire.com/news-releases/lorzors-black-friday-gift-picks-feature-leather-wallets-hell-use-every-day-302951614.html",
+      "published_at": "2026-11-27T08:06:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T08:49:19Z"
+    },
+    {
+      "id": "105dcbeb9d1fef56",
+      "source": "prnewswire",
+      "title": "DoGo Power p\u0159edstavila na GENERA 2026 v Madridu ukl\u00e1d\u00e1n\u00ed energie (ESS) podporuj\u00edc\u00ed tvorbu inteligentn\u00edch s\u00edt\u00ed",
+      "summary": "MADRID, 27. listopadu 2026 /PRNewswire/ -- Spole\u010dnost DoGo Power p\u0159edstavila na veletrhu GENERA 2026 v Madridu ve \u0160pan\u011blsku sv\u00e9 syst\u00e9my pro ukl\u00e1d\u00e1n\u00ed energie (ESS) tvo\u0159\u00edc\u00ed inteligentn\u00ed s\u00edt\u011b a \u0159e\u0161en\u00ed pro komer\u010dn\u00ed a pr\u016fmyslov\u00e9 aplikace i aplikace na \u00farovni energetick\u00fdch spole\u010dnost\u00ed a...",
+      "url": "https://www.prnewswire.com/news-releases/dogo-power-pedstavila-na-genera-2026-v-madridu-ukladani-energie-ess-podporujici-tvorbu-inteligentnich-siti-302951613.html",
+      "published_at": "2026-11-27T08:06:00Z",
+      "tickers": [
+        "ESS"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T08:49:19Z"
+    },
+    {
+      "id": "60ad8474427a2019",
+      "source": "marketwatch",
+      "title": "Is the stock market open on Black Friday?",
+      "summary": "Here\u2019s how the day after Thanksgiving will affect trading on Wall Street",
+      "url": "https://www.marketwatch.com/story/is-the-stock-market-open-on-black-friday-0a735c45?mod=mw_rss_topstories",
+      "published_at": "2026-11-27T05:01:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T08:49:21Z"
+    },
+    {
+      "id": "adb5ed7c9c4393f1",
+      "source": "prnewswire_financial",
+      "title": "ViaBTC presentar\u00e1 una d\u00e9cada de experiencia en miner\u00eda y gesti\u00f3n integral de activos en Blockchain Life 2026",
+      "summary": "DUB\u00c1I, EAU, 26 de noviembre de 2026 /PRNewswire/ -- ViaBTC, un pool de miner\u00eda de criptomonedas l\u00edder a nivel mundial, va a participar en Blockchain Life 2026 los d\u00edas 1 y 2 de diciembre en el Festival Arena de Dub\u00e1i. Tras recibir el reconocimiento como \"Pool de Miner\u00eda del A\u00f1o\" en...",
+      "url": "https://www.prnewswire.com/news-releases/viabtc-presentara-una-decada-de-experiencia-en-mineria-y-gestion-integral-de-activos-en-blockchain-life-2026-302951456.html",
+      "published_at": "2026-11-27T04:01:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T08:49:19Z"
+    },
+    {
+      "id": "f97685bd1513b53b",
+      "source": "prnewswire_financial",
+      "title": "ViaBTC predstav\u00ed na konferencii Blockchain Life 2026 desa\u0165ro\u010die odborn\u00fdch znalost\u00ed v oblasti \u0165a\u017eby kryptomien a komplexnej spr\u00e1vy akt\u00edv",
+      "summary": "DUBAJ, SAE, 27. novembra 2026 /PRNewswire/ -- ViaBTC, popredn\u00fd glob\u00e1lny pool na \u0165a\u017ebu kryptomien, sa z\u00fa\u010dastn\u00ed konferencie Blockchain Life 2026, ktor\u00e1 sa bude kona\u0165 1. \u2013 2. decembra vo Festival Arena v Dubaji. Po tom, \u010do bola spolo\u010dnos\u0165 na konferencii Blockchain Life 2025 ocenen\u00e1 ako...",
+      "url": "https://www.prnewswire.com/news-releases/viabtc-predstavi-na-konferencii-blockchain-life-2026-desaroie-odbornych-znalosti-v-oblasti-aby-kryptomien-a-komplexnej-spravy-aktiv-302951321.html",
+      "published_at": "2026-11-27T03:21:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T08:49:19Z"
+    },
+    {
+      "id": "e32e2fcb1b66b918",
+      "source": "prnewswire_financial",
+      "title": "ViaBTC poka\u017ce podczas Blockchain Life 2026 do\u015bwiadczenie zdobyte przez dekad\u0119 dzia\u0142alno\u015bci oraz kompleksowe rozwi\u0105zania do zarz\u0105dzania aktywami",
+      "summary": "DUBAJ, ZEA, 27 listopada 2026 r. /PRNewswire/ -- ViaBTC, jedna z czo\u0142owych na \u015bwiecie pul wydobywczych kryptowalut, we\u017amie udzia\u0142 w Blockchain Life 2026, kt\u00f3re odb\u0119dzie si\u0119 1-2 grudnia w Festival Arena w Dubaju. Po zdobyciu tytu\u0142u \u201eMining Pool of the Year\" (\u201ePula wydobywcza roku\") podczas...",
+      "url": "https://www.prnewswire.com/news-releases/viabtc-pokae-podczas-blockchain-life-2026-dowiadczenie-zdobyte-przez-dekad-dziaalnoci-oraz-kompleksowe-rozwizania-do-zarzdzania-aktywami-302951278.html",
+      "published_at": "2026-11-27T03:21:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T08:49:19Z"
+    },
+    {
+      "id": "82fc97828e0146bc",
+      "source": "prnewswire_financial",
+      "title": "ViaBTC pr\u00e9sentera une d\u00e9cennie d'expertise dans le minage et une solution de gestion d'actifs int\u00e9gr\u00e9e lors de Blockchain Life 2026",
+      "summary": "DUBA\u00cf, EAU, 27 novembre 2026 /PRNewswire/ -- ViaBTC, l'un des principaux pools mondiaux de minage de cryptomonnaies, participera \u00e0 l'\u00e9v\u00e9nement \u00ab Blockchain Life 2026 \u00bb, qui se tiendra les 1er et 2 d\u00e9cembre au Festival Arena de Duba\u00ef. Apr\u00e8s avoir \u00e9t\u00e9 nomm\u00e9e \u00ab Pool minier de l'ann\u00e9e \u00bb \u00e0...",
+      "url": "https://www.prnewswire.com/news-releases/viabtc-presentera-une-decennie-dexpertise-dans-le-minage-et-une-solution-de-gestion-dactifs-integree-lors-de-blockchain-life-2026-302951382.html",
+      "published_at": "2026-11-27T03:21:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T08:49:19Z"
+    },
+    {
+      "id": "7808f62e0ae40f2b",
+      "source": "prnewswire_financial",
+      "title": "ViaBTC pr\u00e4sentiert auf der Blockchain Life 2026 ein Jahrzehnt Erfahrung im Mining und umfassendes Asset-Management.",
+      "summary": "DUBAI, VAE, 26. November 2026 /PRNewswire/ -- ViaBTC, ein f\u00fchrender globaler Kryptow\u00e4hrungs-Mining-Pool, wird am 1. und 2. Dezember an der Blockchain Life 2026 in der Festival Arena in Dubai teilnehmen. Nachdem ViaBTC auf der Blockchain Life 2025 als \u201eMining Pool des Jahres\" ausgezeichnet...",
+      "url": "https://www.prnewswire.com/news-releases/viabtc-prasentiert-auf-der-blockchain-life-2026-ein-jahrzehnt-erfahrung-im-mining-und-umfassendes-asset-management-302951234.html",
+      "published_at": "2026-11-27T03:21:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T08:49:19Z"
+    },
+    {
+      "id": "e4e1255a00a0e338",
+      "source": "prnewswire_financial",
+      "title": "ViaBTC to Showcase a Decade of Mining Expertise and One-Stop Asset Management at Blockchain Life 2026",
+      "summary": "DUBAI, UAE, Nov. 27, 2026 /PRNewswire/ -- ViaBTC, a leading global cryptocurrency mining pool, will participate in Blockchain Life 2026 on December 1\u20132 at Festival Arena in Dubai. Following its recognition as \"Mining Pool of the Year\" at Blockchain Life 2025, ViaBTC returns to discuss...",
+      "url": "https://www.prnewswire.com/news-releases/viabtc-to-showcase-a-decade-of-mining-expertise-and-one-stop-asset-management-at-blockchain-life-2026-302951179.html",
+      "published_at": "2026-11-27T03:21:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T08:49:19Z"
+    },
+    {
+      "id": "2e5bba8c0c303874",
+      "source": "prnewswire_financial",
+      "title": "ViaBTC to Showcase a Decade of Mining Expertise and One-Stop Asset Management at Blockchain Life 2026",
+      "summary": "DUBAI, UAE, Nov. 26, 2026 /PRNewswire/ -- ViaBTC, a leading global cryptocurrency mining pool, will participate in Blockchain Life 2026 on December 1\u20132 at Festival Arena in Dubai. Following its recognition as \"Mining Pool of the Year\" at Blockchain Life 2025, ViaBTC returns to discuss...",
+      "url": "https://www.prnewswire.com/news-releases/viabtc-to-showcase-a-decade-of-mining-expertise-and-one-stop-asset-management-at-blockchain-life-2026-302951148.html",
+      "published_at": "2026-11-27T03:21:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T08:49:19Z"
+    },
+    {
+      "id": "4595fc0b5cb0f314",
+      "source": "prnewswire_financial",
+      "title": "ViaBTC p\u0159edstav\u00ed na konferenci Blockchain Life 2026 deset let zku\u0161enost\u00ed v oblasti t\u011b\u017eby kryptom\u011bn a komplexn\u00ed spr\u00e1vu aktiv",
+      "summary": "DUBAJ, Spojen\u00e9 arabsk\u00e9 emir\u00e1ty, 27. listopadu 2026 /PRNewswire/ -- ViaBTC, p\u0159edn\u00ed glob\u00e1ln\u00ed t\u011b\u017eebn\u00ed pool kryptom\u011bn, se z\u00fa\u010dastn\u00ed konference Blockchain Life 2026, kter\u00e1 se bude konat 1. a 2. prosince ve Festival Arena v Dubaji. Pot\u00e9, co byla na konferenci Blockchain Life 2025 ocen\u011bna jako...",
+      "url": "https://www.prnewswire.com/news-releases/viabtc-pedstavi-na-konferenci-blockchain-life-2026-deset-let-zkuenosti-v-oblasti-tby-kryptomn-a-komplexni-spravu-aktiv-302951262.html",
+      "published_at": "2026-11-27T03:21:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T08:49:19Z"
+    },
+    {
+      "id": "ed21efe4418e1a5f",
+      "source": "marketwatch",
+      "title": "I hate that Jensen Huang is back at Nvidia, but I love what it\u2019s done for my 401(k). Am I a hypocrite?",
+      "summary": "Doing nothing and maintaining an even temperament is often the work of gods.",
+      "url": "https://www.marketwatch.com/story/i-hate-that-jensen-huang-is-back-at-nvidia-but-i-love-what-its-done-for-my-401-k-am-i-a-hypocrite-f63c0303?mod=mw_rss_topstories",
+      "published_at": "2026-11-27T01:15:00Z",
+      "tickers": [
+        "I"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T08:49:21Z"
+    },
     {
       "id": "bb43f8e9e965f41f",
       "source": "prnewswire",
@@ -137,7 +584,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T00:06:30Z"
+      "scanned_at": "2026-11-27T08:49:21Z"
     },
     {
       "id": "2007b5d08b5d816d",
@@ -153,7 +600,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T00:06:30Z"
+      "scanned_at": "2026-11-27T08:49:21Z"
     },
     {
       "id": "2a0520092c80ec35",
@@ -313,7 +760,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T00:06:30Z"
+      "scanned_at": "2026-11-27T08:49:21Z"
     },
     {
       "id": "2e3e2c482da707ae",
@@ -355,7 +802,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T00:06:29Z"
+      "scanned_at": "2026-11-27T08:49:19Z"
     },
     {
       "id": "9df01ff72aa527eb",
@@ -951,7 +1398,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T00:06:29Z"
+      "scanned_at": "2026-11-27T08:49:19Z"
     },
     {
       "id": "fdb1f05ed6309c9f",
@@ -965,7 +1412,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T00:06:29Z"
+      "scanned_at": "2026-11-27T08:49:19Z"
     },
     {
       "id": "38743f16d0a3c693",
@@ -1019,7 +1466,7 @@
       "direction": "bearish",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T00:06:29Z"
+      "scanned_at": "2026-11-27T08:49:19Z"
     },
     {
       "id": "430506d228093f55",
@@ -1035,7 +1482,7 @@
       "direction": "bearish",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T00:06:29Z"
+      "scanned_at": "2026-11-27T08:49:19Z"
     },
     {
       "id": "1ed317599db8c338",
@@ -1051,7 +1498,7 @@
       "direction": "bearish",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T00:06:29Z"
+      "scanned_at": "2026-11-27T08:49:19Z"
     },
     {
       "id": "4a95d0f6deebba4c",
@@ -1067,7 +1514,7 @@
       "direction": "bearish",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T00:06:29Z"
+      "scanned_at": "2026-11-27T08:49:19Z"
     },
     {
       "id": "3fadfa1ddcd0dfa4",
@@ -1117,7 +1564,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T00:06:30Z"
+      "scanned_at": "2026-11-27T08:49:21Z"
     },
     {
       "id": "b3e23ed255cd0c4c",
@@ -1161,7 +1608,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T00:06:30Z"
+      "scanned_at": "2026-11-27T08:49:21Z"
     },
     {
       "id": "4447d51f5c0318db",
@@ -1203,7 +1650,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T00:06:30Z"
+      "scanned_at": "2026-11-27T08:49:21Z"
     },
     {
       "id": "f60876ecbdd6cff5",
@@ -1293,7 +1740,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T00:06:29Z"
+      "scanned_at": "2026-11-27T08:49:19Z"
     },
     {
       "id": "2211a461d528bcd5",
@@ -1517,7 +1964,7 @@
       "direction": "bearish",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T00:06:29Z"
+      "scanned_at": "2026-11-27T08:49:19Z"
     },
     {
       "id": "7d81a0165ca1fb24",
@@ -1533,7 +1980,7 @@
       "direction": "bearish",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T00:06:29Z"
+      "scanned_at": "2026-11-27T08:49:19Z"
     },
     {
       "id": "88e9ec47e1111873",
@@ -1549,7 +1996,7 @@
       "direction": "bearish",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T00:06:29Z"
+      "scanned_at": "2026-11-27T08:49:19Z"
     },
     {
       "id": "fb2ef61e72255ff1",
@@ -1725,7 +2172,7 @@
       "direction": "bearish",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-26T15:45:05Z"
+      "scanned_at": "2026-11-27T08:49:19Z"
     },
     {
       "id": "55b3aa64baed1924",
@@ -1787,7 +2234,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T00:06:30Z"
+      "scanned_at": "2026-11-27T08:49:21Z"
     },
     {
       "id": "56e7056b4c90f99b",
@@ -1879,7 +2326,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T00:06:30Z"
+      "scanned_at": "2026-11-27T08:49:21Z"
     },
     {
       "id": "d410e0a49ac676f4",
@@ -1979,7 +2426,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T00:06:29Z"
+      "scanned_at": "2026-11-27T08:49:20Z"
     },
     {
       "id": "035e76bfb22c2c3e",
@@ -2145,7 +2592,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T00:06:30Z"
+      "scanned_at": "2026-11-27T08:49:21Z"
     },
     {
       "id": "c3cdfd82ac69cc16",
@@ -2190,7 +2637,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T00:06:30Z"
+      "scanned_at": "2026-11-27T08:49:21Z"
     },
     {
       "id": "7754abc552afc61d",
@@ -2709,7 +3156,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T00:06:30Z"
+      "scanned_at": "2026-11-27T08:49:21Z"
     },
     {
       "id": "48339a9a954b25a1",
@@ -2725,7 +3172,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T00:06:30Z"
+      "scanned_at": "2026-11-27T08:49:21Z"
     },
     {
       "id": "1891bc9f6738d3df",
@@ -2923,7 +3370,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T00:06:29Z"
+      "scanned_at": "2026-11-27T08:49:20Z"
     },
     {
       "id": "1bbbe9114119057e",
@@ -2938,7 +3385,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-27T00:06:28Z"
+      "scanned_at": "2026-11-27T08:49:19Z"
     },
     {
       "id": "002281fcbcfaaf83",
@@ -2953,7 +3400,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-27T00:06:28Z"
+      "scanned_at": "2026-11-27T08:49:19Z"
     },
     {
       "id": "38e814e52c47c8b4",
@@ -2968,7 +3415,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T00:06:28Z"
+      "scanned_at": "2026-11-27T08:49:19Z"
     },
     {
       "id": "1348a19270f28c25",
@@ -3011,7 +3458,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T00:06:28Z"
+      "scanned_at": "2026-11-27T08:49:19Z"
     },
     {
       "id": "0d0731d46968f272",
@@ -3040,7 +3487,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-27T00:06:28Z"
+      "scanned_at": "2026-11-27T08:49:19Z"
     },
     {
       "id": "ad61430806876eb6",
@@ -3055,7 +3502,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-27T00:06:28Z"
+      "scanned_at": "2026-11-27T08:49:19Z"
     },
     {
       "id": "89740e993263b9a6",
@@ -3070,7 +3517,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T00:06:28Z"
+      "scanned_at": "2026-11-27T08:49:19Z"
     },
     {
       "id": "1cf612a3ff6e2da3",
@@ -3085,7 +3532,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-27T00:06:28Z"
+      "scanned_at": "2026-11-27T08:49:19Z"
     },
     {
       "id": "1d74298ba94386e2",
@@ -3130,7 +3577,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T00:06:28Z"
+      "scanned_at": "2026-11-27T08:49:19Z"
     },
     {
       "id": "372f279fde1269ca",
@@ -3145,7 +3592,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T00:06:28Z"
+      "scanned_at": "2026-11-27T08:49:19Z"
     },
     {
       "id": "149d105c7eb7f1fb",
@@ -3174,7 +3621,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-27T00:06:28Z"
+      "scanned_at": "2026-11-27T08:49:19Z"
     },
     {
       "id": "b09b30969edea893",
@@ -3189,7 +3636,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T00:06:28Z"
+      "scanned_at": "2026-11-27T08:49:19Z"
     },
     {
       "id": "db7c1541095e3940",
@@ -3204,7 +3651,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-27T00:06:28Z"
+      "scanned_at": "2026-11-27T08:49:19Z"
     },
     {
       "id": "ffcc4fe1d9a4ad49",
@@ -3219,7 +3666,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-27T00:06:28Z"
+      "scanned_at": "2026-11-27T08:49:19Z"
     },
     {
       "id": "26a9d9cd0f4c60c0",
@@ -3234,7 +3681,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T00:06:28Z"
+      "scanned_at": "2026-11-27T08:49:19Z"
     },
     {
       "id": "c87673f7a9fe94ff",
@@ -3249,7 +3696,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T00:06:28Z"
+      "scanned_at": "2026-11-27T08:49:19Z"
     },
     {
       "id": "6c6d8364f1c0a237",
@@ -3264,7 +3711,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-27T00:06:28Z"
+      "scanned_at": "2026-11-27T08:49:19Z"
     },
     {
       "id": "64170f919ff3c32b",
@@ -3279,7 +3726,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T00:06:28Z"
+      "scanned_at": "2026-11-27T08:49:19Z"
     },
     {
       "id": "a7f213f0987f4483",
@@ -3294,7 +3741,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T00:06:28Z"
+      "scanned_at": "2026-11-27T08:49:19Z"
     },
     {
       "id": "0c4aaa47baf680a9",
@@ -3309,7 +3756,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T00:06:28Z"
+      "scanned_at": "2026-11-27T08:49:19Z"
     },
     {
       "id": "22eff6eecd73fdff",
@@ -3324,7 +3771,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T00:06:28Z"
+      "scanned_at": "2026-11-27T08:49:19Z"
     },
     {
       "id": "0499206cf66adccb",
@@ -3339,7 +3786,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-27T00:06:28Z"
+      "scanned_at": "2026-11-27T08:49:19Z"
     },
     {
       "id": "e7644a4428858f53",
@@ -3354,7 +3801,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T00:06:28Z"
+      "scanned_at": "2026-11-27T08:49:19Z"
     },
     {
       "id": "35c3cc87bb8f5752",
@@ -3369,7 +3816,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T00:06:28Z"
+      "scanned_at": "2026-11-27T08:49:19Z"
     },
     {
       "id": "f8acaea8894c00b3",
@@ -3384,7 +3831,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-27T00:06:28Z"
+      "scanned_at": "2026-11-27T08:49:19Z"
     },
     {
       "id": "6b56ab57855f8182",
@@ -3399,7 +3846,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T00:06:28Z"
+      "scanned_at": "2026-11-27T08:49:19Z"
     },
     {
       "id": "1dbfa7572e982712",
@@ -3414,7 +3861,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T00:06:28Z"
+      "scanned_at": "2026-11-27T08:49:19Z"
     },
     {
       "id": "3ff101028a3ae4e9",
@@ -3443,7 +3890,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T00:06:28Z"
+      "scanned_at": "2026-11-27T08:49:19Z"
     },
     {
       "id": "212820731e951626",
@@ -3502,7 +3949,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-27T00:06:28Z"
+      "scanned_at": "2026-11-27T08:49:19Z"
     },
     {
       "id": "83f51f1a6ed370ae",
@@ -3545,7 +3992,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T00:06:28Z"
+      "scanned_at": "2026-11-27T08:49:19Z"
     },
     {
       "id": "efa552b09e44c5c6",
@@ -3560,7 +4007,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T00:06:28Z"
+      "scanned_at": "2026-11-27T08:49:19Z"
     },
     {
       "id": "62432663baaec2ac",
@@ -3589,7 +4036,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T00:06:28Z"
+      "scanned_at": "2026-11-27T08:49:19Z"
     },
     {
       "id": "280217f05e9d3726",
@@ -3604,7 +4051,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T00:06:28Z"
+      "scanned_at": "2026-11-27T08:49:19Z"
     },
     {
       "id": "4f0651626a75ab42",
@@ -3619,7 +4066,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T00:06:28Z"
+      "scanned_at": "2026-11-27T08:49:19Z"
     },
     {
       "id": "75c98b0e4a7904ff",
@@ -3634,7 +4081,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T00:06:28Z"
+      "scanned_at": "2026-11-27T08:49:19Z"
     },
     {
       "id": "d29f1a33e4e61005",
@@ -3711,7 +4158,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T00:06:28Z"
+      "scanned_at": "2026-11-27T08:49:19Z"
     },
     {
       "id": "396f2a50cebc206e",
@@ -3740,7 +4187,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-27T00:06:28Z"
+      "scanned_at": "2026-11-27T08:49:19Z"
     },
     {
       "id": "969bdd442e521d54",
@@ -3755,7 +4202,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T00:06:28Z"
+      "scanned_at": "2026-11-27T08:49:19Z"
     },
     {
       "id": "c30d4a49f35dfecd",
@@ -3770,7 +4217,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T00:06:28Z"
+      "scanned_at": "2026-11-27T08:49:19Z"
     },
     {
       "id": "52d487d78a907726",
@@ -3785,7 +4232,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T00:06:28Z"
+      "scanned_at": "2026-11-27T08:49:19Z"
     },
     {
       "id": "3c65ef0f773138ee",
@@ -4614,7 +5061,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T00:06:30Z"
+      "scanned_at": "2026-11-27T08:49:21Z"
     },
     {
       "id": "b6b7531905246464",
@@ -4836,6 +5283,132 @@
       "news_side": null,
       "actionable": false,
       "scanned_at": "2026-11-25T14:56:41Z"
+    },
+    {
+      "id": "f38488e06a062d4a",
+      "source": "cnbc_finance",
+      "title": "Jensen Huang's Nvidia return shows the U.S.-China AI race is about more than chips",
+      "summary": "Jensen Huang's return as Nvidia CEO demonstrates that the U.S.-China artificial intelligence race is not just about semiconductors, but tech talent too.",
+      "url": "https://www.cnbc.com/2026/11/25/jensen-huang-nvidia-ai-talent-race.html",
+      "published_at": "2026-11-25T14:29:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T08:49:21Z"
+    },
+    {
+      "id": "caf3391392a3532b",
+      "source": "cnbc_business",
+      "title": "Secondhand shopping is going mainstream this holiday season as consumers seek value",
+      "summary": "More consumers are shopping secondhand this holiday season as they emphasize value and uniqueness in their purchases.",
+      "url": "https://www.cnbc.com/2026/11/25/secondhand-holiday-shopping-grows-as-shoppers-seek-value.html",
+      "published_at": "2026-11-25T14:17:01Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T08:49:20Z"
+    },
+    {
+      "id": "6a5e1d25a35c498b",
+      "source": "cnbc_finance",
+      "title": "Liesman: Nvidia whiplash tests Kevin Warsh\u2019s push to read market signals",
+      "summary": "The extreme market gyrations and the drama surrounding Nvidia this past week have highlighted the dilemma facing Federal Reserve Chairman Kevin Warsh.",
+      "url": "https://www.cnbc.com/2026/11/25/nvidia-kevin-warsh-fed-market-signals.html",
+      "published_at": "2026-11-25T12:26:41Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T08:49:21Z"
+    },
+    {
+      "id": "3dcc35b4d966043b",
+      "source": "cnbc_finance",
+      "title": "Kalshi daily volume of \u2018perps\u2019 trading begins to top its prediction markets",
+      "summary": "The product, the first one beyond event contracts, was introduced in May.",
+      "url": "https://www.cnbc.com/2026/11/24/kalshi-perps-volume-prediction-markets.html",
+      "published_at": "2026-11-24T23:03:24Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T08:49:21Z"
+    },
+    {
+      "id": "9576a0e3daeebe86",
+      "source": "cnbc_finance",
+      "title": "Utah drops criminal charges against Kalshi founders after company suspended operations in state",
+      "summary": "Co-founders of the prediction market platform were slated to appear in a state district court in December.",
+      "url": "https://www.cnbc.com/2026/11/24/utah-drops-charges-against-kalshi-after-it-halted-operations-in-state.html",
+      "published_at": "2026-11-24T20:45:57Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T08:49:21Z"
+    },
+    {
+      "id": "22c55472e9c2650d",
+      "source": "cnbc_business",
+      "title": "Retail turnarounds are taking hold just in time for the holiday season",
+      "summary": "Retail earnings reports on Tuesday pointed to a mix of factors behind the strong results, including a resilient consumer and stronger execution.",
+      "url": "https://www.cnbc.com/2026/11/24/retail-turnarounds-holiday-season.html",
+      "published_at": "2026-11-24T19:26:39Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T08:49:20Z"
+    },
+    {
+      "id": "2a593cc6e6dc2bb5",
+      "source": "cnbc_business",
+      "title": "Best Buy reports comparable sales growth of 6.1%, highest in five years",
+      "summary": "Best Buy beat quarterly expectations for its fiscal third-quarter earnings results on Tuesday and raised its full-year guidance.",
+      "url": "https://www.cnbc.com/2026/11/24/best-buy-bby-q3-2027-earnings.html",
+      "published_at": "2026-11-24T14:51:58Z",
+      "tickers": [],
+      "event_type": "earnings",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T08:49:20Z"
+    },
+    {
+      "id": "8d67dd25a6271816",
+      "source": "cnbc_finance",
+      "title": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation",
+      "summary": "The influential central banker expressed confidence that inflation will get closer to the Fed's 2% target in 2027.",
+      "url": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html",
+      "published_at": "2026-11-24T13:33:26Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T08:49:21Z"
+    },
+    {
+      "id": "f6ff266a26540a30",
+      "source": "cnbc_business",
+      "title": "Some U.S. food banks see demand top pandemic levels",
+      "summary": "A combination of high costs and restrictions to federal aid have led to soaring demand at many food banks in the U.S.",
+      "url": "https://www.cnbc.com/2026/11/24/us-food-banks-demand-snap.html",
+      "published_at": "2026-11-24T12:00:01Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-27T08:49:20Z"
     }
   ]
 }

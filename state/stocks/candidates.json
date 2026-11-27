@@ -12,8 +12,8 @@
   },
   "calendar_error": "",
   "n_calendar": 51,
-  "n_candidates": 51,
-  "n_tagged": 1,
+  "n_candidates": 52,
+  "n_tagged": 2,
   "errors": [],
   "rules": {
     "agent": "Discretionary agentic book. Deciding agent writes via stocks.decide from shared candidates. Baseline \u2014 not auto-traded by the engine.",
@@ -60,6 +60,36 @@
       ],
       "suggested_side": "short",
       "suggested_hold": 2
+    },
+    {
+      "ticker": "IMB.L",
+      "name": "IMB.L",
+      "cal_date": "2026-11-27",
+      "gap_pct": 13.2829,
+      "last": 3432.0,
+      "prev_close": 3029.583251953125,
+      "rel_vol": null,
+      "adv20_usd": 7640615632.64989,
+      "avg_dollar_volume": 7640615632.64989,
+      "spy_above_ma50": false,
+      "session": "closed",
+      "headline": "ROUNDUP: Altria pr\u00fcft \u00dcbernahme von Imperial Brands - Auch Japan Tobacco dabei",
+      "news_event_type": "other_8k",
+      "news_direction": "bullish",
+      "news_side": null,
+      "news_actionable": true,
+      "news_source": "wso_nachrichten",
+      "news_id": "46f00d6edb3ba343",
+      "filing_url": "https://www.wallstreet-online.de/nachricht/21753814-roundup-altria-prueft-uebernahme-imperial-brands-japan-tobacco",
+      "rule_tags": [
+        "bigmove",
+        "other_8k",
+        "bigmove_unified_v1"
+      ],
+      "source": "bigmove_move_trigger",
+      "suggested_side": null,
+      "suggested_hold": 5,
+      "as_of": "2026-11-27T08:14:59Z"
     },
     {
       "ticker": "BZ",
@@ -1410,36 +1440,7 @@
       "rule_tags": [],
       "suggested_side": null,
       "suggested_hold": null
-    },
-    {
-      "ticker": "IMB.L",
-      "name": "IMB.L",
-      "cal_date": "2026-11-27",
-      "gap_pct": 13.2829,
-      "last": 3432.0,
-      "prev_close": 3029.583251953125,
-      "rel_vol": null,
-      "adv20_usd": 7640615632.64989,
-      "avg_dollar_volume": 7640615632.64989,
-      "spy_above_ma50": false,
-      "session": "closed",
-      "headline": "ROUNDUP: Altria pr\u00fcft \u00dcbernahme von Imperial Brands - Auch Japan Tobacco dabei",
-      "news_event_type": "other_8k",
-      "news_direction": "bullish",
-      "news_side": null,
-      "news_actionable": true,
-      "news_source": "wso_nachrichten",
-      "news_id": "46f00d6edb3ba343",
-      "filing_url": "https://www.wallstreet-online.de/nachricht/21753814-roundup-altria-prueft-uebernahme-imperial-brands-japan-tobacco",
-      "rule_tags": [
-        "bigmove",
-        "other_8k",
-        "bigmove_unified_v1"
-      ],
-      "source": "bigmove_move_trigger",
-      "suggested_side": null,
-      "suggested_hold": 5,
-      "as_of": "2026-11-27T08:14:59Z"
     }
-  ]
+  ],
+  "news_merged_at": "2026-11-27T08:49:23Z"
 }
