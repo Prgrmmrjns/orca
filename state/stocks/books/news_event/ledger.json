@@ -10,85 +10,9 @@
   "start_date": "2026-11-10",
   "start_capital_eur": 1000.0,
   "eur_usd_start": 1.1154489517211914,
-  "cash_eur": 892.0494598478397,
-  "equity_eur": 994.64,
-  "positions": {
-    "ST": {
-      "ticker": "ST",
-      "side": "long",
-      "shares": 1.565895,
-      "entry_usd": 34.77,
-      "entry_eur": 31.671992,
-      "quote_fx": 1.0978153944015503,
-      "entry_notional_eur": 49.59,
-      "entry_cost_eur": 0.248,
-      "entry_cost_pct": 0.005,
-      "size": 0.05,
-      "entry_day": "2026-11-25",
-      "entry_time": "2026-11-25T22:12:54Z",
-      "entry_session": "open",
-      "session": "open",
-      "exit_day": "2026-11-27",
-      "hold_days": 2,
-      "stop_loss": 0.08,
-      "take_profit": null,
-      "trailing_stop": null,
-      "exit_at_close": false,
-      "trail_extreme": 37.20000076293945,
-      "rule_name": "bullish_news_long",
-      "reason": "[news_event/bullish_news_long] event=mna surprise=None gap=4.6164 guidance=None headline=Specialised Therapeutics and DKSH Partner to Expand Access to Cancer Medicines i \u2192 long 2d",
-      "confidence": 1.0,
-      "rule_tags": [
-        "news_event",
-        "bullish_news_long",
-        "bigmove",
-        "mna",
-        "bigmove_unified_v1"
-      ],
-      "decision_id": "news_event-ST-2026-11-24T05:21:31Z-9a748a",
-      "book_id": "news_event",
-      "mark_usd": 37.18000030517578,
-      "mark_eur": 33.8673,
-      "unrealized_pnl_pct": 6.9313
-    },
-    "KITT": {
-      "ticker": "KITT",
-      "side": "long",
-      "shares": 72.249614,
-      "entry_usd": 0.756,
-      "entry_eur": 0.68864,
-      "quote_fx": 1.0978153944015503,
-      "entry_notional_eur": 49.75,
-      "entry_cost_eur": 0.2488,
-      "entry_cost_pct": 0.005,
-      "size": 0.05,
-      "entry_day": "2026-11-25",
-      "entry_time": "2026-11-25T22:12:54Z",
-      "entry_session": "open",
-      "session": "open",
-      "exit_day": "2026-11-27",
-      "hold_days": 2,
-      "stop_loss": 0.08,
-      "take_profit": null,
-      "trailing_stop": null,
-      "exit_at_close": false,
-      "trail_extreme": 0.8450000286102295,
-      "rule_name": "bullish_news_long",
-      "reason": "[news_event/bullish_news_long] event=mna_deal surprise=None gap=None guidance=none headline=Nauticus Robotics\u2122 Signs Letter of Intent to Acquire Ocean Power Technologies' W \u2192 long 2d",
-      "confidence": 1.0,
-      "rule_tags": [
-        "news_event",
-        "bullish_news_long",
-        "news_event",
-        "mna_deal"
-      ],
-      "decision_id": "news_event-KITT-2026-11-24T22:56:57Z-8cb15c",
-      "book_id": "news_event",
-      "mark_usd": 0.753000020980835,
-      "mark_eur": 0.6859,
-      "unrealized_pnl_pct": -0.3968
-    }
-  },
+  "cash_eur": 995.3998930890682,
+  "equity_eur": 995.4,
+  "positions": {},
   "pending": [
     {
       "id": "news_event-WHO-2026-11-16T22:46:53Z-018695",
@@ -466,6 +390,69 @@
       "decision_id": "news_event-HSBC-2026-11-20T20:58:05Z-23c3dd",
       "book_id": "news_event",
       "closed_at": "2026-11-24T05:21:07Z"
+    },
+    {
+      "ticker": "ST",
+      "side": "long",
+      "entry_day": "2026-11-25",
+      "exit_day": "2026-11-27",
+      "entry_usd": 34.77,
+      "exit_usd": 38.529999,
+      "shares": 1.565895,
+      "hold_days": 2,
+      "exit_reason": "time_exit",
+      "entry_session": "open",
+      "exit_session": "after",
+      "session": "after",
+      "entry_cost_eur": 0.248,
+      "exit_cost_eur": 0.2748,
+      "entry_cost_pct": 0.005,
+      "exit_cost_pct": 0.005,
+      "pnl_eur": 4.84,
+      "pnl_pct_net": 9.8139,
+      "reason": "[news_event/bullish_news_long] event=mna surprise=None gap=4.6164 guidance=None headline=Specialised Therapeutics and DKSH Partner to Expand Access to Cancer Medicines i \u2192 long 2d",
+      "rule_tags": [
+        "news_event",
+        "bullish_news_long",
+        "bigmove",
+        "mna",
+        "bigmove_unified_v1"
+      ],
+      "rule_name": "bullish_news_long",
+      "decision_id": "news_event-ST-2026-11-24T05:21:31Z-9a748a",
+      "book_id": "news_event",
+      "closed_at": "2026-11-27T21:51:22Z"
+    },
+    {
+      "ticker": "KITT",
+      "side": "long",
+      "entry_day": "2026-11-25",
+      "exit_day": "2026-11-27",
+      "entry_usd": 0.756,
+      "exit_usd": 0.7432,
+      "shares": 72.249614,
+      "hold_days": 2,
+      "exit_reason": "time_exit",
+      "entry_session": "open",
+      "exit_session": "after",
+      "session": "after",
+      "entry_cost_eur": 0.2488,
+      "exit_cost_eur": 0.2446,
+      "entry_cost_pct": 0.005,
+      "exit_cost_pct": 0.005,
+      "pnl_eur": -1.34,
+      "pnl_pct_net": -2.6931,
+      "reason": "[news_event/bullish_news_long] event=mna_deal surprise=None gap=None guidance=none headline=Nauticus Robotics\u2122 Signs Letter of Intent to Acquire Ocean Power Technologies' W \u2192 long 2d",
+      "rule_tags": [
+        "news_event",
+        "bullish_news_long",
+        "news_event",
+        "mna_deal"
+      ],
+      "rule_name": "bullish_news_long",
+      "decision_id": "news_event-KITT-2026-11-24T22:56:57Z-8cb15c",
+      "book_id": "news_event",
+      "closed_at": "2026-11-27T21:51:22Z"
     }
   ],
   "equity_history": [
@@ -559,6 +546,13 @@
       "spy_eur": 978.39,
       "cash_eur": 892.05,
       "n_open": 2
+    },
+    {
+      "day": "2026-11-27",
+      "equity_eur": 995.4,
+      "spy_eur": 996.73,
+      "cash_eur": 995.4,
+      "n_open": 0
     }
   ],
   "spy_history": [
@@ -633,6 +627,12 @@
       "spy_eur": 978.39,
       "spy_usd": 716.7,
       "eur_usd": 1.09623
+    },
+    {
+      "day": "2026-11-27",
+      "spy_eur": 996.73,
+      "spy_usd": 728.32,
+      "eur_usd": 1.09349
     }
   ],
   "cost_pct": 0.005,
@@ -643,9 +643,9 @@
   "stop_loss": 0.08,
   "prefer_open": false,
   "max_open": 6,
-  "last_run": "2026-11-27T03:40:47Z",
-  "last_reason": "engine[news_event]: auto=0 ingested=0 fills=0 closed=0 open=2 session=closed",
-  "eur_usd": 1.0982975959777832,
+  "last_run": "2026-11-27T21:52:31Z",
+  "last_reason": "engine[news_event]: auto=0 ingested=0 fills=0 closed=0 open=0 session=after",
+  "eur_usd": 1.0934937000274658,
   "false_positives": [
     {
       "ticker": "NVDA",

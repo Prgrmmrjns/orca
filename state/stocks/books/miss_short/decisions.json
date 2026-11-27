@@ -933,7 +933,23 @@
       "agent": "rule:miss_short",
       "prefer_open": true,
       "decided_at": "2026-11-26T22:10:56Z",
-      "status": "pending"
+      "status": "filled",
+      "fill": {
+        "time": "2026-11-27T21:51:19Z",
+        "ticker": "GDS",
+        "side": "sell_short",
+        "price_usd": 14.41,
+        "shares": 4.071879,
+        "notional_eur": 53.66,
+        "cost_eur": 0.2683,
+        "cost_pct": 0.005,
+        "session": "open",
+        "quote_fx": 1.0934937000274658,
+        "reason": "[miss_short/miss_short] event=['miss_short'] surprise=-100.0 gap=-5.6416 guidance=unknown headline= \u2192 short 2d",
+        "note": "filled at regular-session open",
+        "decision_id": "miss_short-GDS-2026-11-26T22:10:56Z-ed7a2e",
+        "book_id": "miss_short"
+      }
     }
   ],
   "updated_at": "2026-11-26T22:10:56Z"
