@@ -10,47 +10,9 @@
   "start_date": "2026-11-13",
   "start_capital_eur": 1000.0,
   "eur_usd_start": 1.1063170433044434,
-  "cash_eur": 790.5481234630073,
-  "equity_eur": 992.33,
+  "cash_eur": 839.6726697013482,
+  "equity_eur": 991.83,
   "positions": {
-    "INTU": {
-      "ticker": "INTU",
-      "side": "long",
-      "shares": 0.200414,
-      "entry_usd": 272.0,
-      "entry_eur": 247.84639,
-      "quote_fx": 1.0974539518356323,
-      "entry_notional_eur": 49.67,
-      "entry_cost_eur": 0.4967,
-      "entry_cost_pct": 0.01,
-      "size": 0.05,
-      "entry_day": "2026-11-20",
-      "entry_time": "2026-11-20T23:03:16Z",
-      "entry_session": "after",
-      "session": "after",
-      "exit_day": "2026-11-27",
-      "hold_days": 5,
-      "stop_loss": null,
-      "take_profit": null,
-      "trailing_stop": null,
-      "exit_at_close": false,
-      "trail_extreme": 300.44000244140625,
-      "rule_name": "capitulation_fade_long",
-      "reason": "[bigmove_unified_v1/capitulation_fade_long] event=no_news_found surprise=None gap=-12.2637 guidance=None headline=INTU move -12.3% no news found \u2192 long 5d",
-      "confidence": 1.0,
-      "rule_tags": [
-        "bigmove_unified_v1",
-        "capitulation_fade_long",
-        "bigmove",
-        "no_news_found",
-        "bigmove_unified_v1"
-      ],
-      "decision_id": "bigmove_unified_v1-INTU-2026-11-20T23:03:14Z-a46497",
-      "book_id": "bigmove_unified_v1",
-      "mark_usd": 271.7200012207031,
-      "mark_eur": 247.5913,
-      "unrealized_pnl_pct": -0.1029
-    },
     "HSBC": {
       "ticker": "HSBC",
       "side": "short",
@@ -339,6 +301,38 @@
       "decision_id": "bigmove_unified_v1-SNEX-2026-11-19T23:47:23Z-be8464",
       "book_id": "bigmove_unified_v1",
       "closed_at": "2026-11-26T08:03:16Z"
+    },
+    {
+      "ticker": "INTU",
+      "side": "long",
+      "entry_day": "2026-11-20",
+      "exit_day": "2026-11-27",
+      "entry_usd": 272.0,
+      "exit_usd": 271.720001,
+      "shares": 0.200414,
+      "hold_days": 5,
+      "exit_reason": "time_exit",
+      "entry_session": "after",
+      "exit_session": "after",
+      "session": "after",
+      "entry_cost_eur": 0.4967,
+      "exit_cost_eur": 0.4962,
+      "entry_cost_pct": 0.01,
+      "exit_cost_pct": 0.01,
+      "pnl_eur": -1.04,
+      "pnl_pct_net": -2.1029,
+      "reason": "[bigmove_unified_v1/capitulation_fade_long] event=no_news_found surprise=None gap=-12.2637 guidance=None headline=INTU move -12.3% no news found \u2192 long 5d",
+      "rule_tags": [
+        "bigmove_unified_v1",
+        "capitulation_fade_long",
+        "bigmove",
+        "no_news_found",
+        "bigmove_unified_v1"
+      ],
+      "rule_name": "capitulation_fade_long",
+      "decision_id": "bigmove_unified_v1-INTU-2026-11-20T23:03:14Z-a46497",
+      "book_id": "bigmove_unified_v1",
+      "closed_at": "2026-11-27T08:08:37Z"
     }
   ],
   "equity_history": [
@@ -411,6 +405,13 @@
       "spy_eur": 978.39,
       "cash_eur": 790.55,
       "n_open": 6
+    },
+    {
+      "day": "2026-11-27",
+      "equity_eur": 991.83,
+      "spy_eur": 978.39,
+      "cash_eur": 839.67,
+      "n_open": 5
     }
   ],
   "spy_history": [
@@ -495,8 +496,8 @@
   "stop_loss": null,
   "prefer_open": false,
   "max_open": 20,
-  "last_run": "2026-11-27T03:40:59Z",
-  "last_reason": "engine[bigmove_unified_v1]: auto=0 ingested=0 fills=0 closed=0 open=6 session=closed",
+  "last_run": "2026-11-27T08:30:07Z",
+  "last_reason": "engine[bigmove_unified_v1]: auto=0 ingested=0 fills=0 closed=0 open=5 session=closed",
   "extended_hours_extra_slippage_pct": 0.005,
   "allow_extended_hours": true,
   "max_per_ticker": 1,
@@ -506,5 +507,5 @@
   "sizing": "fixed",
   "score_ref": 10.0,
   "strategy_config_path": "config/strategies/bigmove_unified_v1.yaml",
-  "eur_usd": 1.0982975959777832
+  "eur_usd": 1.0968520641326904
 }
