@@ -1,11 +1,11 @@
 {
   "mode": "paper",
-  "as_of": "2026-11-28T01:38:38Z",
-  "as_of_et": "2026-11-27 13:35 ET",
+  "as_of": "2026-11-28T01:42:13Z",
+  "as_of_et": "2026-11-27 20:42 ET",
   "rolling_hours": 72,
-  "n_items": 300,
-  "n_actionable": 9,
-  "n_with_ticker": 177,
+  "n_items": 374,
+  "n_actionable": 20,
+  "n_with_ticker": 164,
   "sources": [
     "prnewswire",
     "prnewswire_financial",
@@ -13,13 +13,1023 @@
     "cnbc_finance",
     "marketwatch",
     "marketwatch_realtime",
-    "edgar_8k",
-    "edgar_424b",
-    "edgar_sc_to"
+    "edgar_8k"
   ],
   "errors": [],
   "note": "Paper news feed. Keyword tagging is heuristic. Shorts have no borrow model. RSS/EDGAR can lag minutes\u2013hours.",
   "items": [
+    {
+      "id": "d9988bc989a182b5",
+      "source": "prnewswire",
+      "title": "SDLG Group Holds Mining Equipment New Product Launch in Shanghai",
+      "summary": "Seven new machines expand the group's integrated mining solutions portfolio SHANGHAI, Nov. 28, 2026 /PRNewswire/ -- On November 24, 2026, SDLG Group unveiled seven new machines, including three wheel loaders, a mining hydrostatic dozer, a mining excavator and two hybrid haul trucks. The...",
+      "url": "https://www.prnewswire.com/news-releases/sdlg-group-holds-mining-equipment-new-product-launch-in-shanghai-302951972.html",
+      "published_at": "2026-11-28T01:36:00Z",
+      "tickers": [
+        "SDLG"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "fda6ea2fa4fb0879",
+      "source": "prnewswire",
+      "title": "\u201ePanyu Action\" zeigt Erfolge: Das Auslandsgesch\u00e4ft versechsfacht sich innerhalb von drei Jahren und wird zum wichtigsten Wachstumsmotor von GAC",
+      "summary": "GUANGZHOU, China, 28. November 2026 /PRNewswire/ -- Am 27. November wurde die 24. Internationale Automobilausstellung von Guangzhou im Stadtteil Pazhou er\u00f6ffnet. GAC International startete seine Kampagne \u201eGlobal Voices Explore GAC\" (Stimmen aus aller Welt entdecken GAC) und lud...",
+      "url": "https://www.prnewswire.com/news-releases/panyu-action-zeigt-erfolge-das-auslandsgeschaft-versechsfacht-sich-innerhalb-von-drei-jahren-und-wird-zum-wichtigsten-wachstumsmotor-von-gac-302951968.html",
+      "published_at": "2026-11-28T01:15:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "7097549384b91a55",
+      "source": "prnewswire",
+      "title": "Splendid Tianfu, Leisurely Sichuan: A Journey into the Ancient Culture of Bashu",
+      "summary": "BEIJING, Nov. 27, 2026 /PRNewswire/ -- A news report from China Global Television Network Corporation: From intangible cultural heritage experiences in the streets and alleys of ancient towns to the ancient Shu civilization showcased in museums, from everyday life in rural communities to...",
+      "url": "https://www.prnewswire.com/news-releases/splendid-tianfu-leisurely-sichuan-a-journey-into-the-ancient-culture-of-bashu-302951967.html",
+      "published_at": "2026-11-28T01:11:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "2db5ee4a872a3e65",
+      "source": "prnewswire",
+      "title": "SDLG Group Holds Mining Equipment New Product Launch in Shanghai",
+      "summary": "Seven new machines expand the group's integrated mining solutions portfolio SHANGHAI, Nov. 27, 2026 /PRNewswire/ -- On November 24, 2026, SDLG Group unveiled seven new machines, including three wheel loaders, a mining hydrostatic dozer, a mining excavator and two hybrid haul trucks. The...",
+      "url": "https://www.prnewswire.com/news-releases/sdlg-group-holds-mining-equipment-new-product-launch-in-shanghai-302951963.html",
+      "published_at": "2026-11-28T01:02:00Z",
+      "tickers": [
+        "SDLG"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "bcd1cca84171728a",
+      "source": "prnewswire",
+      "title": "Flamengo gewinnt den brasilianischen S\u00e9rie-A-Titel, w\u00e4hrend GAC seine Pr\u00e4senz in Brasilien durch den Fu\u00dfball weiter ausbaut",
+      "summary": "SAO PAULO, 28. November 2026 /PRNewswire/ -- Am 21. November spielte CR Flamengo am 36. Spieltag der brasilianischen S\u00e9rie A gegen Palmeiras unentschieden und sicherte sich damit vorzeitig den Meistertitel 2026. Als strategischer Partner von Flamengo feierte GAC diesen Triumph gemeinsam...",
+      "url": "https://www.prnewswire.com/news-releases/flamengo-gewinnt-den-brasilianischen-serie-a-titel-wahrend-gac-seine-prasenz-in-brasilien-durch-den-fuWball-weiter-ausbaut-302951960.html",
+      "published_at": "2026-11-28T00:55:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "0374b633bf21c57d",
+      "source": "prnewswire",
+      "title": "Luvme Hair Announces Black Friday $1 Wig Add-On Deal",
+      "summary": "NEW YORK, Nov. 27, 2026 /PRNewswire/ -- U.S. customers can add a selected human hair pixie wig for just $1 with qualifying purchases of $350 or more before discounts, from November 27 through December 5. Luvme Hair is introducing a special Black Friday $1 Wig Add-On Deal, giving eligible...",
+      "url": "https://www.prnewswire.com/news-releases/luvme-hair-announces-black-friday-1-wig-add-on-deal-302951891.html",
+      "published_at": "2026-11-28T00:50:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "eaf14cc0428c1cf2",
+      "source": "prnewswire",
+      "title": "Piate f\u00f3rum o rozvoji vidieka v Yan'ane sk\u00fama \u00falohu umelej inteligencie v odvetv\u00ed po\u013enohospod\u00e1rstva a vidieka",
+      "summary": "\u0160EN-\u010cEN, \u010c\u00edna, 28. novembra 2026 /PRNewswire/ -- Digit\u00e1lne technol\u00f3gie transformuj\u00fa odvetvie produkcie jab\u013ak v meste Yan'an (Jen-an) od ich pestovania a\u017e po predaj prostredn\u00edctvom QR k\u00f3dov. Hlavnou t\u00e9mou na piatom f\u00f3re o rozvoji vidieka v Yan'ane, ktor\u00e9 sa konalo 14. novembra na Northwest...",
+      "url": "https://www.prnewswire.com/news-releases/piate-forum-o-rozvoji-vidieka-v-yanane-skuma-ulohu-umelej-inteligencie-v-odvetvi-ponohospodarstva-a-vidieka-302951957.html",
+      "published_at": "2026-11-28T00:45:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "4c8bde6d88620188",
+      "source": "prnewswire",
+      "title": "First Citizens Bank Enters into Whole Bank Purchase of United Fidelity Bank, fsb",
+      "summary": "Acquisition strengthens First Citizens' competitive position and supports sustainable value creation for stakeholders RALEIGH, N.C., Nov. 27, 2026 /PRNewswire/ -- First-Citizens Bank & Trust Company (\"First Citizens Bank\"), the wholly owned banking subsidiary of First Citizens BancShares,...",
+      "url": "https://www.prnewswire.com/news-releases/first-citizens-bank-enters-into-whole-bank-purchase-of-united-fidelity-bank-fsb-302951956.html",
+      "published_at": "2026-11-28T00:40:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "c920d29fd83acaa1",
+      "source": "prnewswire_financial",
+      "title": "First Citizens Bank Enters into Whole Bank Purchase of United Fidelity Bank, fsb",
+      "summary": "Acquisition strengthens First Citizens' competitive position and supports sustainable value creation for stakeholders RALEIGH, N.C., Nov. 27, 2026 /PRNewswire/ -- First-Citizens Bank & Trust Company (\"First Citizens Bank\"), the wholly owned banking subsidiary of First Citizens BancShares,...",
+      "url": "https://www.prnewswire.com/news-releases/first-citizens-bank-enters-into-whole-bank-purchase-of-united-fidelity-bank-fsb-302951956.html",
+      "published_at": "2026-11-28T00:40:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:10Z"
+    },
+    {
+      "id": "e4cba312b8a26b3a",
+      "source": "marketwatch",
+      "title": "I\u2019m in my 70s and buying a new BMW X1. Should I put my only son on the title?",
+      "summary": "\u201cGiven my age, I never make a major new purchase without thinking about the future.\u201d",
+      "url": "https://www.marketwatch.com/story/im-in-my-70s-and-buying-a-new-bmw-x1-should-i-put-my-only-son-on-the-title-25731040?mod=mw_rss_topstories",
+      "published_at": "2026-11-28T00:00:00Z",
+      "tickers": [
+        "I"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:12Z"
+    },
+    {
+      "id": "c057861897ccb68d",
+      "source": "prnewswire",
+      "title": "NEW PACIFIC ANNOUNCES 2026 AGM RESULTS",
+      "summary": "VANCOUVER, BC, Nov. 27, 2026 /PRNewswire/ -- New Pacific Metals Corp. (\"New Pacific\" or the \"Company\") (TSX: NUAG) (NYSE American: NEWP) today reported that all matters submitted for approval at New Pacific's annual meeting of shareholders (\"AGM\") held today as set out in the Company's...",
+      "url": "https://www.prnewswire.com/news-releases/new-pacific-announces-2026-agm-results-302951946.html",
+      "published_at": "2026-11-27T23:37:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "a4d47c2598303b1d",
+      "source": "prnewswire",
+      "title": "CCTV4: Premiere des Dokumentarfilms \u201eOne Poem, One World\" (Ein Gedicht, eine Welt) bringt klassische chinesische Poesie in die Welt",
+      "summary": "PEKING, 28. November 2026 /PRNewswire/ -- Die Geschichte der klassischen chinesischen Poesie reicht mehrere Tausend Jahre zur\u00fcck. W\u00e4hrend der Tang- und Song-Dynastien vom 8. bis zum 13. Jahrhundert erlebte die Dichtkunst ihre Bl\u00fctezeit, die von Dichtern wie Li Bai, Du Fu, Su Shi und Li...",
+      "url": "https://www.prnewswire.com/news-releases/cctv4-premiere-des-dokumentarfilms-one-poem-one-world-ein-gedicht-eine-welt-bringt-klassische-chinesische-poesie-in-die-welt-302951943.html",
+      "published_at": "2026-11-27T23:01:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "4a195e204abc8c7a",
+      "source": "prnewswire",
+      "title": "Roundhill Investments Announces ETF Lineup Update",
+      "summary": "NEW YORK, Nov. 27, 2026 /PRNewswire/ -- Roundhill Investments, an ETF sponsor focused on innovative financial products, today announced plans to close and liquidate the following ETFs: Fund Name Ticker CUSIP Roundhill BABA WeeklyPay ETF BABW 77926X510 Roundhill BRKB WeeklyPay ETF BRKW...",
+      "url": "https://www.prnewswire.com/news-releases/roundhill-investments-announces-etf-lineup-update-302951912.html",
+      "published_at": "2026-11-27T22:35:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "fb7543d5bfc4301d",
+      "source": "prnewswire_financial",
+      "title": "Roundhill Investments Announces ETF Lineup Update",
+      "summary": "NEW YORK, Nov. 27, 2026 /PRNewswire/ -- Roundhill Investments, an ETF sponsor focused on innovative financial products, today announced plans to close and liquidate the following ETFs: Fund Name Ticker CUSIP Roundhill BABA WeeklyPay ETF BABW 77926X510 Roundhill BRKB WeeklyPay ETF BRKW...",
+      "url": "https://www.prnewswire.com/news-releases/roundhill-investments-announces-etf-lineup-update-302951912.html",
+      "published_at": "2026-11-27T22:35:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:10Z"
+    },
+    {
+      "id": "3cbe200ec8883f4a",
+      "source": "prnewswire",
+      "title": "GOL startet den Orange Friday mit bis zu 10 % Rabatt auf Hin- und R\u00fcckfl\u00fcge von den USA nach Brasilien",
+      "summary": "Der gr\u00f6\u00dfte Ausverkauf des Jahres der Fluggesellschaft ist bereits gestartet und l\u00e4uft bis Sonntag, den 29. November. Angeboten werden Fl\u00fcge nach Rio de Janeiro, Fortaleza, Bras\u00edlia und Bel\u00e9m. NEW YORK, 27. November 2026 /PRNewswire/ -- GOL Linhas A\u00e9reas, Brasiliens p\u00fcnktlichste...",
+      "url": "https://www.prnewswire.com/news-releases/gol-startet-den-orange-friday-mit-bis-zu-10--rabatt-auf-hin--und-ruckfluge-von-den-usa-nach-brasilien-302951942.html",
+      "published_at": "2026-11-27T22:32:00Z",
+      "tickers": [
+        "GOL"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "9ddbd26457ff3ee9",
+      "source": "prnewswire",
+      "title": "Peak Credit Union Announces Agreement to Acquire Southwest Heritage Bank",
+      "summary": "The proposed acquisition would deepen business banking expertise and expand Peak's reach into Arizona and New Mexico EUGENE, Ore. and LACEY, Wash. and SCOTTSDALE, Ariz., Nov. 27, 2026 /PRNewswire/ -- Peak Credit Union announced today that it has entered into a definitive agreement to...",
+      "url": "https://www.prnewswire.com/news-releases/peak-credit-union-announces-agreement-to-acquire-southwest-heritage-bank-302951825.html",
+      "published_at": "2026-11-27T22:30:00Z",
+      "tickers": [],
+      "event_type": "mna_deal",
+      "direction": "bullish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "ff22d315f5b90f61",
+      "source": "prnewswire",
+      "title": "GOL lance l'op\u00e9ration Orange Friday avec jusqu'\u00e0 10 % de r\u00e9duction sur les vols aller-retour entre les \u00c9tats-Unis et le Br\u00e9sil",
+      "summary": "La plus grande promotion de l'ann\u00e9e de la compagnie a\u00e9rienne est d\u00e9j\u00e0 en cours et se poursuit jusqu'au dimanche 29 novembre, avec des vols vers Rio de Janeiro, Fortaleza, Bras\u00edlia et Bel\u00e9m. NEW YORK, 27 novembre 2026 /PRNewswire/ -- GOL Linhas A\u00e9reas, la compagnie a\u00e9rienne la plus...",
+      "url": "https://www.prnewswire.com/news-releases/gol-lance-loperation-orange-friday-avec-jusqua-10--de-reduction-sur-les-vols-aller-retour-entre-les-etats-unis-et-le-bresil-302951941.html",
+      "published_at": "2026-11-27T22:30:00Z",
+      "tickers": [
+        "GOL"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "da54f06edc1fa712",
+      "source": "prnewswire_financial",
+      "title": "Peak Credit Union Announces Agreement to Acquire Southwest Heritage Bank",
+      "summary": "The proposed acquisition would deepen business banking expertise and expand Peak's reach into Arizona and New Mexico EUGENE, Ore. and LACEY, Wash. and SCOTTSDALE, Ariz., Nov. 27, 2026 /PRNewswire/ -- Peak Credit Union announced today that it has entered into a definitive agreement to...",
+      "url": "https://www.prnewswire.com/news-releases/peak-credit-union-announces-agreement-to-acquire-southwest-heritage-bank-302951825.html",
+      "published_at": "2026-11-27T22:30:00Z",
+      "tickers": [],
+      "event_type": "mna_deal",
+      "direction": "bullish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:10Z"
+    },
+    {
+      "id": "9482b7750fa3d2b2",
+      "source": "edgar_8k",
+      "title": "8-K - HeartSciences Inc. (0001468492) (Filer)",
+      "summary": "Filed: 2026-11-27 AccNo: 0001213900-26-124612 Size: 243 KB Item 1.01: Entry into a Material Definitive Agreement Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1468492/000121390026124612/0001213900-26-124612-index.htm",
+      "published_at": "2026-11-27T22:27:09Z",
+      "tickers": [],
+      "company": "HeartSciences Inc.",
+      "event_type": "fraud_probe",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "299689776626e6d3",
+      "source": "edgar_8k",
+      "title": "8-K - OLENOX INDUSTRIES INC. (0001023994) (Filer)",
+      "summary": "Filed: 2026-11-27 AccNo: 0001213900-26-124611 Size: 198 KB Item 3.02: Unregistered Sales of Equity Securities",
+      "url": "https://www.sec.gov/Archives/edgar/data/1023994/000121390026124611/0001213900-26-124611-index.htm",
+      "published_at": "2026-11-27T22:26:47Z",
+      "tickers": [],
+      "company": "OLENOX INDUSTRIES INC.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "382d13cb421d6917",
+      "source": "prnewswire",
+      "title": "De la planification \u00e9nerg\u00e9tique nationale \u00e0 la mise en pratique industrielle : Huawei et ses partenaires s'unissent pour une vision inclusive de l'\u00e9nergie en Afrique",
+      "summary": "Le Huawei Northern Africa Inclusive Energy Summit 2026, organis\u00e9 \u00e0 Rabat, a r\u00e9uni plus de 400 d\u00e9cideurs et repr\u00e9sentants institutionnels et industriels de plusieurs pays africains autour des enjeux de la transition \u00e9nerg\u00e9tique, de l'innovation technologique et de la coop\u00e9ration r\u00e9gionale....",
+      "url": "https://www.prnewswire.com/news-releases/de-la-planification-energetique-nationale-a-la-mise-en-pratique-industrielle--huawei-et-ses-partenaires-sunissent-pour-une-vision-inclusive-de-lenergie-en-afrique-302951940.html",
+      "published_at": "2026-11-27T22:20:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "e94185e236384612",
+      "source": "edgar_8k",
+      "title": "8-K - Flyte Aviation, Inc. (0001716621) (Filer)",
+      "summary": "Filed: 2026-11-27 AccNo: 0001437749-26-038392 Size: 407 KB Item 1.01: Entry into a Material Definitive Agreement Item 3.02: Unregistered Sales of Equity Securities Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1716621/000143774926038392/0001437749-26-038392-index.htm",
+      "published_at": "2026-11-27T22:15:48Z",
+      "tickers": [],
+      "company": "Flyte Aviation, Inc.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "a968c596d7ed39be",
+      "source": "edgar_8k",
+      "title": "8-K - ICAHN ENTERPRISES L.P. (0000813762) (Filer)",
+      "summary": "Filed: 2026-11-27 AccNo: 0001104659-26-132525 Size: 197 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
+      "url": "https://www.sec.gov/Archives/edgar/data/813762/000110465926132525/0001104659-26-132525-index.htm",
+      "published_at": "2026-11-27T22:15:20Z",
+      "tickers": [],
+      "company": "ICAHN ENTERPRISES L.P.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "1dc954dc81efe955",
+      "source": "prnewswire",
+      "title": "From national energy planning to industrial practice: Huawei and partners unite for an inclusive energy vision in Africa",
+      "summary": "The Huawei Northern Africa Inclusive Energy Summit 2026, held in Rabat, brought together more than 400 policymakers, institutional and industrial representatives from several African countries to discuss the challenges of energy transition, technological innovation and regional...",
+      "url": "https://www.prnewswire.com/news-releases/from-national-energy-planning-to-industrial-practice-huawei-and-partners-unite-for-an-inclusive-energy-vision-in-africa-302951939.html",
+      "published_at": "2026-11-27T22:14:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "940b6c4e21998e90",
+      "source": "edgar_8k",
+      "title": "8-K - Sentinel Holdings Ltd. (0000889353) (Filer)",
+      "summary": "Filed: 2026-11-27 AccNo: 0001096906-26-001913 Size: 132 KB Item 1.02: Termination of a Material Definitive Agreement Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/889353/000109690626001913/0001096906-26-001913-index.htm",
+      "published_at": "2026-11-27T22:10:27Z",
+      "tickers": [],
+      "company": "Sentinel Holdings Ltd.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "fa10006f406ccf38",
+      "source": "edgar_8k",
+      "title": "8-K - Q/C TECHNOLOGIES, INC. (0001321834) (Filer)",
+      "summary": "Filed: 2026-11-27 AccNo: 0001493152-26-054517 Size: 204 KB Item 5.08: Shareholder Nominations Pursuant to Exchange Act Rule 14a-11",
+      "url": "https://www.sec.gov/Archives/edgar/data/1321834/000149315226054517/0001493152-26-054517-index.htm",
+      "published_at": "2026-11-27T22:08:17Z",
+      "tickers": [],
+      "company": "Q/C TECHNOLOGIES, INC.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "93a98276bb4b1ace",
+      "source": "edgar_8k",
+      "title": "8-K - Moleculin Biotech, Inc. (0001659617) (Filer)",
+      "summary": "Filed: 2026-11-27 AccNo: 0001437749-26-038383 Size: 5 MB Item 7.01: Regulation FD Disclosure Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1659617/000143774926038383/0001437749-26-038383-index.htm",
+      "published_at": "2026-11-27T22:00:31Z",
+      "tickers": [],
+      "company": "Moleculin Biotech, Inc.",
+      "event_type": "fraud_probe",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "6d11d52d612773c0",
+      "source": "edgar_8k",
+      "title": "8-K - Summit Healthcare REIT, Inc (0001310383) (Filer)",
+      "summary": "Filed: 2026-11-27 AccNo: 0001104659-26-132515 Size: 232 KB Item 1.01: Entry into a Material Definitive Agreement Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1310383/000110465926132515/0001104659-26-132515-index.htm",
+      "published_at": "2026-11-27T21:59:56Z",
+      "tickers": [],
+      "company": "Summit Healthcare REIT, Inc",
+      "event_type": "fraud_probe",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "ec41599a38a2aa63",
+      "source": "edgar_8k",
+      "title": "8-K - T. Rowe Price OHA Select Private Credit Fund (0001901164) (Filer)",
+      "summary": "Filed: 2026-11-27 AccNo: 0001140361-26-045898 Size: 169 KB Item 7.01: Regulation FD Disclosure Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1901164/000114036126045898/0001140361-26-045898-index.htm",
+      "published_at": "2026-11-27T21:59:50Z",
+      "tickers": [],
+      "company": "T. Rowe Price OHA Select Private Credit Fund",
+      "event_type": "fraud_probe",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "151a666fc9ad84b4",
+      "source": "edgar_8k",
+      "title": "8-K12B - Everli Global Holdings Inc. (0002016221) (Filer)",
+      "summary": "Filed: 2026-11-27 AccNo: 0001213900-26-124598 Size: 2 MB Item 1.01: Entry into a Material Definitive Agreement Item 2.01: Completion of Acquisition or Disposition of Assets Item 2.03: Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant Item 3.02: Unregistered Sales of Equity Securities Item 3.03: Material Modifications to Rights of Security Holders Item 5.01: Changes in Control of Registrant Item 5.02: Departure of Directors or Certai",
+      "url": "https://www.sec.gov/Archives/edgar/data/2016221/000121390026124598/0001213900-26-124598-index.htm",
+      "published_at": "2026-11-27T21:50:31Z",
+      "tickers": [],
+      "company": "",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "8b2ea6bcb163811f",
+      "source": "edgar_8k",
+      "title": "8-K - GULF RESOURCES, INC. (0000885462) (Filer)",
+      "summary": "Filed: 2026-11-27 AccNo: 0001493152-26-054508 Size: 339 KB Item 1.01: Entry into a Material Definitive Agreement Item 3.02: Unregistered Sales of Equity Securities Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/885462/000149315226054508/0001493152-26-054508-index.htm",
+      "published_at": "2026-11-27T21:45:12Z",
+      "tickers": [],
+      "company": "GULF RESOURCES, INC.",
+      "event_type": "fraud_probe",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "6f59d1d06bbe186f",
+      "source": "edgar_8k",
+      "title": "8-K - 60 DEGREES PHARMACEUTICALS, INC. (0001946563) (Filer)",
+      "summary": "Filed: 2026-11-27 AccNo: 0001213900-26-124592 Size: 243 KB Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing Item 7.01: Regulation FD Disclosure",
+      "url": "https://www.sec.gov/Archives/edgar/data/1946563/000121390026124592/0001213900-26-124592-index.htm",
+      "published_at": "2026-11-27T21:39:18Z",
+      "tickers": [],
+      "company": "60 DEGREES PHARMACEUTICALS, INC.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "c9e8bb987889f218",
+      "source": "edgar_8k",
+      "title": "8-K - Vivos Therapeutics, Inc. (0001716166) (Filer)",
+      "summary": "Filed: 2026-11-27 AccNo: 0001493152-26-054507 Size: 213 KB Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1716166/000149315226054507/0001493152-26-054507-index.htm",
+      "published_at": "2026-11-27T21:39:13Z",
+      "tickers": [],
+      "company": "Vivos Therapeutics, Inc.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "01a46f7902f9f01f",
+      "source": "edgar_8k",
+      "title": "8-K - Distribution Solutions Group, Inc. (0000703604) (Filer)",
+      "summary": "Filed: 2026-11-27 AccNo: 0001193125-26-480334 Size: 150 KB Item 5.07: Submission of Matters to a Vote of Security Holders Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/703604/000119312526480334/0001193125-26-480334-index.htm",
+      "published_at": "2026-11-27T21:38:49Z",
+      "tickers": [],
+      "company": "Distribution Solutions Group, Inc.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "f2f4f2a42fa3a2b4",
+      "source": "prnewswire",
+      "title": "GOL launches Orange Friday with up to 10% off round-trip flights from the U.S. to Brazil",
+      "summary": "The airline's biggest sale of the year is already live and runs through Sunday, Nov. 29, featuring Rio de Janeiro, Fortaleza, Bras\u00edlia and Bel\u00e9m NEW YORK, Nov. 27, 2026 /PRNewswire/ -- GOL Linhas A\u00e9reas, Brazil's most on-time airline in 2024 and 2025, has launched Orange Friday 2026, its...",
+      "url": "https://www.prnewswire.com/news-releases/gol-launches-orange-friday-with-up-to-10-off-round-trip-flights-from-the-us-to-brazil-302951933.html",
+      "published_at": "2026-11-27T21:37:00Z",
+      "tickers": [
+        "GOL"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "8eaabba809b5fff7",
+      "source": "prnewswire",
+      "title": "GOL launches Orange Friday with up to 10% off round-trip flights from the U.S. to Brazil",
+      "summary": "The airline's biggest sale of the year is already live and runs through Sunday, Nov. 29, featuring Rio de Janeiro, Fortaleza, Bras\u00edlia and Bel\u00e9m NEW YORK, Nov. 27, 2026 /PRNewswire/ -- GOL Linhas A\u00e9reas, Brazil's most on-time airline in 2024 and 2025, has launched Orange Friday 2026, its...",
+      "url": "https://www.prnewswire.com/news-releases/gol-launches-orange-friday-with-up-to-10-off-round-trip-flights-from-the-us-to-brazil-302951931.html",
+      "published_at": "2026-11-27T21:36:00Z",
+      "tickers": [
+        "GOL"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "c512358dadca31b3",
+      "source": "edgar_8k",
+      "title": "8-K - IP STRATEGY HOLDINGS, INC. (0001788230) (Filer)",
+      "summary": "Filed: 2026-11-27 AccNo: 0001788230-26-000098 Size: 161 KB Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1788230/000178823026000098/0001788230-26-000098-index.htm",
+      "published_at": "2026-11-27T21:34:33Z",
+      "tickers": [],
+      "company": "IP STRATEGY HOLDINGS, INC.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "a43fb35c31710ff3",
+      "source": "edgar_8k",
+      "title": "8-K - Change Agents Corporation. (0001630212) (Filer)",
+      "summary": "Filed: 2026-11-27 AccNo: 0001213900-26-124589 Size: 736 KB Item 1.01: Entry into a Material Definitive Agreement Item 2.03: Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant Item 3.02: Unregistered Sales of Equity Securities Item 5.03: Amendments to Articles of Incorporation or Bylaws; Change in Fiscal Year Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1630212/000121390026124589/0001213900-26-124589-index.htm",
+      "published_at": "2026-11-27T21:30:20Z",
+      "tickers": [],
+      "company": "Change Agents Corporation.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "4c9450445b69dbe2",
+      "source": "edgar_8k",
+      "title": "8-K - ASPAC II Acquisition Corp. (0001876716) (Filer)",
+      "summary": "Filed: 2026-11-27 AccNo: 0001213900-26-124588 Size: 294 KB Item 1.01: Entry into a Material Definitive Agreement Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1876716/000121390026124588/0001213900-26-124588-index.htm",
+      "published_at": "2026-11-27T21:30:14Z",
+      "tickers": [],
+      "company": "ASPAC II Acquisition Corp.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "cb7fd17ac9e649a4",
+      "source": "edgar_8k",
+      "title": "8-K - Aspire-Lakewood Holdings, Inc. (0001847345) (Filer)",
+      "summary": "Filed: 2026-11-27 AccNo: 0001493152-26-054501 Size: 251 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
+      "url": "https://www.sec.gov/Archives/edgar/data/1847345/000149315226054501/0001493152-26-054501-index.htm",
+      "published_at": "2026-11-27T21:30:12Z",
+      "tickers": [],
+      "company": "Aspire-Lakewood Holdings, Inc.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "b3a2c3847c13783c",
+      "source": "prnewswire",
+      "title": "Mountain Province Diamonds Announces Third Quarter Financial Results for 2026",
+      "summary": "TORONTO, Nov. 27, 2026 /PRNewswire/ -- Mountain Province Diamonds Inc. (\"Mountain Province\", the \"Company\") today announces financial results for the third quarter ended September 30, 2026 (\"the Quarter\" or \"Q3 2026\") from the Gahcho Ku\u00e9 Diamond Mine (\"GK Mine\"). All figures are expressed...",
+      "url": "https://www.prnewswire.com/news-releases/mountain-province-diamonds-announces-third-quarter-financial-results-for-2026-302951883.html",
+      "published_at": "2026-11-27T21:30:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "aeae8fe957d7540a",
+      "source": "edgar_8k",
+      "title": "8-K - Viatris Inc (0001792044) (Filer)",
+      "summary": "Filed: 2026-11-27 AccNo: 0001140361-26-045892 Size: 134 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
+      "url": "https://www.sec.gov/Archives/edgar/data/1792044/000114036126045892/0001140361-26-045892-index.htm",
+      "published_at": "2026-11-27T21:19:23Z",
+      "tickers": [],
+      "company": "Viatris Inc",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "d587c36637b21f34",
+      "source": "edgar_8k",
+      "title": "8-K - iQSTEL Inc (0001527702) (Filer)",
+      "summary": "Filed: 2026-11-27 AccNo: 0001663577-26-000368 Size: 195 KB Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1527702/000166357726000368/0001663577-26-000368-index.htm",
+      "published_at": "2026-11-27T21:15:59Z",
+      "tickers": [],
+      "company": "iQSTEL Inc",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "c04eb7444edec9e6",
+      "source": "edgar_8k",
+      "title": "8-K - Constellation Acquisition Corp I (0001834032) (Filer)",
+      "summary": "Filed: 2026-11-27 AccNo: 0001213900-26-124576 Size: 248 KB Item 2.03: Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant",
+      "url": "https://www.sec.gov/Archives/edgar/data/1834032/000121390026124576/0001213900-26-124576-index.htm",
+      "published_at": "2026-11-27T21:15:36Z",
+      "tickers": [],
+      "company": "Constellation Acquisition Corp I",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "29df51362b63576f",
+      "source": "edgar_8k",
+      "title": "8-K - MILLER INDUSTRIES INC /TN/ (0000924822) (Filer)",
+      "summary": "Filed: 2026-11-27 AccNo: 0001104659-26-132489 Size: 189 KB Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/924822/000110465926132489/0001104659-26-132489-index.htm",
+      "published_at": "2026-11-27T21:15:34Z",
+      "tickers": [],
+      "company": "MILLER INDUSTRIES INC /TN/",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "4d1b26f76a600552",
+      "source": "edgar_8k",
+      "title": "8-K - AIR INDUSTRIES GROUP (0001009891) (Filer)",
+      "summary": "Filed: 2026-11-27 AccNo: 0001213900-26-124575 Size: 194 KB Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1009891/000121390026124575/0001213900-26-124575-index.htm",
+      "published_at": "2026-11-27T21:15:29Z",
+      "tickers": [],
+      "company": "AIR INDUSTRIES GROUP",
+      "event_type": "fraud_probe",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "15d5850892933c51",
+      "source": "edgar_8k",
+      "title": "8-K - Yorkville Acquisition Corp. (0002064658) (Filer)",
+      "summary": "Filed: 2026-11-27 AccNo: 0001104659-26-132487 Size: 242 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
+      "url": "https://www.sec.gov/Archives/edgar/data/2064658/000110465926132487/0001104659-26-132487-index.htm",
+      "published_at": "2026-11-27T21:15:25Z",
+      "tickers": [],
+      "company": "Yorkville Acquisition Corp.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "c27ef2d4fc30f91a",
+      "source": "edgar_8k",
+      "title": "8-K - enCore Energy Corp. (0001500881) (Filer)",
+      "summary": "Filed: 2026-11-27 AccNo: 0001193125-26-480288 Size: 182 KB Item 1.01: Entry into a Material Definitive Agreement Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1500881/000119312526480288/0001193125-26-480288-index.htm",
+      "published_at": "2026-11-27T21:15:15Z",
+      "tickers": [],
+      "company": "enCore Energy Corp.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "dcf58e46f5046442",
+      "source": "edgar_8k",
+      "title": "8-K - SunPower Inc. (0001838987) (Filer)",
+      "summary": "Filed: 2026-11-27 AccNo: 0001213900-26-124574 Size: 270 KB Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1838987/000121390026124574/0001213900-26-124574-index.htm",
+      "published_at": "2026-11-27T21:15:13Z",
+      "tickers": [],
+      "company": "SunPower Inc.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "2a21c703519db33b",
+      "source": "edgar_8k",
+      "title": "8-K - Longeveron Inc. (0001721484) (Filer)",
+      "summary": "Filed: 2026-11-27 AccNo: 0001213900-26-124573 Size: 196 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1721484/000121390026124573/0001213900-26-124573-index.htm",
+      "published_at": "2026-11-27T21:15:12Z",
+      "tickers": [],
+      "company": "Longeveron Inc.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "b3fe0faf91b39fd2",
+      "source": "edgar_8k",
+      "title": "8-K - Aptera Motors Corp (0001786471) (Filer)",
+      "summary": "Filed: 2026-11-27 AccNo: 0001493152-26-054497 Size: 218 KB Item 7.01: Regulation FD Disclosure Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1786471/000149315226054497/0001493152-26-054497-index.htm",
+      "published_at": "2026-11-27T21:15:09Z",
+      "tickers": [],
+      "company": "Aptera Motors Corp",
+      "event_type": "fraud_probe",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "f5e429f6fa82b9cb",
+      "source": "edgar_8k",
+      "title": "8-K - QDM International Inc. (0001094032) (Filer)",
+      "summary": "Filed: 2026-11-27 AccNo: 0001213900-26-124571 Size: 249 KB Item 1.01: Entry into a Material Definitive Agreement Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1094032/000121390026124571/0001213900-26-124571-index.htm",
+      "published_at": "2026-11-27T21:10:53Z",
+      "tickers": [],
+      "company": "QDM International Inc.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "b940da5a3bd66c04",
+      "source": "edgar_8k",
+      "title": "8-K - New Providence Acquisition Corp. III/Cayman (0002048948) (Filer)",
+      "summary": "Filed: 2026-11-27 AccNo: 0001213900-26-124570 Size: 255 KB Item 5.08: Shareholder Nominations Pursuant to Exchange Act Rule 14a-11 Item 8.01: Other Events",
+      "url": "https://www.sec.gov/Archives/edgar/data/2048948/000121390026124570/0001213900-26-124570-index.htm",
+      "published_at": "2026-11-27T21:10:41Z",
+      "tickers": [],
+      "company": "New Providence Acquisition Corp. III/Cayman",
+      "event_type": "fraud_probe",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "703cb4cd66ca11b4",
+      "source": "edgar_8k",
+      "title": "8-K - AUDDIA INC. (0001554818) (Filer)",
+      "summary": "Filed: 2026-11-27 AccNo: 0001683168-26-009161 Size: 580 KB Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1554818/000168316826009161/0001683168-26-009161-index.htm",
+      "published_at": "2026-11-27T21:08:03Z",
+      "tickers": [],
+      "company": "AUDDIA INC.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "2cc30ed783a625c2",
+      "source": "prnewswire",
+      "title": "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND, INC. REPORTS SECOND QUARTER EARNINGS",
+      "summary": "NEW YORK, Nov. 27, 2026 /PRNewswire/ -- AllianceBernstein Global High Income Fund, Inc. (NYSE: AWF), a registered closed\u2011end investment company, today announced earnings for the second quarter ended September 30, 2026. Total net assets of the Fund on September 30, 2026 were $945,272,886...",
+      "url": "https://www.prnewswire.com/news-releases/alliancebernstein-global-high-income-fund-inc-reports-second-quarter-earnings-302951846.html",
+      "published_at": "2026-11-27T21:06:00Z",
+      "tickers": [
+        "AWF"
+      ],
+      "event_type": "earnings",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "55dbbfa159a0c56d",
+      "source": "prnewswire_financial",
+      "title": "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND, INC. REPORTS SECOND QUARTER EARNINGS",
+      "summary": "NEW YORK, Nov. 27, 2026 /PRNewswire/ -- AllianceBernstein Global High Income Fund, Inc. (NYSE: AWF), a registered closed\u2011end investment company, today announced earnings for the second quarter ended September 30, 2026. Total net assets of the Fund on September 30, 2026 were $945,272,886...",
+      "url": "https://www.prnewswire.com/news-releases/alliancebernstein-global-high-income-fund-inc-reports-second-quarter-earnings-302951846.html",
+      "published_at": "2026-11-27T21:06:00Z",
+      "tickers": [
+        "AWF"
+      ],
+      "event_type": "earnings",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:10Z"
+    },
+    {
+      "id": "95173eaef9e57c63",
+      "source": "edgar_8k",
+      "title": "8-K - SILVER BOW MINING CORP. (0002067674) (Filer)",
+      "summary": "Filed: 2026-11-27 AccNo: 0001539497-26-003114 Size: 203 KB Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/2067674/000153949726003114/0001539497-26-003114-index.htm",
+      "published_at": "2026-11-27T21:05:37Z",
+      "tickers": [],
+      "company": "SILVER BOW MINING CORP.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "5561b9a2fb17d674",
+      "source": "edgar_8k",
+      "title": "8-K - Cantor Equity Partners IV, Inc. (0002034267) (Filer)",
+      "summary": "Filed: 2026-11-27 AccNo: 0001213900-26-124563 Size: 190 KB Item 8.01: Other Events",
+      "url": "https://www.sec.gov/Archives/edgar/data/2034267/000121390026124563/0001213900-26-124563-index.htm",
+      "published_at": "2026-11-27T21:05:36Z",
+      "tickers": [],
+      "company": "Cantor Equity Partners IV, Inc.",
+      "event_type": "fraud_probe",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "0e0323e13757ea8c",
+      "source": "edgar_8k",
+      "title": "8-K - Cantor Equity Partners V, Inc. (0002034266) (Filer)",
+      "summary": "Filed: 2026-11-27 AccNo: 0001213900-26-124561 Size: 190 KB Item 8.01: Other Events",
+      "url": "https://www.sec.gov/Archives/edgar/data/2034266/000121390026124561/0001213900-26-124561-index.htm",
+      "published_at": "2026-11-27T21:05:36Z",
+      "tickers": [],
+      "company": "Cantor Equity Partners V, Inc.",
+      "event_type": "fraud_probe",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "702e61ea3cedb1fc",
+      "source": "edgar_8k",
+      "title": "8-K - Reliance Global Group, Inc. (0001812727) (Filer)",
+      "summary": "Filed: 2026-11-27 AccNo: 0001493152-26-054495 Size: 300 KB Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1812727/000149315226054495/0001493152-26-054495-index.htm",
+      "published_at": "2026-11-27T21:05:36Z",
+      "tickers": [],
+      "company": "Reliance Global Group, Inc.",
+      "event_type": "fraud_probe",
+      "direction": "bearish",
+      "news_side": "short",
+      "actionable": true,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "3d9c20747ed9bb76",
+      "source": "edgar_8k",
+      "title": "8-K - CITIGROUP INC (0000831001) (Filer)",
+      "summary": "Filed: 2026-11-27 AccNo: 0001193125-26-480258 Size: 233 KB Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/831001/000119312526480258/0001193125-26-480258-index.htm",
+      "published_at": "2026-11-27T21:05:36Z",
+      "tickers": [],
+      "company": "CITIGROUP INC",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "979e001e329157ef",
+      "source": "edgar_8k",
+      "title": "8-K - Lantern Pharma Inc. (0001763950) (Filer)",
+      "summary": "Filed: 2026-11-27 AccNo: 0001493152-26-054494 Size: 199 KB Item 1.01: Entry into a Material Definitive Agreement Item 2.03: Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant",
+      "url": "https://www.sec.gov/Archives/edgar/data/1763950/000149315226054494/0001493152-26-054494-index.htm",
+      "published_at": "2026-11-27T21:05:35Z",
+      "tickers": [],
+      "company": "Lantern Pharma Inc.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "257eef53a5f75c6f",
+      "source": "edgar_8k",
+      "title": "8-K - Rocky Mountain Chocolate Factory, Inc. (0001616262) (Filer)",
+      "summary": "Filed: 2026-11-27 AccNo: 0001213900-26-124560 Size: 248 KB Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1616262/000121390026124560/0001213900-26-124560-index.htm",
+      "published_at": "2026-11-27T21:05:35Z",
+      "tickers": [],
+      "company": "Rocky Mountain Chocolate Factory, Inc.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "435d609f6daea616",
+      "source": "edgar_8k",
+      "title": "8-K - Marpai, Inc. (0001844392) (Filer)",
+      "summary": "Filed: 2026-11-27 AccNo: 0001213900-26-124559 Size: 189 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
+      "url": "https://www.sec.gov/Archives/edgar/data/1844392/000121390026124559/0001213900-26-124559-index.htm",
+      "published_at": "2026-11-27T21:05:33Z",
+      "tickers": [],
+      "company": "Marpai, Inc.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "93f006037f430329",
+      "source": "edgar_8k",
+      "title": "8-K - PharmaCyte Biotech, Inc. (0001157075) (Filer)",
+      "summary": "Filed: 2026-11-27 AccNo: 0001683168-26-009159 Size: 316 KB Item 1.01: Entry into a Material Definitive Agreement Item 9.01: Financial Statements and Exhibits",
+      "url": "https://www.sec.gov/Archives/edgar/data/1157075/000168316826009159/0001683168-26-009159-index.htm",
+      "published_at": "2026-11-27T21:05:33Z",
+      "tickers": [],
+      "company": "PharmaCyte Biotech, Inc.",
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:09Z"
+    },
+    {
+      "id": "5c4dc798c5c05204",
+      "source": "prnewswire_financial",
+      "title": "Quantum Space to Hold Financial Update Call",
+      "summary": "Management to host investor webcast on November 30, 2026, at 8:30 a.m. ET ROCKVILLE, Md., Nov. 27, 2026 /PRNewswire/ -- Quantum Space, Inc. (NYSE: QSPC) (the \"Company\" or \"Quantum Space\"), a company developing the next generation of advanced maneuverable spacecraft for national security,...",
+      "url": "https://www.prnewswire.com/news-releases/quantum-space-to-hold-financial-update-call-302951919.html",
+      "published_at": "2026-11-27T20:59:00Z",
+      "tickers": [
+        "QSPC"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:10Z"
+    },
+    {
+      "id": "aaca0af0684b431a",
+      "source": "marketwatch",
+      "title": "Coming next year: Medicare Advantage plans without drug coverage for almost 640,000 people and fewer choices for the rest",
+      "summary": "Medicare Advantage is starting to lose its all-in-one benefit.",
+      "url": "https://www.marketwatch.com/story/coming-next-year-medicare-advantage-plans-without-drug-coverage-for-almost-640-000-people-and-fewer-choices-for-the-rest-25242d69?mod=mw_rss_topstories",
+      "published_at": "2026-11-27T19:55:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:12Z"
+    },
+    {
+      "id": "fc9189fdb3eba5e9",
+      "source": "marketwatch",
+      "title": "The warnings behind this week\u2019s stock-market rally",
+      "summary": "Also in Weekend Reads: Important tips for Medicare enrollment, how to spot online shopping scams and marital advice from The Moneyist.",
+      "url": "https://www.marketwatch.com/story/the-warnings-behind-this-weeks-stock-market-rally-86e5319c?mod=mw_rss_topstories",
+      "published_at": "2026-11-27T18:40:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:12Z"
+    },
     {
       "id": "73ba8de36aa6bbad",
       "source": "edgar_8k",
@@ -228,7 +1238,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T18:35:41Z"
+      "scanned_at": "2026-11-28T01:42:10Z"
     },
     {
       "id": "9ce0b5b86d37627c",
@@ -756,7 +1766,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T18:35:44Z"
+      "scanned_at": "2026-11-28T01:42:12Z"
     },
     {
       "id": "4a5c4f7f3d3cf609",
@@ -902,7 +1912,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T18:35:44Z"
+      "scanned_at": "2026-11-28T01:42:12Z"
     },
     {
       "id": "06a59aea3a2949c5",
@@ -950,7 +1960,7 @@
       "direction": "bearish",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T18:35:41Z"
+      "scanned_at": "2026-11-28T01:42:10Z"
     },
     {
       "id": "54263f57f9563797",
@@ -1181,7 +2191,23 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T18:35:44Z"
+      "scanned_at": "2026-11-28T01:42:12Z"
+    },
+    {
+      "id": "48339a9a954b25a1",
+      "source": "marketwatch",
+      "title": "I\u2019ve been married for 58 years. It\u2019s \u2018our\u2019 money, not \u2018his\u2019 and \u2018hers.\u2019 Why do so many couples keep their finances separate?",
+      "summary": "\u201cMy wife stopped working outside the home in 1970.\u201d",
+      "url": "https://www.marketwatch.com/story/ive-been-married-for-58-years-its-our-money-not-his-and-hers-why-dont-others-feel-the-same-c5745889?mod=mw_rss_topstories",
+      "published_at": "2026-11-27T15:45:00Z",
+      "tickers": [
+        "I"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:12Z"
     },
     {
       "id": "9a3857be51170fb1",
@@ -1391,7 +2417,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T18:35:41Z"
+      "scanned_at": "2026-11-28T01:42:10Z"
     },
     {
       "id": "24203faaece64ac4",
@@ -1407,7 +2433,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T18:35:41Z"
+      "scanned_at": "2026-11-28T01:42:10Z"
     },
     {
       "id": "d508aaee876843c9",
@@ -1455,7 +2481,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T18:35:41Z"
+      "scanned_at": "2026-11-28T01:42:10Z"
     },
     {
       "id": "2e91b25cae75da4c",
@@ -1484,7 +2510,21 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T18:35:41Z"
+      "scanned_at": "2026-11-28T01:42:10Z"
+    },
+    {
+      "id": "6a5e1d25a35c498b",
+      "source": "cnbc_finance",
+      "title": "Liesman: Nvidia whiplash tests Kevin Warsh\u2019s push to read market signals",
+      "summary": "The extreme market gyrations and the drama surrounding Nvidia this past week have highlighted the dilemma facing Federal Reserve Chairman Kevin Warsh.",
+      "url": "https://www.cnbc.com/2026/11/25/nvidia-kevin-warsh-fed-market-signals.html",
+      "published_at": "2026-11-27T13:29:43Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:11Z"
     },
     {
       "id": "eabbe44f8b4f674b",
@@ -1498,7 +2538,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T18:35:43Z"
+      "scanned_at": "2026-11-28T01:42:11Z"
     },
     {
       "id": "6be58b998dc75a5c",
@@ -1512,7 +2552,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T18:35:41Z"
+      "scanned_at": "2026-11-28T01:42:10Z"
     },
     {
       "id": "9ff6061367efe777",
@@ -1556,7 +2596,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T18:35:41Z"
+      "scanned_at": "2026-11-28T01:42:10Z"
     },
     {
       "id": "8b7887792873ebfb",
@@ -1585,7 +2625,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T18:35:41Z"
+      "scanned_at": "2026-11-28T01:42:10Z"
     },
     {
       "id": "dbde53c17d41e45d",
@@ -1599,7 +2639,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T18:35:41Z"
+      "scanned_at": "2026-11-28T01:42:10Z"
     },
     {
       "id": "aa18c34c99e703e1",
@@ -1632,7 +2672,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T18:35:41Z"
+      "scanned_at": "2026-11-28T01:42:10Z"
     },
     {
       "id": "7863c4e0fbd361e7",
@@ -1646,7 +2686,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T18:35:41Z"
+      "scanned_at": "2026-11-28T01:42:10Z"
     },
     {
       "id": "46a222a732a717d5",
@@ -1675,7 +2715,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T18:35:41Z"
+      "scanned_at": "2026-11-28T01:42:10Z"
     },
     {
       "id": "95161ea19d77c7d4",
@@ -1689,7 +2729,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T18:35:42Z"
+      "scanned_at": "2026-11-28T01:42:10Z"
     },
     {
       "id": "6075d7308f937c0f",
@@ -1705,7 +2745,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T18:35:41Z"
+      "scanned_at": "2026-11-28T01:42:10Z"
     },
     {
       "id": "294455c8f7bf80dd",
@@ -1722,7 +2762,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T18:35:41Z"
+      "scanned_at": "2026-11-28T01:42:10Z"
     },
     {
       "id": "6482fea7aa09b9a0",
@@ -2367,7 +3407,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T08:49:21Z"
+      "scanned_at": "2026-11-28T01:42:12Z"
     },
     {
       "id": "bb43f8e9e965f41f",
@@ -2681,7 +3721,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T18:35:44Z"
+      "scanned_at": "2026-11-28T01:42:12Z"
     },
     {
       "id": "2e3e2c482da707ae",
@@ -3521,7 +4561,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T18:35:43Z"
+      "scanned_at": "2026-11-28T01:42:11Z"
     },
     {
       "id": "b3e23ed255cd0c4c",
@@ -3607,7 +4647,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T18:35:44Z"
+      "scanned_at": "2026-11-28T01:42:12Z"
     },
     {
       "id": "f60876ecbdd6cff5",
@@ -4338,7 +5378,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T18:35:43Z"
+      "scanned_at": "2026-11-28T01:42:11Z"
     },
     {
       "id": "d410e0a49ac676f4",
@@ -4438,7 +5478,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T18:35:42Z"
+      "scanned_at": "2026-11-28T01:42:10Z"
     },
     {
       "id": "035e76bfb22c2c3e",
@@ -4604,7 +5644,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T18:35:43Z"
+      "scanned_at": "2026-11-28T01:42:11Z"
     },
     {
       "id": "c3cdfd82ac69cc16",
@@ -4666,7 +5706,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T18:35:43Z"
+      "scanned_at": "2026-11-28T01:42:11Z"
     },
     {
       "id": "7754abc552afc61d",
@@ -4874,6 +5914,62 @@
       "news_side": null,
       "actionable": false,
       "scanned_at": "2026-11-26T05:32:00Z"
+    },
+    {
+      "id": "b9b004231cefcf08",
+      "source": "cnbc_business",
+      "title": "Macy's postpones Thanksgiving Day Parade due to severe weather",
+      "summary": "Macy's announced Wednesday that its annual Thanksgiving Day Parade is being postponed to Saturday due to severe weather.",
+      "url": "https://www.cnbc.com/2026/11/25/macys-thanksgiving-day-parade-postponed.html",
+      "published_at": "2026-11-25T22:26:56Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:10Z"
+    },
+    {
+      "id": "413c1a981d29b916",
+      "source": "cnbc_finance",
+      "title": "Prediction markets push OpenAI IPO expectations later into 2027",
+      "summary": "Kalshi traders have cut the odds of OpenAI confirming an IPO before June 2027, as AI stocks and related markets have weakened.",
+      "url": "https://www.cnbc.com/2026/11/25/openai-ipo-odds-2027-prediction-markets.html",
+      "published_at": "2026-11-25T17:08:03Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:11Z"
+    },
+    {
+      "id": "f38488e06a062d4a",
+      "source": "cnbc_finance",
+      "title": "Jensen Huang's Nvidia return shows the U.S.-China AI race is about more than chips",
+      "summary": "Jensen Huang's return as Nvidia CEO demonstrates that the U.S.-China artificial intelligence race is not just about semiconductors, but tech talent too.",
+      "url": "https://www.cnbc.com/2026/11/25/jensen-huang-nvidia-ai-talent-race.html",
+      "published_at": "2026-11-25T14:29:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:11Z"
+    },
+    {
+      "id": "caf3391392a3532b",
+      "source": "cnbc_business",
+      "title": "Secondhand shopping is going mainstream this holiday season as consumers seek value",
+      "summary": "More consumers are shopping secondhand this holiday season as they emphasize value and uniqueness in their purchases.",
+      "url": "https://www.cnbc.com/2026/11/25/secondhand-holiday-shopping-grows-as-shoppers-seek-value.html",
+      "published_at": "2026-11-25T14:17:01Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T01:42:10Z"
     }
   ]
 }
