@@ -47,7 +47,7 @@
       ],
       "decision_id": "bigmove_unified_v1-HSBC-2026-11-21T03:55:51Z-95302b",
       "book_id": "bigmove_unified_v1",
-      "mark_usd": 83.37000274658203,
+      "mark_usd": 83.37,
       "mark_eur": 76.4253,
       "unrealized_pnl_pct": -0.072
     },
@@ -123,7 +123,7 @@
       ],
       "decision_id": "bigmove_unified_v1-SHOE-2026-11-26T02:09:26Z-42bffd",
       "book_id": "bigmove_unified_v1",
-      "mark_usd": 11.34000015258789,
+      "mark_usd": 11.34,
       "mark_eur": 10.3319,
       "unrealized_pnl_pct": -2.7444
     },
@@ -161,7 +161,7 @@
       ],
       "decision_id": "bigmove_unified_v1-AMBA-2026-11-26T02:09:26Z-6d4f49",
       "book_id": "bigmove_unified_v1",
-      "mark_usd": 35.2400016784668,
+      "mark_usd": 35.24,
       "mark_eur": 32.1072,
       "unrealized_pnl_pct": 4.694
     },
@@ -199,7 +199,7 @@
       ],
       "decision_id": "bigmove_unified_v1-DY-2026-11-26T02:09:26Z-23524f",
       "book_id": "bigmove_unified_v1",
-      "mark_usd": 180.4199981689453,
+      "mark_usd": 180.42,
       "mark_eur": 164.3807,
       "unrealized_pnl_pct": 4.6641
     }
@@ -409,7 +409,7 @@
     {
       "day": "2026-11-27",
       "equity_eur": 992.03,
-      "spy_eur": 996.73,
+      "spy_eur": 978.39,
       "cash_eur": 839.67,
       "n_open": 5
     }
@@ -486,12 +486,6 @@
       "spy_eur": 978.39,
       "spy_usd": 716.7,
       "eur_usd": 1.09623
-    },
-    {
-      "day": "2026-11-27",
-      "spy_eur": 996.73,
-      "spy_usd": 728.32,
-      "eur_usd": 1.09349
     }
   ],
   "cost_pct": 0.005,
@@ -502,8 +496,8 @@
   "stop_loss": null,
   "prefer_open": false,
   "max_open": 20,
-  "last_run": "2026-11-27T21:52:38Z",
-  "last_reason": "engine[bigmove_unified_v1]: auto=0 ingested=0 fills=0 closed=0 open=5 session=after",
+  "last_run": "2026-11-28T01:39:08Z",
+  "last_reason": "engine[bigmove_unified_v1]: auto=0 ingested=0 fills=0 closed=0 open=5 session=closed",
   "extended_hours_extra_slippage_pct": 0.005,
   "allow_extended_hours": true,
   "max_per_ticker": 1,
@@ -513,5 +507,5 @@
   "sizing": "fixed",
   "score_ref": 10.0,
   "strategy_config_path": "config/strategies/bigmove_unified_v1.yaml",
-  "eur_usd": 1.0934937000274658
+  "eur_usd": 1.0972130298614502
 }
