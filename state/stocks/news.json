@@ -1,11 +1,11 @@
 {
   "mode": "paper",
-  "as_of": "2026-11-28T09:29:59Z",
-  "as_of_et": "2026-11-28 04:29 ET",
+  "as_of": "2026-11-28T17:47:45Z",
+  "as_of_et": "2026-11-28 12:47 ET",
   "rolling_hours": 72,
-  "n_items": 318,
+  "n_items": 339,
   "n_actionable": 20,
-  "n_with_ticker": 118,
+  "n_with_ticker": 122,
   "sources": [
     "prnewswire",
     "prnewswire_financial",
@@ -19,6 +19,350 @@
   "note": "Paper news feed. Keyword tagging is heuristic. Shorts have no borrow model. RSS/EDGAR can lag minutes\u2013hours.",
   "items": [
     {
+      "id": "f503eb5a4877e060",
+      "source": "prnewswire",
+      "title": "Gildan Activewear Inc. (GIL) Class Action Lawsuit: Investors Face December 14 2026, Deadline - Kessler Topaz Meltzer & Check, LLP",
+      "summary": "Did you buy GIL securities between February 19, 2025 and June 15, 2026? Affected GIL Investor Summary Who: Gildan Activewear Inc. (NYSE: GIL) What: Securities fraud class action lawsuit filed Class Period: February 19, 2025 through June 15, 2026 Deadline to Seek Lead Plaintiff Status:...",
+      "url": "https://www.prnewswire.com/news-releases/gildan-activewear-inc-gil-class-action-lawsuit-investors-face-december-14-2026-deadline---kessler-topaz-meltzer--check-llp-302950579.html",
+      "published_at": "2026-11-28T17:45:00Z",
+      "tickers": [
+        "GIL"
+      ],
+      "event_type": "shareholder_alert",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T17:47:42Z"
+    },
+    {
+      "id": "4b173518299277d0",
+      "source": "prnewswire",
+      "title": "SDLG Group celebra en Shangh\u00e1i el lanzamiento de nuevos equipos para miner\u00eda",
+      "summary": "Siete nuevas m\u00e1quinas ampl\u00edan la cartera de soluciones integrales para miner\u00eda del grupo SHANGHAI, 28 de noviembre de 2026 /PRNewswire/ -- El 24 de noviembre de 2026, SDLG Group present\u00f3 siete nuevas m\u00e1quinas, entre ellas tres cargadoras de ruedas, un bulldozer hidrost\u00e1tico para miner\u00eda,...",
+      "url": "https://www.prnewswire.com/news-releases/sdlg-group-celebra-en-shanghai-el-lanzamiento-de-nuevos-equipos-para-mineria-302952046.html",
+      "published_at": "2026-11-28T17:22:00Z",
+      "tickers": [
+        "SDLG"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T17:47:42Z"
+    },
+    {
+      "id": "d1bacc2a8acf5e61",
+      "source": "prnewswire",
+      "title": "Le groupe SDLG Group organise un lancement de nouveaux \u00e9quipements miniers \u00e0 Shanghai.",
+      "summary": "Sept nouvelles machines viennent enrichir le portefeuille de solutions mini\u00e8res int\u00e9gr\u00e9es du groupe. SHANGHAI, 28 novembre 2026 /PRNewswire/ -- Le 24 novembre 2026, SDLG Group a d\u00e9voil\u00e9 sept nouvelles machines, dont trois chargeuses sur roues, un bulldozer hydrostatique minier, une...",
+      "url": "https://www.prnewswire.com/news-releases/le-groupe-sdlg-group-organise-un-lancement-de-nouveaux-equipements-miniers-a-shanghai-302952045.html",
+      "published_at": "2026-11-28T17:17:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T17:47:42Z"
+    },
+    {
+      "id": "29ae1a928ed7eb31",
+      "source": "prnewswire",
+      "title": "SDLG Group veranstaltet Produktvorstellung f\u00fcr Bergbauausr\u00fcstung in Shanghai",
+      "summary": "Sieben neue Maschinen erweitern das Portfolio der integrierten Bergbaul\u00f6sungen des Konzerns. SHANGHAI, 28. November 2026 /PRNewswire/ -- Am 24. November 2026 pr\u00e4sentierte die SDLG Group sieben neue Maschinen, darunter drei Radlader, einen hydrostatischen Planierraupen f\u00fcr den Bergbau,...",
+      "url": "https://www.prnewswire.com/news-releases/sdlg-group-veranstaltet-produktvorstellung-fur-bergbauausrustung-in-shanghai-302952042.html",
+      "published_at": "2026-11-28T17:04:00Z",
+      "tickers": [
+        "SDLG"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T17:47:42Z"
+    },
+    {
+      "id": "cfae56b6e5c12b4c",
+      "source": "prnewswire",
+      "title": "coprod l\u00e8ve 6 millions de dollars pour rendre le mat\u00e9riel robotique aussi facile \u00e0 construire que le logiciel",
+      "summary": "LAUSANNE, Suisse , 28 novembre 2026 /PRNewswire/ -- La startup suisse de robotique coprod Inc. a annonc\u00e9 aujourd'hui une lev\u00e9e de fonds de pr\u00e9-amor\u00e7age de 6 millions de dollars pour r\u00e9duire le temps et le co\u00fbt de construction des nouvelles plateformes robotiques. Ces fonds permettront de...",
+      "url": "https://www.prnewswire.com/news-releases/coprod-leve-6-millions-de-dollars-pour-rendre-le-materiel-robotique-aussi-facile-a-construire-que-le-logiciel-302952041.html",
+      "published_at": "2026-11-28T16:56:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T17:47:42Z"
+    },
+    {
+      "id": "4976d94146e3890f",
+      "source": "prnewswire",
+      "title": "Binance Pay, DK Bank and Tether Sign MOU to Expand Stablecoin Payments to Merchants Across Bhutan, Starting with USD\u20ae",
+      "summary": "Signed at Binance Blockchain Week 2026, the initiative builds on Bhutan's national crypto payment network and plans incentives to help merchants adopt stablecoin payments BANGKOK, Nov. 28, 2026 /PRNewswire/ -- Binance Pay, DK Bank, Gelephu Mindfulness City's official bank, and Tether...",
+      "url": "https://www.prnewswire.com/news-releases/binance-pay-dk-bank-and-tether-sign-mou-to-expand-stablecoin-payments-to-merchants-across-bhutan-starting-with-usd-302952039.html",
+      "published_at": "2026-11-28T16:35:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T17:47:42Z"
+    },
+    {
+      "id": "ca9586bcd96424b0",
+      "source": "prnewswire_financial",
+      "title": "Binance Pay, DK Bank and Tether Sign MOU to Expand Stablecoin Payments to Merchants Across Bhutan, Starting with USD\u20ae",
+      "summary": "Signed at Binance Blockchain Week 2026, the initiative builds on Bhutan's national crypto payment network and plans incentives to help merchants adopt stablecoin payments BANGKOK, Nov. 28, 2026 /PRNewswire/ -- Binance Pay, DK Bank, Gelephu Mindfulness City's official bank, and Tether...",
+      "url": "https://www.prnewswire.com/news-releases/binance-pay-dk-bank-and-tether-sign-mou-to-expand-stablecoin-payments-to-merchants-across-bhutan-starting-with-usd-302952039.html",
+      "published_at": "2026-11-28T16:35:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T17:47:42Z"
+    },
+    {
+      "id": "a21eabf2b040f027",
+      "source": "prnewswire",
+      "title": "\"Danqing Glows in Unison\" -- \"A Comprehensive Collection of Ancient Chinese Paintings\" Exchange and Promotion Event Held in Morocco",
+      "summary": "CASABLANCA, Morocco, Nov. 28, 2026 /PRNewswire/ -- The \"Danqing Glows in Unison\" exchange and promotion event for \"A Comprehensive Collection of Ancient Chinese Paintings\" was held on the morning of November 25, 2026 local time at Hassan II University of Casablanca, Morocco. The event was...",
+      "url": "https://www.prnewswire.com/news-releases/danqing-glows-in-unison--a-comprehensive-collection-of-ancient-chinese-paintings-exchange-and-promotion-event-held-in-morocco-302952038.html",
+      "published_at": "2026-11-28T16:24:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T17:47:42Z"
+    },
+    {
+      "id": "b3e6f6acd34e7eed",
+      "source": "prnewswire",
+      "title": "Binance Secures In-Principle Approval in Gelephu Mindfulness City, Plans Asia Hub in Bhutan",
+      "summary": "The regulatory milestone marks a major step toward Binance establishing an Asia hub in Gelephu Mindfulness City, alongside commitments to create jobs and strengthen Bhutan's digital-asset capabilities BANGKOK, Nov. 28, 2026 /PRNewswire/ -- Binance, the leading global financial platform...",
+      "url": "https://www.prnewswire.com/news-releases/binance-secures-in-principle-approval-in-gelephu-mindfulness-city-plans-asia-hub-in-bhutan-302952037.html",
+      "published_at": "2026-11-28T16:07:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T17:47:42Z"
+    },
+    {
+      "id": "72b3b8a4ac7626bc",
+      "source": "prnewswire_financial",
+      "title": "Binance Secures In-Principle Approval in Gelephu Mindfulness City, Plans Asia Hub in Bhutan",
+      "summary": "The regulatory milestone marks a major step toward Binance establishing an Asia hub in Gelephu Mindfulness City, alongside commitments to create jobs and strengthen Bhutan's digital-asset capabilities BANGKOK, Nov. 28, 2026 /PRNewswire/ -- Binance, the leading global financial platform...",
+      "url": "https://www.prnewswire.com/news-releases/binance-secures-in-principle-approval-in-gelephu-mindfulness-city-plans-asia-hub-in-bhutan-302952037.html",
+      "published_at": "2026-11-28T16:07:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T17:47:42Z"
+    },
+    {
+      "id": "a3cebc864502e102",
+      "source": "prnewswire",
+      "title": "Refocusing a Community Moving Toward Reproducible Research",
+      "summary": "Follow #MRITogether's Hackathon November 30th to December 4th 2026 BOULDER, Colo., Nov. 28, 2026 /PRNewswire/ -- MRI Together, a global community advancing open-source solutions to MRI, announces a new hackathon format for 2026 - from November 30th to December 4th, 2026. This year, the...",
+      "url": "https://www.prnewswire.com/news-releases/refocusing-a-community-moving-toward-reproducible-research-302952036.html",
+      "published_at": "2026-11-28T15:13:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T17:47:42Z"
+    },
+    {
+      "id": "eabc28933767a917",
+      "source": "prnewswire",
+      "title": "Towards a Child Marriage Free World by 2030: The World Unites to Mark the First International Day for the Elimination of Child, Early and Forced Marriage",
+      "summary": "WASHINGTON, Nov. 28, 2026 /PRNewswire/ -- To mark the inaugural International Day for the Elimination of Child, Early and Forced Marriage, the Child Marriage Free World campaign, an initiative of Just Rights for Children (JRC), brought together survivors, students, political leaders and...",
+      "url": "https://www.prnewswire.com/news-releases/towards-a-child-marriage-free-world-by-2030-the-world-unites-to-mark-the-first-international-day-for-the-elimination-of-child-early-and-forced-marriage-302952034.html",
+      "published_at": "2026-11-28T14:43:00Z",
+      "tickers": [
+        "JRC"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T17:47:42Z"
+    },
+    {
+      "id": "4cd0881fc3d4bbd5",
+      "source": "marketwatch",
+      "title": "What\u2019s the most tax-efficient way to donate to charity?",
+      "summary": "How to make your donations beneficial for both you and the recipient",
+      "url": "https://www.marketwatch.com/story/whats-the-most-tax-efficient-way-to-donate-to-charity-3f5864bb?mod=mw_rss_topstories",
+      "published_at": "2026-11-28T14:27:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T17:47:44Z"
+    },
+    {
+      "id": "2459402f06d28efd",
+      "source": "prnewswire",
+      "title": "94% of Men Feel Pressure to Financially Support Themselves and Their Dependents",
+      "summary": "New LiveCareer research finds 54% of men have sacrificed sleep and 38% have sacrificed physical health because of pressure to earn more. GUAYNABO, Puerto Rico, Nov. 28, 2026 /PRNewswire/ -- Nearly all men surveyed (94%) feel pressure to earn enough money to support themselves and those...",
+      "url": "https://www.prnewswire.com/news-releases/94-of-men-feel-pressure-to-financially-support-themselves-and-their-dependents-302951855.html",
+      "published_at": "2026-11-28T13:15:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T17:47:42Z"
+    },
+    {
+      "id": "87d4e24899b07f2a",
+      "source": "prnewswire_financial",
+      "title": "94% of Men Feel Pressure to Financially Support Themselves and Their Dependents",
+      "summary": "New LiveCareer research finds 54% of men have sacrificed sleep and 38% have sacrificed physical health because of pressure to earn more. GUAYNABO, Puerto Rico, Nov. 28, 2026 /PRNewswire/ -- Nearly all men surveyed (94%) feel pressure to earn enough money to support themselves and those...",
+      "url": "https://www.prnewswire.com/news-releases/94-of-men-feel-pressure-to-financially-support-themselves-and-their-dependents-302951855.html",
+      "published_at": "2026-11-28T13:15:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T17:47:42Z"
+    },
+    {
+      "id": "751af9122b0faa69",
+      "source": "marketwatch",
+      "title": "These tech stocks may let you play defense without giving up on AI",
+      "summary": "Amphenol, CDW, Sensata Technologies and TE Connectivity stood out when an Evercore analyst did a stress test of the hardware-related stocks he covers.",
+      "url": "https://www.marketwatch.com/story/these-tech-stocks-may-let-you-play-defense-without-giving-up-on-ai-523ce26d?mod=mw_rss_topstories",
+      "published_at": "2026-11-28T12:30:00Z",
+      "tickers": [],
+      "event_type": "analyst",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T17:47:44Z"
+    },
+    {
+      "id": "4e48e68b89780668",
+      "source": "prnewswire",
+      "title": "94% of Men Feel Pressure to Financially Support Themselves and Their Dependents",
+      "summary": "New LiveCareer research finds 54% of men have sacrificed sleep and 38% have sacrificed physical health because of pressure to earn more. GUAYNABO, Puerto Rico, Nov. 28, 2026 /PRNewswire/ -- Nearly all men surveyed (94%) feel pressure to earn enough money to support themselves and those...",
+      "url": "https://www.prnewswire.com/news-releases/94-of-men-feel-pressure-to-financially-support-themselves-and-their-dependents-302949089.html",
+      "published_at": "2026-11-28T12:15:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T17:47:42Z"
+    },
+    {
+      "id": "32d96045789c01aa",
+      "source": "prnewswire_financial",
+      "title": "94% of Men Feel Pressure to Financially Support Themselves and Their Dependents",
+      "summary": "New LiveCareer research finds 54% of men have sacrificed sleep and 38% have sacrificed physical health because of pressure to earn more. GUAYNABO, Puerto Rico, Nov. 28, 2026 /PRNewswire/ -- Nearly all men surveyed (94%) feel pressure to earn enough money to support themselves and those...",
+      "url": "https://www.prnewswire.com/news-releases/94-of-men-feel-pressure-to-financially-support-themselves-and-their-dependents-302949089.html",
+      "published_at": "2026-11-28T12:15:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T17:47:42Z"
+    },
+    {
+      "id": "ad93a2bf7c1e000b",
+      "source": "prnewswire",
+      "title": "Professional Badminton Player Ishika Jaiswal Inspires Athletes at GOTRAX x Velocity Badminton Thanksgiving Celebration",
+      "summary": "World No. 53 congratulates players at her McKinney home club as GOTRAX rewards tournament winners with eBikes and eScooters. MCKINNEY, Texas, Nov. 28, 2026 /PRNewswire/ -- Ishika Jaiswal, a professional American badminton player ranked No. 53 in the BWF World Rankings for women's singles,...",
+      "url": "https://www.prnewswire.com/news-releases/professional-badminton-player-ishika-jaiswal-inspires-athletes-at-gotrax-x-velocity-badminton-thanksgiving-celebration-302952005.html",
+      "published_at": "2026-11-28T12:00:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T17:47:42Z"
+    },
+    {
+      "id": "d38a9771933b72ee",
+      "source": "prnewswire",
+      "title": "Which Grocery Stores Deliver with DoorDash? (2026): National and Regional Grocery Options Explored by Expert Consumers",
+      "summary": "NEW YORK, Nov. 28, 2026 /PRNewswire/ -- Expert Consumers explored DoorDash in a new feature examining national and regional grocery delivery options available through the platform. The article explores how consumers can find participating grocery stores, shop for household essentials, and...",
+      "url": "https://www.prnewswire.com/news-releases/which-grocery-stores-deliver-with-doordash-2026-national-and-regional-grocery-options-explored-by-expert-consumers-302951990.html",
+      "published_at": "2026-11-28T11:30:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T17:47:42Z"
+    },
+    {
+      "id": "3d9203c93ba6e1c9",
+      "source": "prnewswire",
+      "title": "Best IT Certification Courses (2026): Udemy AWS, CompTIA and Cisco Exam Prep Reviewed by Expert Consumers",
+      "summary": "NEW YORK, Nov. 28, 2026 /PRNewswire/ -- Expert Consumers has recognized Udemy's IT certification courses for 2026, highlighting online learning options for professionals pursuing credentials in cloud computing, cybersecurity, networking, and technical support. Best IT Certification...",
+      "url": "https://www.prnewswire.com/news-releases/best-it-certification-courses-2026-udemy-aws-comptia-and-cisco-exam-prep-reviewed-by-expert-consumers-302951991.html",
+      "published_at": "2026-11-28T11:20:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T17:47:42Z"
+    },
+    {
+      "id": "24e30cd30d941f9c",
+      "source": "prnewswire",
+      "title": "Best Illustrator Alternative for Print Shops and Sign Makers (2026): CorelDRAW Cited for Cut-Ready Vector and Large-Format Workflows by Better Business Advice",
+      "summary": "NEW YORK, Nov. 28, 2026 /PRNewswire/ -- Better Business Advice has published a review examining CorelDRAW Graphics Suite as a best illustrator alternative for print shops and sign makers, highlighting its vector editing, large-format design, and file preparation features for commercial...",
+      "url": "https://www.prnewswire.com/news-releases/best-illustrator-alternative-for-print-shops-and-sign-makers-2026-coreldraw-cited-for-cut-ready-vector-and-large-format-workflows-by-better-business-advice-302951986.html",
+      "published_at": "2026-11-28T11:00:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T17:47:42Z"
+    },
+    {
+      "id": "ab7ca26dd9fe8fe0",
+      "source": "prnewswire",
+      "title": "Standalone Vision Coverage for Glasses Alongside Medicare (2026): Exploring VSP's Eyewear Benefits by Consumer365",
+      "summary": "NEW YORK, Nov. 28, 2026 /PRNewswire/ -- Original Medicare covers medically necessary eye care, but it generally does not cover routine eye exams to update a glasses prescription or for standard glasses. As a result, beneficiaries may face out-of-pocket costs when they need new...",
+      "url": "https://www.prnewswire.com/news-releases/standalone-vision-coverage-for-glasses-alongside-medicare-2026-exploring-vsps-eyewear-benefits-by-consumer365-302951985.html",
+      "published_at": "2026-11-28T10:45:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T17:47:42Z"
+    },
+    {
+      "id": "80ef5596070ed5ce",
+      "source": "prnewswire",
+      "title": "Entrepreneurship Trends (2026): Registered Agents Inc Examines What New Business Formation Data Reveals by Consumer365",
+      "summary": "NEW YORK, Nov. 28, 2026 /PRNewswire/ -- Consumer365 has recognized Registered Agents Inc for its Business Formation Report, a monthly resource providing insight into U.S. entrepreneurship trends through state-level business registration data and analysis of changing formation activity....",
+      "url": "https://www.prnewswire.com/news-releases/entrepreneurship-trends-2026-registered-agents-inc-examines-what-new-business-formation-data-reveals-by-consumer365-302951984.html",
+      "published_at": "2026-11-28T10:30:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T17:47:42Z"
+    },
+    {
       "id": "6ff233fc312bca27",
       "source": "prnewswire",
       "title": "KuCoin Advances Australian Engagement at CryptoCon Sydney, Spotlighting Global Infrastructure and Local Accountability",
@@ -30,7 +374,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:56Z"
+      "scanned_at": "2026-11-28T17:47:42Z"
     },
     {
       "id": "b38e90c097e7e192",
@@ -44,7 +388,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:57Z"
+      "scanned_at": "2026-11-28T17:47:42Z"
     },
     {
       "id": "8bbc976953d13012",
@@ -58,7 +402,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:56Z"
+      "scanned_at": "2026-11-28T17:47:42Z"
     },
     {
       "id": "533c8a7c73d434a9",
@@ -72,7 +416,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:57Z"
+      "scanned_at": "2026-11-28T17:47:42Z"
     },
     {
       "id": "7fe1be8ee918a39d",
@@ -100,7 +444,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:57Z"
+      "scanned_at": "2026-11-28T17:47:42Z"
     },
     {
       "id": "7319271fde7c5098",
@@ -292,7 +636,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:57Z"
+      "scanned_at": "2026-11-28T17:47:42Z"
     },
     {
       "id": "e4cba312b8a26b3a",
@@ -308,7 +652,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:58Z"
+      "scanned_at": "2026-11-28T17:47:44Z"
     },
     {
       "id": "c057861897ccb68d",
@@ -364,7 +708,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:57Z"
+      "scanned_at": "2026-11-28T17:47:42Z"
     },
     {
       "id": "3cbe200ec8883f4a",
@@ -424,7 +768,7 @@
       "direction": "bullish",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:57Z"
+      "scanned_at": "2026-11-28T17:47:42Z"
     },
     {
       "id": "9482b7750fa3d2b2",
@@ -439,7 +783,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-28T09:29:56Z"
+      "scanned_at": "2026-11-28T17:47:41Z"
     },
     {
       "id": "299689776626e6d3",
@@ -454,7 +798,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:56Z"
+      "scanned_at": "2026-11-28T17:47:41Z"
     },
     {
       "id": "382d13cb421d6917",
@@ -483,7 +827,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:56Z"
+      "scanned_at": "2026-11-28T17:47:41Z"
     },
     {
       "id": "a968c596d7ed39be",
@@ -498,7 +842,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:56Z"
+      "scanned_at": "2026-11-28T17:47:41Z"
     },
     {
       "id": "1dc954dc81efe955",
@@ -527,7 +871,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:56Z"
+      "scanned_at": "2026-11-28T17:47:41Z"
     },
     {
       "id": "fa10006f406ccf38",
@@ -542,7 +886,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:56Z"
+      "scanned_at": "2026-11-28T17:47:41Z"
     },
     {
       "id": "93a98276bb4b1ace",
@@ -557,7 +901,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-28T09:29:56Z"
+      "scanned_at": "2026-11-28T17:47:41Z"
     },
     {
       "id": "6d11d52d612773c0",
@@ -572,7 +916,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-28T09:29:56Z"
+      "scanned_at": "2026-11-28T17:47:41Z"
     },
     {
       "id": "ec41599a38a2aa63",
@@ -587,7 +931,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-28T09:29:56Z"
+      "scanned_at": "2026-11-28T17:47:41Z"
     },
     {
       "id": "151a666fc9ad84b4",
@@ -602,7 +946,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:56Z"
+      "scanned_at": "2026-11-28T17:47:41Z"
     },
     {
       "id": "8b2ea6bcb163811f",
@@ -617,7 +961,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-28T09:29:56Z"
+      "scanned_at": "2026-11-28T17:47:41Z"
     },
     {
       "id": "6f59d1d06bbe186f",
@@ -632,7 +976,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:56Z"
+      "scanned_at": "2026-11-28T17:47:41Z"
     },
     {
       "id": "c9e8bb987889f218",
@@ -647,7 +991,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:56Z"
+      "scanned_at": "2026-11-28T17:47:41Z"
     },
     {
       "id": "01a46f7902f9f01f",
@@ -662,7 +1006,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:56Z"
+      "scanned_at": "2026-11-28T17:47:41Z"
     },
     {
       "id": "f2f4f2a42fa3a2b4",
@@ -709,7 +1053,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:56Z"
+      "scanned_at": "2026-11-28T17:47:41Z"
     },
     {
       "id": "a43fb35c31710ff3",
@@ -724,7 +1068,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:56Z"
+      "scanned_at": "2026-11-28T17:47:41Z"
     },
     {
       "id": "4c9450445b69dbe2",
@@ -739,7 +1083,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:56Z"
+      "scanned_at": "2026-11-28T17:47:41Z"
     },
     {
       "id": "cb7fd17ac9e649a4",
@@ -754,7 +1098,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:56Z"
+      "scanned_at": "2026-11-28T17:47:41Z"
     },
     {
       "id": "b3a2c3847c13783c",
@@ -783,7 +1127,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:56Z"
+      "scanned_at": "2026-11-28T17:47:41Z"
     },
     {
       "id": "d587c36637b21f34",
@@ -798,7 +1142,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:56Z"
+      "scanned_at": "2026-11-28T17:47:41Z"
     },
     {
       "id": "c04eb7444edec9e6",
@@ -813,7 +1157,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:56Z"
+      "scanned_at": "2026-11-28T17:47:41Z"
     },
     {
       "id": "29df51362b63576f",
@@ -828,7 +1172,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:56Z"
+      "scanned_at": "2026-11-28T17:47:41Z"
     },
     {
       "id": "4d1b26f76a600552",
@@ -843,7 +1187,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-28T09:29:56Z"
+      "scanned_at": "2026-11-28T17:47:41Z"
     },
     {
       "id": "15d5850892933c51",
@@ -858,7 +1202,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:56Z"
+      "scanned_at": "2026-11-28T17:47:41Z"
     },
     {
       "id": "c27ef2d4fc30f91a",
@@ -873,7 +1217,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:56Z"
+      "scanned_at": "2026-11-28T17:47:41Z"
     },
     {
       "id": "dcf58e46f5046442",
@@ -888,7 +1232,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:56Z"
+      "scanned_at": "2026-11-28T17:47:41Z"
     },
     {
       "id": "2a21c703519db33b",
@@ -903,7 +1247,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:56Z"
+      "scanned_at": "2026-11-28T17:47:41Z"
     },
     {
       "id": "b3fe0faf91b39fd2",
@@ -918,7 +1262,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-28T09:29:56Z"
+      "scanned_at": "2026-11-28T17:47:41Z"
     },
     {
       "id": "f5e429f6fa82b9cb",
@@ -933,7 +1277,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:56Z"
+      "scanned_at": "2026-11-28T17:47:41Z"
     },
     {
       "id": "b940da5a3bd66c04",
@@ -948,7 +1292,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-28T09:29:56Z"
+      "scanned_at": "2026-11-28T17:47:41Z"
     },
     {
       "id": "703cb4cd66ca11b4",
@@ -963,7 +1307,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:56Z"
+      "scanned_at": "2026-11-28T17:47:41Z"
     },
     {
       "id": "2cc30ed783a625c2",
@@ -995,7 +1339,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:57Z"
+      "scanned_at": "2026-11-28T17:47:42Z"
     },
     {
       "id": "95173eaef9e57c63",
@@ -1010,7 +1354,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:56Z"
+      "scanned_at": "2026-11-28T17:47:41Z"
     },
     {
       "id": "5561b9a2fb17d674",
@@ -1025,7 +1369,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-28T09:29:56Z"
+      "scanned_at": "2026-11-28T17:47:41Z"
     },
     {
       "id": "0e0323e13757ea8c",
@@ -1040,7 +1384,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-28T09:29:56Z"
+      "scanned_at": "2026-11-28T17:47:41Z"
     },
     {
       "id": "702e61ea3cedb1fc",
@@ -1055,7 +1399,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-28T09:29:56Z"
+      "scanned_at": "2026-11-28T17:47:41Z"
     },
     {
       "id": "3d9c20747ed9bb76",
@@ -1070,7 +1414,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:56Z"
+      "scanned_at": "2026-11-28T17:47:41Z"
     },
     {
       "id": "979e001e329157ef",
@@ -1085,7 +1429,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:56Z"
+      "scanned_at": "2026-11-28T17:47:41Z"
     },
     {
       "id": "257eef53a5f75c6f",
@@ -1100,7 +1444,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:56Z"
+      "scanned_at": "2026-11-28T17:47:41Z"
     },
     {
       "id": "435d609f6daea616",
@@ -1115,7 +1459,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:56Z"
+      "scanned_at": "2026-11-28T17:47:41Z"
     },
     {
       "id": "93f006037f430329",
@@ -1130,7 +1474,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:56Z"
+      "scanned_at": "2026-11-28T17:47:41Z"
     },
     {
       "id": "5c4dc798c5c05204",
@@ -1146,7 +1490,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:57Z"
+      "scanned_at": "2026-11-28T17:47:42Z"
     },
     {
       "id": "aaca0af0684b431a",
@@ -1160,7 +1504,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:58Z"
+      "scanned_at": "2026-11-28T17:47:44Z"
     },
     {
       "id": "fc9189fdb3eba5e9",
@@ -1384,7 +1728,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:57Z"
+      "scanned_at": "2026-11-28T17:47:42Z"
     },
     {
       "id": "9ce0b5b86d37627c",
@@ -1912,7 +2256,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:58Z"
+      "scanned_at": "2026-11-28T17:47:44Z"
     },
     {
       "id": "4a5c4f7f3d3cf609",
@@ -2106,7 +2450,7 @@
       "direction": "bearish",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:57Z"
+      "scanned_at": "2026-11-28T17:47:42Z"
     },
     {
       "id": "54263f57f9563797",
@@ -2337,7 +2681,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:58Z"
+      "scanned_at": "2026-11-28T17:47:44Z"
     },
     {
       "id": "48339a9a954b25a1",
@@ -2353,7 +2697,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:58Z"
+      "scanned_at": "2026-11-28T17:47:44Z"
     },
     {
       "id": "9a3857be51170fb1",
@@ -2563,7 +2907,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:57Z"
+      "scanned_at": "2026-11-28T17:47:42Z"
     },
     {
       "id": "24203faaece64ac4",
@@ -2579,7 +2923,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:57Z"
+      "scanned_at": "2026-11-28T17:47:42Z"
     },
     {
       "id": "d508aaee876843c9",
@@ -2627,7 +2971,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:57Z"
+      "scanned_at": "2026-11-28T17:47:42Z"
     },
     {
       "id": "2e91b25cae75da4c",
@@ -2656,7 +3000,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:57Z"
+      "scanned_at": "2026-11-28T17:47:42Z"
     },
     {
       "id": "6a5e1d25a35c498b",
@@ -2670,7 +3014,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:58Z"
+      "scanned_at": "2026-11-28T17:47:43Z"
     },
     {
       "id": "eabbe44f8b4f674b",
@@ -2684,7 +3028,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:58Z"
+      "scanned_at": "2026-11-28T17:47:43Z"
     },
     {
       "id": "6be58b998dc75a5c",
@@ -2698,7 +3042,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:57Z"
+      "scanned_at": "2026-11-28T17:47:42Z"
     },
     {
       "id": "9ff6061367efe777",
@@ -2742,7 +3086,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:57Z"
+      "scanned_at": "2026-11-28T17:47:42Z"
     },
     {
       "id": "8b7887792873ebfb",
@@ -2875,7 +3219,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:57Z"
+      "scanned_at": "2026-11-28T17:47:43Z"
     },
     {
       "id": "6075d7308f937c0f",
@@ -3553,7 +3897,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:58Z"
+      "scanned_at": "2026-11-28T17:47:44Z"
     },
     {
       "id": "bb43f8e9e965f41f",
@@ -3937,7 +4281,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:57Z"
+      "scanned_at": "2026-11-28T17:47:43Z"
     },
     {
       "id": "0d71261d28321f54",
@@ -4159,7 +4503,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:58Z"
+      "scanned_at": "2026-11-28T17:47:43Z"
     },
     {
       "id": "748924663447eb33",
@@ -4735,7 +5079,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:58Z"
+      "scanned_at": "2026-11-28T17:47:43Z"
     },
     {
       "id": "b3e23ed255cd0c4c",
@@ -4779,7 +5123,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-27T08:49:21Z"
+      "scanned_at": "2026-11-28T17:47:44Z"
     },
     {
       "id": "4447d51f5c0318db",
@@ -4821,7 +5165,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:58Z"
+      "scanned_at": "2026-11-28T17:47:44Z"
     },
     {
       "id": "f60876ecbdd6cff5",
@@ -4960,7 +5304,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:58Z"
+      "scanned_at": "2026-11-28T17:47:43Z"
     },
     {
       "id": "3b3b0706cfcb5ccb",
@@ -4974,7 +5318,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:58Z"
+      "scanned_at": "2026-11-28T17:47:43Z"
     },
     {
       "id": "b9b004231cefcf08",
@@ -4988,49 +5332,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T09:29:57Z"
-    },
-    {
-      "id": "413c1a981d29b916",
-      "source": "cnbc_finance",
-      "title": "Prediction markets push OpenAI IPO expectations later into 2027",
-      "summary": "Kalshi traders have cut the odds of OpenAI confirming an IPO before June 2027, as AI stocks and related markets have weakened.",
-      "url": "https://www.cnbc.com/2026/11/25/openai-ipo-odds-2027-prediction-markets.html",
-      "published_at": "2026-11-25T17:08:03Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-28T09:29:58Z"
-    },
-    {
-      "id": "f38488e06a062d4a",
-      "source": "cnbc_finance",
-      "title": "Jensen Huang's Nvidia return shows the U.S.-China AI race is about more than chips",
-      "summary": "Jensen Huang's return as Nvidia CEO demonstrates that the U.S.-China artificial intelligence race is not just about semiconductors, but tech talent too.",
-      "url": "https://www.cnbc.com/2026/11/25/jensen-huang-nvidia-ai-talent-race.html",
-      "published_at": "2026-11-25T14:29:00Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-28T09:29:58Z"
-    },
-    {
-      "id": "caf3391392a3532b",
-      "source": "cnbc_business",
-      "title": "Secondhand shopping is going mainstream this holiday season as consumers seek value",
-      "summary": "More consumers are shopping secondhand this holiday season as they emphasize value and uniqueness in their purchases.",
-      "url": "https://www.cnbc.com/2026/11/25/secondhand-holiday-shopping-grows-as-shoppers-seek-value.html",
-      "published_at": "2026-11-25T14:17:01Z",
-      "tickers": [],
-      "event_type": "other",
-      "direction": "neutral",
-      "news_side": null,
-      "actionable": false,
-      "scanned_at": "2026-11-28T09:29:57Z"
+      "scanned_at": "2026-11-28T17:47:43Z"
     }
   ]
 }
