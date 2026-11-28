@@ -1,11 +1,11 @@
 {
   "mode": "paper",
-  "as_of": "2026-11-28T07:33:32Z",
-  "as_of_et": "2026-11-27 20:42 ET",
+  "as_of": "2026-11-28T09:29:59Z",
+  "as_of_et": "2026-11-28 04:29 ET",
   "rolling_hours": 72,
-  "n_items": 300,
+  "n_items": 318,
   "n_actionable": 20,
-  "n_with_ticker": 164,
+  "n_with_ticker": 118,
   "sources": [
     "prnewswire",
     "prnewswire_financial",
@@ -13,13 +13,157 @@
     "cnbc_finance",
     "marketwatch",
     "marketwatch_realtime",
-    "edgar_8k",
-    "edgar_424b",
-    "edgar_sc_to"
+    "edgar_8k"
   ],
   "errors": [],
   "note": "Paper news feed. Keyword tagging is heuristic. Shorts have no borrow model. RSS/EDGAR can lag minutes\u2013hours.",
   "items": [
+    {
+      "id": "6ff233fc312bca27",
+      "source": "prnewswire",
+      "title": "KuCoin Advances Australian Engagement at CryptoCon Sydney, Spotlighting Global Infrastructure and Local Accountability",
+      "summary": "SYDNEY, Nov. 28, 2026 /PRNewswire/ -- KuCoin highlighted the importance of connecting global exchange capabilities with local responsibilities at CryptoCon Sydney at ICC Sydney. During the panel \"Global Infrastructure, Local Accountability: Where Exchanges Fit in Crypto's Next Phase,\"...",
+      "url": "https://www.prnewswire.com/news-releases/kucoin-advances-australian-engagement-at-cryptocon-sydney-spotlighting-global-infrastructure-and-local-accountability-302952014.html",
+      "published_at": "2026-11-28T08:12:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T09:29:56Z"
+    },
+    {
+      "id": "b38e90c097e7e192",
+      "source": "prnewswire_financial",
+      "title": "KuCoin Advances Australian Engagement at CryptoCon Sydney, Spotlighting Global Infrastructure and Local Accountability",
+      "summary": "SYDNEY, Nov. 28, 2026 /PRNewswire/ -- KuCoin highlighted the importance of connecting global exchange capabilities with local responsibilities at CryptoCon Sydney at ICC Sydney. During the panel \"Global Infrastructure, Local Accountability: Where Exchanges Fit in Crypto's Next Phase,\"...",
+      "url": "https://www.prnewswire.com/news-releases/kucoin-advances-australian-engagement-at-cryptocon-sydney-spotlighting-global-infrastructure-and-local-accountability-302952014.html",
+      "published_at": "2026-11-28T08:12:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T09:29:57Z"
+    },
+    {
+      "id": "8bbc976953d13012",
+      "source": "prnewswire",
+      "title": "Binance Pay, DK Bank and Tether Sign MOU to Expand Stablecoin Payments to Merchants Across Bhutan, Starting with USD\u20ae",
+      "summary": "Signed at Binance Blockchain Week 2026, the initiative builds on Bhutan's national crypto payment network and plans incentives to help merchants adopt stablecoin payments BANGKOK, Nov. 28, 2026 /PRNewswire/ -- Binance Pay, DK Bank, Gelephu Mindfulness City's official bank, and Tether...",
+      "url": "https://www.prnewswire.com/news-releases/binance-pay-dk-bank-and-tether-sign-mou-to-expand-stablecoin-payments-to-merchants-across-bhutan-starting-with-usd-302952011.html",
+      "published_at": "2026-11-28T07:27:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T09:29:56Z"
+    },
+    {
+      "id": "533c8a7c73d434a9",
+      "source": "prnewswire_financial",
+      "title": "Binance Pay, DK Bank and Tether Sign MOU to Expand Stablecoin Payments to Merchants Across Bhutan, Starting with USD\u20ae",
+      "summary": "Signed at Binance Blockchain Week 2026, the initiative builds on Bhutan's national crypto payment network and plans incentives to help merchants adopt stablecoin payments BANGKOK, Nov. 28, 2026 /PRNewswire/ -- Binance Pay, DK Bank, Gelephu Mindfulness City's official bank, and Tether...",
+      "url": "https://www.prnewswire.com/news-releases/binance-pay-dk-bank-and-tether-sign-mou-to-expand-stablecoin-payments-to-merchants-across-bhutan-starting-with-usd-302952011.html",
+      "published_at": "2026-11-28T07:27:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T09:29:57Z"
+    },
+    {
+      "id": "7fe1be8ee918a39d",
+      "source": "prnewswire",
+      "title": "Binance Secures In-Principle Approval in Gelephu Mindfulness City, Plans Asia Hub in Bhutan",
+      "summary": "The regulatory milestone marks a major step toward Binance establishing an Asia hub in Gelephu Mindfulness City, alongside commitments to create jobs and strengthen Bhutan's digital-asset capabilities BANGKOK, Nov. 28, 2026 /PRNewswire/ -- Binance, the leading global financial platform...",
+      "url": "https://www.prnewswire.com/news-releases/binance-secures-in-principle-approval-in-gelephu-mindfulness-city-plans-asia-hub-in-bhutan-302951995.html",
+      "published_at": "2026-11-28T05:42:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T09:29:56Z"
+    },
+    {
+      "id": "b3ab7c61f148f9b3",
+      "source": "prnewswire_financial",
+      "title": "Binance Secures In-Principle Approval in Gelephu Mindfulness City, Plans Asia Hub in Bhutan",
+      "summary": "The regulatory milestone marks a major step toward Binance establishing an Asia hub in Gelephu Mindfulness City, alongside commitments to create jobs and strengthen Bhutan's digital-asset capabilities BANGKOK, Nov. 28, 2026 /PRNewswire/ -- Binance, the leading global financial platform...",
+      "url": "https://www.prnewswire.com/news-releases/binance-secures-in-principle-approval-in-gelephu-mindfulness-city-plans-asia-hub-in-bhutan-302951995.html",
+      "published_at": "2026-11-28T05:42:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T09:29:57Z"
+    },
+    {
+      "id": "7319271fde7c5098",
+      "source": "prnewswire",
+      "title": "Labor & Employment Law Firm Zakay Law Group APLC Files a Class Action Lawsuit Against My Tutoring Partners, Alleging Failure to Pay Overtime Wages",
+      "summary": "The lawsuit alleges My Tutoring Partners violated the California Labor Code by failing to provide all wages due. SAN FRANCISCO, Nov. 27, 2026 /PRNewswire/ -- The San Francisco labor law attorneys, at Zakay Law Group, APLC, filed a class action complaint against HTP Services LLC dba My...",
+      "url": "https://www.prnewswire.com/news-releases/labor--employment-law-firm-zakay-law-group-aplc-files-a-class-action-lawsuit-against-my-tutoring-partners-alleging-failure-to-pay-overtime-wages-302949049.html",
+      "published_at": "2026-11-28T04:24:00Z",
+      "tickers": [],
+      "event_type": "lawsuit",
+      "direction": "bearish",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T09:29:56Z"
+    },
+    {
+      "id": "9e813ef1c5f85118",
+      "source": "prnewswire",
+      "title": "PHZED Introduces Azubah, a Handmade Plush Fish That Speaks Hope",
+      "summary": "ORLANDO, Fla., Nov. 27, 2026 /PRNewswire/ -- Press her tail, and Azubah speaks. The handmade plush fish from Orlando-based PHZED holds nine original inspirational quotes. She carries the name of founder Glenn D. Glasgow's late mother. Azubah sells for $29.95 at phzed.com. Glasgow, an...",
+      "url": "https://www.prnewswire.com/news-releases/phzed-introduces-azubah-a-handmade-plush-fish-that-speaks-hope-302951983.html",
+      "published_at": "2026-11-28T03:22:00Z",
+      "tickers": [
+        "PHZED"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T09:29:56Z"
+    },
+    {
+      "id": "19a4cca21d61f064",
+      "source": "prnewswire",
+      "title": "DPC Dash - Domino's Pizza China Wins Sixth Seven-Star Award, Underscoring Its Quality Control Advantage and Sustainable Operating Efficiency as It Expands",
+      "summary": "HONG KONG, Nov. 27, 2026 /PRNewswire/ -- DPC Dash \u2013 Domino's Pizza China (\"DPC Dash\" or the \"Company\") (1405.HK), Domino's Pizza's exclusive master franchisee in the Chinese Mainland, the Hong Kong Special Administrative Region of China, and the Macau Special Administrative Region of...",
+      "url": "https://www.prnewswire.com/news-releases/dpc-dash--dominos-pizza-china-wins-sixth-seven-star-award-underscoring-its-quality-control-advantage-and-sustainable-operating-efficiency-as-it-expands-302951723.html",
+      "published_at": "2026-11-28T03:00:00Z",
+      "tickers": [
+        "DPC"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T09:29:56Z"
+    },
+    {
+      "id": "520eb65b37dce1d5",
+      "source": "prnewswire",
+      "title": "KIND Voluntarily Recalls One Variety of Granola for Potential Undeclared Peanut Allergen",
+      "summary": "CHICAGO, Nov. 27, 2026 /PRNewswire/ -- KIND is voluntarily recalling its Oats & Honey with Toasted Coconut Granola in the U.S. because it may contain undeclared peanuts. Individuals with an allergy or severe sensitivity to peanuts are at risk of experiencing serious or life\u2011threatening...",
+      "url": "https://www.prnewswire.com/news-releases/kind-voluntarily-recalls-one-variety-of-granola-for-potential-undeclared-peanut-allergen-302951980.html",
+      "published_at": "2026-11-28T02:50:00Z",
+      "tickers": [
+        "KIND"
+      ],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T09:29:56Z"
+    },
     {
       "id": "d9988bc989a182b5",
       "source": "prnewswire",
@@ -34,7 +178,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:09Z"
+      "scanned_at": "2026-11-28T09:29:56Z"
     },
     {
       "id": "fda6ea2fa4fb0879",
@@ -48,7 +192,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:09Z"
+      "scanned_at": "2026-11-28T09:29:56Z"
     },
     {
       "id": "7097549384b91a55",
@@ -62,7 +206,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:09Z"
+      "scanned_at": "2026-11-28T09:29:56Z"
     },
     {
       "id": "2db5ee4a872a3e65",
@@ -78,7 +222,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:09Z"
+      "scanned_at": "2026-11-28T09:29:56Z"
     },
     {
       "id": "bcd1cca84171728a",
@@ -92,7 +236,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:09Z"
+      "scanned_at": "2026-11-28T09:29:56Z"
     },
     {
       "id": "0374b633bf21c57d",
@@ -106,7 +250,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:09Z"
+      "scanned_at": "2026-11-28T09:29:56Z"
     },
     {
       "id": "eaf14cc0428c1cf2",
@@ -120,7 +264,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:09Z"
+      "scanned_at": "2026-11-28T09:29:56Z"
     },
     {
       "id": "4c8bde6d88620188",
@@ -134,7 +278,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:09Z"
+      "scanned_at": "2026-11-28T09:29:56Z"
     },
     {
       "id": "c920d29fd83acaa1",
@@ -148,7 +292,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:10Z"
+      "scanned_at": "2026-11-28T09:29:57Z"
     },
     {
       "id": "e4cba312b8a26b3a",
@@ -164,7 +308,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:12Z"
+      "scanned_at": "2026-11-28T09:29:58Z"
     },
     {
       "id": "c057861897ccb68d",
@@ -178,7 +322,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:09Z"
+      "scanned_at": "2026-11-28T09:29:56Z"
     },
     {
       "id": "a4d47c2598303b1d",
@@ -192,7 +336,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:09Z"
+      "scanned_at": "2026-11-28T09:29:56Z"
     },
     {
       "id": "4a195e204abc8c7a",
@@ -206,7 +350,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:09Z"
+      "scanned_at": "2026-11-28T09:29:56Z"
     },
     {
       "id": "fb7543d5bfc4301d",
@@ -220,7 +364,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:10Z"
+      "scanned_at": "2026-11-28T09:29:57Z"
     },
     {
       "id": "3cbe200ec8883f4a",
@@ -236,7 +380,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:09Z"
+      "scanned_at": "2026-11-28T09:29:56Z"
     },
     {
       "id": "9ddbd26457ff3ee9",
@@ -250,7 +394,7 @@
       "direction": "bullish",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:09Z"
+      "scanned_at": "2026-11-28T09:29:56Z"
     },
     {
       "id": "ff22d315f5b90f61",
@@ -280,7 +424,7 @@
       "direction": "bullish",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:10Z"
+      "scanned_at": "2026-11-28T09:29:57Z"
     },
     {
       "id": "9482b7750fa3d2b2",
@@ -295,7 +439,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-28T01:42:09Z"
+      "scanned_at": "2026-11-28T09:29:56Z"
     },
     {
       "id": "299689776626e6d3",
@@ -310,7 +454,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:09Z"
+      "scanned_at": "2026-11-28T09:29:56Z"
     },
     {
       "id": "382d13cb421d6917",
@@ -339,7 +483,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:09Z"
+      "scanned_at": "2026-11-28T09:29:56Z"
     },
     {
       "id": "a968c596d7ed39be",
@@ -354,7 +498,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:09Z"
+      "scanned_at": "2026-11-28T09:29:56Z"
     },
     {
       "id": "1dc954dc81efe955",
@@ -383,7 +527,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:09Z"
+      "scanned_at": "2026-11-28T09:29:56Z"
     },
     {
       "id": "fa10006f406ccf38",
@@ -398,7 +542,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:09Z"
+      "scanned_at": "2026-11-28T09:29:56Z"
     },
     {
       "id": "93a98276bb4b1ace",
@@ -413,7 +557,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-28T01:42:09Z"
+      "scanned_at": "2026-11-28T09:29:56Z"
     },
     {
       "id": "6d11d52d612773c0",
@@ -428,7 +572,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-28T01:42:09Z"
+      "scanned_at": "2026-11-28T09:29:56Z"
     },
     {
       "id": "ec41599a38a2aa63",
@@ -443,7 +587,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-28T01:42:09Z"
+      "scanned_at": "2026-11-28T09:29:56Z"
     },
     {
       "id": "151a666fc9ad84b4",
@@ -458,7 +602,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:09Z"
+      "scanned_at": "2026-11-28T09:29:56Z"
     },
     {
       "id": "8b2ea6bcb163811f",
@@ -473,7 +617,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-28T01:42:09Z"
+      "scanned_at": "2026-11-28T09:29:56Z"
     },
     {
       "id": "6f59d1d06bbe186f",
@@ -488,7 +632,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:09Z"
+      "scanned_at": "2026-11-28T09:29:56Z"
     },
     {
       "id": "c9e8bb987889f218",
@@ -503,7 +647,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:09Z"
+      "scanned_at": "2026-11-28T09:29:56Z"
     },
     {
       "id": "01a46f7902f9f01f",
@@ -518,7 +662,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:09Z"
+      "scanned_at": "2026-11-28T09:29:56Z"
     },
     {
       "id": "f2f4f2a42fa3a2b4",
@@ -565,7 +709,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:09Z"
+      "scanned_at": "2026-11-28T09:29:56Z"
     },
     {
       "id": "a43fb35c31710ff3",
@@ -580,7 +724,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:09Z"
+      "scanned_at": "2026-11-28T09:29:56Z"
     },
     {
       "id": "4c9450445b69dbe2",
@@ -595,7 +739,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:09Z"
+      "scanned_at": "2026-11-28T09:29:56Z"
     },
     {
       "id": "cb7fd17ac9e649a4",
@@ -610,7 +754,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:09Z"
+      "scanned_at": "2026-11-28T09:29:56Z"
     },
     {
       "id": "b3a2c3847c13783c",
@@ -639,7 +783,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:09Z"
+      "scanned_at": "2026-11-28T09:29:56Z"
     },
     {
       "id": "d587c36637b21f34",
@@ -654,7 +798,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:09Z"
+      "scanned_at": "2026-11-28T09:29:56Z"
     },
     {
       "id": "c04eb7444edec9e6",
@@ -669,7 +813,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:09Z"
+      "scanned_at": "2026-11-28T09:29:56Z"
     },
     {
       "id": "29df51362b63576f",
@@ -684,7 +828,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:09Z"
+      "scanned_at": "2026-11-28T09:29:56Z"
     },
     {
       "id": "4d1b26f76a600552",
@@ -699,7 +843,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-28T01:42:09Z"
+      "scanned_at": "2026-11-28T09:29:56Z"
     },
     {
       "id": "15d5850892933c51",
@@ -714,7 +858,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:09Z"
+      "scanned_at": "2026-11-28T09:29:56Z"
     },
     {
       "id": "c27ef2d4fc30f91a",
@@ -729,7 +873,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:09Z"
+      "scanned_at": "2026-11-28T09:29:56Z"
     },
     {
       "id": "dcf58e46f5046442",
@@ -744,7 +888,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:09Z"
+      "scanned_at": "2026-11-28T09:29:56Z"
     },
     {
       "id": "2a21c703519db33b",
@@ -759,7 +903,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:09Z"
+      "scanned_at": "2026-11-28T09:29:56Z"
     },
     {
       "id": "b3fe0faf91b39fd2",
@@ -774,7 +918,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-28T01:42:09Z"
+      "scanned_at": "2026-11-28T09:29:56Z"
     },
     {
       "id": "f5e429f6fa82b9cb",
@@ -789,7 +933,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:09Z"
+      "scanned_at": "2026-11-28T09:29:56Z"
     },
     {
       "id": "b940da5a3bd66c04",
@@ -804,7 +948,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-28T01:42:09Z"
+      "scanned_at": "2026-11-28T09:29:56Z"
     },
     {
       "id": "703cb4cd66ca11b4",
@@ -819,7 +963,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:09Z"
+      "scanned_at": "2026-11-28T09:29:56Z"
     },
     {
       "id": "2cc30ed783a625c2",
@@ -851,7 +995,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:10Z"
+      "scanned_at": "2026-11-28T09:29:57Z"
     },
     {
       "id": "95173eaef9e57c63",
@@ -866,7 +1010,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:09Z"
+      "scanned_at": "2026-11-28T09:29:56Z"
     },
     {
       "id": "5561b9a2fb17d674",
@@ -881,7 +1025,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-28T01:42:09Z"
+      "scanned_at": "2026-11-28T09:29:56Z"
     },
     {
       "id": "0e0323e13757ea8c",
@@ -896,7 +1040,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-28T01:42:09Z"
+      "scanned_at": "2026-11-28T09:29:56Z"
     },
     {
       "id": "702e61ea3cedb1fc",
@@ -911,7 +1055,7 @@
       "direction": "bearish",
       "news_side": "short",
       "actionable": true,
-      "scanned_at": "2026-11-28T01:42:09Z"
+      "scanned_at": "2026-11-28T09:29:56Z"
     },
     {
       "id": "3d9c20747ed9bb76",
@@ -926,7 +1070,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:09Z"
+      "scanned_at": "2026-11-28T09:29:56Z"
     },
     {
       "id": "979e001e329157ef",
@@ -941,7 +1085,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:09Z"
+      "scanned_at": "2026-11-28T09:29:56Z"
     },
     {
       "id": "257eef53a5f75c6f",
@@ -956,7 +1100,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:09Z"
+      "scanned_at": "2026-11-28T09:29:56Z"
     },
     {
       "id": "435d609f6daea616",
@@ -971,7 +1115,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:09Z"
+      "scanned_at": "2026-11-28T09:29:56Z"
     },
     {
       "id": "93f006037f430329",
@@ -986,7 +1130,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:09Z"
+      "scanned_at": "2026-11-28T09:29:56Z"
     },
     {
       "id": "5c4dc798c5c05204",
@@ -1002,7 +1146,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:10Z"
+      "scanned_at": "2026-11-28T09:29:57Z"
     },
     {
       "id": "aaca0af0684b431a",
@@ -1016,7 +1160,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:12Z"
+      "scanned_at": "2026-11-28T09:29:58Z"
     },
     {
       "id": "fc9189fdb3eba5e9",
@@ -1030,7 +1174,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:12Z"
+      "scanned_at": "2026-11-28T09:29:58Z"
     },
     {
       "id": "73ba8de36aa6bbad",
@@ -1240,7 +1384,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:10Z"
+      "scanned_at": "2026-11-28T09:29:57Z"
     },
     {
       "id": "9ce0b5b86d37627c",
@@ -1768,7 +1912,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:12Z"
+      "scanned_at": "2026-11-28T09:29:58Z"
     },
     {
       "id": "4a5c4f7f3d3cf609",
@@ -1914,7 +2058,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:12Z"
+      "scanned_at": "2026-11-28T09:29:58Z"
     },
     {
       "id": "06a59aea3a2949c5",
@@ -1962,7 +2106,7 @@
       "direction": "bearish",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:10Z"
+      "scanned_at": "2026-11-28T09:29:57Z"
     },
     {
       "id": "54263f57f9563797",
@@ -2193,7 +2337,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:12Z"
+      "scanned_at": "2026-11-28T09:29:58Z"
     },
     {
       "id": "48339a9a954b25a1",
@@ -2209,7 +2353,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:12Z"
+      "scanned_at": "2026-11-28T09:29:58Z"
     },
     {
       "id": "9a3857be51170fb1",
@@ -2419,7 +2563,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:10Z"
+      "scanned_at": "2026-11-28T09:29:57Z"
     },
     {
       "id": "24203faaece64ac4",
@@ -2435,7 +2579,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:10Z"
+      "scanned_at": "2026-11-28T09:29:57Z"
     },
     {
       "id": "d508aaee876843c9",
@@ -2483,7 +2627,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:10Z"
+      "scanned_at": "2026-11-28T09:29:57Z"
     },
     {
       "id": "2e91b25cae75da4c",
@@ -2512,7 +2656,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:10Z"
+      "scanned_at": "2026-11-28T09:29:57Z"
     },
     {
       "id": "6a5e1d25a35c498b",
@@ -2526,7 +2670,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:11Z"
+      "scanned_at": "2026-11-28T09:29:58Z"
     },
     {
       "id": "eabbe44f8b4f674b",
@@ -2540,7 +2684,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:11Z"
+      "scanned_at": "2026-11-28T09:29:58Z"
     },
     {
       "id": "6be58b998dc75a5c",
@@ -2554,7 +2698,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:10Z"
+      "scanned_at": "2026-11-28T09:29:57Z"
     },
     {
       "id": "9ff6061367efe777",
@@ -2598,7 +2742,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:10Z"
+      "scanned_at": "2026-11-28T09:29:57Z"
     },
     {
       "id": "8b7887792873ebfb",
@@ -2627,7 +2771,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:10Z"
+      "scanned_at": "2026-11-28T09:29:57Z"
     },
     {
       "id": "dbde53c17d41e45d",
@@ -2641,7 +2785,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:10Z"
+      "scanned_at": "2026-11-28T09:29:57Z"
     },
     {
       "id": "aa18c34c99e703e1",
@@ -2674,7 +2818,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:10Z"
+      "scanned_at": "2026-11-28T09:29:57Z"
     },
     {
       "id": "7863c4e0fbd361e7",
@@ -2688,7 +2832,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:10Z"
+      "scanned_at": "2026-11-28T09:29:57Z"
     },
     {
       "id": "46a222a732a717d5",
@@ -2731,7 +2875,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:10Z"
+      "scanned_at": "2026-11-28T09:29:57Z"
     },
     {
       "id": "6075d7308f937c0f",
@@ -3409,7 +3553,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:12Z"
+      "scanned_at": "2026-11-28T09:29:58Z"
     },
     {
       "id": "bb43f8e9e965f41f",
@@ -3723,7 +3867,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:12Z"
+      "scanned_at": "2026-11-28T09:29:58Z"
     },
     {
       "id": "2e3e2c482da707ae",
@@ -3780,6 +3924,20 @@
       "news_side": null,
       "actionable": false,
       "scanned_at": "2026-11-27T00:06:28Z"
+    },
+    {
+      "id": "624287661e3b21cd",
+      "source": "cnbc_business",
+      "title": "Microdrama apps chase profits as Hollywood moves into short-form, vertical video",
+      "summary": "The microdrama category has exploded at a time when traditional forms of media face waning interest and YouTube claims more viewing hours.",
+      "url": "https://www.cnbc.com/2026/11/26/micro-drama-apps-hollywood-vertical-video.html",
+      "published_at": "2026-11-26T18:27:43Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T09:29:57Z"
     },
     {
       "id": "0d71261d28321f54",
@@ -3988,6 +4146,20 @@
       "eu_category": "other_8k",
       "scanned_at": "2026-11-26T18:22:13Z",
       "region": "EU"
+    },
+    {
+      "id": "65fed25969671623",
+      "source": "cnbc_finance",
+      "title": "Semiconductor chips are the new oil. Here's why",
+      "summary": "Semiconductor exports overtook oil and gas for the first time in 2026, as the AI boom fueled chip demand.",
+      "url": "https://www.cnbc.com/2026/11/26/semiconductor-chips-are-the-new-oil-heres-why.html",
+      "published_at": "2026-11-26T17:52:15Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T09:29:58Z"
     },
     {
       "id": "748924663447eb33",
@@ -4563,7 +4735,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:11Z"
+      "scanned_at": "2026-11-28T09:29:58Z"
     },
     {
       "id": "b3e23ed255cd0c4c",
@@ -4649,7 +4821,7 @@
       "direction": "neutral",
       "news_side": null,
       "actionable": false,
-      "scanned_at": "2026-11-28T01:42:12Z"
+      "scanned_at": "2026-11-28T09:29:58Z"
     },
     {
       "id": "f60876ecbdd6cff5",
@@ -4775,6 +4947,90 @@
       "news_side": null,
       "actionable": false,
       "scanned_at": "2026-11-26T15:45:04Z"
+    },
+    {
+      "id": "2866e959df226d02",
+      "source": "cnbc_finance",
+      "title": "Robots could be doing household chores in just 1-2 years, Chinese EV firm says",
+      "summary": "Xpeng Co-President Brian Gu shared his humanoid robot predictions with CNBC in an interview Thursday.",
+      "url": "https://www.cnbc.com/2026/11/26/china-ev-xpeng-humanoid-robots-household-chores.html",
+      "published_at": "2026-11-26T07:30:11Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T09:29:58Z"
+    },
+    {
+      "id": "3b3b0706cfcb5ccb",
+      "source": "cnbc_finance",
+      "title": "Beware higher correlation but nab high U.S. credit yields, fund managers say",
+      "summary": "The AI boom could trigger a recession, but data centers remain an attractive investment opportunity, a hedge fund manager said.",
+      "url": "https://www.cnbc.com/2026/11/26/mispricing-risk-fund-managers-ai-volatility.html",
+      "published_at": "2026-11-26T05:36:01Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T09:29:58Z"
+    },
+    {
+      "id": "b9b004231cefcf08",
+      "source": "cnbc_business",
+      "title": "Macy's postpones Thanksgiving Day Parade due to severe weather",
+      "summary": "Macy's announced Wednesday that its annual Thanksgiving Day Parade is being postponed to Saturday due to severe weather.",
+      "url": "https://www.cnbc.com/2026/11/25/macys-thanksgiving-day-parade-postponed.html",
+      "published_at": "2026-11-25T22:26:56Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T09:29:57Z"
+    },
+    {
+      "id": "413c1a981d29b916",
+      "source": "cnbc_finance",
+      "title": "Prediction markets push OpenAI IPO expectations later into 2027",
+      "summary": "Kalshi traders have cut the odds of OpenAI confirming an IPO before June 2027, as AI stocks and related markets have weakened.",
+      "url": "https://www.cnbc.com/2026/11/25/openai-ipo-odds-2027-prediction-markets.html",
+      "published_at": "2026-11-25T17:08:03Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T09:29:58Z"
+    },
+    {
+      "id": "f38488e06a062d4a",
+      "source": "cnbc_finance",
+      "title": "Jensen Huang's Nvidia return shows the U.S.-China AI race is about more than chips",
+      "summary": "Jensen Huang's return as Nvidia CEO demonstrates that the U.S.-China artificial intelligence race is not just about semiconductors, but tech talent too.",
+      "url": "https://www.cnbc.com/2026/11/25/jensen-huang-nvidia-ai-talent-race.html",
+      "published_at": "2026-11-25T14:29:00Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T09:29:58Z"
+    },
+    {
+      "id": "caf3391392a3532b",
+      "source": "cnbc_business",
+      "title": "Secondhand shopping is going mainstream this holiday season as consumers seek value",
+      "summary": "More consumers are shopping secondhand this holiday season as they emphasize value and uniqueness in their purchases.",
+      "url": "https://www.cnbc.com/2026/11/25/secondhand-holiday-shopping-grows-as-shoppers-seek-value.html",
+      "published_at": "2026-11-25T14:17:01Z",
+      "tickers": [],
+      "event_type": "other",
+      "direction": "neutral",
+      "news_side": null,
+      "actionable": false,
+      "scanned_at": "2026-11-28T09:29:57Z"
     }
   ]
 }
